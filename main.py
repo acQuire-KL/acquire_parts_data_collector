@@ -6,6 +6,7 @@ from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
 from config import Settings
 from digikey_client import DigiKeyClient
+from manufacturer_resolver import resolve_manufacturer
 
 MFG = {'manufacturer','mfg','mfr','manufacturer name'}
 MPN = {'mpn','manufacturer part number','mfg part number','manufacturer_part_number'}
@@ -67,13 +68,35 @@ def run(args):
     settings=Settings.from_env(); print(f'Loaded {len(rows)} parts; DigiKey site={settings.site}, currency={settings.currency}')
     if args.validate_only:return
     client=DigiKeyClient(settings); results=[]; attrs=[]
+    manufacturer_catalogue = client.manufacturers(args.force_refresh)
     for n,(row,mfg,mpn) in enumerate(rows,1):
         print(f'[{n}/{len(rows)}] {mfg} {mpn}')
         try:
-            payload=client.details(mpn,args.force_refresh); p=product(payload); pa=params(p)
+            resolved = resolve_manufacturer(mfg, manufacturer_catalogue)
+            if resolved.manufacturer_id is None:
+                raise RuntimeError(
+                    f'Manufacturer resolution {resolved.status}: {resolved.reason} '
+                    f'(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})'
+                )
+            print(
+                f'    Manufacturer: {mfg} -> {resolved.matched_name} '
+                f'(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})'
+            )
+            payload=client.details(mpn,resolved.manufacturer_id,args.force_refresh); p=product(payload); pa=params(p)
             mmfg=name(ci(p,'Manufacturer')); mmpn=str(ci(p,'ManufacturerProductNumber','ManufacturerPartNumber','MfrPartNumber') or '')
-            status='MATCHED' if norm(mpn)==norm(mmpn) else 'REVIEW'
-            reason='Exact normalised MPN.' if status=='MATCHED' else 'Returned MPN differs; review required.'
+            mpn_match = norm(mpn)==norm(mmpn)
+            returned_mfg_id = ci(ci(p,'Manufacturer'),'Id')
+            manufacturer_match = str(returned_mfg_id) == str(resolved.manufacturer_id)
+            status='MATCHED' if mpn_match and manufacturer_match else 'REVIEW'
+            if status == 'MATCHED':
+                reason=(
+                    f'Exact normalised MPN with DigiKey manufacturer ID '
+                    f'{resolved.manufacturer_id} ({resolved.matched_name}).'
+                )
+            elif not mpn_match:
+                reason='Returned MPN differs; review required.'
+            else:
+                reason='Returned manufacturer differs from resolved DigiKey manufacturer; review required.'
             results.append([row,mfg,mpn,status,reason,mmfg,mmpn,str(ci(p,'DigiKeyPartNumber','ProductNumber') or ''),name(ci(p,'Description','ProductDescription')),name(ci(p,'DetailedDescription','DetailedProductDescription')),name(ci(p,'Category')),name(ci(p,'Family','ProductFamily')),name(ci(p,'Series')),name(ci(p,'ProductStatus','Status')),name(ci(p,'RoHSStatus','RohsStatus')),pa.get('mounting type',''),pa.get('package / case',pa.get('package/case','')),pa.get('supplier device package',''),pa.get('operating temperature',''),str(ci(p,'DatasheetUrl','DatasheetURL') or ''),str(ci(p,'ProductUrl','ProductURL') or ''),ci(p,'QuantityAvailable'),ci(p,'ManufacturerLeadWeeks'),ci(p,'MinimumOrderQuantity'),datetime.now(timezone.utc).replace(microsecond=0).isoformat()])
             for path,value in flatten(payload): attrs.append([row,mfg,mpn,path,value,'DigiKey Product Information V4'])
         except Exception as e:
