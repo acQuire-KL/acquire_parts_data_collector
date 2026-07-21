@@ -1,0 +1,19 @@
+# created by virtualenv automatically
+
+# Virtual Environment
+.venv/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+
+# Output
+output/
+
+# PyCharm
+.idea/workspace.xml

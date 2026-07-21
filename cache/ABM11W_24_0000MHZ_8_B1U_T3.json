@@ -1,0 +1,355 @@
+{
+  "SearchLocaleUsed": {
+    "Site": "IE",
+    "Language": "en",
+    "Currency": "EUR"
+  },
+  "Product": {
+    "Description": {
+      "ProductDescription": "CRYSTAL 24.0000MHZ 8PF SMD",
+      "DetailedDescription": "24 MHz ±10ppm Crystal 8pF 50 Ohms 4-SMD, No Lead"
+    },
+    "Manufacturer": {
+      "Id": 535,
+      "Name": "Abracon LLC"
+    },
+    "ManufacturerProductNumber": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "UnitPrice": 0.33,
+    "ProductUrl": "https://www.digikey.ie/en/products/detail/abracon-llc/ABM11W-24-0000MHZ-8-B1U-T3/7172605",
+    "DatasheetUrl": "https://abracon.com/Resonators/ABM11W.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2149/ABM-Series.jpg",
+    "ProductVariations": [
+      {
+        "DigiKeyProductNumber": "535-13834-2-ND",
+        "PackageType": {
+          "Id": 1,
+          "Name": "Tape & Reel (TR)"
+        },
+        "StandardPricing": [
+          {
+            "BreakQuantity": 3000,
+            "UnitPrice": 0.20658,
+            "TotalPrice": 619.74
+          },
+          {
+            "BreakQuantity": 6000,
+            "UnitPrice": 0.19804,
+            "TotalPrice": 1188.24
+          },
+          {
+            "BreakQuantity": 9000,
+            "UnitPrice": 0.1932,
+            "TotalPrice": 1738.8
+          },
+          {
+            "BreakQuantity": 15000,
+            "UnitPrice": 0.18729,
+            "TotalPrice": 2809.35
+          },
+          {
+            "BreakQuantity": 21000,
+            "UnitPrice": 0.18349,
+            "TotalPrice": 3853.29
+          },
+          {
+            "BreakQuantity": 30000,
+            "UnitPrice": 0.17955,
+            "TotalPrice": 5386.5
+          }
+        ],
+        "MyPricing": [],
+        "MarketPlace": false,
+        "TariffActive": true,
+        "Supplier": {
+          "Id": 535,
+          "Name": "Abracon LLC"
+        },
+        "QuantityAvailableforPackageType": 0,
+        "MaxQuantityForDistribution": 999999999,
+        "MinimumOrderQuantity": 3000,
+        "StandardPackage": 3000,
+        "DigiReelFee": 0.0
+      },
+      {
+        "DigiKeyProductNumber": "535-13834-1-ND",
+        "PackageType": {
+          "Id": 2,
+          "Name": "Cut Tape (CT)"
+        },
+        "StandardPricing": [
+          {
+            "BreakQuantity": 1,
+            "UnitPrice": 0.33,
+            "TotalPrice": 0.33
+          },
+          {
+            "BreakQuantity": 10,
+            "UnitPrice": 0.293,
+            "TotalPrice": 2.93
+          },
+          {
+            "BreakQuantity": 25,
+            "UnitPrice": 0.2768,
+            "TotalPrice": 6.92
+          },
+          {
+            "BreakQuantity": 50,
+            "UnitPrice": 0.265,
+            "TotalPrice": 13.25
+          },
+          {
+            "BreakQuantity": 100,
+            "UnitPrice": 0.2542,
+            "TotalPrice": 25.42
+          },
+          {
+            "BreakQuantity": 250,
+            "UnitPrice": 0.24036,
+            "TotalPrice": 60.09
+          },
+          {
+            "BreakQuantity": 500,
+            "UnitPrice": 0.23042,
+            "TotalPrice": 115.21
+          },
+          {
+            "BreakQuantity": 1000,
+            "UnitPrice": 0.22089,
+            "TotalPrice": 220.89
+          }
+        ],
+        "MyPricing": [],
+        "MarketPlace": false,
+        "TariffActive": true,
+        "Supplier": {
+          "Id": 535,
+          "Name": "Abracon LLC"
+        },
+        "QuantityAvailableforPackageType": 701,
+        "MaxQuantityForDistribution": 999999999,
+        "MinimumOrderQuantity": 1,
+        "StandardPackage": 1,
+        "DigiReelFee": 0.0
+      },
+      {
+        "DigiKeyProductNumber": "535-13834-6-ND",
+        "PackageType": {
+          "Id": 243,
+          "Name": "Digi-Reel®"
+        },
+        "StandardPricing": [
+          {
+            "BreakQuantity": 1,
+            "UnitPrice": 0.33,
+            "TotalPrice": 0.33
+          },
+          {
+            "BreakQuantity": 10,
+            "UnitPrice": 0.293,
+            "TotalPrice": 2.93
+          },
+          {
+            "BreakQuantity": 25,
+            "UnitPrice": 0.2768,
+            "TotalPrice": 6.92
+          },
+          {
+            "BreakQuantity": 50,
+            "UnitPrice": 0.265,
+            "TotalPrice": 13.25
+          },
+          {
+            "BreakQuantity": 100,
+            "UnitPrice": 0.2542,
+            "TotalPrice": 25.42
+          },
+          {
+            "BreakQuantity": 250,
+            "UnitPrice": 0.24036,
+            "TotalPrice": 60.09
+          },
+          {
+            "BreakQuantity": 500,
+            "UnitPrice": 0.23042,
+            "TotalPrice": 115.21
+          },
+          {
+            "BreakQuantity": 1000,
+            "UnitPrice": 0.22089,
+            "TotalPrice": 220.89
+          }
+        ],
+        "MyPricing": [],
+        "MarketPlace": false,
+        "TariffActive": true,
+        "Supplier": {
+          "Id": 535,
+          "Name": "Abracon LLC"
+        },
+        "QuantityAvailableforPackageType": 701,
+        "MaxQuantityForDistribution": 999999999,
+        "MinimumOrderQuantity": 1,
+        "StandardPackage": 1,
+        "DigiReelFee": 5.5
+      }
+    ],
+    "QuantityAvailable": 701,
+    "ProductStatus": {
+      "Id": 0,
+      "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6199253411001",
+    "Parameters": [
+      {
+        "ParameterId": 183,
+        "ParameterText": "Type",
+        "ParameterType": "String",
+        "ValueId": "375145",
+        "ValueText": "MHz Crystal"
+      },
+      {
+        "ParameterId": 2150,
+        "ParameterText": "Frequency",
+        "ParameterType": "UnitOfMeasure",
+        "ValueId": "24 MHz",
+        "ValueText": "24 MHz"
+      },
+      {
+        "ParameterId": 253,
+        "ParameterText": "Frequency Stability",
+        "ParameterType": "String",
+        "ValueId": "1398",
+        "ValueText": "±10ppm"
+      },
+      {
+        "ParameterId": 537,
+        "ParameterText": "Frequency Tolerance",
+        "ParameterType": "String",
+        "ValueId": "1398",
+        "ValueText": "±10ppm"
+      },
+      {
+        "ParameterId": 35,
+        "ParameterText": "Load Capacitance",
+        "ParameterType": "String",
+        "ValueId": "294760",
+        "ValueText": "8pF"
+      },
+      {
+        "ParameterId": 2082,
+        "ParameterText": "ESR (Equivalent Series Resistance)",
+        "ParameterType": "UnitOfMeasure",
+        "ValueId": "50 Ohms",
+        "ValueText": "50 Ohms"
+      },
+      {
+        "ParameterId": 538,
+        "ParameterText": "Operating Mode",
+        "ParameterType": "String",
+        "ValueId": "349771",
+        "ValueText": "Fundamental"
+      },
+      {
+        "ParameterId": 252,
+        "ParameterText": "Operating Temperature",
+        "ParameterType": "String",
+        "ValueId": "139409",
+        "ValueText": "-20°C ~ 70°C"
+      },
+      {
+        "ParameterId": 707,
+        "ParameterText": "Ratings",
+        "ParameterType": "String",
+        "ValueId": "1",
+        "ValueText": "-"
+      },
+      {
+        "ParameterId": 69,
+        "ParameterText": "Mounting Type",
+        "ParameterType": "String",
+        "ValueId": "409393",
+        "ValueText": "Surface Mount"
+      },
+      {
+        "ParameterId": 16,
+        "ParameterText": "Package / Case",
+        "ParameterType": "String",
+        "ValueId": "228342",
+        "ValueText": "4-SMD, No Lead"
+      },
+      {
+        "ParameterId": 1291,
+        "ParameterText": "Supplier Device Package",
+        "ParameterType": "String",
+        "ValueId": "840189",
+        "ValueText": "4-SMD (2x1.6)"
+      },
+      {
+        "ParameterId": 46,
+        "ParameterText": "Size / Dimension",
+        "ParameterType": "String",
+        "ValueId": "8582",
+        "ValueText": "0.079\" L x 0.063\" W (2.00mm x 1.60mm)"
+      },
+      {
+        "ParameterId": 1500,
+        "ParameterText": "Height - Seated (Max)",
+        "ParameterType": "String",
+        "ValueId": "5212",
+        "ValueText": "0.020\" (0.50mm)"
+      }
+    ],
+    "BaseProductNumber": {
+      "Id": null,
+      "Name": null
+    },
+    "Category": {
+      "CategoryId": 12,
+      "ParentId": 0,
+      "Name": "Crystals, Oscillators, Resonators",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/140/638/4-SMD_2.0x1.6_tmb.jpg",
+      "SeoDescription": "Crystal, oscillator, and resonator products are devices used as sources or references for frequency generation and time measurement. Based in most cases on the physical vibration of some mechanical structure that vibrates at a known frequency, they are further classified along lines of their specific implementation and the degree to which additional supporting functions are incorporated, enabling convenience of use or higher attainable degrees of precision and/or accuracy.",
+      "ChildCategories": [
+        {
+          "CategoryId": 171,
+          "ParentId": 12,
+          "Name": "Crystals",
+          "ProductCount": 0,
+          "NewProductCount": 0,
+          "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/142/959/MFG_4606_C1_tmb%2864x64%29.jpg",
+          "SeoDescription": "Crystal products are passive components most commonly used as time or frequency references in electronic systems. Consisting of a piezoelectric crystal that mechanically vibrates at a known frequency, their use requires provision of an external oscillator circuit with carefully designed capacitance, drive voltage, and series resistance characteristics, to generate a signal at the indicated crystal frequency that operates successfully over the operating temperature range, without damaging the crystal element. Active devices which integrate this additional necessary circuitry are considered oscillators and are catalogued separately.",
+          "ChildCategories": []
+        }
+      ]
+    },
+    "DateLastBuyChance": null,
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+      "Id": 58201,
+      "Name": "ABM11W"
+    },
+    "ShippingInfo": null,
+    "Classifications": {
+      "ReachStatus": "REACH Unaffected",
+      "RohsStatus": "ROHS3 Compliant",
+      "MoistureSensitivityLevel": "Not Applicable",
+      "ExportControlClassNumber": "EAR99",
+      "HtsusCode": "8541.60.0060"
+    },
+    "OtherNames": [
+      "535-13834-1",
+      "535-13834-2",
+      "535-13834-6"
+    ]
+  },
+  "AccountIdUsed": 0,
+  "CustomerIdUsed": 0
+}
