@@ -1,0 +1,328 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.0",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-07-22T17:59:03Z",
+    "source_mode": "legacy_cache_migration",
+    "input_manufacturer": "Nexperia",
+    "input_mpn": "PMV65XPVL",
+    "resolved_manufacturer": "Nexperia USA Inc.",
+    "provider_manufacturer_id": 1727,
+    "locale": "IE",
+    "currency": "EUR",
+    "legacy_source_file": "cache\\PMV65XPVL_MFG_1727.json",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "MOSFET P-CH 20V 2.8A TO236AB",
+        "DetailedDescription": "P-Channel 20 V 2.8A (Ta) 480mW (Ta) Surface Mount TO-236AB"
+      },
+      "Manufacturer": {
+        "Id": 1727,
+        "Name": "Nexperia USA Inc."
+      },
+      "ManufacturerProductNumber": "PMV65XPVL",
+      "UnitPrice": 0.0514,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/nexperia-usa-inc/PMV65XPVL/7495770",
+      "DatasheetUrl": "https://assets.nexperia.com/documents/data-sheet/PMV65XP.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6161/1727%7ESOT23-3%7E%7E3.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "1727-PMV65XPVLTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.0514,
+              "TotalPrice": 514.0
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.04692,
+              "TotalPrice": 938.4
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.04616,
+              "TotalPrice": 1384.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1727,
+            "Name": "Nexperia USA Inc."
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1727-PMV65XPVLCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1727,
+            "Name": "Nexperia USA Inc."
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1727-PMV65XPVLDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1727,
+            "Name": "Nexperia USA Inc."
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 606,
+          "ParameterText": "FET Type",
+          "ParameterType": "String",
+          "ValueId": "385103",
+          "ValueText": "P-Channel"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "377049",
+          "ValueText": "MOSFET (Metal Oxide)"
+        },
+        {
+          "ParameterId": 2068,
+          "ParameterText": "Drain to Source Voltage (Vdss)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "20 V",
+          "ValueText": "20 V"
+        },
+        {
+          "ParameterId": 608,
+          "ParameterText": "Current - Continuous Drain (Id) @ 25°C",
+          "ParameterType": "String",
+          "ValueId": "136006",
+          "ValueText": "2.8A (Ta)"
+        },
+        {
+          "ParameterId": 1993,
+          "ParameterText": "Drive Voltage (Max Rds On, Min Rds On)",
+          "ParameterType": "String",
+          "ValueId": "61494",
+          "ValueText": "1.8V, 4.5V"
+        },
+        {
+          "ParameterId": 612,
+          "ParameterText": "Rds On (Max) @ Id, Vgs",
+          "ParameterType": "String",
+          "ValueId": "276893",
+          "ValueText": "74mOhm @ 2.8A, 4.5V"
+        },
+        {
+          "ParameterId": 1236,
+          "ParameterText": "Vgs(th) (Max) @ Id",
+          "ParameterType": "String",
+          "ValueId": "299290",
+          "ValueText": "900mV @ 250µA"
+        },
+        {
+          "ParameterId": 2262,
+          "ParameterText": "Gate Charge (Qg) (Max) @ Vgs",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "7.7 nC @ 4 V",
+          "ValueText": "7.7 nC @ 4 V"
+        },
+        {
+          "ParameterId": 1994,
+          "ParameterText": "Vgs (Max)",
+          "ParameterType": "String",
+          "ValueId": "1490",
+          "ValueText": "±12V"
+        },
+        {
+          "ParameterId": 2263,
+          "ParameterText": "Input Capacitance (Ciss) (Max) @ Vds",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "744 pF @ 20 V",
+          "ValueText": "744 pF @ 20 V"
+        },
+        {
+          "ParameterId": 959,
+          "ParameterText": "FET Feature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1174,
+          "ParameterText": "Power Dissipation (Max)",
+          "ParameterType": "String",
+          "ValueId": "225257",
+          "ValueText": "480mW (Ta)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242933",
+          "ValueText": "-55°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "413319",
+          "ValueText": "TO-236AB"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "413318",
+          "ValueText": "TO-236-3, SC-59, SOT-23-3"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 294381,
+        "Name": "PMV65"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2045,
+            "ParentId": 19,
+            "Name": "Transistors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/955/997/448_TO252-3_tmb.jpg",
+            "SeoDescription": "Transistors are discrete semiconductor devices used to switch or amplify electrical signals. Types of transistors include bipolar (BJT), RF, pre-Biased bipolar (BJT), FETs, MOSEFETs, IGBTs, JFETs, programmable, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2088,
+                "ParentId": 2045,
+                "Name": "FETs, MOSFETs",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/871/273/MFG_TO-220SIS_tmb.jpg",
+                "SeoDescription": "Field-effect transistors (FET) are electronic devices which use an electric field to control the flow of current. Application of a voltage to the gate terminal alters the conductivity between the drain and source terminals. FETs are also known as unipolar transistors since they involve single-carrier-type operation. That is, FETs use electrons or holes as charge carriers in their operation, but not both. Field effect transistors generally display very high input impedance at low frequencies. Metal oxide semiconductor field effect transistors, or MOSFETs, are a type of FET.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 278,
+                    "ParentId": 2088,
+                    "Name": "Single FETs, MOSFETs",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/322/446/MFG_EPC2035_36_37_38_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Discrete Field Effect Transistors (FETs) are widely used in power conversion, motor control, solid-state lighting, and other applications where their characteristic ability to be switched on & off at high frequencies while carrying substantial amounts of current is advantageous. They are used almost universally for applications requiring voltage ratings of a few hundred volts or less, above which other device types such as IGBTs become more competitive.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "26",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.21.0095"
+      },
+      "OtherNames": [
+        "5202-PMV65XPVLTR",
+        "PMV65XPVL-ND",
+        "1727-PMV65XPVLTR",
+        "1727-PMV65XPVLCT",
+        "1727-PMV65XPVLDKR",
+        "934058736235"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  }
+}

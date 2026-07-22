@@ -1,0 +1,329 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.0",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-07-22T17:59:03Z",
+    "source_mode": "legacy_cache_migration",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP1711T-25I/OT",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": 150,
+    "locale": "IE",
+    "currency": "EUR",
+    "legacy_source_file": "cache\\MCP1711T_25I_OT_MFG_150.json",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG LINEAR 2.5V 150MA SOT23-5",
+        "DetailedDescription": "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP1711T-25I/OT",
+      "UnitPrice": 0.44,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP1711T-25I-OT/5358229",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005415D.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6658/150%7EC04-091%7ECT%2COT%7E5.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MCP1711T-25I/OTTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.32431,
+              "TotalPrice": 972.93
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP1711T-25I/OTCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.44,
+              "TotalPrice": 0.44
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.368,
+              "TotalPrice": 9.2
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.3621,
+              "TotalPrice": 36.21
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 1882,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP1711T-25I/OTDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.44,
+              "TotalPrice": 0.44
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.368,
+              "TotalPrice": 9.2
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.3621,
+              "TotalPrice": 36.21
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 1882,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 1882,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+      "Parameters": [
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "347431",
+          "ValueText": "Fixed"
+        },
+        {
+          "ParameterId": 1065,
+          "ParameterText": "Number of Regulators",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "267452",
+          "ValueText": "6V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "132007",
+          "ValueText": "2.5V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2065,
+          "ParameterText": "Voltage Dropout (Max)",
+          "ParameterType": "String",
+          "ValueId": "37395",
+          "ValueText": "0.92V @ 150mA"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "100303",
+          "ValueText": "150mA"
+        },
+        {
+          "ParameterId": 477,
+          "ParameterText": "Current - Quiescent (Iq)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.27 µA",
+          "ValueText": "1.27 µA"
+        },
+        {
+          "ParameterId": 2196,
+          "ParameterText": "Current - Supply (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.8 µA",
+          "ValueText": "1.8 µA"
+        },
+        {
+          "ParameterId": 2064,
+          "ParameterText": "PSRR",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1880,
+          "ParameterText": "Control Features",
+          "ParameterType": "String",
+          "ValueId": "344111",
+          "ValueText": "Enable"
+        },
+        {
+          "ParameterId": 2066,
+          "ParameterText": "Protection Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "400230",
+          "ValueText": "SC-74A, SOT-753"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405420",
+          "ValueText": "SOT-23-5"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 115756,
+        "Name": "MCP1711"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 699,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+                "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "MCP1711T-25I/OTCT",
+        "MCP1711T-25I/OTDKR",
+        "MCP1711T-25I/OTTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  }
+}

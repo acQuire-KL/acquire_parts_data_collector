@@ -1,0 +1,366 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.0",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-07-22T17:58:59Z",
+    "source_mode": "legacy_cache_migration",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "885012207053",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": 732,
+    "locale": "IE",
+    "currency": "EUR",
+    "legacy_source_file": "cache\\885012207053_MFG_732.json",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP CER 4.7UF 16V X7R 0805",
+        "DetailedDescription": "4.7 µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "885012207053",
+      "UnitPrice": 0.39,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/885012207053/5453521",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/885012207053.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/757/0805-%282012-Metric%29-1%2C35mm_BN.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-7666-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.09219,
+              "TotalPrice": 276.57
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.08687,
+              "TotalPrice": 521.22
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.0842,
+              "TotalPrice": 757.8
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.08125,
+              "TotalPrice": 1218.75
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.07952,
+              "TotalPrice": 1669.92
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.07786,
+              "TotalPrice": 2335.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 33000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-7666-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.39,
+              "TotalPrice": 0.39
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.23,
+              "TotalPrice": 2.3
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.17,
+              "TotalPrice": 8.5
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1517,
+              "TotalPrice": 15.17
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12086,
+              "TotalPrice": 60.43
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.11132,
+              "TotalPrice": 111.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 34358,
+          "MaxQuantityForDistribution": 0,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 0,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-7666-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.39,
+              "TotalPrice": 0.39
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.23,
+              "TotalPrice": 2.3
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.17,
+              "TotalPrice": 8.5
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1517,
+              "TotalPrice": 15.17
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12086,
+              "TotalPrice": 60.43
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.11132,
+              "TotalPrice": 111.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 34358,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 34358,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5335790908001",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "4.7 µF",
+          "ValueText": "4.7 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1340",
+          "ValueText": "±10%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "108742",
+          "ValueText": "16V"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "422415",
+          "ValueText": "X7R"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409416",
+          "ValueText": "Surface Mount, MLCC"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "8569",
+          "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "7335",
+          "ValueText": "0.057\" (1.45mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 4,
+          "ParameterText": "Lead Style",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 713021,
+        "Name": "885012207"
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 60,
+            "ParentId": 3,
+            "Name": "Ceramic Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "28",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 49954,
+        "Name": "WCAP-CSGP"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "732-7666-2",
+        "732-7666-1",
+        "732-7666-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  }
+}

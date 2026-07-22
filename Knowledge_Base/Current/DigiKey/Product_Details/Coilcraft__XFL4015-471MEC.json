@@ -1,0 +1,252 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.0",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-07-22T17:59:00Z",
+    "source_mode": "legacy_cache_migration",
+    "input_manufacturer": "Coilcraft",
+    "input_mpn": "XFL4015-471MEC",
+    "resolved_manufacturer": "Coilcraft",
+    "provider_manufacturer_id": 2457,
+    "locale": "IE",
+    "currency": "EUR",
+    "legacy_source_file": "cache\\XFL4015_471MEC_MFG_2457.json",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FIXED IND 470NH 9.1A 8.36 MOHM",
+        "DetailedDescription": "470 nH Shielded Molded Inductor 9.1 A 8.36mOhm Max 1616 (4040 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 2457,
+        "Name": "Coilcraft"
+      },
+      "ManufacturerProductNumber": "XFL4015-471MEC",
+      "UnitPrice": 0.0,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/coilcraft/XFL4015-471MEC/21387658",
+      "DatasheetUrl": "https://www.coilcraft.com/en-us/files/datasheet/XFL4015",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5531/MFG_XFL4015-331MEC.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "4652-XFL4015-471MEC-ND",
+          "PackageType": {
+            "Id": 250,
+            "Name": "Strip"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": true,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 4652,
+            "Name": "Coilcraft"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 10000,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": true,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "376942",
+          "ValueText": "Molded"
+        },
+        {
+          "ParameterId": 1221,
+          "ParameterText": "Material - Core",
+          "ParameterType": "String",
+          "ValueId": "374907",
+          "ValueText": "Metal Composite"
+        },
+        {
+          "ParameterId": 2087,
+          "ParameterText": "Inductance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "470 nH",
+          "ValueText": "470 nH"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "9.1 A",
+          "ValueText": "9.1 A"
+        },
+        {
+          "ParameterId": 1219,
+          "ParameterText": "Current - Saturation (Isat)",
+          "ParameterType": "String",
+          "ValueId": "253625",
+          "ValueText": "6.6A"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        },
+        {
+          "ParameterId": 314,
+          "ParameterText": "DC Resistance (DCR)",
+          "ParameterType": "String",
+          "ValueId": "283191",
+          "ValueText": "8.36mOhm Max"
+        },
+        {
+          "ParameterId": 705,
+          "ParameterText": "Q @ Freq",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 706,
+          "ParameterText": "Frequency - Self Resonant",
+          "ParameterType": "String",
+          "ValueId": "293692",
+          "ValueText": "89MHz"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 1222,
+          "ParameterText": "Inductance Frequency - Test",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 MHz",
+          "ValueText": "1 MHz"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "106189",
+          "ValueText": "1616 (4040 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "106188",
+          "ValueText": "1616"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "12254",
+          "ValueText": "0.157\" L x 0.157\" W (4.00mm x 4.00mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "7761",
+          "ValueText": "0.063\" (1.60mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 4,
+        "ParentId": 0,
+        "Name": "Inductors, Coils, Chokes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/465/830/760308104119_tmb%2864x64%29.jpg",
+        "SeoDescription": "Inductors, coils, and chokes are various names used to refer to products that store energy in the form of a magnetic field. The vast majority of the products found in this category are simple fixed-value devices, though adjustable types, products for wireless power transmission, and magnetically-coupled inductor arrays are also included. Note that the coupled-inductor devices found within this product family are characterized by having multiple identical windings sharing a common magnetic core; similar products with non-identical windings are more commonly described as transformers, and are categorized as such.",
+        "ChildCategories": [
+          {
+            "CategoryId": 71,
+            "ParentId": 4,
+            "Name": "Fixed Inductors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/690/369/MFG_WE-HCF%202013%20Series_tmb%2864x64%29.jpg",
+            "SeoDescription": "An inductor, also known as a coil, choke, or reactor, is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. When the current changes, the magnetic field induces a voltage in the conductor. The induced voltage has a polarity which opposes the change in current that created it. The unit of inductance is the Henry (H). Mounting options include surface, through-hole, and chassis.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "0",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 118125,
+        "Name": "XFL4015"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.50.8000"
+      },
+      "OtherNames": [
+        "4652-XFL4015-471MEC"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  }
+}

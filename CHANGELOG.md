@@ -1,11 +1,12 @@
 # Changelog
 
-## v0.1.1 — 2026-07-21
+## 0.2.0 - 2026-07-22
 
-- Resolve the supplied manufacturer against DigiKey's manufacturer catalogue.
-- Pass DigiKey `manufacturerId` with ProductDetails requests.
-- Validate both returned manufacturer ID and normalised MPN.
-- Use manufacturer-specific product cache filenames.
-- Add aliases for common manufacturer naming variations.
-- Route unresolved or ambiguous manufacturer names to Review Required.
-- Exclude `.env`, `.venv`, `.idea`, cache, output and raw responses from Git.
+- Added provider-aware `Knowledge_Base` storage.
+- Added `Current` and immutable `History` records.
+- Added capture timestamps and provider metadata inside JSON files.
+- Added `Manifest.json` with provider and record statistics.
+- Added automatic migration of legacy v0.1.x DigiKey cache files.
+- Added output columns for capture timestamp and data source mode.
+- Preserved manufacturer normalisation and concise review messaging from v0.1.2.
+- Reserved manifest configuration for a later staggered refresh schedule.

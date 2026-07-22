@@ -1,0 +1,366 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.0",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-07-22T17:58:58Z",
+    "source_mode": "legacy_cache_migration",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RT0603FRE07332RL",
+    "resolved_manufacturer": "YAGEO",
+    "provider_manufacturer_id": 13,
+    "locale": "IE",
+    "currency": "EUR",
+    "legacy_source_file": "cache\\RT0603FRE07332RL_MFG_13.json",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "RES SMD 332 OHM 1% 1/10W 0603",
+        "DetailedDescription": "332 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+      },
+      "Manufacturer": {
+        "Id": 13,
+        "Name": "YAGEO"
+      },
+      "ManufacturerProductNumber": "RT0603FRE07332RL",
+      "UnitPrice": 0.09,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/yageo/RT0603FRE07332RL/1075311",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4839/RT-Series-Chip-Resistor.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "13-RT0603FRE07332RLTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.00628,
+              "TotalPrice": 31.4
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.00597,
+              "TotalPrice": 59.7
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.0058,
+              "TotalPrice": 87.0
+            },
+            {
+              "BreakQuantity": 25000,
+              "UnitPrice": 0.0056,
+              "TotalPrice": 140.0
+            },
+            {
+              "BreakQuantity": 35000,
+              "UnitPrice": 0.00548,
+              "TotalPrice": 191.8
+            },
+            {
+              "BreakQuantity": 50000,
+              "UnitPrice": 0.00536,
+              "TotalPrice": 268.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 5000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 5000,
+          "StandardPackage": 5000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "13-RT0603FRE07332RLCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.09,
+              "TotalPrice": 0.09
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.011,
+              "TotalPrice": 0.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0096,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0092,
+              "TotalPrice": 0.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0086,
+              "TotalPrice": 0.86
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.008,
+              "TotalPrice": 2.0
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.00754,
+              "TotalPrice": 3.77
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.00712,
+              "TotalPrice": 7.12
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 5691,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "13-RT0603FRE07332RLDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.09,
+              "TotalPrice": 0.09
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.011,
+              "TotalPrice": 0.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0096,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0092,
+              "TotalPrice": 0.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0086,
+              "TotalPrice": 0.86
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.008,
+              "TotalPrice": 2.0
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.00754,
+              "TotalPrice": 3.77
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.00712,
+              "TotalPrice": 7.12
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 5691,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 5691,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2085,
+          "ParameterText": "Resistance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "332 Ohms",
+          "ValueText": "332 Ohms"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1131",
+          "ValueText": "±1%"
+        },
+        {
+          "ParameterId": 2,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "String",
+          "ValueId": "14064",
+          "ValueText": "0.1W, 1/10W"
+        },
+        {
+          "ParameterId": 174,
+          "ParameterText": "Composition",
+          "ParameterType": "String",
+          "ValueId": "411766",
+          "ValueText": "Thin Film"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "2617",
+          "ValueText": "±50ppm/°C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242934",
+          "ValueText": "-55°C ~ 155°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5314",
+          "ValueText": "0.022\" (0.55mm)"
+        },
+        {
+          "ParameterId": 1127,
+          "ParameterText": "Number of Terminations",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 2,
+        "ParentId": 0,
+        "Name": "Resistors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+        "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+        "ChildCategories": [
+          {
+            "CategoryId": 52,
+            "ParentId": 2,
+            "Name": "Chip Resistor - Surface Mount",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1269,
+        "Name": "RT"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.21.0030"
+      },
+      "OtherNames": [
+        "RT0603FRE07332RL-ND",
+        "13-RT0603FRE07332RLCT",
+        "13-RT0603FRE07332RLTR",
+        "13-RT0603FRE07332RLDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  }
+}

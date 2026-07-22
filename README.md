@@ -1,64 +1,57 @@
-# acquire_parts_data_collector v0.1.1
+# Parts Data Collector (PDC) v0.2.0
 
-Standalone DigiKey Product Information V4 Excel enrichment utility.
+PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
 
-## What changed in v0.1.1
+## v0.2.0: Knowledge Base foundation
 
-The collector now resolves the input Manufacturer to DigiKey's manufacturer ID before
-requesting ProductDetails. The request therefore uses **Manufacturer + MPN**, which
-handles generic part numbers such as `SS14` that are sold by several manufacturers.
+PDC now stores provider data in a persistent, provider-aware Knowledge Base:
 
-The resolver:
-
-1. Downloads and caches DigiKey's manufacturer catalogue.
-2. Normalises common legal suffixes and known naming variations.
-3. Resolves one unique DigiKey manufacturer ID.
-4. Calls ProductDetails with both the MPN and `manufacturerId`.
-5. Accepts the result only when the returned MPN and manufacturer ID both match.
-6. Routes uncertain manufacturer names to Review Required instead of guessing.
-
-## Functions
-
-- Reads Manufacturer + MPN from an XLSX workbook.
-- Uses DigiKey two-legged OAuth.
-- Retrieves ProductDetails and saves both cached and timestamped raw JSON.
-- Creates **Enriched Parts**, **All Attributes**, and **Review Required** sheets.
-- Preserves every leaf value from DigiKey's response in All Attributes.
-- Does not change the input workbook.
-
-## Setup on Windows
-
-```powershell
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env
+```text
+Knowledge_Base/
+├── Current/
+│   └── DigiKey/
+│       ├── Product_Details/
+│       └── Reference_Data/
+├── History/
+│   └── DigiKey/
+│       └── Product_Details/
+└── Manifest.json
 ```
 
-Edit `.env` and enter the client ID and secret from a DigiKey developer application
-subscribed to Product Information V4.
+- `Current` contains the latest known response for fast reuse.
+- `History` contains an immutable dated JSON snapshot for each fresh live API capture.
+- Every JSON contains a capture timestamp and source metadata.
+- `Manifest.json` records provider and record counts and reserves a section for later staggered refresh planning.
+- Existing v0.1.x `cache/` files are migrated automatically when first used.
 
-## Validate
+A Knowledge Base read does **not** create a new history snapshot. A new history snapshot is created only following a fresh API request, such as when `--force-refresh` is used.
+
+## Installation
+
+Keep your existing `.env` file. Install dependencies in your virtual environment:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+## Run
+
+```powershell
+python main.py --input input\AIPN_Input_Template.xlsx --output output\AIPN_Enriched.xlsx
+```
+
+Force a live refresh and create a new historical snapshot:
+
+```powershell
+python main.py --input input\AIPN_Input_Template.xlsx --output output\AIPN_Enriched.xlsx --force-refresh
+```
+
+Validate input and credentials without retrieving product data:
 
 ```powershell
 python main.py --input input\AIPN_Input_Template.xlsx --validate-only
 ```
 
-## Ten-part run
+## Important data distinction
 
-```powershell
-python main.py --input input\AIPN_Master.xlsx --output output\AIPN_Enriched_1-10.xlsx --start-row 2 --max-parts 10
-```
-
-## Cache change
-
-Product cache filenames now contain the DigiKey manufacturer ID, for example:
-
-```text
-SS14_MFG_1049.json
-```
-
-This prevents an earlier MPN-only result from being reused for a different manufacturer.
-`_manufacturers.json` stores the DigiKey manufacturer catalogue.
-
-Use `--force-refresh` only when fresh source data is required.
+PDC collects and preserves source data. PIE will later interpret lifecycle risk, PCNs, LTB/LCS dates, replacement suitability, and approval into the Parts Master.

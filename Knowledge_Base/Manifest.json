@@ -1,0 +1,19 @@
+{
+  "knowledge_base_version": "0.2.0",
+  "schema_version": "1.0",
+  "created_at_utc": "2026-07-22T19:17:00Z",
+  "last_updated_at_utc": "2026-07-22T17:59:03Z",
+  "providers": {
+    "DigiKey": {
+      "last_capture_at_utc": "2026-07-22T17:59:03Z",
+      "current_records": 9,
+      "history_records": 0
+    }
+  },
+  "refresh_planning": {
+    "enabled": false,
+    "description": "Reserved for staggered periodic refresh scheduling in a later release."
+  },
+  "total_current_records": 9,
+  "total_history_records": 0
+}
