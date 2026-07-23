@@ -1,134 +1,462 @@
-import argparse, json, re
+import argparse
+from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
-from openpyxl import load_workbook, Workbook
-from openpyxl.styles import Font, PatternFill
+
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+
 from config import Settings
 from digikey_client import DigiKeyClient
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 
-MFG = {'manufacturer','mfg','mfr','manufacturer name'}
-MPN = {'mpn','manufacturer part number','mfg part number','manufacturer_part_number'}
+APP_VERSION = "0.2.1"
 
-def clean(v): return ' '.join(str(v or '').strip().lower().replace('_',' ').split())
-def norm(v): return ''.join(c for c in str(v or '').upper() if c.isalnum())
-def ci(d,*names):
-    if not isinstance(d,dict): return ''
-    x={str(k).lower():v for k,v in d.items()}
-    for n in names:
-        if n.lower() in x:return x[n.lower()]
-    return ''
-def name(v):
-    if isinstance(v,dict): return str(ci(v,'Name','Value','ProductDescription','Description') or '')
-    return str(v or '')
-def product(payload): return payload.get('Product') or payload.get('product') or payload
+MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
+MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
+
+GROUP_COLOURS = {
+    "Input & Match": "5B9BD5",
+    "Identity": "4472C4",
+    "Documentation": "70AD47",
+    "Compliance": "8064A2",
+    "Physical": "A5A5A5",
+    "Electrical": "ED7D31",
+    "Commercial (Existing)": "FFC000",
+    "Traceability": "264478",
+}
+
+
+def clean(value):
+    return " ".join(str(value or "").strip().lower().replace("_", " ").split())
+
+
+def norm(value):
+    return "".join(c for c in str(value or "").upper() if c.isalnum())
+
+
+def ci(data, *names):
+    if not isinstance(data, dict):
+        return ""
+    lookup = {str(k).lower(): v for k, v in data.items()}
+    for item in names:
+        if item.lower() in lookup:
+            return lookup[item.lower()]
+    return ""
+
+
+def name(value):
+    if isinstance(value, dict):
+        return str(ci(value, "Name", "Value", "ProductDescription", "Description") or "")
+    return str(value or "")
+
+
+def product(payload):
+    return payload.get("Product") or payload.get("product") or payload
+
+
+def descriptions(p):
+    description = ci(p, "Description")
+    if isinstance(description, dict):
+        return (
+            str(ci(description, "ProductDescription", "Description") or ""),
+            str(ci(description, "DetailedDescription", "DetailedProductDescription") or ""),
+        )
+    return name(description), name(ci(p, "DetailedDescription", "DetailedProductDescription"))
+
 
 def params(p):
-    out={}
-    for x in (p.get('Parameters') or p.get('parameters') or []):
-        if isinstance(x,dict):
-            k=name(ci(x,'ParameterText','Parameter','Name')).strip().lower()
-            v=name(ci(x,'ValueText','Value'))
-            if k: out[k]=v
-    return out
+    result = {}
+    for item in (p.get("Parameters") or p.get("parameters") or []):
+        if isinstance(item, dict):
+            key = name(ci(item, "ParameterText", "Parameter", "Name")).strip().lower()
+            value = name(ci(item, "ValueText", "Value"))
+            if key:
+                result[key] = value
+    return result
 
-def flatten(v,p=''):
-    if isinstance(v,dict):
-        for k,x in v.items(): yield from flatten(x,f'{p}.{k}' if p else str(k))
-    elif isinstance(v,list):
-        for i,x in enumerate(v): yield from flatten(x,f'{p}[{i}]')
-    else: yield p,v
+
+def parameter_value(parameters, *aliases):
+    for alias in aliases:
+        value = parameters.get(alias.lower(), "")
+        if value not in ("", "-"):
+            return value
+    return ""
+
+
+def category_names(category):
+    """Return top-level category and the deepest available child category."""
+    if not isinstance(category, dict):
+        return "", ""
+    top = str(category.get("Name") or "")
+    deepest = top
+    current = category
+    while isinstance(current, dict):
+        children = current.get("ChildCategories") or []
+        if not children or not isinstance(children[0], dict):
+            break
+        current = children[0]
+        deepest = str(current.get("Name") or deepest)
+    return top, deepest
+
+
+def normalise_url(value):
+    text = str(value or "").strip()
+    if text.startswith("//"):
+        return "https:" + text
+    return text
+
+
+def flatten(value, prefix=""):
+    if isinstance(value, dict):
+        for key, item in value.items():
+            yield from flatten(item, f"{prefix}.{key}" if prefix else str(key))
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            yield from flatten(item, f"{prefix}[{index}]")
+    else:
+        yield prefix, value
+
 
 def locate_columns(headers):
-    mc=pc=None
-    for i,h in enumerate(headers,1):
-        c=clean(h)
-        if c in MFG: mc=i
-        if c in MPN: pc=i
-    if not mc or not pc: raise ValueError(f'Could not identify Manufacturer and MPN columns: {headers}')
-    return mc,pc
+    manufacturer_column = mpn_column = None
+    for index, header in enumerate(headers, 1):
+        value = clean(header)
+        if value in MFG:
+            manufacturer_column = index
+        if value in MPN:
+            mpn_column = index
+    if not manufacturer_column or not mpn_column:
+        raise ValueError(f"Could not identify Manufacturer and MPN columns: {headers}")
+    return manufacturer_column, mpn_column
 
-def style(ws):
-    fill=PatternFill('solid',fgColor='1F4E78')
-    for c in ws[1]: c.font=Font(color='FFFFFF',bold=True); c.fill=fill
-    ws.freeze_panes='A2'; ws.auto_filter.ref=ws.dimensions
-    for col in ws.columns:
-        width=min(max(max(len(str(c.value or '')) for c in col)+2,10),55)
-        ws.column_dimensions[get_column_letter(col[0].column)].width=width
+
+def enriched_columns():
+    return [
+        ("Input & Match", "Source Row", "Input workbook row", "Input row number"),
+        ("Input & Match", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
+        ("Input & Match", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
+        ("Input & Match", "Match Status", "PDC derived", "MATCHED, REVIEW or ERROR"),
+        ("Input & Match", "Reason", "PDC derived", "Detailed diagnostics are retained on Review Required"),
+        ("Identity", "Manufacturer", "Product.Manufacturer.Name", "Resolved manufacturer returned by DigiKey"),
+        ("Identity", "Manufacturer Part Number", "Product.ManufacturerProductNumber", "Canonical MPN returned by DigiKey"),
+        ("Identity", "DigiKey Part Number", "Product.ProductVariations[0].DigiKeyProductNumber", "Distributor ordering reference where available"),
+        ("Identity", "Description", "Product.Description.ProductDescription", "Short product description"),
+        ("Identity", "Detailed Description", "Product.Description.DetailedDescription", "Longer description with key technical attributes"),
+        ("Identity", "Product Category", "Product.Category.Name", "Top-level DigiKey category"),
+        ("Identity", "Product Family", "Deepest Product.Category.ChildCategories[].Name", "Most specific category returned"),
+        ("Identity", "Series", "Product.Series.Name", "Manufacturer product series"),
+        ("Identity", "Base Product Number", "Product.BaseProductNumber", "DigiKey base product reference"),
+        ("Identity", "Product Status", "Product.ProductStatus.Status", "Lifecycle status reported by DigiKey"),
+        ("Identity", "Last Buy Date", "Product.DateLastBuyChance", "Last-buy date when supplied"),
+        ("Documentation", "Datasheet URL", "Product.DatasheetUrl", "Manufacturer or distributor-hosted manufacturer datasheet"),
+        ("Documentation", "Product URL", "Product.ProductUrl", "DigiKey product page"),
+        ("Documentation", "Product Image URL", "Product.PhotoUrl", "Primary product image"),
+        ("Documentation", "Primary Video URL", "Product.PrimaryVideoUrl", "Product video when available"),
+        ("Compliance", "RoHS Status", "Product.Classifications.RohsStatus", "RoHS classification"),
+        ("Compliance", "REACH Status", "Product.Classifications.ReachStatus", "REACH classification"),
+        ("Compliance", "Moisture Sensitivity Level", "Product.Classifications.MoistureSensitivityLevel", "MSL classification"),
+        ("Compliance", "ECCN", "Product.Classifications.ExportControlClassNumber", "Export Control Classification Number"),
+        ("Compliance", "HTSUS Code", "Product.Classifications.HtsusCode", "US tariff classification"),
+        ("Physical", "Mounting Type", "Product.Parameters[Mounting Type]", "Mounting method"),
+        ("Physical", "Package / Case", "Product.Parameters[Package / Case]", "Generic package or case"),
+        ("Physical", "Supplier Device Package", "Product.Parameters[Supplier Device Package]", "Supplier package designation"),
+        ("Physical", "Size / Dimension", "Product.Parameters[Size / Dimension]", "Overall package dimensions"),
+        ("Physical", "Height - Seated (Max)", "Product.Parameters[Height - Seated (Max)]", "Maximum seated height"),
+        ("Physical", "Operating Temperature", "Product.Parameters[Operating Temperature]", "Rated operating temperature range"),
+        ("Physical", "Pin / Position Count", "Product.Parameters[Number of Positions|Number of Pins]", "Connector positions or device pins when available"),
+        ("Electrical", "Tolerance", "Product.Parameters[Tolerance|Frequency Tolerance]", "General tolerance or frequency tolerance"),
+        ("Electrical", "Voltage Rating", "Product.Parameters[Voltage - Rated|Voltage Rating]", "Rated voltage where applicable"),
+        ("Electrical", "Current Rating", "Product.Parameters[Current Rating|Current - Output|Current - Continuous Drain]", "Rated or output current where applicable"),
+        ("Electrical", "Power Rating", "Product.Parameters[Power (Watts)|Power - Max|Power Dissipation]", "Rated power where applicable"),
+        ("Commercial (Existing)", "Quantity Available", "Product.QuantityAvailable", "Existing commercial field; deeper work deferred"),
+        ("Commercial (Existing)", "Manufacturer Lead Weeks", "Product.ManufacturerLeadWeeks", "Existing commercial field; deeper work deferred"),
+        ("Commercial (Existing)", "Minimum Order Quantity", "Product.ProductVariations[].MinimumOrderQuantity", "Existing commercial field; deeper work deferred"),
+        ("Traceability", "Captured At UTC", "knowledge_base_metadata.captured_at_utc", "Capture timestamp"),
+        ("Traceability", "Data Source Mode", "knowledge_base_metadata.source_mode", "live_api, knowledge_base_current or legacy_cache_migration"),
+        ("Traceability", "Data Provider", "knowledge_base_metadata.provider", "Provider used to collect the record"),
+    ]
+
+
+def first_variation_value(p, *names):
+    variations = p.get("ProductVariations") or []
+    for variation in variations:
+        if not isinstance(variation, dict):
+            continue
+        value = ci(variation, *names)
+        if value not in ("", None):
+            return value
+    return ""
+
+
+def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
+    returned_mfg = name(ci(p, "Manufacturer"))
+    returned_mpn = str(ci(p, "ManufacturerProductNumber", "ManufacturerPartNumber", "MfrPartNumber") or "")
+    mpn_match = norm(requested_mpn) == norm(returned_mpn)
+    returned_mfg_id = ci(ci(p, "Manufacturer"), "Id")
+    id_match = bool(returned_mfg_id) and str(returned_mfg_id) == str(resolved.manufacturer_id)
+    name_match = names_equivalent(resolved.matched_name, returned_mfg) or names_equivalent(requested_mfg, returned_mfg)
+    manufacturer_match = id_match or name_match
+    status = "MATCHED" if mpn_match and manufacturer_match else "REVIEW"
+
+    if status == "MATCHED":
+        verification = "manufacturer ID" if id_match else "normalised manufacturer name"
+        reason = (
+            f"Exact normalised MPN; manufacturer verified by {verification}. "
+            f"Input {requested_mfg!r} resolved to {returned_mfg!r}."
+        )
+    elif not mpn_match:
+        reason = f"Returned MPN {returned_mpn!r} differs from requested MPN {requested_mpn!r}."
+    else:
+        reason = (
+            f"Returned manufacturer {returned_mfg!r} does not match resolved manufacturer "
+            f"{resolved.matched_name!r} (DigiKey ID {resolved.manufacturer_id})."
+        )
+
+    short_description, detailed_description = descriptions(p)
+    category, family = category_names(ci(p, "Category"))
+    classifications = ci(p, "Classifications")
+    product_status = ci(p, "ProductStatus", "Status")
+
+    values = OrderedDict([
+        ("Source Row", row),
+        ("Requested Manufacturer", requested_mfg),
+        ("Requested MPN", requested_mpn),
+        ("Match Status", status),
+        ("Reason", reason),
+        ("Manufacturer", returned_mfg),
+        ("Manufacturer Part Number", returned_mpn),
+        ("DigiKey Part Number", first_variation_value(p, "DigiKeyProductNumber", "DigiKeyPartNumber", "ProductNumber")),
+        ("Description", short_description),
+        ("Detailed Description", detailed_description),
+        ("Product Category", category),
+        ("Product Family", family),
+        ("Series", name(ci(p, "Series"))),
+        ("Base Product Number", name(ci(p, "BaseProductNumber"))),
+        ("Product Status", name(ci(product_status, "Status", "Name", "Value"))),
+        ("Last Buy Date", str(ci(p, "DateLastBuyChance") or "")),
+        ("Datasheet URL", normalise_url(ci(p, "DatasheetUrl", "DatasheetURL"))),
+        ("Product URL", normalise_url(ci(p, "ProductUrl", "ProductURL"))),
+        ("Product Image URL", normalise_url(ci(p, "PhotoUrl", "PhotoURL"))),
+        ("Primary Video URL", normalise_url(ci(p, "PrimaryVideoUrl", "PrimaryVideoURL"))),
+        ("RoHS Status", name(ci(classifications, "RohsStatus", "RoHSStatus"))),
+        ("REACH Status", name(ci(classifications, "ReachStatus", "REACHStatus"))),
+        ("Moisture Sensitivity Level", name(ci(classifications, "MoistureSensitivityLevel"))),
+        ("ECCN", name(ci(classifications, "ExportControlClassNumber"))),
+        ("HTSUS Code", name(ci(classifications, "HtsusCode", "HTSUSCode"))),
+        ("Mounting Type", parameter_value(pa, "mounting type")),
+        ("Package / Case", parameter_value(pa, "package / case", "package/case")),
+        ("Supplier Device Package", parameter_value(pa, "supplier device package")),
+        ("Size / Dimension", parameter_value(pa, "size / dimension", "size/dimension")),
+        ("Height - Seated (Max)", parameter_value(pa, "height - seated (max)", "height (max)")),
+        ("Operating Temperature", parameter_value(pa, "operating temperature")),
+        ("Pin / Position Count", parameter_value(pa, "number of positions", "number of pins", "pin count")),
+        ("Tolerance", parameter_value(pa, "tolerance", "frequency tolerance")),
+        ("Voltage Rating", parameter_value(pa, "voltage - rated", "voltage rating", "voltage - dc reverse (vr) (max)", "drain to source voltage (vdss)")),
+        ("Current Rating", parameter_value(pa, "current rating (amps)", "current rating", "current - output", "current - continuous drain (id) @ 25°c")),
+        ("Power Rating", parameter_value(pa, "power (watts)", "power - max", "power dissipation (max)")),
+        ("Quantity Available", ci(p, "QuantityAvailable")),
+        ("Manufacturer Lead Weeks", ci(p, "ManufacturerLeadWeeks")),
+        ("Minimum Order Quantity", first_variation_value(p, "MinimumOrderQuantity")),
+        ("Captured At UTC", record.captured_at_utc),
+        ("Data Source Mode", record.source_mode),
+        ("Data Provider", str(record.metadata.get("provider", "DigiKey"))),
+    ])
+    return values
+
+
+def apply_sheet_style(ws, two_header_rows=False):
+    if two_header_rows:
+        ws.freeze_panes = "A3"
+        ws.auto_filter.ref = f"A2:{get_column_letter(ws.max_column)}{ws.max_row}"
+        for cell in ws[2]:
+            cell.font = Font(color="FFFFFF", bold=True)
+            group = ws.cell(1, cell.column).value
+            cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
+            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        ws.row_dimensions[1].height = 22
+        ws.row_dimensions[2].height = 36
+    else:
+        ws.freeze_panes = "A2"
+        ws.auto_filter.ref = ws.dimensions
+        for cell in ws[1]:
+            cell.font = Font(color="FFFFFF", bold=True)
+            cell.fill = PatternFill("solid", fgColor="1F4E78")
+            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+
+    for column in ws.columns:
+        max_length = max(len(str(cell.value or "")) for cell in column)
+        width = min(max(max_length + 2, 10), 48)
+        ws.column_dimensions[get_column_letter(column[0].column)].width = width
+
+
+def add_group_headers(ws, columns):
+    column_index = 1
+    while column_index <= len(columns):
+        group = columns[column_index - 1][0]
+        start = column_index
+        while column_index <= len(columns) and columns[column_index - 1][0] == group:
+            column_index += 1
+        end = column_index - 1
+        ws.merge_cells(start_row=1, start_column=start, end_row=1, end_column=end)
+        cell = ws.cell(1, start, group)
+        cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
+        cell.font = Font(color="FFFFFF", bold=True)
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+
+
+def add_mapping_sheet(workbook, columns, sample_values):
+    ws = workbook.create_sheet("Attribute Mapping")
+    ws.append(["Group", "Workbook Column", "JSON Path / Source", "Sample Value", "Applicability", "Notes"])
+    universal = {
+        "Manufacturer", "Manufacturer Part Number", "Description", "Detailed Description",
+        "Product Category", "Product Family", "Product Status", "Datasheet URL",
+        "Product URL", "Product Image URL", "RoHS Status", "REACH Status", "ECCN",
+        "HTSUS Code", "Captured At UTC", "Data Source Mode", "Data Provider",
+    }
+    for group, heading, source, notes in columns:
+        applicability = "Universal" if heading in universal else "Where available / commodity-specific"
+        ws.append([group, heading, source, sample_values.get(heading, ""), applicability, notes])
+    apply_sheet_style(ws)
+    ws.column_dimensions["A"].width = 24
+    ws.column_dimensions["B"].width = 30
+    ws.column_dimensions["C"].width = 52
+    ws.column_dimensions["D"].width = 60
+    ws.column_dimensions["E"].width = 34
+    ws.column_dimensions["F"].width = 60
+    for row in ws.iter_rows(min_row=2):
+        for cell in row:
+            cell.alignment = Alignment(vertical="top", wrap_text=True)
+
 
 def run(args):
-    src=load_workbook(args.input,data_only=False); ws=src[args.sheet] if args.sheet else src.active
-    headers=[c.value for c in ws[1]]; mc,pc=locate_columns(headers)
-    rows=[]
-    for r in range(max(2,args.start_row),ws.max_row+1):
-        mfg=str(ws.cell(r,mc).value or '').strip(); mpn=str(ws.cell(r,pc).value or '').strip()
-        if mfg or mpn: rows.append((r,mfg,mpn))
-        if args.max_parts and len(rows)>=args.max_parts: break
-    settings=Settings.from_env(); print(f'Loaded {len(rows)} parts; DigiKey site={settings.site}, currency={settings.currency}')
-    if args.validate_only:return
-    client=DigiKeyClient(settings); results=[]; attrs=[]
+    source = load_workbook(args.input, data_only=False)
+    input_sheet = source[args.sheet] if args.sheet else source.active
+    headers = [cell.value for cell in input_sheet[1]]
+    manufacturer_column, mpn_column = locate_columns(headers)
+
+    input_rows = []
+    for row_number in range(max(2, args.start_row), input_sheet.max_row + 1):
+        manufacturer = str(input_sheet.cell(row_number, manufacturer_column).value or "").strip()
+        mpn = str(input_sheet.cell(row_number, mpn_column).value or "").strip()
+        if manufacturer or mpn:
+            input_rows.append((row_number, manufacturer, mpn))
+        if args.max_parts and len(input_rows) >= args.max_parts:
+            break
+
+    settings = Settings.from_env()
+    print(f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; DigiKey site={settings.site}, currency={settings.currency}")
+    if args.validate_only:
+        return
+
+    client = DigiKeyClient(settings)
+    results = []
+    attributes = []
     manufacturer_catalogue = client.manufacturers(args.force_refresh)
-    for n,(row,mfg,mpn) in enumerate(rows,1):
-        print(f'[{n}/{len(rows)}] {mfg} {mpn}')
+
+    for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
+        print(f"[{index}/{len(input_rows)}] {manufacturer} {mpn}")
         try:
-            resolved = resolve_manufacturer(mfg, manufacturer_catalogue)
+            resolved = resolve_manufacturer(manufacturer, manufacturer_catalogue)
             if resolved.manufacturer_id is None:
                 raise RuntimeError(
-                    f'Manufacturer resolution {resolved.status}: {resolved.reason} '
-                    f'(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})'
+                    f"Manufacturer resolution {resolved.status}: {resolved.reason} "
+                    f"(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})"
                 )
             print(
-                f'    Manufacturer: {mfg} -> {resolved.matched_name} '
-                f'(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})'
+                f"    Manufacturer: {manufacturer} -> {resolved.matched_name} "
+                f"(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})"
             )
-            record=client.details(
+            record = client.details(
                 mpn,
                 resolved.manufacturer_id,
                 args.force_refresh,
-                input_manufacturer=mfg,
+                input_manufacturer=manufacturer,
                 resolved_manufacturer=resolved.matched_name,
             )
-            payload=record.provider_response; p=product(payload); pa=params(p)
-            mmfg=name(ci(p,'Manufacturer')); mmpn=str(ci(p,'ManufacturerProductNumber','ManufacturerPartNumber','MfrPartNumber') or '')
-            mpn_match = norm(mpn)==norm(mmpn)
-            returned_mfg_id = ci(ci(p,'Manufacturer'),'Id')
-            id_match = bool(returned_mfg_id) and str(returned_mfg_id) == str(resolved.manufacturer_id)
-            name_match = names_equivalent(resolved.matched_name, mmfg) or names_equivalent(mfg, mmfg)
-            manufacturer_match = id_match or name_match
-            status='MATCHED' if mpn_match and manufacturer_match else 'REVIEW'
-            if status == 'MATCHED':
-                verification = 'manufacturer ID' if id_match else 'normalised manufacturer name'
-                reason=(
-                    f'Exact normalised MPN; manufacturer verified by {verification}. '
-                    f'Input {mfg!r} resolved to {mmfg!r}.'
-                )
-            elif not mpn_match:
-                reason=f'Returned MPN {mmpn!r} differs from requested MPN {mpn!r}.'
-            else:
-                reason=(
-                    f'Returned manufacturer {mmfg!r} does not match resolved manufacturer '
-                    f'{resolved.matched_name!r} (DigiKey ID {resolved.manufacturer_id}).'
-                )
-            results.append([row,mfg,mpn,status,reason,mmfg,mmpn,str(ci(p,'DigiKeyPartNumber','ProductNumber') or ''),name(ci(p,'Description','ProductDescription')),name(ci(p,'DetailedDescription','DetailedProductDescription')),name(ci(p,'Category')),name(ci(p,'Family','ProductFamily')),name(ci(p,'Series')),name(ci(p,'ProductStatus','Status')),name(ci(p,'RoHSStatus','RohsStatus')),pa.get('mounting type',''),pa.get('package / case',pa.get('package/case','')),pa.get('supplier device package',''),pa.get('operating temperature',''),str(ci(p,'DatasheetUrl','DatasheetURL') or ''),str(ci(p,'ProductUrl','ProductURL') or ''),ci(p,'QuantityAvailable'),ci(p,'ManufacturerLeadWeeks'),ci(p,'MinimumOrderQuantity'),record.captured_at_utc,record.source_mode])
-            for path,value in flatten(payload): attrs.append([row,mfg,mpn,path,value,'DigiKey Product Information V4'])
-        except Exception as e:
-            results.append([row,mfg,mpn,'ERROR',str(e),'','','','','','','','','','','','','','','','','','','',datetime.now(timezone.utc).replace(microsecond=0).isoformat(),'error'])
-    out=Workbook(); e=out.active; e.title='Enriched Parts'
-    e.append(['Source Row','Requested Manufacturer','Requested MPN','Match Status','Reason','Matched Manufacturer','Matched MPN','DigiKey Part Number','Description','Detailed Description','Category','Family','Series','Product Status','RoHS Status','Mounting Type','Package / Case','Supplier Device Package','Operating Temperature','Datasheet URL','Product URL','Quantity Available','Lead Weeks','MOQ','Captured At UTC','Data Source Mode'])
-    for x in results:
-        main_row = list(x)
-        if main_row[3] != 'MATCHED':
-            main_row[4] = 'No match, see Review Required tab.'
-        e.append(main_row)
-    a=out.create_sheet('All Attributes'); a.append(['Source Row','Requested Manufacturer','Requested MPN','Attribute Path','Attribute Value','Source'])
-    for x in attrs:a.append(x)
-    r = out.create_sheet('Review Required')
-    r.append([cell.value for cell in e[1]])
-    for x in results:
-        if x[3]!='MATCHED':r.append(x)
-    for sh in out.worksheets:style(sh)
-    Path(args.output).parent.mkdir(parents=True,exist_ok=True); out.save(args.output); print('Created',args.output)
+            payload = record.provider_response
+            p = product(payload)
+            pa = params(p)
+            result = build_result(row_number, manufacturer, mpn, p, pa, record, resolved)
+            results.append(result)
+            for path, value in flatten(payload):
+                attributes.append([row_number, manufacturer, mpn, path, value, "DigiKey Product Information V4"])
+        except Exception as error:
+            failure = OrderedDict((heading, "") for _, heading, _, _ in enriched_columns())
+            failure.update({
+                "Source Row": row_number,
+                "Requested Manufacturer": manufacturer,
+                "Requested MPN": mpn,
+                "Match Status": "ERROR",
+                "Reason": str(error),
+                "Captured At UTC": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+                "Data Source Mode": "error",
+                "Data Provider": "DigiKey",
+            })
+            results.append(failure)
 
-if __name__=='__main__':
-    p=argparse.ArgumentParser(); p.add_argument('--input',required=True); p.add_argument('--output',default='output/AIPN_Enriched.xlsx'); p.add_argument('--sheet'); p.add_argument('--start-row',type=int,default=2); p.add_argument('--max-parts',type=int); p.add_argument('--force-refresh',action='store_true'); p.add_argument('--validate-only',action='store_true'); run(p.parse_args())
+    columns = enriched_columns()
+    headings = [heading for _, heading, _, _ in columns]
+    output = Workbook()
+    enriched = output.active
+    enriched.title = "Enriched Parts"
+    add_group_headers(enriched, columns)
+    enriched.append(headings)
+
+    sample_values = {}
+    for result in results:
+        row_values = [result.get(heading, "") for heading in headings]
+        if result.get("Match Status") != "MATCHED":
+            row_values[headings.index("Reason")] = "No match, see Review Required tab."
+        enriched.append(row_values)
+        if result.get("Match Status") == "MATCHED":
+            for heading, value in result.items():
+                if heading not in sample_values and value not in ("", None):
+                    sample_values[heading] = value
+
+    all_attributes = output.create_sheet("All Attributes")
+    all_attributes.append(["Source Row", "Requested Manufacturer", "Requested MPN", "Attribute Path", "Attribute Value", "Source"])
+    for item in attributes:
+        all_attributes.append(item)
+
+    review = output.create_sheet("Review Required")
+    add_group_headers(review, columns)
+    review.append(headings)
+    for result in results:
+        if result.get("Match Status") != "MATCHED":
+            review.append([result.get(heading, "") for heading in headings])
+
+    add_mapping_sheet(output, columns, sample_values)
+
+    apply_sheet_style(enriched, two_header_rows=True)
+    apply_sheet_style(review, two_header_rows=True)
+    apply_sheet_style(all_attributes)
+
+    for ws in (enriched, review):
+        for row in ws.iter_rows(min_row=3):
+            for cell in row:
+                cell.alignment = Alignment(vertical="top", wrap_text=True)
+        for url_header in ("Datasheet URL", "Product URL", "Product Image URL", "Primary Video URL"):
+            column = headings.index(url_header) + 1
+            for row_number in range(3, ws.max_row + 1):
+                cell = ws.cell(row_number, column)
+                if str(cell.value or "").startswith("http"):
+                    cell.hyperlink = str(cell.value)
+                    cell.style = "Hyperlink"
+
+    Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+    output.save(args.output)
+    print("Created", args.output)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", required=True)
+    parser.add_argument("--output", default="output/AIPN_Enriched.xlsx")
+    parser.add_argument("--sheet")
+    parser.add_argument("--start-row", type=int, default=2)
+    parser.add_argument("--max-parts", type=int)
+    parser.add_argument("--force-refresh", action="store_true")
+    parser.add_argument("--validate-only", action="store_true")
+    run(parser.parse_args())

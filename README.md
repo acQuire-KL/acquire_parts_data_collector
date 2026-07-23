@@ -1,6 +1,13 @@
-# Parts Data Collector (PDC) v0.2.0
+# Parts Data Collector (PDC) v0.2.1
 
 PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
+
+
+## v0.2.1: Static technical attributes
+
+The enriched workbook now groups and exposes technical attributes already present in the Knowledge Base. The `Attribute Mapping` worksheet records the source JSON path and a real sample value for each mapped field.
+
+The first phase focuses on identity, documentation, compliance, physical and broadly applicable electrical data. Existing commercial fields remain available, but further commercial-data work is deferred.
 
 ## v0.2.0: Knowledge Base foundation
 
