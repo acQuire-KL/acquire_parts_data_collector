@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.5] - Unreleased
+
+### Provider framework — Step 1
+
+- Added a common `BaseProvider` contract for provider-specific collection implementations.
+- Added a `DigiKeyProvider` adapter around the existing DigiKey API client.
+- Updated the application entry point to use the provider abstraction instead of importing the DigiKey client directly.
+- Preserved DigiKey collection, Knowledge Base and workbook behaviour.
+- Added provider framework regression tests.
+- Added the future Regression Test Library to the Parking Lot.
+
 ## [0.2.4a] - Unreleased
 
 ### Documentation and architecture foundation

@@ -433,3 +433,33 @@ Suggested checks:
 - Sample workbook reviewed.
 - Release branch merged.
 - Tag created and pushed.
+
+---
+
+# Regression Test Library
+
+**Priority:** Medium
+
+## Objective
+
+Build a representative library of real-world BOM inputs and lightweight expected-behaviour checks for repeatable regression testing.
+
+## Initial Approach
+
+- Retain suitable sample BOMs as they are encountered.
+- Record concise manual checks for important workbook behaviours.
+- Avoid storing generated workbooks unless a specific comparison requires them.
+- Continue using unit tests for deterministic code-level checks.
+
+## Future Automation
+
+Selected checks may later be automated, including:
+
+- workbook generation;
+- worksheet names and order;
+- enriched-part counts;
+- offer and price-break counts;
+- expected provider records;
+- hyperlink and field-presence checks.
+
+Visual workbook review remains a manual engineering check where appropriate.

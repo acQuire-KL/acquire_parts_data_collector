@@ -6,13 +6,13 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
 from config import Settings
-from digikey_client import DigiKeyClient
+from providers.digikey import DigiKeyProvider
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
 from workbook_layout import enriched_parts_columns
 from commercial_profile import commercial_offers
 
-APP_VERSION = "0.2.4a"
+APP_VERSION = "0.2.5"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -393,15 +393,18 @@ def run(args):
             break
 
     settings = Settings.from_env()
-    print(f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; DigiKey site={settings.site}, currency={settings.currency}")
+    provider = DigiKeyProvider(settings)
+    print(
+        f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; "
+        f"{provider.name} site={settings.site}, currency={settings.currency}"
+    )
     if args.validate_only:
         return
 
-    client = DigiKeyClient(settings)
     results = []
     attributes = []
     commercial_rows = []
-    manufacturer_catalogue = client.manufacturers(args.force_refresh)
+    manufacturer_catalogue = provider.manufacturers(args.force_refresh)
 
     for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
         print(f"[{index}/{len(input_rows)}] {manufacturer} {mpn}")
@@ -416,7 +419,7 @@ def run(args):
                 f"    Manufacturer: {manufacturer} -> {resolved.matched_name} "
                 f"(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})"
             )
-            record = client.details(
+            record = provider.details(
                 mpn,
                 resolved.manufacturer_id,
                 args.force_refresh,
@@ -430,7 +433,7 @@ def run(args):
             results.append(result)
             commercial_rows.extend(commercial_analysis_rows(result, record.commercial_profile))
             for path, value in flatten(payload):
-                attributes.append([row_number, manufacturer, mpn, path, value, "DigiKey Product Information V4"])
+                attributes.append([row_number, manufacturer, mpn, path, value, provider.attribute_source])
         except Exception as error:
             failure = OrderedDict((heading, "") for _, heading, _, _ in enriched_columns())
             failure.update({
@@ -441,7 +444,7 @@ def run(args):
                 "Reason": str(error),
                 "Captured At UTC": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
                 "Data Source Mode": "error",
-                "Data Provider": "DigiKey",
+                "Data Provider": provider.name,
             })
             results.append(failure)
 
