@@ -51,6 +51,7 @@ FORMAT_TYPES = {
     "datetime": ExcelFormat(horizontal="center", number_format="yyyy-mm-dd hh:mm:ss"),
     "url": ExcelFormat(horizontal="left", width=42, hyperlink=True),
     "reason": ExcelFormat(horizontal="left", wrap_text=True, width=60),
+    "price_summary": ExcelFormat(horizontal="left", vertical="top", wrap_text=True, width=24),
 }
 
 
@@ -121,6 +122,7 @@ FIELD_FORMAT_TYPES = {
     "Pack Format": "text",
     "Packaging Code": "text",
     "Provider": "text",
+    "Provider Part Number": "text",
     "Provider Currency": "text",
     "Currency": "text",
     "Unit Price": "price",
@@ -128,6 +130,12 @@ FIELD_FORMAT_TYPES = {
     "EUR Unit Price": "price",
     "Break Quantity": "integer",
     "Break Price": "price",
+    "Extended Price": "price",
+    "Additional Charge": "price",
+    "Additional Charge Currency": "text",
+    "Additional Charge Description": "description",
+    "Additional Charge Application": "text",
+    "Price Breaks": "price_summary",
     "Exchange Rate": "exchange_rate",
     "Exchange Rate Date": "date",
 
