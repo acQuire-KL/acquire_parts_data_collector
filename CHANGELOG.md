@@ -1,3 +1,21 @@
+## [0.2.5] - Step 2: Provider Manager
+
+### Added
+
+- Added `ProviderManager` as the central registry and access point for PDC data providers.
+- Added deterministic provider registration order and duplicate-name protection.
+- Added unit tests for registration, provider ordering, duplicate detection and empty-manager handling.
+
+### Changed
+
+- `main.py` now obtains the active DigiKey provider through `ProviderManager` rather than constructing and using it directly.
+- Console startup output now lists the registered provider names.
+
+### Preserved
+
+- DigiKey remains the sole active provider.
+- Collection, Knowledge Base and workbook behaviour are unchanged.
+
 # Changelog
 
 ## [0.2.5] - Unreleased

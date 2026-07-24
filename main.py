@@ -6,6 +6,7 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
 from config import Settings
+from providers import ProviderManager
 from providers.digikey import DigiKeyProvider
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
@@ -393,9 +394,11 @@ def run(args):
             break
 
     settings = Settings.from_env()
-    provider = DigiKeyProvider(settings)
+    provider_manager = ProviderManager([DigiKeyProvider(settings)])
+    provider = provider_manager.primary
     print(
         f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; "
+        f"providers={', '.join(provider_manager.names)}; "
         f"{provider.name} site={settings.site}, currency={settings.currency}"
     )
     if args.validate_only:
