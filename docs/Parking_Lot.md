@@ -193,3 +193,44 @@ Possible features include:
 - Links into PIE and the Knowledge Base
 
 This would become another view of the Knowledge Base rather than a separate database.
+---
+
+# Interactive Review GUI
+
+**Priority:** Medium
+
+## Objective
+
+Replace the temporary Excel `User Action` review workflow with an interactive GUI in which the user can select proposed matches, correct source information, defer custom parts and approve candidate records.
+
+The GUI must retain the principle that PDC prepares data but does not automatically add records to the Knowledge Base.
+
+---
+
+# Automated Currency Tracker
+
+**Priority:** Medium
+
+## Objective
+
+Replace the development exchange-rate table with an automatically maintained currency-rate provider or tracker.
+
+Future behaviour should include:
+
+- EUR conversion rates for USD, GBP and RON, with scope to add more currencies.
+- Original provider currency and original prices always retained.
+- Rate source and retrieval timestamp stored.
+- Historical rates retained so past commercial snapshots can be reproduced.
+- Cached rates used when the external provider is unavailable.
+
+---
+
+# Persistent Manual Review Queue
+
+**Priority:** Low
+
+## Objective
+
+Consider a persistent queue for repeatedly unresolved items after experience with the normal rerun workflow.
+
+Possible future behaviour includes retry counts, a configurable three-strikes rule, deferred custom parts and assignment to a manual review session. A Review ID should only be introduced if persistent cross-run tracking proves necessary.

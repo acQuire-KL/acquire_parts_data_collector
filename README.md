@@ -1,7 +1,15 @@
-# Parts Data Collector (PDC) v0.2.1
+# Parts Data Collector (PDC) v0.2.2
 
 PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
 
+
+## v0.2.2: Workbook review usability
+
+- `Enriched Parts` now uses Match Status as its sole user-facing match indicator.
+- Match Status cells use green, yellow, orange and red review colours.
+- Detailed reasons remain available on `Review Required`.
+- Filters and frozen headers are applied only to the two review-oriented worksheets.
+- Excel presentation logic has moved into `excel_formatter.py`.
 
 ## v0.2.1: Static technical attributes
 

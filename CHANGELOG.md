@@ -1,5 +1,23 @@
 # Changelog
 
+### v0.2.2 formatting update
+- Added central field-format definitions in `excel_formats.py`.
+- Explicitly defined formatting for every current Enriched Parts and Review Required field.
+- MOQ, pack quantity and availability quantities use numeric `#,##0` formatting and right alignment.
+- Lead-time fields are numeric and centre aligned.
+- Unit-price and break-price fields are prepared for `#,##0.00000` formatting.
+- All identifiers and text fields, including MPNs, are left aligned and retained as text.
+
+
+## 0.2.2 - 2026-07-24
+
+- Removed the Reason column from Enriched Parts.
+- Retained detailed diagnostic reasons on Review Required.
+- Added four-colour Match Status formatting: Matched, Review Required, Multiple Matches and Not Found.
+- Limited auto-filtering and freeze panes to Enriched Parts and Review Required.
+- Added `excel_formatter.py` so Excel presentation is separated from collection and matching logic.
+- Kept the remaining worksheets structurally independent for possible future CSV export.
+
 ## 0.2.1 - 2026-07-23
 
 - Grouped workbook fields into Input & Match, Identity, Documentation, Compliance, Physical, Electrical, Commercial and Traceability.

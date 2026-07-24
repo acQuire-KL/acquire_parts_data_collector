@@ -4,28 +4,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Alignment, Font, PatternFill
-from openpyxl.utils import get_column_letter
 
 from config import Settings
 from digikey_client import DigiKeyClient
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
+from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
 
-APP_VERSION = "0.2.1"
+APP_VERSION = "0.2.2"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
-
-GROUP_COLOURS = {
-    "Input & Match": "5B9BD5",
-    "Identity": "4472C4",
-    "Documentation": "70AD47",
-    "Compliance": "8064A2",
-    "Physical": "A5A5A5",
-    "Electrical": "ED7D31",
-    "Commercial (Existing)": "FFC000",
-    "Traceability": "264478",
-}
 
 
 def clean(value):
@@ -137,8 +125,7 @@ def enriched_columns():
         ("Input & Match", "Source Row", "Input workbook row", "Input row number"),
         ("Input & Match", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
         ("Input & Match", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
-        ("Input & Match", "Match Status", "PDC derived", "MATCHED, REVIEW or ERROR"),
-        ("Input & Match", "Reason", "PDC derived", "Detailed diagnostics are retained on Review Required"),
+        ("Input & Match", "Match Status", "PDC derived", "Matched, Review Required, Multiple Matches or Not Found"),
         ("Identity", "Manufacturer", "Product.Manufacturer.Name", "Resolved manufacturer returned by DigiKey"),
         ("Identity", "Manufacturer Part Number", "Product.ManufacturerProductNumber", "Canonical MPN returned by DigiKey"),
         ("Identity", "DigiKey Part Number", "Product.ProductVariations[0].DigiKeyProductNumber", "Distributor ordering reference where available"),
@@ -198,9 +185,9 @@ def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
     id_match = bool(returned_mfg_id) and str(returned_mfg_id) == str(resolved.manufacturer_id)
     name_match = names_equivalent(resolved.matched_name, returned_mfg) or names_equivalent(requested_mfg, returned_mfg)
     manufacturer_match = id_match or name_match
-    status = "MATCHED" if mpn_match and manufacturer_match else "REVIEW"
+    status = "Matched" if mpn_match and manufacturer_match else "Review Required"
 
-    if status == "MATCHED":
+    if status == "Matched":
         verification = "manufacturer ID" if id_match else "normalised manufacturer name"
         reason = (
             f"Exact normalised MPN; manufacturer verified by {verification}. "
@@ -266,45 +253,6 @@ def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
     return values
 
 
-def apply_sheet_style(ws, two_header_rows=False):
-    if two_header_rows:
-        ws.freeze_panes = "A3"
-        ws.auto_filter.ref = f"A2:{get_column_letter(ws.max_column)}{ws.max_row}"
-        for cell in ws[2]:
-            cell.font = Font(color="FFFFFF", bold=True)
-            group = ws.cell(1, cell.column).value
-            cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
-            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-        ws.row_dimensions[1].height = 22
-        ws.row_dimensions[2].height = 36
-    else:
-        ws.freeze_panes = "A2"
-        ws.auto_filter.ref = ws.dimensions
-        for cell in ws[1]:
-            cell.font = Font(color="FFFFFF", bold=True)
-            cell.fill = PatternFill("solid", fgColor="1F4E78")
-            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-
-    for column in ws.columns:
-        max_length = max(len(str(cell.value or "")) for cell in column)
-        width = min(max(max_length + 2, 10), 48)
-        ws.column_dimensions[get_column_letter(column[0].column)].width = width
-
-
-def add_group_headers(ws, columns):
-    column_index = 1
-    while column_index <= len(columns):
-        group = columns[column_index - 1][0]
-        start = column_index
-        while column_index <= len(columns) and columns[column_index - 1][0] == group:
-            column_index += 1
-        end = column_index - 1
-        ws.merge_cells(start_row=1, start_column=start, end_row=1, end_column=end)
-        cell = ws.cell(1, start, group)
-        cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
-        cell.font = Font(color="FFFFFF", bold=True)
-        cell.alignment = Alignment(horizontal="center", vertical="center")
-
 
 def add_mapping_sheet(workbook, columns, sample_values):
     ws = workbook.create_sheet("Attribute Mapping")
@@ -318,17 +266,24 @@ def add_mapping_sheet(workbook, columns, sample_values):
     for group, heading, source, notes in columns:
         applicability = "Universal" if heading in universal else "Where available / commodity-specific"
         ws.append([group, heading, source, sample_values.get(heading, ""), applicability, notes])
-    apply_sheet_style(ws)
+    format_reference_sheet(ws)
     ws.column_dimensions["A"].width = 24
     ws.column_dimensions["B"].width = 30
     ws.column_dimensions["C"].width = 52
     ws.column_dimensions["D"].width = 60
     ws.column_dimensions["E"].width = 34
     ws.column_dimensions["F"].width = 60
-    for row in ws.iter_rows(min_row=2):
-        for cell in row:
-            cell.alignment = Alignment(vertical="top", wrap_text=True)
 
+
+
+def classify_failure_status(error: Exception) -> str:
+    """Map collection failures onto the four user-facing review states."""
+    text = str(error).lower()
+    if any(term in text for term in ("ambiguous", "multiple match", "multiple candidate")):
+        return "Multiple Matches"
+    if any(term in text for term in ("404", "not found", "no product", "no match")):
+        return "Not Found"
+    return "Review Required"
 
 def run(args):
     source = load_workbook(args.input, data_only=False)
@@ -388,7 +343,7 @@ def run(args):
                 "Source Row": row_number,
                 "Requested Manufacturer": manufacturer,
                 "Requested MPN": mpn,
-                "Match Status": "ERROR",
+                "Match Status": classify_failure_status(error),
                 "Reason": str(error),
                 "Captured At UTC": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
                 "Data Source Mode": "error",
@@ -398,6 +353,9 @@ def run(args):
 
     columns = enriched_columns()
     headings = [heading for _, heading, _, _ in columns]
+    reason_column = ("Input & Match", "Reason", "PDC derived", "Detailed diagnostics retained for investigation")
+    review_columns = columns[:4] + [reason_column] + columns[4:]
+    review_headings = [heading for _, heading, _, _ in review_columns]
     output = Workbook()
     enriched = output.active
     enriched.title = "Enriched Parts"
@@ -406,11 +364,8 @@ def run(args):
 
     sample_values = {}
     for result in results:
-        row_values = [result.get(heading, "") for heading in headings]
-        if result.get("Match Status") != "MATCHED":
-            row_values[headings.index("Reason")] = "No match, see Review Required tab."
-        enriched.append(row_values)
-        if result.get("Match Status") == "MATCHED":
+        enriched.append([result.get(heading, "") for heading in headings])
+        if result.get("Match Status") == "Matched":
             for heading, value in result.items():
                 if heading not in sample_values and value not in ("", None):
                     sample_values[heading] = value
@@ -421,29 +376,17 @@ def run(args):
         all_attributes.append(item)
 
     review = output.create_sheet("Review Required")
-    add_group_headers(review, columns)
-    review.append(headings)
+    add_group_headers(review, review_columns)
+    review.append(review_headings)
     for result in results:
-        if result.get("Match Status") != "MATCHED":
-            review.append([result.get(heading, "") for heading in headings])
+        if result.get("Match Status") != "Matched":
+            review.append([result.get(heading, "") for heading in review_headings])
 
     add_mapping_sheet(output, columns, sample_values)
 
-    apply_sheet_style(enriched, two_header_rows=True)
-    apply_sheet_style(review, two_header_rows=True)
-    apply_sheet_style(all_attributes)
-
-    for ws in (enriched, review):
-        for row in ws.iter_rows(min_row=3):
-            for cell in row:
-                cell.alignment = Alignment(vertical="top", wrap_text=True)
-        for url_header in ("Datasheet URL", "Product URL", "Product Image URL", "Primary Video URL"):
-            column = headings.index(url_header) + 1
-            for row_number in range(3, ws.max_row + 1):
-                cell = ws.cell(row_number, column)
-                if str(cell.value or "").startswith("http"):
-                    cell.hyperlink = str(cell.value)
-                    cell.style = "Hyperlink"
+    format_review_sheet(enriched, headings)
+    format_review_sheet(review, review_headings)
+    format_reference_sheet(all_attributes)
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     output.save(args.output)
