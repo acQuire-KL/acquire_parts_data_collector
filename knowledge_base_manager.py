@@ -2,14 +2,18 @@ from __future__ import annotations
 
 import json
 import re
-import shutil
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from commercial_profile import (
+    build_commercial_profile,
+    ensure_current_commercial_profile,
+)
 
-KNOWLEDGE_BASE_SCHEMA_VERSION = "1.0"
+
+KNOWLEDGE_BASE_SCHEMA_VERSION = "1.2"
 
 
 def utc_now() -> datetime:
@@ -30,6 +34,7 @@ def safe_name(value: str, max_length: int = 120) -> str:
 class KnowledgeRecord:
     provider_response: dict[str, Any]
     metadata: dict[str, Any]
+    commercial_profile: dict[str, Any]
 
     @property
     def captured_at_utc(self) -> str:
@@ -71,7 +76,13 @@ class KnowledgeBaseManager:
         document = json.loads(path.read_text(encoding="utf-8"))
         metadata = dict(document.get("knowledge_base_metadata") or {})
         metadata["source_mode"] = "knowledge_base_current"
-        return KnowledgeRecord(dict(document.get("provider_response") or {}), metadata)
+        provider_response = dict(document.get("provider_response") or {})
+        commercial_profile = dict(document.get("commercial_profile") or {})
+        if commercial_profile:
+            commercial_profile = ensure_current_commercial_profile(commercial_profile)
+        else:
+            commercial_profile = build_commercial_profile(provider_response, metadata)
+        return KnowledgeRecord(provider_response, metadata, commercial_profile)
 
     def save_live_response(
         self,
@@ -103,9 +114,11 @@ class KnowledgeBaseManager:
             "currency": currency,
             "rate_limit": rate_limit or {},
         }
+        commercial_profile = build_commercial_profile(provider_response, metadata)
         document = {
             "knowledge_base_metadata": metadata,
             "provider_response": provider_response,
+            "commercial_profile": commercial_profile,
         }
         text = json.dumps(document, indent=2, ensure_ascii=False)
 
@@ -123,7 +136,7 @@ class KnowledgeBaseManager:
         history_path.write_text(text, encoding="utf-8")
 
         self._update_manifest(provider, captured)
-        return KnowledgeRecord(provider_response, metadata)
+        return KnowledgeRecord(provider_response, metadata, commercial_profile)
 
     def save_reference_data(
         self,
@@ -151,7 +164,7 @@ class KnowledgeBaseManager:
         path = self._folder(provider, "Reference_Data") / f"{safe_name(dataset)}.json"
         path.write_text(json.dumps(document, indent=2, ensure_ascii=False), encoding="utf-8")
         self._update_manifest(provider, captured)
-        return KnowledgeRecord(provider_response, metadata)
+        return KnowledgeRecord(provider_response, metadata, {})
 
     def load_reference_data(self, provider: str, dataset: str) -> KnowledgeRecord | None:
         path = self._folder(provider, "Reference_Data") / f"{safe_name(dataset)}.json"
@@ -160,7 +173,8 @@ class KnowledgeBaseManager:
         document = json.loads(path.read_text(encoding="utf-8"))
         metadata = dict(document.get("knowledge_base_metadata") or {})
         metadata["source_mode"] = "knowledge_base_current"
-        return KnowledgeRecord(dict(document.get("provider_response") or {}), metadata)
+        provider_response = dict(document.get("provider_response") or {})
+        return KnowledgeRecord(provider_response, metadata, {})
 
     def migrate_legacy_file(
         self,
@@ -195,14 +209,23 @@ class KnowledgeBaseManager:
             "legacy_source_file": str(legacy_path),
             "rate_limit": {},
         }
-        document = {"knowledge_base_metadata": metadata, "provider_response": response}
+        commercial_profile = build_commercial_profile(response, metadata)
+        document = {
+            "knowledge_base_metadata": metadata,
+            "provider_response": response,
+            "commercial_profile": commercial_profile,
+        }
         current_path = self.current_path(provider, endpoint, manufacturer, mpn)
         current_path.write_text(json.dumps(document, indent=2, ensure_ascii=False), encoding="utf-8")
         self._update_manifest(provider, captured)
-        return KnowledgeRecord(response, metadata)
+        return KnowledgeRecord(response, metadata, commercial_profile)
 
     def _ensure_manifest(self) -> None:
         if self.manifest_path.exists():
+            manifest = json.loads(self.manifest_path.read_text(encoding="utf-8"))
+            if manifest.get("schema_version") != KNOWLEDGE_BASE_SCHEMA_VERSION:
+                manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
+                self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
             return
         now = utc_text()
         manifest = {
@@ -213,7 +236,7 @@ class KnowledgeBaseManager:
             "providers": {},
             "refresh_planning": {
                 "enabled": False,
-                "description": "Reserved for staggered periodic refresh scheduling in a later release."
+                "description": "Reserved for staggered periodic refresh scheduling in a later release.",
             },
         }
         self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
@@ -226,6 +249,7 @@ class KnowledgeBaseManager:
         entry["last_capture_at_utc"] = utc_text(captured)
         entry["current_records"] = self._count_json(self.current_root / safe_name(provider))
         entry["history_records"] = self._count_json(self.history_root / safe_name(provider))
+        manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
         manifest["last_updated_at_utc"] = utc_text(captured)
         manifest["total_current_records"] = self._count_json(self.current_root)
         manifest["total_history_records"] = self._count_json(self.history_root)
