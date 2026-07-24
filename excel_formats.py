@@ -51,6 +51,9 @@ FORMAT_TYPES = {
     "datetime": ExcelFormat(horizontal="center", number_format="yyyy-mm-dd hh:mm:ss"),
     "url": ExcelFormat(horizontal="left", width=42, hyperlink=True),
     "reason": ExcelFormat(horizontal="left", wrap_text=True, width=60),
+    "price_summary": ExcelFormat(horizontal="left", vertical="top", wrap_text=True, width=24),
+    "multi_text": ExcelFormat(horizontal="left", vertical="top", wrap_text=True, width=24),
+    "multi_number": ExcelFormat(horizontal="right", vertical="top", wrap_text=True, width=18),
 }
 
 
@@ -107,20 +110,21 @@ FIELD_FORMAT_TYPES = {
     "Power Rating": "text",
 
     # Commercial - current
-    "Quantity Available": "integer",
+    "Quantity Available": "multi_number",
     "Availability Quantity": "integer",
     "Manufacturer Lead Weeks": "lead_time",
     "Lead Time": "lead_time",
     "Lead Time (Weeks)": "lead_time",
-    "Minimum Order Quantity": "integer",
+    "Minimum Order Quantity": "multi_number",
     "MOQ": "integer",
 
     # Commercial - planned
-    "Pack Quantity": "integer",
-    "Pack Qty": "integer",
-    "Pack Format": "text",
-    "Packaging Code": "text",
+    "Pack Quantity": "multi_number",
+    "Pack Qty": "multi_number",
+    "Pack Format": "multi_text",
+    "Packaging Code": "multi_text",
     "Provider": "text",
+    "Provider Part Number": "multi_text",
     "Provider Currency": "text",
     "Currency": "text",
     "Unit Price": "price",
@@ -128,6 +132,12 @@ FIELD_FORMAT_TYPES = {
     "EUR Unit Price": "price",
     "Break Quantity": "integer",
     "Break Price": "price",
+    "Extended Price": "price",
+    "Additional Charge": "multi_number",
+    "Additional Charge Currency": "text",
+    "Additional Charge Description": "multi_text",
+    "Additional Charge Application": "text",
+    "Price Breaks": "price_summary",
     "Exchange Rate": "exchange_rate",
     "Exchange Rate Date": "date",
 

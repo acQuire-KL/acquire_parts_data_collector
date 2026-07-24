@@ -234,3 +234,202 @@ Future behaviour should include:
 Consider a persistent queue for repeatedly unresolved items after experience with the normal rerun workflow.
 
 Possible future behaviour includes retry counts, a configurable three-strikes rule, deferred custom parts and assignment to a manual review session. A Review ID should only be introduced if persistent cross-run tracking proves necessary.
+
+---
+
+# Price-Break Colour Palette and Rich-Text Formatting
+
+**Priority:** Low
+
+## Objective
+
+Improve the multiline `Price Breaks` summary in `Enriched Parts` after the core commercial workflow is complete.
+
+## Proposed Presentation
+
+- Quantity in blue.
+- `@` separator in black.
+- Unit price in green.
+- One price break per line.
+- Quantities padded so the `@` symbols align vertically.
+- Workbook colours held in one central palette so they can be adjusted after visual review.
+
+## Notes
+
+Partial-cell formatting requires Excel rich-text runs and may not be reliably supported by the current workbook-writing library. The plain multiline output should remain the functional fallback.
+
+---
+
+# Multi-Provider Collection Workflow
+
+**Priority:** High
+
+## Objective
+
+Progressively reproduce the manual sourcing workflow used when a component cannot be fully researched from one distributor.
+
+## Candidate Sources
+
+- Existing Knowledge Base
+- Manufacturer website and documentation
+- DigiKey
+- Mouser
+- Farnell / element14 / Newark
+- RS
+- Arrow
+- Avnet
+- TME
+- LCSC
+- FindChips and similar aggregators
+- Specialist and regional distributors
+- General web search
+
+## Notes
+
+The source order should eventually be configurable and may differ by region, component category or information type. PDC collects the evidence; PIE later compares and ranks it.
+
+---
+
+# Marketplace Offer Capture
+
+**Priority:** Medium
+
+## Objective
+
+Capture marketplace offers exposed by providers when authorised distribution offers are unavailable or incomplete.
+
+## Requirements
+
+- Clearly identify the offer as marketplace data.
+- Retain seller, provider, stock, price, MOQ, location and timestamps where available.
+- Do not present a marketplace seller as an authorised distributor.
+- Do not automatically recommend or approve the offer.
+
+---
+
+# Similar-Part and Replacement Reference Capture
+
+**Priority:** Medium
+
+## Objective
+
+Collect similar-part, replacement, alternate-packaging and related-product references exposed by source websites.
+
+## Notes
+
+PDC should retain the references and their source context without asserting equivalence. PIE may later compare specifications and propose alternatives for user review.
+
+---
+
+# Commercial Offer Summary Presentation
+
+**Priority:** Medium
+
+## Objective
+
+Improve how all provider delivery formats are summarised on `Enriched Parts` while retaining one component row.
+
+## Options to Evaluate
+
+- One wrapped cell containing a clearly separated block for every offer.
+- A small group of commercial summary columns containing multiline values.
+- One Enriched Parts row per delivery format, with identity fields repeated.
+- A configurable choice between component view and offer view.
+
+## Notes
+
+The long-form `Commercial Analysis` worksheet remains the canonical tabular output with one row per offer and price break.
+
+---
+
+# Historical Commercial Snapshots
+
+**Priority:** Medium
+
+## Objective
+
+Retain dated commercial snapshots so PIE can analyse changes in price, stock, MOQ and lead time.
+
+## Future Behaviour
+
+- Record provider and capture timestamp.
+- Preserve the original currency and price ladder.
+- Compare current and previous snapshots.
+- Avoid creating false history entries when records are merely read from the Knowledge Base.
+
+---
+
+# Provider Confidence and Source Quality
+
+**Priority:** Low — Future PIE
+
+## Objective
+
+Allow PIE to assess the relevance and confidence of different source types without changing the collected source data.
+
+Potential factors include:
+
+- manufacturer versus distributor statement;
+- authorised versus marketplace source;
+- freshness;
+- completeness;
+- agreement with other sources;
+- design registration or customer-specific data.
+
+PDC records the facts required for the assessment. PIE performs the assessment.
+
+---
+
+# Commercial Offer Ranking
+
+**Priority:** Low — Future PIE
+
+## Objective
+
+Allow PIE to rank purchasing offers for a defined demand quantity and user constraints.
+
+Potential factors include:
+
+- effective unit cost;
+- MOQ and excess quantity;
+- fixed charges;
+- stock and lead time;
+- authorised-distributor status;
+- pack format;
+- currency and landed-cost assumptions;
+- approved supplier and AVL status.
+
+No offer should be selected automatically without a transparent rule and user review.
+
+---
+
+# Workbook Colour Palette
+
+**Priority:** Low
+
+## Objective
+
+Hold workbook colours, fills and fonts in one configurable palette so presentation can be refined without changing workbook logic.
+
+This item complements the existing rich-text price-break formatting item.
+
+---
+
+# Release Checklist
+
+**Priority:** Low
+
+## Objective
+
+Introduce a concise, repeatable checklist before merging a release branch into `main`.
+
+Suggested checks:
+
+- Version updated.
+- Changelog updated.
+- Documentation updated.
+- Application run completed.
+- Regression samples passed.
+- Sample workbook reviewed.
+- Release branch merged.
+- Tag created and pushed.

@@ -9,8 +9,10 @@ from config import Settings
 from digikey_client import DigiKeyClient
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
+from workbook_layout import enriched_parts_columns
+from commercial_profile import commercial_offers
 
-APP_VERSION = "0.2.2"
+APP_VERSION = "0.2.4a"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -121,49 +123,8 @@ def locate_columns(headers):
 
 
 def enriched_columns():
-    return [
-        ("Input & Match", "Source Row", "Input workbook row", "Input row number"),
-        ("Input & Match", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
-        ("Input & Match", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
-        ("Input & Match", "Match Status", "PDC derived", "Matched, Review Required, Multiple Matches or Not Found"),
-        ("Identity", "Manufacturer", "Product.Manufacturer.Name", "Resolved manufacturer returned by DigiKey"),
-        ("Identity", "Manufacturer Part Number", "Product.ManufacturerProductNumber", "Canonical MPN returned by DigiKey"),
-        ("Identity", "DigiKey Part Number", "Product.ProductVariations[0].DigiKeyProductNumber", "Distributor ordering reference where available"),
-        ("Identity", "Description", "Product.Description.ProductDescription", "Short product description"),
-        ("Identity", "Detailed Description", "Product.Description.DetailedDescription", "Longer description with key technical attributes"),
-        ("Identity", "Product Category", "Product.Category.Name", "Top-level DigiKey category"),
-        ("Identity", "Product Family", "Deepest Product.Category.ChildCategories[].Name", "Most specific category returned"),
-        ("Identity", "Series", "Product.Series.Name", "Manufacturer product series"),
-        ("Identity", "Base Product Number", "Product.BaseProductNumber", "DigiKey base product reference"),
-        ("Identity", "Product Status", "Product.ProductStatus.Status", "Lifecycle status reported by DigiKey"),
-        ("Identity", "Last Buy Date", "Product.DateLastBuyChance", "Last-buy date when supplied"),
-        ("Documentation", "Datasheet URL", "Product.DatasheetUrl", "Manufacturer or distributor-hosted manufacturer datasheet"),
-        ("Documentation", "Product URL", "Product.ProductUrl", "DigiKey product page"),
-        ("Documentation", "Product Image URL", "Product.PhotoUrl", "Primary product image"),
-        ("Documentation", "Primary Video URL", "Product.PrimaryVideoUrl", "Product video when available"),
-        ("Compliance", "RoHS Status", "Product.Classifications.RohsStatus", "RoHS classification"),
-        ("Compliance", "REACH Status", "Product.Classifications.ReachStatus", "REACH classification"),
-        ("Compliance", "Moisture Sensitivity Level", "Product.Classifications.MoistureSensitivityLevel", "MSL classification"),
-        ("Compliance", "ECCN", "Product.Classifications.ExportControlClassNumber", "Export Control Classification Number"),
-        ("Compliance", "HTSUS Code", "Product.Classifications.HtsusCode", "US tariff classification"),
-        ("Physical", "Mounting Type", "Product.Parameters[Mounting Type]", "Mounting method"),
-        ("Physical", "Package / Case", "Product.Parameters[Package / Case]", "Generic package or case"),
-        ("Physical", "Supplier Device Package", "Product.Parameters[Supplier Device Package]", "Supplier package designation"),
-        ("Physical", "Size / Dimension", "Product.Parameters[Size / Dimension]", "Overall package dimensions"),
-        ("Physical", "Height - Seated (Max)", "Product.Parameters[Height - Seated (Max)]", "Maximum seated height"),
-        ("Physical", "Operating Temperature", "Product.Parameters[Operating Temperature]", "Rated operating temperature range"),
-        ("Physical", "Pin / Position Count", "Product.Parameters[Number of Positions|Number of Pins]", "Connector positions or device pins when available"),
-        ("Electrical", "Tolerance", "Product.Parameters[Tolerance|Frequency Tolerance]", "General tolerance or frequency tolerance"),
-        ("Electrical", "Voltage Rating", "Product.Parameters[Voltage - Rated|Voltage Rating]", "Rated voltage where applicable"),
-        ("Electrical", "Current Rating", "Product.Parameters[Current Rating|Current - Output|Current - Continuous Drain]", "Rated or output current where applicable"),
-        ("Electrical", "Power Rating", "Product.Parameters[Power (Watts)|Power - Max|Power Dissipation]", "Rated power where applicable"),
-        ("Commercial (Existing)", "Quantity Available", "Product.QuantityAvailable", "Existing commercial field; deeper work deferred"),
-        ("Commercial (Existing)", "Manufacturer Lead Weeks", "Product.ManufacturerLeadWeeks", "Existing commercial field; deeper work deferred"),
-        ("Commercial (Existing)", "Minimum Order Quantity", "Product.ProductVariations[].MinimumOrderQuantity", "Existing commercial field; deeper work deferred"),
-        ("Traceability", "Captured At UTC", "knowledge_base_metadata.captured_at_utc", "Capture timestamp"),
-        ("Traceability", "Data Source Mode", "knowledge_base_metadata.source_mode", "live_api, knowledge_base_current or legacy_cache_migration"),
-        ("Traceability", "Data Provider", "knowledge_base_metadata.provider", "Provider used to collect the record"),
-    ]
+    """Return the configured Enriched Parts workbook layout."""
+    return enriched_parts_columns()
 
 
 def first_variation_value(p, *names):
@@ -175,6 +136,124 @@ def first_variation_value(p, *names):
         if value not in ("", None):
             return value
     return ""
+
+
+
+
+def _numeric_sort(value):
+    try:
+        return (0, float(value))
+    except (TypeError, ValueError):
+        return (1, str(value or ""))
+
+
+def primary_commercial_offer(profile):
+    """Choose a review-friendly offer while retaining every offer in Commercial Analysis."""
+    variations = commercial_offers(profile)
+    if not variations:
+        return {}
+    for preferred in ("Cut Tape", "Loose", "Tube", "Tray", "Reel", "DigiReel"):
+        for variation in variations:
+            if variation.get("pack_format") == preferred:
+                return variation
+    return variations[0]
+
+
+def price_break_summary(variation):
+    """Return a compact multiline summary with quantities padded for aligned @ symbols."""
+    breaks = list((variation or {}).get("standard_price_breaks") or [])
+    if not breaks:
+        return ""
+    breaks.sort(key=lambda item: _numeric_sort(item.get("break_quantity")))
+    quantity_texts = []
+    for item in breaks:
+        value = item.get("break_quantity")
+        try:
+            quantity_texts.append(f"{int(float(value)):,}")
+        except (TypeError, ValueError):
+            quantity_texts.append(str(value or ""))
+    width = max((len(value) for value in quantity_texts), default=1)
+    lines = []
+    for quantity, item in zip(quantity_texts, breaks):
+        price = item.get("unit_price")
+        try:
+            price_text = f"{float(price):,.5f}"
+        except (TypeError, ValueError):
+            price_text = str(price or "")
+        lines.append(f"{quantity:>{width}} @ {price_text}")
+    return "\n".join(lines)
+
+
+def first_additional_charge(variation):
+    charges = list((variation or {}).get("additional_charges") or [])
+    return charges[0] if charges else {}
+
+
+def commercial_analysis_rows(result, profile):
+    rows = []
+    for variation in commercial_offers(profile):
+        charge = first_additional_charge(variation)
+        price_breaks = variation.get("standard_price_breaks") or []
+        if not price_breaks:
+            price_breaks = [{}]
+        for price_break in price_breaks:
+            rows.append(OrderedDict([
+                ("Source Row", result.get("Source Row", "")),
+                ("Manufacturer", result.get("Manufacturer", "")),
+                ("Manufacturer Part Number", result.get("Manufacturer Part Number", "")),
+                ("Provider", profile.get("provider", "")),
+                ("Provider Part Number", variation.get("provider_part_number", "")),
+                ("Currency", profile.get("provider_currency", "")),
+                ("Pack Format", variation.get("pack_format", "")),
+                ("Packaging Code", variation.get("packaging_code", variation.get("package_type", ""))),
+                ("Minimum Order Quantity", variation.get("minimum_order_quantity", "")),
+                ("Pack Quantity", variation.get("pack_quantity", "")),
+                ("Quantity Available", variation.get("quantity_available", "")),
+                ("Manufacturer Lead Weeks", profile.get("manufacturer_lead_weeks", "")),
+                ("Break Quantity", price_break.get("break_quantity", "")),
+                ("Unit Price", price_break.get("unit_price", "")),
+                ("Extended Price", price_break.get("total_price", "")),
+                ("Additional Charge", charge.get("amount", "")),
+                ("Additional Charge Currency", charge.get("currency", profile.get("provider_currency", ""))),
+                ("Additional Charge Description", charge.get("description", "")),
+                ("Additional Charge Application", charge.get("application", "")),
+                ("Captured At UTC", profile.get("captured_at_utc", "")),
+            ]))
+    return rows
+
+
+def offer_value_summary(profile, field, fallback_field=""):
+    """Return one labelled line per commercial offer for a selected field."""
+    lines = []
+    for offer in commercial_offers(profile):
+        label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+        value = offer.get(field)
+        if value in (None, "") and fallback_field:
+            value = offer.get(fallback_field)
+        if value not in (None, ""):
+            lines.append(f"{label}: {value}")
+    return "\n".join(lines)
+
+
+def all_additional_charges_summary(profile, field):
+    lines = []
+    for offer in commercial_offers(profile):
+        label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+        for charge in offer.get("additional_charges") or []:
+            value = charge.get(field)
+            if value not in (None, ""):
+                lines.append(f"{label}: {value}")
+    return "\n".join(lines)
+
+
+def all_price_breaks_summary(profile):
+    sections = []
+    for offer in commercial_offers(profile):
+        summary = price_break_summary(offer)
+        if summary:
+            label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+            sections.append(f"{label}\n{summary}")
+    return "\n\n".join(sections)
 
 
 def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
@@ -205,6 +284,9 @@ def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
     category, family = category_names(ci(p, "Category"))
     classifications = ci(p, "Classifications")
     product_status = ci(p, "ProductStatus", "Status")
+    commercial_profile = record.commercial_profile or {}
+    primary_offer = primary_commercial_offer(commercial_profile)
+    additional_charge = first_additional_charge(primary_offer)
 
     values = OrderedDict([
         ("Source Row", row),
@@ -243,9 +325,19 @@ def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
         ("Voltage Rating", parameter_value(pa, "voltage - rated", "voltage rating", "voltage - dc reverse (vr) (max)", "drain to source voltage (vdss)")),
         ("Current Rating", parameter_value(pa, "current rating (amps)", "current rating", "current - output", "current - continuous drain (id) @ 25°c")),
         ("Power Rating", parameter_value(pa, "power (watts)", "power - max", "power dissipation (max)")),
-        ("Quantity Available", ci(p, "QuantityAvailable")),
-        ("Manufacturer Lead Weeks", ci(p, "ManufacturerLeadWeeks")),
-        ("Minimum Order Quantity", first_variation_value(p, "MinimumOrderQuantity")),
+        ("Provider", commercial_profile.get("provider", "")),
+        ("Offer Count", len(commercial_offers(commercial_profile))),
+        ("Provider Part Number", offer_value_summary(commercial_profile, "provider_part_number")),
+        ("Currency", commercial_profile.get("provider_currency", "")),
+        ("Pack Format", offer_value_summary(commercial_profile, "pack_format")),
+        ("Packaging Code", offer_value_summary(commercial_profile, "packaging_code", "package_type")),
+        ("Minimum Order Quantity", offer_value_summary(commercial_profile, "minimum_order_quantity")),
+        ("Pack Quantity", offer_value_summary(commercial_profile, "pack_quantity")),
+        ("Quantity Available", offer_value_summary(commercial_profile, "quantity_available")),
+        ("Manufacturer Lead Weeks", commercial_profile.get("manufacturer_lead_weeks", "")),
+        ("Additional Charge", all_additional_charges_summary(commercial_profile, "amount")),
+        ("Additional Charge Description", all_additional_charges_summary(commercial_profile, "description")),
+        ("Price Breaks", all_price_breaks_summary(commercial_profile)),
         ("Captured At UTC", record.captured_at_utc),
         ("Data Source Mode", record.source_mode),
         ("Data Provider", str(record.metadata.get("provider", "DigiKey"))),
@@ -308,6 +400,7 @@ def run(args):
     client = DigiKeyClient(settings)
     results = []
     attributes = []
+    commercial_rows = []
     manufacturer_catalogue = client.manufacturers(args.force_refresh)
 
     for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
@@ -335,6 +428,7 @@ def run(args):
             pa = params(p)
             result = build_result(row_number, manufacturer, mpn, p, pa, record, resolved)
             results.append(result)
+            commercial_rows.extend(commercial_analysis_rows(result, record.commercial_profile))
             for path, value in flatten(payload):
                 attributes.append([row_number, manufacturer, mpn, path, value, "DigiKey Product Information V4"])
         except Exception as error:
@@ -382,11 +476,33 @@ def run(args):
         if result.get("Match Status") != "Matched":
             review.append([result.get(heading, "") for heading in review_headings])
 
+    commercial = output.create_sheet("Commercial Analysis")
+    commercial_headings = [
+        "Source Row", "Manufacturer", "Manufacturer Part Number", "Provider",
+        "Provider Part Number", "Currency", "Pack Format", "Packaging Code",
+        "Minimum Order Quantity", "Pack Quantity", "Quantity Available",
+        "Manufacturer Lead Weeks", "Break Quantity", "Unit Price",
+        "Extended Price", "Additional Charge", "Additional Charge Currency",
+        "Additional Charge Description", "Additional Charge Application",
+        "Captured At UTC",
+    ]
+    commercial.append(commercial_headings)
+    commercial_rows.sort(key=lambda row: (
+        str(row.get("Manufacturer", "")).upper(),
+        str(row.get("Manufacturer Part Number", "")).upper(),
+        str(row.get("Provider", "")).upper(),
+        str(row.get("Pack Format", "")).upper(),
+        _numeric_sort(row.get("Break Quantity")),
+    ))
+    for row in commercial_rows:
+        commercial.append([row.get(heading, "") for heading in commercial_headings])
+
     add_mapping_sheet(output, columns, sample_values)
 
     format_review_sheet(enriched, headings)
     format_review_sheet(review, review_headings)
     format_reference_sheet(all_attributes)
+    format_reference_sheet(commercial)
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     output.save(args.output)

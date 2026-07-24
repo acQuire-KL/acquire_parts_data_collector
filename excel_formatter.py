@@ -129,6 +129,52 @@ def _apply_field_formats(ws, headings: list[str], first_data_row: int) -> None:
                 )
 
 
+
+def _estimated_wrapped_lines(value, column_width: float | None) -> int:
+    """Estimate Excel display lines from explicit breaks and column width.
+
+    openpyxl cannot ask Excel to AutoFit a row.  This approximation counts
+    both embedded newlines and text that will wrap visually within the
+    configured column width.
+    """
+    if value in (None, ""):
+        return 1
+
+    # Excel column width is approximately a character count for the default
+    # font.  Leave a little margin so the estimate does not clip at the edge.
+    usable_characters = max(1, int((column_width or 10) * 0.90))
+    visual_lines = 0
+    for explicit_line in str(value).split("\n"):
+        visual_lines += max(1, (len(explicit_line) + usable_characters - 1) // usable_characters)
+    return visual_lines
+
+
+def _set_wrapped_row_heights(ws, headings: list[str], first_data_row: int) -> None:
+    """Size rows for the tallest wrapped cell, including full price ladders."""
+    wrapped_columns = [
+        column
+        for column, heading in enumerate(headings, 1)
+        if format_for_heading(heading).wrap_text
+    ]
+    if not wrapped_columns:
+        return
+
+    for row_number in range(first_data_row, ws.max_row + 1):
+        line_count = 1
+        for column in wrapped_columns:
+            letter = get_column_letter(column)
+            width = ws.column_dimensions[letter].width
+            line_count = max(
+                line_count,
+                _estimated_wrapped_lines(ws.cell(row_number, column).value, width),
+            )
+
+        # 15 points is a practical single-line height for the workbook font.
+        # The higher ceiling allows complete multi-offer price ladders while
+        # still protecting the sheet from pathological free-text values.
+        ws.row_dimensions[row_number].height = min(max(18, line_count * 15), 420)
+
+
 def _apply_status_colours(ws, headings: list[str], first_data_row: int) -> None:
     if "Match Status" not in headings:
         return
@@ -159,6 +205,7 @@ def format_review_sheet(ws, headings: list[str]) -> None:
 
     _apply_field_formats(ws, headings, first_data_row=3)
     _set_column_widths(ws, header_row=2)
+    _set_wrapped_row_heights(ws, headings, first_data_row=3)
     _apply_status_colours(ws, headings, first_data_row=3)
 
 
@@ -173,3 +220,4 @@ def format_reference_sheet(ws) -> None:
 
     _apply_field_formats(ws, headings, first_data_row=2)
     _set_column_widths(ws, header_row=1)
+    _set_wrapped_row_heights(ws, headings, first_data_row=2)
