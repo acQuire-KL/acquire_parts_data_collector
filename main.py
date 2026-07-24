@@ -10,8 +10,9 @@ from digikey_client import DigiKeyClient
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
 from workbook_layout import enriched_parts_columns
+from commercial_profile import commercial_offers
 
-APP_VERSION = "0.2.3"
+APP_VERSION = "0.2.4a"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -148,7 +149,7 @@ def _numeric_sort(value):
 
 def primary_commercial_offer(profile):
     """Choose a review-friendly offer while retaining every offer in Commercial Analysis."""
-    variations = list((profile or {}).get("variations") or [])
+    variations = commercial_offers(profile)
     if not variations:
         return {}
     for preferred in ("Cut Tape", "Loose", "Tube", "Tray", "Reel", "DigiReel"):
@@ -190,7 +191,7 @@ def first_additional_charge(variation):
 
 def commercial_analysis_rows(result, profile):
     rows = []
-    for variation in (profile or {}).get("variations") or []:
+    for variation in commercial_offers(profile):
         charge = first_additional_charge(variation)
         price_breaks = variation.get("standard_price_breaks") or []
         if not price_breaks:
@@ -219,6 +220,40 @@ def commercial_analysis_rows(result, profile):
                 ("Captured At UTC", profile.get("captured_at_utc", "")),
             ]))
     return rows
+
+
+def offer_value_summary(profile, field, fallback_field=""):
+    """Return one labelled line per commercial offer for a selected field."""
+    lines = []
+    for offer in commercial_offers(profile):
+        label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+        value = offer.get(field)
+        if value in (None, "") and fallback_field:
+            value = offer.get(fallback_field)
+        if value not in (None, ""):
+            lines.append(f"{label}: {value}")
+    return "\n".join(lines)
+
+
+def all_additional_charges_summary(profile, field):
+    lines = []
+    for offer in commercial_offers(profile):
+        label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+        for charge in offer.get("additional_charges") or []:
+            value = charge.get(field)
+            if value not in (None, ""):
+                lines.append(f"{label}: {value}")
+    return "\n".join(lines)
+
+
+def all_price_breaks_summary(profile):
+    sections = []
+    for offer in commercial_offers(profile):
+        summary = price_break_summary(offer)
+        if summary:
+            label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+            sections.append(f"{label}\n{summary}")
+    return "\n\n".join(sections)
 
 
 def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
@@ -291,17 +326,18 @@ def build_result(row, requested_mfg, requested_mpn, p, pa, record, resolved):
         ("Current Rating", parameter_value(pa, "current rating (amps)", "current rating", "current - output", "current - continuous drain (id) @ 25°c")),
         ("Power Rating", parameter_value(pa, "power (watts)", "power - max", "power dissipation (max)")),
         ("Provider", commercial_profile.get("provider", "")),
-        ("Provider Part Number", primary_offer.get("provider_part_number", "")),
+        ("Offer Count", len(commercial_offers(commercial_profile))),
+        ("Provider Part Number", offer_value_summary(commercial_profile, "provider_part_number")),
         ("Currency", commercial_profile.get("provider_currency", "")),
-        ("Pack Format", primary_offer.get("pack_format", "")),
-        ("Packaging Code", primary_offer.get("packaging_code", primary_offer.get("package_type", ""))),
-        ("Minimum Order Quantity", primary_offer.get("minimum_order_quantity", "")),
-        ("Pack Quantity", primary_offer.get("pack_quantity", "")),
-        ("Quantity Available", primary_offer.get("quantity_available", commercial_profile.get("product_quantity_available", ""))),
+        ("Pack Format", offer_value_summary(commercial_profile, "pack_format")),
+        ("Packaging Code", offer_value_summary(commercial_profile, "packaging_code", "package_type")),
+        ("Minimum Order Quantity", offer_value_summary(commercial_profile, "minimum_order_quantity")),
+        ("Pack Quantity", offer_value_summary(commercial_profile, "pack_quantity")),
+        ("Quantity Available", offer_value_summary(commercial_profile, "quantity_available")),
         ("Manufacturer Lead Weeks", commercial_profile.get("manufacturer_lead_weeks", "")),
-        ("Additional Charge", additional_charge.get("amount", "")),
-        ("Additional Charge Description", additional_charge.get("description", "")),
-        ("Price Breaks", price_break_summary(primary_offer)),
+        ("Additional Charge", all_additional_charges_summary(commercial_profile, "amount")),
+        ("Additional Charge Description", all_additional_charges_summary(commercial_profile, "description")),
+        ("Price Breaks", all_price_breaks_summary(commercial_profile)),
         ("Captured At UTC", record.captured_at_utc),
         ("Data Source Mode", record.source_mode),
         ("Data Provider", str(record.metadata.get("provider", "DigiKey"))),

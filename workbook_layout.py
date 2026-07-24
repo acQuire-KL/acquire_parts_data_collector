@@ -45,17 +45,18 @@ ENRICHED_PARTS_COLUMNS = [
 
     # Commercial
     ("Commercial", "Provider", "commercial_profile.provider", "Commercial data provider"),
-    ("Commercial", "Provider Part Number", "commercial_profile.offers[].provider_part_number", "Ordering reference for the primary offer"),
+    ("Commercial", "Offer Count", "commercial_profile.offer_count", "Number of commercial purchasing offers captured"),
+    ("Commercial", "Provider Part Number", "commercial_profile.offers[].provider_part_number", "All provider ordering references, one per line"),
     ("Commercial", "Currency", "commercial_profile.provider_currency", "Original provider currency; never overwritten"),
-    ("Commercial", "Pack Format", "commercial_profile.offers[].pack_format", "Normalised packaging format for the primary offer"),
-    ("Commercial", "Packaging Code", "commercial_profile.offers[].packaging_code", "Provider packaging description"),
-    ("Commercial", "Minimum Order Quantity", "commercial_profile.offers[].minimum_order_quantity", "MOQ for the primary offer"),
-    ("Commercial", "Pack Quantity", "commercial_profile.offers[].pack_quantity", "Standard pack quantity for the primary offer"),
-    ("Commercial", "Quantity Available", "commercial_profile.offers[].quantity_available", "Availability for the primary packaging offer"),
+    ("Commercial", "Pack Format", "commercial_profile.offers[].pack_format", "All normalised packaging formats, one per line"),
+    ("Commercial", "Packaging Code", "commercial_profile.offers[].packaging_code", "All provider packaging descriptions, one per line"),
+    ("Commercial", "Minimum Order Quantity", "commercial_profile.offers[].minimum_order_quantity", "MOQ for each commercial offer, one per line"),
+    ("Commercial", "Pack Quantity", "commercial_profile.offers[].pack_quantity", "Standard pack quantity for each commercial offer, one per line"),
+    ("Commercial", "Quantity Available", "commercial_profile.offers[].quantity_available", "Availability for each commercial offer, one per line"),
     ("Commercial", "Manufacturer Lead Weeks", "commercial_profile.manufacturer_lead_weeks", "Manufacturer lead time reported by the provider"),
-    ("Commercial", "Additional Charge", "commercial_profile.offers[].additional_charges[].amount", "Fixed charge such as Digi-Reel service fee"),
-    ("Commercial", "Additional Charge Description", "commercial_profile.offers[].additional_charges[].description", "Description of the fixed commercial charge"),
-    ("Commercial", "Price Breaks", "commercial_profile.offers[].standard_price_breaks", "One price break per line for the primary offer"),
+    ("Commercial", "Additional Charge", "commercial_profile.offers[].additional_charges[].amount", "Charges across all commercial offers, one per line"),
+    ("Commercial", "Additional Charge Description", "commercial_profile.offers[].additional_charges[].description", "Charge descriptions across all offers, one per line"),
+    ("Commercial", "Price Breaks", "commercial_profile.offers[].standard_price_breaks", "All price ladders, grouped by commercial offer"),
 
     # Traceability
     ("Traceability", "Captured At UTC", "knowledge_base_metadata.captured_at_utc", "Capture timestamp"),
