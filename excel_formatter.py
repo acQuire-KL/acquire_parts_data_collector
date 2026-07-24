@@ -129,6 +129,26 @@ def _apply_field_formats(ws, headings: list[str], first_data_row: int) -> None:
                 )
 
 
+
+def _set_wrapped_row_heights(ws, headings: list[str], first_data_row: int) -> None:
+    """Give multi-line cells enough height to display their explicit line breaks."""
+    wrapped_columns = [
+        column
+        for column, heading in enumerate(headings, 1)
+        if format_for_heading(heading).wrap_text
+    ]
+    if not wrapped_columns:
+        return
+
+    for row_number in range(first_data_row, ws.max_row + 1):
+        line_count = 1
+        for column in wrapped_columns:
+            value = ws.cell(row_number, column).value
+            if value not in (None, ""):
+                line_count = max(line_count, str(value).count("\n") + 1)
+        ws.row_dimensions[row_number].height = min(max(18, line_count * 15), 90)
+
+
 def _apply_status_colours(ws, headings: list[str], first_data_row: int) -> None:
     if "Match Status" not in headings:
         return
@@ -159,6 +179,7 @@ def format_review_sheet(ws, headings: list[str]) -> None:
 
     _apply_field_formats(ws, headings, first_data_row=3)
     _set_column_widths(ws, header_row=2)
+    _set_wrapped_row_heights(ws, headings, first_data_row=3)
     _apply_status_colours(ws, headings, first_data_row=3)
 
 
@@ -173,3 +194,4 @@ def format_reference_sheet(ws) -> None:
 
     _apply_field_formats(ws, headings, first_data_row=2)
     _set_column_widths(ws, header_row=1)
+    _set_wrapped_row_heights(ws, headings, first_data_row=2)
