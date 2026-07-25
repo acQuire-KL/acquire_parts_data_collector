@@ -6,6 +6,10 @@ from typing import Any
 from knowledge_base_manager import KnowledgeRecord
 
 
+class ProviderConfigurationError(RuntimeError):
+    """Raised when a provider cannot run because its configuration is absent."""
+
+
 class BaseProvider(ABC):
     """Common contract implemented by every PDC data provider.
 

@@ -1,3 +1,19 @@
+## [0.2.5] - Step 3B.1 Mouser connectivity
+
+### Added
+
+- Added a minimal Mouser Search API client using `MOUSER_API_KEY`.
+- Added `MouserProvider` under the common provider contract.
+- Added a live connectivity utility: `python mouser_connectivity_check.py <MPN>`.
+- Added controlled handling for missing Mouser configuration, HTTP failures and Mouser API error payloads.
+- Added mocked unit tests; no live API call is made by the test suite.
+
+### Preserved
+
+- Mouser is not yet registered in the normal workbook collection flow.
+- Workbook content and formatting are unchanged in this connectivity-only step.
+- Mouser response mapping into the Knowledge Base is deferred to Step 3B.2.
+
 ## [0.2.5] - Step 3A: Multi-Provider Execution Contract
 
 ### Added

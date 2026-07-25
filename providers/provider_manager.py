@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 from typing import Any
 
-from providers.base_provider import BaseProvider
+from providers.base_provider import BaseProvider, ProviderConfigurationError
 from providers.provider_result import ProviderResult, ProviderStatus
 
 
@@ -59,6 +59,13 @@ class ProviderManager:
 
         try:
             data: Any = method(*args, **kwargs)
+        except ProviderConfigurationError as error:
+            return ProviderResult(
+                provider_name=provider.name,
+                status=ProviderStatus.SKIPPED,
+                message=str(error),
+                exception=error,
+            )
         except Exception as error:
             return ProviderResult(
                 provider_name=provider.name,

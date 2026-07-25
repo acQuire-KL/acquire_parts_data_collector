@@ -23,3 +23,17 @@ class Settings:
         if not cid or not secret:
             raise ValueError('Copy .env.example to .env and enter DigiKey credentials.')
         return cls(cid, secret, os.getenv('DIGIKEY_SITE','IE').upper(), os.getenv('DIGIKEY_LANGUAGE','en'), os.getenv('DIGIKEY_CURRENCY','EUR').upper(), os.getenv('DIGIKEY_SANDBOX','false').lower() in {'1','true','yes'})
+
+
+@dataclass(frozen=True)
+class MouserSettings:
+    """Configuration required by the Mouser Search API."""
+
+    api_key: str
+    base_url: str = "https://api.mouser.com"
+    timeout_seconds: float = 30.0
+
+    @classmethod
+    def from_env(cls):
+        load_dotenv()
+        return cls(api_key=os.getenv("MOUSER_API_KEY", "").strip())
