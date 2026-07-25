@@ -171,3 +171,9 @@ PDC may collect candidates and evidence, but it must not automatically:
 - alter quoted provider prices by embedding fees into unit prices.
 
 Those actions belong to PIE or to explicit user review.
+
+## Multi-Provider Evidence Model
+
+PDC queries every enabled provider independently and preserves each provider response as peer evidence. The provider-neutral component summary is created only after provider execution has completed. It may confirm identity and engineering agreement, but it must not rank providers, choose suppliers or make sourcing recommendations; those responsibilities belong to PIE.
+
+The workbook is a review dashboard over the Knowledge Base. Detailed commercial offers remain in Commercial Analysis, while raw responses and common profiles remain in the Knowledge Base.

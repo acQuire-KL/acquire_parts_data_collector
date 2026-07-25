@@ -5,15 +5,21 @@ from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
 
-from config import Settings
+from config import Settings, MouserSettings
 from providers import ProviderManager
 from providers.digikey import DigiKeyProvider
+from providers.mouser import MouserProvider
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
 from workbook_layout import enriched_parts_columns
 from commercial_profile import commercial_offers
+from knowledge_base_manager import KnowledgeBaseManager
+from multi_provider_summary import (
+    ProviderEvidence, engineering_confirmation, evidence_status, merged_value,
+    provider_availability, provider_identity_match,
+)
 
-APP_VERSION = "0.2.5"
+APP_VERSION = "0.2.6"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -378,6 +384,110 @@ def classify_failure_status(error: Exception) -> str:
         return "Not Found"
     return "Review Required"
 
+def _profile_attribute(profile, *aliases):
+    attributes = (profile or {}).get("attributes") or {}
+    lookup = {clean(key): value for key, value in attributes.items()}
+    for alias in aliases:
+        value = lookup.get(clean(alias))
+        if value not in (None, "", "-"):
+            return str(value)
+    return ""
+
+
+def _profile_compliance(profile, *aliases):
+    compliance = (profile or {}).get("compliance") or {}
+    lookup = {clean(key): value for key, value in compliance.items()}
+    for alias in aliases:
+        value = lookup.get(clean(alias))
+        if value not in (None, "", "-"):
+            return str(value)
+    return ""
+
+
+def _merged_custom_value(evidence, getter):
+    values = []
+    for item in evidence:
+        if not item.identity_match:
+            continue
+        value = str(getter(item.part_profile or {}) or "").strip()
+        if value:
+            values.append((item.provider, value))
+    if not values:
+        return ""
+    if len({clean(value) for _, value in values}) == 1:
+        return values[0][1]
+    return "\n".join(f"{provider}: {value}" for provider, value in values)
+
+
+def _provider_evidence_text(evidence):
+    return "\n".join(
+        f"{item.provider}: {item.execution_status}"
+        + (f" - {item.message}" if item.message else "")
+        for item in evidence
+    )
+
+
+def _provider_price_summary(profile):
+    if not profile:
+        return ""
+    summary = all_price_breaks_summary(profile)
+    currency = str(profile.get("provider_currency") or "").strip()
+    return f"{currency}\n{summary}" if currency and summary else summary
+
+
+def _provider_profile(evidence, provider_name):
+    for item in evidence:
+        if item.provider.casefold() == provider_name.casefold():
+            return item.commercial_profile or {}
+    return {}
+
+
+def build_combined_result(row, requested_mfg, requested_mpn, evidence):
+    status, reason = evidence_status(evidence)
+    matched = [item.provider for item in evidence if item.identity_match]
+    digikey = _provider_profile(evidence, "DigiKey")
+    mouser = _provider_profile(evidence, "Mouser")
+
+    values = OrderedDict((heading, "") for _, heading, _, _ in enriched_columns())
+    values.update({
+        "Source Row": row,
+        "Requested Manufacturer": requested_mfg,
+        "Requested MPN": requested_mpn,
+        "Match Status": status,
+        "Reason": reason,
+        "Providers Queried": _provider_evidence_text(evidence),
+        "Providers Matched": ", ".join(matched),
+        "Engineering Confirmation": engineering_confirmation(evidence),
+        "Manufacturer": merged_value(evidence, "manufacturer"),
+        "Manufacturer Part Number": merged_value(evidence, "manufacturer_part_number"),
+        "Description": merged_value(evidence, "description"),
+        "Detailed Description": merged_value(evidence, "detailed_description"),
+        "Product Status": merged_value(evidence, "lifecycle_status"),
+        "Mounting Type": merged_value(evidence, "mounting_type"),
+        "Package / Case": merged_value(evidence, "package"),
+        "Operating Temperature": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Operating Temperature")),
+        "Pin / Position Count": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Number of Positions", "Number of Pins", "Pin Count")),
+        "Tolerance": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Tolerance", "Frequency Tolerance")),
+        "Voltage Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Voltage - Rated", "Voltage Rating", "Voltage - DC Reverse (Vr) (Max)")),
+        "Current Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Current Rating", "Current - Output", "Current - Continuous Drain")),
+        "Power Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Power (Watts)", "Power - Max", "Power Dissipation")),
+        "DigiKey Available": provider_availability(digikey),
+        "DigiKey Lead Time": digikey.get("manufacturer_lead_weeks", ""),
+        "DigiKey Price Breaks": _provider_price_summary(digikey),
+        "Mouser Available": provider_availability(mouser),
+        "Mouser Lead Time": mouser.get("manufacturer_lead_weeks", ""),
+        "Mouser Price Breaks": _provider_price_summary(mouser),
+        "Datasheet URL": merged_value(evidence, "datasheet_url"),
+        "Product URL": merged_value(evidence, "product_url"),
+        "Product Image URL": merged_value(evidence, "image_url"),
+        "RoHS Status": merged_value(evidence, "rohs_status"),
+        "REACH Status": _merged_custom_value(evidence, lambda p: _profile_compliance(p, "REACH", "REACH Status")),
+        "ECCN": _merged_custom_value(evidence, lambda p: _profile_compliance(p, "ECCN", "Export Control Class Number")),
+        "HTSUS Code": _merged_custom_value(evidence, lambda p: _profile_compliance(p, "HTSUS", "HTSUS Code")),
+    })
+    return values
+
+
 def run(args):
     source = load_workbook(args.input, data_only=False)
     input_sheet = source[args.sheet] if args.sheet else source.active
@@ -394,90 +504,127 @@ def run(args):
             break
 
     settings = Settings.from_env()
-    provider_manager = ProviderManager([DigiKeyProvider(settings)])
-    provider = provider_manager.primary
+    knowledge_base = KnowledgeBaseManager()
+    digikey = DigiKeyProvider(settings, knowledge_base)
+    mouser = MouserProvider(MouserSettings.from_env(), knowledge_base)
+    provider_manager = ProviderManager([digikey, mouser])
     print(
         f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; "
         f"providers={', '.join(provider_manager.names)}; "
-        f"{provider.name} site={settings.site}, currency={settings.currency}"
+        f"DigiKey site={settings.site}, currency={settings.currency}"
     )
     if args.validate_only:
         return
 
     results = []
-    attributes = []
     commercial_rows = []
-    manufacturer_catalogue = provider_manager.execute(
-        provider, "manufacturers", args.force_refresh
-    ).require_data()
+    manufacturer_result = provider_manager.execute(digikey, "manufacturers", args.force_refresh)
+    manufacturer_catalogue = manufacturer_result.data if manufacturer_result.succeeded else None
 
     for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
         print(f"[{index}/{len(input_rows)}] {manufacturer} {mpn}")
-        try:
-            resolved = resolve_manufacturer(manufacturer, manufacturer_catalogue)
-            if resolved.manufacturer_id is None:
-                raise RuntimeError(
-                    f"Manufacturer resolution {resolved.status}: {resolved.reason} "
-                    f"(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})"
+        evidence = []
+        resolved = None
+
+        if manufacturer_catalogue is not None:
+            try:
+                resolved = resolve_manufacturer(manufacturer, manufacturer_catalogue)
+                if resolved.manufacturer_id is None:
+                    raise RuntimeError(
+                        f"Manufacturer resolution {resolved.status}: {resolved.reason} "
+                        f"(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})"
+                    )
+                provider_result = provider_manager.execute(
+                    digikey, "details", mpn, resolved.manufacturer_id, args.force_refresh,
+                    input_manufacturer=manufacturer,
+                    resolved_manufacturer=resolved.matched_name,
                 )
-            print(
-                f"    Manufacturer: {manufacturer} -> {resolved.matched_name} "
-                f"(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})"
-            )
-            record = provider_manager.execute(
-                provider,
-                "details",
-                mpn,
-                resolved.manufacturer_id,
-                args.force_refresh,
-                input_manufacturer=manufacturer,
-                resolved_manufacturer=resolved.matched_name,
-            ).require_data()
-            payload = record.provider_response
-            p = product(payload)
-            pa = params(p)
-            result = build_result(row_number, manufacturer, mpn, p, pa, record, resolved)
-            results.append(result)
-            commercial_rows.extend(commercial_analysis_rows(result, record.commercial_profile))
-            for path, value in flatten(payload):
-                attributes.append([row_number, manufacturer, mpn, path, value, provider.attribute_source])
-        except Exception as error:
-            failure = OrderedDict((heading, "") for _, heading, _, _ in enriched_columns())
-            failure.update({
-                "Source Row": row_number,
-                "Requested Manufacturer": manufacturer,
-                "Requested MPN": mpn,
-                "Match Status": classify_failure_status(error),
-                "Reason": str(error),
-                "Captured At UTC": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-                "Data Source Mode": "error",
-                "Data Provider": provider.name,
-            })
-            results.append(failure)
+            except Exception as error:
+                provider_result = None
+                evidence.append(ProviderEvidence("DigiKey", "error", str(error)))
+        else:
+            provider_result = manufacturer_result
+
+        if provider_result is not None:
+            if provider_result.succeeded:
+                record = provider_result.data
+                profile = dict(record.part_profile or {})
+                profile["identity_match"] = provider_identity_match(manufacturer, mpn, profile)
+                execution_status = "success" if profile.get("manufacturer_part_number") else "no_match"
+                item = ProviderEvidence(
+                    "DigiKey", execution_status, part_profile=profile,
+                    commercial_profile=record.commercial_profile,
+                    captured_at_utc=record.captured_at_utc, source_mode=record.source_mode,
+                )
+                evidence.append(item)
+                commercial_rows.extend(commercial_analysis_rows(
+                    {"Source Row": row_number, "Manufacturer": profile.get("manufacturer", ""),
+                     "Manufacturer Part Number": profile.get("manufacturer_part_number", "")},
+                    record.commercial_profile,
+                ))
+            else:
+                evidence.append(ProviderEvidence("DigiKey", provider_result.status.value, provider_result.message or ""))
+
+        mouser_result = provider_manager.execute(
+            mouser, "details", mpn, None, args.force_refresh,
+            input_manufacturer=manufacturer,
+            resolved_manufacturer=(resolved.matched_name if resolved else manufacturer),
+        )
+        if mouser_result.succeeded:
+            record = mouser_result.data
+            profile = dict(record.part_profile or {})
+            profile["identity_match"] = provider_identity_match(manufacturer, mpn, profile)
+            execution_status = "success" if profile.get("manufacturer_part_number") else "no_match"
+            evidence.append(ProviderEvidence(
+                "Mouser", execution_status, part_profile=profile,
+                commercial_profile=record.commercial_profile,
+                captured_at_utc=record.captured_at_utc, source_mode=record.source_mode,
+            ))
+            commercial_rows.extend(commercial_analysis_rows(
+                {"Source Row": row_number, "Manufacturer": profile.get("manufacturer", ""),
+                 "Manufacturer Part Number": profile.get("manufacturer_part_number", "")},
+                record.commercial_profile,
+            ))
+        else:
+            evidence.append(ProviderEvidence("Mouser", mouser_result.status.value, mouser_result.message or ""))
+
+        result = build_combined_result(row_number, manufacturer, mpn, evidence)
+        results.append(result)
+        knowledge_base.save_part_summary(
+            manufacturer=manufacturer,
+            mpn=mpn,
+            summary={
+                "match_status": result.get("Match Status", ""),
+                "reason": result.get("Reason", ""),
+                "providers_matched": [item.provider for item in evidence if item.identity_match],
+                "engineering_confirmation": result.get("Engineering Confirmation", ""),
+                "providers": [
+                    {
+                        "provider": item.provider,
+                        "execution_status": item.execution_status,
+                        "identity_match": item.identity_match,
+                        "message": item.message,
+                        "captured_at_utc": item.captured_at_utc,
+                        "source_mode": item.source_mode,
+                    }
+                    for item in evidence
+                ],
+            },
+        )
 
     columns = enriched_columns()
     headings = [heading for _, heading, _, _ in columns]
-    reason_column = ("Input & Match", "Reason", "PDC derived", "Detailed diagnostics retained for investigation")
+    reason_column = ("Status", "Reason", "PDC combined provider evidence", "Detailed provider evidence")
     review_columns = columns[:4] + [reason_column] + columns[4:]
     review_headings = [heading for _, heading, _, _ in review_columns]
+
     output = Workbook()
     enriched = output.active
     enriched.title = "Enriched Parts"
     add_group_headers(enriched, columns)
     enriched.append(headings)
-
-    sample_values = {}
     for result in results:
         enriched.append([result.get(heading, "") for heading in headings])
-        if result.get("Match Status") == "Matched":
-            for heading, value in result.items():
-                if heading not in sample_values and value not in ("", None):
-                    sample_values[heading] = value
-
-    all_attributes = output.create_sheet("All Attributes")
-    all_attributes.append(["Source Row", "Requested Manufacturer", "Requested MPN", "Attribute Path", "Attribute Value", "Source"])
-    for item in attributes:
-        all_attributes.append(item)
 
     review = output.create_sheet("Review Required")
     add_group_headers(review, review_columns)
@@ -507,11 +654,8 @@ def run(args):
     for row in commercial_rows:
         commercial.append([row.get(heading, "") for heading in commercial_headings])
 
-    add_mapping_sheet(output, columns, sample_values)
-
     format_review_sheet(enriched, headings)
     format_review_sheet(review, review_headings)
-    format_reference_sheet(all_attributes)
     format_reference_sheet(commercial)
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)

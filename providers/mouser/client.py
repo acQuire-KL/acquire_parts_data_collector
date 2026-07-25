@@ -74,7 +74,7 @@ class MouserClient:
                 messages.append(str(error))
         raise MouserApiError("; ".join(messages))
 
-    def search_part_number(self, mpn: str, *, part_search_options: str = "None") -> dict[str, Any]:
+    def search_part_number(self, mpn: str, *, part_search_options: str = "string") -> dict[str, Any]:
         """Search Mouser by part number and return the unmodified JSON payload."""
         clean_mpn = str(mpn or "").strip()
         if not clean_mpn:
@@ -84,6 +84,7 @@ class MouserClient:
             "SearchByPartRequest": {
                 "mouserPartNumber": clean_mpn,
                 "partSearchOptions": part_search_options,
+                "mouserPaysCustomsAndDuties": False,
             }
         }
         return self._post(self.PART_NUMBER_PATH, payload)

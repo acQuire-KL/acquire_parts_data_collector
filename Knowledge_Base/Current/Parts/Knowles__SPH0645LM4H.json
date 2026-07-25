@@ -1,0 +1,32 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-07-25T20:05:38Z",
+  "requested_manufacturer": "Knowles",
+  "requested_mpn": "SPH0645LM4H",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: Mouser. Errors: DigiKey.",
+    "providers_matched": [
+      "Mouser"
+    ],
+    "engineering_confirmation": "Single provider evidence",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product sph0645lm4h Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"61fa68fc-b7fd-4c1f-914e-5bed726114ab\",\n                \"errors\": []\n            }\n        ",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-07-25T20:05:38Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ from commercial_profile import (
 from part_profile import build_part_profile, ensure_current_part_profile
 
 
-KNOWLEDGE_BASE_SCHEMA_VERSION = "1.3"
+KNOWLEDGE_BASE_SCHEMA_VERSION = "1.4"
 
 
 def utc_now() -> datetime:
@@ -230,6 +230,33 @@ class KnowledgeBaseManager:
         current_path.write_text(json.dumps(document, indent=2, ensure_ascii=False), encoding="utf-8")
         self._update_manifest(provider, captured)
         return KnowledgeRecord(response, metadata, commercial_profile, part_profile)
+
+
+    def save_part_summary(
+        self,
+        *,
+        manufacturer: str,
+        mpn: str,
+        summary: dict[str, Any],
+    ) -> Path:
+        """Save the provider-neutral current view for one component.
+
+        Provider records remain authoritative evidence under their own folders.
+        This document only links and summarises the evidence captured for the
+        requested manufacturer + MPN; it does not rank providers.
+        """
+        folder = self.current_root / "Parts"
+        folder.mkdir(parents=True, exist_ok=True)
+        path = folder / f"{self._part_key(manufacturer, mpn)}.json"
+        document = {
+            "knowledge_base_schema_version": KNOWLEDGE_BASE_SCHEMA_VERSION,
+            "updated_at_utc": utc_text(),
+            "requested_manufacturer": manufacturer,
+            "requested_mpn": mpn,
+            "summary": summary,
+        }
+        path.write_text(json.dumps(document, indent=2, ensure_ascii=False), encoding="utf-8")
+        return path
 
     def _ensure_manifest(self) -> None:
         if self.manifest_path.exists():

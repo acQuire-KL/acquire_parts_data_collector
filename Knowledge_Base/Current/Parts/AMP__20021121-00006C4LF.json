@@ -1,0 +1,30 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-07-25T20:05:31Z",
+  "requested_manufacturer": "AMP",
+  "requested_mpn": "20021121-00006C4LF",
+  "summary": {
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed. Errors: DigiKey.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product 20021121-00006c4lf Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"8dd4b57b-5b0c-4212-938d-3a5ff8dbd586\",\n                \"errors\": []\n            }\n        ",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-07-25T20:05:31Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

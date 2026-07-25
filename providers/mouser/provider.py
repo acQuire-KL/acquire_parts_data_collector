@@ -39,7 +39,7 @@ class MouserProvider(BaseProvider):
     def required_environment_variables(self) -> tuple[str, ...]:
         return self.REQUIRED_ENVIRONMENT_VARIABLES
 
-    def search_part_number(self, mpn: str, *, part_search_options: str = "None") -> dict[str, Any]:
+    def search_part_number(self, mpn: str, *, part_search_options: str = "string") -> dict[str, Any]:
         return self.client.search_part_number(mpn, part_search_options=part_search_options)
 
     def manufacturers(self, force: bool = False) -> dict[str, Any]:

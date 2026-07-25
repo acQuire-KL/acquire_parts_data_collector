@@ -1,0 +1,33 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-07-25T20:05:28Z",
+  "requested_manufacturer": "Coilcraft",
+  "requested_mpn": "XFL4015-471MEC",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: DigiKey, Mouser.",
+    "providers_matched": [
+      "DigiKey",
+      "Mouser"
+    ],
+    "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-07-22T17:59:00Z",
+        "source_mode": "knowledge_base_current"
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-07-25T20:05:28Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

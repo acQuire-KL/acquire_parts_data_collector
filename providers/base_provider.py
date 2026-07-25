@@ -25,7 +25,7 @@ class BaseProvider(ABC):
     @property
     @abstractmethod
     def attribute_source(self) -> str:
-        """Return the source label used on the All Attributes worksheet."""
+        """Return the stable source label used for provider evidence and diagnostics."""
 
     @property
     @abstractmethod

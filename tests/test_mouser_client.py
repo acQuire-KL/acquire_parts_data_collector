@@ -26,7 +26,8 @@ class MouserClientTests(unittest.TestCase):
             json={
                 "SearchByPartRequest": {
                     "mouserPartNumber": "ABC123",
-                    "partSearchOptions": "None",
+                    "partSearchOptions": "string",
+                    "mouserPaysCustomsAndDuties": False,
                 }
             },
             timeout=30.0,

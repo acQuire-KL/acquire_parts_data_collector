@@ -1,3 +1,19 @@
+## [0.2.6] - 2026-07-25
+
+### Added
+- Multi-provider component summary records under `Knowledge_Base/Current/Parts`.
+- Combined provider identity evidence and engineering confirmation.
+- DigiKey and Mouser dashboard blocks on Enriched Parts.
+- Future PDC/PIE Knowledge Base Explorer concept to the Parking Lot.
+
+### Changed
+- Match Status is now assigned only after all enabled providers have been reviewed.
+- Enriched Parts now shows only availability, lead time and price breaks per provider.
+- Knowledge Base schema advanced to 1.4.
+
+### Removed
+- Attribute Mapping and All Attributes worksheets from the normal workbook output. Raw responses and mapped profiles remain preserved in the Knowledge Base.
+
 ## [0.2.5] - Step 3B.2 Mouser response mapping
 
 ### Added

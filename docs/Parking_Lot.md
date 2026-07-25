@@ -463,3 +463,14 @@ Selected checks may later be automated, including:
 - hyperlink and field-presence checks.
 
 Visual workbook review remains a manual engineering check where appropriate.
+
+## Future GUI / Knowledge Base Explorer
+
+Develop a GUI presentation layer after the multi-provider Knowledge Base and provider coverage are mature.
+
+Possible later modes:
+
+- **PDC Explorer** — browse every component in the Knowledge Base and view all provider identity, engineering, commercial and raw-evidence records on one screen.
+- **PIE Explorer** — use a BOM as the component filter, then add analysis, risk assessment and recommendations without changing the provider evidence captured by PDC.
+
+The GUI must remain a view over the Knowledge Base rather than becoming an independent data store.
