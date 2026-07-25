@@ -1,3 +1,25 @@
+## [0.2.5] - Step 3B.2 Mouser response mapping
+
+### Added
+
+- Added a provider-neutral `part_profile` for identity, documentation, lifecycle, compliance and engineering attributes.
+- Added Mouser mapping for manufacturer, MPN, Mouser part number, descriptions, URLs, lifecycle, RoHS, package and mounting data.
+- Added Mouser commercial mapping for stock, factory stock, lead time, MOQ, pack quantity, packaging, currency and complete price breaks.
+- Added Mouser Knowledge Base persistence while retaining the raw API payload as the authoritative captured evidence.
+- Added 12 mapping and Knowledge Base regression tests.
+
+### Changed
+
+- Knowledge Base schema advanced to 1.3 and now stores both `part_profile` and `commercial_profile`.
+- Commercial profile schema advanced to 1.3 and now supports DigiKey and Mouser response shapes.
+- Existing Knowledge Base records without a part profile are upgraded in memory when loaded.
+
+### Preserved
+
+- Mouser is not yet registered in the normal workbook collection flow.
+- The workbook layout and visible output remain unchanged.
+- Raw DigiKey and Mouser provider responses remain unmodified.
+
 ## [0.2.5] - Step 3B.1 Mouser connectivity
 
 ### Added

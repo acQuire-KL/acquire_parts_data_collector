@@ -11,9 +11,10 @@ from commercial_profile import (
     build_commercial_profile,
     ensure_current_commercial_profile,
 )
+from part_profile import build_part_profile, ensure_current_part_profile
 
 
-KNOWLEDGE_BASE_SCHEMA_VERSION = "1.2"
+KNOWLEDGE_BASE_SCHEMA_VERSION = "1.3"
 
 
 def utc_now() -> datetime:
@@ -35,6 +36,7 @@ class KnowledgeRecord:
     provider_response: dict[str, Any]
     metadata: dict[str, Any]
     commercial_profile: dict[str, Any]
+    part_profile: dict[str, Any] | None = None
 
     @property
     def captured_at_utc(self) -> str:
@@ -78,11 +80,16 @@ class KnowledgeBaseManager:
         metadata["source_mode"] = "knowledge_base_current"
         provider_response = dict(document.get("provider_response") or {})
         commercial_profile = dict(document.get("commercial_profile") or {})
+        part_profile = dict(document.get("part_profile") or {})
         if commercial_profile:
             commercial_profile = ensure_current_commercial_profile(commercial_profile)
         else:
             commercial_profile = build_commercial_profile(provider_response, metadata)
-        return KnowledgeRecord(provider_response, metadata, commercial_profile)
+        if part_profile:
+            part_profile = ensure_current_part_profile(part_profile)
+        else:
+            part_profile = build_part_profile(provider_response, metadata)
+        return KnowledgeRecord(provider_response, metadata, commercial_profile, part_profile)
 
     def save_live_response(
         self,
@@ -115,10 +122,12 @@ class KnowledgeBaseManager:
             "rate_limit": rate_limit or {},
         }
         commercial_profile = build_commercial_profile(provider_response, metadata)
+        part_profile = build_part_profile(provider_response, metadata)
         document = {
             "knowledge_base_metadata": metadata,
             "provider_response": provider_response,
             "commercial_profile": commercial_profile,
+            "part_profile": part_profile,
         }
         text = json.dumps(document, indent=2, ensure_ascii=False)
 
@@ -136,7 +145,7 @@ class KnowledgeBaseManager:
         history_path.write_text(text, encoding="utf-8")
 
         self._update_manifest(provider, captured)
-        return KnowledgeRecord(provider_response, metadata, commercial_profile)
+        return KnowledgeRecord(provider_response, metadata, commercial_profile, part_profile)
 
     def save_reference_data(
         self,
@@ -210,15 +219,17 @@ class KnowledgeBaseManager:
             "rate_limit": {},
         }
         commercial_profile = build_commercial_profile(response, metadata)
+        part_profile = build_part_profile(response, metadata)
         document = {
             "knowledge_base_metadata": metadata,
             "provider_response": response,
             "commercial_profile": commercial_profile,
+            "part_profile": part_profile,
         }
         current_path = self.current_path(provider, endpoint, manufacturer, mpn)
         current_path.write_text(json.dumps(document, indent=2, ensure_ascii=False), encoding="utf-8")
         self._update_manifest(provider, captured)
-        return KnowledgeRecord(response, metadata, commercial_profile)
+        return KnowledgeRecord(response, metadata, commercial_profile, part_profile)
 
     def _ensure_manifest(self) -> None:
         if self.manifest_path.exists():

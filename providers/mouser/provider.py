@@ -3,28 +3,28 @@ from __future__ import annotations
 from typing import Any
 
 from config import MouserSettings
+from knowledge_base_manager import KnowledgeBaseManager, KnowledgeRecord
 from providers.base_provider import BaseProvider
 from providers.mouser.client import MouserClient
 
 
 class MouserProvider(BaseProvider):
-    """PDC provider adapter for Mouser Search API connectivity.
-
-    Step 3B.1 deliberately preserves the raw Mouser response. Mapping into the
-    common Knowledge Base structures is deferred to Step 3B.2.
-    """
+    """PDC provider adapter for the Mouser Search API."""
 
     NAME = "Mouser"
     ATTRIBUTE_SOURCE = "Mouser Search API"
     REQUIRED_ENVIRONMENT_VARIABLES = ("MOUSER_API_KEY",)
+    ENDPOINT = "Part_Number_Search"
 
     def __init__(
         self,
         settings: MouserSettings,
+        knowledge_base: KnowledgeBaseManager | None = None,
         *,
         client: MouserClient | None = None,
     ):
         self.settings = settings
+        self.knowledge_base = knowledge_base or KnowledgeBaseManager()
         self.client = client or MouserClient(settings)
 
     @property
@@ -43,8 +43,15 @@ class MouserProvider(BaseProvider):
         return self.client.search_part_number(mpn, part_search_options=part_search_options)
 
     def manufacturers(self, force: bool = False) -> dict[str, Any]:
-        del force  # Mouser caching is not introduced during connectivity testing.
+        del force
         return self.client.manufacturers()
+
+    @staticmethod
+    def _returned_manufacturer(payload: dict[str, Any]) -> str:
+        results = payload.get("SearchResults") or payload.get("searchResults") or {}
+        parts = results.get("Parts") or results.get("parts") or []
+        first = parts[0] if parts and isinstance(parts[0], dict) else {}
+        return str(first.get("Manufacturer") or first.get("manufacturer") or "")
 
     def details(
         self,
@@ -54,6 +61,21 @@ class MouserProvider(BaseProvider):
         *,
         input_manufacturer: str = "",
         resolved_manufacturer: str = "",
-    ) -> dict[str, Any]:
-        del manufacturer_id, force, input_manufacturer, resolved_manufacturer
-        return self.search_part_number(mpn)
+    ) -> KnowledgeRecord:
+        del force
+        payload = self.search_part_number(mpn)
+        returned_manufacturer = self._returned_manufacturer(payload)
+        resolved = resolved_manufacturer or returned_manufacturer or input_manufacturer
+        return self.knowledge_base.save_live_response(
+            provider=self.name,
+            endpoint=self.ENDPOINT,
+            manufacturer=resolved or "Unknown",
+            mpn=mpn,
+            provider_response=payload,
+            input_manufacturer=input_manufacturer,
+            resolved_manufacturer=resolved,
+            manufacturer_id=manufacturer_id,
+            locale="en-US",
+            currency="",
+            rate_limit={},
+        )
