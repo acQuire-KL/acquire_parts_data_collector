@@ -407,7 +407,9 @@ def run(args):
     results = []
     attributes = []
     commercial_rows = []
-    manufacturer_catalogue = provider.manufacturers(args.force_refresh)
+    manufacturer_catalogue = provider_manager.execute(
+        provider, "manufacturers", args.force_refresh
+    ).require_data()
 
     for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
         print(f"[{index}/{len(input_rows)}] {manufacturer} {mpn}")
@@ -422,13 +424,15 @@ def run(args):
                 f"    Manufacturer: {manufacturer} -> {resolved.matched_name} "
                 f"(ID {resolved.manufacturer_id}, confidence {resolved.confidence:.2f})"
             )
-            record = provider.details(
+            record = provider_manager.execute(
+                provider,
+                "details",
                 mpn,
                 resolved.manufacturer_id,
                 args.force_refresh,
                 input_manufacturer=manufacturer,
                 resolved_manufacturer=resolved.matched_name,
-            )
+            ).require_data()
             payload = record.provider_response
             p = product(payload)
             pa = params(p)

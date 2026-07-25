@@ -36,6 +36,8 @@ STATUS_FONTS = {
     "Not Found": "9C0006",
 }
 
+ENRICHED_PARTS_FREEZE_PANES = "E3"
+
 _NUMERIC_TEXT = re.compile(r"^[+-]?(?:\d+(?:,\d{3})*|\d*)(?:\.\d+)?$")
 
 
@@ -191,7 +193,7 @@ def _apply_status_colours(ws, headings: list[str], first_data_row: int) -> None:
 
 def format_review_sheet(ws, headings: list[str]) -> None:
     """Format Enriched Parts or Review Required for interactive review."""
-    ws.freeze_panes = "A3"
+    ws.freeze_panes = ENRICHED_PARTS_FREEZE_PANES
     ws.auto_filter.ref = f"A2:{get_column_letter(ws.max_column)}{ws.max_row}"
 
     for cell in ws[2]:

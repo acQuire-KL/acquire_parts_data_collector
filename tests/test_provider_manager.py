@@ -3,6 +3,7 @@ from unittest.mock import Mock
 
 from providers.base_provider import BaseProvider
 from providers.provider_manager import ProviderManager
+from providers.provider_result import ProviderStatus
 
 
 class ExampleProvider(BaseProvider):
@@ -17,6 +18,10 @@ class ExampleProvider(BaseProvider):
     @property
     def attribute_source(self):
         return self._attribute_source
+
+    @property
+    def required_environment_variables(self):
+        return ()
 
     def manufacturers(self, force=False):
         return []
@@ -63,6 +68,46 @@ class ProviderManagerTests(unittest.TestCase):
 
         with self.assertRaisesRegex(RuntimeError, "No data providers"):
             _ = manager.primary
+
+    def test_execute_wraps_successful_provider_data(self):
+        provider = ExampleProvider()
+        expected = {"Manufacturers": []}
+        provider.manufacturers = Mock(return_value=expected)
+        manager = ProviderManager([provider])
+
+        result = manager.execute(provider, "manufacturers", True)
+
+        self.assertEqual(ProviderStatus.SUCCESS, result.status)
+        self.assertTrue(result.succeeded)
+        self.assertIs(expected, result.require_data())
+        provider.manufacturers.assert_called_once_with(True)
+
+    def test_execute_isolates_provider_errors(self):
+        provider = ExampleProvider()
+        failure = RuntimeError("API unavailable")
+        provider.manufacturers = Mock(side_effect=failure)
+        manager = ProviderManager([provider])
+
+        result = manager.execute(provider, "manufacturers")
+
+        self.assertEqual(ProviderStatus.ERROR, result.status)
+        self.assertFalse(result.succeeded)
+        self.assertEqual("API unavailable", result.message)
+        with self.assertRaisesRegex(RuntimeError, "API unavailable"):
+            result.require_data()
+
+    def test_execute_rejects_unregistered_provider(self):
+        manager = ProviderManager([ExampleProvider("Registered")])
+
+        with self.assertRaisesRegex(ValueError, "not registered"):
+            manager.execute(ExampleProvider("Other"), "manufacturers")
+
+    def test_execute_rejects_unknown_operation(self):
+        provider = ExampleProvider()
+        manager = ProviderManager([provider])
+
+        with self.assertRaisesRegex(AttributeError, "no operation"):
+            manager.execute(provider, "unknown")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,12 @@ class ProviderFrameworkTests(unittest.TestCase):
         self.assertEqual("DigiKey", self.provider.name)
         self.assertEqual("DigiKey Product Information V4", self.provider.attribute_source)
 
+    def test_provider_declares_required_environment_variables(self):
+        self.assertEqual(
+            ("DIGIKEY_CLIENT_ID", "DIGIKEY_CLIENT_SECRET"),
+            self.provider.required_environment_variables,
+        )
+
     def test_manufacturer_collection_is_delegated_to_client(self):
         expected = {"Manufacturers": [{"Id": 1, "Name": "Example"}]}
         self.client.manufacturers.return_value = expected

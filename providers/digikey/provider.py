@@ -12,6 +12,7 @@ class DigiKeyProvider(BaseProvider):
 
     NAME = "DigiKey"
     ATTRIBUTE_SOURCE = "DigiKey Product Information V4"
+    REQUIRED_ENVIRONMENT_VARIABLES = ("DIGIKEY_CLIENT_ID", "DIGIKEY_CLIENT_SECRET")
 
     def __init__(
         self,
@@ -30,6 +31,10 @@ class DigiKeyProvider(BaseProvider):
     @property
     def attribute_source(self) -> str:
         return self.ATTRIBUTE_SOURCE
+
+    @property
+    def required_environment_variables(self) -> tuple[str, ...]:
+        return self.REQUIRED_ENVIRONMENT_VARIABLES
 
     def manufacturers(self, force: bool = False) -> Any:
         return self.client.manufacturers(force)

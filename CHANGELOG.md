@@ -1,3 +1,24 @@
+## [0.2.5] - Step 3A: Multi-Provider Execution Contract
+
+### Added
+
+- Added provider-neutral `ProviderResult` and `ProviderStatus` models.
+- Added a provider execution boundary that captures provider success and failure without interpreting source data.
+- Added explicit provider declarations for required environment variables.
+- Added regression tests for provider results, execution isolation and workbook freeze panes.
+
+### Changed
+
+- Existing DigiKey calls now pass through `ProviderManager.execute()` and unwrap their original data.
+- Enriched Parts and Review Required now freeze at `E3`, retaining the two header rows and first four review columns while scrolling.
+- Updated `.env.example` with grouped placeholders for DigiKey, Mouser, Future Electronics and Arrow.
+
+### Preserved
+
+- DigiKey remains the sole active provider.
+- Provider response data, Knowledge Base records and workbook content are unchanged.
+- Existing collection failures retain their current user-facing behaviour.
+
 ## [0.2.5] - Step 2: Provider Manager
 
 ### Added

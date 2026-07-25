@@ -1,18 +1,14 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from typing import Any
 
 from providers.base_provider import BaseProvider
+from providers.provider_result import ProviderResult, ProviderStatus
 
 
 class ProviderManager:
-    """Registry and access point for PDC data providers.
-
-    Step 2 deliberately keeps collection behaviour unchanged: the first
-    registered provider remains the active provider used by the existing
-    single-provider workflow. Later steps can iterate over ``providers``
-    without changing application-level registration code.
-    """
+    """Registry and provider-neutral execution boundary for PDC providers."""
 
     def __init__(self, providers: Iterable[BaseProvider] | None = None):
         self._providers: list[BaseProvider] = []
@@ -46,3 +42,33 @@ class ProviderManager:
         if not self._providers:
             raise RuntimeError("No data providers are registered")
         return self._providers[0]
+
+    def execute(self, provider: BaseProvider, operation: str, *args, **kwargs) -> ProviderResult:
+        """Execute one provider method and isolate provider-level failures.
+
+        Step 3A returns the raw provider data unchanged inside ProviderResult.
+        Later multi-provider steps can continue after one provider fails without
+        teaching the manager any DigiKey-, Mouser- or supplier-specific rules.
+        """
+        if provider not in self._providers:
+            raise ValueError(f"Provider is not registered: {provider.name}")
+
+        method = getattr(provider, operation, None)
+        if method is None or not callable(method):
+            raise AttributeError(f"Provider {provider.name} has no operation {operation!r}")
+
+        try:
+            data: Any = method(*args, **kwargs)
+        except Exception as error:
+            return ProviderResult(
+                provider_name=provider.name,
+                status=ProviderStatus.ERROR,
+                message=str(error),
+                exception=error,
+            )
+
+        return ProviderResult(
+            provider_name=provider.name,
+            status=ProviderStatus.SUCCESS,
+            data=data,
+        )

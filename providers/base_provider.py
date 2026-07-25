@@ -9,9 +9,8 @@ from knowledge_base_manager import KnowledgeRecord
 class BaseProvider(ABC):
     """Common contract implemented by every PDC data provider.
 
-    Providers own the provider-specific collection mechanism. The rest of PDC
-    can request reference data and product details without importing the
-    provider's API client directly.
+    Providers own authentication, collection and source-specific translation.
+    The manager can orchestrate them without importing provider API clients.
     """
 
     @property
@@ -23,6 +22,11 @@ class BaseProvider(ABC):
     @abstractmethod
     def attribute_source(self) -> str:
         """Return the source label used on the All Attributes worksheet."""
+
+    @property
+    @abstractmethod
+    def required_environment_variables(self) -> tuple[str, ...]:
+        """Return environment variables required to configure this provider."""
 
     @abstractmethod
     def manufacturers(self, force: bool = False) -> Any:
