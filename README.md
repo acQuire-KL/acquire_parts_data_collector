@@ -1,4 +1,4 @@
-# Parts Data Collector (PDC) — v0.2.7 development
+# Parts Data Collector (PDC) — v0.2.8 development
 
 PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
 
@@ -109,3 +109,11 @@ PDC now presents commercial data in two complementary forms:
 - `Commercial Analysis` contains one row per packaging offer and price break for BOM costing, Power Query and later PIE what-if analysis.
 
 The commercial model preserves the provider currency, complete standard price ladder, packaging option and fixed additional charges. Digi-Reel service fees are kept separate from unit prices so later costing can calculate true effective cost without altering the provider's quoted price.
+
+### Supported Providers
+
+| Provider | Status |
+|----------|--------|
+| DigiKey | ✅ Connected |
+| Mouser | ✅ Connected |
+| TME | ✅ Connected |

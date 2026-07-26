@@ -1,3 +1,19 @@
+# Changelog
+
+## 0.2.8 - Sprint 4.2.2a TME Connectivity
+
+- Added isolated TME Product API v2 connectivity client.
+- Added `tme_connectivity_check.py` with raw JSON capture.
+- Added TME environment-variable template and provider README.
+- Added initial TME capability-review matrix.
+- Added mocked TME connectivity tests; no workbook or Knowledge Base integration.
+
+Added TME Product API connectivity.
+- Authentication implemented.
+- Product search operational.
+- Raw JSON capture added.
+- TME connectivity verified.
+
 ## [0.2.7] - 2026-07-26
 
 ### Added

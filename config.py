@@ -37,3 +37,31 @@ class MouserSettings:
     def from_env(cls):
         load_dotenv()
         return cls(api_key=os.getenv("MOUSER_API_KEY", "").strip())
+
+
+@dataclass(frozen=True)
+class TmeSettings:
+    """Configuration for the TME Product API v2 connectivity check."""
+
+    token: str
+    application_secret: str
+    base_url: str = "https://api.tme.eu"
+    auth_path: str = "/auth/token"
+    search_path: str = "/products/search"
+    country: str = "IE"
+    language: str = "en"
+    timeout_seconds: float = 30.0
+
+    @classmethod
+    def from_env(cls):
+        load_dotenv()
+        return cls(
+            token=os.getenv("TME_TOKEN", "").strip(),
+            application_secret=os.getenv("TME_APPLICATION_SECRET", "").strip(),
+            base_url=os.getenv("TME_BASE_URL", "https://api.tme.eu").strip().rstrip("/"),
+            auth_path=os.getenv("TME_AUTH_PATH", "/auth/token").strip(),
+            search_path=os.getenv("TME_SEARCH_PATH", "/products/search").strip(),
+            country=os.getenv("TME_COUNTRY", "IE").strip().upper(),
+            language=os.getenv("TME_LANGUAGE", "en").strip(),
+            timeout_seconds=float(os.getenv("TME_TIMEOUT_SECONDS", "30")),
+        )
