@@ -1,3 +1,24 @@
+## [0.2.7] - 2026-07-26
+
+### Added
+- Position-based provider dashboard blocks with a reusable ten-colour palette.
+- Separate provider Currency columns in Enriched Parts and Review Required.
+- Dynamic price-break formatting using the widest quantity and price values in each cell.
+- Workbook style guide under `docs/Workbook_Style_Guide.md`.
+- Regression tests for provider block layout, price-break alignment and currency separation.
+
+### Changed
+- Provider groups are now labelled `Provider #1`, `Provider #2`, and so on rather than using supplier names as workbook structure.
+- Each provider block now contains Provider Name, Available, Lead Time, Currency and Price Breaks.
+- Price Breaks are right aligned, wrapped, displayed with five decimal places and use at least two spaces between quantity and price.
+- Currency symbols were removed from price-break text because currency is now a separate field.
+- Providers Queried and Providers Matched are explicitly left aligned and wrapped.
+- Workbook layout now separates internal data keys from displayed headings so provider blocks may repeat common headings safely.
+
+### Preserved
+- Provider collection, matching, Knowledge Base and raw evidence behaviour are unchanged.
+- Provider discovery and `.env`-driven activation remain deferred to the Dynamic Provider Framework sprint.
+
 ## [0.2.6] - 2026-07-25
 
 ### Added

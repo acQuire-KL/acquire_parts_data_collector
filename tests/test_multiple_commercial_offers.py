@@ -32,8 +32,9 @@ class MultipleCommercialOffersTests(unittest.TestCase):
         self.assertIn("Cut Tape", summary)
         self.assertIn("DigiReel", summary)
         self.assertIn("Reel", summary)
-        self.assertIn("1 @", summary)
-        self.assertIn("3,000 @", summary)
+        self.assertIn("    1  0.44000", summary)
+        self.assertIn("3,000  0.32431", summary)
+        self.assertNotIn("@", summary)
 
 
 if __name__ == "__main__":

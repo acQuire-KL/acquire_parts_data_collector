@@ -3,7 +3,7 @@
     "knowledge_base_schema_version": "1.4",
     "provider": "Mouser",
     "endpoint": "Part_Number_Search",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
+    "captured_at_utc": "2026-07-26T10:27:14Z",
     "source_mode": "live_api",
     "input_manufacturer": "Coilcraft",
     "input_mpn": "XFL4015-471MEC",
@@ -19,7 +19,7 @@
       "NumberOfResult": 1,
       "Parts": [
         {
-          "Availability": "8642 In Stock",
+          "Availability": "7063 In Stock",
           "DataSheetUrl": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
           "Description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
           "FactoryStock": "0",
@@ -111,7 +111,7 @@
           "UnitWeightKg": {
             "UnitWeight": 9.5e-05
           },
-          "AvailabilityInStock": "8642",
+          "AvailabilityInStock": "7063",
           "AvailabilityOnOrder": [
             {
               "Quantity": 11000,
@@ -184,9 +184,9 @@
     "commercial_profile_schema_version": "1.3",
     "provider": "Mouser",
     "provider_currency": "EUR",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
+    "captured_at_utc": "2026-07-26T10:27:14Z",
     "manufacturer_part_number": "XFL4015-471MEC",
-    "product_quantity_available": 8642,
+    "product_quantity_available": 7063,
     "manufacturer_public_quantity": 0,
     "manufacturer_lead_weeks": "280 Days",
     "product_unit_price": 1.92,
@@ -200,7 +200,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 7063,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -267,7 +267,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 7063,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -326,7 +326,7 @@
   "part_profile": {
     "part_profile_schema_version": "1.0",
     "provider": "Mouser",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
+    "captured_at_utc": "2026-07-26T10:27:14Z",
     "manufacturer": "Coilcraft",
     "manufacturer_part_number": "XFL4015-471MEC",
     "provider_part_number": "994-XFL4015-471MEC",

@@ -11,7 +11,7 @@ from providers.digikey import DigiKeyProvider
 from providers.mouser import MouserProvider
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
-from workbook_layout import enriched_parts_columns
+from workbook_layout import WorkbookColumn, column_keys, display_headings, enriched_parts_columns
 from commercial_profile import commercial_offers
 from knowledge_base_manager import KnowledgeBaseManager
 from multi_provider_summary import (
@@ -19,7 +19,7 @@ from multi_provider_summary import (
     provider_availability, provider_identity_match,
 )
 
-APP_VERSION = "0.2.6"
+APP_VERSION = "0.2.7"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -166,29 +166,37 @@ def primary_commercial_offer(profile):
     return variations[0]
 
 
-def price_break_summary(variation):
-    """Return a compact multiline summary with quantities padded for aligned @ symbols."""
-    breaks = list((variation or {}).get("standard_price_breaks") or [])
-    if not breaks:
-        return ""
-    breaks.sort(key=lambda item: _numeric_sort(item.get("break_quantity")))
-    quantity_texts = []
-    for item in breaks:
-        value = item.get("break_quantity")
-        try:
-            quantity_texts.append(f"{int(float(value)):,}")
-        except (TypeError, ValueError):
-            quantity_texts.append(str(value or ""))
-    width = max((len(value) for value in quantity_texts), default=1)
-    lines = []
-    for quantity, item in zip(quantity_texts, breaks):
+def _price_break_texts(breaks):
+    """Return sorted, formatted quantity/price pairs for one price ladder."""
+    items = list(breaks or [])
+    items.sort(key=lambda item: _numeric_sort(item.get("break_quantity")))
+    formatted = []
+    for item in items:
+        quantity = item.get("break_quantity")
         price = item.get("unit_price")
+        try:
+            quantity_text = f"{int(float(quantity)):,}"
+        except (TypeError, ValueError):
+            quantity_text = str(quantity or "")
         try:
             price_text = f"{float(price):,.5f}"
         except (TypeError, ValueError):
             price_text = str(price or "")
-        lines.append(f"{quantity:>{width}} @ {price_text}")
-    return "\n".join(lines)
+        formatted.append((quantity_text, price_text))
+    return formatted
+
+
+def price_break_summary(variation, quantity_width=None, price_width=None):
+    """Return an aligned multiline price ladder without a currency symbol."""
+    formatted = _price_break_texts((variation or {}).get("standard_price_breaks") or [])
+    if not formatted:
+        return ""
+    quantity_width = quantity_width or max(len(quantity) for quantity, _ in formatted)
+    price_width = price_width or max(len(price) for _, price in formatted)
+    return "\n".join(
+        f"{quantity:>{quantity_width}}  {price:>{price_width}}"
+        for quantity, price in formatted
+    )
 
 
 def first_additional_charge(variation):
@@ -254,12 +262,24 @@ def all_additional_charges_summary(profile, field):
 
 
 def all_price_breaks_summary(profile):
-    sections = []
+    """Return all offer ladders aligned to common quantity and price widths."""
+    offers = []
+    all_pairs = []
     for offer in commercial_offers(profile):
-        summary = price_break_summary(offer)
-        if summary:
-            label = offer.get("pack_format") or offer.get("package_type") or "Offer"
-            sections.append(f"{label}\n{summary}")
+        pairs = _price_break_texts(offer.get("standard_price_breaks") or [])
+        if pairs:
+            offers.append((offer, pairs))
+            all_pairs.extend(pairs)
+    if not all_pairs:
+        return ""
+
+    quantity_width = max(len(quantity) for quantity, _ in all_pairs)
+    price_width = max(len(price) for _, price in all_pairs)
+    sections = []
+    for offer, _ in offers:
+        label = offer.get("pack_format") or offer.get("package_type") or "Offer"
+        summary = price_break_summary(offer, quantity_width, price_width)
+        sections.append(f"{label}\n{summary}")
     return "\n\n".join(sections)
 
 
@@ -362,9 +382,12 @@ def add_mapping_sheet(workbook, columns, sample_values):
         "Product URL", "Product Image URL", "RoHS Status", "REACH Status", "ECCN",
         "HTSUS Code", "Captured At UTC", "Data Source Mode", "Data Provider",
     }
-    for group, heading, source, notes in columns:
-        applicability = "Universal" if heading in universal else "Where available / commodity-specific"
-        ws.append([group, heading, source, sample_values.get(heading, ""), applicability, notes])
+    for column in columns:
+        applicability = "Universal" if column.key in universal else "Where available / commodity-specific"
+        ws.append([
+            column.group, column.heading, column.source, sample_values.get(column.key, ""),
+            applicability, column.notes,
+        ])
     format_reference_sheet(ws)
     ws.column_dimensions["A"].width = 24
     ws.column_dimensions["B"].width = 30
@@ -428,11 +451,7 @@ def _provider_evidence_text(evidence):
 
 
 def _provider_price_summary(profile):
-    if not profile:
-        return ""
-    summary = all_price_breaks_summary(profile)
-    currency = str(profile.get("provider_currency") or "").strip()
-    return f"{currency}\n{summary}" if currency and summary else summary
+    return all_price_breaks_summary(profile) if profile else ""
 
 
 def _provider_profile(evidence, provider_name):
@@ -448,7 +467,7 @@ def build_combined_result(row, requested_mfg, requested_mpn, evidence):
     digikey = _provider_profile(evidence, "DigiKey")
     mouser = _provider_profile(evidence, "Mouser")
 
-    values = OrderedDict((heading, "") for _, heading, _, _ in enriched_columns())
+    values = OrderedDict((column.key, "") for column in enriched_columns())
     values.update({
         "Source Row": row,
         "Requested Manufacturer": requested_mfg,
@@ -471,12 +490,16 @@ def build_combined_result(row, requested_mfg, requested_mpn, evidence):
         "Voltage Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Voltage - Rated", "Voltage Rating", "Voltage - DC Reverse (Vr) (Max)")),
         "Current Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Current Rating", "Current - Output", "Current - Continuous Drain")),
         "Power Rating": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Power (Watts)", "Power - Max", "Power Dissipation")),
-        "DigiKey Available": provider_availability(digikey),
-        "DigiKey Lead Time": digikey.get("manufacturer_lead_weeks", ""),
-        "DigiKey Price Breaks": _provider_price_summary(digikey),
-        "Mouser Available": provider_availability(mouser),
-        "Mouser Lead Time": mouser.get("manufacturer_lead_weeks", ""),
-        "Mouser Price Breaks": _provider_price_summary(mouser),
+        "Provider #1 Name": "DigiKey",
+        "Provider #1 Available": provider_availability(digikey),
+        "Provider #1 Lead Time": digikey.get("manufacturer_lead_weeks", ""),
+        "Provider #1 Currency": digikey.get("provider_currency", ""),
+        "Provider #1 Price Breaks": _provider_price_summary(digikey),
+        "Provider #2 Name": "Mouser",
+        "Provider #2 Available": provider_availability(mouser),
+        "Provider #2 Lead Time": mouser.get("manufacturer_lead_weeks", ""),
+        "Provider #2 Currency": mouser.get("provider_currency", ""),
+        "Provider #2 Price Breaks": _provider_price_summary(mouser),
         "Datasheet URL": merged_value(evidence, "datasheet_url"),
         "Product URL": merged_value(evidence, "product_url"),
         "Product Image URL": merged_value(evidence, "image_url"),
@@ -613,10 +636,15 @@ def run(args):
         )
 
     columns = enriched_columns()
-    headings = [heading for _, heading, _, _ in columns]
-    reason_column = ("Status", "Reason", "PDC combined provider evidence", "Detailed provider evidence")
+    keys = column_keys(columns)
+    headings = display_headings(columns)
+    reason_column = WorkbookColumn(
+        "Status", "Reason", "Reason",
+        "PDC combined provider evidence", "Detailed provider evidence"
+    )
     review_columns = columns[:4] + [reason_column] + columns[4:]
-    review_headings = [heading for _, heading, _, _ in review_columns]
+    review_keys = column_keys(review_columns)
+    review_headings = display_headings(review_columns)
 
     output = Workbook()
     enriched = output.active
@@ -624,14 +652,14 @@ def run(args):
     add_group_headers(enriched, columns)
     enriched.append(headings)
     for result in results:
-        enriched.append([result.get(heading, "") for heading in headings])
+        enriched.append([result.get(key, "") for key in keys])
 
     review = output.create_sheet("Review Required")
     add_group_headers(review, review_columns)
     review.append(review_headings)
     for result in results:
         if result.get("Match Status") != "Matched":
-            review.append([result.get(heading, "") for heading in review_headings])
+            review.append([result.get(key, "") for key in review_keys])
 
     commercial = output.create_sheet("Commercial Analysis")
     commercial_headings = [

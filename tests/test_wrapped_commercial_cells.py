@@ -21,6 +21,11 @@ class WrappedCommercialCellsTests(unittest.TestCase):
         ):
             self.assertTrue(format_for_heading(heading).wrap_text, heading)
 
+    def test_price_breaks_are_right_aligned(self):
+        field_format = format_for_heading("Price Breaks")
+        self.assertEqual("right", field_format.horizontal)
+        self.assertEqual("Consolas", field_format.font_name)
+
     def test_review_sheet_displays_three_line_offer_values(self):
         wb = Workbook()
         ws = wb.active

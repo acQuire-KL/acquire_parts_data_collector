@@ -1,33 +1,37 @@
 import unittest
 
-from workbook_layout import enriched_parts_columns
+from workbook_layout import column_keys, display_headings, enriched_parts_columns
 
 
 class WorkbookLayoutTests(unittest.TestCase):
     def test_section_order(self):
         columns = enriched_parts_columns()
         section_order = []
-        for section, *_ in columns:
-            if not section_order or section_order[-1] != section:
-                section_order.append(section)
+        for column in columns:
+            if not section_order or section_order[-1] != column.group:
+                section_order.append(column.group)
         self.assertEqual(
-            ["Status", "Identity", "Engineering", "DigiKey", "Mouser", "Documentation", "Compliance"],
+            ["Status", "Identity", "Engineering", "Provider #1", "Provider #2", "Documentation", "Compliance"],
             section_order,
         )
 
-    def test_headings_are_unique(self):
-        headings = [heading for _, heading, _, _ in enriched_parts_columns()]
-        self.assertEqual(len(headings), len(set(headings)))
+    def test_data_keys_are_unique(self):
+        keys = column_keys(enriched_parts_columns())
+        self.assertEqual(len(keys), len(set(keys)))
 
-    def test_enriched_parts_has_compact_provider_dashboard(self):
-        headings = [heading for _, heading, _, _ in enriched_parts_columns()]
-        for provider in ("DigiKey", "Mouser"):
-            self.assertIn(f"{provider} Available", headings)
-            self.assertIn(f"{provider} Lead Time", headings)
-            self.assertIn(f"{provider} Price Breaks", headings)
-        self.assertNotIn("Provider Part Number", headings)
-        self.assertNotIn("Pack Format", headings)
-        self.assertNotIn("Minimum Order Quantity", headings)
+    def test_provider_dashboard_uses_position_based_blocks(self):
+        columns = enriched_parts_columns()
+        for position in (1, 2):
+            provider_columns = [column for column in columns if column.group == f"Provider #{position}"]
+            self.assertEqual(
+                ["Provider Name", "Available", "Lead Time", "Currency", "Price Breaks"],
+                [column.heading for column in provider_columns],
+            )
+
+    def test_display_headings_may_repeat_across_provider_blocks(self):
+        headings = display_headings(enriched_parts_columns())
+        self.assertEqual(2, headings.count("Provider Name"))
+        self.assertEqual(2, headings.count("Price Breaks"))
 
     def test_returned_layout_is_a_copy(self):
         first = enriched_parts_columns()

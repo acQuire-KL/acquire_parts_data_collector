@@ -20,6 +20,7 @@ class ExcelFormat:
     width: int | None = None
     hyperlink: bool = False
     coerce_numeric: bool = False
+    font_name: str | None = None
 
 
 FORMAT_TYPES = {
@@ -51,7 +52,9 @@ FORMAT_TYPES = {
     "datetime": ExcelFormat(horizontal="center", number_format="yyyy-mm-dd hh:mm:ss"),
     "url": ExcelFormat(horizontal="left", width=42, hyperlink=True),
     "reason": ExcelFormat(horizontal="left", wrap_text=True, width=60),
-    "price_summary": ExcelFormat(horizontal="left", vertical="top", wrap_text=True, width=24),
+    "price_summary": ExcelFormat(
+        horizontal="right", vertical="top", wrap_text=True, width=24, font_name="Consolas"
+    ),
     "multi_text": ExcelFormat(horizontal="left", vertical="top", wrap_text=True, width=24),
     "multi_number": ExcelFormat(horizontal="right", vertical="top", wrap_text=True, width=18),
 }
@@ -67,6 +70,11 @@ FIELD_FORMAT_TYPES = {
     "Requested MPN": "text",
     "Match Status": "status",
     "Reason": "reason",
+    "Provider Name": "text",
+    "Available": "integer",
+    "Providers Queried": "multi_text",
+    "Providers Matched": "multi_text",
+    "Engineering Confirmation": "text",
 
     # Identity
     "Manufacturer": "text",

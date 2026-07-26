@@ -3,11 +3,11 @@
     "knowledge_base_schema_version": "1.4",
     "provider": "Mouser",
     "endpoint": "Part_Number_Search",
-    "captured_at_utc": "2026-07-26T15:08:10Z",
+    "captured_at_utc": "2026-07-26T10:27:13Z",
     "source_mode": "live_api",
-    "input_manufacturer": "Wurth",
-    "input_mpn": "885012207053",
-    "resolved_manufacturer": "Würth Elektronik",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RT0603FRE07332RL",
+    "resolved_manufacturer": "YAGEO",
     "provider_manufacturer_id": null,
     "locale": "en-US",
     "currency": "",
@@ -19,19 +19,19 @@
       "NumberOfResult": 1,
       "Parts": [
         {
-          "Availability": "14814 In Stock",
-          "DataSheetUrl": "",
-          "Description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 4.7uF 0805 10% 16V MLCC",
+          "Availability": "33601 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf",
+          "Description": "Thin Film Resistors - SMD 1/10W 332 ohm 1% 50ppm",
           "FactoryStock": "0",
-          "ImagePath": "https://www.mouser.com/images/wurthelectronics/images/WCAP-CSGP_series_SPL.jpg",
-          "Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
-          "LeadTime": "182 Days",
+          "ImagePath": "https://www.mouser.com/images/yageo/images/RT_series_SPL.jpg",
+          "Category": "Thin Film Resistors - SMD",
+          "LeadTime": "56 Days",
           "LifecycleStatus": null,
-          "Manufacturer": "Wurth Elektronik",
-          "ManufacturerPartNumber": "885012207053",
+          "Manufacturer": "YAGEO",
+          "ManufacturerPartNumber": "RT0603FRE07332RL",
           "Min": "1",
           "Mult": "1",
-          "MouserPartNumber": "710-885012207053",
+          "MouserPartNumber": "603-RT0603FRE07332RL",
           "ProductAttributes": [
             {
               "AttributeName": "Packaging",
@@ -48,87 +48,76 @@
             },
             {
               "AttributeName": "Standard Pack Qty",
-              "AttributeValue": "3000"
+              "AttributeValue": "5000"
             }
           ],
           "PriceBreaks": [
             {
               "Quantity": 1,
-              "Price": "€0.344",
+              "Price": "€0.086",
               "Currency": "EUR"
             },
             {
               "Quantity": 10,
-              "Price": "€0.209",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 50,
-              "Price": "€0.155",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 100,
-              "Price": "€0.138",
+              "Price": "€0.009",
               "Currency": "EUR"
             },
             {
               "Quantity": 500,
-              "Price": "€0.114",
+              "Price": "€0.008",
               "Currency": "EUR"
             },
             {
-              "Quantity": 1000,
-              "Price": "€0.105",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 3000,
-              "Price": "€0.09",
+              "Quantity": 5000,
+              "Price": "€0.006",
               "Currency": "EUR"
             }
           ],
           "AlternatePackagings": null,
-          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/885012207053?qs=0KOYDY2FL2%2FIenHPMuXcbA%3D%3D",
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/YAGEO/RT0603FRE07332RL?qs=%2Ff7pOCXLR5cFJSbyxgHMRA%3D%3D",
           "Reeling": true,
-          "ROHSStatus": "RoHS Compliant",
+          "ROHSStatus": "RoHS Compliant By Exemption",
           "SuggestedReplacement": "",
           "MultiSimBlue": 0,
           "UnitWeightKg": {
-            "UnitWeight": 5.5e-06
+            "UnitWeight": 2e-06
           },
-          "AvailabilityInStock": "14814",
+          "AvailabilityInStock": "33601",
           "AvailabilityOnOrder": [],
           "InfoMessages": [],
           "SurchargeMessages": null,
           "ProductCompliance": [
             {
               "ComplianceName": "TARIC",
-              "ComplianceValue": "8532240000"
+              "ComplianceValue": "8533210000"
             },
             {
               "ComplianceName": "CNHTS",
-              "ComplianceValue": "8532241000"
+              "ComplianceValue": "8533211000"
             },
             {
               "ComplianceName": "CAHTS",
-              "ComplianceValue": "8532240010"
+              "ComplianceValue": "8533210000"
             },
             {
               "ComplianceName": "USHTS",
-              "ComplianceValue": "8532240020"
+              "ComplianceValue": "8533210030"
             },
             {
               "ComplianceName": "JPHTS",
-              "ComplianceValue": "853224000"
+              "ComplianceValue": "853321000"
             },
             {
               "ComplianceName": "KRHTS",
-              "ComplianceValue": "8532240000"
+              "ComplianceValue": "8533219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8533210100"
             },
             {
               "ComplianceName": "BRHTS",
-              "ComplianceValue": "85322410"
+              "ComplianceValue": "85332120"
             },
             {
               "ComplianceName": "ECCN",
@@ -157,15 +146,15 @@
     "commercial_profile_schema_version": "1.3",
     "provider": "Mouser",
     "provider_currency": "EUR",
-    "captured_at_utc": "2026-07-26T15:08:10Z",
-    "manufacturer_part_number": "885012207053",
-    "product_quantity_available": 14814,
+    "captured_at_utc": "2026-07-26T10:27:13Z",
+    "manufacturer_part_number": "RT0603FRE07332RL",
+    "product_quantity_available": 33601,
     "manufacturer_public_quantity": 0,
-    "manufacturer_lead_weeks": "182 Days",
-    "product_unit_price": 0.344,
+    "manufacturer_lead_weeks": "56 Days",
+    "product_unit_price": 0.086,
     "offers": [
       {
-        "provider_part_number": "710-885012207053",
+        "provider_part_number": "603-RT0603FRE07332RL",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -173,7 +162,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 14814,
+        "quantity_available": 33601,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -181,37 +170,22 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 0.344,
+            "unit_price": 0.086,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 0.209,
-            "total_price": null
-          },
-          {
-            "break_quantity": 50,
-            "unit_price": 0.155,
-            "total_price": null
-          },
-          {
-            "break_quantity": 100,
-            "unit_price": 0.138,
+            "unit_price": 0.009,
             "total_price": null
           },
           {
             "break_quantity": 500,
-            "unit_price": 0.114,
+            "unit_price": 0.008,
             "total_price": null
           },
           {
-            "break_quantity": 1000,
-            "unit_price": 0.105,
-            "total_price": null
-          },
-          {
-            "break_quantity": 3000,
-            "unit_price": 0.09,
+            "break_quantity": 5000,
+            "unit_price": 0.006,
             "total_price": null
           }
         ],
@@ -222,7 +196,7 @@
     "variation_count": 1,
     "variations": [
       {
-        "provider_part_number": "710-885012207053",
+        "provider_part_number": "603-RT0603FRE07332RL",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -230,7 +204,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 14814,
+        "quantity_available": 33601,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -238,37 +212,22 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 0.344,
+            "unit_price": 0.086,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 0.209,
-            "total_price": null
-          },
-          {
-            "break_quantity": 50,
-            "unit_price": 0.155,
-            "total_price": null
-          },
-          {
-            "break_quantity": 100,
-            "unit_price": 0.138,
+            "unit_price": 0.009,
             "total_price": null
           },
           {
             "break_quantity": 500,
-            "unit_price": 0.114,
+            "unit_price": 0.008,
             "total_price": null
           },
           {
-            "break_quantity": 1000,
-            "unit_price": 0.105,
-            "total_price": null
-          },
-          {
-            "break_quantity": 3000,
-            "unit_price": 0.09,
+            "break_quantity": 5000,
+            "unit_price": 0.006,
             "total_price": null
           }
         ],
@@ -279,31 +238,32 @@
   "part_profile": {
     "part_profile_schema_version": "1.0",
     "provider": "Mouser",
-    "captured_at_utc": "2026-07-26T15:08:10Z",
-    "manufacturer": "Wurth Elektronik",
-    "manufacturer_part_number": "885012207053",
-    "provider_part_number": "710-885012207053",
-    "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 4.7uF 0805 10% 16V MLCC",
-    "detailed_description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 4.7uF 0805 10% 16V MLCC",
-    "datasheet_url": "",
-    "product_url": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/885012207053?qs=0KOYDY2FL2%2FIenHPMuXcbA%3D%3D",
-    "image_url": "https://www.mouser.com/images/wurthelectronics/images/WCAP-CSGP_series_SPL.jpg",
+    "captured_at_utc": "2026-07-26T10:27:13Z",
+    "manufacturer": "YAGEO",
+    "manufacturer_part_number": "RT0603FRE07332RL",
+    "provider_part_number": "603-RT0603FRE07332RL",
+    "description": "Thin Film Resistors - SMD 1/10W 332 ohm 1% 50ppm",
+    "detailed_description": "Thin Film Resistors - SMD 1/10W 332 ohm 1% 50ppm",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/YAGEO/RT0603FRE07332RL?qs=%2Ff7pOCXLR5cFJSbyxgHMRA%3D%3D",
+    "image_url": "https://www.mouser.com/images/yageo/images/RT_series_SPL.jpg",
     "lifecycle_status": "",
-    "rohs_status": "RoHS Compliant",
+    "rohs_status": "RoHS Compliant By Exemption",
     "package": "",
     "mounting_type": "",
     "attributes": {
       "Packaging": "MouseReel",
-      "Standard Pack Qty": "3000"
+      "Standard Pack Qty": "5000"
     },
     "compliance": {
-      "TARIC": "8532240000",
-      "CNHTS": "8532241000",
-      "CAHTS": "8532240010",
-      "USHTS": "8532240020",
-      "JPHTS": "853224000",
-      "KRHTS": "8532240000",
-      "BRHTS": "85322410",
+      "TARIC": "8533210000",
+      "CNHTS": "8533211000",
+      "CAHTS": "8533210000",
+      "USHTS": "8533210030",
+      "JPHTS": "853321000",
+      "KRHTS": "8533219000",
+      "MXHTS": "8533210100",
+      "BRHTS": "85332120",
       "ECCN": "EAR99"
     }
   }

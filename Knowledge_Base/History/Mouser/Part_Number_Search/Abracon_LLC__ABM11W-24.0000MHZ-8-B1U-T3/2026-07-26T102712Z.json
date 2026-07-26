@@ -3,11 +3,11 @@
     "knowledge_base_schema_version": "1.4",
     "provider": "Mouser",
     "endpoint": "Part_Number_Search",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
+    "captured_at_utc": "2026-07-26T10:27:12Z",
     "source_mode": "live_api",
-    "input_manufacturer": "Coilcraft",
-    "input_mpn": "XFL4015-471MEC",
-    "resolved_manufacturer": "Coilcraft",
+    "input_manufacturer": "Abracon",
+    "input_mpn": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "resolved_manufacturer": "Abracon LLC",
     "provider_manufacturer_id": null,
     "locale": "en-US",
     "currency": "",
@@ -19,19 +19,19 @@
       "NumberOfResult": 1,
       "Parts": [
         {
-          "Availability": "8642 In Stock",
-          "DataSheetUrl": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
-          "Description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
+          "Availability": "2768 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/184/1/ABM11W.pdf",
+          "Description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
           "FactoryStock": "0",
-          "ImagePath": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
-          "Category": "Power Inductors - SMD",
-          "LeadTime": "280 Days",
+          "ImagePath": "https://www.mouser.com/images/abracon/images/ABM11W_series_DSL.jpg",
+          "Category": "Crystals",
+          "LeadTime": "98 Days",
           "LifecycleStatus": null,
-          "Manufacturer": "Coilcraft",
-          "ManufacturerPartNumber": "XFL4015-471MEC",
+          "Manufacturer": "ABRACON",
+          "ManufacturerPartNumber": "ABM11W-24.0000MHZ-8-B1U-T3",
           "Min": "1",
           "Mult": "1",
-          "MouserPartNumber": "994-XFL4015-471MEC",
+          "MouserPartNumber": "815-11W24-8B1UT",
           "ProductAttributes": [
             {
               "AttributeName": "Packaging",
@@ -48,114 +48,93 @@
             },
             {
               "AttributeName": "Standard Pack Qty",
-              "AttributeValue": "1000"
+              "AttributeValue": "3000"
             }
           ],
           "PriceBreaks": [
             {
               "Quantity": 1,
-              "Price": "€1.92",
+              "Price": "€0.327",
               "Currency": "EUR"
             },
             {
               "Quantity": 10,
-              "Price": "€1.63",
+              "Price": "€0.287",
               "Currency": "EUR"
             },
             {
               "Quantity": 25,
-              "Price": "€1.51",
+              "Price": "€0.261",
               "Currency": "EUR"
             },
             {
               "Quantity": 100,
-              "Price": "€1.12",
+              "Price": "€0.249",
               "Currency": "EUR"
             },
             {
               "Quantity": 250,
-              "Price": "€1.09",
+              "Price": "€0.237",
               "Currency": "EUR"
             },
             {
               "Quantity": 500,
-              "Price": "€1.02",
+              "Price": "€0.226",
               "Currency": "EUR"
             },
             {
-              "Quantity": 1000,
-              "Price": "€0.963",
+              "Quantity": 3000,
+              "Price": "€0.193",
               "Currency": "EUR"
             },
             {
-              "Quantity": 2000,
-              "Price": "€0.929",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 5000,
-              "Price": "€0.894",
+              "Quantity": 6000,
+              "Price": "€0.182",
               "Currency": "EUR"
             }
           ],
-          "AlternatePackagings": [
-            {
-              "APMfrPN": "XFL4015-471MEB"
-            }
-          ],
-          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABM11W-24.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yaFaX%252BbPy3iQ%3D%3D",
           "Reeling": true,
           "ROHSStatus": "RoHS Compliant",
           "SuggestedReplacement": "",
           "MultiSimBlue": 0,
-          "UnitWeightKg": {
-            "UnitWeight": 9.5e-05
-          },
-          "AvailabilityInStock": "8642",
-          "AvailabilityOnOrder": [
-            {
-              "Quantity": 11000,
-              "Date": "2027-03-19T00:00:00"
-            },
-            {
-              "Quantity": 18000,
-              "Date": "2027-04-30T00:00:00"
-            }
-          ],
+          "AvailabilityInStock": "2768",
+          "AvailabilityOnOrder": [],
           "InfoMessages": [],
           "SurchargeMessages": null,
           "ProductCompliance": [
             {
               "ComplianceName": "TARIC",
-              "ComplianceValue": "8504500090"
+              "ComplianceValue": "8541600000"
             },
             {
               "ComplianceName": "CNHTS",
-              "ComplianceValue": "8504500000"
+              "ComplianceValue": "8541600000"
             },
             {
               "ComplianceName": "CAHTS",
-              "ComplianceValue": "8504500000"
+              "ComplianceValue": "8541600020"
             },
             {
               "ComplianceName": "USHTS",
-              "ComplianceValue": "8504508000"
+              "ComplianceValue": "8541600060"
             },
             {
               "ComplianceName": "JPHTS",
-              "ComplianceValue": "850450000"
+              "ComplianceValue": "854160010"
             },
             {
               "ComplianceName": "KRHTS",
-              "ComplianceValue": "8504502090"
+              "ComplianceValue": "8541609000"
             },
             {
               "ComplianceName": "MXHTS",
-              "ComplianceValue": "8504509199"
+              "ComplianceValue": "8541600100"
             },
             {
               "ComplianceName": "BRHTS",
-              "ComplianceValue": "85045000"
+              "ComplianceValue": "85416010"
             },
             {
               "ComplianceName": "ECCN",
@@ -165,7 +144,7 @@
           "TradeCompliance": [
             {
               "ComplianceName": "Country of Origin",
-              "ComplianceValue": "Indonesia"
+              "ComplianceValue": "Taiwan"
             },
             {
               "ComplianceName": "Assembly Country of Origin",
@@ -184,15 +163,15 @@
     "commercial_profile_schema_version": "1.3",
     "provider": "Mouser",
     "provider_currency": "EUR",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
-    "manufacturer_part_number": "XFL4015-471MEC",
-    "product_quantity_available": 8642,
+    "captured_at_utc": "2026-07-26T10:27:12Z",
+    "manufacturer_part_number": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "product_quantity_available": 2768,
     "manufacturer_public_quantity": 0,
-    "manufacturer_lead_weeks": "280 Days",
-    "product_unit_price": 1.92,
+    "manufacturer_lead_weeks": "98 Days",
+    "product_unit_price": 0.327,
     "offers": [
       {
-        "provider_part_number": "994-XFL4015-471MEC",
+        "provider_part_number": "815-11W24-8B1UT",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -200,7 +179,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 2768,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -208,47 +187,42 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 1.92,
+            "unit_price": 0.327,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 1.63,
+            "unit_price": 0.287,
             "total_price": null
           },
           {
             "break_quantity": 25,
-            "unit_price": 1.51,
+            "unit_price": 0.261,
             "total_price": null
           },
           {
             "break_quantity": 100,
-            "unit_price": 1.12,
+            "unit_price": 0.249,
             "total_price": null
           },
           {
             "break_quantity": 250,
-            "unit_price": 1.09,
+            "unit_price": 0.237,
             "total_price": null
           },
           {
             "break_quantity": 500,
-            "unit_price": 1.02,
+            "unit_price": 0.226,
             "total_price": null
           },
           {
-            "break_quantity": 1000,
-            "unit_price": 0.963,
+            "break_quantity": 3000,
+            "unit_price": 0.193,
             "total_price": null
           },
           {
-            "break_quantity": 2000,
-            "unit_price": 0.929,
-            "total_price": null
-          },
-          {
-            "break_quantity": 5000,
-            "unit_price": 0.894,
+            "break_quantity": 6000,
+            "unit_price": 0.182,
             "total_price": null
           }
         ],
@@ -259,7 +233,7 @@
     "variation_count": 1,
     "variations": [
       {
-        "provider_part_number": "994-XFL4015-471MEC",
+        "provider_part_number": "815-11W24-8B1UT",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -267,7 +241,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 2768,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -275,47 +249,42 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 1.92,
+            "unit_price": 0.327,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 1.63,
+            "unit_price": 0.287,
             "total_price": null
           },
           {
             "break_quantity": 25,
-            "unit_price": 1.51,
+            "unit_price": 0.261,
             "total_price": null
           },
           {
             "break_quantity": 100,
-            "unit_price": 1.12,
+            "unit_price": 0.249,
             "total_price": null
           },
           {
             "break_quantity": 250,
-            "unit_price": 1.09,
+            "unit_price": 0.237,
             "total_price": null
           },
           {
             "break_quantity": 500,
-            "unit_price": 1.02,
+            "unit_price": 0.226,
             "total_price": null
           },
           {
-            "break_quantity": 1000,
-            "unit_price": 0.963,
+            "break_quantity": 3000,
+            "unit_price": 0.193,
             "total_price": null
           },
           {
-            "break_quantity": 2000,
-            "unit_price": 0.929,
-            "total_price": null
-          },
-          {
-            "break_quantity": 5000,
-            "unit_price": 0.894,
+            "break_quantity": 6000,
+            "unit_price": 0.182,
             "total_price": null
           }
         ],
@@ -326,32 +295,32 @@
   "part_profile": {
     "part_profile_schema_version": "1.0",
     "provider": "Mouser",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
-    "manufacturer": "Coilcraft",
-    "manufacturer_part_number": "XFL4015-471MEC",
-    "provider_part_number": "994-XFL4015-471MEC",
-    "description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
-    "detailed_description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
-    "datasheet_url": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
-    "product_url": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
-    "image_url": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
+    "captured_at_utc": "2026-07-26T10:27:12Z",
+    "manufacturer": "ABRACON",
+    "manufacturer_part_number": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "provider_part_number": "815-11W24-8B1UT",
+    "description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
+    "detailed_description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/ABM11W.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABM11W-24.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yaFaX%252BbPy3iQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/abracon/images/ABM11W_series_DSL.jpg",
     "lifecycle_status": "",
     "rohs_status": "RoHS Compliant",
     "package": "",
     "mounting_type": "",
     "attributes": {
       "Packaging": "MouseReel",
-      "Standard Pack Qty": "1000"
+      "Standard Pack Qty": "3000"
     },
     "compliance": {
-      "TARIC": "8504500090",
-      "CNHTS": "8504500000",
-      "CAHTS": "8504500000",
-      "USHTS": "8504508000",
-      "JPHTS": "850450000",
-      "KRHTS": "8504502090",
-      "MXHTS": "8504509199",
-      "BRHTS": "85045000",
+      "TARIC": "8541600000",
+      "CNHTS": "8541600000",
+      "CAHTS": "8541600020",
+      "USHTS": "8541600060",
+      "JPHTS": "854160010",
+      "KRHTS": "8541609000",
+      "MXHTS": "8541600100",
+      "BRHTS": "85416010",
       "ECCN": "EAR99"
     }
   }

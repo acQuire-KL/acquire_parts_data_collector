@@ -1,4 +1,4 @@
-# Parts Data Collector (PDC) — v0.2.4a development
+# Parts Data Collector (PDC) — v0.2.7 development
 
 PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
 

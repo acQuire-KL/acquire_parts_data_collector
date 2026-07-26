@@ -1,48 +1,78 @@
 """Declarative workbook layout for the PDC review dashboard."""
 from __future__ import annotations
 
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class WorkbookColumn:
+    """One workbook column with separate data key and displayed heading."""
+
+    group: str
+    key: str
+    heading: str
+    source: str
+    notes: str
+
+
+def _column(group: str, heading: str, source: str, notes: str, *, key: str | None = None) -> WorkbookColumn:
+    return WorkbookColumn(group, key or heading, heading, source, notes)
+
+
 ENRICHED_PARTS_COLUMNS = [
-    ("Status", "Source Row", "Input workbook row", "Input row number"),
-    ("Status", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
-    ("Status", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
-    ("Status", "Match Status", "PDC combined provider evidence", "Identity match after all enabled providers are reviewed"),
-    ("Status", "Providers Queried", "PDC provider execution", "Provider-level search outcomes"),
-    ("Status", "Providers Matched", "PDC identity confirmation", "Providers matching manufacturer and MPN"),
-    ("Status", "Engineering Confirmation", "PDC cross-provider comparison", "Agreement only; no provider preference or recommendation"),
+    _column("Status", "Source Row", "Input workbook row", "Input row number"),
+    _column("Status", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
+    _column("Status", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
+    _column("Status", "Match Status", "PDC combined provider evidence", "Identity match after all enabled providers are reviewed"),
+    _column("Status", "Providers Queried", "PDC provider execution", "Provider-level search outcomes"),
+    _column("Status", "Providers Matched", "PDC identity confirmation", "Providers matching manufacturer and MPN"),
+    _column("Status", "Engineering Confirmation", "PDC cross-provider comparison", "Agreement only; no provider preference or recommendation"),
 
-    ("Identity", "Manufacturer", "Common part profiles", "Manufacturer returned by matching providers"),
-    ("Identity", "Manufacturer Part Number", "Common part profiles", "MPN returned by matching providers"),
-    ("Identity", "Description", "Common part profiles", "Short product description"),
-    ("Identity", "Detailed Description", "Common part profiles", "Detailed product description"),
-    ("Identity", "Product Status", "Common part profiles", "Lifecycle status reported by providers"),
+    _column("Identity", "Manufacturer", "Common part profiles", "Manufacturer returned by matching providers"),
+    _column("Identity", "Manufacturer Part Number", "Common part profiles", "MPN returned by matching providers"),
+    _column("Identity", "Description", "Common part profiles", "Short product description"),
+    _column("Identity", "Detailed Description", "Common part profiles", "Detailed product description"),
+    _column("Identity", "Product Status", "Common part profiles", "Lifecycle status reported by providers"),
 
-    ("Engineering", "Mounting Type", "Common part profiles", "Mounting method"),
-    ("Engineering", "Package / Case", "Common part profiles", "Package or case"),
-    ("Engineering", "Operating Temperature", "Common attributes", "Operating temperature where available"),
-    ("Engineering", "Pin / Position Count", "Common attributes", "Pin or position count where available"),
-    ("Engineering", "Tolerance", "Common attributes", "Tolerance where available"),
-    ("Engineering", "Voltage Rating", "Common attributes", "Voltage rating where available"),
-    ("Engineering", "Current Rating", "Common attributes", "Current rating where available"),
-    ("Engineering", "Power Rating", "Common attributes", "Power rating where available"),
+    _column("Engineering", "Mounting Type", "Common part profiles", "Mounting method"),
+    _column("Engineering", "Package / Case", "Common part profiles", "Package or case"),
+    _column("Engineering", "Operating Temperature", "Common attributes", "Operating temperature where available"),
+    _column("Engineering", "Pin / Position Count", "Common attributes", "Pin or position count where available"),
+    _column("Engineering", "Tolerance", "Common attributes", "Tolerance where available"),
+    _column("Engineering", "Voltage Rating", "Common attributes", "Voltage rating where available"),
+    _column("Engineering", "Current Rating", "Common attributes", "Current rating where available"),
+    _column("Engineering", "Power Rating", "Common attributes", "Power rating where available"),
 
-    ("DigiKey", "DigiKey Available", "DigiKey commercial profile", "Availability snapshot"),
-    ("DigiKey", "DigiKey Lead Time", "DigiKey commercial profile", "Manufacturer lead time reported by DigiKey"),
-    ("DigiKey", "DigiKey Price Breaks", "DigiKey commercial profile", "Price ladders; detailed offers remain in Commercial Analysis"),
+    _column("Provider #1", "Provider Name", "DigiKey commercial profile", "Provider occupying dashboard position 1", key="Provider #1 Name"),
+    _column("Provider #1", "Available", "DigiKey commercial profile", "Availability snapshot", key="Provider #1 Available"),
+    _column("Provider #1", "Lead Time", "DigiKey commercial profile", "Manufacturer lead time reported by the provider", key="Provider #1 Lead Time"),
+    _column("Provider #1", "Currency", "DigiKey commercial profile", "Currency applying to the provider price ladder", key="Provider #1 Currency"),
+    _column("Provider #1", "Price Breaks", "DigiKey commercial profile", "Price ladders; detailed offers remain in Commercial Analysis", key="Provider #1 Price Breaks"),
 
-    ("Mouser", "Mouser Available", "Mouser commercial profile", "Availability snapshot"),
-    ("Mouser", "Mouser Lead Time", "Mouser commercial profile", "Manufacturer lead time reported by Mouser"),
-    ("Mouser", "Mouser Price Breaks", "Mouser commercial profile", "Price ladders; detailed offers remain in Commercial Analysis"),
+    _column("Provider #2", "Provider Name", "Mouser commercial profile", "Provider occupying dashboard position 2", key="Provider #2 Name"),
+    _column("Provider #2", "Available", "Mouser commercial profile", "Availability snapshot", key="Provider #2 Available"),
+    _column("Provider #2", "Lead Time", "Mouser commercial profile", "Manufacturer lead time reported by the provider", key="Provider #2 Lead Time"),
+    _column("Provider #2", "Currency", "Mouser commercial profile", "Currency applying to the provider price ladder", key="Provider #2 Currency"),
+    _column("Provider #2", "Price Breaks", "Mouser commercial profile", "Price ladders; detailed offers remain in Commercial Analysis", key="Provider #2 Price Breaks"),
 
-    ("Documentation", "Datasheet URL", "Common part profiles", "Manufacturer datasheet URL where available"),
-    ("Documentation", "Product URL", "Common part profiles", "Provider product page where available"),
-    ("Documentation", "Product Image URL", "Common part profiles", "Product image where available"),
+    _column("Documentation", "Datasheet URL", "Common part profiles", "Manufacturer datasheet URL where available"),
+    _column("Documentation", "Product URL", "Common part profiles", "Provider product page where available"),
+    _column("Documentation", "Product Image URL", "Common part profiles", "Product image where available"),
 
-    ("Compliance", "RoHS Status", "Common part profiles", "RoHS status"),
-    ("Compliance", "REACH Status", "Common compliance profiles", "REACH status where available"),
-    ("Compliance", "ECCN", "Common compliance profiles", "Export classification where available"),
-    ("Compliance", "HTSUS Code", "Common compliance profiles", "Tariff classification where available"),
+    _column("Compliance", "RoHS Status", "Common part profiles", "RoHS status"),
+    _column("Compliance", "REACH Status", "Common compliance profiles", "REACH status where available"),
+    _column("Compliance", "ECCN", "Common compliance profiles", "Export classification where available"),
+    _column("Compliance", "HTSUS Code", "Common compliance profiles", "Tariff classification where available"),
 ]
 
 
-def enriched_parts_columns() -> list[tuple[str, str, str, str]]:
+def enriched_parts_columns() -> list[WorkbookColumn]:
     return list(ENRICHED_PARTS_COLUMNS)
+
+
+def column_keys(columns: list[WorkbookColumn]) -> list[str]:
+    return [column.key for column in columns]
+
+
+def display_headings(columns: list[WorkbookColumn]) -> list[str]:
+    return [column.heading for column in columns]

@@ -3,11 +3,11 @@
     "knowledge_base_schema_version": "1.4",
     "provider": "Mouser",
     "endpoint": "Part_Number_Search",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
+    "captured_at_utc": "2026-07-26T10:27:16Z",
     "source_mode": "live_api",
-    "input_manufacturer": "Coilcraft",
-    "input_mpn": "XFL4015-471MEC",
-    "resolved_manufacturer": "Coilcraft",
+    "input_manufacturer": "AMP",
+    "input_mpn": "20021121-00006C4LF",
+    "resolved_manufacturer": "amp Inc",
     "provider_manufacturer_id": null,
     "locale": "en-US",
     "currency": "",
@@ -19,19 +19,19 @@
       "NumberOfResult": 1,
       "Parts": [
         {
-          "Availability": "8642 In Stock",
-          "DataSheetUrl": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
-          "Description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
+          "Availability": "51098 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 6 Pos",
           "FactoryStock": "0",
-          "ImagePath": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
-          "Category": "Power Inductors - SMD",
-          "LeadTime": "280 Days",
+          "ImagePath": "https://www.mouser.com/images/amphenol/images/20021121-00006C4LF35_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "35 Days",
           "LifecycleStatus": null,
-          "Manufacturer": "Coilcraft",
-          "ManufacturerPartNumber": "XFL4015-471MEC",
+          "Manufacturer": "Amphenol FCI",
+          "ManufacturerPartNumber": "20021121-00006C4LF",
           "Min": "1",
           "Mult": "1",
-          "MouserPartNumber": "994-XFL4015-471MEC",
+          "MouserPartNumber": "649-202112100006C4LF",
           "ProductAttributes": [
             {
               "AttributeName": "Packaging",
@@ -48,114 +48,86 @@
             },
             {
               "AttributeName": "Standard Pack Qty",
-              "AttributeValue": "1000"
+              "AttributeValue": "1800"
             }
           ],
           "PriceBreaks": [
             {
               "Quantity": 1,
-              "Price": "€1.92",
+              "Price": "€0.55",
               "Currency": "EUR"
             },
             {
               "Quantity": 10,
-              "Price": "€1.63",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 25,
-              "Price": "€1.51",
+              "Price": "€0.468",
               "Currency": "EUR"
             },
             {
               "Quantity": 100,
-              "Price": "€1.12",
+              "Price": "€0.397",
               "Currency": "EUR"
             },
             {
               "Quantity": 250,
-              "Price": "€1.09",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 500,
-              "Price": "€1.02",
+              "Price": "€0.35",
               "Currency": "EUR"
             },
             {
               "Quantity": 1000,
-              "Price": "€0.963",
+              "Price": "€0.324",
               "Currency": "EUR"
             },
             {
-              "Quantity": 2000,
-              "Price": "€0.929",
-              "Currency": "EUR"
-            },
-            {
-              "Quantity": 5000,
-              "Price": "€0.894",
+              "Quantity": 1800,
+              "Price": "€0.306",
               "Currency": "EUR"
             }
           ],
-          "AlternatePackagings": [
-            {
-              "APMfrPN": "XFL4015-471MEB"
-            }
-          ],
-          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Amphenol-FCI/20021121-00006C4LF?qs=iIVTEDlrHA2alyIgmhksQQ%3D%3D",
           "Reeling": true,
           "ROHSStatus": "RoHS Compliant",
           "SuggestedReplacement": "",
           "MultiSimBlue": 0,
           "UnitWeightKg": {
-            "UnitWeight": 9.5e-05
+            "UnitWeight": 0.00063
           },
-          "AvailabilityInStock": "8642",
-          "AvailabilityOnOrder": [
-            {
-              "Quantity": 11000,
-              "Date": "2027-03-19T00:00:00"
-            },
-            {
-              "Quantity": 18000,
-              "Date": "2027-04-30T00:00:00"
-            }
-          ],
+          "AvailabilityInStock": "51098",
+          "AvailabilityOnOrder": [],
           "InfoMessages": [],
           "SurchargeMessages": null,
           "ProductCompliance": [
             {
               "ComplianceName": "TARIC",
-              "ComplianceValue": "8504500090"
+              "ComplianceValue": "8536693000"
             },
             {
               "ComplianceName": "CNHTS",
-              "ComplianceValue": "8504500000"
+              "ComplianceValue": "8536901100"
             },
             {
               "ComplianceName": "CAHTS",
-              "ComplianceValue": "8504500000"
+              "ComplianceValue": "8536690020"
             },
             {
               "ComplianceName": "USHTS",
-              "ComplianceValue": "8504508000"
+              "ComplianceValue": "8536694040"
             },
             {
               "ComplianceName": "JPHTS",
-              "ComplianceValue": "850450000"
+              "ComplianceValue": "853669000"
             },
             {
               "ComplianceName": "KRHTS",
-              "ComplianceValue": "8504502090"
+              "ComplianceValue": "8536691000"
             },
             {
               "ComplianceName": "MXHTS",
-              "ComplianceValue": "8504509199"
+              "ComplianceValue": "8536699999"
             },
             {
               "ComplianceName": "BRHTS",
-              "ComplianceValue": "85045000"
+              "ComplianceValue": "85366990"
             },
             {
               "ComplianceName": "ECCN",
@@ -165,7 +137,7 @@
           "TradeCompliance": [
             {
               "ComplianceName": "Country of Origin",
-              "ComplianceValue": "Indonesia"
+              "ComplianceValue": "China"
             },
             {
               "ComplianceName": "Assembly Country of Origin",
@@ -184,15 +156,15 @@
     "commercial_profile_schema_version": "1.3",
     "provider": "Mouser",
     "provider_currency": "EUR",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
-    "manufacturer_part_number": "XFL4015-471MEC",
-    "product_quantity_available": 8642,
+    "captured_at_utc": "2026-07-26T10:27:16Z",
+    "manufacturer_part_number": "20021121-00006C4LF",
+    "product_quantity_available": 51098,
     "manufacturer_public_quantity": 0,
-    "manufacturer_lead_weeks": "280 Days",
-    "product_unit_price": 1.92,
+    "manufacturer_lead_weeks": "35 Days",
+    "product_unit_price": 0.55,
     "offers": [
       {
-        "provider_part_number": "994-XFL4015-471MEC",
+        "provider_part_number": "649-202112100006C4LF",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -200,7 +172,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 51098,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -208,47 +180,32 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 1.92,
+            "unit_price": 0.55,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 1.63,
-            "total_price": null
-          },
-          {
-            "break_quantity": 25,
-            "unit_price": 1.51,
+            "unit_price": 0.468,
             "total_price": null
           },
           {
             "break_quantity": 100,
-            "unit_price": 1.12,
+            "unit_price": 0.397,
             "total_price": null
           },
           {
             "break_quantity": 250,
-            "unit_price": 1.09,
-            "total_price": null
-          },
-          {
-            "break_quantity": 500,
-            "unit_price": 1.02,
+            "unit_price": 0.35,
             "total_price": null
           },
           {
             "break_quantity": 1000,
-            "unit_price": 0.963,
+            "unit_price": 0.324,
             "total_price": null
           },
           {
-            "break_quantity": 2000,
-            "unit_price": 0.929,
-            "total_price": null
-          },
-          {
-            "break_quantity": 5000,
-            "unit_price": 0.894,
+            "break_quantity": 1800,
+            "unit_price": 0.306,
             "total_price": null
           }
         ],
@@ -259,7 +216,7 @@
     "variation_count": 1,
     "variations": [
       {
-        "provider_part_number": "994-XFL4015-471MEC",
+        "provider_part_number": "649-202112100006C4LF",
         "supplier": "Mouser",
         "package_type_id": null,
         "package_type": "",
@@ -267,7 +224,7 @@
         "pack_format": "",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8642,
+        "quantity_available": 51098,
         "maximum_distribution_quantity": null,
         "marketplace": false,
         "tariff_active": null,
@@ -275,47 +232,32 @@
         "standard_price_breaks": [
           {
             "break_quantity": 1,
-            "unit_price": 1.92,
+            "unit_price": 0.55,
             "total_price": null
           },
           {
             "break_quantity": 10,
-            "unit_price": 1.63,
-            "total_price": null
-          },
-          {
-            "break_quantity": 25,
-            "unit_price": 1.51,
+            "unit_price": 0.468,
             "total_price": null
           },
           {
             "break_quantity": 100,
-            "unit_price": 1.12,
+            "unit_price": 0.397,
             "total_price": null
           },
           {
             "break_quantity": 250,
-            "unit_price": 1.09,
-            "total_price": null
-          },
-          {
-            "break_quantity": 500,
-            "unit_price": 1.02,
+            "unit_price": 0.35,
             "total_price": null
           },
           {
             "break_quantity": 1000,
-            "unit_price": 0.963,
+            "unit_price": 0.324,
             "total_price": null
           },
           {
-            "break_quantity": 2000,
-            "unit_price": 0.929,
-            "total_price": null
-          },
-          {
-            "break_quantity": 5000,
-            "unit_price": 0.894,
+            "break_quantity": 1800,
+            "unit_price": 0.306,
             "total_price": null
           }
         ],
@@ -326,32 +268,32 @@
   "part_profile": {
     "part_profile_schema_version": "1.0",
     "provider": "Mouser",
-    "captured_at_utc": "2026-07-26T15:08:11Z",
-    "manufacturer": "Coilcraft",
-    "manufacturer_part_number": "XFL4015-471MEC",
-    "provider_part_number": "994-XFL4015-471MEC",
-    "description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
-    "detailed_description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
-    "datasheet_url": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
-    "product_url": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
-    "image_url": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
+    "captured_at_utc": "2026-07-26T10:27:16Z",
+    "manufacturer": "Amphenol FCI",
+    "manufacturer_part_number": "20021121-00006C4LF",
+    "provider_part_number": "649-202112100006C4LF",
+    "description": "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 6 Pos",
+    "detailed_description": "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 6 Pos",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Amphenol-FCI/20021121-00006C4LF?qs=iIVTEDlrHA2alyIgmhksQQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/amphenol/images/20021121-00006C4LF35_SPL.jpg",
     "lifecycle_status": "",
     "rohs_status": "RoHS Compliant",
     "package": "",
     "mounting_type": "",
     "attributes": {
       "Packaging": "MouseReel",
-      "Standard Pack Qty": "1000"
+      "Standard Pack Qty": "1800"
     },
     "compliance": {
-      "TARIC": "8504500090",
-      "CNHTS": "8504500000",
-      "CAHTS": "8504500000",
-      "USHTS": "8504508000",
-      "JPHTS": "850450000",
-      "KRHTS": "8504502090",
-      "MXHTS": "8504509199",
-      "BRHTS": "85045000",
+      "TARIC": "8536693000",
+      "CNHTS": "8536901100",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "MXHTS": "8536699999",
+      "BRHTS": "85366990",
       "ECCN": "EAR99"
     }
   }

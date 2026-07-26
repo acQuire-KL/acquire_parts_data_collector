@@ -1,6 +1,6 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-07-25T20:05:29Z",
+  "updated_at_utc": "2026-07-26T15:08:11Z",
   "requested_manufacturer": "Abracon",
   "requested_mpn": "ABM8-16.000MHZ-D4Y-T",
   "summary": {
@@ -25,7 +25,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-07-25T20:05:29Z",
+        "captured_at_utc": "2026-07-26T15:08:11Z",
         "source_mode": "live_api"
       }
     ]

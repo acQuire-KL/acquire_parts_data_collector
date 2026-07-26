@@ -10,6 +10,19 @@ from openpyxl.utils import get_column_letter
 
 from excel_formats import format_for_heading
 
+PROVIDER_BLOCK_COLOURS = [
+    "D9EAF7",  # pale blue
+    "E2F0D9",  # pale green
+    "FFF2CC",  # pale yellow
+    "FCE4D6",  # pale peach
+    "E4DFEC",  # pale lavender
+    "E7E6E6",  # pale grey
+    "DDEBF7",  # pale aqua
+    "E2EFDA",  # pale mint
+    "F4CCCC",  # pale rose
+    "F3E5AB",  # pale beige
+]
+
 GROUP_COLOURS = {
     "Input & Match": "5B9BD5",
     "Identity": "4472C4",
@@ -41,19 +54,38 @@ ENRICHED_PARTS_FREEZE_PANES = "E3"
 _NUMERIC_TEXT = re.compile(r"^[+-]?(?:\d+(?:,\d{3})*|\d*)(?:\.\d+)?$")
 
 
+def group_colour(group: str) -> str:
+    """Return a group colour, cycling the provider-position palette as needed."""
+    if group.startswith("Provider #"):
+        try:
+            position = int(group.split("#", 1)[1].strip())
+        except (ValueError, IndexError):
+            position = 1
+        return PROVIDER_BLOCK_COLOURS[(position - 1) % len(PROVIDER_BLOCK_COLOURS)]
+    return GROUP_COLOURS.get(group, "1F4E78")
+
+
+def _column_group(column) -> str:
+    if hasattr(column, "group"):
+        return str(column.group)
+    return str(column[0])
+
+
 def add_group_headers(ws, columns) -> None:
     """Add the merged top-level group row used by review-oriented sheets."""
     column_index = 1
     while column_index <= len(columns):
-        group = columns[column_index - 1][0]
+        group = _column_group(columns[column_index - 1])
         start = column_index
-        while column_index <= len(columns) and columns[column_index - 1][0] == group:
+        while column_index <= len(columns) and _column_group(columns[column_index - 1]) == group:
             column_index += 1
         end = column_index - 1
         ws.merge_cells(start_row=1, start_column=start, end_row=1, end_column=end)
         cell = ws.cell(1, start, group)
-        cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
-        cell.font = Font(color="FFFFFF", bold=True)
+        fill_colour = group_colour(group)
+        cell.fill = PatternFill("solid", fgColor=fill_colour)
+        font_colour = "000000" if group.startswith("Provider #") else "FFFFFF"
+        cell.font = Font(color=font_colour, bold=True)
         cell.alignment = Alignment(horizontal="center", vertical="center")
 
 
@@ -114,6 +146,8 @@ def _apply_field_formats(ws, headings: list[str], first_data_row: int) -> None:
                 cell.value = _coerce_date(cell.value)
 
             cell.number_format = field_format.number_format
+            if field_format.font_name:
+                cell.font = Font(name=field_format.font_name)
             cell.alignment = Alignment(
                 horizontal=field_format.horizontal,
                 vertical=field_format.vertical,
@@ -199,7 +233,10 @@ def format_review_sheet(ws, headings: list[str]) -> None:
     for cell in ws[2]:
         group = ws.cell(1, cell.column).value
         cell.font = Font(color="FFFFFF", bold=True)
-        cell.fill = PatternFill("solid", fgColor=GROUP_COLOURS.get(group, "1F4E78"))
+        fill_colour = group_colour(str(group or ""))
+        cell.fill = PatternFill("solid", fgColor=fill_colour)
+        if str(group or "").startswith("Provider #"):
+            cell.font = Font(color="000000", bold=True)
         cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
     ws.row_dimensions[1].height = 22
