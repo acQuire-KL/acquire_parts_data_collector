@@ -147,6 +147,62 @@ class KnowledgeBaseManager:
         self._update_manifest(provider, captured)
         return KnowledgeRecord(provider_response, metadata, commercial_profile, part_profile)
 
+    def save_raw_provider_response(
+        self,
+        *,
+        provider: str,
+        endpoint: str,
+        manufacturer: str,
+        mpn: str,
+        provider_response: dict[str, Any],
+        input_manufacturer: str = "",
+        locale: str = "",
+        currency: str = "",
+        request_context: str = "",
+    ) -> KnowledgeRecord:
+        """Store an unmodified provider response before a mapper is available.
+
+        This is the common onboarding path for a newly connected provider. It
+        preserves the source response under Current and History without
+        creating potentially incorrect provider-neutral profiles.
+        """
+        captured = utc_now()
+        metadata = {
+            "knowledge_base_schema_version": KNOWLEDGE_BASE_SCHEMA_VERSION,
+            "provider": provider,
+            "endpoint": endpoint,
+            "captured_at_utc": utc_text(captured),
+            "source_mode": "live_api_raw",
+            "input_manufacturer": input_manufacturer,
+            "input_mpn": mpn,
+            "resolved_manufacturer": manufacturer,
+            "locale": locale,
+            "currency": currency,
+            "request_context": request_context,
+            "mapping_status": "not_mapped",
+        }
+        document = {
+            "knowledge_base_metadata": metadata,
+            "provider_response": provider_response,
+        }
+        text = json.dumps(document, indent=2, ensure_ascii=False)
+
+        current_path = self.current_path(provider, endpoint, manufacturer, mpn)
+        current_path.write_text(text, encoding="utf-8")
+
+        history_folder = self._folder(provider, endpoint, history=True) / self._part_key(manufacturer, mpn)
+        history_folder.mkdir(parents=True, exist_ok=True)
+        stamp = captured.strftime("%Y-%m-%dT%H%M%SZ")
+        history_path = history_folder / f"{stamp}.json"
+        suffix = 1
+        while history_path.exists():
+            history_path = history_folder / f"{stamp}_{suffix}.json"
+            suffix += 1
+        history_path.write_text(text, encoding="utf-8")
+
+        self._update_manifest(provider, captured)
+        return KnowledgeRecord(provider_response, metadata, {}, None)
+
     def save_reference_data(
         self,
         *,

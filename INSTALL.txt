@@ -1,0 +1,24 @@
+PDC v0.2.9 — Sprint 4.2.2b Phase 1
+
+1. Extract this ZIP over the project root, preserving folders.
+2. Run the regression suite:
+
+   python -m unittest discover -s tests -v
+
+   Expected: 62 tests, OK
+
+3. Run the live TME connectivity capture:
+
+   python tme_connectivity_check.py MCP1711T-25I/OT
+
+4. Confirm the latest raw TME response exists under:
+
+   Knowledge_Base/Current/TME/Product_Search/
+
+   and a timestamped history copy exists under:
+
+   Knowledge_Base/History/TME/Product_Search/
+
+This phase deliberately stores the unmodified TME response without creating
+commercial_profile or part_profile data. Those mappings belong to the next
+controlled phase of Sprint 4.2.2b.

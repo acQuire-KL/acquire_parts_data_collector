@@ -1,6 +1,6 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-07-26T15:08:15Z",
+  "updated_at_utc": "2026-07-27T22:08:34Z",
   "requested_manufacturer": "OnSemi",
   "requested_mpn": "SS14",
   "summary": {
@@ -25,7 +25,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-07-26T15:08:15Z",
+        "captured_at_utc": "2026-07-27T22:08:34Z",
         "source_mode": "live_api"
       }
     ]

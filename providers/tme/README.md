@@ -4,7 +4,7 @@
 
 This folder currently contains only the TME Product API v2 connectivity client.
 It does not yet map TME data into the PDC provider-neutral model or write to the
-Knowledge Base/workbook.
+workbook. Successful connectivity responses are now captured in the Knowledge Base.
 
 
 ## Status
@@ -41,7 +41,13 @@ For public market context rather than customer-linked pricing:
 python tme_connectivity_check.py MCP1711T-25I/OT --anonymous
 ```
 
-A successful response is written unchanged to `raw_responses/`.
+A successful response is preserved unchanged under:
+
+```text
+Knowledge_Base/Current/TME/Product_Search/
+```
+
+A timestamped copy is also written under the matching `Knowledge_Base/History/TME/` path.
 
 ## Important validation point
 
@@ -64,9 +70,7 @@ Incorrect:
 
 https://api.tme.eu/v2/products/search
 
-Raw responses are saved under:
-
-raw_responses/
+Raw responses are saved under the TME provider folders in `Knowledge_Base/Current` and `Knowledge_Base/History`.
 
 
 

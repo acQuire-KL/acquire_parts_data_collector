@@ -65,3 +65,11 @@ Large changes should be divided into coherent steps that leave the project runna
 ## 15. Keep Deferred Work in the Parking Lot
 
 Worthwhile ideas that are outside the current sprint should be recorded in `docs/Parking_Lot.md`. They should not rely on conversational memory.
+## 16. Preserve Provider Independence
+
+All provider-specific authentication, request construction, response parsing and mapping must remain inside the provider package or common provider framework. The core PDC application should treat every provider through the same contract. Adding a new provider should not require provider-specific changes to workbook, Knowledge Base or orchestration code.
+
+## 17. Make Provider Onboarding Repeatable
+
+A newly connected provider should use the common raw-response capture path before provider-neutral mapping is introduced. Provider folders, metadata, current/history storage and test expectations should be created by shared infrastructure rather than duplicated provider code.
+
