@@ -74,6 +74,68 @@ class TmeClientTests(unittest.TestCase):
         TmeClient(settings, session=session).search_products("ABC", anonymous=True)
         self.assertEqual("anonymous", session.calls[1][2]["headers"]["request-context"])
 
+    def test_product_data_uses_symbol_country_and_currency(self):
+        session = FakeSession(search_payload={"status": "OK"})
+        settings = TmeSettings(
+            token="token", application_secret="secret",
+            base_url="https://example.test", data_path="/products/data",
+            country="IE", currency="EUR",
+        )
+        payload = TmeClient(settings, session=session).get_product_data(" PART-1 ")
+        self.assertEqual({"status": "OK"}, payload)
+        method, url, kwargs = session.calls[1]
+        self.assertEqual("GET", method)
+        self.assertEqual("https://example.test/products/data", url)
+        self.assertEqual(
+            [
+                ("country", "IE"),
+                ("currency", "EUR"),
+                ("symbols[]", "PART-1"),
+                ("scope[]", "prices"),
+                ("scope[]", "stock"),
+            ],
+            kwargs["params"],
+        )
+
+    def test_product_data_accepts_repeated_custom_scopes(self):
+        session = FakeSession(search_payload={"status": "OK"})
+        settings = TmeSettings(
+            token="token", application_secret="secret",
+            base_url="https://example.test", data_path="/products/data",
+            country="IE", currency="EUR",
+        )
+        TmeClient(settings, session=session).get_product_data(
+            "PART-1", scopes=("prices", "stock", "delivery")
+        )
+        params = session.calls[1][2]["params"]
+        self.assertEqual(
+            [("scope[]", "prices"), ("scope[]", "stock"), ("scope[]", "delivery")],
+            [item for item in params if item[0] == "scope[]"],
+        )
+
+    def test_product_data_rejects_empty_scope_collection(self):
+        session = FakeSession(search_payload={"status": "OK"})
+        settings = TmeSettings(token="token", application_secret="secret")
+        with self.assertRaises(ValueError):
+            TmeClient(settings, session=session).get_product_data("PART-1", scopes=[])
+
+    def test_product_parameters_uses_symbol_and_country(self):
+        session = FakeSession(search_payload={"status": "OK"})
+        settings = TmeSettings(
+            token="token", application_secret="secret",
+            base_url="https://example.test", parameters_path="/products/parameters",
+            country="IE",
+        )
+        payload = TmeClient(settings, session=session).get_product_parameters(" PART-1 ")
+        self.assertEqual({"status": "OK"}, payload)
+        method, url, kwargs = session.calls[1]
+        self.assertEqual("GET", method)
+        self.assertEqual("https://example.test/products/parameters", url)
+        self.assertEqual(
+            [("country", "IE"), ("symbols[]", "PART-1")],
+            kwargs["params"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

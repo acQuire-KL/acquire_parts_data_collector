@@ -3,7 +3,7 @@
     "knowledge_base_schema_version": "1.4",
     "provider": "TME",
     "endpoint": "Product_Search",
-    "captured_at_utc": "2026-07-28T20:15:17Z",
+    "captured_at_utc": "2026-07-28T19:11:17Z",
     "source_mode": "live_api_raw",
     "input_manufacturer": "",
     "input_mpn": "MCP1711T-25I/OT",

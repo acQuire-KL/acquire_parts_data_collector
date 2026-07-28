@@ -48,8 +48,11 @@ class TmeSettings:
     base_url: str = "https://api.tme.eu"
     auth_path: str = "/auth/token"
     search_path: str = "/products/search"
+    data_path: str = "/products/data"
+    parameters_path: str = "/products/parameters"
     country: str = "IE"
     language: str = "en"
+    currency: str = "EUR"
     timeout_seconds: float = 30.0
 
     @classmethod
@@ -61,7 +64,10 @@ class TmeSettings:
             base_url=os.getenv("TME_BASE_URL", "https://api.tme.eu").strip().rstrip("/"),
             auth_path=os.getenv("TME_AUTH_PATH", "/auth/token").strip(),
             search_path=os.getenv("TME_SEARCH_PATH", "/products/search").strip(),
+            data_path=os.getenv("TME_DATA_PATH", "/products/data").strip(),
+            parameters_path=os.getenv("TME_PARAMETERS_PATH", "/products/parameters").strip(),
             country=os.getenv("TME_COUNTRY", "IE").strip().upper(),
             language=os.getenv("TME_LANGUAGE", "en").strip(),
+            currency=os.getenv("TME_CURRENCY", "EUR").strip().upper(),
             timeout_seconds=float(os.getenv("TME_TIMEOUT_SECONDS", "30")),
         )
