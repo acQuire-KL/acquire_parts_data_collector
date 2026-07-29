@@ -73,3 +73,11 @@ All provider-specific authentication, request construction, response parsing and
 
 A newly connected provider should use the common raw-response capture path before provider-neutral mapping is introduced. Provider folders, metadata, current/history storage and test expectations should be created by shared infrastructure rather than duplicated provider code.
 
+## 18. Normalise Once, Consume Everywhere
+
+Provider-specific terminology, units and formats shall be translated into a common internal representation within PDC. The Knowledge Base, workbook and PIE shall consume the normalised representation and shall not duplicate provider-specific parsing or mapping logic. Raw provider values must remain available as evidence.
+
+## 19. Validate Before Publishing to PIE
+
+PDC owns the heavy lifting required to collect, normalise, correlate and validate data attributes before they become the trusted Knowledge Base record used by PIE. PIE may analyse and make recommendations from that record, but should not need to reinterpret provider-native formats or determine whether equivalent technical values mean the same thing.
+

@@ -1,6 +1,6 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-07-28T19:11:38Z",
+  "updated_at_utc": "2026-07-29T17:45:30Z",
   "requested_manufacturer": "Microchip Technology",
   "requested_mpn": "MCP1711T-25I/OT",
   "summary": {
@@ -25,7 +25,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-07-28T19:11:38Z",
+        "captured_at_utc": "2026-07-29T17:45:30Z",
         "source_mode": "live_api"
       }
     ]

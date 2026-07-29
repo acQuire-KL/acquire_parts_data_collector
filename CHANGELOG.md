@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.2.9 Sprint 4.2.3a — Provider Part Profile Foundation
+
+### Added
+
+- Added the provider-neutral `ProviderPartProfile` model with Identity, Technical, Commercial, Logistics, Media and Provider Metadata sections.
+- Added attribute-level provenance retaining provider, endpoint, raw name, raw value, normalised value, unit and capture timestamp.
+- Added provider-independent normalisation helpers for numeric values, ranges, package names, mounting types, pack formats and protocol-relative URLs.
+- Added the TME normaliser combining Product Search, Product Data and Product Parameters into one profile.
+- Added `tme_profile_check.py` to build a readable console summary and JSON inspection artefact from the current TME Knowledge Base captures.
+- Added regression tests for the common profile, normalisation helpers and the three-endpoint TME mapping.
+
+### Preserved
+
+- Raw TME responses remain the authoritative captured evidence.
+- No correlated Knowledge Base Part Profile, confidence score, supplier ranking or PIE decision logic is introduced in this step.
+- Existing DigiKey and Mouser profiles are unchanged until Sprint 4.2.4.
+
 ## 0.2.8 - Sprint 4.2.2a TME Connectivity
 
 - Added isolated TME Product API v2 connectivity client.

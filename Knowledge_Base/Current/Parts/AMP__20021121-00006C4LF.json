@@ -1,6 +1,6 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-07-28T19:11:34Z",
+  "updated_at_utc": "2026-07-29T17:45:27Z",
   "requested_manufacturer": "AMP",
   "requested_mpn": "20021121-00006C4LF",
   "summary": {
@@ -13,7 +13,7 @@
         "provider": "DigiKey",
         "execution_status": "error",
         "identity_match": false,
-        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product 20021121-00006c4lf Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"78b9d64d-822e-4673-aa9e-7221b3fa3c23\",\n                \"errors\": []\n            }\n        ",
+        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product 20021121-00006c4lf Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"99449735-7811-44d1-85e5-0ba02d4dd539\",\n                \"errors\": []\n            }\n        ",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -22,7 +22,7 @@
         "execution_status": "success",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-07-28T19:11:34Z",
+        "captured_at_utc": "2026-07-29T17:45:27Z",
         "source_mode": "live_api"
       }
     ]
