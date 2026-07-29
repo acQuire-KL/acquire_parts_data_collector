@@ -1,6 +1,6 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-07-29T17:45:31Z",
+  "updated_at_utc": "2026-07-29T22:12:22Z",
   "requested_manufacturer": "Knowles",
   "requested_mpn": "SPH0645LM4H",
   "summary": {
@@ -15,7 +15,7 @@
         "provider": "DigiKey",
         "execution_status": "error",
         "identity_match": false,
-        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product sph0645lm4h Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"db9d7f8f-3fb1-4bbc-c7fe-75857fadad03\",\n                \"errors\": []\n            }\n        ",
+        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Requested Product sph0645lm4h Not Found\",\n                \"instance\": \"\",\n                \"correlationId\": \"85fc7319-fa4f-4e4d-c27d-f05757d4929a\",\n                \"errors\": []\n            }\n        ",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -24,7 +24,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-07-29T17:45:31Z",
+        "captured_at_utc": "2026-07-29T22:12:22Z",
         "source_mode": "live_api"
       }
     ]
