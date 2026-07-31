@@ -243,3 +243,9 @@ This step changes documentation only. Python behaviour and workbook output are u
 - Added a normalised pack format while retaining the original provider package description.
 - Updated Knowledge Base schema to 1.1 and embedded the commercial profile in new and migrated product records.
 - Existing Knowledge Base records remain compatible; their commercial profile is derived in memory when absent.
+
+## Sprint 4.2.4 - PDCPartProfile refinement (DigiKey)
+
+- Expanded the provider-neutral profile additively for lifecycle, regulatory and richer commercial offers.
+- Added DigiKey Product Details normalisation without discarding package-specific offers or price ladders.
+- Preserved TME compatibility with the expanded profile.

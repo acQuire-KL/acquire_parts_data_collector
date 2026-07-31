@@ -10,6 +10,8 @@ from provider_profiles.models import (
     IdentityProfile,
     LogisticsProfile,
     MediaProfile,
+    LifecycleProfile,
+    RegulatoryProfile,
     ProviderMetadata,
     ProviderPartProfile,
     TechnicalProfile,
@@ -153,7 +155,6 @@ def build_tme_provider_part_profile(
             description=str(search_item.get("description") or ""),
             detailed_description=str(search_item.get("description") or ""),
             category=category_name,
-            product_status=[str(value) for value in search_item.get("product_status") or []],
             ean=str(search_item.get("ean") or ""),
         ),
         technical=TechnicalProfile(
@@ -200,6 +201,8 @@ def build_tme_provider_part_profile(
             weight_unit=str((search_item.get("weight") or {}).get("unit") or "") if isinstance(search_item.get("weight"), dict) else "",
             deliveries=data_item.get("deliveries"),
         ),
+        lifecycle=LifecycleProfile(provider_status=[str(value) for value in search_item.get("product_status") or []]),
+        regulatory=RegulatoryProfile(),
         media=MediaProfile(
             primary_image_url=normalise_url(primary_photo.get("prime")),
             thumbnail_url=normalise_url(primary_photo.get("thumbnail")),

@@ -81,3 +81,7 @@ Provider-specific terminology, units and formats shall be translated into a comm
 
 PDC owns the heavy lifting required to collect, normalise, correlate and validate data attributes before they become the trusted Knowledge Base record used by PIE. PIE may analyse and make recommendations from that record, but should not need to reinterpret provider-native formats or determine whether equivalent technical values mean the same thing.
 
+
+## PDCPartProfile grows additively
+
+Useful attributes discovered from any provider are added to the provider-neutral PDCPartProfile. Existing useful attributes are not deleted because another provider does not expose them, and no provider is treated as authoritative.
