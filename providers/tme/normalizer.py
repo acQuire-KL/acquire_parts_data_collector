@@ -112,7 +112,7 @@ def build_tme_provider_part_profile(
     standard_pack_raw = _one(parameters, "Manufacturer standard package")
 
     input_min, input_max = range_values(input_voltage_raw)
-    temp_min, temp_max = range_values(temperature_raw)
+    temp_min, temp_max = range_values(temperature_raw, target_unit="C")
 
     prices = data_item.get("prices") or {}
     prices = prices if isinstance(prices, dict) else {}

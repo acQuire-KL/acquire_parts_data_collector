@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.2.9 Sprint 4.2.4 Patch 2 — Shared Range Normalisation
+
+### Fixed
+
+- Corrected DigiKey signed-range parsing for values such as `-40°C ~ 85°C`.
+- Added provider-independent range validation requiring a parsed maximum to be greater than its minimum.
+- Added Celsius/Fahrenheit recognition and conversion to Celsius for normalised temperature ranges.
+- Prevented single values from being silently duplicated into false min/max ranges.
+
+### Added
+
+- Added regression tests covering signed ranges, multiple separators, invalid/reversed ranges, unit conversion, and DigiKey/TME temperature correlation.
+- Applied the shared range utility to current TME and DigiKey normalised range attributes.
+
 ## v0.2.9 Sprint 4.2.3a — Provider Part Profile Foundation
 
 ### Added

@@ -38,7 +38,7 @@ def build_digikey_provider_part_profile(record: dict[str,Any], *, raw_references
     desc=product.get('Description') or {}; manufacturer=product.get('Manufacturer') or {}; status=product.get('ProductStatus') or {}; cls=product.get('Classifications') or {}
     cats=_category(product)
     package_raw=_one(params,'Package / Case'); supplier_package=_one(params,'Supplier Device Package')
-    temp_raw=_one(params,'Operating Temperature','Operating Temperature - Junction'); tmin,tmax=range_values(temp_raw)
+    temp_raw=_one(params,'Operating Temperature','Operating Temperature - Junction'); tmin,tmax=range_values(temp_raw, target_unit='C')
     input_raw=_one(params,'Voltage - Input (Max)'); input_val=number(input_raw)
     out_v_raw=_one(params,'Voltage - Output (Min/Fixed)','Voltage - Rated'); out_i_raw=_one(params,'Current - Output','Current Rating (Amps)')
     commercial=build_commercial_profile(response,meta)
