@@ -1,4 +1,4 @@
-from providers.tme.normalizer import build_tme_provider_part_profile
+from providers.tme.normalizer import build_tme_pdc_part_profile
 
 
 def _record(endpoint, response, currency=""):
@@ -70,7 +70,7 @@ def test_tme_three_endpoints_form_one_provider_neutral_profile():
         }]},
     })
 
-    result = build_tme_provider_part_profile(search, data, parameters).to_dict()
+    result = build_tme_pdc_part_profile(search, data, parameters).to_dict()
 
     assert result["provider_metadata"]["provider"] == "TME"
     assert result["identity"]["manufacturer_part_number"] == "MCP1711T-25I/OT"

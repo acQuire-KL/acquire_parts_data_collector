@@ -1,13 +1,15 @@
-"""Provider-neutral part-profile models and normalisation utilities."""
+"""PDCPartProfile models and provider-independent normalisation utilities."""
 
-from .models import (
+from .pdc_part_profile import (
     AttributeEvidence,
     CommercialProfile,
     IdentityProfile,
+    LifecycleProfile,
     LogisticsProfile,
     MediaProfile,
+    PDCPartProfile,
     ProviderMetadata,
-    ProviderPartProfile,
+    RegulatoryProfile,
     TechnicalProfile,
 )
 
@@ -15,9 +17,11 @@ __all__ = [
     "AttributeEvidence",
     "CommercialProfile",
     "IdentityProfile",
+    "LifecycleProfile",
     "LogisticsProfile",
     "MediaProfile",
+    "PDCPartProfile",
     "ProviderMetadata",
-    "ProviderPartProfile",
+    "RegulatoryProfile",
     "TechnicalProfile",
 ]

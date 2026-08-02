@@ -1,10 +1,10 @@
-"""Map TME Search, Data and Parameters responses to ProviderPartProfile."""
+"""Map TME Search, Data and Parameters responses to PDCPartProfile."""
 
 from __future__ import annotations
 
 from typing import Any
 
-from provider_profiles.models import (
+from provider_profiles.pdc_part_profile import (
     AttributeEvidence,
     CommercialProfile,
     IdentityProfile,
@@ -13,7 +13,7 @@ from provider_profiles.models import (
     LifecycleProfile,
     RegulatoryProfile,
     ProviderMetadata,
-    ProviderPartProfile,
+    PDCPartProfile,
     TechnicalProfile,
 )
 from provider_profiles.normalization import (
@@ -74,13 +74,13 @@ def _one(parameters: dict[str, list[str]], name: str) -> str:
     return values[0] if values else ""
 
 
-def build_tme_provider_part_profile(
+def build_tme_pdc_part_profile(
     search_record: dict[str, Any],
     data_record: dict[str, Any],
     parameters_record: dict[str, Any],
     *,
     raw_references: dict[str, str] | None = None,
-) -> ProviderPartProfile:
+) -> PDCPartProfile:
     search, search_meta = _unwrap(search_record)
     data, data_meta = _unwrap(data_record)
     parameters_payload, parameters_meta = _unwrap(parameters_record)
@@ -147,7 +147,7 @@ def build_tme_provider_part_profile(
         or ""
     )
 
-    profile = ProviderPartProfile(
+    profile = PDCPartProfile(
         identity=IdentityProfile(
             manufacturer=manufacturer,
             manufacturer_part_number=mpn,
@@ -246,3 +246,7 @@ def build_tme_provider_part_profile(
     evidence("logistics.manufacturer_standard_pack_quantity", "Product_Parameters", "Manufacturer standard package", standard_pack_raw, profile.logistics.manufacturer_standard_pack_quantity, profile.logistics.sales_unit)
 
     return profile
+
+
+# Backward-compatible alias; remove only in a future breaking release.
+build_tme_provider_part_profile = build_tme_pdc_part_profile

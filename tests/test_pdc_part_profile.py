@@ -1,8 +1,8 @@
-from provider_profiles.models import ProviderPartProfile
+from provider_profiles.pdc_part_profile import PDCPartProfile
 
 
-def test_provider_part_profile_serialises_with_neutral_sections():
-    profile = ProviderPartProfile().to_dict()
+def test_pdc_part_profile_serialises_with_neutral_sections():
+    profile = PDCPartProfile().to_dict()
 
     assert profile["schema_version"] == "0.2"
     assert set(profile) == {

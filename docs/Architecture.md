@@ -178,20 +178,20 @@ PDC queries every enabled provider independently and preserves each provider res
 
 The workbook is a review dashboard over the Knowledge Base. Detailed commercial offers remain in Commercial Analysis, while raw responses and common profiles remain in the Knowledge Base.
 
-## 11. Provider Part Profile
+## 11. PDCPartProfile
 
 Each provider normaliser targets the same internal contract:
 
 ```text
 Provider 1 ─┐
-Provider 2 ─┼──> Provider Part Profile
+Provider 2 ─┼──> PDCPartProfile
 Provider 3 ─┤
 Provider n ─┘
 ```
 
-A Provider Part Profile represents one provider's normalised evidence for one manufacturer part. It contains provider-neutral Identity, Technical, Commercial, Logistics and Media sections, together with provider metadata, provenance and references to the retained raw records.
+A PDCPartProfile represents one provider's normalised evidence for one manufacturer part. It contains provider-neutral Identity, Technical, Commercial, Logistics and Media sections, together with provider metadata, provenance and references to the retained raw records.
 
-The profile is not yet the final correlated Knowledge Base Part Profile. The later validation and correlation stage combines several Provider Part Profiles, preserves disagreements and assigns evidence confidence before publishing the trusted record consumed by PIE.
+The profile is not yet the final correlated Knowledge Base Part Profile. The later validation and correlation stage combines several PDCPartProfiles, preserves disagreements and assigns evidence confidence before publishing the trusted record consumed by PIE.
 
 ```text
 Provider-native responses
@@ -200,7 +200,7 @@ Provider-native responses
 Provider-specific normaliser
         │
         ▼
-Provider Part Profile
+PDCPartProfile
         │
         ▼
 Validation and correlation (PDC)

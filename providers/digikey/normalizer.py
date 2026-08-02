@@ -2,7 +2,7 @@
 from __future__ import annotations
 from typing import Any
 from commercial_profile import build_commercial_profile
-from provider_profiles.models import *
+from provider_profiles.pdc_part_profile import *
 from provider_profiles.normalization import normalise_mounting, normalise_pack_format, normalise_package, normalise_url, number, range_values
 
 PROVIDER = "DigiKey"
@@ -33,7 +33,7 @@ def _category(product):
         children=c.get('ChildCategories') or []; c=children[0] if children else {}
     return names
 
-def build_digikey_provider_part_profile(record: dict[str,Any], *, raw_references: dict[str,str]|None=None) -> ProviderPartProfile:
+def build_digikey_pdc_part_profile(record: dict[str,Any], *, raw_references: dict[str,str]|None=None) -> PDCPartProfile:
     response, meta=_unwrap(record); product=_product(response); params=_params(product)
     desc=product.get('Description') or {}; manufacturer=product.get('Manufacturer') or {}; status=product.get('ProductStatus') or {}; cls=product.get('Classifications') or {}
     cats=_category(product)
@@ -51,7 +51,7 @@ def build_digikey_provider_part_profile(record: dict[str,Any], *, raw_references
     moqs=[o.get('minimum_order_quantity') for o in offers if isinstance(o.get('minimum_order_quantity'),(int,float))]
     stdpacks=[o.get('pack_quantity') for o in offers if isinstance(o.get('pack_quantity'),(int,float)) and o.get('pack_quantity')]
     lifecycle_status=str(status.get('Status') or '')
-    p=ProviderPartProfile(
+    p=PDCPartProfile(
       identity=IdentityProfile(manufacturer=str(manufacturer.get('Name') or ''),manufacturer_part_number=str(product.get('ManufacturerProductNumber') or ''),provider_part_number=str((offers[0].get('provider_part_number') if offers else '') or ''),alternative_names=[str(x) for x in product.get('OtherNames') or []],description=str(desc.get('ProductDescription') or ''),detailed_description=str(desc.get('DetailedDescription') or ''),category=cats[0] if cats else '',subcategory=cats[-1] if len(cats)>1 else ''),
       technical=TechnicalProfile(component_type=_one(params,'Type','Technology'),regulator_type=[x for x in [_one(params,'Output Type'),_one(params,'Output Configuration')] if x],manufacturer_series=str((product.get('BaseProductNumber') or {}).get('Name') or (product.get('Series') or {}).get('Name') or ''),package=normalise_package(package_raw or supplier_package),supplier_device_package=normalise_package(supplier_package),mounting_type=normalise_mounting(_one(params,'Mounting Type')),output_voltage_v=float(number(out_v_raw)) if number(out_v_raw) is not None else None,output_current_a=float(number(out_i_raw))/1000 if 'ma' in out_i_raw.lower() and number(out_i_raw) is not None else (float(number(out_i_raw)) if number(out_i_raw) is not None else None),input_voltage_max_v=float(input_val) if input_val is not None else None,operating_temperature_min_c=tmin,operating_temperature_max_c=tmax,tolerance_percent=float(number(_one(params,'Tolerance'))) if number(_one(params,'Tolerance')) is not None else None,channel_count=int(number(_one(params,'Number of Regulators','Number of Channels'))) if number(_one(params,'Number of Regulators','Number of Channels')) is not None else None,additional_attributes={k:v for k,v in params.items() if k not in {'Type','Technology','Output Type','Output Configuration','Package / Case','Supplier Device Package','Mounting Type','Voltage - Output (Min/Fixed)','Voltage - Rated','Current - Output','Current Rating (Amps)','Voltage - Input (Max)','Operating Temperature','Operating Temperature - Junction','Tolerance','Number of Regulators','Number of Channels'}}),
       commercial=CommercialProfile(currency=str(commercial.get('provider_currency') or ''),supplier_moq=min(moqs) if moqs else None,stock_quantity=number(commercial.get('product_quantity_available')),manufacturer_public_quantity=number(commercial.get('manufacturer_public_quantity')),manufacturer_lead_time_weeks=float(number(commercial.get('manufacturer_lead_weeks'))) if number(commercial.get('manufacturer_lead_weeks')) is not None else None,unit_price=float(number(commercial.get('product_unit_price'))) if number(commercial.get('product_unit_price')) is not None else None,price_breaks=all_breaks,offers=offers),
@@ -70,3 +70,7 @@ def build_digikey_provider_part_profile(record: dict[str,Any], *, raw_references
     ev('lifecycle.status','Product.ProductStatus.Status',status.get('Status'),p.lifecycle.status)
     ev('regulatory.rohs_status','Product.Classifications.RohsStatus',cls.get('RohsStatus'),p.regulatory.rohs_status)
     return p
+
+
+# Backward-compatible alias; remove only in a future breaking release.
+build_digikey_provider_part_profile = build_digikey_pdc_part_profile

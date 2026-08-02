@@ -1,4 +1,4 @@
-"""Build and inspect a normalised TME Provider Part Profile from the Knowledge Base."""
+"""Build and inspect a normalised TME PDCPartProfile from the Knowledge Base."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import json
 import re
 from pathlib import Path
 
-from providers.tme.normalizer import build_tme_provider_part_profile
+from providers.tme.normalizer import build_tme_pdc_part_profile
 
 
 def _safe_part(value: str) -> str:
@@ -72,7 +72,7 @@ def _display(profile: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Normalise the three current TME records into one Provider Part Profile."
+        description="Normalise the three current TME records into one PDCPartProfile."
     )
     parser.add_argument("mpn", nargs="?", default="MCP1711T-25I/OT")
     parser.add_argument("--manufacturer", default="MICROCHIP TECHNOLOGY")
@@ -87,7 +87,7 @@ def main() -> int:
         "parameters": _record_path(root, "Product_Parameters", args.manufacturer, args.mpn),
     }
 
-    profile = build_tme_provider_part_profile(
+    profile = build_tme_pdc_part_profile(
         _load(paths["search"]),
         _load(paths["data"]),
         _load(paths["parameters"]),
