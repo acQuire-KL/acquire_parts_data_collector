@@ -85,6 +85,7 @@ class LifecycleProfile:
     backorder_allowed: bool | None = None
     non_cancellable_non_returnable: bool | None = None
     last_buy_date: str = ""
+    suggested_replacement: str = ""
 
 @dataclass(slots=True)
 class RegulatoryProfile:

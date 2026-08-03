@@ -134,6 +134,10 @@ def normalise_mounting(value: Any) -> str:
 def normalise_pack_format(value: Any) -> str:
     text = str(value or "").strip()
     lowered = text.lower()
+    if "cut tape" in lowered:
+        return "Cut Tape"
+    if "digi-reel" in lowered or "digireel" in lowered:
+        return "DigiReel"
     if "reel" in lowered:
         return "Reel"
     if "tape" in lowered:
