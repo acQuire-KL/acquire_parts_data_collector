@@ -1,0 +1,28 @@
+PDC v0.2.10 - Sprint 4.3 Patch 1
+Deterministic, Lossless BOM Normalisation
+
+INSTALL
+1. Extract the contents of this patch over the project root.
+2. Preserve the folder structure.
+
+TEST
+py -m unittest discover -s tests -v
+
+DEVELOPER CHECK USING THE GALENBAND BOM
+py bom_normalization_check.py input/gb-mini-board-v0.1-draft2.csv
+
+Or provide the path directly:
+py bom_normalization_check.py "C:\path\to\gb-mini-board-v0.1-draft2.csv"
+
+OUTPUT
+output/normalised_boms/<source>__SOURCE.csv
+output/normalised_boms/<source>__NORMALISED.csv
+output/normalised_boms/<source>__TRACE.json
+output/normalised_boms/<source>__SUMMARY.json
+
+SCOPE
+- No provider calls
+- No matching
+- No recommendations
+- No Parts Master updates
+- No build quantity assumptions
