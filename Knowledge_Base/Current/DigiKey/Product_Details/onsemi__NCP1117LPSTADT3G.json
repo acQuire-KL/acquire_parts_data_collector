@@ -1,0 +1,709 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:19Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "NCP1117LPSTADT3G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "837"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG LINEAR POS ADJ 1A SOT-223",
+        "DetailedDescription": "Linear Voltage Regulator IC Positive Adjustable 1 Output 1A SOT-223"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "NCP1117LPSTADT3G",
+      "UnitPrice": 0.34,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/NCP1117LPSTADT3G/2194029",
+      "DatasheetUrl": "https://www.onsemi.com/pdf/datasheet/ncp1117lp-d.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4819/SOT223-3L.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "NCP1117LPSTADT3GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.14067,
+              "TotalPrice": 562.68
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.13695,
+              "TotalPrice": 1095.6
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 12000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "NCP1117LPSTADT3GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.24,
+              "TotalPrice": 2.4
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.2132,
+              "TotalPrice": 5.33
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1842,
+              "TotalPrice": 18.42
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.17036,
+              "TotalPrice": 42.59
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.16204,
+              "TotalPrice": 81.02
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.15518,
+              "TotalPrice": 155.18
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 14742,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "NCP1117LPSTADT3GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.24,
+              "TotalPrice": 2.4
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.2132,
+              "TotalPrice": 5.33
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1842,
+              "TotalPrice": 18.42
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.17036,
+              "TotalPrice": 42.59
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.16204,
+              "TotalPrice": 81.02
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.15518,
+              "TotalPrice": 155.18
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 14742,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 14742,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+      "Parameters": [
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "310372",
+          "ValueText": "Adjustable"
+        },
+        {
+          "ParameterId": 1065,
+          "ParameterText": "Number of Regulators",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "116509",
+          "ValueText": "18V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "47448",
+          "ValueText": "1.25V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "104997",
+          "ValueText": "16.6V"
+        },
+        {
+          "ParameterId": 2065,
+          "ParameterText": "Voltage Dropout (Max)",
+          "ParameterType": "String",
+          "ValueId": "53097",
+          "ValueText": "1.4V @ 1A"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "119750",
+          "ValueText": "1A"
+        },
+        {
+          "ParameterId": 477,
+          "ParameterText": "Current - Quiescent (Iq)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "50 µA",
+          "ValueText": "50 µA"
+        },
+        {
+          "ParameterId": 2064,
+          "ParameterText": "PSRR",
+          "ParameterType": "String",
+          "ValueId": "257140",
+          "ValueText": "60dB (120Hz)"
+        },
+        {
+          "ParameterId": 1880,
+          "ParameterText": "Control Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2066,
+          "ParameterText": "Protection Features",
+          "ParameterType": "String",
+          "ValueId": "382816",
+          "ValueText": "Over Current, Over Temperature"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "38908",
+          "ValueText": "0°C ~ 125°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "413435",
+          "ValueText": "TO-261-4, TO-261AA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405376",
+          "ValueText": "SOT-223"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 151453,
+        "Name": "NCP1117"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 699,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+                "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "9",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "NCP1117LPSTADT3G-ND",
+        "NCP1117LPSTADT3GOSDKR",
+        "NCP1117LPSTADT3GOSTR",
+        "2156-NCP1117LPSTADT3G-OS",
+        "ONSONSNCP1117LPSTADT3G",
+        "NCP1117LPSTADT3GOSCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:19Z",
+    "manufacturer_part_number": "NCP1117LPSTADT3G",
+    "product_quantity_available": 14742,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "9",
+    "product_unit_price": 0.34,
+    "offers": [
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14742,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.24,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.2132,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1842,
+            "total_price": 18.42
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.17036,
+            "total_price": 42.59
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.16204,
+            "total_price": 81.02
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.15518,
+            "total_price": 155.18
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14742,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.24,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.2132,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1842,
+            "total_price": 18.42
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.17036,
+            "total_price": 42.59
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.16204,
+            "total_price": 81.02
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.15518,
+            "total_price": 155.18
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.14067,
+            "total_price": 562.68
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.13695,
+            "total_price": 1095.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14742,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.24,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.2132,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1842,
+            "total_price": 18.42
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.17036,
+            "total_price": 42.59
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.16204,
+            "total_price": 81.02
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.15518,
+            "total_price": 155.18
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14742,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.24,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.2132,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1842,
+            "total_price": 18.42
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.17036,
+            "total_price": 42.59
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.16204,
+            "total_price": 81.02
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.15518,
+            "total_price": 155.18
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "NCP1117LPSTADT3GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.14067,
+            "total_price": 562.68
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.13695,
+            "total_price": 1095.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:19Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "NCP1117LPSTADT3G",
+    "provider_part_number": "",
+    "description": "IC REG LINEAR POS ADJ 1A SOT-223",
+    "detailed_description": "Linear Voltage Regulator IC Positive Adjustable 1 Output 1A SOT-223",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/ncp1117lp-d.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/NCP1117LPSTADT3G/2194029",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4819/SOT223-3L.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "TO-261-4, TO-261AA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Output Configuration": "Positive",
+      "Output Type": "Adjustable",
+      "Number of Regulators": "1",
+      "Voltage - Input (Max)": "18V",
+      "Voltage - Output (Min/Fixed)": "1.25V",
+      "Voltage - Output (Max)": "16.6V",
+      "Voltage Dropout (Max)": "1.4V @ 1A",
+      "Current - Output": "1A",
+      "Current - Quiescent (Iq)": "50 µA",
+      "PSRR": "60dB (120Hz)",
+      "Control Features": "-",
+      "Protection Features": "Over Current, Over Temperature",
+      "Operating Temperature": "0°C ~ 125°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "TO-261-4, TO-261AA",
+      "Supplier Device Package": "SOT-223"
+    },
+    "compliance": {}
+  }
+}

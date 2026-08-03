@@ -1,0 +1,331 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:16Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Murata",
+    "input_mpn": "LQM21PN2R2MC0D",
+    "resolved_manufacturer": "Murata",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/76/2/JELF243B_0014.pdf",
+          "Description": "Power Inductors - SMD 2.2  UH  20%",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/murata/images/lqm21ph1r0ngcd_SPL.jpg",
+          "Category": "Power Inductors - SMD",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Murata Electronics",
+          "ManufacturerPartNumber": "LQM21PN2R2MC0D",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "81-LQM21PN2R2MC0D",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "4000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.146",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.122",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.072",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Murata-Electronics/LQM21PN2R2MC0D?qs=%2F%252BYoplLUB5hjCpGei4LmSw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 13313,
+              "Date": "2026-09-16T00:00:00"
+            },
+            {
+              "Quantity": 20000,
+              "Date": "2026-09-24T00:00:00"
+            },
+            {
+              "Quantity": 16000,
+              "Date": "2027-01-07T00:00:00"
+            },
+            {
+              "Quantity": 28000,
+              "Date": "2027-03-04T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504500090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504508000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "850450000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504502090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8504509199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85045000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:16Z",
+    "manufacturer_part_number": "LQM21PN2R2MC0D",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "154 Days",
+    "product_unit_price": 0.146,
+    "offers": [
+      {
+        "provider_part_number": "81-LQM21PN2R2MC0D",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.146,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.122,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.101,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.072,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.065,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "81-LQM21PN2R2MC0D",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.146,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.122,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.101,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.072,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.065,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:16Z",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_part_number": "LQM21PN2R2MC0D",
+    "provider_part_number": "81-LQM21PN2R2MC0D",
+    "description": "Power Inductors - SMD 2.2  UH  20%",
+    "detailed_description": "Power Inductors - SMD 2.2  UH  20%",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/76/2/JELF243B_0014.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Murata-Electronics/LQM21PN2R2MC0D?qs=%2F%252BYoplLUB5hjCpGei4LmSw%3D%3D",
+    "image_url": "https://www.mouser.com/images/murata/images/lqm21ph1r0ngcd_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "4000"
+    },
+    "compliance": {
+      "TARIC": "8504500090",
+      "CNHTS": "8504500000",
+      "CAHTS": "8504500000",
+      "USHTS": "8504508000",
+      "JPHTS": "850450000",
+      "KRHTS": "8504502090",
+      "MXHTS": "8504509199",
+      "BRHTS": "85045000",
+      "ECCN": "EAR99"
+    }
+  }
+}

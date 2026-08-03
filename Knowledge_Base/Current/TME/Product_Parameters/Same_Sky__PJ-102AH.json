@@ -1,0 +1,174 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:17Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Same Sky®",
+    "input_mpn": "PJ-102AH",
+    "resolved_manufacturer": "Same Sky®",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "PJ102AH",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 2042,
+                    "value": "Same Sky®"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1469605,
+                    "value": "DC supply"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1436410,
+                    "value": "socket"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Kind of connector",
+                "values": [
+                  {
+                    "id": 1436382,
+                    "value": "female"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1440174,
+                    "value": "5A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1450363,
+                    "value": "24V"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443406,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1443442,
+                    "value": "horizontal"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1436424,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 2671,
+                "name": "Contact size",
+                "values": [
+                  {
+                    "id": 2139745,
+                    "value": "6.5/2mm"
+                  }
+                ]
+              },
+              {
+                "id": 1428,
+                "name": "Plug outside diameter",
+                "values": [
+                  {
+                    "id": 1528741,
+                    "value": "6.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 1427,
+                "name": "Plug inside diameter",
+                "values": [
+                  {
+                    "id": 1495494,
+                    "value": "2mm"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1495968,
+                    "value": "unshielded"
+                  },
+                  {
+                    "id": 1445829,
+                    "value": "with on/off switch"
+                  }
+                ]
+              },
+              {
+                "id": 1424,
+                "name": "Length of metal part",
+                "values": [
+                  {
+                    "id": 1469606,
+                    "value": "9mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:56Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP4461-104E/ML",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL"
+            ],
+            "symbol": "MCP4461-104E/ML",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100622,
+              "name": "Digital potentiometers"
+            },
+            "manufacturer_symbols": [
+              "MCP4461-104E/ML"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: digital potentiometer; I2C; 100kΩ; 8bit; QFN20; SMD; Ch: 4; tube",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

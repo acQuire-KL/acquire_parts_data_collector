@@ -1,0 +1,278 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:59Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "TL331VSN4T1G",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "6102 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog Comparators LOW POWER SINGLE COMPARATOR TSOP-5",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/TSOP-5_SPL.jpg",
+          "Category": "Analog Comparators",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "TL331VSN4T1G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-TL331VSN4T1G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.125",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.11",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.087",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.087",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/TL331VSN4T1G?qs=amGC7iS6iy8OX%2F4hJwPzIQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "6102",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "300",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Czech Republic"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:59Z",
+    "manufacturer_part_number": "TL331VSN4T1G",
+    "product_quantity_available": 6102,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 0.181,
+    "offers": [
+      {
+        "provider_part_number": "863-TL331VSN4T1G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6102,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.125,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.11,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.087,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.087,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "863-TL331VSN4T1G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6102,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.125,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.11,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.087,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.087,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:59Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "TL331VSN4T1G",
+    "provider_part_number": "863-TL331VSN4T1G",
+    "description": "Analog Comparators LOW POWER SINGLE COMPARATOR TSOP-5",
+    "detailed_description": "Analog Comparators LOW POWER SINGLE COMPARATOR TSOP-5",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/TL331VSN4T1G?qs=amGC7iS6iy8OX%2F4hJwPzIQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/onsemiconductor/images/TSOP-5_SPL.jpg",
+    "lifecycle_status": "New Product",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542330000",
+      "USHTS": "8542330001",
+      "MXHTS": "8542330299",
+      "ECCN": "EAR99"
+    }
+  }
+}

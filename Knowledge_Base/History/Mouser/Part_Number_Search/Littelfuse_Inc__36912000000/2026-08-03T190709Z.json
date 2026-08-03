@@ -1,0 +1,448 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:09Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Littelfuse Inc.",
+    "input_mpn": "36912000000",
+    "resolved_manufacturer": "Littelfuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "15934 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Fuses with Leads - Through Hole 300V TL TE5 LL 2A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/littelfuse/images/383_369Series_SPL.jpg",
+          "Category": "Fuses with Leads - Through Hole",
+          "LeadTime": "133 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Littelfuse",
+          "ManufacturerPartNumber": "36912000000",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "576-36912000000",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Ammo Pack"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1400"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.714",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€0.634",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.556",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.478",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.427",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.398",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.356",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1400,
+              "Price": "€0.30",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "36912000440"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Littelfuse/36912000000?qs=A0AD9A9uYPZSe3L1nzdIqQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000776461
+          },
+          "AvailabilityInStock": "15934",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 11200,
+              "Date": "2026-09-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536109090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536100040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853610000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85361000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4544 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Fuses with Leads - Through Hole 300V TL TE5 SL 2A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/littelfuse/images/369_series_leaded_SPL.jpg",
+          "Category": "Fuses with Leads - Through Hole",
+          "LeadTime": "133 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Littelfuse",
+          "ManufacturerPartNumber": "36912000440",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "576-36912000440",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1400"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.679",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€0.566",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.522",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.433",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.40",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.359",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.331",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.30",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "36912000000"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Littelfuse/36912000440?qs=A0AD9A9uYPbxnoY9zcmlyw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0003698
+          },
+          "AvailabilityInStock": "4544",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536101090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536100040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853610000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85361000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:09Z",
+    "manufacturer_part_number": "36912000000",
+    "product_quantity_available": 15934,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "133 Days",
+    "product_unit_price": 0.714,
+    "offers": [
+      {
+        "provider_part_number": "576-36912000000",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15934,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.714,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.634,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.556,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.478,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.427,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.398,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.356,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1400,
+            "unit_price": 0.3,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "576-36912000000",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15934,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.714,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.634,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.556,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.478,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.427,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.398,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.356,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1400,
+            "unit_price": 0.3,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:09Z",
+    "manufacturer": "Littelfuse",
+    "manufacturer_part_number": "36912000000",
+    "provider_part_number": "576-36912000000",
+    "description": "Fuses with Leads - Through Hole 300V TL TE5 LL 2A",
+    "detailed_description": "Fuses with Leads - Through Hole 300V TL TE5 LL 2A",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Littelfuse/36912000000?qs=A0AD9A9uYPZSe3L1nzdIqQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/littelfuse/images/383_369Series_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Ammo Pack",
+      "Standard Pack Qty": "1400"
+    },
+    "compliance": {
+      "TARIC": "8536109090",
+      "CNHTS": "8536100000",
+      "CAHTS": "8536100000",
+      "USHTS": "8536100040",
+      "JPHTS": "853610000",
+      "BRHTS": "85361000",
+      "ECCN": "EAR99"
+    }
+  }
+}

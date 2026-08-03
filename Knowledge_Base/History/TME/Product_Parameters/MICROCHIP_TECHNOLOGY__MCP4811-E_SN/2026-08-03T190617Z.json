@@ -1,0 +1,154 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:17Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP4811-E/SN",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MCP4811-E/SN",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 632,
+                    "value": "MICROCHIP TECHNOLOGY"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443885,
+                    "value": "D/A converter"
+                  }
+                ]
+              },
+              {
+                "id": 381,
+                "name": "Converter resolution",
+                "values": [
+                  {
+                    "id": 1443892,
+                    "value": "10bit"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1443815,
+                    "value": "2.7...5.5V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1937153,
+                    "value": "SOIC8"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443954,
+                    "value": "serial"
+                  },
+                  {
+                    "id": 1443806,
+                    "value": "SPI"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819335,
+                    "value": "-40...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443467,
+                    "value": "tube"
+                  }
+                ]
+              },
+              {
+                "id": 3658,
+                "name": "Manufacturer standard package",
+                "values": [
+                  {
+                    "id": 2151469,
+                    "value": "100pcs."
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1605710,
+                    "value": "2.7...5.5V"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

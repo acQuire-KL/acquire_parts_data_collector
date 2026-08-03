@@ -1,0 +1,569 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPS22965DSGR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 3,
+      "Parts": [
+        {
+          "Availability": "11961 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Switch ICs - Power Distribution Ultra-Lo rON 6A Load Switch A 595-TPS229 A 595-TPS22965DSGT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_WSON-8_DSG_t.jpg",
+          "Category": "Power Switch ICs - Power Distribution",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS22965DSGR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPS22965DSGR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.748",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.533",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.48",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.421",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.393",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.377",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.364",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.345",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.336",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TPS22965DSGT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS22965DSGR?qs=VMlqFFbv3sTevZFEB%252BTa9g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TPS22965DSGT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.09e-05
+          },
+          "AvailabilityInStock": "11961",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Power Switch ICs - Power Distribution 5.7-V 6-A 16-mohm lo ad switch with adj",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Power Switch ICs - Power Distribution",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS22965DSGRG4",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "595-TPS22965DSGRG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.42",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.409",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS22965DSGRG4?qs=2FehpBK1j94Kh2HK8avfgA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "1913 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Switch ICs - Power Distribution Ultra-Lo rON 6A Load Switch A 595-TPS229 A 595-TPS22965DSGR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_WSON-8_DSG_t.jpg",
+          "Category": "Power Switch ICs - Power Distribution",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS22965DSGT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPS22965DSGT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.32",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.877",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.773",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.726",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.684",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.659",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.647",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.641",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TPS22965DSGR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS22965DSGT?qs=VMlqFFbv3sTWjOIm1M%252B0jg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TPS22965DSGR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.1e-05
+          },
+          "AvailabilityInStock": "1913",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 1000,
+              "Date": "2026-08-14T00:00:00"
+            },
+            {
+              "Quantity": 1500,
+              "Date": "2026-12-28T00:00:00"
+            },
+            {
+              "Quantity": 4250,
+              "Date": "2027-01-01T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "manufacturer_part_number": "TPS22965DSGR",
+    "product_quantity_available": 11961,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 0.748,
+    "offers": [
+      {
+        "provider_part_number": "595-TPS22965DSGR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 11961,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.748,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.533,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.48,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.421,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.393,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.377,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.364,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.345,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.336,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TPS22965DSGR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 11961,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.748,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.533,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.48,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.421,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.393,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.377,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.364,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.345,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.336,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS22965DSGR",
+    "provider_part_number": "595-TPS22965DSGR",
+    "description": "Power Switch ICs - Power Distribution Ultra-Lo rON 6A Load Switch A 595-TPS229 A 595-TPS22965DSGT",
+    "detailed_description": "Power Switch ICs - Power Distribution Ultra-Lo rON 6A Load Switch A 595-TPS229 A 595-TPS22965DSGT",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS22965DSGR?qs=VMlqFFbv3sTevZFEB%252BTa9g%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_WSON-8_DSG_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390070",
+      "JPHTS": "854239099",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

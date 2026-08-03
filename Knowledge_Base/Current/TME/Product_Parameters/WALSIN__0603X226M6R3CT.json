@@ -1,0 +1,140 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:04:58Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "0603X226M6R3CT",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "0603X226M6R3CT",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 851,
+                    "value": "WALSIN"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1437230,
+                    "value": "ceramic"
+                  }
+                ]
+              },
+              {
+                "id": 2650,
+                "name": "Kind of capacitor",
+                "values": [
+                  {
+                    "id": 1437413,
+                    "value": "MLCC"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437391,
+                    "value": "22µF"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1437423,
+                    "value": "6.3V"
+                  }
+                ]
+              },
+              {
+                "id": 116,
+                "name": "Dielectric",
+                "values": [
+                  {
+                    "id": 1437420,
+                    "value": "X5R"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819333,
+                    "value": "±20%"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620227,
+                    "value": "0603"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620228,
+                    "value": "1608"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819360,
+                    "value": "-55...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

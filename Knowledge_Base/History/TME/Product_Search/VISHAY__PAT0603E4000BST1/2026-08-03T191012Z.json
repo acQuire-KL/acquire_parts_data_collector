@@ -1,0 +1,67 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:10:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "VISHAY",
+    "input_mpn": "PAT0603E4000BST1",
+    "resolved_manufacturer": "VISHAY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PAT0603E4000BST1-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "PAT0603E4000BST1"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Resistor: thin film",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 0.025,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

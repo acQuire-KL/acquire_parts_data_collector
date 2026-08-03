@@ -1,0 +1,1800 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:46Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Lite-On Inc.",
+    "input_mpn": "LTV-817S-TA1",
+    "resolved_manufacturer": "Lite-On Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 12,
+      "Parts": [
+        {
+          "Availability": "54201 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.234",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.167",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.109",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.097",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S"
+            },
+            {
+              "APMfrPN": " LTV-817S-TA"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1?qs=gnaPJ2cis705dA%252BrXNgReQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "54201",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5000,
+              "Date": "2026-10-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541400103"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541410100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85414011"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1-C",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1-C",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.232",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.165",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.135",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.084",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-C"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1-C?qs=WAWaI72GHKzoTYiLlK7q%252BA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5985,
+              "Date": "2026-08-12T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3637 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1-A",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1-A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.237",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.169",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.138",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.092",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-A"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1-A?qs=WAWaI72GHKxIGhlvywjTBQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "3637",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5000,
+              "Date": "2026-09-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "1116 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1-B",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1-B",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.237",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.169",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.138",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.121",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.111",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-B"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1-B?qs=WAWaI72GHKymJBi6NctgCg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "1116",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5000,
+              "Date": "2026-10-26T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/ltv_8x7_series_201610.pdf",
+          "Description": "Transistor Output Optocouplers P/C LTV-817S-TA1-A-G TAPPING TYPE II",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1-A-G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1-A-G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.318",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.213",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1-A-G?qs=pBJMDPsKWf3RPf5Lb4DAsA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "21318 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA1-D",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA1-D",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.237",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.169",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.138",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.109",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.091",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-D"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1-D?qs=WAWaI72GHKywq5dxGALi%252BQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "21318",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 25000,
+              "Date": "2026-08-24T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2896 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-B",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-B",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.257",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.104",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-TA1-B"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-B?qs=WAWaI72GHKy6iXsVhn7oGQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "2896",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4000 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-A",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.257",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.115",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-TA1-A"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-A?qs=WAWaI72GHKysDV0xwPpPgg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "4000",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "5522 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-C",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-C",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.257",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.123",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-TA1-C"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-C?qs=WAWaI72GHKxD46D2qc%252BeCQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "5522",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "28597 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler 50% 5kv 4Pin SMT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-D",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-D",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.257",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.145",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.128",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.123",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.109",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-TA1-D"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-D?qs=WAWaI72GHKyXGgiY1hNeaA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "28597",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541400401"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85414900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "22503 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler Phototrans",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.234",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.149",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S-TA"
+            },
+            {
+              "APMfrPN": " LTV-817S-TA1"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S?qs=XpF7qU%252BvLkWYeWEC0OckNQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "22503",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 27000,
+              "Date": "2026-10-26T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541490020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541400103"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541400401"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85414900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "24302 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+          "Description": "Transistor Output Optocouplers Optocoupler",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+          "Category": "Transistor Output Optocouplers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "LITEON",
+          "ManufacturerPartNumber": "LTV-817S-TA",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "859-LTV-817S-TA",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.353",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.17",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.143",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.143",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.117",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTV-817S"
+            },
+            {
+              "APMfrPN": " LTV-817S-TA1"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA?qs=gnaPJ2cis70M3z7luYdUvA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": "24302",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 26000,
+              "Date": "2026-09-21T00:00:00"
+            },
+            {
+              "Quantity": 21000,
+              "Date": "2026-09-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541400103"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541410100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85414011"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Thailand"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:46Z",
+    "manufacturer_part_number": "LTV-817S-TA1",
+    "product_quantity_available": 54201,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "84 Days",
+    "product_unit_price": 0.344,
+    "offers": [
+      {
+        "provider_part_number": "859-LTV-817S-TA1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54201,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.234,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.167,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.136,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.109,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.097,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "859-LTV-817S-TA1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54201,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.234,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.167,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.136,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.109,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.097,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:46Z",
+    "manufacturer": "LITEON",
+    "manufacturer_part_number": "LTV-817S-TA1",
+    "provider_part_number": "859-LTV-817S-TA1",
+    "description": "Transistor Output Optocouplers Optocoupler",
+    "detailed_description": "Transistor Output Optocouplers Optocoupler",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/281/1/LTV_8X7_series_201610_.PDF",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/LITEON/LTV-817S-TA1?qs=gnaPJ2cis705dA%252BrXNgReQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/liteon/images/SMD_4_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8541490000",
+      "CNHTS": "8541490000",
+      "USHTS": "8541498000",
+      "JPHTS": "8541400103",
+      "MXHTS": "8541410100",
+      "BRHTS": "85414011",
+      "ECCN": "EAR99"
+    }
+  }
+}

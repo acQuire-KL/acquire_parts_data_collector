@@ -1,0 +1,402 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:23Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "input_mpn": "LTC2630ISC6-LZ12#TRMPBF",
+    "resolved_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "1456 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/2630fg.pdf",
+          "Description": "Digital to Analog Converters - DAC 1x 12-/10-/8-B R2R DACs w/ Int Ref in SC",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SC70-6_05-08-1638_t.jpg",
+          "Category": "Digital to Analog Converters - DAC",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LTC2630ISC6-LZ12#TRMPBF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "584-2630ISC6LZ12TMPF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€4.62",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€3.52",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€3.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€2.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€2.81",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.71",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€2.65",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€2.60",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTC2630ISC6-LZ12#TRPBF"
+            },
+            {
+              "APMfrPN": " LTC2630ISC6-LZ12#PBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC2630ISC6-LZ12TRMPBF?qs=hVkxg5c3xu%252BN18l85Q7rMg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-C2630ISC6LZ12TPF",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.2e-05
+          },
+          "AvailabilityInStock": "1456",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390040"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/2630fg.pdf",
+          "Description": "Digital to Analog Converters - DAC 1x 12-/10-/8-B R2R DACs w/ Int Ref in SC",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SC70-6_05-08-1638_t.jpg",
+          "Category": "Digital to Analog Converters - DAC",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LTC2630ISC6-LZ12#TRPBF",
+          "Min": "2500",
+          "Mult": "2500",
+          "MouserPartNumber": "584-C2630ISC6LZ12TPF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2500,
+              "Price": "€2.56",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTC2630ISC6-LZ12#TRMPBF"
+            },
+            {
+              "APMfrPN": " LTC2630ISC6-LZ12#PBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC2630ISC6-LZ12TRPBF?qs=hVkxg5c3xu%252BdO0iD5Ad05w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-2630ISC6LZ12TMPF",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390040"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:23Z",
+    "manufacturer_part_number": "LTC2630ISC6-LZ12#TRMPBF",
+    "product_quantity_available": 1456,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "98 Days",
+    "product_unit_price": 4.62,
+    "offers": [
+      {
+        "provider_part_number": "584-2630ISC6LZ12TMPF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1456,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.62,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.81,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.71,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.65,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.6,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "584-2630ISC6LZ12TMPF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1456,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.62,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.81,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.71,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.65,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.6,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:23Z",
+    "manufacturer": "Analog Devices",
+    "manufacturer_part_number": "LTC2630ISC6-LZ12#TRMPBF",
+    "provider_part_number": "584-2630ISC6LZ12TMPF",
+    "description": "Digital to Analog Converters - DAC 1x 12-/10-/8-B R2R DACs w/ Int Ref in SC",
+    "detailed_description": "Digital to Analog Converters - DAC 1x 12-/10-/8-B R2R DACs w/ Int Ref in SC",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/2630fg.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC2630ISC6-LZ12TRMPBF?qs=hVkxg5c3xu%252BN18l85Q7rMg%3D%3D",
+    "image_url": "https://www.mouser.com/images/adi/images/ITP_ADI_SC70-6_05-08-1638_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "500"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390040",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

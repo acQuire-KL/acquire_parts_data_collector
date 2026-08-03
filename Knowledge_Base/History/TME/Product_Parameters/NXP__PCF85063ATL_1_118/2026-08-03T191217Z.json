@@ -1,0 +1,110 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:17Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "NXP",
+    "input_mpn": "PCF85063ATL/1,118",
+    "resolved_manufacturer": "NXP",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "PCF85063ATL/1.118",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 34,
+                    "value": "NXP"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1508793,
+                    "value": "RTC circuit"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1444190,
+                    "value": "1.8...5.5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1958584,
+                    "value": "HXSON10"
+                  }
+                ]
+              },
+              {
+                "id": 804,
+                "name": "Integrated circuit features",
+                "values": [
+                  {
+                    "id": 1491233,
+                    "value": "PoR"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1437810,
+                    "value": "32.768kHz"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

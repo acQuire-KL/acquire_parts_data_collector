@@ -1,0 +1,309 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:53Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "FDMA1024NZ",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "41530 On Order",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 20V Dual N-Channel PowerTrench",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/fairchildsemiconductor/images/MLP_MicroFET_2x2_6_DSL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "FDMA1024NZ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-FDMA1024NZ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.998",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.625",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.409",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.317",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.287",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.287",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/FDMA1024NZ?qs=0mlrQ0IOoOgODl1JASFkkw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 8530,
+              "Date": "2026-08-11T00:00:00"
+            },
+            {
+              "Quantity": 12000,
+              "Date": "2026-09-28T00:00:00"
+            },
+            {
+              "Quantity": 21000,
+              "Date": "2026-10-09T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1400",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:53Z",
+    "manufacturer_part_number": "FDMA1024NZ",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "364 Days",
+    "product_unit_price": 0.998,
+    "offers": [
+      {
+        "provider_part_number": "512-FDMA1024NZ",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.998,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.625,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.317,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.287,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.287,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "512-FDMA1024NZ",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.998,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.625,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.317,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.287,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.287,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:53Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "FDMA1024NZ",
+    "provider_part_number": "512-FDMA1024NZ",
+    "description": "MOSFETs 20V Dual N-Channel PowerTrench",
+    "detailed_description": "MOSFETs 20V Dual N-Channel PowerTrench",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/FDMA1024NZ?qs=0mlrQ0IOoOgODl1JASFkkw%3D%3D",
+    "image_url": "https://www.mouser.com/images/fairchildsemiconductor/images/MLP_MicroFET_2x2_6_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541290000",
+      "CNHTS": "8541290000",
+      "CAHTS": "8541290000",
+      "USHTS": "8541290065",
+      "JPHTS": "8541290100",
+      "KRHTS": "8541299000",
+      "MXHTS": "85412999",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "WR06X1004FTL",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "WR06X1004FTL",
+            "ean": "",
+            "customer_symbol": "RES-0603-1M-1%-0",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "WR06X1004FTL"
+            ],
+            "manufacturer": {
+              "id": 851,
+              "name": "WALSIN"
+            },
+            "description": "Resistor: thick film; 1MΩ; 0603; 100mW; ±1%; 75V; 100ppm/°C",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.019,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 5000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/E9/C2/B0/00/0/732318_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=05f693987fabb9c9ef30803c29ca87e952f292d1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/E9/C2/B0/00/0/732318_1.jpg?width=100&height=75&q=75&ci_sign=9bbd9dfda58a71204ecee4de711d305cf9cd7ad3",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/E9/C2/B0/00/0/732318_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=51f48e59af6c9a92b132075bb87ab459612a751f"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

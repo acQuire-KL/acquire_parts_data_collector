@@ -1,0 +1,416 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:41Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Littelfuse Inc.",
+    "input_mpn": "CPC1998J",
+    "resolved_manufacturer": "Littelfuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "828"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "SSR RELAY SPST-NO 5A 20-240V",
+        "DetailedDescription": "Solid State Photo-Coupled Relay (Photorelay) SPST-NO (1 Form A) i4-Pac™-4, Isolated"
+      },
+      "Manufacturer": {
+        "Id": 212,
+        "Name": "IXYS Integrated Circuits Division"
+      },
+      "ManufacturerProductNumber": "CPC1998J",
+      "UnitPrice": 19.69,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/ixys-integrated-circuits-division/CPC1998J/2561233",
+      "DatasheetUrl": "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1998j-datasheet?assetguid=42c5763f-6053-4cb8-92b0-0423aa9ba263",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/560/CPC1998J.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "212-CPC1998J-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 19.69,
+              "TotalPrice": 19.69
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 17.535,
+              "TotalPrice": 175.35
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 16.7444,
+              "TotalPrice": 418.61
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 16.1698,
+              "TotalPrice": 808.49
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 15.6141,
+              "TotalPrice": 1561.41
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 14.90836,
+              "TotalPrice": 3727.09
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 14.3955,
+              "TotalPrice": 7197.75
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 212,
+            "Name": "IXYS Integrated Circuits Division"
+          },
+          "QuantityAvailableforPackageType": 3724,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 25,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 3724,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6042314943001",
+      "Parameters": [
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 668,
+          "ParameterText": "Relay Type",
+          "ParameterType": "String",
+          "ValueId": "873791",
+          "ValueText": "Photo-Coupled Relay (Photorelay)"
+        },
+        {
+          "ParameterId": 130,
+          "ParameterText": "Circuit",
+          "ParameterType": "String",
+          "ValueId": "406607",
+          "ValueText": "SPST-NO (1 Form A)"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "307331",
+          "ValueText": "AC, Zero Cross"
+        },
+        {
+          "ParameterId": 127,
+          "ParameterText": "Voltage - Input",
+          "ParameterType": "String",
+          "ValueId": "49035",
+          "ValueText": "1.2VDC"
+        },
+        {
+          "ParameterId": 2133,
+          "ParameterText": "Voltage - Load",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "20 V ~ 240 V",
+          "ValueText": "20 V ~ 240 V"
+        },
+        {
+          "ParameterId": 434,
+          "ParameterText": "Load Current",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 A",
+          "ValueText": "5 A"
+        },
+        {
+          "ParameterId": 258,
+          "ParameterText": "Termination Style",
+          "ParameterType": "String",
+          "ValueId": "384842",
+          "ValueText": "PC Pin"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "357385",
+          "ValueText": "i4-Pac™-4, Isolated"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "357383",
+          "ValueText": "i4-PAC™"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "335411",
+          "ValueText": "CSA, UL"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 727754,
+        "Name": "CPC199"
+      },
+      "Category": {
+        "CategoryId": 14,
+        "ParentId": 0,
+        "Name": "Relays",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/162/233/2966171_tmb.jpg",
+        "SeoDescription": "Relays and contactors are devices used to switch or interrupt the flow of electrical current in one or more circuits, using a control signal which is galvanically isolated from the circuit(s) being controlled, with various sub-groups demarcated along lines of device construction or intended application. Traditionally and still-commonly based on the use of an electromagnet to open or close a set of mechanical switch contacts, newer devices using solid-state technologies are also widely available, with both types having characteristics to reccomend them under different application conditions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 183,
+            "ParentId": 14,
+            "Name": "Solid State Relays (SSR)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/658/194/SOLID%20STATE%20RELAYS%20TO61-1487_tmb%2864x64%29.jpg",
+            "SeoDescription": "Solid-state relays (SSRs) are optically isolated electronic switching devices that switch on or off when a small voltage is applied across control input terminals. SSRs are similar to chassis, DIN rail, socket and board mount electromechanical relays designed to switch either AC or DC loads up to 660 volts but are semiconductor based and have no moving parts. They are selected by load voltage, current ratings, and switch circuit configurations such as SPST, SPDT, DPST and 3PST.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "23",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 3138,
+        "Name": "CPC"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Affected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.41.0030"
+      },
+      "OtherNames": [
+        "5656-CPC1998J",
+        "CLA368-ND",
+        "5656-CPC1998J-ND",
+        "CLA368",
+        "212-CPC1998J"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:41Z",
+    "manufacturer_part_number": "CPC1998J",
+    "product_quantity_available": 3724,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "23",
+    "product_unit_price": 19.69,
+    "offers": [
+      {
+        "provider_part_number": "212-CPC1998J-ND",
+        "supplier": "IXYS Integrated Circuits Division",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 25,
+        "quantity_available": 3724,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 19.69,
+            "total_price": 19.69
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 17.535,
+            "total_price": 175.35
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 16.7444,
+            "total_price": 418.61
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 16.1698,
+            "total_price": 808.49
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 15.6141,
+            "total_price": 1561.41
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 14.90836,
+            "total_price": 3727.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 14.3955,
+            "total_price": 7197.75
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "212-CPC1998J-ND",
+        "supplier": "IXYS Integrated Circuits Division",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 25,
+        "quantity_available": 3724,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 19.69,
+            "total_price": 19.69
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 17.535,
+            "total_price": 175.35
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 16.7444,
+            "total_price": 418.61
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 16.1698,
+            "total_price": 808.49
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 15.6141,
+            "total_price": 1561.41
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 14.90836,
+            "total_price": 3727.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 14.3955,
+            "total_price": 7197.75
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:41Z",
+    "manufacturer": "IXYS Integrated Circuits Division",
+    "manufacturer_part_number": "CPC1998J",
+    "provider_part_number": "",
+    "description": "SSR RELAY SPST-NO 5A 20-240V",
+    "detailed_description": "Solid State Photo-Coupled Relay (Photorelay) SPST-NO (1 Form A) i4-Pac™-4, Isolated",
+    "datasheet_url": "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1998j-datasheet?assetguid=42c5763f-6053-4cb8-92b0-0423aa9ba263",
+    "product_url": "https://www.digikey.ie/en/products/detail/ixys-integrated-circuits-division/CPC1998J/2561233",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/560/CPC1998J.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "i4-Pac™-4, Isolated",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Mounting Type": "Through Hole",
+      "Relay Type": "Photo-Coupled Relay (Photorelay)",
+      "Circuit": "SPST-NO (1 Form A)",
+      "Output Type": "AC, Zero Cross",
+      "Voltage - Input": "1.2VDC",
+      "Voltage - Load": "20 V ~ 240 V",
+      "Load Current": "5 A",
+      "Termination Style": "PC Pin",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Package / Case": "i4-Pac™-4, Isolated",
+      "Supplier Device Package": "i4-PAC™",
+      "Approval Agency": "CSA, UL",
+      "Grade": "-",
+      "Qualification": "-"
+    },
+    "compliance": {}
+  }
+}

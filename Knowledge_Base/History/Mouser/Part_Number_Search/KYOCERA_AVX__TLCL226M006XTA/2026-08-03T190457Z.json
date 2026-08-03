@@ -1,0 +1,430 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:04:57Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TLCL226M006XTA",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "Tantalum Capacitors - Solid SMD 6.3V 22uF 20%",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/avx/images/TLC_series_DSL.jpg",
+          "Category": "Tantalum Capacitors - Solid SMD",
+          "LeadTime": "161 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "TLCL226M006XTA",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "581-TLCL226M006XTA",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.765",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.714",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.705",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.661",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.63",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.62",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TLCL226M006RTA"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TLCL226M006XTA?qs=q8tHwdJXVVbEVIVkFjGR4w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2027-01-08T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Czech Republic"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Tantalum Capacitors - Solid SMD 6.3V 22uF 20%",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/avx/images/TLC_series_DSL.jpg",
+          "Category": "Tantalum Capacitors - Solid SMD",
+          "LeadTime": "161 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "TLCL226M006RTA",
+          "Min": "3500",
+          "Mult": "3500",
+          "MouserPartNumber": "581-TLCL226M006RTA",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3500,
+              "Price": "€1.55",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TLCL226M006XTA"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TLCL226M006RTA?qs=o28%2FEEzBmj0EvjocqEVPIQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Czech Republic"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:57Z",
+    "manufacturer_part_number": "TLCL226M006XTA",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "161 Days",
+    "product_unit_price": 1.44,
+    "offers": [
+      {
+        "provider_part_number": "581-TLCL226M006XTA",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.765,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.714,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.705,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.661,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.62,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "581-TLCL226M006XTA",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.765,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.714,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.705,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.661,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.62,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:04:57Z",
+    "manufacturer": "KYOCERA AVX",
+    "manufacturer_part_number": "TLCL226M006XTA",
+    "provider_part_number": "581-TLCL226M006XTA",
+    "description": "Tantalum Capacitors - Solid SMD 6.3V 22uF 20%",
+    "detailed_description": "Tantalum Capacitors - Solid SMD 6.3V 22uF 20%",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TLCL226M006XTA?qs=q8tHwdJXVVbEVIVkFjGR4w%3D%3D",
+    "image_url": "https://www.mouser.com/images/avx/images/TLC_series_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "500"
+    },
+    "compliance": {
+      "TARIC": "8532210000",
+      "CNHTS": "8532211000",
+      "CAHTS": "8532210010",
+      "USHTS": "8532210050",
+      "JPHTS": "853221000",
+      "KRHTS": "8532210000",
+      "MXHTS": "8532210100",
+      "ECCN": "EAR99"
+    }
+  }
+}

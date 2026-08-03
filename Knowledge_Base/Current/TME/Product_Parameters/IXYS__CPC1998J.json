@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:42Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "IXYS",
+    "input_mpn": "CPC1998J",
+    "resolved_manufacturer": "IXYS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "CPC1998J",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 39,
+                    "value": "IXYS"
+                  }
+                ]
+              },
+              {
+                "id": 914,
+                "name": "Type of relay",
+                "values": [
+                  {
+                    "id": 1459229,
+                    "value": "solid state"
+                  }
+                ]
+              },
+              {
+                "id": 2182,
+                "name": "Control current max.",
+                "values": [
+                  {
+                    "id": 1748171,
+                    "value": "150mA"
+                  }
+                ]
+              },
+              {
+                "id": 757,
+                "name": "Max. operating current",
+                "values": [
+                  {
+                    "id": 1453931,
+                    "value": "5A"
+                  }
+                ]
+              },
+              {
+                "id": 936,
+                "name": "Switched voltage",
+                "values": [
+                  {
+                    "id": 1774634,
+                    "value": "max. 240V AC"
+                  }
+                ]
+              },
+              {
+                "id": 915,
+                "name": "Relay variant",
+                "values": [
+                  {
+                    "id": 1459275,
+                    "value": "1-phase"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436576,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1733994,
+                    "value": "i4-pac"
+                  }
+                ]
+              },
+              {
+                "id": 317,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1767536,
+                    "value": "20.88x19.91x5.03mm"
+                  }
+                ]
+              },
+              {
+                "id": 698,
+                "name": "Switching method",
+                "values": [
+                  {
+                    "id": 1459442,
+                    "value": "zero voltage switching"
+                  }
+                ]
+              },
+              {
+                "id": 430,
+                "name": "Insulation voltage",
+                "values": [
+                  {
+                    "id": 1444600,
+                    "value": "2.5kV"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

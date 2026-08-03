@@ -1,0 +1,702 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:01Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TSC2007IPWR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "866"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC TSC 4 WIRE RES 16-TSSOP",
+        "DetailedDescription": "Touchscreen Controller 4 Wire Resistive 12 b I2C, Serial Interface 16-TSSOP"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TSC2007IPWR",
+      "UnitPrice": 1.95,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TSC2007IPWR/1909968",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftsc2007",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8922/MFG_296%7E4040064-4%7EPW%7E16.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-27124-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 1.01105,
+              "TotalPrice": 2022.1
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.98864,
+              "TotalPrice": 3954.56
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.97742,
+              "TotalPrice": 5864.52
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 16000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2000,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-27124-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.95,
+              "TotalPrice": 1.95
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.445,
+              "TotalPrice": 14.45
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.3184,
+              "TotalPrice": 32.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1783,
+              "TotalPrice": 117.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.11156,
+              "TotalPrice": 277.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.07694,
+              "TotalPrice": 538.47
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 16302,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-27124-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.95,
+              "TotalPrice": 1.95
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.445,
+              "TotalPrice": 14.45
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.3184,
+              "TotalPrice": 32.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1783,
+              "TotalPrice": 117.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.11156,
+              "TotalPrice": 277.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.07694,
+              "TotalPrice": 538.47
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 16302,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        },
+        {
+          "DigiKeyProductNumber": "2156-TSC2007IPWR-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": true,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 2156,
+            "Name": "Rochester Electronics, LLC"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 0,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 0,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 16302,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1857,
+          "ParameterText": "Touchscreen",
+          "ParameterType": "String",
+          "ValueId": "203943",
+          "ValueText": "4 Wire Resistive"
+        },
+        {
+          "ParameterId": 514,
+          "ParameterText": "Resolution (Bits)",
+          "ParameterType": "String",
+          "ValueId": "80655",
+          "ValueText": "12 b"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "752312",
+          "ValueText": "I2C, Serial"
+        },
+        {
+          "ParameterId": 1335,
+          "ParameterText": "Voltage Reference",
+          "ParameterType": "String",
+          "ValueId": "345656",
+          "ValueText": "External"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "48870",
+          "ValueText": "1.2V ~ 3.6V"
+        },
+        {
+          "ParameterId": 2095,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "226.2 µA",
+          "ValueText": "226.2 µA"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "108695",
+          "ValueText": "16-TSSOP (0.173\", 4.40mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "108693",
+          "ValueText": "16-TSSOP"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 55750,
+        "Name": "TSC2007"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 775,
+                "ParentId": 2009,
+                "Name": "Touch Screen Controllers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/118/797/AR1100BRD_tmb.jpg",
+                "SeoDescription": "Touch screen controllers are integrated circuits that provide an interface between the touch screen sensor array and the device the screen operates. The controller receives position information from the sensor array which is usually resistive or capacitive. In turn, the position information is passed along to a microcontroller via a serial, parallel, USB, or UART interface.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "296-27124-2",
+        "-TSC2007IPWRG4",
+        "296-27124-1",
+        "TEXTISTSC2007IPWR",
+        "TSC2007IPWR-ND",
+        "-TSC2007IPWRG4-NDR",
+        "296-27124-6",
+        "2156-TSC2007IPWR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:01Z",
+    "manufacturer_part_number": "TSC2007IPWR",
+    "product_quantity_available": 16302,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.95,
+    "offers": [
+      {
+        "provider_part_number": "296-27124-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 16302,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.95,
+            "total_price": 1.95
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.445,
+            "total_price": 14.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3184,
+            "total_price": 32.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1783,
+            "total_price": 117.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.11156,
+            "total_price": 277.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.07694,
+            "total_price": 538.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-27124-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 16302,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.95,
+            "total_price": 1.95
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.445,
+            "total_price": 14.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3184,
+            "total_price": 32.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1783,
+            "total_price": 117.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.11156,
+            "total_price": 277.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.07694,
+            "total_price": 538.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2156-TSC2007IPWR-ND",
+        "supplier": "Rochester Electronics, LLC",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 0,
+        "marketplace": true,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-27124-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 16000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.01105,
+            "total_price": 2022.1
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.98864,
+            "total_price": 3954.56
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.97742,
+            "total_price": 5864.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 4,
+    "variation_count": 4,
+    "variations": [
+      {
+        "provider_part_number": "296-27124-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 16302,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.95,
+            "total_price": 1.95
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.445,
+            "total_price": 14.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3184,
+            "total_price": 32.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1783,
+            "total_price": 117.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.11156,
+            "total_price": 277.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.07694,
+            "total_price": 538.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-27124-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 16302,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.95,
+            "total_price": 1.95
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.445,
+            "total_price": 14.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3184,
+            "total_price": 32.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1783,
+            "total_price": 117.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.11156,
+            "total_price": 277.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.07694,
+            "total_price": 538.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2156-TSC2007IPWR-ND",
+        "supplier": "Rochester Electronics, LLC",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 0,
+        "marketplace": true,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-27124-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 16000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.01105,
+            "total_price": 2022.1
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.98864,
+            "total_price": 3954.56
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.97742,
+            "total_price": 5864.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:01Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TSC2007IPWR",
+    "provider_part_number": "",
+    "description": "IC TSC 4 WIRE RES 16-TSSOP",
+    "detailed_description": "Touchscreen Controller 4 Wire Resistive 12 b I2C, Serial Interface 16-TSSOP",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftsc2007",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TSC2007IPWR/1909968",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8922/MFG_296%7E4040064-4%7EPW%7E16.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "16-TSSOP (0.173\", 4.40mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Touchscreen": "4 Wire Resistive",
+      "Resolution (Bits)": "12 b",
+      "Interface": "I2C, Serial",
+      "Voltage Reference": "External",
+      "Voltage - Supply": "1.2V ~ 3.6V",
+      "Current - Supply": "226.2 µA",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "16-TSSOP (0.173\", 4.40mm Width)",
+      "Supplier Device Package": "16-TSSOP"
+    },
+    "compliance": {}
+  }
+}

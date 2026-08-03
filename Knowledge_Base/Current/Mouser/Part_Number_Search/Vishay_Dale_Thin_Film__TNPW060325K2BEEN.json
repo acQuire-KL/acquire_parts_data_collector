@@ -1,0 +1,415 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:11:01Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Vishay Dale Thin Film",
+    "input_mpn": "TNPW060325K2BEEN",
+    "resolved_manufacturer": "Vishay Dale Thin Film",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "2907 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Thin Film Resistors - SMD 25.2Kohms .1% 25ppm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/TNPW-series_SPL.jpg",
+          "Category": "Thin Film Resistors - SMD",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "TNPW060325K2BEEN",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "71-TNPW060325K2BEEN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.566",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.383",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.365",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.349",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.283",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TNPW060325K2BEEA"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/TNPW060325K2BEEN?qs=mGlKYcwGutstFSfFu%252BpAmA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "71-TNPW060325K2BEEA",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2e-06
+          },
+          "AvailabilityInStock": "2907",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8533210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8533211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8533210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8533210030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853321000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8533219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8533210100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85332120"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Thin Film Resistors - SMD 25.2Kohms .1% 25ppm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/TNPW-series_SPL.jpg",
+          "Category": "Thin Film Resistors - SMD",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "TNPW060325K2BEEA",
+          "Min": "5000",
+          "Mult": "5000",
+          "MouserPartNumber": "71-TNPW060325K2BEEA",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5000,
+              "Price": "€0.202",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.201",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.197",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TNPW060325K2BEEN"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/TNPW060325K2BEEA?qs=mGlKYcwGutt1ke2edjsuCA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "71-TNPW060325K2BEEN",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8533210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8533211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8533210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8533210030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853321000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8533219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8533210100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85332120"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:11:01Z",
+    "manufacturer_part_number": "TNPW060325K2BEEN",
+    "product_quantity_available": 2907,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "154 Days",
+    "product_unit_price": 0.8,
+    "offers": [
+      {
+        "provider_part_number": "71-TNPW060325K2BEEN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2907,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.566,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.383,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.365,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.349,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.283,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "71-TNPW060325K2BEEN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2907,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.566,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.383,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.365,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.349,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.283,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:11:01Z",
+    "manufacturer": "Vishay",
+    "manufacturer_part_number": "TNPW060325K2BEEN",
+    "provider_part_number": "71-TNPW060325K2BEEN",
+    "description": "Thin Film Resistors - SMD 25.2Kohms .1% 25ppm",
+    "detailed_description": "Thin Film Resistors - SMD 25.2Kohms .1% 25ppm",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Vishay/TNPW060325K2BEEN?qs=mGlKYcwGutstFSfFu%252BpAmA%3D%3D",
+    "image_url": "https://www.mouser.com/images/vishay/images/TNPW-series_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8533210000",
+      "CNHTS": "8533211000",
+      "CAHTS": "8533210000",
+      "USHTS": "8533210030",
+      "JPHTS": "853321000",
+      "KRHTS": "8533219000",
+      "MXHTS": "8533210100",
+      "BRHTS": "85332120",
+      "ECCN": "EAR99"
+    }
+  }
+}

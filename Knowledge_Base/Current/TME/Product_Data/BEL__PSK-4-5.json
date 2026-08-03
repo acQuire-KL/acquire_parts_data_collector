@@ -1,0 +1,54 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:09:06Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BEL",
+    "input_mpn": "PSK-4-5",
+    "resolved_manufacturer": "BEL",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 19,
+          "symbol": "PSK4512T-BEL-0",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 4,
+                "price": 22.33,
+                "special": false
+              },
+              {
+                "amount": 8,
+                "price": 20.68,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

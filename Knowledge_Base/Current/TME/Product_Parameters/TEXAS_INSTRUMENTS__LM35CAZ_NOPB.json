@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:36Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "LM35CAZ/NOPB",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LM35CAZ/NOPB",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443814,
+                    "value": "temperature sensor"
+                  }
+                ]
+              },
+              {
+                "id": 1952,
+                "name": "Temperature measuring range",
+                "values": [
+                  {
+                    "id": 1820313,
+                    "value": "-40...110°C"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440599,
+                    "value": "TO92"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436576,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1595771,
+                    "value": "analog"
+                  }
+                ]
+              },
+              {
+                "id": 3497,
+                "name": "Temperature measurement accuracy",
+                "values": [
+                  {
+                    "id": 2002870,
+                    "value": "±0.4°C"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1711786,
+                    "value": "4...30V"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1437815,
+                    "value": "bulk"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

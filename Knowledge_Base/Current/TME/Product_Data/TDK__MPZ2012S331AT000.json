@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:06:47Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TDK",
+    "input_mpn": "MPZ2012S331AT000",
+    "resolved_manufacturer": "TDK",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 93,
+          "symbol": "MPZ2012S331AT000",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.048,
+                "special": false
+              },
+              {
+                "amount": 400,
+                "price": 0.0356,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.0336,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0282,
+                "special": false
+              },
+              {
+                "amount": 2000,
+                "price": 0.0251,
+                "special": false
+              },
+              {
+                "amount": 2500,
+                "price": 0.024,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.0217,
+                "special": false
+              },
+              {
+                "amount": 8000,
+                "price": 0.0195,
+                "special": false
+              },
+              {
+                "amount": 12000,
+                "price": 0.019,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

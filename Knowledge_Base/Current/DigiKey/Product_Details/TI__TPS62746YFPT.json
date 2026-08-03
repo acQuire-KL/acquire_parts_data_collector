@@ -1,0 +1,678 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:15Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPS62746YFPT",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "838"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG BUCK PROG 300MA 8DSBGA",
+        "DetailedDescription": "Buck Switching Regulator IC Positive Programmable 1.2V, 1.8V 1 Output 300mA 8-XFBGA, DSBGA"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TPS62746YFPT",
+      "UnitPrice": 1.73,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS62746YFPT/5344304",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps62746",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6310/296%7E4206986-4%7EYFP%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-42289-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.97488,
+              "TotalPrice": 243.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.93884,
+              "TotalPrice": 469.42
+            },
+            {
+              "BreakQuantity": 750,
+              "UnitPrice": 0.9208,
+              "TotalPrice": 690.6
+            },
+            {
+              "BreakQuantity": 1250,
+              "UnitPrice": 0.90081,
+              "TotalPrice": 1126.0125
+            },
+            {
+              "BreakQuantity": 1750,
+              "UnitPrice": 0.88912,
+              "TotalPrice": 1555.96
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.87788,
+              "TotalPrice": 2194.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 2750,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 250,
+          "StandardPackage": 250,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-42289-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.73,
+              "TotalPrice": 1.73
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.274,
+              "TotalPrice": 12.74
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.16,
+              "TotalPrice": 29.0
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0347,
+              "TotalPrice": 103.47
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3034,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-42289-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.73,
+              "TotalPrice": 1.73
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.274,
+              "TotalPrice": 12.74
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.16,
+              "TotalPrice": 29.0
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0347,
+              "TotalPrice": 103.47
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3034,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 3034,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "408308",
+          "ValueText": "Step-Down"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "323617",
+          "ValueText": "Buck"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "390144",
+          "ValueText": "Programmable"
+        },
+        {
+          "ParameterId": 87,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1471,
+          "ParameterText": "Voltage - Input (Min)",
+          "ParameterType": "String",
+          "ValueId": "124627",
+          "ValueText": "2.15V"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "233086",
+          "ValueText": "5.5V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "48965",
+          "ValueText": "1.2V, 1.8V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "182276",
+          "ValueText": "300mA"
+        },
+        {
+          "ParameterId": 384,
+          "ParameterText": "Frequency - Switching",
+          "ParameterType": "String",
+          "ValueId": "48570",
+          "ValueText": "1.2MHz"
+        },
+        {
+          "ParameterId": 1320,
+          "ParameterText": "Synchronous Rectifier",
+          "ParameterType": "String",
+          "ValueId": "423329",
+          "ValueText": "Yes"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212621",
+          "ValueText": "-40°C ~ 85°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "295507",
+          "ValueText": "8-XFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294078",
+          "ValueText": "8-DSBGA"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 29349,
+        "Name": "TPS62746"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 739,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - DC DC Switching Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/932/150%3B-C04-1196%3B-PHA%3B-32_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the DC-DC switching regulator PMIC (Power Management Integrated Circuit) family are component-level devices used in applications requiring stabilization of a DC input voltage and/or transformation thereof to an output voltage of different magnitude. They are distinguished from similar products called \"controller\" PMICs by virtue of integrating the main switching element through which the power delivered by the device passes.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 29037,
+        "Name": "DCS-Control™"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "296-42289-1",
+        "2156-TPS62746YFPT",
+        "296-42289-2",
+        "TEXTISTPS62746YFPT",
+        "296-42289-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:15Z",
+    "manufacturer_part_number": "TPS62746YFPT",
+    "product_quantity_available": 3034,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.73,
+    "offers": [
+      {
+        "provider_part_number": "296-42289-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3034,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.73,
+            "total_price": 1.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.274,
+            "total_price": 12.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.16,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0347,
+            "total_price": 103.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-42289-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3034,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.73,
+            "total_price": 1.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.274,
+            "total_price": 12.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.16,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0347,
+            "total_price": 103.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-42289-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 2750,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 0.97488,
+            "total_price": 243.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93884,
+            "total_price": 469.42
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 0.9208,
+            "total_price": 690.6
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 0.90081,
+            "total_price": 1126.0125
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.88912,
+            "total_price": 1555.96
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.87788,
+            "total_price": 2194.7
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-42289-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3034,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.73,
+            "total_price": 1.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.274,
+            "total_price": 12.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.16,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0347,
+            "total_price": 103.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-42289-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3034,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.73,
+            "total_price": 1.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.274,
+            "total_price": 12.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.16,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0347,
+            "total_price": 103.47
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-42289-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 2750,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 0.97488,
+            "total_price": 243.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93884,
+            "total_price": 469.42
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 0.9208,
+            "total_price": 690.6
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 0.90081,
+            "total_price": 1126.0125
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.88912,
+            "total_price": 1555.96
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.87788,
+            "total_price": 2194.7
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:15Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS62746YFPT",
+    "provider_part_number": "",
+    "description": "IC REG BUCK PROG 300MA 8DSBGA",
+    "detailed_description": "Buck Switching Regulator IC Positive Programmable 1.2V, 1.8V 1 Output 300mA 8-XFBGA, DSBGA",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps62746",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS62746YFPT/5344304",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6310/296%7E4206986-4%7EYFP%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-XFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Step-Down",
+      "Output Configuration": "Positive",
+      "Topology": "Buck",
+      "Output Type": "Programmable",
+      "Number of Outputs": "1",
+      "Voltage - Input (Min)": "2.15V",
+      "Voltage - Input (Max)": "5.5V",
+      "Voltage - Output (Min/Fixed)": "1.2V, 1.8V",
+      "Voltage - Output (Max)": "-",
+      "Current - Output": "300mA",
+      "Frequency - Switching": "1.2MHz",
+      "Synchronous Rectifier": "Yes",
+      "Operating Temperature": "-40°C ~ 85°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-XFBGA, DSBGA",
+      "Supplier Device Package": "8-DSBGA"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:10:06Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RT0603FRE07232RL",
+    "resolved_manufacturer": "YAGEO",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "818"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "RES SMD 232 OHM 1% 1/10W 0603",
+        "DetailedDescription": "232 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+      },
+      "Manufacturer": {
+        "Id": 13,
+        "Name": "YAGEO"
+      },
+      "ManufacturerProductNumber": "RT0603FRE07232RL",
+      "UnitPrice": 0.00596,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/yageo/RT0603FRE07232RL/1075218",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4839/RT-Series-Chip-Resistor.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "RT0603FRE07232RL-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.00596,
+              "TotalPrice": 29.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 5000,
+          "StandardPackage": 5000,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2085,
+          "ParameterText": "Resistance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "232 Ohms",
+          "ValueText": "232 Ohms"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1131",
+          "ValueText": "±1%"
+        },
+        {
+          "ParameterId": 2,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "String",
+          "ValueId": "14064",
+          "ValueText": "0.1W, 1/10W"
+        },
+        {
+          "ParameterId": 174,
+          "ParameterText": "Composition",
+          "ParameterType": "String",
+          "ValueId": "411766",
+          "ValueText": "Thin Film"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "2617",
+          "ValueText": "±50ppm/°C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242934",
+          "ValueText": "-55°C ~ 155°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5314",
+          "ValueText": "0.022\" (0.55mm)"
+        },
+        {
+          "ParameterId": 1127,
+          "ParameterText": "Number of Terminations",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 2,
+        "ParentId": 0,
+        "Name": "Resistors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+        "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+        "ChildCategories": [
+          {
+            "CategoryId": 52,
+            "ParentId": 2,
+            "Name": "Chip Resistor - Surface Mount",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1269,
+        "Name": "RT"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.21.0030"
+      },
+      "OtherNames": []
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:10:06Z",
+    "manufacturer_part_number": "RT0603FRE07232RL",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "20",
+    "product_unit_price": 0.00596,
+    "offers": [
+      {
+        "provider_part_number": "RT0603FRE07232RL-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 5000,
+        "pack_quantity": 5000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.00596,
+            "total_price": 29.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "RT0603FRE07232RL-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 5000,
+        "pack_quantity": 5000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.00596,
+            "total_price": 29.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:10:06Z",
+    "manufacturer": "YAGEO",
+    "manufacturer_part_number": "RT0603FRE07232RL",
+    "provider_part_number": "",
+    "description": "RES SMD 232 OHM 1% 1/10W 0603",
+    "detailed_description": "232 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "product_url": "https://www.digikey.ie/en/products/detail/yageo/RT0603FRE07232RL/1075218",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4839/RT-Series-Chip-Resistor.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "",
+    "attributes": {
+      "Resistance": "232 Ohms",
+      "Tolerance": "±1%",
+      "Power (Watts)": "0.1W, 1/10W",
+      "Composition": "Thin Film",
+      "Features": "-",
+      "Temperature Coefficient": "±50ppm/°C",
+      "Operating Temperature": "-55°C ~ 155°C",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "0.022\" (0.55mm)",
+      "Number of Terminations": "2",
+      "Failure Rate": "-"
+    },
+    "compliance": {}
+  }
+}

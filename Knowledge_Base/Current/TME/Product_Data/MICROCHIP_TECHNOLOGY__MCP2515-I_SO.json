@@ -1,0 +1,64 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:07:34Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP2515-I/SO",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 18,
+          "symbol": "MCP2515-I/SO",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 1.98,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 1.74,
+                "special": false
+              },
+              {
+                "amount": 42,
+                "price": 1.69,
+                "special": false
+              },
+              {
+                "amount": 84,
+                "price": 1.64,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

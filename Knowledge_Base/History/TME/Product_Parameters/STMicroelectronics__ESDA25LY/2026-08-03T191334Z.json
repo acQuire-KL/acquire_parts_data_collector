@@ -1,0 +1,170 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:34Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "STMicroelectronics",
+    "input_mpn": "ESDA25LY",
+    "resolved_manufacturer": "STMicroelectronics",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ESDA25LY",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 35,
+                    "value": "STMicroelectronics"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1501444,
+                    "value": "TVS array"
+                  }
+                ]
+              },
+              {
+                "id": 243,
+                "name": "Breakdown voltage",
+                "values": [
+                  {
+                    "id": 2022905,
+                    "value": "25...30V"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1501673,
+                    "value": "7A"
+                  }
+                ]
+              },
+              {
+                "id": 3409,
+                "name": "Peak pulse power dissipation",
+                "values": [
+                  {
+                    "id": 1912999,
+                    "value": "0.3kW"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1440273,
+                    "value": "common anode"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 1636031,
+                    "value": "ESD"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440262,
+                    "value": "SOT23"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1440511,
+                    "value": "24V"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1501355,
+                    "value": "1µA"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443907,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1512055,
+                    "value": "50pF"
+                  }
+                ]
+              },
+              {
+                "id": 511,
+                "name": "Application",
+                "values": [
+                  {
+                    "id": 1821825,
+                    "value": "automotive industry"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

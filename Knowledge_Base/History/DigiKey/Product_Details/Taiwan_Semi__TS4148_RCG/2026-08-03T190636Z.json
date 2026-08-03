@@ -1,0 +1,634 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:36Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Taiwan Semi",
+    "input_mpn": "TS4148 RCG",
+    "resolved_manufacturer": "Taiwan Semi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "900"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "DIODE STANDARD 75V 100MA 0603",
+        "DetailedDescription": "Diode 75 V 100mA Surface Mount 0603"
+      },
+      "Manufacturer": {
+        "Id": 1801,
+        "Name": "Taiwan Semiconductor Corporation"
+      },
+      "ManufacturerProductNumber": "TS4148 RCG",
+      "UnitPrice": 0.17,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/taiwan-semiconductor-corporation/TS4148-RCG/7359811",
+      "DatasheetUrl": "https://services.ts.com.tw/storage/resources/datasheet/TS4148%20SERIES_A2301.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2275/MFG_0603%281608-Metric%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "1801-TS4148RCGTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.02732,
+              "TotalPrice": 273.2
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.02326,
+              "TotalPrice": 697.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1801,
+            "Name": "Taiwan Semiconductor Corporation"
+          },
+          "QuantityAvailableforPackageType": 350000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1801-TS4148RCGCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.102,
+              "TotalPrice": 1.02
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.073,
+              "TotalPrice": 3.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0632,
+              "TotalPrice": 6.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.046,
+              "TotalPrice": 23.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1801,
+            "Name": "Taiwan Semiconductor Corporation"
+          },
+          "QuantityAvailableforPackageType": 351977,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1801-TS4148RCGDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.102,
+              "TotalPrice": 1.02
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.073,
+              "TotalPrice": 3.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0632,
+              "TotalPrice": 6.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.046,
+              "TotalPrice": 23.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1801,
+            "Name": "Taiwan Semiconductor Corporation"
+          },
+          "QuantityAvailableforPackageType": 351977,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 351977,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "407938",
+          "ValueText": "Standard"
+        },
+        {
+          "ParameterId": 2071,
+          "ParameterText": "Voltage - DC Reverse (Vr) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "75 V",
+          "ValueText": "75 V"
+        },
+        {
+          "ParameterId": 914,
+          "ParameterText": "Current - Average Rectified (Io)",
+          "ParameterType": "String",
+          "ValueId": "68833",
+          "ValueText": "100mA"
+        },
+        {
+          "ParameterId": 2261,
+          "ParameterText": "Voltage - Forward (Vf) (Max) @ If",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "1.25 V @ 100 mA",
+          "ValueText": "1.25 V @ 100 mA"
+        },
+        {
+          "ParameterId": 143,
+          "ParameterText": "Speed",
+          "ParameterType": "String",
+          "ValueId": "404017",
+          "ValueText": "Small Signal =< 200mA (Io), Any Speed"
+        },
+        {
+          "ParameterId": 2269,
+          "ParameterText": "Current - Reverse Leakage @ Vr",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "5 µA @ 75 V",
+          "ValueText": "5 µA @ 75 V"
+        },
+        {
+          "ParameterId": 718,
+          "ParameterText": "Capacitance @ Vr, F",
+          "ParameterType": "String",
+          "ValueId": "228186",
+          "ValueText": "4pF @ 0V, 1MHz"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 1686,
+          "ParameterText": "Operating Temperature - Junction",
+          "ParameterType": "String",
+          "ValueId": "242931",
+          "ValueText": "-55°C ~ 150°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 263138,
+        "Name": "TS4148"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2042,
+            "ParentId": 19,
+            "Name": "Diodes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/961/736/31_SOT-23-3%20PKG_tmb.jpg",
+            "SeoDescription": "Diodes are devices that allow the flow of current in one direction and block current flow in the opposite direction. Types of diodes include current regulation, bridge rectifiers, RF, rectifier arrays, rectifiers, variable capacitance (varicaps, varactors), zener, zener arrays, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2085,
+                "ParentId": 2042,
+                "Name": "Rectifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/349/140/DO-214AC%2CSMA_403D-02_tmb.jpg",
+                "SeoDescription": "Rectifiers are a diode family used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 280,
+                    "ParentId": 2085,
+                    "Name": "Single Diodes",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/430/DO-35_1N4148_1_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Products within the single rectifier diode family are used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0070"
+      },
+      "OtherNames": [
+        "TS4148C RZGTR-ND",
+        "TS4148CRZGDKR-ND",
+        "1801-TS4148RCGDKR",
+        "TS4148C RZGCT-ND",
+        "TS4148CRZGDKR",
+        "TS4148CRZGTR",
+        "TS4148C RZGTR",
+        "TS4148C RZG",
+        "TS4148C RZGDKR",
+        "1801-TS4148RCGTR",
+        "TS4148CRCG-ND",
+        "TS4148C RCG",
+        "TS4148C RZGDKR-ND",
+        "TS4148CRZGCT-ND",
+        "TS4148CRZGTR-ND",
+        "TS4148CRCG",
+        "TS4148CRZGCT",
+        "1801-TS4148RCGCT",
+        "TS4148C RCG-ND",
+        "TS4148C RZGCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:36Z",
+    "manufacturer_part_number": "TS4148 RCG",
+    "product_quantity_available": 351977,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.17,
+    "offers": [
+      {
+        "provider_part_number": "1801-TS4148RCGCT-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 351977,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": 1.02
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.073,
+            "total_price": 3.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0632,
+            "total_price": 6.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": 23.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1801-TS4148RCGDKR-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 351977,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": 1.02
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.073,
+            "total_price": 3.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0632,
+            "total_price": 6.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": 23.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1801-TS4148RCGTR-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 350000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.02732,
+            "total_price": 273.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.02326,
+            "total_price": 697.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "1801-TS4148RCGCT-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 351977,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": 1.02
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.073,
+            "total_price": 3.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0632,
+            "total_price": 6.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": 23.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1801-TS4148RCGDKR-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 351977,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": 1.02
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.073,
+            "total_price": 3.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0632,
+            "total_price": 6.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": 23.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1801-TS4148RCGTR-ND",
+        "supplier": "Taiwan Semiconductor Corporation",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 350000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.02732,
+            "total_price": 273.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.02326,
+            "total_price": 697.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:36Z",
+    "manufacturer": "Taiwan Semiconductor Corporation",
+    "manufacturer_part_number": "TS4148 RCG",
+    "provider_part_number": "",
+    "description": "DIODE STANDARD 75V 100MA 0603",
+    "detailed_description": "Diode 75 V 100mA Surface Mount 0603",
+    "datasheet_url": "https://services.ts.com.tw/storage/resources/datasheet/TS4148%20SERIES_A2301.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/taiwan-semiconductor-corporation/TS4148-RCG/7359811",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2275/MFG_0603%281608-Metric%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Technology": "Standard",
+      "Voltage - DC Reverse (Vr) (Max)": "75 V",
+      "Current - Average Rectified (Io)": "100mA",
+      "Voltage - Forward (Vf) (Max) @ If": "1.25 V @ 100 mA",
+      "Speed": "Small Signal =< 200mA (Io), Any Speed",
+      "Current - Reverse Leakage @ Vr": "5 µA @ 75 V",
+      "Capacitance @ Vr, F": "4pF @ 0V, 1MHz",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Operating Temperature - Junction": "-55°C ~ 150°C"
+    },
+    "compliance": {}
+  }
+}

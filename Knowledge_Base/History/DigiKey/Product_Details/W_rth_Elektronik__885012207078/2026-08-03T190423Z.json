@@ -1,0 +1,635 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:23Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "885012207078",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "963"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP CER 1UF 25V X7R 0805",
+        "DetailedDescription": "1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "885012207078",
+      "UnitPrice": 0.12,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/885012207078/5453527",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/885012207078.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/757/0805-%282012-Metric%29-1%2C35mm_BN.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-7672-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.01961,
+              "TotalPrice": 58.83
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.01711,
+              "TotalPrice": 153.99
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 12000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-7672-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.12,
+              "TotalPrice": 0.12
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.069,
+              "TotalPrice": 0.69
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.048,
+              "TotalPrice": 2.4
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0418,
+              "TotalPrice": 4.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.03112,
+              "TotalPrice": 15.56
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 13881,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-7672-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.12,
+              "TotalPrice": 0.12
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.069,
+              "TotalPrice": 0.69
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.048,
+              "TotalPrice": 2.4
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0418,
+              "TotalPrice": 4.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.03112,
+              "TotalPrice": 15.56
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 13881,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 13881,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5335790908001",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 µF",
+          "ValueText": "1 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1340",
+          "ValueText": "±10%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "159247",
+          "ValueText": "25V"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "422415",
+          "ValueText": "X7R"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409416",
+          "ValueText": "Surface Mount, MLCC"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "8569",
+          "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "7180",
+          "ValueText": "0.053\" (1.35mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 4,
+          "ParameterText": "Lead Style",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 713021,
+        "Name": "885012207"
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 60,
+            "ParentId": 3,
+            "Name": "Ceramic Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "28",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 49954,
+        "Name": "WCAP-CSGP"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "732-7672-6",
+        "732-7672-1",
+        "732-7672-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:23Z",
+    "manufacturer_part_number": "885012207078",
+    "product_quantity_available": 13881,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "28",
+    "product_unit_price": 0.12,
+    "offers": [
+      {
+        "provider_part_number": "732-7672-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13881,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.069,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.048,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0418,
+            "total_price": 4.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03112,
+            "total_price": 15.56
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-7672-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13881,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.069,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.048,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0418,
+            "total_price": 4.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03112,
+            "total_price": 15.56
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-7672-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.01961,
+            "total_price": 58.83
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.01711,
+            "total_price": 153.99
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-7672-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13881,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.069,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.048,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0418,
+            "total_price": 4.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03112,
+            "total_price": 15.56
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-7672-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13881,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.069,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.048,
+            "total_price": 2.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0418,
+            "total_price": 4.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03112,
+            "total_price": 15.56
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-7672-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.01961,
+            "total_price": 58.83
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.01711,
+            "total_price": 153.99
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:23Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "885012207078",
+    "provider_part_number": "",
+    "description": "CAP CER 1UF 25V X7R 0805",
+    "detailed_description": "1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/885012207078.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/885012207078/5453527",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/757/0805-%282012-Metric%29-1%2C35mm_BN.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0805 (2012 Metric)",
+    "mounting_type": "Surface Mount, MLCC",
+    "attributes": {
+      "Capacitance": "1 µF",
+      "Tolerance": "±10%",
+      "Voltage - Rated": "25V",
+      "Temperature Coefficient": "X7R",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Features": "-",
+      "Ratings": "-",
+      "Applications": "General Purpose",
+      "Failure Rate": "-",
+      "Mounting Type": "Surface Mount, MLCC",
+      "Package / Case": "0805 (2012 Metric)",
+      "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+      "Height - Seated (Max)": "-",
+      "Thickness (Max)": "0.053\" (1.35mm)",
+      "Lead Spacing": "-",
+      "Lead Style": "-"
+    },
+    "compliance": {}
+  }
+}

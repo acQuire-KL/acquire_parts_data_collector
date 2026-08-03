@@ -1,0 +1,311 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:45Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITEON",
+    "input_mpn": "LTV-817S-TA1",
+    "resolved_manufacturer": "LITEON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "LTV-817S-TA1",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.302,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/4F/B7/70/00/0/490484_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0792fb06f9f5b22e03fa079e103bcb008c8a12f9",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/4F/B7/70/00/0/490484_1.jpg?width=100&height=75&q=75&ci_sign=4d65a0be65b1ec1a6728ef1b7c74741114997d1a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "LTV-817S-TA1-C",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1-C"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.263,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/DF/8D/60/00/0/448765_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=dd7eb65630468328e04715b88d9110017a5da9df",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/DF/8D/60/00/0/448765_1.jpg?width=100&height=75&q=75&ci_sign=e1c7aea152697efd82d5ac0579a28e881143a5e8",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "LTV-817S-TA1-D",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1-D"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.325,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F0/37/70/00/0/488207_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d5d64ea2f3f766ef4dc24ebd1889c8cba101a261",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F0/37/70/00/0/488207_1.jpg?width=100&height=75&q=75&ci_sign=d1422b8782541f8e90a92b730fea3afaf8ef78c9",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "LTV-817S-TA1-B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1-B"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.292,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/4F/B7/70/00/0/490484_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0792fb06f9f5b22e03fa079e103bcb008c8a12f9",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/4F/B7/70/00/0/490484_1.jpg?width=100&height=75&q=75&ci_sign=4d65a0be65b1ec1a6728ef1b7c74741114997d1a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "LTV-817S-TA1-A",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1-A"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.321,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/EF/8D/60/00/0/448766_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5ebcc0125f9b57116e9db7ed41e25f566399435a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/EF/8D/60/00/0/448766_1.jpg?width=100&height=75&q=75&ci_sign=35b9b120ba408b16729aa4f722a0f805981296e0",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "MOQ_VALID_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "LTV-817S-TA1-L",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100138,
+              "name": "Optocouplers - analog output"
+            },
+            "manufacturer_symbols": [
+              "LTV-817S-TA1-L"
+            ],
+            "manufacturer": {
+              "id": 128,
+              "name": "LITEON"
+            },
+            "description": "Optocoupler; SMD; Ch: 1; OUT: transistor; Uinsul: 5kV; Uce: 35V; reel",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 0.343,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/87/6A/70/00/0/501368_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d2b7a8d0fd534bc2466e185bf6af5bec449b8db6",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/87/6A/70/00/0/501368_1.jpg?width=100&height=75&q=75&ci_sign=43cdb3f1b55580c0aac150def9750a6dc0fc1c38",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

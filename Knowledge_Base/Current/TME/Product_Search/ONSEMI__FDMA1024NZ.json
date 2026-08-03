@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:51Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "FDMA1024NZ",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "FDMA1024NZ",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112826,
+              "name": "SMD N channel transistors"
+            },
+            "manufacturer_symbols": [
+              "FDMA1024NZ"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Transistor: N-MOSFET; unipolar; 20V; 5A; Idm: 6A; 1.4W; WDFN6",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

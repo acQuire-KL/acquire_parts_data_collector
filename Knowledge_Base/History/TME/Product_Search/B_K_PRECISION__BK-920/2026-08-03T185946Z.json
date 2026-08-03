@@ -1,0 +1,195 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:46Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "B&K PRECISION",
+    "input_mpn": "BK-920",
+    "resolved_manufacturer": "B&K PRECISION",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "BK9205B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112661,
+              "name": "One Channel Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "BK9205B"
+            ],
+            "manufacturer": {
+              "id": 1612,
+              "name": "B&K PRECISION"
+            },
+            "description": "Laboratory power supply: programmable; 60VDC; 25A; 100÷240VAC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 15750.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/1D/52/B0/00/0/730577_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=de6cb0f649d9b780070c633715e2fc741b15d53e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/1D/52/B0/00/0/730577_1.jpg?width=100&height=75&q=75&ci_sign=3de33ecd460c583118c45b95dbd65431c38a1042",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/1D/52/B0/00/0/730577_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=70c5551d7845a3e3578bf9619466abf219a2e0a4"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "BK9202B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112661,
+              "name": "One Channel Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "BK9202B"
+            ],
+            "manufacturer": {
+              "id": 1612,
+              "name": "B&K PRECISION"
+            },
+            "description": "Laboratory power supply: programmable; 60VDC; 15A; 100÷240VAC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 9277.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/0D/52/B0/00/0/730576_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=239351201b7f32bdaa4542c247dd854536495866",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/0D/52/B0/00/0/730576_1.jpg?width=100&height=75&q=75&ci_sign=dc8025fbf8bad8f6a2c7bbff868cd920164f76af",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/0D/52/B0/00/0/730576_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=82613960912fe7c656ab878ad71566077e07dbdb"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "BK9201B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112661,
+              "name": "One Channel Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "BK9201B"
+            ],
+            "manufacturer": {
+              "id": 1612,
+              "name": "B&K PRECISION"
+            },
+            "description": "Laboratory power supply: programmable; 60VDC; 10A; 100÷240VAC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 9182.9,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/FC/52/B0/00/0/730575_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4baa38ef6f42dedaa94f43468f7089c879dd963b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/FC/52/B0/00/0/730575_1.jpg?width=100&height=75&q=75&ci_sign=5cf6cec90aaea0e4a8a8c9a1c8e7ba30cbba522f",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/FC/52/B0/00/0/730575_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=21fd1a730844d096833ab7f4985257de6109c86f"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "BK9206B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112661,
+              "name": "One Channel Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "BK9206B"
+            ],
+            "manufacturer": {
+              "id": 1612,
+              "name": "B&K PRECISION"
+            },
+            "description": "Laboratory power supply: programmable; 150VDC; 10A; 100÷240VAC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 15219.2,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/2D/52/B0/00/0/730578_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=6b00497658fd3132de08e7b37d0e74cd89a37d68",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/2D/52/B0/00/0/730578_1.jpg?width=100&height=75&q=75&ci_sign=b4cbe4f0d5b5163fb09cdcab259ece26be84edd0",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/2D/52/B0/00/0/730578_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=841559583502a34a6af8ac8d517e89b998757701"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:07Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "T520D337M006ATE045",
+    "resolved_manufacturer": "KEMET",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "944"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP TANT POLY 330UF 6.3V 2917",
+        "DetailedDescription": "330 µF Molded Tantalum Polymer Capacitor 6.3 V 2917 (7343 Metric) 45mOhm @ 100kHz"
+      },
+      "Manufacturer": {
+        "Id": 399,
+        "Name": "KEMET"
+      },
+      "ManufacturerProductNumber": "T520D337M006ATE045",
+      "UnitPrice": 1.61,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/kemet/T520D337M006ATE045/818916",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/KEM_T2076_T52X-530",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/58/399%7EKO-CAP-T520%7E2917%287343%29D.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "399-4055-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.6874,
+              "TotalPrice": 343.7
+            },
+            {
+              "BreakQuantity": 1500,
+              "UnitPrice": 0.63618,
+              "TotalPrice": 954.27
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.61723,
+              "TotalPrice": 1543.075
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 59500,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 500,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-4055-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.61,
+              "TotalPrice": 1.61
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.074,
+              "TotalPrice": 10.74
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.8628,
+              "TotalPrice": 43.14
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7976,
+              "TotalPrice": 79.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 59655,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-4055-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.61,
+              "TotalPrice": 1.61
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.074,
+              "TotalPrice": 10.74
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.8628,
+              "TotalPrice": 43.14
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7976,
+              "TotalPrice": 79.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 59655,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 59655,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5795433373001",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "330 µF",
+          "ValueText": "330 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "6.3 V",
+          "ValueText": "6.3 V"
+        },
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "376942",
+          "ValueText": "Molded"
+        },
+        {
+          "ParameterId": 724,
+          "ParameterText": "ESR (Equivalent Series Resistance)",
+          "ParameterType": "String",
+          "ValueId": "222128",
+          "ValueText": "45mOhm @ 100kHz"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242904",
+          "ValueText": "-55°C ~ 105°C"
+        },
+        {
+          "ParameterId": 725,
+          "ParameterText": "Lifetime @ Temp.",
+          "ParameterType": "String",
+          "ValueId": "140003",
+          "ValueText": "2000 Hrs @ 105°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "166804",
+          "ValueText": "2917 (7343 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "17482",
+          "ValueText": "0.287\" L x 0.169\" W (7.30mm x 4.30mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "10653",
+          "ValueText": "0.122\" (3.10mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 987,
+          "ParameterText": "Manufacturer Size Code",
+          "ParameterType": "String",
+          "ValueId": "336742",
+          "ValueText": "D"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 468858,
+        "Name": "T520D"
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 70,
+            "ParentId": 3,
+            "Name": "Tantalum - Polymer Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/905/538/MFG_T55-CaseV_Bottom_tmb%2864x64%29.jpg",
+            "SeoDescription": "Tantalum polymer capacitors are a polarized capacitor type distinguished by their use of a conductive polymer anode material, instead of the manganese dioxide traditionally used for other dry tantalum devices. While their cost tends to be higher, they also generally exhibit better electrical performance compared to traditional Ta-MnO2 device construction, along with a more benign failure mode that simplifies application considerations.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "27",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 754,
+        "Name": "KO-CAP® T520"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "3  (168 Hours)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.21.0050"
+      },
+      "OtherNames": [
+        "399-4055-1",
+        "399-4055-2",
+        "399-4055-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:07Z",
+    "manufacturer_part_number": "T520D337M006ATE045",
+    "product_quantity_available": 59655,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "27",
+    "product_unit_price": 1.61,
+    "offers": [
+      {
+        "provider_part_number": "399-4055-1-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 59655,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.074,
+            "total_price": 10.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.8628,
+            "total_price": 43.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7976,
+            "total_price": 79.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-4055-6-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 59655,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.074,
+            "total_price": 10.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.8628,
+            "total_price": 43.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7976,
+            "total_price": 79.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-4055-2-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 59500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 0.6874,
+            "total_price": 343.7
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 0.63618,
+            "total_price": 954.27
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.61723,
+            "total_price": 1543.075
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "399-4055-1-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 59655,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.074,
+            "total_price": 10.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.8628,
+            "total_price": 43.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7976,
+            "total_price": 79.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-4055-6-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 59655,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.074,
+            "total_price": 10.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.8628,
+            "total_price": 43.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7976,
+            "total_price": 79.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-4055-2-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 59500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 0.6874,
+            "total_price": 343.7
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 0.63618,
+            "total_price": 954.27
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.61723,
+            "total_price": 1543.075
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:07Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "T520D337M006ATE045",
+    "provider_part_number": "",
+    "description": "CAP TANT POLY 330UF 6.3V 2917",
+    "detailed_description": "330 µF Molded Tantalum Polymer Capacitor 6.3 V 2917 (7343 Metric) 45mOhm @ 100kHz",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_T2076_T52X-530",
+    "product_url": "https://www.digikey.ie/en/products/detail/kemet/T520D337M006ATE045/818916",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/58/399%7EKO-CAP-T520%7E2917%287343%29D.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "2917 (7343 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Capacitance": "330 µF",
+      "Tolerance": "±20%",
+      "Voltage - Rated": "6.3 V",
+      "Type": "Molded",
+      "ESR (Equivalent Series Resistance)": "45mOhm @ 100kHz",
+      "Operating Temperature": "-55°C ~ 105°C",
+      "Lifetime @ Temp.": "2000 Hrs @ 105°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "2917 (7343 Metric)",
+      "Size / Dimension": "0.287\" L x 0.169\" W (7.30mm x 4.30mm)",
+      "Height - Seated (Max)": "0.122\" (3.10mm)",
+      "Lead Spacing": "-",
+      "Manufacturer Size Code": "D",
+      "Ratings": "-",
+      "Features": "General Purpose"
+    },
+    "compliance": {}
+  }
+}

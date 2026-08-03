@@ -1,0 +1,180 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:04Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BEL FUSE",
+    "input_mpn": "0ZAF0005FF28",
+    "resolved_manufacturer": "BEL FUSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "0ZAF0005FF28",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 658,
+                    "value": "BEL FUSE"
+                  }
+                ]
+              },
+              {
+                "id": 617,
+                "name": "Type of fuse",
+                "values": [
+                  {
+                    "id": 1473027,
+                    "value": "PTC polymer"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1449035,
+                    "value": "50mA"
+                  }
+                ]
+              },
+              {
+                "id": 424,
+                "name": "Maximum current",
+                "values": [
+                  {
+                    "id": 1443402,
+                    "value": "1A"
+                  }
+                ]
+              },
+              {
+                "id": 951,
+                "name": "Switched current",
+                "values": [
+                  {
+                    "id": 1493951,
+                    "value": "120mA"
+                  }
+                ]
+              },
+              {
+                "id": 743,
+                "name": "Max. voltage",
+                "values": [
+                  {
+                    "id": 1984483,
+                    "value": "240V AC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2144394,
+                    "value": "0ZAF"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1440884,
+                    "value": "1.5W"
+                  }
+                ]
+              },
+              {
+                "id": 1738,
+                "name": "Min. resistance",
+                "values": [
+                  {
+                    "id": 1473151,
+                    "value": "10Ω"
+                  }
+                ]
+              },
+              {
+                "id": 1739,
+                "name": "Max resistance",
+                "values": [
+                  {
+                    "id": 1972851,
+                    "value": "70Ω"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 2082667,
+                    "value": "2920"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 2137183,
+                    "value": "7450"
+                  }
+                ]
+              },
+              {
+                "id": 588,
+                "name": "Fuses application",
+                "values": [
+                  {
+                    "id": 1848835,
+                    "value": "electronic applications"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

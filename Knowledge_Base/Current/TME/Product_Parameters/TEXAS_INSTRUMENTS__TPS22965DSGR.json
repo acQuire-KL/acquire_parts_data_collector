@@ -1,0 +1,164 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:26Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "TPS22965DSGR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "TPS22965DSGR",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1590119,
+                    "value": "power switch"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1492961,
+                    "value": "high-side"
+                  }
+                ]
+              },
+              {
+                "id": 365,
+                "name": "Output current",
+                "values": [
+                  {
+                    "id": 1444027,
+                    "value": "6A"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 429,
+                "name": "Kind of output",
+                "values": [
+                  {
+                    "id": 1590120,
+                    "value": "N-Channel"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1618741,
+                    "value": "WSON8"
+                  }
+                ]
+              },
+              {
+                "id": 270,
+                "name": "On-state resistance",
+                "values": [
+                  {
+                    "id": 1479178,
+                    "value": "16mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1957609,
+                    "value": "0.8...5.7V DC"
+                  }
+                ]
+              },
+              {
+                "id": 800,
+                "name": "Active logical level",
+                "values": [
+                  {
+                    "id": 1453556,
+                    "value": "high"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819353,
+                    "value": "-40...105°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

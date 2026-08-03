@@ -1,0 +1,340 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:55Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Abracon",
+    "input_mpn": "ABS07-32.768KHZ-T",
+    "resolved_manufacturer": "Abracon",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "186865 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/184/1/ABS07.pdf",
+          "Description": "Crystals 32.768 KHZ 12.5PF SMD",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/abracon/images/ABS07_series_SPL.jpg",
+          "Category": "Crystals",
+          "LeadTime": "140 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "ABRACON",
+          "ManufacturerPartNumber": "ABS07-32.768KHZ-T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "815-ABS07-32.768KHZT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.454",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.412",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.396",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.374",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.359",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.343",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.32",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.306",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABS07-32.768KHZ-T?qs=3SpAxaLJ01g8GJWeO3sA3Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.6e-05
+          },
+          "AvailabilityInStock": "186865",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541600000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541600000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541600010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541600050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854160010"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541600100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85416090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:55Z",
+    "manufacturer_part_number": "ABS07-32.768KHZ-T",
+    "product_quantity_available": 186865,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "140 Days",
+    "product_unit_price": 0.525,
+    "offers": [
+      {
+        "provider_part_number": "815-ABS07-32.768KHZT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 186865,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.525,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.454,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.412,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.396,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.374,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.359,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.343,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.306,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "815-ABS07-32.768KHZT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 186865,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.525,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.454,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.412,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.396,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.374,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.359,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.343,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.306,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:55Z",
+    "manufacturer": "ABRACON",
+    "manufacturer_part_number": "ABS07-32.768KHZ-T",
+    "provider_part_number": "815-ABS07-32.768KHZT",
+    "description": "Crystals 32.768 KHZ 12.5PF SMD",
+    "detailed_description": "Crystals 32.768 KHZ 12.5PF SMD",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/ABS07.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABS07-32.768KHZ-T?qs=3SpAxaLJ01g8GJWeO3sA3Q%3D%3D",
+    "image_url": "https://www.mouser.com/images/abracon/images/ABS07_series_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541600000",
+      "CNHTS": "8541600000",
+      "CAHTS": "8541600010",
+      "USHTS": "8541600050",
+      "JPHTS": "854160010",
+      "MXHTS": "8541600100",
+      "BRHTS": "85416090",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:22Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "150080VS75000",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "858"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "LED GREEN CLEAR 0805 SMD",
+        "DetailedDescription": "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "150080VS75000",
+      "UnitPrice": 0.17,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/150080VS75000/4489924",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3007/WL-SMCW%20Series%200805.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-4986-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.12172,
+              "TotalPrice": 486.88
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 100000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4986-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1538,
+              "TotalPrice": 7.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.132,
+              "TotalPrice": 13.2
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12844,
+              "TotalPrice": 64.22
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 101326,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4986-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1538,
+              "TotalPrice": 7.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.132,
+              "TotalPrice": 13.2
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12844,
+              "TotalPrice": 64.22
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 101326,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 101326,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5335790906001",
+      "Parameters": [
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "351158",
+          "ValueText": "Green"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "407938",
+          "ValueText": "Standard"
+        },
+        {
+          "ParameterId": 525,
+          "ParameterText": "Lens Color",
+          "ParameterType": "String",
+          "ValueId": "332225",
+          "ValueText": "Colorless"
+        },
+        {
+          "ParameterId": 1843,
+          "ParameterText": "Lens Transparency",
+          "ParameterType": "String",
+          "ValueId": "330893",
+          "ValueText": "Clear"
+        },
+        {
+          "ParameterId": 206,
+          "ParameterText": "Millicandela Rating",
+          "ParameterType": "String",
+          "ValueId": "214849",
+          "ValueText": "40mcd"
+        },
+        {
+          "ParameterId": 2028,
+          "ParameterText": "Lens Style",
+          "ParameterType": "String",
+          "ValueId": "393133",
+          "ValueText": "Rectangle with Flat Top"
+        },
+        {
+          "ParameterId": 2029,
+          "ParameterText": "Lens Size",
+          "ParameterType": "String",
+          "ValueId": "51482",
+          "ValueText": "1.40mm x 1.25mm"
+        },
+        {
+          "ParameterId": 319,
+          "ParameterText": "Voltage - Forward (Vf) (Typ)",
+          "ParameterType": "String",
+          "ValueId": "168722",
+          "ValueText": "2V"
+        },
+        {
+          "ParameterId": 543,
+          "ParameterText": "Current - Test",
+          "ParameterType": "String",
+          "ValueId": "143056",
+          "ValueText": "20mA"
+        },
+        {
+          "ParameterId": 551,
+          "ParameterText": "Viewing Angle",
+          "ParameterType": "String",
+          "ValueId": "94338",
+          "ValueText": "140°"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 969,
+          "ParameterText": "Wavelength - Dominant",
+          "ParameterType": "String",
+          "ValueId": "245569",
+          "ValueText": "570nm"
+        },
+        {
+          "ParameterId": 968,
+          "ParameterText": "Wavelength - Peak",
+          "ParameterType": "String",
+          "ValueId": "245698",
+          "ValueText": "572nm"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39328",
+          "ValueText": "0805"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "122881",
+          "ValueText": "2.00mm L x 1.25mm W"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "34583",
+          "ValueText": "0.80mm"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 7,
+        "ParentId": 0,
+        "Name": "Optoelectronics",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/388/510/MFG_ELI70-CR_tmb%2864x64%29.jpg",
+        "SeoDescription": "Broadly defined, optoelectronic products are devices that convert electricity to light, and accessory or supporting items such as reflectors or mounting hardware designed for use with such products. It is a diverse product category, including LEDs, fiber optic transmitters and receivers, LCD, OLED, and VFD displays, EL wire, incandescent lamps, lasers, light pipes and xenon flash tubes, among many other product types.",
+        "ChildCategories": [
+          {
+            "CategoryId": 105,
+            "ParentId": 7,
+            "Name": "LED Indication - Discrete",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/626/HLMP-3507%2CHLMP-3680%2CHLMP-3962_tmb%2864x64%29.jpg",
+            "SeoDescription": "Light emitting diodes are semiconductor devices that emit light when conducting current. LEDs in this family are single or array configuration for status indication on printed circuit boards. They are differentiated by package/case, wavelength, viewing angle, forward voltage, current rating, millicandela rating, color, and mounting type. Configurations include common anode or cathode and bidirectional.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 43095,
+        "Name": "WL-SMCW"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "3  (168 Hours)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.41.0000"
+      },
+      "OtherNames": [
+        "732-4986-6",
+        "732-4986-1",
+        "732-4986-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:22Z",
+    "manufacturer_part_number": "150080VS75000",
+    "product_quantity_available": 101326,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 0.17,
+    "offers": [
+      {
+        "provider_part_number": "732-4986-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 101326,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1538,
+            "total_price": 7.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": 13.2
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12844,
+            "total_price": 64.22
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4986-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 101326,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1538,
+            "total_price": 7.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": 13.2
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12844,
+            "total_price": 64.22
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4986-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 100000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.12172,
+            "total_price": 486.88
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-4986-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 101326,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1538,
+            "total_price": 7.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": 13.2
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12844,
+            "total_price": 64.22
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4986-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 101326,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1538,
+            "total_price": 7.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": 13.2
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12844,
+            "total_price": 64.22
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4986-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 100000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.12172,
+            "total_price": 486.88
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:22Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "150080VS75000",
+    "provider_part_number": "",
+    "description": "LED GREEN CLEAR 0805 SMD",
+    "detailed_description": "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/150080VS75000/4489924",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3007/WL-SMCW%20Series%200805.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0805 (2012 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Color": "Green",
+      "Configuration": "Standard",
+      "Lens Color": "Colorless",
+      "Lens Transparency": "Clear",
+      "Millicandela Rating": "40mcd",
+      "Lens Style": "Rectangle with Flat Top",
+      "Lens Size": "1.40mm x 1.25mm",
+      "Voltage - Forward (Vf) (Typ)": "2V",
+      "Current - Test": "20mA",
+      "Viewing Angle": "140°",
+      "Mounting Type": "Surface Mount",
+      "Wavelength - Dominant": "570nm",
+      "Wavelength - Peak": "572nm",
+      "Features": "-",
+      "Package / Case": "0805 (2012 Metric)",
+      "Supplier Device Package": "0805",
+      "Size / Dimension": "2.00mm L x 1.25mm W",
+      "Height (Max)": "0.80mm"
+    },
+    "compliance": {}
+  }
+}

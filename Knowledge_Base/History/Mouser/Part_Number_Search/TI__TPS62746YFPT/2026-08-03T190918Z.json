@@ -1,0 +1,476 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:18Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPS62746YFPT",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "1593 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators Ultra-low-power DCDC converter with Vin- A 595-TPS62746YFPR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/TI_DSBGA_8_Long.jpg",
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS62746YFPT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPS62746YFPT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.70",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.26",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.955",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.903",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.869",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.86",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.84",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TPS62746YFPR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS62746YFPT?qs=GJ%2F2ZGcr5uOq4Pu7VuoXXA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TPS62746YFPR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.3e-06
+          },
+          "AvailabilityInStock": "1593",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3820 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators Ultra-low-power DCDC converter with Vin- A 595-TPS62746YFPT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/TI_DSBGA_8_Long.jpg",
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS62746YFPR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPS62746YFPR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.857",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.806",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.775",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.771",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.67",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TPS62746YFPT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS62746YFPR?qs=GJ%2F2ZGcr5uO%252BiZXwRJP3Yw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TPS62746YFPT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.3e-06
+          },
+          "AvailabilityInStock": "3820",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:18Z",
+    "manufacturer_part_number": "TPS62746YFPT",
+    "product_quantity_available": 1593,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 1.7,
+    "offers": [
+      {
+        "provider_part_number": "595-TPS62746YFPT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1593,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.26,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.955,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.869,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.86,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.84,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TPS62746YFPT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1593,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.26,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.955,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.869,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.86,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.84,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:18Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS62746YFPT",
+    "provider_part_number": "595-TPS62746YFPT",
+    "description": "Switching Voltage Regulators Ultra-low-power DCDC converter with Vin- A 595-TPS62746YFPR",
+    "detailed_description": "Switching Voltage Regulators Ultra-low-power DCDC converter with Vin- A 595-TPS62746YFPR",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS62746YFPT?qs=GJ%2F2ZGcr5uOq4Pu7VuoXXA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/TI_DSBGA_8_Long.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "250"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390070",
+      "JPHTS": "854239099",
+      "MXHTS": "8542399901",
+      "ECCN": "EAR99"
+    }
+  }
+}

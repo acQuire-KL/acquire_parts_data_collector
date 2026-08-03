@@ -1,0 +1,156 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:38Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "INA228AIDGSR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "INA228AIDGSR",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443653,
+                    "value": "instrumentation amplifier"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 3175,
+                "name": "Voltage supply range",
+                "values": [
+                  {
+                    "id": 1902335,
+                    "value": "2.7...5.5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1600921,
+                    "value": "VSSOP10"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819335,
+                    "value": "-40...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 804,
+                "name": "Integrated circuit features",
+                "values": [
+                  {
+                    "id": 2021088,
+                    "value": "20bit ADC"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  },
+                  {
+                    "id": 1443827,
+                    "value": "SMBus"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1508652,
+                    "value": "bidirectional"
+                  },
+                  {
+                    "id": 1508643,
+                    "value": "current and voltage monitor"
+                  },
+                  {
+                    "id": 1503921,
+                    "value": "high-/low-side"
+                  }
+                ]
+              },
+              {
+                "id": 3658,
+                "name": "Manufacturer standard package",
+                "values": [
+                  {
+                    "id": 2151457,
+                    "value": "2500pcs."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

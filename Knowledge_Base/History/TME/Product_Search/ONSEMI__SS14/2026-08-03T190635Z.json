@@ -1,0 +1,957 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:35Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "SS14",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "SS14-FAI",
+            "ean": "",
+            "customer_symbol": "DIO-SMD-40V-1A-SCK",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.092,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 7500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "SS14-YAN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14"
+            ],
+            "manufacturer": {
+              "id": 1317,
+              "name": "YANGJIE TECHNOLOGY"
+            },
+            "description": "Diode: Schottky rectifying; SMA-W; SMD; 40V; 1A; reel,tape",
+            "multiples": 20,
+            "minimal_amount": 20,
+            "weight": {
+              "value": 0.083,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 5000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SS14-DC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14"
+            ],
+            "manufacturer": {
+              "id": 33,
+              "name": "DC COMPONENTS"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 25,
+            "weight": {
+              "value": 0.085,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 7500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SS14-TSC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14"
+            ],
+            "manufacturer": {
+              "id": 42,
+              "name": "TAIWAN SEMICONDUCTOR"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.075,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/9B/61/00/0/1489305_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=10c56ee6d1826f2cc4a56d927d09d2b909932e86",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/9B/61/00/0/1489305_1.jpg?width=100&height=75&q=75&ci_sign=7687c8bd7ad52188ac87a95cbf7a7cfe392fb350",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/9B/61/00/0/1489305_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=18c4820b0cbb4e6032b11a88ae79ff38be2fd038"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "NOT_IN_OFFER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SS14-JGD",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14"
+            ],
+            "manufacturer": {
+              "id": 1283,
+              "name": "JGD SEMICONDUCTORS"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 5,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 0.068,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 7500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14-E3/61T",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14-E3/61T"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; 7 inch reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.086,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1800
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14-AKS",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "AKS1016"
+            ],
+            "manufacturer": {
+              "id": 2142,
+              "name": "AKYGA SEMI"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.069,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=95fb1307848c7a84854f58d819bc5554dba82240",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=100&height=75&q=75&ci_sign=df73aec88b45cfdadcdd43dbd2e2ab919cd69891",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=c431aae8130dd938cc81f16d4192f8bab1c40d4b"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "SS14A-YAN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14A"
+            ],
+            "manufacturer": {
+              "id": 1317,
+              "name": "YANGJIE TECHNOLOGY"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 5,
+            "minimal_amount": 20,
+            "weight": {
+              "value": 0.072,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 5000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d37b31b735078739e34b18077fe44423882cdadf",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BD/BE/00/00/0/60379_1.jpg?width=100&height=75&q=75&ci_sign=eac76c6fb5c0c555a53cb052380435f849d176de",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14-E3/5AT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14-E3/5AT"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; 13 inch reel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.072,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 7500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=95fb1307848c7a84854f58d819bc5554dba82240",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=100&height=75&q=75&ci_sign=df73aec88b45cfdadcdd43dbd2e2ab919cd69891",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/4B/29/F0/00/0/1020596_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=c431aae8130dd938cc81f16d4192f8bab1c40d4b"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14M-TSC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14M"
+            ],
+            "manufacturer": {
+              "id": 42,
+              "name": "TAIWAN SEMICONDUCTOR"
+            },
+            "description": "Diode: Schottky rectifying; microSMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.016,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 12000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/B8/DB/41/00/0/1359243_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a9c7aa2c4d72a416963e8f3a8971ec2ae50da203",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/B8/DB/41/00/0/1359243_1.jpg?width=100&height=75&q=75&ci_sign=aacc6b839ef18f7e09e02c4d1b261e881973f173",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/B8/DB/41/00/0/1359243_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=fd88a36fcaccd0cc73ae27e5dbaed0e28132e5c4"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14L-R1",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14L_R1_00001"
+            ],
+            "manufacturer": {
+              "id": 1891,
+              "name": "PanJit Semiconductor"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.09,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1800
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4840aa952a3885cd718b6035f5773a0de0370e14",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=100&height=75&q=75&ci_sign=fd13861c5d741f2d761e2b92403dbc1f3b50b68b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9d5f5a185c6f920b17c4878284c1afd5c9c84ffe"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14-R1",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14_R1_00001"
+            ],
+            "manufacturer": {
+              "id": 1891,
+              "name": "PanJit Semiconductor"
+            },
+            "description": "Diode: Schottky rectifying; SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.095,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1800
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4840aa952a3885cd718b6035f5773a0de0370e14",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=100&height=75&q=75&ci_sign=fd13861c5d741f2d761e2b92403dbc1f3b50b68b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/F1/01/00/0/1056697_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9d5f5a185c6f920b17c4878284c1afd5c9c84ffe"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14L-TSC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14L"
+            ],
+            "manufacturer": {
+              "id": 42,
+              "name": "TAIWAN SEMICONDUCTOR"
+            },
+            "description": "Diode: Schottky rectifying; subSMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.029,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/80/71/00/0/1509624_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=dfba528850d5927597918c1ead2b941a7f85b4d0",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/80/71/00/0/1509624_1.jpg?width=100&height=75&q=75&ci_sign=ebb7e5b9266f6171367db3bd15dcb826be336821",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/80/71/00/0/1509624_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5bbe5116d2b246768b5b641f120a51512f1bb53e"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14F-DC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14F"
+            ],
+            "manufacturer": {
+              "id": 33,
+              "name": "DC COMPONENTS"
+            },
+            "description": "Diode: Schottky rectifying; SMA flat; SMD; 40V; 1A; reel,tape",
+            "multiples": 5,
+            "minimal_amount": 25,
+            "weight": {
+              "value": 0.04,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9A/00/C0/00/0/786601_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=90c65df0f293238052063b9cd76066aeb8ff0d68",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9A/00/C0/00/0/786601_1.jpg?width=100&height=75&q=75&ci_sign=68a3a3ad7c527461335cb5d7bc535d86895ca764",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/9A/00/C0/00/0/786601_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=6af02f4d3781c1afb74ca109115b1526fd44f534"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14HE",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "SS14HE"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: Schottky rectifying; SOD323HE; SMD; 40V; 1A; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.022,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/90/F4/D0/00/0/872201_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ff1654feba7556af185690351552c0e64c82ac19",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/90/F4/D0/00/0/872201_1.jpg?width=100&height=75&q=75&ci_sign=8c08a8579411224732616798d3fe3485d3253f83",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/90/F4/D0/00/0/872201_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=fb44dcbbcbe26744c8ee739891df837cf9b45b82"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14550L",
+            "ean": "6418074023421",
+            "customer_symbol": "",
+            "category": {
+              "id": 112559,
+              "name": "Enclosures - Other Accessories"
+            },
+            "manufacturer_symbols": [
+              "SS 14550L"
+            ],
+            "manufacturer": {
+              "id": 360,
+              "name": "FIBOX"
+            },
+            "description": "Screw",
+            "multiples": 100,
+            "minimal_amount": 100,
+            "weight": {
+              "value": 1.362,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 100
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/36/41/00/0/1336197_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4c0ca3af01d88134713f8619d173ed6265e2ba6a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/36/41/00/0/1336197_1.jpg?width=100&height=75&q=75&ci_sign=8e2031e7d5f56c653d8121e7901369e5ebd3f658",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/36/41/00/0/1336197_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=873196bb96e7860a563f28b6224d713d120afa3e"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SS14MDH2",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100057,
+              "name": "Slide Switches"
+            },
+            "manufacturer_symbols": [
+              "SS14MDH2"
+            ],
+            "manufacturer": {
+              "id": 870,
+              "name": "NKK SWITCHES"
+            },
+            "description": "Switch: slide; Pos: 3; SP3T; 0.1A/30VDC; ON-ON-ON; side; 10x6x4mm",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.38,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8D/3C/90/00/0/639960_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=548a16facf4c5c82bea66755027048557f8f089e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8D/3C/90/00/0/639960_1.jpg?width=100&height=75&q=75&ci_sign=14a6d42114becdb6b2ad282f145f0427d54502c5",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8D/3C/90/00/0/639960_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f72e4c32030f2bed5f6e07622caab5d89ecd14e7"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "SS14MBP2",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100057,
+              "name": "Slide Switches"
+            },
+            "manufacturer_symbols": [
+              "SS14MBP2"
+            ],
+            "manufacturer": {
+              "id": 870,
+              "name": "NKK SWITCHES"
+            },
+            "description": "Switch: slide; Pos: 3; SP3T; 0.1A/30VDC; ON-ON-ON; vertical; SS",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.355,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/7D/3C/90/00/0/639959_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=6253f6600c04ff30cdaa03481461f354e6654e35",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/7D/3C/90/00/0/639959_1.jpg?width=100&height=75&q=75&ci_sign=c4659e87981c2b8decf2d0e421b3f9219af43765",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/7D/3C/90/00/0/639959_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9b17f35fc07b4c633b33b63185edd279f6133e25"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "FSS14TRTB",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112796,
+              "name": "SMD Schottky diodes"
+            },
+            "manufacturer_symbols": [
+              "FSS14 TRTB"
+            ],
+            "manufacturer": {
+              "id": 46,
+              "name": "FAGOR"
+            },
+            "description": "Diode: Schottky rectifying; DO214AC,SMA; SMD; 40V; 1A; reel,tape",
+            "multiples": 5,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 0.088,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 7500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/4D/FB/E0/00/0/966612_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=98b3aba1a9d9501d191902a6742acda00dbd7b37",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/4D/FB/E0/00/0/966612_1.jpg?width=100&height=75&q=75&ci_sign=aedf790691be796dfbbf9e57f83e31dba726b4f5",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/4D/FB/E0/00/0/966612_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=eb87c2a1fc3f94a00e3b4aade4b43e54ada36250"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "D-HSS14",
+            "ean": "4014991105145",
+            "customer_symbol": "",
+            "category": {
+              "id": 113483,
+              "name": "Drills for Metal"
+            },
+            "manufacturer_symbols": [
+              "D-HSS14"
+            ],
+            "manufacturer": {
+              "id": 236,
+              "name": "DONAU ELEKTRONIK"
+            },
+            "description": "Drill bit; for metal; Ø: 1.4mm; high speed steel",
+            "multiples": 1,
+            "minimal_amount": 5,
+            "weight": {
+              "value": 0.38,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/A5/54/00/00/0/17754_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5a065e5962712185d6067e49e5660264025ca49c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/A5/54/00/00/0/17754_1.jpg?width=100&height=75&q=75&ci_sign=05c09092bd2d451708b812dc7eb10fb61131520c",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:09:58Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0603FR-0775RL",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "RC0603FR-0775RL",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 100,
+                "price": 0.0307,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.01106,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.00448,
+                "special": false
+              },
+              {
+                "amount": 15000,
+                "price": 0.00378,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:47Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TDK",
+    "input_mpn": "MPZ2012S331AT000",
+    "resolved_manufacturer": "TDK",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MPZ2012S331AT000",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113554,
+              "name": "Ferrite - beads"
+            },
+            "manufacturer_symbols": [
+              "MPZ2012S331AT000"
+            ],
+            "manufacturer": {
+              "id": 471,
+              "name": "TDK"
+            },
+            "description": "Ferrite: bead; Imp.@ 100MHz: 330Ω; SMD; 2.5A; 0805; R: 50mΩ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.031,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 4000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/2E/80/00/0/582146_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=aa5a0f7eec3b846c5657fd6a10c6498c7f1d4a1f",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/2E/80/00/0/582146_1.jpg?width=100&height=75&q=75&ci_sign=11c01a0680f185dbea4a4e7e2cc0f839549fd5f9",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/2E/80/00/0/582146_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=602d993f016f91325c6a3e451a6700470ce8bce7"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

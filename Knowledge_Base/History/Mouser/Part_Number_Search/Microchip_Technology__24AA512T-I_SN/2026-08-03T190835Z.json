@@ -1,0 +1,336 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "24AA512T-I/SN",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "7893 In Stock",
+          "DataSheetUrl": "",
+          "Description": "EEPROM 512K, 64K X 8, 1.8V SER EE, IND",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/ITP_SOIC_8_new_t.jpg",
+          "Category": "EEPROM",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "24AA512T-I/SN",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "579-24AA512T-I/SN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3300"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3300,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "24AA512-I/SN"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/24AA512T-I-SN?qs=vpV3rcoeaPOnhhy2mIfTAw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "579-24AA512-I/SN",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00054
+          },
+          "AvailabilityInStock": "7893",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542327500"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542329090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542320040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542320051"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854232039"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8542321090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542320201"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Taiwan"
+            }
+          ]
+        },
+        {
+          "Availability": "9692 In Stock",
+          "DataSheetUrl": "",
+          "Description": "EEPROM 512K, 64K X 8, 1.8V SER EE, IND",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/ITP_SOIC_8_new_t.jpg",
+          "Category": "EEPROM",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "24AA512-I/SN",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "579-24AA512-I/SN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "24AA512T-I/SN"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/24AA512-I-SN?qs=vpV3rcoeaPOL5kIN8vCMsg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "579-24AA512T-I/SN",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00054
+          },
+          "AvailabilityInStock": "9692",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542327500"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542329090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542320040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542320051"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854232039"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8542321090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542320201"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:35Z",
+    "manufacturer_part_number": "24AA512T-I/SN",
+    "product_quantity_available": 7893,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 1.56,
+    "offers": [
+      {
+        "provider_part_number": "579-24AA512T-I/SN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7893,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.56,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.56,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "579-24AA512T-I/SN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7893,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.56,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.56,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:35Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "24AA512T-I/SN",
+    "provider_part_number": "579-24AA512T-I/SN",
+    "description": "EEPROM 512K, 64K X 8, 1.8V SER EE, IND",
+    "detailed_description": "EEPROM 512K, 64K X 8, 1.8V SER EE, IND",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/24AA512T-I-SN?qs=vpV3rcoeaPOnhhy2mIfTAw%3D%3D",
+    "image_url": "https://www.mouser.com/images/mouserelectronics/images/ITP_SOIC_8_new_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3300"
+    },
+    "compliance": {
+      "TARIC": "8542327500",
+      "CNHTS": "8542329090",
+      "CAHTS": "8542320040",
+      "USHTS": "8542320051",
+      "JPHTS": "854232039",
+      "KRHTS": "8542321090",
+      "MXHTS": "8542320201",
+      "ECCN": "EAR99"
+    }
+  }
+}

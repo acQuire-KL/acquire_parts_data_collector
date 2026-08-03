@@ -1,0 +1,381 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:13:41Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPD6S300ARUKR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "4960 In Stock",
+          "DataSheetUrl": "",
+          "Description": "USB Interface IC USB Type-C port pro tector: short-to-VBU",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_595-TPD6S300ARUKR_t.jpg",
+          "Category": "USB Interface IC",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPD6S300ARUKR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPD6S300ARUKR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.886",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.793",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.679",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.652",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.573",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.54",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.493",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.46",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPD6S300ARUKR?qs=%252BEew9%252B0nqrA1G22imPqdyw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.08e-05
+          },
+          "AvailabilityInStock": "4960",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "USB Interface IC USB Type-C port prot ector: short-to-VBU",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "USB Interface IC",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPD6S300ARUKRG4",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "595-TPD6S300ARUKRG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.535",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPD6S300ARUKRG4?qs=2FehpBK1j97R%252Bg4zzaBgag%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:41Z",
+    "manufacturer_part_number": "TPD6S300ARUKR",
+    "product_quantity_available": 4960,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 1.23,
+    "offers": [
+      {
+        "provider_part_number": "595-TPD6S300ARUKR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4960,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.886,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.793,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.679,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.652,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.573,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.54,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.493,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.46,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TPD6S300ARUKR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4960,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.886,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.793,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.679,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.652,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.573,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.54,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.493,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.46,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:13:41Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPD6S300ARUKR",
+    "provider_part_number": "595-TPD6S300ARUKR",
+    "description": "USB Interface IC USB Type-C port pro tector: short-to-VBU",
+    "detailed_description": "USB Interface IC USB Type-C port pro tector: short-to-VBU",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPD6S300ARUKR?qs=%252BEew9%252B0nqrA1G22imPqdyw%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_595-TPD6S300ARUKR_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "USHTS": "8542390090",
+      "ECCN": "EAR99"
+    }
+  }
+}

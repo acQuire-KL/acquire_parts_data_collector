@@ -1,0 +1,184 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:29Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITEON",
+    "input_mpn": "LTST-C195KGJRKT",
+    "resolved_manufacturer": "LITEON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LTST-C195KGJRKT",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 128,
+                    "value": "LITEON"
+                  }
+                ]
+              },
+              {
+                "id": 3546,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 2061620,
+                    "value": "LED"
+                  }
+                ]
+              },
+              {
+                "id": 754,
+                "name": "LED colour",
+                "values": [
+                  {
+                    "id": 1453497,
+                    "value": "red/green"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 2138075,
+                    "value": "0606"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 2034101,
+                    "value": "2...2.4/2...2.4V DC"
+                  }
+                ]
+              },
+              {
+                "id": 1594,
+                "name": "Dimensions",
+                "values": [
+                  {
+                    "id": 1731056,
+                    "value": "1.6x1.5x0.55mm"
+                  }
+                ]
+              },
+              {
+                "id": 1102,
+                "name": "Viewing angle",
+                "values": [
+                  {
+                    "id": 1819342,
+                    "value": "130°"
+                  }
+                ]
+              },
+              {
+                "id": 1101,
+                "name": "LED current",
+                "values": [
+                  {
+                    "id": 1461423,
+                    "value": "20mA"
+                  }
+                ]
+              },
+              {
+                "id": 1089,
+                "name": "Wavelength",
+                "values": [
+                  {
+                    "id": 1463641,
+                    "value": "571nm"
+                  },
+                  {
+                    "id": 1463692,
+                    "value": "631nm"
+                  }
+                ]
+              },
+              {
+                "id": 1095,
+                "name": "LED lens",
+                "values": [
+                  {
+                    "id": 1461328,
+                    "value": "transparent"
+                  }
+                ]
+              },
+              {
+                "id": 1113,
+                "name": "LED version",
+                "values": [
+                  {
+                    "id": 1461718,
+                    "value": "bicolour"
+                  }
+                ]
+              },
+              {
+                "id": 1098,
+                "name": "Luminosity of red colour",
+                "values": [
+                  {
+                    "id": 1770877,
+                    "value": "18...45mcd"
+                  }
+                ]
+              },
+              {
+                "id": 1097,
+                "name": "Luminosity of green colour",
+                "values": [
+                  {
+                    "id": 1771259,
+                    "value": "18...35mcd"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1778151,
+                    "value": "75/75mW"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

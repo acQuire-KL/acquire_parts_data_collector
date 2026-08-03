@@ -1,0 +1,140 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:49Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "WF25P10R0FTL",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "WF25P10R0FTL",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 851,
+                    "value": "WALSIN"
+                  }
+                ]
+              },
+              {
+                "id": 34,
+                "name": "Type of resistor",
+                "values": [
+                  {
+                    "id": 1436797,
+                    "value": "thick film"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1436601,
+                    "value": "10Ω"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620263,
+                    "value": "2512"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620264,
+                    "value": "6432"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1436785,
+                    "value": "2W"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819327,
+                    "value": "±1%"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1497303,
+                    "value": "300V"
+                  }
+                ]
+              },
+              {
+                "id": 46,
+                "name": "Max. overload voltage",
+                "values": [
+                  {
+                    "id": 1436571,
+                    "value": "500V"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819320,
+                    "value": "-55...155°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

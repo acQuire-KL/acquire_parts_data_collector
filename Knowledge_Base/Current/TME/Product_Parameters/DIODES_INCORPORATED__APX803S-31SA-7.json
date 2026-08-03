@@ -1,0 +1,184 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:48Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "APX803S-31SA-7",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "APX803S-31SA-7",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 584,
+                    "value": "DIODES INCORPORATED"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1453549,
+                    "value": "supervisor circuit"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1639120,
+                    "value": "power on reset monitor (PoR)"
+                  }
+                ]
+              },
+              {
+                "id": 801,
+                "name": "Kind of RESET output",
+                "values": [
+                  {
+                    "id": 1708703,
+                    "value": "open drain"
+                  }
+                ]
+              },
+              {
+                "id": 800,
+                "name": "Active logical level",
+                "values": [
+                  {
+                    "id": 1453546,
+                    "value": "low"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1493609,
+                    "value": "1...5.5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440262,
+                    "value": "SOT23"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 96,
+                "name": "DC supply current",
+                "values": [
+                  {
+                    "id": 1493665,
+                    "value": "10µA"
+                  }
+                ]
+              },
+              {
+                "id": 631,
+                "name": "Maximum output current",
+                "values": [
+                  {
+                    "id": 1493607,
+                    "value": "20mA"
+                  }
+                ]
+              },
+              {
+                "id": 2382,
+                "name": "Threshold on-voltage",
+                "values": [
+                  {
+                    "id": 1493655,
+                    "value": "3.08V"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 428,
+                "name": "Delay time",
+                "values": [
+                  {
+                    "id": 1739484,
+                    "value": "240ms"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

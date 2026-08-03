@@ -1,0 +1,130 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:45Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITEON",
+    "input_mpn": "LTV-817S-TA1",
+    "resolved_manufacturer": "LITEON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LTV-817S-TA1",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 128,
+                    "value": "LITEON"
+                  }
+                ]
+              },
+              {
+                "id": 3314,
+                "name": "Type of optocoupler",
+                "values": [
+                  {
+                    "id": 1854892,
+                    "value": "optocoupler"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 429,
+                "name": "Kind of output",
+                "values": [
+                  {
+                    "id": 1444589,
+                    "value": "transistor"
+                  }
+                ]
+              },
+              {
+                "id": 430,
+                "name": "Insulation voltage",
+                "values": [
+                  {
+                    "id": 1444599,
+                    "value": "5kV"
+                  }
+                ]
+              },
+              {
+                "id": 433,
+                "name": "CTR@If",
+                "values": [
+                  {
+                    "id": 1444644,
+                    "value": "50-600%@5mA"
+                  }
+                ]
+              },
+              {
+                "id": 261,
+                "name": "Collector-emitter voltage",
+                "values": [
+                  {
+                    "id": 1440874,
+                    "value": "35V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1444661,
+                    "value": "Gull wing 4"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

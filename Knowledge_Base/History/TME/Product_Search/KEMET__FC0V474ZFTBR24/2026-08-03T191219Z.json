@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:19Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "FC0V474ZFTBR24",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "FC0V474ZFTBR24",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113190,
+              "name": "Supercapacitors"
+            },
+            "manufacturer_symbols": [
+              "FC0V474ZFTBR24"
+            ],
+            "manufacturer": {
+              "id": 142,
+              "name": "KEMET"
+            },
+            "description": "Supercapacitor; SMD; 0.47F; 3.5VDC; -20÷80%; Ø10.5x8.5mm; 25Ω; EDLC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.568,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/EF/7E/80/00/0/583678_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=cfa2d1f7b77a47c74085d55e4e267a8ab3edebd2",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/EF/7E/80/00/0/583678_1.jpg?width=100&height=75&q=75&ci_sign=3468d8925b94b7b9dd81f3af0c0ec77f7157d4ad",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/EF/7E/80/00/0/583678_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=e665722eac0bf74b63cd37b2ebe31c3756cadbd5"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

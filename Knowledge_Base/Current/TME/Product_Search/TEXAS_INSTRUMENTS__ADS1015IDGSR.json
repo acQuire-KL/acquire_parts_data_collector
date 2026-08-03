@@ -1,0 +1,68 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:35Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "ADS1015IDGSR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "ADS1015IDGSR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112877,
+              "name": "A/D converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "ADS1015IDGSR"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: A/D converter; Ch: 2,4; 12bit; 3.3ksps; 2÷5.5V; VSSOP10; ±0.5LSB",
+            "multiples": 250,
+            "minimal_amount": 250,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

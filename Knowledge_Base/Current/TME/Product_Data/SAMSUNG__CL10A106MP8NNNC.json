@@ -1,0 +1,69 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:04:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "SAMSUNG",
+    "input_mpn": "CL10A106MP8NNNC",
+    "resolved_manufacturer": "SAMSUNG",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 106257,
+          "symbol": "CL10A106MP8NNNC",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.207,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.0954,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.045,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0297,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.0237,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

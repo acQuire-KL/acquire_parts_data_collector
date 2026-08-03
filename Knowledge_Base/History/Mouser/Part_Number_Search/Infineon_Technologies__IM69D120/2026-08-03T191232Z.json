@@ -1,0 +1,665 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:32Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Infineon Technologies",
+    "input_mpn": "IM69D120",
+    "resolved_manufacturer": "Infineon Technologies",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 4,
+      "Parts": [
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_Microphoneflexevaluationkit_ProductBrief_v02_00_EN.pdf",
+          "Description": "Audio IC Development Tools KITS & BOARDS PL38",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/infineon/images/evalim69d120flexkittobo1_spl.jpg",
+          "Category": "Audio IC Development Tools",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "EVALIM69D120FLEXKITTOBO1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-EVALIM69D120FLEX",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€64.29",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/EVALIM69D120FLEXKITTOBO1?qs=F5EMLAvA7IDrBOD2cQM8UA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.007791667
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2,
+              "Date": "2026-08-20T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8543700000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8543709860"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854370000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "China"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon-Microphoneflexevaluationkit-ProductBrief-v02_00-EN.pdf",
+          "Description": "Audio IC Development Tools Adapter board for Infineon XENSIVTM MEMS microphone flex board evaluation",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/infineon/images/EVALIMFLEXADAPTERV1TOBO1_DSL.jpg",
+          "Category": "Audio IC Development Tools",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "EVALIMFLEXADAPTERV1TOBO1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-EVALIMFLEXADAPV1",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/EVALIMFLEXADAPTERV1TOBO1?qs=F5EMLAvA7IC9d1gz%2FtFifw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.005930714
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8543709860"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_Microphoneflexevaluationkit_ProductBrief_v02_00_EN.pdf",
+          "Description": "Audio IC Development Tools KITS & BOARDS PL38",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/infineon/images/evalim69d120flexkittobo1_spl.jpg",
+          "Category": "Audio IC Development Tools",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "EVALIM69D130FLEXKITTOBO1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-EVALIM69D130FLEX",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€64.29",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/EVALIM69D130FLEXKITTOBO1?qs=F5EMLAvA7IDD0%252BXCxgzPMA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.011570833
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2,
+              "Date": "2026-08-13T00:00:00"
+            },
+            {
+              "Quantity": 11,
+              "Date": "2026-08-27T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8543709990"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8543700000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8543709860"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854370000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "China"
+            }
+          ]
+        },
+        {
+          "Availability": "13877 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_IM69D120_DataSheet_v01_00_EN.pdf",
+          "Description": "MEMS Microphones MIC DBP DIGITAL",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/infineon/images/ITP_726-IM69D120V01XTSA1_t.jpg",
+          "Category": "MEMS Microphones",
+          "LeadTime": "210 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "IM69D120V01XTSA1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-IM69D120V01XTSA1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€1.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.21",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.966",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/IM69D120V01XTSA1?qs=W0yvOO0ixfEijmkh3pQFHw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.406e-05
+          },
+          "AvailabilityInStock": "13877",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 14000,
+              "Date": "2027-02-15T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542391010"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8518108030"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Singapore"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:32Z",
+    "manufacturer_part_number": "EVALIM69D120FLEXKITTOBO1",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "365 Days",
+    "product_unit_price": 64.29,
+    "offers": [
+      {
+        "provider_part_number": "726-EVALIM69D120FLEX",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 64.29,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-EVALIMFLEXADAPV1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-EVALIM69D130FLEX",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 64.29,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-IM69D120V01XTSA1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13877,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.21,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.966,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 4,
+    "variation_count": 4,
+    "variations": [
+      {
+        "provider_part_number": "726-EVALIM69D120FLEX",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 64.29,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-EVALIMFLEXADAPV1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-EVALIM69D130FLEX",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 64.29,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "726-IM69D120V01XTSA1",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 13877,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.21,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.966,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:32Z",
+    "manufacturer": "Infineon Technologies",
+    "manufacturer_part_number": "EVALIM69D120FLEXKITTOBO1",
+    "provider_part_number": "726-EVALIM69D120FLEX",
+    "description": "Audio IC Development Tools KITS & BOARDS PL38",
+    "detailed_description": "Audio IC Development Tools KITS & BOARDS PL38",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/70/1/Infineon_Microphoneflexevaluationkit_ProductBrief_v02_00_EN.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/EVALIM69D120FLEXKITTOBO1?qs=F5EMLAvA7IDrBOD2cQM8UA%3D%3D",
+    "image_url": "https://www.mouser.com/images/infineon/images/evalim69d120flexkittobo1_spl.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "No",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "1"
+    },
+    "compliance": {
+      "CAHTS": "8543700000",
+      "USHTS": "8543709860",
+      "JPHTS": "854370000",
+      "ECCN": "EAR99"
+    }
+  }
+}

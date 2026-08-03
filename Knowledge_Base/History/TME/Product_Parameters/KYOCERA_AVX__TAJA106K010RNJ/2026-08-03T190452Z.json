@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:04:52Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TAJA106K010RNJ",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "TAJA106K010R",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 50,
+                    "value": "KYOCERA AVX"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1437929,
+                    "value": "tantalum"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437226,
+                    "value": "10µF"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1481574,
+                    "value": "10V DC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1437948,
+                    "value": "A"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620231,
+                    "value": "1206"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620232,
+                    "value": "3216"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819340,
+                    "value": "±10%"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2055490,
+                    "value": "TAJ"
+                  }
+                ]
+              },
+              {
+                "id": 726,
+                "name": "Roll diameter max.",
+                "values": [
+                  {
+                    "id": 2037643,
+                    "value": "180mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

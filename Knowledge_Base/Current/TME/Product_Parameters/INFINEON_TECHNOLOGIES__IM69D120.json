@@ -1,0 +1,110 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:30Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "INFINEON TECHNOLOGIES",
+    "input_mpn": "IM69D120",
+    "resolved_manufacturer": "INFINEON TECHNOLOGIES",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "IM69D120",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 47,
+                    "value": "INFINEON TECHNOLOGIES"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1529466,
+                    "value": "driver/sensor"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1709083,
+                    "value": "digital microphone"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1627041,
+                    "value": "PDM"
+                  }
+                ]
+              },
+              {
+                "id": 804,
+                "name": "Integrated circuit features",
+                "values": [
+                  {
+                    "id": 1746362,
+                    "value": "MEMS"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1502810,
+                    "value": "1.62...3.6V DC"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1709082,
+                    "value": "LLGA-5-1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

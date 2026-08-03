@@ -1,0 +1,728 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:00Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "GCT",
+    "input_mpn": "USB4110-GF-A",
+    "resolved_manufacturer": "GCT",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "915"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN RCP USB2.0 TYP C 24P SMD RA",
+        "DetailedDescription": "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+      },
+      "Manufacturer": {
+        "Id": 2072,
+        "Name": "GCT"
+      },
+      "ManufacturerProductNumber": "USB4110-GF-A",
+      "UnitPrice": 1.11,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/gct/USB4110-GF-A/10384547",
+      "DatasheetUrl": "https://gct.co/files/specs/usb4110-spec.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/333/MFG_USB4110-GF-A.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "2073-USB4110-GF-A-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1200,
+              "UnitPrice": 0.67112,
+              "TotalPrice": 805.344
+            },
+            {
+              "BreakQuantity": 2400,
+              "UnitPrice": 0.63909,
+              "TotalPrice": 1533.816
+            },
+            {
+              "BreakQuantity": 3600,
+              "UnitPrice": 0.62108,
+              "TotalPrice": 2235.888
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.60732,
+              "TotalPrice": 3643.92
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2073,
+            "Name": "GCT"
+          },
+          "QuantityAvailableforPackageType": 183600,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1200,
+          "StandardPackage": 1200,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2073-USB4110-GF-A-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.11,
+              "TotalPrice": 1.11
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.941,
+              "TotalPrice": 9.41
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.882,
+              "TotalPrice": 22.05
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.84,
+              "TotalPrice": 42.0
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7998,
+              "TotalPrice": 79.98
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.74972,
+              "TotalPrice": 187.43
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.7139,
+              "TotalPrice": 356.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2073,
+            "Name": "GCT"
+          },
+          "QuantityAvailableforPackageType": 183890,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2073-USB4110-GF-A-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.11,
+              "TotalPrice": 1.11
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.941,
+              "TotalPrice": 9.41
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.882,
+              "TotalPrice": 22.05
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.84,
+              "TotalPrice": 42.0
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7998,
+              "TotalPrice": 79.98
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.74972,
+              "TotalPrice": 187.43
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.7139,
+              "TotalPrice": 356.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2073,
+            "Name": "GCT"
+          },
+          "QuantityAvailableforPackageType": 183890,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 183890,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6342460055112",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "418395",
+          "ValueText": "USB-C (USB TYPE-C)"
+        },
+        {
+          "ParameterId": 27,
+          "ParameterText": "Number of Contacts",
+          "ParameterType": "String",
+          "ValueId": "426152",
+          "ValueText": "24 (16+8 Dummy)"
+        },
+        {
+          "ParameterId": 29,
+          "ParameterText": "Gender",
+          "ParameterType": "String",
+          "ValueId": "392960",
+          "ValueText": "Receptacle"
+        },
+        {
+          "ParameterId": 392,
+          "ParameterText": "Specifications",
+          "ParameterType": "String",
+          "ValueId": "418468",
+          "ValueText": "USB 2.0"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409420",
+          "ValueText": "Surface Mount, Right Angle"
+        },
+        {
+          "ParameterId": 1061,
+          "ParameterText": "Mounting Feature",
+          "ParameterType": "String",
+          "ValueId": "356134",
+          "ValueText": "Horizontal"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405002",
+          "ValueText": "Solder"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "321395",
+          "ValueText": "Board Guide, Solder Retention"
+        },
+        {
+          "ParameterId": 697,
+          "ParameterText": "Ingress Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 2171,
+          "ParameterText": "Number of Ports",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 66,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "String",
+          "ValueId": "247706",
+          "ValueText": "5A"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "226165",
+          "ValueText": "48VDC"
+        },
+        {
+          "ParameterId": 1499,
+          "ParameterText": "Mating Cycles",
+          "ParameterType": "Double",
+          "ValueId": "20000",
+          "ValueText": "20000"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 562533,
+        "Name": "USB4110"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2032,
+            "ParentId": 20,
+            "Name": "USB, DVI, HDMI Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/290/048/0484050003_tmb.jpg",
+            "SeoDescription": "USB, DVI, and HDMI Connectors are devices most often used to provide a connection port between a computer and some other device for audio and video interface. The characteristics being connector type, number of contacts, gender, mounting type, current rating, and voltage rating. The connector types are DisplayPort, DMS-59, DVI- (A, D, or I), Firewire, HDMI (micro, mini), and USB (A, B, C, micro, mini).",
+            "ChildCategories": [
+              {
+                "CategoryId": 312,
+                "ParentId": 2032,
+                "Name": "USB, DVI, HDMI Connector Assemblies",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/290/060/0484060003_tmb.jpg",
+                "SeoDescription": "USB, DVI, and HDMI Connectors are devices most often used to provide a connection port between a computer and some other device for audio and video interface. The characteristics being connector type, number of contacts, gender, mounting type, current rating, and voltage rating. The connector types are DisplayPort, DMS-59, DVI- (A, D, or I), Firewire, HDMI (micro, mini), and USB (A, B, C, micro, mini).",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "7",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 75594,
+        "Name": "USB4110"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "2073-USB4110-GF-A-1",
+        "2073-USB4110-GF-A-2",
+        "2073-USB4110-GF-A-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:00Z",
+    "manufacturer_part_number": "USB4110-GF-A",
+    "product_quantity_available": 183890,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "7",
+    "product_unit_price": 1.11,
+    "offers": [
+      {
+        "provider_part_number": "2073-USB4110-GF-A-1-ND",
+        "supplier": "GCT",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 183890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.941,
+            "total_price": 9.41
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.882,
+            "total_price": 22.05
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.84,
+            "total_price": 42.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7998,
+            "total_price": 79.98
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74972,
+            "total_price": 187.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7139,
+            "total_price": 356.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2073-USB4110-GF-A-6-ND",
+        "supplier": "GCT",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 183890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.941,
+            "total_price": 9.41
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.882,
+            "total_price": 22.05
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.84,
+            "total_price": 42.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7998,
+            "total_price": 79.98
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74972,
+            "total_price": 187.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7139,
+            "total_price": 356.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2073-USB4110-GF-A-2-ND",
+        "supplier": "GCT",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1200,
+        "pack_quantity": 1200,
+        "quantity_available": 183600,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1200,
+            "unit_price": 0.67112,
+            "total_price": 805.344
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.63909,
+            "total_price": 1533.816
+          },
+          {
+            "break_quantity": 3600,
+            "unit_price": 0.62108,
+            "total_price": 2235.888
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.60732,
+            "total_price": 3643.92
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "2073-USB4110-GF-A-1-ND",
+        "supplier": "GCT",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 183890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.941,
+            "total_price": 9.41
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.882,
+            "total_price": 22.05
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.84,
+            "total_price": 42.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7998,
+            "total_price": 79.98
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74972,
+            "total_price": 187.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7139,
+            "total_price": 356.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2073-USB4110-GF-A-6-ND",
+        "supplier": "GCT",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 183890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.941,
+            "total_price": 9.41
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.882,
+            "total_price": 22.05
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.84,
+            "total_price": 42.0
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7998,
+            "total_price": 79.98
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74972,
+            "total_price": 187.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7139,
+            "total_price": 356.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2073-USB4110-GF-A-2-ND",
+        "supplier": "GCT",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1200,
+        "pack_quantity": 1200,
+        "quantity_available": 183600,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1200,
+            "unit_price": 0.67112,
+            "total_price": 805.344
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.63909,
+            "total_price": 1533.816
+          },
+          {
+            "break_quantity": 3600,
+            "unit_price": 0.62108,
+            "total_price": 2235.888
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.60732,
+            "total_price": 3643.92
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:00Z",
+    "manufacturer": "GCT",
+    "manufacturer_part_number": "USB4110-GF-A",
+    "provider_part_number": "",
+    "description": "CONN RCP USB2.0 TYP C 24P SMD RA",
+    "detailed_description": "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle",
+    "datasheet_url": "https://gct.co/files/specs/usb4110-spec.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/gct/USB4110-GF-A/10384547",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/333/MFG_USB4110-GF-A.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount, Right Angle",
+    "attributes": {
+      "Connector Type": "USB-C (USB TYPE-C)",
+      "Number of Contacts": "24 (16+8 Dummy)",
+      "Gender": "Receptacle",
+      "Specifications": "USB 2.0",
+      "Mounting Type": "Surface Mount, Right Angle",
+      "Mounting Feature": "Horizontal",
+      "Termination": "Solder",
+      "Features": "Board Guide, Solder Retention",
+      "Ingress Protection": "-",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Number of Ports": "1",
+      "Current Rating (Amps)": "5A",
+      "Voltage - Rated": "48VDC",
+      "Mating Cycles": "20000",
+      "Shielding": "Shielded"
+    },
+    "compliance": {}
+  }
+}

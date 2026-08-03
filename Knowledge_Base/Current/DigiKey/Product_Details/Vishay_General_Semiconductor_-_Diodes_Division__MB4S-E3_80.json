@@ -1,0 +1,600 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Vishay General Semiconductor - Diodes Division",
+    "input_mpn": "MB4S-E3/80",
+    "resolved_manufacturer": "Vishay General Semiconductor - Diodes Division",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "898"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "BRIDGE RECT 1P 400V 0.5A TO269AA",
+        "DetailedDescription": "Bridge Rectifier Single Phase Standard 400 V Surface Mount TO-269AA (MBS)"
+      },
+      "Manufacturer": {
+        "Id": 112,
+        "Name": "Vishay General Semiconductor - Diodes Division"
+      },
+      "ManufacturerProductNumber": "MB4S-E3/80",
+      "UnitPrice": 0.73,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/vishay-general-semiconductor-diodes-division/MB4S-E3-80/2144422",
+      "DatasheetUrl": "https://www.vishay.com/docs/88661/mb2s.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/112%7ETO269AA-MBS%7E%7E4.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MB4S-E3/80GITR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.17069,
+              "TotalPrice": 512.07
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.14921,
+              "TotalPrice": 1342.89
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 112,
+            "Name": "Vishay General Semiconductor - Diodes Division"
+          },
+          "QuantityAvailableforPackageType": 15000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MB4S-E3/80GICT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.73,
+              "TotalPrice": 0.73
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.449,
+              "TotalPrice": 4.49
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.3292,
+              "TotalPrice": 16.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.29,
+              "TotalPrice": 29.0
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.22116,
+              "TotalPrice": 110.58
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 112,
+            "Name": "Vishay General Semiconductor - Diodes Division"
+          },
+          "QuantityAvailableforPackageType": 17756,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MB4S-E3/80GIDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.73,
+              "TotalPrice": 0.73
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.449,
+              "TotalPrice": 4.49
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.3292,
+              "TotalPrice": 16.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.29,
+              "TotalPrice": 29.0
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.22116,
+              "TotalPrice": 110.58
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 112,
+            "Name": "Vishay General Semiconductor - Diodes Division"
+          },
+          "QuantityAvailableforPackageType": 17756,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 17756,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 96,
+          "ParameterText": "Diode Type",
+          "ParameterType": "String",
+          "ValueId": "403042",
+          "ValueText": "Single Phase"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "407938",
+          "ValueText": "Standard"
+        },
+        {
+          "ParameterId": 2117,
+          "ParameterText": "Voltage - Peak Reverse (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "400 V",
+          "ValueText": "400 V"
+        },
+        {
+          "ParameterId": 2158,
+          "ParameterText": "Current - Average Rectified (Io)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "500 mA",
+          "ValueText": "500 mA"
+        },
+        {
+          "ParameterId": 2261,
+          "ParameterText": "Voltage - Forward (Vf) (Max) @ If",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "1 V @ 400 mA",
+          "ValueText": "1 V @ 400 mA"
+        },
+        {
+          "ParameterId": 2269,
+          "ParameterText": "Current - Reverse Leakage @ Vr",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "5 µA @ 400 V",
+          "ValueText": "5 µA @ 400 V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242933",
+          "ValueText": "-55°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "413533",
+          "ValueText": "TO-269AA, 4-BESOP"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "413532",
+          "ValueText": "TO-269AA (MBS)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 23126,
+        "Name": "MB4"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2042,
+            "ParentId": 19,
+            "Name": "Diodes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/961/736/31_SOT-23-3%20PKG_tmb.jpg",
+            "SeoDescription": "Diodes are devices that allow the flow of current in one direction and block current flow in the opposite direction. Types of diodes include current regulation, bridge rectifiers, RF, rectifier arrays, rectifiers, variable capacitance (varicaps, varactors), zener, zener arrays, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 299,
+                "ParentId": 2042,
+                "Name": "Bridge Rectifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/137/865/SOT143_tmb%2864x64%29.jpg",
+                "SeoDescription": "Diode bridge rectifiers are an arrangement of diodes in a bridge circuit configuration for conversion of an alternating current (AC) input to a direct current (DC) output. These components can be chassis, DIN rail, surface or through-hole mounted, and are selected by single phase or three phase diode type, forward voltage rating, average rectified current, and technology.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0070"
+      },
+      "OtherNames": [
+        "MB4S-E3/80GIDKR",
+        "MB4S-E3/80GITR",
+        "MB4SE380",
+        "MB4S-E3/80GICT",
+        "MB4S-E3/80-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "manufacturer_part_number": "MB4S-E3/80",
+    "product_quantity_available": 17756,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 0.73,
+    "offers": [
+      {
+        "provider_part_number": "MB4S-E3/80GICT-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17756,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.73,
+            "total_price": 0.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.449,
+            "total_price": 4.49
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3292,
+            "total_price": 16.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.29,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.22116,
+            "total_price": 110.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MB4S-E3/80GIDKR-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17756,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.73,
+            "total_price": 0.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.449,
+            "total_price": 4.49
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3292,
+            "total_price": 16.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.29,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.22116,
+            "total_price": 110.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MB4S-E3/80GITR-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 15000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.17069,
+            "total_price": 512.07
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.14921,
+            "total_price": 1342.89
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "MB4S-E3/80GICT-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17756,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.73,
+            "total_price": 0.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.449,
+            "total_price": 4.49
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3292,
+            "total_price": 16.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.29,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.22116,
+            "total_price": 110.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MB4S-E3/80GIDKR-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17756,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.73,
+            "total_price": 0.73
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.449,
+            "total_price": 4.49
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3292,
+            "total_price": 16.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.29,
+            "total_price": 29.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.22116,
+            "total_price": 110.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MB4S-E3/80GITR-ND",
+        "supplier": "Vishay General Semiconductor - Diodes Division",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 15000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.17069,
+            "total_price": 512.07
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.14921,
+            "total_price": 1342.89
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "manufacturer": "Vishay General Semiconductor - Diodes Division",
+    "manufacturer_part_number": "MB4S-E3/80",
+    "provider_part_number": "",
+    "description": "BRIDGE RECT 1P 400V 0.5A TO269AA",
+    "detailed_description": "Bridge Rectifier Single Phase Standard 400 V Surface Mount TO-269AA (MBS)",
+    "datasheet_url": "https://www.vishay.com/docs/88661/mb2s.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/vishay-general-semiconductor-diodes-division/MB4S-E3-80/2144422",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/112%7ETO269AA-MBS%7E%7E4.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "TO-269AA, 4-BESOP",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Diode Type": "Single Phase",
+      "Technology": "Standard",
+      "Voltage - Peak Reverse (Max)": "400 V",
+      "Current - Average Rectified (Io)": "500 mA",
+      "Voltage - Forward (Vf) (Max) @ If": "1 V @ 400 mA",
+      "Current - Reverse Leakage @ Vr": "5 µA @ 400 V",
+      "Operating Temperature": "-55°C ~ 150°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "TO-269AA, 4-BESOP",
+      "Supplier Device Package": "TO-269AA (MBS)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:04Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TSC2007IPWR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 5,
+      "Parts": [
+        {
+          "Availability": "4426 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Touch Screen Controllers NANO-PWR CONTROLLER A 595-TSC2007IPW A 5 A 595-TSC2007IPW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+          "Category": "Touch Screen Controllers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TSC2007IPWR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TSC2007IPWR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.89",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.40",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.989",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TSC2007IPW"
+            },
+            {
+              "APMfrPN": " TSC2007IPWG4"
+            },
+            {
+              "APMfrPN": " TSC2007IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPWR?qs=6RlL8P85hLFwvOkF4fJ0jA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TSC2007IPW",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.19e-05
+          },
+          "AvailabilityInStock": "4426",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 6000,
+              "Date": "2027-01-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Touch Screen Controllers Nano-Power w/ I2C Se rial Interface ALT ALT 595-TSC2007IPWR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+          "Category": "Touch Screen Controllers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TSC2007IPWRG4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TSC2007IPWRG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.92",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.42",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.989",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TSC2007IPW"
+            },
+            {
+              "APMfrPN": " TSC2007IPWG4"
+            },
+            {
+              "APMfrPN": " TSC2007IPWR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPWRG4?qs=0OHPnBYoB%2FnBnDoMksmMkw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TSC2007IPWR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.19e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542319000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2213 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Touch Screen Controllers AC Nano-Pwr Touch Sc reen Controller",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+          "Category": "Touch Screen Controllers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TSC2007IPWRQ1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TSC2007IPWRQ1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.48",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.35",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€1.06",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPWRQ1?qs=Brs2XCuyt3c2%2FC1EYVmSKQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-05
+          },
+          "AvailabilityInStock": "2213",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "516 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Touch Screen Controllers NANO-PWR CONTROLLER A 595-TSC2007IPWR A A 595-TSC2007IPWR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+          "Category": "Touch Screen Controllers",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TSC2007IPW",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TSC2007IPW",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "90"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 90,
+              "Price": "€1.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 270,
+              "Price": "€1.69",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 540,
+              "Price": "€1.66",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1080,
+              "Price": "€1.57",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2160,
+              "Price": "€1.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5400,
+              "Price": "€1.50",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TSC2007IPWG4"
+            },
+            {
+              "APMfrPN": " TSC2007IPWR"
+            },
+            {
+              "APMfrPN": " TSC2007IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPW?qs=6RlL8P85hLFdYcjXM6kO4Q%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TSC2007IPWR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.19e-05
+          },
+          "AvailabilityInStock": "516",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542319090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542310000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "991 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Touch Screen Controllers Nano-Power w/ I2C Se rial Interface ALT ALT 595-TSC2007IPW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+          "Category": "Touch Screen Controllers",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TSC2007IPWG4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TSC2007IPWG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "90"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 90,
+              "Price": "€1.76",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 270,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1080,
+              "Price": "€1.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5400,
+              "Price": "€1.48",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "TSC2007IPW"
+            },
+            {
+              "APMfrPN": " TSC2007IPWR"
+            },
+            {
+              "APMfrPN": " TSC2007IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPWG4?qs=0OHPnBYoB%2FlCWJNSlSlD9A%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-TSC2007IPW",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.19e-05
+          },
+          "AvailabilityInStock": "991",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542319090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542310000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:04Z",
+    "manufacturer_part_number": "TSC2007IPWR",
+    "product_quantity_available": 4426,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 1.89,
+    "offers": [
+      {
+        "provider_part_number": "595-TSC2007IPWR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4426,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.89,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.4,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.989,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.963,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TSC2007IPWR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4426,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.89,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.4,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.989,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.963,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:04Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TSC2007IPWR",
+    "provider_part_number": "595-TSC2007IPWR",
+    "description": "Touch Screen Controllers NANO-PWR CONTROLLER A 595-TSC2007IPW A 5 A 595-TSC2007IPW",
+    "detailed_description": "Touch Screen Controllers NANO-PWR CONTROLLER A 595-TSC2007IPW A 5 A 595-TSC2007IPW",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TSC2007IPWR?qs=6RlL8P85hLFwvOkF4fJ0jA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-16_PW_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542310030",
+      "JPHTS": "8542390990",
+      "MXHTS": "85423999",
+      "ECCN": "EAR99"
+    }
+  }
+}

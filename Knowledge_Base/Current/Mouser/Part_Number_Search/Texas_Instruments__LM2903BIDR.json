@@ -1,0 +1,571 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "LM2903BIDR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 3,
+      "Parts": [
+        {
+          "Availability": "5 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog Comparators Dual industrial grad e standard comparat",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOIC-8_D_t.jpg",
+          "Category": "Analog Comparators",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "LM2903BIDR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-LM2903BIDR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.224",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.152",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.135",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.115",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.107",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM2903BIDR?qs=BJlw7L4Cy7%2FNbepRSnI4NQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000108
+          },
+          "AvailabilityInStock": "5",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 20000,
+              "Date": "2026-09-16T00:00:00"
+            },
+            {
+              "Quantity": 17500,
+              "Date": "2026-10-30T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Mexico"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Mexico"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "China"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Analog Comparators Dual industrial grad e standard comparat",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Analog Comparators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "LM2903BIDRG4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-LM2903BIDRG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.212",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.151",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.143",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.122",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM2903BIDRG4?qs=2FehpBK1j964Vtc29UFCww%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Mexico"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "343 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog Comparators Dual Differential Comparator",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOIC-8_D_t.jpg",
+          "Category": "Analog Comparators",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "LM2903DRE4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-LM2903DRE4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.284",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.193",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.17",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.145",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.133",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.107",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LM2903DE4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM2903DRE4?qs=VBduBm9rCJSDD%2F0Psc4UUw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-LM2903BIDR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.26e-05
+          },
+          "AvailabilityInStock": "343",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "manufacturer_part_number": "LM2903BIDR",
+    "product_quantity_available": 5,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 0.224,
+    "offers": [
+      {
+        "provider_part_number": "595-LM2903BIDR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.224,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.152,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.115,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.107,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.101,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.088,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-LM2903BIDR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.224,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.152,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.115,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.107,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.101,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.088,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM2903BIDR",
+    "provider_part_number": "595-LM2903BIDR",
+    "description": "Analog Comparators Dual industrial grad e standard comparat",
+    "detailed_description": "Analog Comparators Dual industrial grad e standard comparat",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM2903BIDR?qs=BJlw7L4Cy7%2FNbepRSnI4NQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOIC-8_D_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2500"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542330000",
+      "USHTS": "8542330001",
+      "MXHTS": "8542330299",
+      "ECCN": "EAR99"
+    }
+  }
+}

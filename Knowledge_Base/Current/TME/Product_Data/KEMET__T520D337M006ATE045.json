@@ -1,0 +1,79 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:05:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "T520D337M006ATE045",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 31,
+          "symbol": "T520D337M006ATE045",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 1.387,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.798,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.659,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.602,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.526,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.478,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.461,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

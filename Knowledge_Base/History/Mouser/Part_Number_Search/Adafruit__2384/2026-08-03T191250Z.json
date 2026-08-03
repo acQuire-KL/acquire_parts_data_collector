@@ -1,0 +1,4558 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:50Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Adafruit",
+    "input_mpn": "2384",
+    "resolved_manufacturer": "Adafruit",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1137,
+      "Parts": [
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/170/1/Dual_Conductor_Metal_Wrist_Strap.pdf",
+          "Description": "Antistatic Control Products Wrist Band, Dual Conductor, Metal, Small (14 Cap)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/desco/images/2384_SPL.JPG",
+          "Category": "Antistatic Control Products",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "SCS",
+          "ManufacturerPartNumber": "2384",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "517-2384",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€32.43",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/SCS/2384?qs=0nehlG6hIvoWBy3QpEpBiQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "Not Applicable",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.05443104
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "3923290000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536309090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536308000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8536300006"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536300000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Board Mount Motion & Position Sensors Medium Vibration Sensor Switch",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adafruit/images/2384_spl.jpg",
+          "Category": "Board Mount Motion & Position Sensors",
+          "LeadTime": "90 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Adafruit",
+          "ManufacturerPartNumber": "2384",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "485-2384",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.817",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Adafruit/2384?qs=GURawfaeGuD4acUsmH%2F2fw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0002
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536500090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8543700000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8543709860"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854370000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536509090"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85365090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/201/1/2381_2388.pdf",
+          "Description": "Standoffs & Spacers SELF RETAING CLR HLE SPACER .500\" #8",
+          "FactoryStock": "7907",
+          "ImagePath": "https://www.mouser.com/images/keystoneelectronics/images/2343.jpg",
+          "Category": "Standoffs & Spacers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Keystone Electronics",
+          "ManufacturerPartNumber": "2384",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "534-2384",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.363",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.275",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.246",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.209",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.158",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.144",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.134",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Keystone-Electronics/2384?qs=%2F%2FkzJz%252Bz9F%2FINXPlD%2FUIhQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "3926909790"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "3926909090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "3926909990"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "3926909989"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "392690029"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "3926909988"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": " FC/PC SOC,AQUA BOOT,900um,10G OM4(100PK)",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": null,
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Greenlee",
+          "ManufacturerPartNumber": "2384",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Greenlee/2384?qs=0lSvoLzn4L%252Bo7GokPaFpMA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [],
+          "TradeCompliance": []
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/85/1/DDA7ECD1D51BC5EA499F05A854FD78CA00927DBC23498DBBA87E2A5ED244B615.pdf",
+          "Description": "Rectangular Cable Assemblies High Speed Hermaphroditic Cable",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/samtec/images/HLCD-05-02.00-TR-TR-1_SPL.jpg",
+          "Category": "Rectangular Cable Assemblies",
+          "LeadTime": "25 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Samtec",
+          "ManufacturerPartNumber": "HLCD-20-16.00-TD-BD-2",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "200-HLCD201600TDBD2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€62.97",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Samtec/HLCD-20-16.00-TD-BD-2?qs=%252BXxaIXUDbq0%252BAzqw9f3ZNA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8544200000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8544200000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854420000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8544200000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85442000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Crimpers / Crimping Tools SDE F TYPE III+ 0.56-0.12mm2 ASSY",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2031973-1_SPL.jpg",
+          "Category": "Crimpers / Crimping Tools",
+          "LeadTime": "91 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384426-1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "571-2384426-1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€396.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€369.33",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€361.17",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€360.14",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384426-1?qs=tlsG%2FOw5FFhGDqjNpk90VA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "Not Applicable",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8203200000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8203200090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8203206060"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "820320000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "82032090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/220/1/rpodpnl1842384.pdf",
+          "Description": "Enclosures, Boxes & Cases RapidPod Aisle Containment System Kit - 18H x 42W x 384L (32L)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/eatoncorporation/images/RPODPNL1842384_SPL.jpg",
+          "Category": "Enclosures, Boxes & Cases",
+          "LeadTime": "14 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Eaton",
+          "ManufacturerPartNumber": "RPODPNL1842384",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "545-RPODPNL1842384",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€7,190.36",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Eaton/RPODPNL1842384?qs=y9%2FpVxnqej9h2B1X6gGPPg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8538100090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/264/1/DC FANS WT DS A6.pdf",
+          "Description": "DC Fans DC Fan, 92x92x38mm, 48VDC, High Speed, Ball, 3 Lead Wires, Computer Connector",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "DC Fans",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wakefield Thermal",
+          "ManufacturerPartNumber": "DC0923848H2B-3T1",
+          "Min": "560",
+          "Mult": "560",
+          "MouserPartNumber": "567-DC0923848H2B-3T1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "560"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 560,
+              "Price": "€25.04",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wakefield-Thermal/DC0923848H2B-3T1?qs=9vOqFld9vZWngSL%252B0eAZGg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8414592590"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8414596590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/264/1/DC FANS WT DS A6.pdf",
+          "Description": "DC Fans DC Fan, 92x92x38mm, 48VDC, Low Speed, Ball, 3 Lead Wires, No Connector",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "DC Fans",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wakefield Thermal",
+          "ManufacturerPartNumber": "DC0923848L2B-3T0",
+          "Min": "560",
+          "Mult": "560",
+          "MouserPartNumber": "567-DC0923848L2B-3T0",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "560"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 560,
+              "Price": "€19.90",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wakefield-Thermal/DC0923848L2B-3T0?qs=9vOqFld9vZVxtdLSzlitEg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8414592590"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8414596590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/264/1/DC FANS WT DS A6.pdf",
+          "Description": "DC Fans DC Fan, 92x92x38mm, 48VDC, Low Speed, Ball, 3 Lead Wires, Computer Connector",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "DC Fans",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wakefield Thermal",
+          "ManufacturerPartNumber": "DC0923848L2B-3T1",
+          "Min": "560",
+          "Mult": "560",
+          "MouserPartNumber": "567-DC0923848L2B-3T1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "560"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 560,
+              "Price": "€26.94",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wakefield-Thermal/DC0923848L2B-3T1?qs=9vOqFld9vZU9L6xcI5SdZQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8414592590"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8414596590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/264/1/DC FANS WT DS A6.pdf",
+          "Description": "DC Fans DC Fan, 92x92x38mm, 48VDC, Low Speed, Ball, 3 Lead Wires, 3 Pin Connector",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "DC Fans",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wakefield Thermal",
+          "ManufacturerPartNumber": "DC0923848L2B-3T3",
+          "Min": "560",
+          "Mult": "560",
+          "MouserPartNumber": "567-DC0923848L2B-3T3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "560"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 560,
+              "Price": "€21.04",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wakefield-Thermal/DC0923848L2B-3T3?qs=9vOqFld9vZVlZaWObnMZIA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8414592590"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8414596590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/264/1/DC FANS WT DS A6.pdf",
+          "Description": "DC Fans DC Fan, 92x92x38mm, 48VDC, Ultra High Speed, Ball, 3 Lead Wires, No Connector",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "DC Fans",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wakefield Thermal",
+          "ManufacturerPartNumber": "DC0923848U2B-3T0",
+          "Min": "560",
+          "Mult": "560",
+          "MouserPartNumber": "567-DC0923848U2B-3T0",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "560"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 560,
+              "Price": "€20.17",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wakefield-Thermal/DC0923848U2B-3T0?qs=9vOqFld9vZWpc7pvQkpzZQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8414592590"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8414596590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Adhesive Tapes Scotch Filament Tape 898, Clear, 15 mm x 330 m, 6.6 mil, 10 rolls per case",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Adhesive Tapes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "3M Electronic Specialty",
+          "ManufacturerPartNumber": "7000123843",
+          "Min": "10",
+          "Mult": "10",
+          "MouserPartNumber": "517-7000123843",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10,
+              "Price": "€82.77",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 30,
+              "Price": "€75.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€70.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€65.82",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/3M-Electronic-Specialty/7000123843?qs=YwPsRIUVAOfxX8%252BVI3QLww%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Canada"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Crimpers / Crimping Tools OCEAN_2.0_SPARE_PART_KIT-080F150O",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Crimpers / Crimping Tools",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "7-2384035-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "571-7-2384035-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€595.54",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€580.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€574.20",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/7-2384035-7?qs=4ASt3YYao0XMyn2H46Ks%252Bw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Other Tools SHEAR BLADE, UPPER",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Other Tools",
+          "LeadTime": "57 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "7-2384202-6",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "571-7-2384202-6",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€440.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€428.13",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€423.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€423.21",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/7-2384202-6?qs=Z%252BL2brAPG1JQ0HaoIC7BFg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8466940000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8479909591"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1398/1/LOCTITE-ABLESTIK-BSP-100-SERIES-en_GL.pdf",
+          "Description": "Chemicals Adhesive, Die Attach, 230mm x 25um, LOCTITE Ablestik BSP 125_25M Series",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Chemicals",
+          "LeadTime": "141 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Loctite",
+          "ManufacturerPartNumber": "2384828",
+          "Min": "500",
+          "Mult": "1",
+          "MouserPartNumber": "298-2384828",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Loctite/2384828?qs=Jslch3jnSjkeX74%2FOCd15w%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00425
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": " CURRENT SENSOR 350A FOR LUCID",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": null,
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384882-1",
+          "Min": "115",
+          "Mult": "115",
+          "MouserPartNumber": "571-2384882-1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "23"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 115,
+              "Price": "€21.49",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384882-1?qs=HMhDvBYWqvNlCO1xLtrFUA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": " HOUSING, LOCATOR",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": null,
+          "LeadTime": "55 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384946-1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "571-2384946-1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€530.16",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€491.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€475.62",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384946-1?qs=VVKQmw408U%252BUsOLKzcvUIw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Aluminium Electrolytic Capacitors - Radial Leaded RAD 63V 470UF 12,5X20 105 C (TFA)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/Vishay_142_RHS.jpg",
+          "Category": "Aluminium Electrolytic Capacitors - Radial Leaded",
+          "LeadTime": "175 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay / BC Components",
+          "ManufacturerPartNumber": "MAL214238471E3",
+          "Min": "1500",
+          "Mult": "1500",
+          "MouserPartNumber": "594-MAL214238471E3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1500,
+              "Price": "€0.488",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-BC-Components/MAL214238471E3?qs=Ep9Lwju7gVr3W0zYQV5YXw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532229000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532220020"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853222000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322200"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Hong Kong"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "RF Connectors / Coaxial Connectors MCX F STR SMT END TR1000",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "RF Connectors / Coaxial Connectors",
+          "LeadTime": "30 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Radiall",
+          "ManufacturerPartNumber": "R113423840",
+          "Min": "1000",
+          "Mult": "1000",
+          "MouserPartNumber": "501-R113423840",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1000,
+              "Price": "€2.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€2.31",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Radiall/R113423840?qs=lYGu3FyN48evMts9U8rv1g%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694010"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Pluggable Terminal Blocks BLACK MAXI PROBE-IT BULK PKG",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Pluggable Terminal Blocks",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "3M Electronic Solutions Division",
+          "ManufacturerPartNumber": "923847-BK-B",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "517-923847-BK-B",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€17.72",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€12.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€11.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€10.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€9.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€9.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€8.63",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€8.32",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/3M-Electronic-Solutions-Division/923847-BK-B?qs=bjxD%252BH420yqJ4cBo8XMoJA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536900020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853690000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85369090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "1794 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/kyocera electronic devices_knsks00586-1.pdf",
+          "Description": "FFC & FPC Connectors 40P 0.5mm RA SMD Bot tom Contact",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kyoceraelectronicdevices/images/6240_series_DSL.jpg",
+          "Category": "FFC & FPC Connectors",
+          "LeadTime": "126 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "046240040023846+",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "581-046240040023846+",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.38",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.32",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€1.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€1.01",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/046240040023846%2b?qs=MOd%2Fd18ARG9vztcpSCXcUg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0014792
+          },
+          "AvailabilityInStock": "1794",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85366999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/531/1/crystals_SA532_datasheet.pdf",
+          "Description": "Crystals -40C/+125C 12pF 30ppm AEC-Q200",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/ctselectroniccomponents/images/SA164_SA204_SA254_SA532_SPL.jpg",
+          "Category": "Crystals",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "CTS Electronic Components",
+          "ManufacturerPartNumber": "SA532384F35HLR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "774-SA532384F35HLR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.894",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.765",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.726",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.66",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.595",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.575",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.52",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.496",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.483",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CTS-Electronic-Components/SA532384F35HLR?qs=vmHwEFxEFR%252BfA5ZMYD9oxg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541600000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541600020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541600060"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854160010"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541609000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541600100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85416010"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/njrcs03302-1.pdf",
+          "Description": "Switching Controllers DC/DC Converter Control IC",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Switching Controllers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nisshinbo",
+          "ManufacturerPartNumber": "NJM2384M-TE2",
+          "Min": "2000",
+          "Mult": "2000",
+          "MouserPartNumber": "513-NJM2384M-TE2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2000,
+              "Price": "€0.811",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.802",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "NJM2384M"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nisshinbo/NJM2384M-TE2?qs=dgCJ4P5xKlaOjWGIkC0QcQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "513-NJM2384M",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542319000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542319000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542310000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542310394"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8542311000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542310399"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "FFC & FPC Connectors FPC",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kyoceraelectronicdevices/images/6810_series_DSL.jpg",
+          "Category": "FFC & FPC Connectors",
+          "LeadTime": "126 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "046810640023846+T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "346-046810640023846T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.78",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.59",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.42",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.35",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.26",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1500,
+              "Price": "€1.23",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/046810640023846%2bT?qs=zW32dvEIR3tfalkHdl9vuA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "FFC & FPC Connectors FPC",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kyoceraelectronicdevices/images/ITP_346-046810650023846T_t.jpg",
+          "Category": "FFC & FPC Connectors",
+          "LeadTime": "126 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "046810650023846+T",
+          "Min": "1500",
+          "Mult": "1500",
+          "MouserPartNumber": "346-046810650023846T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1500,
+              "Price": "€1.38",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/046810650023846%2bT?qs=zW32dvEIR3s%252Bio3YeaIwUg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_CD_2823372_A1.pdf",
+          "Description": "Headers & Wire Housings 6P,2MM,SHRD HDR,SRVT,2.2,0.76AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "214 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2823842-6",
+          "Min": "3432",
+          "Mult": "3432",
+          "MouserPartNumber": "571-2823842-6",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "39"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3432,
+              "Price": "€2.59",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2823842-6?qs=Z%252BL2brAPG1JQ0VB4ysi5Kw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 12P,2MM,SHRD HDR,SRVT,2.8,0.1AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823376-1_SPL.JPG",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "114 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "1-2823848-2",
+          "Min": "1848",
+          "Mult": "1848",
+          "MouserPartNumber": "571-1-2823848-2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "21"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1848,
+              "Price": "€1.91",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3696,
+              "Price": "€1.87",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/1-2823848-2?qs=Z%252BL2brAPG1LVpd0K%252Buyafg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 16P,2MM,SHRD HDR,SRVT,2.8,0.1AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823376-1_SPL.JPG",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "114 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "1-2823848-6",
+          "Min": "1408",
+          "Mult": "1408",
+          "MouserPartNumber": "571-1-2823848-6",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "16"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1408,
+              "Price": "€2.34",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2816,
+              "Price": "€2.28",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/1-2823848-6?qs=Z%252BL2brAPG1LXRgXd9NPVnw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 10P,2MM,SHRD HDR,SRVT,2.2,0.38AU,TBW/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823375-0_SPL.JPG",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "214 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "1-2823841-0",
+          "Min": "2112",
+          "Mult": "2112",
+          "MouserPartNumber": "571-1-2823841-0",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "24"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2112,
+              "Price": "€2.80",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/1-2823841-0?qs=Z%252BL2brAPG1LgOWRXNfIwdQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 10P,2MM,SHRD HDR,SRVT,2.2,0.1AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823375-0_SPL.JPG",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "214 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "1-2823840-0",
+          "Min": "2112",
+          "Mult": "2112",
+          "MouserPartNumber": "571-1-2823840-0",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "24"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2112,
+              "Price": "€2.47",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/1-2823840-0?qs=Z%252BL2brAPG1JdB5L8%2FNE0cg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_CD_2823372_A1.pdf",
+          "Description": "Headers & Wire Housings 4P,2MM,SHRD HDR,SRVT,2.2,0.76AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "214 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2823842-4",
+          "Min": "4752",
+          "Mult": "4752",
+          "MouserPartNumber": "571-2823842-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "54"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 4752,
+              "Price": "€2.24",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2823842-4?qs=Z%252BL2brAPG1JOhGu99xUMkg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_CD_2823372_A1.pdf",
+          "Description": "Headers & Wire Housings 5P,2MM,SHRD HDR,SRVT,2.8,0.38AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "114 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2823849-5",
+          "Min": "3960",
+          "Mult": "3960",
+          "MouserPartNumber": "571-2823849-5",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "45"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3960,
+              "Price": "€1.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7920,
+              "Price": "€1.37",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2823849-5?qs=Z%252BL2brAPG1Jxpu5N%2FcDMgw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Automotive Connectors SLIDE,TAB HSG ASSY,3.5MM",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Automotive Connectors",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384002-4",
+          "Min": "1500",
+          "Mult": "1500",
+          "MouserPartNumber": "571-2384002-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1500,
+              "Price": "€0.832",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4500,
+              "Price": "€0.778",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384002-4?qs=i8QVZAFTkqSAft4B5gFsaA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8538906000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853890000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8538900100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85389090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "694 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators 24V,4A,Low IQ,Synchronous Buck Converter with Forced CCM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/monolithicpowersystemsmps/images/QFN_11_2x2_DSL.jpg",
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "494 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Monolithic Power Systems (MPS)",
+          "ManufacturerPartNumber": "MP2384CGG-P",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "946-MP2384CGG-P",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.91",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.41",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.946",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.92",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MP2384CGG-Z"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Monolithic-Power-Systems-MPS/MP2384CGG-P?qs=GedFDFLaBXFncJRO10qr2A%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "946-MP2384CGG-Z",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "694",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4659 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/105/1/3DD838E39575233D5CC6E29A2E55F9B29BE7B45EC62CEEFAEFD66ACC2C114D21.pdf",
+          "Description": "Gate Drivers DMOS Transistor Array 8-CH 50V 0.5A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SO_18_t.jpg",
+          "Category": "Gate Drivers",
+          "LeadTime": "140 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Toshiba",
+          "ManufacturerPartNumber": "TBD62384AFWG,EL",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "757-TBD62384AFWGEHZ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.38",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.17",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.13",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.98",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.956",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Toshiba/TBD62384AFWGEL?qs=%252BEew9%252B0nqrAbv%252BFWnfpb3A%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0005
+          },
+          "AvailabilityInStock": "4659",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Chemicals Adhesive, Die Attach, 8\" Wafer x 20um, 6107, LOCTITE Ablestik ATB 120U_25 Series",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Chemicals",
+          "LeadTime": "69 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Loctite",
+          "ManufacturerPartNumber": "2384861",
+          "Min": "73",
+          "Mult": "1",
+          "MouserPartNumber": "298-2384861",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "25"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Loctite/2384861?qs=Jslch3jnSjk0%2FeSiL73mbg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.002
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Korea, Republic of"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4014 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Aluminium Electrolytic Capacitors - Radial Leaded 47 F 63V 8x12mm 105 C 2500h",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/Vishay_142_RHS.jpg",
+          "Category": "Aluminium Electrolytic Capacitors - Radial Leaded",
+          "LeadTime": "175 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay / BC Components",
+          "ManufacturerPartNumber": "MAL214238479E3",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "594-MAL214238479E3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.347",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.216",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.174",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.159",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.147",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-BC-Components/MAL214238479E3?qs=Ep9Lwju7gVodXla%252BTYkJlw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "4014",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532229000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532220020"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853222000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532220000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322200"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Sensor Cables / Actuator Cables SAIEW-M12S-5-FTL",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Sensor Cables / Actuator Cables",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Weidmuller",
+          "ManufacturerPartNumber": "2423840000",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "470-2423840000",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€11.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€8.87",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€8.69",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 200,
+              "Price": "€8.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€8.00",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€7.55",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Weidmuller/2423840000?qs=QNEnbhJQKvZksWESuSmxnw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Germany"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5,SMT,1.9TAB+C-POS,164P,30\",WO ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-4_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "66 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2-2384030-4",
+          "Min": "5600",
+          "Mult": "5600",
+          "MouserPartNumber": "571-2-2384030-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "40"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5600,
+              "Price": "€12.09",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2-2384030-4?qs=amGC7iS6iy%252BlFQCcuujuFg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5 CON,SMT,1.5TAB+C-P,98P,GF,WO ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-3_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "66 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384214-3",
+          "Min": "5880",
+          "Mult": "5880",
+          "MouserPartNumber": "571-2384214-3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "60"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5880,
+              "Price": "€8.46",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384214-3?qs=amGC7iS6iy%252BbTTrqVZ5lbw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5 CON,SMT,1.5TAB+C-P,164P,GF,F-ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-4_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "66 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "3-2384214-8",
+          "Min": "5600",
+          "Mult": "5600",
+          "MouserPartNumber": "571-3-2384214-8",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "40"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5600,
+              "Price": "€11.57",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/3-2384214-8?qs=amGC7iS6iy%2Fm4Exvl0jwoQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5,SMT,1.9TAB+C-POS,98P,30\",10 ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-3_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "62 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "5-2384030-3",
+          "Min": "5040",
+          "Mult": "5040",
+          "MouserPartNumber": "571-5-2384030-3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "60"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5040,
+              "Price": "€9.06",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/5-2384030-3?qs=amGC7iS6iy%252BhEx%252Bc79MDNA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5 CON,SMT,1.5TAB+C-P,98P,30\",F-ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-3_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "66 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "5-2384214-7",
+          "Min": "5880",
+          "Mult": "5880",
+          "MouserPartNumber": "571-5-2384214-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "60"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5880,
+              "Price": "€9.27",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/5-2384214-7?qs=amGC7iS6iy9M9HtbTnmOcg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_DS_AST2000H2_D2.pdf",
+          "Description": "Pressure Sensors - Industrial AST4000A00100P3I0000:CTO-13000000-02",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/11101550-00_SPL.jpg",
+          "Category": "Pressure Sensors - Industrial",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "11192384-00",
+          "Min": "10",
+          "Mult": "1",
+          "MouserPartNumber": "571-11192384-00",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10,
+              "Price": "€218.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€217.08",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/11192384-00?qs=iLbezkQI%252Bshfw3tG9hKJDA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "9026200010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "9026204000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "902620010"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Mexico"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_CD_2823372_A1.pdf",
+          "Description": "Headers & Wire Housings 7P,2MM,SHRD HDR,SRVT,2.8,SN,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823373-1_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "114 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2823847-7",
+          "Min": "2992",
+          "Mult": "2992",
+          "MouserPartNumber": "571-2823847-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "34"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2992,
+              "Price": "€0.989",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5984,
+              "Price": "€0.955",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2823847-7?qs=Z%252BL2brAPG1JiTfJBlso1XA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/80/39/ENG_CD_2823372_A1.pdf",
+          "Description": "Headers & Wire Housings 4P,2MM,SHRD HDR,SRVT,2.8,0.38AU,TB W/CAP",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "114 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2823849-4",
+          "Min": "4752",
+          "Mult": "4752",
+          "MouserPartNumber": "571-2823849-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "54"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 4752,
+              "Price": "€1.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9504,
+              "Price": "€1.22",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2823849-4?qs=Z%252BL2brAPG1JChnKep3X3gQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings 14P,2MM,SHRD HDR,SRVT,2.2,0.38AU,TBW/CAP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/1-2823375-0_SPL.JPG",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "214 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "1-2823841-4",
+          "Min": "1584",
+          "Mult": "1584",
+          "MouserPartNumber": "571-1-2823841-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "18"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1584,
+              "Price": "€3.75",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/1-2823841-4?qs=Z%252BL2brAPG1KdmREXO3egMw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "315 In Stock",
+          "DataSheetUrl": "",
+          "Description": "I/O Connectors SLIVER 2.0 4C+ vertical receptacle",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2384218-1_DSL.jpg",
+          "Category": "I/O Connectors",
+          "LeadTime": "123 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "2384218-2",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "571-2384218-2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "300"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€22.26",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€18.91",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€17.72",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€16.88",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€16.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 300,
+              "Price": "€15.32",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/2384218-2?qs=doiCPypUmgGSEQTjYeB85Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "315",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "PCI Express/PCI Connectors PCIE5,SMT,1.9TAB+C-POS,164P,GF,10 ML,HT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tycoelectronics/images/2364427-4_SPL.JPG",
+          "Category": "PCI Express/PCI Connectors",
+          "LeadTime": "66 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity",
+          "ManufacturerPartNumber": "3-2384030-4",
+          "Min": "5600",
+          "Mult": "5600",
+          "MouserPartNumber": "571-3-2384030-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "40"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 5600,
+              "Price": "€10.93",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity/3-2384030-4?qs=amGC7iS6iy9HYw3zwWeaxQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:50Z",
+    "manufacturer_part_number": "2384",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": 32.43,
+    "offers": [
+      {
+        "provider_part_number": "517-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 32.43,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "485-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.817,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "534-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.363,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.275,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.246,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.209,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.158,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.144,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.134,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 4,
+    "variation_count": 4,
+    "variations": [
+      {
+        "provider_part_number": "517-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 32.43,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "485-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.817,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "534-2384",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.363,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.275,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.246,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.209,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.158,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.144,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.134,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:50Z",
+    "manufacturer": "SCS",
+    "manufacturer_part_number": "2384",
+    "provider_part_number": "517-2384",
+    "description": "Antistatic Control Products Wrist Band, Dual Conductor, Metal, Small (14 Cap)",
+    "detailed_description": "Antistatic Control Products Wrist Band, Dual Conductor, Metal, Small (14 Cap)",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/170/1/Dual_Conductor_Metal_Wrist_Strap.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/SCS/2384?qs=0nehlG6hIvoWBy3QpEpBiQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/desco/images/2384_SPL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "Not Applicable",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Standard Pack Qty": "1"
+    },
+    "compliance": {
+      "CNHTS": "3923290000",
+      "CAHTS": "8536309090",
+      "USHTS": "8536308000",
+      "JPHTS": "8536300006",
+      "KRHTS": "8536300000",
+      "ECCN": "EAR99"
+    }
+  }
+}

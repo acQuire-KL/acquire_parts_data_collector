@@ -1,0 +1,306 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:57Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "MAX38888ATD+T",
+    "resolved_manufacturer": "Analog Devices",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "1672 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators 2.5V 5.0V, 0.5A/2.5A Reversible Buck/Boost Regulator for Backup Power Applications",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/maxim/images/TDFN_14_t.jpg",
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices / Maxim Integrated",
+          "ManufacturerPartNumber": "MAX38888ATD+T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "700-MAX38888ATD+T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€9.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€7.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€6.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€6.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€5.81",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€5.74",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€5.67",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€5.32",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MAX38888ATD+"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX38888ATD%2bT?qs=byeeYqUIh0MIps2WSC1KhQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "1672",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:57Z",
+    "manufacturer_part_number": "MAX38888ATD+T",
+    "product_quantity_available": 1672,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 9.02,
+    "offers": [
+      {
+        "provider_part_number": "700-MAX38888ATD+T",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1672,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 5.81,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.74,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 5.67,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 5.32,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "700-MAX38888ATD+T",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1672,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 5.81,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.74,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 5.67,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 5.32,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:57Z",
+    "manufacturer": "Analog Devices / Maxim Integrated",
+    "manufacturer_part_number": "MAX38888ATD+T",
+    "provider_part_number": "700-MAX38888ATD+T",
+    "description": "Switching Voltage Regulators 2.5V 5.0V, 0.5A/2.5A Reversible Buck/Boost Regulator for Backup Power Applications",
+    "detailed_description": "Switching Voltage Regulators 2.5V 5.0V, 0.5A/2.5A Reversible Buck/Boost Regulator for Backup Power Applications",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX38888ATD%2bT?qs=byeeYqUIh0MIps2WSC1KhQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/maxim/images/TDFN_14_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2500"
+    },
+    "compliance": {
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

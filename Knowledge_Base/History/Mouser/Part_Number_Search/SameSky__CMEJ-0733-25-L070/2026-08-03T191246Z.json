@@ -1,0 +1,321 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:46Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "SameSky",
+    "input_mpn": "CMEJ-0733-25-L070",
+    "resolved_manufacturer": "SameSky",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "711 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/6118/1/cmej_0733_25_l070.pdf",
+          "Description": "Microphones 7.0 mm, Omnidirectional, Wire Leads, 2.0 Vdc, Elecret Condenser Microphone",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/cmej-0733-25-l070_SPL.jpg",
+          "Category": "Microphones",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Same Sky",
+          "ManufacturerPartNumber": "CMEJ-0733-25-L070",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-CMEJ-0733-25L070",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.69",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.903",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 300,
+              "Price": "€0.811",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.762",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.716",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.698",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Same-Sky/CMEJ-0733-25-L070?qs=PzGy0jfpSMu9Pds4lnypRw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.037
+          },
+          "AvailabilityInStock": "711",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8518100090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8518100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8518100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8518108030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "851810000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:46Z",
+    "manufacturer_part_number": "CMEJ-0733-25-L070",
+    "product_quantity_available": 711,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 1.69,
+    "offers": [
+      {
+        "provider_part_number": "490-CMEJ-0733-25L070",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 711,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 0.811,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.762,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.716,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.698,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "490-CMEJ-0733-25L070",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 711,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 0.811,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.762,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.716,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.698,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:46Z",
+    "manufacturer": "Same Sky",
+    "manufacturer_part_number": "CMEJ-0733-25-L070",
+    "provider_part_number": "490-CMEJ-0733-25L070",
+    "description": "Microphones 7.0 mm, Omnidirectional, Wire Leads, 2.0 Vdc, Elecret Condenser Microphone",
+    "detailed_description": "Microphones 7.0 mm, Omnidirectional, Wire Leads, 2.0 Vdc, Elecret Condenser Microphone",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/6118/1/cmej_0733_25_l070.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Same-Sky/CMEJ-0733-25-L070?qs=PzGy0jfpSMu9Pds4lnypRw%3D%3D",
+    "image_url": "https://www.mouser.com/images/cuiinc/images/cmej-0733-25-l070_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "100"
+    },
+    "compliance": {
+      "TARIC": "8518100090",
+      "CNHTS": "8518100000",
+      "CAHTS": "8518100000",
+      "USHTS": "8518108030",
+      "JPHTS": "851810000",
+      "ECCN": "EAR99"
+    }
+  }
+}

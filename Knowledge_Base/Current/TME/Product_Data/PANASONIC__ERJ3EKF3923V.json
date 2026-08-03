@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:11:57Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "PANASONIC",
+    "input_mpn": "ERJ3EKF3923V",
+    "resolved_manufacturer": "PANASONIC",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 476,
+          "symbol": "ERJ3EKF3923V",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.076,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.02692,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.01785,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.01515,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.01232,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.01063,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.00923,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.00686,
+                "special": false
+              },
+              {
+                "amount": 25000,
+                "price": 0.00535,
+                "special": false
+              },
+              {
+                "amount": 50000,
+                "price": 0.00488,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:31Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "NEXPERIA",
+    "input_mpn": "PESD1CAN",
+    "resolved_manufacturer": "NEXPERIA",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "PESD1CAN.215",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1241,
+                    "value": "NEXPERIA"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1501444,
+                    "value": "TVS array"
+                  }
+                ]
+              },
+              {
+                "id": 243,
+                "name": "Breakdown voltage",
+                "values": [
+                  {
+                    "id": 1626358,
+                    "value": "27.8V"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1501450,
+                    "value": "3A"
+                  }
+                ]
+              },
+              {
+                "id": 3409,
+                "name": "Peak pulse power dissipation",
+                "values": [
+                  {
+                    "id": 1918234,
+                    "value": "0.2kW"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1440419,
+                    "value": "bidirectional"
+                  },
+                  {
+                    "id": 1600771,
+                    "value": "double"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 1636031,
+                    "value": "ESD"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440262,
+                    "value": "SOT23"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1440511,
+                    "value": "24V"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1613685,
+                    "value": "50nA"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443907,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 511,
+                "name": "Application",
+                "values": [
+                  {
+                    "id": 1917273,
+                    "value": "CAN"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819764,
+                    "value": "max. 150°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

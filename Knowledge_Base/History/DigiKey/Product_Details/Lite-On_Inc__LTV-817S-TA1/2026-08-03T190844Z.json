@@ -1,0 +1,687 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Lite-On Inc.",
+    "input_mpn": "LTV-817S-TA1",
+    "resolved_manufacturer": "Lite-On Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "849"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "OPTOISOLATOR 5KV 1CH TRANS 4-SMD",
+        "DetailedDescription": "Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD"
+      },
+      "Manufacturer": {
+        "Id": 160,
+        "Name": "Lite-On Inc."
+      },
+      "ManufacturerProductNumber": "LTV-817S-TA1",
+      "UnitPrice": 0.35,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/liteon/LTV-817S-TA1/388451",
+      "DatasheetUrl": "https://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20%20Rev.S.PDF",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/804/160-4-SMD.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "160-1893-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.12757,
+              "TotalPrice": 127.57
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.11881,
+              "TotalPrice": 237.62
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.1143,
+              "TotalPrice": 342.9
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.1092,
+              "TotalPrice": 546.0
+            },
+            {
+              "BreakQuantity": 7000,
+              "UnitPrice": 0.10616,
+              "TotalPrice": 743.12
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.1032,
+              "TotalPrice": 1032.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 214000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "160-1893-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.35,
+              "TotalPrice": 0.35
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.238,
+              "TotalPrice": 2.38
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1691,
+              "TotalPrice": 16.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.13788,
+              "TotalPrice": 68.94
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 214296,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "160-1893-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.35,
+              "TotalPrice": 0.35
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.238,
+              "TotalPrice": 2.38
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1691,
+              "TotalPrice": 16.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.13788,
+              "TotalPrice": 68.94
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 214296,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 214296,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2093,
+          "ParameterText": "Number of Channels",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 597,
+          "ParameterText": "Voltage - Isolation",
+          "ParameterType": "String",
+          "ValueId": "236635",
+          "ValueText": "5000Vrms"
+        },
+        {
+          "ParameterId": 598,
+          "ParameterText": "Current Transfer Ratio (Min)",
+          "ParameterType": "String",
+          "ValueId": "235703",
+          "ValueText": "50% @ 5mA"
+        },
+        {
+          "ParameterId": 1241,
+          "ParameterText": "Current Transfer Ratio (Max)",
+          "ParameterType": "String",
+          "ValueId": "255648",
+          "ValueText": "600% @ 5mA"
+        },
+        {
+          "ParameterId": 1744,
+          "ParameterText": "Turn On / Turn Off Time (Typ)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1745,
+          "ParameterText": "Rise / Fall Time (Typ)",
+          "ParameterType": "String",
+          "ValueId": "211637",
+          "ValueText": "4µs, 3µs"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "337441",
+          "ValueText": "DC"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "415695",
+          "ValueText": "Transistor"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "194844",
+          "ValueText": "35V"
+        },
+        {
+          "ParameterId": 494,
+          "ParameterText": "Current - Output / Channel",
+          "ParameterType": "String",
+          "ValueId": "238101",
+          "ValueText": "50mA"
+        },
+        {
+          "ParameterId": 319,
+          "ParameterText": "Voltage - Forward (Vf) (Typ)",
+          "ParameterType": "String",
+          "ValueId": "48701",
+          "ValueText": "1.2V"
+        },
+        {
+          "ParameterId": 2130,
+          "ParameterText": "Current - DC Forward (If) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "50 mA",
+          "ValueText": "50 mA"
+        },
+        {
+          "ParameterId": 632,
+          "ParameterText": "Vce Saturation (Max)",
+          "ParameterType": "String",
+          "ValueId": "140643",
+          "ValueText": "200mV"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242908",
+          "ValueText": "-55°C ~ 110°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "228338",
+          "ValueText": "4-SMD, Gull Wing"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "228309",
+          "ValueText": "4-SMD"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 322774,
+        "Name": "LTV-817"
+      },
+      "Category": {
+        "CategoryId": 39,
+        "ParentId": 0,
+        "Name": "Isolators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/151/173/CPC1301GRTR_tmb.jpg",
+        "SeoDescription": "Isolator products are used where it is necessary to pass information, control signals, or gate drive signals between portions of a system that must not have a direct electrical connection with each other, whether for functional or safety-related reasons. Within this category, devices are further organized according to the character of their output stages; some device outputs behave like transistor, others like logic gates, photovoltaic (solar) cells, thyristors, or photoresistors.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2058,
+            "ParentId": 39,
+            "Name": "Optocouplers, Optoisolators",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/133/803/8-SOIC_tmb%2864x64%29.jpg",
+            "SeoDescription": "Optoisolators, also referred to as optical couplers, photocouplers, and optocouplers, are devices that use light to transmit electrical signals to isolated circuits. Output types include logic, transistor, photovoltaic, triac, and SCR.",
+            "ChildCategories": [
+              {
+                "CategoryId": 903,
+                "ParentId": 2058,
+                "Name": "Transistor, Photovoltaic Output Optoisolators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/151/173/CPC1301GRTR_tmb.jpg",
+                "SeoDescription": "Transistor or photovoltaic output optoisolators use light to transmit information across an electrical insulation barrier, usually for safety or functional reasons. They are distinguished from other optoisolator types by their use of a simple phototransistor or photovoltaic cell (solar cell) as an output device. The outputs of these devices do not require an external power source for operation and are analog in character, allowing their use for transmitting analog information between circuits which cannot be electrically connected.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "12",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 98703,
+        "Name": "LTV-8x7"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.49.8000"
+      },
+      "OtherNames": [
+        "160-1893-6",
+        "160-1893-2",
+        "LTV-817S-TA1-ND",
+        "160-1893-1",
+        "LTV817STA1",
+        "Q7351392CC"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "manufacturer_part_number": "LTV-817S-TA1",
+    "product_quantity_available": 214296,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "12",
+    "product_unit_price": 0.35,
+    "offers": [
+      {
+        "provider_part_number": "160-1893-1-ND",
+        "supplier": "LITEON",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 214296,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.35,
+            "total_price": 0.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.238,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1691,
+            "total_price": 16.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13788,
+            "total_price": 68.94
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1893-6-ND",
+        "supplier": "LITEON",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 214296,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.35,
+            "total_price": 0.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.238,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1691,
+            "total_price": 16.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13788,
+            "total_price": 68.94
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1893-2-ND",
+        "supplier": "LITEON",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 214000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.12757,
+            "total_price": 127.57
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.11881,
+            "total_price": 237.62
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.1143,
+            "total_price": 342.9
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.1092,
+            "total_price": 546.0
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.10616,
+            "total_price": 743.12
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.1032,
+            "total_price": 1032.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "160-1893-1-ND",
+        "supplier": "LITEON",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 214296,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.35,
+            "total_price": 0.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.238,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1691,
+            "total_price": 16.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13788,
+            "total_price": 68.94
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1893-6-ND",
+        "supplier": "LITEON",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 214296,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.35,
+            "total_price": 0.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.238,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1691,
+            "total_price": 16.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13788,
+            "total_price": 68.94
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1893-2-ND",
+        "supplier": "LITEON",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 214000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.12757,
+            "total_price": 127.57
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.11881,
+            "total_price": 237.62
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.1143,
+            "total_price": 342.9
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.1092,
+            "total_price": 546.0
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.10616,
+            "total_price": 743.12
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.1032,
+            "total_price": 1032.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_part_number": "LTV-817S-TA1",
+    "provider_part_number": "",
+    "description": "OPTOISOLATOR 5KV 1CH TRANS 4-SMD",
+    "detailed_description": "Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20%20Rev.S.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/liteon/LTV-817S-TA1/388451",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/804/160-4-SMD.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "4-SMD, Gull Wing",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Channels": "1",
+      "Voltage - Isolation": "5000Vrms",
+      "Current Transfer Ratio (Min)": "50% @ 5mA",
+      "Current Transfer Ratio (Max)": "600% @ 5mA",
+      "Turn On / Turn Off Time (Typ)": "-",
+      "Rise / Fall Time (Typ)": "4µs, 3µs",
+      "Input Type": "DC",
+      "Output Type": "Transistor",
+      "Voltage - Output (Max)": "35V",
+      "Current - Output / Channel": "50mA",
+      "Voltage - Forward (Vf) (Typ)": "1.2V",
+      "Current - DC Forward (If) (Max)": "50 mA",
+      "Vce Saturation (Max)": "200mV",
+      "Operating Temperature": "-55°C ~ 110°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "4-SMD, Gull Wing",
+      "Supplier Device Package": "4-SMD"
+    },
+    "compliance": {}
+  }
+}

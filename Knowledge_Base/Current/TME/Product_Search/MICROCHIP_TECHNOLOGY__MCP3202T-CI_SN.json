@@ -1,0 +1,70 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:30Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP3202T-CI/SN",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL"
+            ],
+            "symbol": "MCP3202T-CI/SN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112877,
+              "name": "A/D converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "MCP3202T-CI/SN"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: A/D converter; Ch: 2; 12bit; 100ksps; 2.7÷5.5V; SO8; reel",
+            "multiples": 3300,
+            "minimal_amount": 3300,
+            "weight": {
+              "value": 0.07,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/A9/A5/40/00/0/285338_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f0bee21ffea27f905e10bd7bef271cd4e2b785fe",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/A9/A5/40/00/0/285338_1.jpg?width=100&height=75&q=75&ci_sign=e896150f0f1315963e6dc4666f8716eaf0e763fd",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,1025 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:20Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "JST Sales America Inc.",
+    "input_mpn": "B3B-ZR",
+    "resolved_manufacturer": "JST Sales America Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 4,
+      "Parts": [
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eZR.pdf",
+          "Description": "Headers & Wire Housings ZH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-ZR-3.4(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BZR3.4LFSN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.164",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.121",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.079",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.072",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-ZR-3.4LFSN?qs=cdbOS8ANM9A4HB4OVixO0g%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-11-03T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Korea, Republic of"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "69 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eZR.pdf",
+          "Description": "Headers & Wire Housings ZR HEADER (SMT TOP)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/jstcommercial/images/B10B-ZR-SM4-series_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "180 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-ZR-SM4-TFT(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BZRSM4TFTLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.559",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.478",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.407",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.363",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.279",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.271",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.265",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-ZR-SM4-TFTLFSN?qs=cdbOS8ANM9B0wWyPaWEmhA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "69",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-11-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901900"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings ZH HEADER (DIP TOP)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "131 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-ZR(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BZRLFSN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.075",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-ZRLFSN?qs=cdbOS8ANM9BRH9z9nmrgzw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 9552,
+              "Date": "2026-08-11T00:00:00"
+            },
+            {
+              "Quantity": 14000,
+              "Date": "2026-09-15T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901900"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Korea, Republic of"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3796 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eZR.pdf",
+          "Description": "Headers & Wire Housings ZR HEADER (SMT TOP)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/jstcommercial/images/B10B-ZR-SM4-series_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "180 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-ZR-SM4-TF(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BZRSM4TFLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.473",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.402",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.341",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.305",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.276",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.268",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.252",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.241",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-ZR-SM4-TFLFSN?qs=cdbOS8ANM9DUye%252BkJHD3XQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "3796",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 4000,
+              "Date": "2027-02-01T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:20Z",
+    "manufacturer_part_number": "B3B-ZR-3.4(LF)(SN)",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 0.206,
+    "offers": [
+      {
+        "provider_part_number": "306-B3BZR3.4LFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.206,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.164,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.136,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.121,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.079,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.072,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRSM4TFTLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 69,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.559,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.478,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.407,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.363,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.279,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.271,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.265,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRLFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.129,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.093,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.075,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.069,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.066,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRSM4TFLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3796,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.473,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.402,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.341,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.305,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.276,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.268,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.252,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.241,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 4,
+    "variation_count": 4,
+    "variations": [
+      {
+        "provider_part_number": "306-B3BZR3.4LFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.206,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.164,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.136,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.121,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.079,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.072,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRSM4TFTLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 69,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.559,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.478,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.407,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.363,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.279,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.271,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.265,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRLFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.129,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.093,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.075,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.069,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.066,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BZRSM4TFLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3796,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.473,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.402,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.341,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.305,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.276,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.268,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.252,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.241,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:20Z",
+    "manufacturer": "JST Commercial",
+    "manufacturer_part_number": "B3B-ZR-3.4(LF)(SN)",
+    "provider_part_number": "306-B3BZR3.4LFSN",
+    "description": "Headers & Wire Housings ZH HEADER (TOP)",
+    "detailed_description": "Headers & Wire Housings ZH HEADER (TOP)",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1070/1/eZR.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-ZR-3.4LFSN?qs=cdbOS8ANM9A4HB4OVixO0g%3D%3D",
+    "image_url": "",
+    "lifecycle_status": "New at Mouser",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "CNHTS": "8536901100",
+      "USHTS": "8536694040",
+      "ECCN": "EAR99"
+    }
+  }
+}

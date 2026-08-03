@@ -1,0 +1,125 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:53Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "GCT",
+    "input_mpn": "USB4085-GF-A",
+    "resolved_manufacturer": "GCT",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "USB4085-GF-A",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100379,
+              "name": "USB & IEEE1394 connectors"
+            },
+            "manufacturer_symbols": [
+              "USB4085-GF-A"
+            ],
+            "manufacturer": {
+              "id": 1808,
+              "name": "GCT"
+            },
+            "description": "Connector: USB C; socket; THT; PIN: 16; horizontal; top board mount",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.984,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 700
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/08/B3/E0/00/0/932736_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=135ca73f571b092b1307454dd8e18231a7221de8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/08/B3/E0/00/0/932736_1.jpg?width=100&height=75&q=75&ci_sign=dbef528d1a38221e590d8f3b85e0867a4bd041ae",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/08/B3/E0/00/0/932736_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4740e9cbf7f12eb1299665273cb1b728f8c2b725"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "NOT_IN_OFFER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "USB4085-GF-B",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100379,
+              "name": "USB & IEEE1394 connectors"
+            },
+            "manufacturer_symbols": [
+              "USB4085-GF-A"
+            ],
+            "manufacturer": {
+              "id": 1808,
+              "name": "GCT"
+            },
+            "description": "Connector: USB C; socket; THT; PIN: 16; horizontal; 5A; 48VDC",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 0.991,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 700
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F6/8A/F0/00/0/1026159_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=90f6ba0e20b448e4b60368f538d2928fc169cf8b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F6/8A/F0/00/0/1026159_1.jpg?width=100&height=75&q=75&ci_sign=89f7a767afad7136b5941d6e83742ab5c8890079",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/F6/8A/F0/00/0/1026159_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=bd58b3b9d8542803c7b0b7466b24fcb5873e61d8"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

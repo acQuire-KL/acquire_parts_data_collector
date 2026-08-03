@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:54Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ABRACON",
+    "input_mpn": "ABS07-32.768KHZ-T",
+    "resolved_manufacturer": "ABRACON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ABS07-32.768KHZ",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 441,
+                    "value": "ABRACON"
+                  }
+                ]
+              },
+              {
+                "id": 3646,
+                "name": "Type of quartz",
+                "values": [
+                  {
+                    "id": 2143949,
+                    "value": "crystal"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1437810,
+                    "value": "32.768kHz"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1735150,
+                    "value": "3.2x1.5x0.9mm"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437821,
+                    "value": "12.5pF"
+                  }
+                ]
+              },
+              {
+                "id": 145,
+                "name": "Resonator tolerance",
+                "values": [
+                  {
+                    "id": 1437696,
+                    "value": "±20ppm"
+                  }
+                ]
+              },
+              {
+                "id": 3307,
+                "name": "Time stability",
+                "values": [
+                  {
+                    "id": 1854572,
+                    "value": "±3ppm/year"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

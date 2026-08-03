@@ -1,0 +1,220 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:09Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ALPS",
+    "input_mpn": "SKRPABE010",
+    "resolved_manufacturer": "ALPS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "SKRPABE010",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 621,
+                    "value": "ALPS"
+                  }
+                ]
+              },
+              {
+                "id": 689,
+                "name": "Type of switch",
+                "values": [
+                  {
+                    "id": 1641231,
+                    "value": "microswitch TACT"
+                  }
+                ]
+              },
+              {
+                "id": 693,
+                "name": "Contacts configuration",
+                "values": [
+                  {
+                    "id": 1452020,
+                    "value": "SPST"
+                  }
+                ]
+              },
+              {
+                "id": 2412,
+                "name": "Number of positions",
+                "values": [
+                  {
+                    "id": 1441215,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 699,
+                "name": "Stable positions number",
+                "values": [
+                  {
+                    "id": 1793865,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 695,
+                "name": "DC contacts rating @R",
+                "values": [
+                  {
+                    "id": 1712315,
+                    "value": "0.05A / 16V DC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 708,
+                "name": "Operating Force",
+                "values": [
+                  {
+                    "id": 1452803,
+                    "value": "1.6N"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1978960,
+                    "value": "4.2x2.7x1.8mm"
+                  }
+                ]
+              },
+              {
+                "id": 730,
+                "name": "Button height",
+                "values": [
+                  {
+                    "id": 1794827,
+                    "value": "2.6mm"
+                  }
+                ]
+              },
+              {
+                "id": 698,
+                "name": "Switching method",
+                "values": [
+                  {
+                    "id": 1506037,
+                    "value": "(ON)-OFF"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1903829,
+                    "value": "SKRP"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819347,
+                    "value": "-40...90°C"
+                  }
+                ]
+              },
+              {
+                "id": 727,
+                "name": "Button shape",
+                "values": [
+                  {
+                    "id": 1665741,
+                    "value": "rounded"
+                  }
+                ]
+              },
+              {
+                "id": 718,
+                "name": "Actuator colour",
+                "values": [
+                  {
+                    "id": 1452855,
+                    "value": "grey"
+                  }
+                ]
+              },
+              {
+                "id": 117,
+                "name": "Leads",
+                "values": [
+                  {
+                    "id": 1445637,
+                    "value": "for PCB"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "Max. contact resistance:",
+                "values": [
+                  {
+                    "id": 1452798,
+                    "value": "500mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "name": "Min. insulation resistance",
+                "values": [
+                  {
+                    "id": 1886310,
+                    "value": "0.1GΩ"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1452802,
+                    "value": "100000 cycles"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

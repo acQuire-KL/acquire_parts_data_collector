@@ -1,0 +1,330 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:32Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "SMBJ5361B/TR13",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "902"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "DIODE ZENER 27V 5W DO214AA",
+        "DetailedDescription": "Zener Diode 27 V 5 W ±5% Surface Mount DO-214AA (SMBJ)"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "SMBJ5361B/TR13",
+      "UnitPrice": 1.25914,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/SMBJ5361B-TR13/740062",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/HRDS/ProductDocuments/DataSheets/SMBG533-88B.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/391/SMBJP6KE18CA.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "150-SMBJ5361B/TR13TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 1.25914,
+              "TotalPrice": 3777.42
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 1,
+        "Status": "Obsolete"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 920,
+          "ParameterText": "Voltage - Zener (Nom) (Vz)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "27 V",
+          "ValueText": "27 V"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "2503",
+          "ValueText": "±5%"
+        },
+        {
+          "ParameterId": 2109,
+          "ParameterText": "Power - Max",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 W",
+          "ValueText": "5 W"
+        },
+        {
+          "ParameterId": 921,
+          "ParameterText": "Impedance (Max) (Zzt)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 Ohms",
+          "ValueText": "5 Ohms"
+        },
+        {
+          "ParameterId": 2269,
+          "ParameterText": "Current - Reverse Leakage @ Vr",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "500 nA @ 20.6 V",
+          "ValueText": "500 nA @ 20.6 V"
+        },
+        {
+          "ParameterId": 2261,
+          "ParameterText": "Voltage - Forward (Vf) (Max) @ If",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "1.2 V @ 1 A",
+          "ValueText": "1.2 V @ 1 A"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "262181",
+          "ValueText": "-65°C ~ 150°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "340102",
+          "ValueText": "DO-214AA, SMB"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "340100",
+          "ValueText": "DO-214AA (SMBJ)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 34593,
+        "Name": "SMBJ5361"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2042,
+            "ParentId": 19,
+            "Name": "Diodes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/961/736/31_SOT-23-3%20PKG_tmb.jpg",
+            "SeoDescription": "Diodes are devices that allow the flow of current in one direction and block current flow in the opposite direction. Types of diodes include current regulation, bridge rectifiers, RF, rectifier arrays, rectifiers, variable capacitance (varicaps, varactors), zener, zener arrays, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2086,
+                "ParentId": 2042,
+                "Name": "Zener",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/145/946/SOD-123_425_tmb%2864x64%29.jpg",
+                "SeoDescription": "Zener is a type of diode designed for operation in a reverse-breakdown mode and are characterized according to their behavior when used in this fashion. Useful as a voltage reference or for voltage limiting purposes, they are also capable of functioning as a one-way valve for current flow in the manner of rectifier diodes, though their behavior in this mode is generally less ideal than that of purpose-built devices. Products within this family implement exactly one instance of this function per device package.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 287,
+                    "ParentId": 2086,
+                    "Name": "Single Zener Diodes",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/349/756/DO-214AA%20SMB_tmb.jpg",
+                    "SeoDescription": "Zener diodes are designed for operation in a reverse-breakdown mode and are characterized according to their behavior when used in this fashion. Useful as a voltage reference or for voltage limiting purposes, they are also capable of functioning as a one-way valve for current flow in the manner of rectifier diodes, though their behavior in this mode is generally less ideal than that of purpose-built devices. Products within this family implement exactly one instance of this function per device package.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": "2024-12-17T06:00:00+00:00",
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "RoHS non-compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0050"
+      },
+      "OtherNames": [
+        "SMBJ5361B/TR13CT-ND",
+        "SMBJ5361BE3TR",
+        "SMBJ5361BCT",
+        "SMBJ5361BE3CT-ND",
+        "SMBJ5361B/TR13TR-ND",
+        "150-SMBJ5361B/TR13TR",
+        "SMBJ5361B",
+        "SMBJ5361B/TR13TR",
+        "SMBJ5361BE3",
+        "SMBJ5361B/TR13CT",
+        "SMBJ5361BE3TR-NDR",
+        "SMBJ5361BE3CT",
+        "SMBJ5361BTR-ND",
+        "150-SMBJ5361B/TR13CT",
+        "SMBJ5361BE3CT-NDR",
+        "SMBJ5361BCT-ND",
+        "SMBJ5361BE3TR-ND",
+        "SMBJ53",
+        "SMBJ5361BTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:32Z",
+    "manufacturer_part_number": "SMBJ5361B/TR13",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "20",
+    "product_unit_price": 1.25914,
+    "offers": [
+      {
+        "provider_part_number": "150-SMBJ5361B/TR13TR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.25914,
+            "total_price": 3777.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "150-SMBJ5361B/TR13TR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.25914,
+            "total_price": 3777.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:32Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "SMBJ5361B/TR13",
+    "provider_part_number": "",
+    "description": "DIODE ZENER 27V 5W DO214AA",
+    "detailed_description": "Zener Diode 27 V 5 W ±5% Surface Mount DO-214AA (SMBJ)",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/HRDS/ProductDocuments/DataSheets/SMBG533-88B.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/SMBJ5361B-TR13/740062",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/391/SMBJP6KE18CA.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "DO-214AA, SMB",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Voltage - Zener (Nom) (Vz)": "27 V",
+      "Tolerance": "±5%",
+      "Power - Max": "5 W",
+      "Impedance (Max) (Zzt)": "5 Ohms",
+      "Current - Reverse Leakage @ Vr": "500 nA @ 20.6 V",
+      "Voltage - Forward (Vf) (Max) @ If": "1.2 V @ 1 A",
+      "Operating Temperature": "-65°C ~ 150°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "DO-214AA, SMB",
+      "Supplier Device Package": "DO-214AA (SMBJ)"
+    },
+    "compliance": {}
+  }
+}

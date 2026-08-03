@@ -1,0 +1,701 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Nexperia",
+    "input_mpn": "TXB0104QRUTRQ1",
+    "resolved_manufacturer": "Nexperia",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "882"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC XLTR VL BIDIR 12-UQFN",
+        "DetailedDescription": "Voltage Level Translator Bidirectional 1 Circuit 4 Channel 100Mbps 12-UQFN (1.7x2)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TXB0104QRUTRQ1",
+      "UnitPrice": 1.51,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TXB0104QRUTRQ1/5067182",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104-q1",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4210580%7ERUT%7E12.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-41033-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.75394,
+              "TotalPrice": 2261.82
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.73811,
+              "TotalPrice": 4428.66
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.73019,
+              "TotalPrice": 6571.71
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 22000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-41033-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.51,
+              "TotalPrice": 1.51
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.108,
+              "TotalPrice": 11.08
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.0076,
+              "TotalPrice": 25.19
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.897,
+              "TotalPrice": 89.7
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.84424,
+              "TotalPrice": 211.06
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.83348,
+              "TotalPrice": 416.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 22802,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-41033-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.51,
+              "TotalPrice": 1.51
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.108,
+              "TotalPrice": 11.08
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.0076,
+              "TotalPrice": 25.19
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.897,
+              "TotalPrice": 89.7
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.84424,
+              "TotalPrice": 211.06
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.83348,
+              "TotalPrice": 416.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 22802,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 22802,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1911,
+          "ParameterText": "Translator Type",
+          "ParameterType": "String",
+          "ValueId": "420167",
+          "ValueText": "Voltage Level"
+        },
+        {
+          "ParameterId": 1762,
+          "ParameterText": "Channel Type",
+          "ParameterType": "String",
+          "ValueId": "319712",
+          "ValueText": "Bidirectional"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1912,
+          "ParameterText": "Channels per Circuit",
+          "ParameterType": "String",
+          "ValueId": "203167",
+          "ValueText": "4"
+        },
+        {
+          "ParameterId": 1913,
+          "ParameterText": "Voltage - VCCA",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "1.2 V ~ 3.6 V",
+          "ValueText": "1.2 V ~ 3.6 V"
+        },
+        {
+          "ParameterId": 1914,
+          "ParameterText": "Voltage - VCCB",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "1.65 V ~ 5.5 V",
+          "ValueText": "1.65 V ~ 5.5 V"
+        },
+        {
+          "ParameterId": 1915,
+          "ParameterText": "Input Signal",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1817,
+          "ParameterText": "Output Signal",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "416045",
+          "ValueText": "Tri-State, Non-Inverted"
+        },
+        {
+          "ParameterId": 448,
+          "ParameterText": "Data Rate",
+          "ParameterType": "String",
+          "ValueId": "68941",
+          "ValueText": "100Mbps"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212479",
+          "ValueText": "-40°C ~ 125°C (TA)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "316912",
+          "ValueText": "Automotive"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "312102",
+          "ValueText": "AEC-Q100"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "316836",
+          "ValueText": "Auto-Direction Sensing"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "87704",
+          "ValueText": "12-UFQFN"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "87709",
+          "ValueText": "12-UQFN (1.7x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 47674,
+        "Name": "TXB0104"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2019,
+            "ParentId": 32,
+            "Name": "Logic",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/312/8-TSSOP%2C-8-MSOP-3x3mm_tmb.jpg",
+            "SeoDescription": "Logic components operate using two voltage levels. These two levels are referred to as High or Low, On or Off, True or False, or simply 1 or 0. There are many components included in this category, such as Buffers, Drivers, Receivers, Transceivers, Comparators, Counters, Dividers, FIFOs Memory, Flip Flops, Gates, Inverters, Latches, Multivibrators, Parity Generators, Shift Registers, Signal Switches, Multiplexers, Decoders, Translators, Level Shifters, Universal Bus FUnctions, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 732,
+                "ParentId": 2019,
+                "Name": "Translators, Level Shifters",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/202/019/12-UCSP_21-0101H_tmb.jpg",
+                "SeoDescription": "Logic translator or level shifter ICs are devices used to pass information between digital logic devices that are operating from different/incompatible supply voltages, or which implement different signaling methods. Examples might include the connection of a digital-output sensor requiring a 5 V supply to an FPGA with a 3.3 V I/O supply, or converting between single-ended signaling methods like CMOS or TTL and differential techniques, such as PECL or LVDS.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "TXB0104QRUTRQ1-ND",
+        "296-41033-6",
+        "-296-41033-1-ND",
+        "296-41033-2",
+        "296-41033-1"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:24Z",
+    "manufacturer_part_number": "TXB0104QRUTRQ1",
+    "product_quantity_available": 22802,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.51,
+    "offers": [
+      {
+        "provider_part_number": "296-41033-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22802,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.108,
+            "total_price": 11.08
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0076,
+            "total_price": 25.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.897,
+            "total_price": 89.7
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84424,
+            "total_price": 211.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.83348,
+            "total_price": 416.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-41033-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22802,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.108,
+            "total_price": 11.08
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0076,
+            "total_price": 25.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.897,
+            "total_price": 89.7
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84424,
+            "total_price": 211.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.83348,
+            "total_price": 416.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-41033-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 22000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.75394,
+            "total_price": 2261.82
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.73811,
+            "total_price": 4428.66
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.73019,
+            "total_price": 6571.71
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-41033-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22802,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.108,
+            "total_price": 11.08
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0076,
+            "total_price": 25.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.897,
+            "total_price": 89.7
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84424,
+            "total_price": 211.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.83348,
+            "total_price": 416.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-41033-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22802,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.108,
+            "total_price": 11.08
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0076,
+            "total_price": 25.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.897,
+            "total_price": 89.7
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84424,
+            "total_price": 211.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.83348,
+            "total_price": 416.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-41033-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 22000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.75394,
+            "total_price": 2261.82
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.73811,
+            "total_price": 4428.66
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.73019,
+            "total_price": 6571.71
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:24Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TXB0104QRUTRQ1",
+    "provider_part_number": "",
+    "description": "IC XLTR VL BIDIR 12-UQFN",
+    "detailed_description": "Voltage Level Translator Bidirectional 1 Circuit 4 Channel 100Mbps 12-UQFN (1.7x2)",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104-q1",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TXB0104QRUTRQ1/5067182",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4210580%7ERUT%7E12.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "12-UFQFN",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Translator Type": "Voltage Level",
+      "Channel Type": "Bidirectional",
+      "Number of Circuits": "1",
+      "Channels per Circuit": "4",
+      "Voltage - VCCA": "1.2 V ~ 3.6 V",
+      "Voltage - VCCB": "1.65 V ~ 5.5 V",
+      "Input Signal": "-",
+      "Output Signal": "-",
+      "Output Type": "Tri-State, Non-Inverted",
+      "Data Rate": "100Mbps",
+      "Operating Temperature": "-40°C ~ 125°C (TA)",
+      "Grade": "Automotive",
+      "Qualification": "AEC-Q100",
+      "Features": "Auto-Direction Sensing",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "12-UFQFN",
+      "Supplier Device Package": "12-UQFN (1.7x2)"
+    },
+    "compliance": {}
+  }
+}

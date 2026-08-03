@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:03Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "HIROSE",
+    "input_mpn": "FH26W-45S-0.3SHW(60)",
+    "resolved_manufacturer": "HIROSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "FH26W-45S-03SHW-60",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 114044,
+              "name": "Connectors FFC/FPC 0.3mm"
+            },
+            "manufacturer_symbols": [
+              "FH26W-45S-0.3SHW(60)"
+            ],
+            "manufacturer": {
+              "id": 508,
+              "name": "HIROSE"
+            },
+            "description": "Connector: FFC/FPC; gold-plated; SMT; 30V; 200mA; FH26; PIN: 45; FPC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 3.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

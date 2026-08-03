@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:09:20Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "NCP1117LPSTADT3G",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "NCP1117LPSTADT3G",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.319,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 0.259,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.23,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.198,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.165,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.151,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.144,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.138,
+                "special": false
+              },
+              {
+                "amount": 8000,
+                "price": 0.129,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

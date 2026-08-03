@@ -1,0 +1,59 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:04:15Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TPSA224K035R6000",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "TPSA224K035R6000",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 2000,
+                "price": 0.167,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.157,
+                "special": false
+              },
+              {
+                "amount": 6000,
+                "price": 0.153,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

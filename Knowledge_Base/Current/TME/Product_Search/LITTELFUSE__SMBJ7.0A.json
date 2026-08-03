@@ -1,0 +1,909 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:13:22Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITTELFUSE",
+    "input_mpn": "SMBJ7.0A",
+    "resolved_manufacturer": "LITTELFUSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "SMBJ7.0A-LF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 454,
+              "name": "LITTELFUSE"
+            },
+            "description": "Diode: TVS; 600W; 7.78÷8.6V; 50A; unidirectional; ±5%; DO214AA; SMBJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.131,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a84ae35ce44248791c8aea063c2bc173d05a69f1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=100&height=75&q=75&ci_sign=078bd95ac068f9bde6b3aad19735ebfd0f21eabd",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A-AO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 612,
+              "name": "ALPHA & OMEGA SEMICONDUCTOR"
+            },
+            "description": "Diode: TVS; 600W; 7.78÷8.6V; 51.5A; unidirectional; SMB",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.075,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A-BOU",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 60,
+              "name": "BOURNS"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; ±5%; SMB; SMBJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "NOT_IN_OFFER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A-YAN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 1317,
+              "name": "YANGJIE TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; DO214AA,SMB",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SMBJ7.0A-E3/52",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A-E3/52"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: TVS; 600W; 7.78÷8.6V; 50A; unidirectional; ±5%; DO214AA,SMB",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.148,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 750
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a84ae35ce44248791c8aea063c2bc173d05a69f1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=100&height=75&q=75&ci_sign=078bd95ac068f9bde6b3aad19735ebfd0f21eabd",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "P6SMBJ7.0A-DIO",
+            "ean": "",
+            "customer_symbol": "TVS-SMD-7V0-1CH-60",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "P6SMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 43,
+              "name": "DIOTEC SEMICONDUCTOR"
+            },
+            "description": "Diode: TVS; 600W; 7.8÷8.7V; 50A; unidirectional; ±5%; SMB; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.121,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/32/01/00/0/1057588_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a93cca7fe32b566808a60b9ed0ba9f00521dfc7d",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/32/01/00/0/1057588_1.jpg?width=100&height=75&q=75&ci_sign=0e31ddc13a1d60acc9bdff6cf5a83527dc5f4ac6",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/32/01/00/0/1057588_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=95eb084f6928ad4d810adc29a77ee490c420a45f"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS",
+              "NEW"
+            ],
+            "symbol": "SMBJ7.0A-E-LF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A-E"
+            ],
+            "manufacturer": {
+              "id": 454,
+              "name": "LITTELFUSE"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; unidirectional; DO214AA,SMB; Ch: 1; SMBJ",
+            "multiples": 3000,
+            "minimal_amount": 3000,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A-13-F",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A-13-F"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.95V; 50A; unidirectional; SMB; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.095,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a84ae35ce44248791c8aea063c2bc173d05a69f1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=100&height=75&q=75&ci_sign=078bd95ac068f9bde6b3aad19735ebfd0f21eabd",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A-Q-BOU",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A-Q"
+            ],
+            "manufacturer": {
+              "id": 60,
+              "name": "BOURNS"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; ±5%; SMB; SMBJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS",
+              "NEW"
+            ],
+            "symbol": "SMBJ7.0A-T7-LF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A-T7"
+            ],
+            "manufacturer": {
+              "id": 454,
+              "name": "LITTELFUSE"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; 50A; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 500,
+            "minimal_amount": 500,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0A/TR7",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0A/TR7"
+            ],
+            "manufacturer": {
+              "id": 442,
+              "name": "YAGEO"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; SMB; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 500,
+            "weight": {
+              "value": 0.2,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "SMBJ7.0AE3/TR13",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0AE3/TR13"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; 50A; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 3000,
+            "minimal_amount": 3000,
+            "weight": {
+              "value": 0.12,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0ATR-SMC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0ATR"
+            ],
+            "manufacturer": {
+              "id": 1827,
+              "name": "SMC DIODE SOLUTIONS"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; SMB; reel; SMBJ",
+            "multiples": 5,
+            "minimal_amount": 5,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MASMBJ7.0A",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "MASMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 200,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MASMBJ7.0AE3",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "MASMBJ7.0AE3"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 200,
+            "weight": {
+              "value": 0.11,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MSMBJ7.0A",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "MSMBJ7.0A"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; 50A; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 900,
+            "weight": {
+              "value": 0.11,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MSMBJ7.0A/TR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "MSMBJ7.0A/TR"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; 50A; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 800,
+            "weight": {
+              "value": 0.11,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MSMBJ7.0AE3",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "MSMBJ7.0AE3"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78V; unidirectional; DO214AA,SMB; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 900,
+            "weight": {
+              "value": 0.11,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "P6SMBJ7.0A-R1",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "P6SMBJ7.0A_R1_00001"
+            ],
+            "manufacturer": {
+              "id": 1891,
+              "name": "PanJit Semiconductor"
+            },
+            "description": "Diode: TVS; 0.6kW; 7.78÷8.6V; 50A; unidirectional; SMB; reel,tape",
+            "multiples": 800,
+            "minimal_amount": 800,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f242aaf4e967cdef8f756189e81e8ad704ea3d4e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E6/61/00/0/1470155_1.jpg?width=100&height=75&q=75&ci_sign=d0a3f1067b6e0f80329b2f1d97dde184622718fc",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMBJ7.0D-M3/H",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112801,
+              "name": "Unidirectional TVS SMD diodes"
+            },
+            "manufacturer_symbols": [
+              "SMBJ7.0D-M3/H"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: TVS; 600W; 7.9÷8.48V; 50.8A; unidirectional; ±3.5%; SMBJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a84ae35ce44248791c8aea063c2bc173d05a69f1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/20/CE/00/00/0/60418_1.jpg?width=100&height=75&q=75&ci_sign=078bd95ac068f9bde6b3aad19735ebfd0f21eabd",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

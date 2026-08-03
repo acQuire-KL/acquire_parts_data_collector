@@ -1,0 +1,128 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:49Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LINX TECHNOLOGIES / TE Connectivity",
+    "input_mpn": "BAT-HLD-001-THM",
+    "resolved_manufacturer": "LINX TECHNOLOGIES / TE Connectivity",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "BAT-HLD-001-THM",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100077,
+              "name": "Batteries - Containers and Holders"
+            },
+            "manufacturer_symbols": [
+              "BAT-HLD-001-THM"
+            ],
+            "manufacturer": {
+              "id": 1462,
+              "name": "LINX TECHNOLOGIES / TE Connectivity"
+            },
+            "description": "Holder; PCB; 4.22mm; bulk",
+            "multiples": 10,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 0.762,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 500
+                },
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 10000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/5A/C0/00/0/828815_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1fe05370afe30ac9416a72f177efb8b76e6447c8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/5A/C0/00/0/828815_1.jpg?width=100&height=75&q=75&ci_sign=220f1183f56a58248115a79c2119ecaa098b36ec",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/5A/C0/00/0/828815_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0237c2a1f56f8a3b2358ce3221fd0ef400c7e6a4"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "MOQ_VALID_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "BAT-HLD-001-THM-TR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100077,
+              "name": "Batteries - Containers and Holders"
+            },
+            "manufacturer_symbols": [
+              "BAT-HLD-001-THM-TR"
+            ],
+            "manufacturer": {
+              "id": 1462,
+              "name": "LINX TECHNOLOGIES / TE Connectivity"
+            },
+            "description": "Holder; PCB; 4.22mm; reel",
+            "multiples": 10,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 1.056,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 400
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/DE/6D/C0/00/0/841453_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c66ab616fed11160e786958fa58e5d4f7499e70b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/DE/6D/C0/00/0/841453_1.jpg?width=100&height=75&q=75&ci_sign=2154bcb7e53dba43fe0127274e2c31b8c7e83dd6",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/DE/6D/C0/00/0/841453_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=fe024732879a871326029868edf5072ef4f2315e"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

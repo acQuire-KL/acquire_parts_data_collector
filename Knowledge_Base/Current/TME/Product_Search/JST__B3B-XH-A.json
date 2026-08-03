@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:22Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "JST",
+    "input_mpn": "B3B-XH-A",
+    "resolved_manufacturer": "JST",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "B3B-XH-A",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100490,
+              "name": "Raster signal connectors 2,50mm"
+            },
+            "manufacturer_symbols": [
+              "B3B-XH-A (LF)(SN)"
+            ],
+            "manufacturer": {
+              "id": 475,
+              "name": "JST"
+            },
+            "description": "Connector: wire-board; socket; male; PIN: 3; XH; 3A; 250V; straight",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.33,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "PB1",
+                  "translation": null,
+                  "amount": 10
+                },
+                {
+                  "id": "PB2",
+                  "translation": null,
+                  "amount": 100
+                },
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 1000
+                },
+                {
+                  "id": "CT2",
+                  "translation": null,
+                  "amount": 18000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E8/30/00/1/233163_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d96ed08276293a1930d3389bbd627f2a9fd8fa13",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E8/30/00/1/233163_1.jpg?width=100&height=75&q=75&ci_sign=2f29359c6a7f39ff0bf0ded184eeb1f2f8ebc9a0",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/BC/E8/30/00/1/233163_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=e884e364af3d7362d4f9d9621ce07f1a2886120c"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

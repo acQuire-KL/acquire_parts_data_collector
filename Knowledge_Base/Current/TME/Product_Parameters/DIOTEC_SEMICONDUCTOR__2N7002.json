@@ -1,0 +1,164 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:59Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "input_mpn": "2N7002",
+    "resolved_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "2N7002-DIO",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 43,
+                    "value": "DIOTEC SEMICONDUCTOR"
+                  }
+                ]
+              },
+              {
+                "id": 273,
+                "name": "Type of transistor",
+                "values": [
+                  {
+                    "id": 1441241,
+                    "value": "N-MOSFET"
+                  }
+                ]
+              },
+              {
+                "id": 635,
+                "name": "Polarisation",
+                "values": [
+                  {
+                    "id": 1441242,
+                    "value": "unipolar"
+                  }
+                ]
+              },
+              {
+                "id": 262,
+                "name": "Drain-source voltage",
+                "values": [
+                  {
+                    "id": 1441252,
+                    "value": "60V"
+                  }
+                ]
+              },
+              {
+                "id": 266,
+                "name": "Drain current",
+                "values": [
+                  {
+                    "id": 1702154,
+                    "value": "0.28A"
+                  }
+                ]
+              },
+              {
+                "id": 3042,
+                "name": "Pulsed drain current",
+                "values": [
+                  {
+                    "id": 1709882,
+                    "value": "1.2A"
+                  }
+                ]
+              },
+              {
+                "id": 589,
+                "name": "Power dissipation",
+                "values": [
+                  {
+                    "id": 1701891,
+                    "value": "0.35W"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440262,
+                    "value": "SOT23"
+                  }
+                ]
+              },
+              {
+                "id": 2832,
+                "name": "Gate-source voltage",
+                "values": [
+                  {
+                    "id": 1599604,
+                    "value": "±30V"
+                  }
+                ]
+              },
+              {
+                "id": 270,
+                "name": "On-state resistance",
+                "values": [
+                  {
+                    "id": 1441408,
+                    "value": "5Ω"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 2670,
+                "name": "Kind of channel",
+                "values": [
+                  {
+                    "id": 1536812,
+                    "value": "enhancement"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

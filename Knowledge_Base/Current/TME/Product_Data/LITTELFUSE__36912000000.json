@@ -1,0 +1,79 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:07:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITTELFUSE",
+    "input_mpn": "36912000000",
+    "resolved_manufacturer": "LITTELFUSE",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 2466,
+          "symbol": "36912000000",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.517,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 0.476,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.443,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.391,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.353,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.328,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.314,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

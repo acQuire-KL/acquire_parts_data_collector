@@ -1,0 +1,1793 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:23Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "JST Sales America Inc.",
+    "input_mpn": "B3B-XH-A",
+    "resolved_manufacturer": "JST Sales America Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 7,
+      "Parts": [
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP TYPE)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A-BK(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHABKLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-BKLFSN?qs=cIziFXvMxOXokbO08f3UqA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 3941,
+              "Date": "2026-09-01T00:00:00"
+            },
+            {
+              "Quantity": 5000,
+              "Date": "2026-10-27T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A-R(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHARLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-RLFSN?qs=MeCAwI9ZxERbqmpWPySklA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "3",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 1000,
+              "Date": "2026-10-20T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A-E(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHAELFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-ELFSN?qs=6avfeC6zeS6F9qcXjxfCwA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 807,
+              "Date": "2026-11-24T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "27752 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/jstcommercial/images/B10B-XH-A-series_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-AM(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHAMLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.104",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.078",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.075",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.072",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.064",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-AMLFSN?qs=cdbOS8ANM9B1j44d7kpaHQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "27752",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "31583 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/jstcommercial/images/306-B3BXHALFSNP_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHALFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.079",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.059",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-ALFSN?qs=cdbOS8ANM9BVkoboCCIEMQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "31583",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 13000,
+              "Date": "2026-11-10T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Korea, Republic of"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A-GU",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3B-XH-A-GUP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.912",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.877",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.824",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.748",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.673",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.482",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-GU?qs=cIziFXvMxOVAckQWR%2FrlBA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 427,
+              "Date": "2026-11-03T00:00:00"
+            },
+            {
+              "Quantity": 2000,
+              "Date": "2026-11-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901900"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "441 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+          "Description": "Headers & Wire Housings XH HEADER (TOP)",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "B3B-XH-A-Y(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-B3BXHAYLFSNP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-YLFSN?qs=MeCAwI9ZxETBO3LEYU59kA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "441",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-11-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:23Z",
+    "manufacturer_part_number": "B3B-XH-A-BK(LF)(SN)",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 0.181,
+    "offers": [
+      {
+        "provider_part_number": "306-B3BXHABKLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.065,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHARLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.056,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAELFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAMLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 27752,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.104,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.078,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.075,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.072,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.064,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHALFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 31583,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.112,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.093,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.079,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.065,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.059,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.057,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3B-XH-A-GUP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.912,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.877,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.824,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.748,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.673,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.482,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAYLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 441,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.061,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.058,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.057,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 7,
+    "variation_count": 7,
+    "variations": [
+      {
+        "provider_part_number": "306-B3BXHABKLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.065,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHARLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.056,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAELFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.076,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.068,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAMLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 27752,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.104,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.078,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.075,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.072,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.064,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHALFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 31583,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.112,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.093,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.079,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.065,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.059,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.057,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3B-XH-A-GUP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.912,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.877,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.824,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.748,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.673,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.482,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "306-B3BXHAYLFSNP",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 441,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.118,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.061,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.058,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.057,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:23Z",
+    "manufacturer": "JST Commercial",
+    "manufacturer_part_number": "B3B-XH-A-BK(LF)(SN)",
+    "provider_part_number": "306-B3BXHABKLFSNP",
+    "description": "Headers & Wire Housings XH HEADER (TOP TYPE)",
+    "detailed_description": "Headers & Wire Housings XH HEADER (TOP TYPE)",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1070/1/eXH.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/B3B-XH-A-BKLFSN?qs=cIziFXvMxOXokbO08f3UqA%3D%3D",
+    "image_url": "",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

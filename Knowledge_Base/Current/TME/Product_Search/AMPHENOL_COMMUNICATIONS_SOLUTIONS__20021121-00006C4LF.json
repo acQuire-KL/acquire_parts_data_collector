@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "input_mpn": "20021121-00006C4LF",
+    "resolved_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "20021121-00006C4LF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112937,
+              "name": "Pin headers"
+            },
+            "manufacturer_symbols": [
+              "20021121-00006C4LF"
+            ],
+            "manufacturer": {
+              "id": 1718,
+              "name": "AMPHENOL COMMUNICATIONS SOLUTIONS"
+            },
+            "description": "Connector: pin strips; pin header; male; PIN: 6; SMT; Minitek127®",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.266,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 600
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/70/63/90/00/0/603655_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ad9b3af6b553b233b1c49560cd297a5160ed446a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/70/63/90/00/0/603655_1.jpg?width=100&height=75&q=75&ci_sign=d6bc2a28f49ed2cebfe9a5274c967145228b20f0",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/70/63/90/00/0/603655_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ac43dc773692a4d9a217dd4c0357e3ab7e8809c5"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

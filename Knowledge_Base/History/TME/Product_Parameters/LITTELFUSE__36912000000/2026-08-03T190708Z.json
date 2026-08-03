@@ -1,0 +1,140 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITTELFUSE",
+    "input_mpn": "36912000000",
+    "resolved_manufacturer": "LITTELFUSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "36912000000",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 454,
+                    "value": "LITTELFUSE"
+                  }
+                ]
+              },
+              {
+                "id": 617,
+                "name": "Type of fuse",
+                "values": [
+                  {
+                    "id": 1449024,
+                    "value": "fuse"
+                  }
+                ]
+              },
+              {
+                "id": 2628,
+                "name": "Kind of fuse",
+                "values": [
+                  {
+                    "id": 1449026,
+                    "value": "miniature"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1439726,
+                    "value": "2A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1477851,
+                    "value": "300V AC"
+                  }
+                ]
+              },
+              {
+                "id": 2629,
+                "name": "Fuse characteristics",
+                "values": [
+                  {
+                    "id": 1449028,
+                    "value": "time-lag"
+                  }
+                ]
+              },
+              {
+                "id": 688,
+                "name": "Fuse size",
+                "values": [
+                  {
+                    "id": 1512497,
+                    "value": "TE5"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1904942,
+                    "value": "369"
+                  }
+                ]
+              },
+              {
+                "id": 585,
+                "name": "Breaking capacity",
+                "values": [
+                  {
+                    "id": 1588233,
+                    "value": "50A"
+                  }
+                ]
+              },
+              {
+                "id": 586,
+                "name": "Max voltage drop",
+                "values": [
+                  {
+                    "id": 1449717,
+                    "value": "90mV"
+                  }
+                ]
+              },
+              {
+                "id": 31,
+                "name": "Terminal pitch",
+                "values": [
+                  {
+                    "id": 1437672,
+                    "value": "5.08mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

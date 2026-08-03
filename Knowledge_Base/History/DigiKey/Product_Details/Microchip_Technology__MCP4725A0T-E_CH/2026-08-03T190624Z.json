@@ -1,0 +1,540 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP4725A0T-E/CH",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "904"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC DAC 12BIT SOT-23-6",
+        "DetailedDescription": "12 Bit Digital to Analog Converter 1 SOT-23-6"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP4725A0T-E/CH",
+      "UnitPrice": 1.11,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP4725A0T-E-CH/1818537",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP4725-Data-Sheet-20002039E.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7180/MFG_150%7EC04-028%7ECH%2COT%7E6.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MCP4725A0T-E/CHTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.84817,
+              "TotalPrice": 2544.51
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 22175,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP4725A0T-E/CHCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.11,
+              "TotalPrice": 1.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.9368,
+              "TotalPrice": 23.42
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 22176,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP4725A0T-E/CHDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.11,
+              "TotalPrice": 1.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.9368,
+              "TotalPrice": 23.42
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 22176,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 22176,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5566805959001",
+      "Parameters": [
+        {
+          "ParameterId": 153,
+          "ParameterText": "Number of Bits",
+          "ParameterType": "String",
+          "ValueId": "80383",
+          "ValueText": "12"
+        },
+        {
+          "ParameterId": 1973,
+          "ParameterText": "Number of D/A Converters",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 997,
+          "ParameterText": "Settling Time",
+          "ParameterType": "String",
+          "ValueId": "254909",
+          "ValueText": "6µs (Typ)"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "420138",
+          "ValueText": "Voltage - Buffered"
+        },
+        {
+          "ParameterId": 1975,
+          "ParameterText": "Differential Output",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 243,
+          "ParameterText": "Data Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 245,
+          "ParameterText": "Reference Type",
+          "ParameterType": "String",
+          "ValueId": "409338",
+          "ValueText": "Supply"
+        },
+        {
+          "ParameterId": 346,
+          "ParameterText": "Voltage - Supply, Analog",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 347,
+          "ParameterText": "Voltage - Supply, Digital",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 1974,
+          "ParameterText": "INL/DNL (LSB)",
+          "ParameterType": "String",
+          "ValueId": "1691",
+          "ValueText": "±2, ±0.2"
+        },
+        {
+          "ParameterId": 1523,
+          "ParameterText": "Architecture",
+          "ParameterType": "String",
+          "ValueId": "409064",
+          "ValueText": "String DAC"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "405431",
+          "ValueText": "SOT-23-6"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405431",
+          "ValueText": "SOT-23-6"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 119996,
+        "Name": "MCP4725"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 701,
+                "ParentId": 2009,
+                "Name": "Digital to Analog Converters (DAC)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/505-SOT-23-8_1_tmb%2864x64%29.jpg",
+                "SeoDescription": "Digital-to-analog converters (DAC, D/A, D2A, or D-to-A) convert a digital signal into an analog buffered or unbuffered voltage or current. The suitability of a DACs architecture for a particular application is determined by resolution and sampling frequency. DACs are commonly used in music players to convert digital data streams into analog audio signals. They are also used in televisions and mobile phones to convert digital video data into analog video signals which connect to the screen drivers to display monochrome or color images.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "15",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0040"
+      },
+      "OtherNames": [
+        "MCP4725A0T-E/CHDKR",
+        "MCP4725AOT-E/CHDKR-ND",
+        "MCP4725A0T-E/CHCT",
+        "MCP4725A0T-E/CHTR",
+        "MCP4725A0TECH",
+        "MCP4725AOT-E/CHTR",
+        "MCP4725AOT-E/CHCT-ND",
+        "MCP4725AOT-E/CHTR-ND",
+        "MCP4725AOT-E/CHCT",
+        "MCP4725AOT-E/CHDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:24Z",
+    "manufacturer_part_number": "MCP4725A0T-E/CH",
+    "product_quantity_available": 22176,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "15",
+    "product_unit_price": 1.11,
+    "offers": [
+      {
+        "provider_part_number": "MCP4725A0T-E/CHCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22176,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.9368,
+            "total_price": 23.42
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP4725A0T-E/CHDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22176,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.9368,
+            "total_price": 23.42
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP4725A0T-E/CHTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 22175,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.84817,
+            "total_price": 2544.51
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "MCP4725A0T-E/CHCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22176,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.9368,
+            "total_price": 23.42
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP4725A0T-E/CHDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22176,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.11,
+            "total_price": 1.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.9368,
+            "total_price": 23.42
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP4725A0T-E/CHTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 22175,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.84817,
+            "total_price": 2544.51
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:24Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP4725A0T-E/CH",
+    "provider_part_number": "",
+    "description": "IC DAC 12BIT SOT-23-6",
+    "detailed_description": "12 Bit Digital to Analog Converter 1 SOT-23-6",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP4725-Data-Sheet-20002039E.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP4725A0T-E-CH/1818537",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7180/MFG_150%7EC04-028%7ECH%2COT%7E6.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SOT-23-6",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Bits": "12",
+      "Number of D/A Converters": "1",
+      "Settling Time": "6µs (Typ)",
+      "Output Type": "Voltage - Buffered",
+      "Differential Output": "No",
+      "Data Interface": "I2C",
+      "Reference Type": "Supply",
+      "Voltage - Supply, Analog": "2.7V ~ 5.5V",
+      "Voltage - Supply, Digital": "2.7V ~ 5.5V",
+      "INL/DNL (LSB)": "±2, ±0.2",
+      "Architecture": "String DAC",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Package / Case": "SOT-23-6",
+      "Supplier Device Package": "SOT-23-6",
+      "Mounting Type": "Surface Mount"
+    },
+    "compliance": {}
+  }
+}

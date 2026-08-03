@@ -1,0 +1,121 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:10:37Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0402FR-074K7L",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "RC0402FR-074K7",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "RC0402FR-074K7L"
+            ],
+            "manufacturer": {
+              "id": 442,
+              "name": "YAGEO"
+            },
+            "description": "Resistor: thick film; 4.7kΩ; SMD; 0402; 62.5mW; ±1%; RC; 50V",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.006,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 10000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d0bdd3d0f231651358ddf6993654158bd74e6086",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=100&height=75&q=75&ci_sign=0ee8ed7594908e1bc3d280cde140420998652fca",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=6f6ad18f06d20e07c8bd7479c355486c0d8f38f2"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "SMD0402-4K7-1%",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "0402WGF4701TCE"
+            ],
+            "manufacturer": {
+              "id": 145,
+              "name": "ROYALOHM"
+            },
+            "description": "Resistor: thick film; 4.7kΩ; SMD; 0402; 62.5mW; ±1%; 50V; -55÷155°C",
+            "multiples": 100,
+            "minimal_amount": 100,
+            "weight": {
+              "value": 0.007,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 10000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d0bdd3d0f231651358ddf6993654158bd74e6086",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=100&height=75&q=75&ci_sign=0ee8ed7594908e1bc3d280cde140420998652fca",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/C2/B0/00/0/732317_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=6f6ad18f06d20e07c8bd7479c355486c0d8f38f2"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

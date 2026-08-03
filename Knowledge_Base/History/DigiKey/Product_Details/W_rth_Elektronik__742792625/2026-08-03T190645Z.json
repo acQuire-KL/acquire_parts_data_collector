@@ -1,0 +1,610 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:45Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "742792625",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "897"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FERRITE BEAD 120 OHM 0603 1LN",
+        "DetailedDescription": "120 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "742792625",
+      "UnitPrice": 0.16,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/742792625/4310426",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/742792625.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/1918_0603%281608%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-4665-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.0839,
+              "TotalPrice": 335.6
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 55000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4665-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.16,
+              "TotalPrice": 0.16
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1566,
+              "TotalPrice": 7.83
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1443,
+              "TotalPrice": 14.43
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.13816,
+              "TotalPrice": 69.08
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.13116,
+              "TotalPrice": 131.16
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.12504,
+              "TotalPrice": 250.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 55381,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4665-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.16,
+              "TotalPrice": 0.16
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1566,
+              "TotalPrice": 7.83
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1443,
+              "TotalPrice": 14.43
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.13816,
+              "TotalPrice": 69.08
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.13116,
+              "TotalPrice": 131.16
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.12504,
+              "TotalPrice": 250.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 55381,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 55381,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5335795133001",
+      "Parameters": [
+        {
+          "ParameterId": 21,
+          "ParameterText": "Filter Type",
+          "ParameterType": "String",
+          "ValueId": "402741",
+          "ValueText": "Signal Line"
+        },
+        {
+          "ParameterId": 2169,
+          "ParameterText": "Number of Lines",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 2280,
+          "ParameterText": "Impedance @ Frequency",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "120 Ohms @ 100 MHz",
+          "ValueText": "120 Ohms @ 100 MHz"
+        },
+        {
+          "ParameterId": 1923,
+          "ParameterText": "Current Rating (Max)",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "238333",
+          "ValueText": "50mOhm"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "6219",
+          "ValueText": "0.039\" (1.00mm)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 841,
+            "ParentId": 36,
+            "Name": "Ferrite Beads and Chips",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/281/882/MPZ2012xxxxxxxx_tmb.jpg",
+            "SeoDescription": "Ferrite cores are devices that are designed to prevent high frequency noise or EMI (electromagnetic interference). These ferrite cores are made to be placed within an electric circuit. Key characteristics are the filter type (differential, signal, or power), number of lines, max current rating, impedance and a specified frequency, and mounting type (free hanging, surface mount, or through-hole).",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "33",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 4369,
+        "Name": "WE-CBF"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8548.00.0000"
+      },
+      "OtherNames": [
+        "732-4665-1",
+        "732-4665-2",
+        "732-4665-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:45Z",
+    "manufacturer_part_number": "742792625",
+    "product_quantity_available": 55381,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "33",
+    "product_unit_price": 0.16,
+    "offers": [
+      {
+        "provider_part_number": "732-4665-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55381,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.16,
+            "total_price": 0.16
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1566,
+            "total_price": 7.83
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1443,
+            "total_price": 14.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13816,
+            "total_price": 69.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13116,
+            "total_price": 131.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.12504,
+            "total_price": 250.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4665-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55381,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.16,
+            "total_price": 0.16
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1566,
+            "total_price": 7.83
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1443,
+            "total_price": 14.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13816,
+            "total_price": 69.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13116,
+            "total_price": 131.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.12504,
+            "total_price": 250.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4665-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 55000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.0839,
+            "total_price": 335.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-4665-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55381,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.16,
+            "total_price": 0.16
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1566,
+            "total_price": 7.83
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1443,
+            "total_price": 14.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13816,
+            "total_price": 69.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13116,
+            "total_price": 131.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.12504,
+            "total_price": 250.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4665-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55381,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.16,
+            "total_price": 0.16
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1566,
+            "total_price": 7.83
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1443,
+            "total_price": 14.43
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.13816,
+            "total_price": 69.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13116,
+            "total_price": 131.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.12504,
+            "total_price": 250.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4665-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 55000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.0839,
+            "total_price": 335.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:45Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "742792625",
+    "provider_part_number": "",
+    "description": "FERRITE BEAD 120 OHM 0603 1LN",
+    "detailed_description": "120 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/742792625.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/742792625/4310426",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/1918_0603%281608%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Filter Type": "Signal Line",
+      "Number of Lines": "1",
+      "Impedance @ Frequency": "120 Ohms @ 100 MHz",
+      "Current Rating (Max)": "2A",
+      "DC Resistance (DCR) (Max)": "50mOhm",
+      "Ratings": "AEC-Q200",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Package / Case": "0603 (1608 Metric)",
+      "Mounting Type": "Surface Mount",
+      "Height (Max)": "0.039\" (1.00mm)",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:06:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "MMSD914T1G",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 345,
+          "symbol": "MMSD914T1G",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.1196,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.0744,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.0592,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.05,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.0426,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.0351,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.0307,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0262,
+                "special": false
+              },
+              {
+                "amount": 3000,
+                "price": 0.0215,
+                "special": false
+              },
+              {
+                "amount": 6000,
+                "price": 0.0194,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

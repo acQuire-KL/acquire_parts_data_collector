@@ -1,0 +1,158 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "LM311DR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LM311DR",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1444213,
+                    "value": "comparator"
+                  }
+                ]
+              },
+              {
+                "id": 2421,
+                "name": "Kind of comparator",
+                "values": [
+                  {
+                    "id": 1499665,
+                    "value": "universal"
+                  }
+                ]
+              },
+              {
+                "id": 403,
+                "name": "Number of comparators",
+                "values": [
+                  {
+                    "id": 1541650,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 428,
+                "name": "Delay time",
+                "values": [
+                  {
+                    "id": 1499632,
+                    "value": "115ns"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1441256,
+                    "value": "SO8"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 404,
+                "name": "Input offset voltage",
+                "values": [
+                  {
+                    "id": 1444221,
+                    "value": "10mV"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 3025,
+                "name": "Input offset current",
+                "values": [
+                  {
+                    "id": 1700093,
+                    "value": "70nA"
+                  }
+                ]
+              },
+              {
+                "id": 3175,
+                "name": "Voltage supply range",
+                "values": [
+                  {
+                    "id": 1902399,
+                    "value": "± 1.75...15V DC"
+                  },
+                  {
+                    "id": 1902400,
+                    "value": "3.5...30V DC"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

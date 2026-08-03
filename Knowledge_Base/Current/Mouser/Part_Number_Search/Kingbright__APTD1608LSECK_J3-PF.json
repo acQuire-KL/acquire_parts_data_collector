@@ -1,0 +1,340 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Kingbright",
+    "input_mpn": "APTD1608LSECK/J3-PF",
+    "resolved_manufacturer": "Kingbright",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "26600 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/308/1/APTD1608LSECK_J3_PF.pdf",
+          "Description": "Single Colour LEDs 1.6X0.8MM DOME LENS LOW CURRENT SMD",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kingbright/images/APTD1608123_SPL.jpg",
+          "Category": "Single Colour LEDs",
+          "LeadTime": "64 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Kingbright",
+          "ManufacturerPartNumber": "APTD1608LSECK/J3-PF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "604-APTD1608LSECKJ3F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.306",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.22",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.169",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.157",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.143",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.13",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Kingbright/APTD1608LSECK-J3-PF?qs=6oMev5NRZMF205XngnIJQg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.26796001e-06
+          },
+          "AvailabilityInStock": "26600",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541401000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541410090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541410000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541410000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854141000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541410100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85414011"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "manufacturer_part_number": "APTD1608LSECK/J3-PF",
+    "product_quantity_available": 26600,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "64 Days",
+    "product_unit_price": 0.404,
+    "offers": [
+      {
+        "provider_part_number": "604-APTD1608LSECKJ3F",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 26600,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.306,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.22,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.169,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.157,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.143,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.132,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.13,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "604-APTD1608LSECKJ3F",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 26600,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.306,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.22,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.169,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.157,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.143,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.132,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.13,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "manufacturer": "Kingbright",
+    "manufacturer_part_number": "APTD1608LSECK/J3-PF",
+    "provider_part_number": "604-APTD1608LSECKJ3F",
+    "description": "Single Colour LEDs 1.6X0.8MM DOME LENS LOW CURRENT SMD",
+    "detailed_description": "Single Colour LEDs 1.6X0.8MM DOME LENS LOW CURRENT SMD",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/308/1/APTD1608LSECK_J3_PF.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Kingbright/APTD1608LSECK-J3-PF?qs=6oMev5NRZMF205XngnIJQg%3D%3D",
+    "image_url": "https://www.mouser.com/images/kingbright/images/APTD1608123_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8541401000",
+      "CNHTS": "8541410090",
+      "CAHTS": "8541410000",
+      "USHTS": "8541410000",
+      "JPHTS": "854141000",
+      "MXHTS": "8541410100",
+      "BRHTS": "85414011",
+      "ECCN": "EAR99"
+    }
+  }
+}

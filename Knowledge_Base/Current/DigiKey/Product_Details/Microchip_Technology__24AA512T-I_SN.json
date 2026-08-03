@@ -1,0 +1,505 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:33Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "24AA512T-I/SN",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "853"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC EEPROM 512KBIT I2C 8SOIC",
+        "DetailedDescription": "EEPROM Memory IC 512Kbit I2C 400 kHz 900 ns 8-SOIC"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "24AA512T-I/SN",
+      "UnitPrice": 1.72,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/24AA512T-I-SN/2202079",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/en/DeviceDoc/24AA512-24LC512-24FC512-512K-Bit-I2C-Serial-EEPROM-20001754Q.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "24AA512T-I/SNTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3300,
+              "UnitPrice": 1.57917,
+              "TotalPrice": 5211.261
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3300,
+          "StandardPackage": 3300,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "24AA512T-I/SNCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.72,
+              "TotalPrice": 1.72
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 2516,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "24AA512T-I/SNDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.72,
+              "TotalPrice": 1.72
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 2516,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 2516,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2697,
+          "ParameterText": "DigiKey Programmable",
+          "ParameterType": "String",
+          "ValueId": "750491",
+          "ValueText": "Not Verified"
+        },
+        {
+          "ParameterId": 149,
+          "ParameterText": "Memory Type",
+          "ParameterType": "String",
+          "ValueId": "380462",
+          "ValueText": "Non-Volatile"
+        },
+        {
+          "ParameterId": 961,
+          "ParameterText": "Memory Format",
+          "ParameterType": "String",
+          "ValueId": "343202",
+          "ValueText": "EEPROM"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "343202",
+          "ValueText": "EEPROM"
+        },
+        {
+          "ParameterId": 142,
+          "ParameterText": "Memory Size",
+          "ParameterType": "String",
+          "ValueId": "720430",
+          "ValueText": "512Kbit"
+        },
+        {
+          "ParameterId": 2689,
+          "ParameterText": "Memory Organization",
+          "ParameterType": "String",
+          "ValueId": "261535",
+          "ValueText": "64K x 8"
+        },
+        {
+          "ParameterId": 2043,
+          "ParameterText": "Memory Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 800,
+          "ParameterText": "Clock Frequency",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "400 kHz",
+          "ValueText": "400 kHz"
+        },
+        {
+          "ParameterId": 2042,
+          "ParameterText": "Write Cycle Time - Word, Page",
+          "ParameterType": "String",
+          "ValueId": "248894",
+          "ValueText": "5ms"
+        },
+        {
+          "ParameterId": 2192,
+          "ParameterText": "Access Time",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "900 ns",
+          "ValueText": "900 ns"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "59589",
+          "ValueText": "1.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212621",
+          "ValueText": "-40°C ~ 85°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "294928",
+          "ValueText": "8-SOIC (0.154\", 3.90mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294926",
+          "ValueText": "8-SOIC"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 20474,
+        "Name": "24AA512"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2020,
+            "ParentId": 32,
+            "Name": "Memory",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/133/822/MT29F4G-48TSOP_tmb.jpg",
+            "SeoDescription": "Memory is a semiconductor device that is used as data storage device on an integrated circuit. These devices are available in several formats CBRAM, DRAM, EEPROM, EERAM, EPROM, Flash, FRAM, NVSRAM, PCM (PRAM), PSRAM, RAM, and SRAM in either Non-Volatile or Volatile. These devices memory sizes range from 64 b to 6 Tb with the interface being I2C, MMC, Parallel, eMMC, Serial, Single Wire, SPI, UFS, Xccela Bus, and 1-Wire.",
+            "ChildCategories": [
+              {
+                "CategoryId": 774,
+                "ParentId": 2020,
+                "Name": "Memory",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/069/1052%3B-153BGA-1-11.5x13%3B-C%3B-153_B_tmb.jpg",
+                "SeoDescription": "Memory is a semiconductor device that is used as data storage device on an integrated circuit. These devices are available in several formats CBRAM, DRAM, EEPROM, EERAM, EPROM, Flash, FRAM, NVSRAM, PCM (PRAM), PSRAM, RAM, and SRAM in either Non-Volatile or Volatile. These devices memory sizes range from 64 b to 6 Tb with the interface being I2C, MMC, Parallel, eMMC, Serial, Single Wire, SPI, UFS, Xccela Bus, and 1-Wire.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "7",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.32.0051"
+      },
+      "OtherNames": [
+        "6196-24AA512T-I/SN",
+        "24AA512T-I/SN-ND",
+        "24AA512T-I/SNCT",
+        "24AA512T-I/SNTR",
+        "24AA512T-I/SNDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:33Z",
+    "manufacturer_part_number": "24AA512T-I/SN",
+    "product_quantity_available": 2516,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "7",
+    "product_unit_price": 1.72,
+    "offers": [
+      {
+        "provider_part_number": "24AA512T-I/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2516,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.72,
+            "total_price": 1.72
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "24AA512T-I/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2516,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.72,
+            "total_price": 1.72
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "24AA512T-I/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.57917,
+            "total_price": 5211.261
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "24AA512T-I/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2516,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.72,
+            "total_price": 1.72
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "24AA512T-I/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2516,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.72,
+            "total_price": 1.72
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "24AA512T-I/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.57917,
+            "total_price": 5211.261
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:33Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "24AA512T-I/SN",
+    "provider_part_number": "",
+    "description": "IC EEPROM 512KBIT I2C 8SOIC",
+    "detailed_description": "EEPROM Memory IC 512Kbit I2C 400 kHz 900 ns 8-SOIC",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/24AA512-24LC512-24FC512-512K-Bit-I2C-Serial-EEPROM-20001754Q.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/24AA512T-I-SN/2202079",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-SOIC (0.154\", 3.90mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "DigiKey Programmable": "Not Verified",
+      "Memory Type": "Non-Volatile",
+      "Memory Format": "EEPROM",
+      "Technology": "EEPROM",
+      "Memory Size": "512Kbit",
+      "Memory Organization": "64K x 8",
+      "Memory Interface": "I2C",
+      "Clock Frequency": "400 kHz",
+      "Write Cycle Time - Word, Page": "5ms",
+      "Access Time": "900 ns",
+      "Voltage - Supply": "1.7V ~ 5.5V",
+      "Operating Temperature": "-40°C ~ 85°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-SOIC (0.154\", 3.90mm Width)",
+      "Supplier Device Package": "8-SOIC"
+    },
+    "compliance": {}
+  }
+}

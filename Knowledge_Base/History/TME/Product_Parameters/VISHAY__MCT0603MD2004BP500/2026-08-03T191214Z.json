@@ -1,0 +1,180 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:14Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "VISHAY",
+    "input_mpn": "MCT0603MD2004BP500",
+    "resolved_manufacturer": "VISHAY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MCT0603MD2004BP500",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 36,
+                    "value": "VISHAY"
+                  }
+                ]
+              },
+              {
+                "id": 34,
+                "name": "Type of resistor",
+                "values": [
+                  {
+                    "id": 1510158,
+                    "value": "thin film"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1436727,
+                    "value": "2MΩ"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620227,
+                    "value": "0603"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620228,
+                    "value": "1608"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1702236,
+                    "value": "0.21W"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819346,
+                    "value": "±0.1%"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2048197,
+                    "value": "MCT0603"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 2041048,
+                    "value": "M"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1529974,
+                    "value": "75V"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819356,
+                    "value": "-55...175°C"
+                  }
+                ]
+              },
+              {
+                "id": 44,
+                "name": "Temperature coefficient",
+                "values": [
+                  {
+                    "id": 1495000,
+                    "value": "25ppm/°C"
+                  }
+                ]
+              },
+              {
+                "id": 436,
+                "name": "Conform to the norm",
+                "values": [
+                  {
+                    "id": 1617448,
+                    "value": "AEC-Q200"
+                  }
+                ]
+              },
+              {
+                "id": 726,
+                "name": "Roll diameter max.",
+                "values": [
+                  {
+                    "id": 2037643,
+                    "value": "180mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

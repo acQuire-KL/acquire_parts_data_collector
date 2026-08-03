@@ -1,0 +1,1061 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:09Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "CUI Inc.",
+    "input_mpn": "PSK-4-5",
+    "resolved_manufacturer": "CUI Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 8,
+      "Parts": [
+        {
+          "Availability": "34 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Board Mount ac-dc, 4W, 5 Vdc, single output, encapsulated",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/PSK-4-series_SPL.jpg",
+          "Category": "Power Supplies - Board Mount",
+          "LeadTime": "91 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-4-5",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-4-5",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "22"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€16.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€16.59",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€16.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 22,
+              "Price": "€15.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 44,
+              "Price": "€12.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 110,
+              "Price": "€12.38",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 220,
+              "Price": "€12.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 440,
+              "Price": "€11.98",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-4-5?qs=Jm2GQyTW%2FbhfdAavJlLUBw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "34",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "27 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - DIN Rail Mount The factory is currently not accepting orders for this product.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12-din_SPL.jpg",
+          "Category": "Power Supplies - DIN Rail Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-12-DIN",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-12-DIN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€29.58",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8,
+              "Price": "€26.41",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24,
+              "Price": "€24.75",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 56,
+              "Price": "€18.40",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-12-DIN?qs=yqaQSyyJnNhWb3WS0XMxug%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "490-PSK-S60B-12",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "27",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Chassis Mount The factory is currently not accepting orders for this product.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12-t_SPL.jpg",
+          "Category": "Power Supplies - Chassis Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-24-T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-24-T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€26.16",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€23.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8,
+              "Price": "€23.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24,
+              "Price": "€18.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 56,
+              "Price": "€17.40",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 104,
+              "Price": "€16.77",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 256,
+              "Price": "€16.62",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 504,
+              "Price": "€16.52",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-24-T?qs=yqaQSyyJnNhDzsorrnCDAA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "490-PSK-40E-24",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "4",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "9 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Board Mount The factory is currently not accepting orders for this product.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12_SPL.jpg",
+          "Category": "Power Supplies - Board Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-48",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-48",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€14.65",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€14.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€14.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 30,
+              "Price": "€13.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 60,
+              "Price": "€12.98",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 105,
+              "Price": "€12.56",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 255,
+              "Price": "€12.19",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 510,
+              "Price": "€11.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1005,
+              "Price": "€11.94",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-48?qs=yqaQSyyJnNiF5T0Mn%2Fz9mw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "490-PSK-40E-48",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "9",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "7 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Chassis Mount 15 Vdc, 3 A, 45 W",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12-t_SPL.jpg",
+          "Category": "Power Supplies - Chassis Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-15-T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-15-T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€18.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€16.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8,
+              "Price": "€16.91",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24,
+              "Price": "€16.65",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 56,
+              "Price": "€16.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 104,
+              "Price": "€16.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 256,
+              "Price": "€16.03",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 504,
+              "Price": "€15.86",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-15-T?qs=yqaQSyyJnNgDWQrd5%252BzycQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "490-PSK-40E-15",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "7",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "7 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Chassis Mount The factory is currently not accepting orders for this product.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12-t_SPL.jpg",
+          "Category": "Power Supplies - Chassis Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-12-T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-12-T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€18.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€16.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8,
+              "Price": "€16.59",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24,
+              "Price": "€16.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 56,
+              "Price": "€16.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 104,
+              "Price": "€16.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 256,
+              "Price": "€15.88",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 504,
+              "Price": "€15.70",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-12-T?qs=yqaQSyyJnNgZS%2F%252B9019WvQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "490-PSK-40E-12",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "7",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "62 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - Board Mount 12 Vdc, 3.8 A, 45.6 W",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12_SPL.jpg",
+          "Category": "Power Supplies - Board Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-12",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-12",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€14.65",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€14.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€14.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 30,
+              "Price": "€13.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 60,
+              "Price": "€12.98",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 105,
+              "Price": "€12.56",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 255,
+              "Price": "€12.19",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 510,
+              "Price": "€11.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1005,
+              "Price": "€11.94",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-12?qs=yqaQSyyJnNjFbcsgglJDHA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "490-PSK-40E-12",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "62",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8504401400"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Supplies - DIN Rail Mount The factory is currently not accepting orders for this product.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/cuiinc/images/psk-45-12-din_SPL.jpg",
+          "Category": "Power Supplies - DIN Rail Mount",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "CUI Inc.",
+          "ManufacturerPartNumber": "PSK-45-5-DIN",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "490-PSK-45-5-DIN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€19.60",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 504,
+              "Price": "€19.59",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-45-5-DIN?qs=yqaQSyyJnNg5b0zxewfnDg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "3",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Product available only to OEM/EMS and design business customers. Product is not shipped to consumers in the EU or the UK"
+          ],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504408390"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504409093"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504409510"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504401090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:09Z",
+    "manufacturer_part_number": "PSK-4-5",
+    "product_quantity_available": 34,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "91 Days",
+    "product_unit_price": 16.8,
+    "offers": [
+      {
+        "provider_part_number": "490-PSK-4-5",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 34,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 16.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 16.59,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 16.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 22,
+            "unit_price": 15.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 44,
+            "unit_price": 12.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 110,
+            "unit_price": 12.38,
+            "total_price": null
+          },
+          {
+            "break_quantity": 220,
+            "unit_price": 12.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 440,
+            "unit_price": 11.98,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "490-PSK-4-5",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 34,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 16.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 16.59,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 16.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 22,
+            "unit_price": 15.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 44,
+            "unit_price": 12.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 110,
+            "unit_price": 12.38,
+            "total_price": null
+          },
+          {
+            "break_quantity": 220,
+            "unit_price": 12.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 440,
+            "unit_price": 11.98,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:09Z",
+    "manufacturer": "CUI Inc.",
+    "manufacturer_part_number": "PSK-4-5",
+    "provider_part_number": "490-PSK-4-5",
+    "description": "Power Supplies - Board Mount ac-dc, 4W, 5 Vdc, single output, encapsulated",
+    "detailed_description": "Power Supplies - Board Mount ac-dc, 4W, 5 Vdc, single output, encapsulated",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/CUI-Inc/PSK-4-5?qs=Jm2GQyTW%2FbhfdAavJlLUBw%3D%3D",
+    "image_url": "https://www.mouser.com/images/cuiinc/images/PSK-4-series_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tube",
+      "Standard Pack Qty": "22"
+    },
+    "compliance": {
+      "TARIC": "8504408390",
+      "CAHTS": "8504409093",
+      "USHTS": "8504409510",
+      "KRHTS": "8504401090",
+      "ECCN": "EAR99"
+    }
+  }
+}

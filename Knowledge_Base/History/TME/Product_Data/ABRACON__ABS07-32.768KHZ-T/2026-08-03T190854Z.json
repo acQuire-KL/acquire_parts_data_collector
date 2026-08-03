@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:08:54Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ABRACON",
+    "input_mpn": "ABS07-32.768KHZ-T",
+    "resolved_manufacturer": "ABRACON",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 14178,
+          "symbol": "ABS07-32.768KHZ",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.349,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.255,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.239,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.232,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.225,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.215,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.209,
+                "special": false
+              },
+              {
+                "amount": 3000,
+                "price": 0.199,
+                "special": false
+              },
+              {
+                "amount": 6000,
+                "price": 0.197,
+                "special": false
+              },
+              {
+                "amount": 9000,
+                "price": 0.195,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

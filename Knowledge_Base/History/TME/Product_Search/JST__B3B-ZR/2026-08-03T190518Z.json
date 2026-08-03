@@ -1,0 +1,171 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:18Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "JST",
+    "input_mpn": "B3B-ZR",
+    "resolved_manufacturer": "JST",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "B3B-ZR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112948,
+              "name": "Raster signal connectors 1,50mm"
+            },
+            "manufacturer_symbols": [
+              "B3B-ZR (LF)(SN)"
+            ],
+            "manufacturer": {
+              "id": 475,
+              "name": "JST"
+            },
+            "description": "Connector: wire-board; socket; male; PIN: 3; ZH; 1A; 50V; vertical",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.092,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/23/45/40/00/1/283698_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=23d5a95cc43d6229b86f4d9148004260fcc64911",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/23/45/40/00/1/283698_1.jpg?width=100&height=75&q=75&ci_sign=089fcaee80bbbf762cbaedc9c9014b6762823f9b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/23/45/40/00/1/283698_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b11df4350474f658f0a9f6dfdc915274c4aa77c0"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "B3B-ZR-SM4-TF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112948,
+              "name": "Raster signal connectors 1,50mm"
+            },
+            "manufacturer_symbols": [
+              "B3B-ZR-SM4-TF (LF)(SN)"
+            ],
+            "manufacturer": {
+              "id": 475,
+              "name": "JST"
+            },
+            "description": "Connector: wire-board; socket; male; PIN: 3; ZH; 1A; 50V; vertical",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.258,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/45/40/00/0/283697_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9710d61a38ed970b4b095cf1b92212d8a309a19a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/45/40/00/0/283697_1.jpg?width=100&height=75&q=75&ci_sign=65fe3c7bf74ef00ee137f1ed800f00426daea0a2",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/45/40/00/0/283697_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=480248f21088b736b3151522be5f4389e62a72a3"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "B3B-ZR-SM4-TFT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112948,
+              "name": "Raster signal connectors 1,50mm"
+            },
+            "manufacturer_symbols": [
+              "B3B-ZR-SM4-TFT (LF)(SN)",
+              "657518-00"
+            ],
+            "manufacturer": {
+              "id": 475,
+              "name": "JST"
+            },
+            "description": "Connector: wire-board; socket; male; PIN: 3; ZH; 1A; 50V; vertical",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 0.3,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/2B/11/00/0/1159732_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8ea15d8fb5a7064d8bc0bff9bfbbc44256c3d900",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/2B/11/00/0/1159732_1.jpg?width=100&height=75&q=75&ci_sign=7f9f80fe9f3523b8431ce24d48d4ea644ffee7da",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/43/2B/11/00/0/1159732_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=e9162dbd197d41b3417e9c5b84c1d99a03c8d46d"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

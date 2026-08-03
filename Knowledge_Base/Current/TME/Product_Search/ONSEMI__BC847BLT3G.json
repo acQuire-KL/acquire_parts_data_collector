@@ -1,0 +1,119 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:51Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "BC847BLT3G",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "BC847BLT3G",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112833,
+              "name": "NPN SMD transistors"
+            },
+            "manufacturer_symbols": [
+              "BC847BLT3G"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Transistor: NPN; bipolar; 45V; 0.1A; 0.225W; SOT23,TO236AB",
+            "multiples": 10000,
+            "minimal_amount": 10000,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 10000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=53a9483b00423785bfa262542fe924f68ccc28c8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=100&height=75&q=75&ci_sign=80feb935007a89ef09e1b01ec813a442e73a913a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ae045b98c56bfe99eb0678181e28b971187e8be"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "NSVBC847BLT3G",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112833,
+              "name": "NPN SMD transistors"
+            },
+            "manufacturer_symbols": [
+              "NSVBC847BLT3G"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Transistor: NPN; bipolar; 45V; 0.1A; 0.225W; SOT23,TO236AB",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.01,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/E6/61/00/0/1470137_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=dc87ae2fd30f5089e924847ef067c8e7881b44ff",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/E6/61/00/0/1470137_1.jpg?width=100&height=75&q=75&ci_sign=2bc0fa41b8fc9fec7ddbee7692de2b99e25f108a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

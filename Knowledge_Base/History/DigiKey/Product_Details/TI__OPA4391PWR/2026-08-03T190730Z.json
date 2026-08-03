@@ -1,0 +1,680 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:30Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "OPA4391PWR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "879"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "QUAD, MICROPOWER, HIGH SPEED-TO-",
+        "DetailedDescription": "Standard (General Purpose) Amplifier 4 Circuit Push-Pull, Rail-to-Rail 14-TSSOP"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "OPA4391PWR",
+      "UnitPrice": 3.07,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/OPA4391PWR/24421002",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8457/MFG_296%7E4040064-3%7EPW%7E14.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-OPA4391PWRTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 1.63591,
+              "TotalPrice": 4907.73
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-OPA4391PWRCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 3.07,
+              "TotalPrice": 3.07
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.307,
+              "TotalPrice": 23.07
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.116,
+              "TotalPrice": 52.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.9067,
+              "TotalPrice": 190.67
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.80688,
+              "TotalPrice": 451.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.78602,
+              "TotalPrice": 893.01
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 2304,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-OPA4391PWRDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 3.07,
+              "TotalPrice": 3.07
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.307,
+              "TotalPrice": 23.07
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.116,
+              "TotalPrice": 52.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.9067,
+              "TotalPrice": 190.67
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.80688,
+              "TotalPrice": 451.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.78602,
+              "TotalPrice": 893.01
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 2304,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 2304,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 161,
+          "ParameterText": "Amplifier Type",
+          "ParameterType": "String",
+          "ValueId": "863824",
+          "ValueText": "Standard (General Purpose)"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "4",
+          "ValueText": "4"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "390986",
+          "ValueText": "Push-Pull, Rail-to-Rail"
+        },
+        {
+          "ParameterId": 511,
+          "ParameterText": "Slew Rate",
+          "ParameterType": "String",
+          "ValueId": "121206",
+          "ValueText": "1V/µs"
+        },
+        {
+          "ParameterId": 658,
+          "ParameterText": "Gain Bandwidth Product",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 MHz",
+          "ValueText": "1 MHz"
+        },
+        {
+          "ParameterId": 974,
+          "ParameterText": "Current - Input Bias",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "0.01 pA",
+          "ValueText": "0.01 pA"
+        },
+        {
+          "ParameterId": 975,
+          "ParameterText": "Voltage - Input Offset",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "60 µV",
+          "ValueText": "60 µV"
+        },
+        {
+          "ParameterId": 449,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "String",
+          "ValueId": "826157",
+          "ValueText": "23.5µA (x4 Channels)"
+        },
+        {
+          "ParameterId": 2115,
+          "ParameterText": "Current - Output / Channel",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "60 mA",
+          "ValueText": "60 mA"
+        },
+        {
+          "ParameterId": 2609,
+          "ParameterText": "Voltage - Supply Span (Min)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.7 V",
+          "ValueText": "1.7 V"
+        },
+        {
+          "ParameterId": 2610,
+          "ParameterText": "Voltage - Supply Span (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5.5 V",
+          "ValueText": "5.5 V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212479",
+          "ValueText": "-40°C ~ 125°C (TA)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "97381",
+          "ValueText": "14-TSSOP (0.173\", 4.40mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "97379",
+          "ValueText": "14-TSSOP"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2018,
+            "ParentId": 32,
+            "Name": "Linear",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/156/264%7E11-10C4%7E%7E8_tmb.jpg",
+            "SeoDescription": "Linear circuits and component parameters remain unchanged in regard to voltage and current levels. Included in this category are amplifiers, OP Amps, video amps and modules, analog multipliers, dividers, comparators, video processing, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2034,
+                "ParentId": 2018,
+                "Name": "Amplifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/125/945/488%7E846A-02%7EDM%2C-CUA%2C-DMR2%2C-RM%7E8_tmb%2864x64%29.jpg",
+                "SeoDescription": "",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 687,
+                    "ParentId": 2034,
+                    "Name": "Instrumentation, Op Amps, Buffer Amps",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/280/629/296%3B-4040047-5%3B-D%3B-14_tmb.jpg",
+                    "SeoDescription": "Products in this family are used for the reproduction of analog signals with an attendant increase in amplitude, reduction of source impedance, and/or isolation of a signal source from a driven load, as well as performing mathematical operations on analog signals such as summation, negation, integration, etc. Instrumentation amplifiers, chopper stabilized/auto-zero/zero-drift amplifiers, and current feedback types are included.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 127309,
+        "Name": "OPAx391"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "2  (1 Year)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.33.0001"
+      },
+      "OtherNames": [
+        "296-OPA4391PWRCT",
+        "296-OPA4391PWRTR",
+        "296-OPA4391PWRDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:30Z",
+    "manufacturer_part_number": "OPA4391PWR",
+    "product_quantity_available": 2304,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 3.07,
+    "offers": [
+      {
+        "provider_part_number": "296-OPA4391PWRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2304,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.07,
+            "total_price": 3.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.307,
+            "total_price": 23.07
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.116,
+            "total_price": 52.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.9067,
+            "total_price": 190.67
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.80688,
+            "total_price": 451.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.78602,
+            "total_price": 893.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-OPA4391PWRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2304,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.07,
+            "total_price": 3.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.307,
+            "total_price": 23.07
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.116,
+            "total_price": 52.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.9067,
+            "total_price": 190.67
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.80688,
+            "total_price": 451.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.78602,
+            "total_price": 893.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-OPA4391PWRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.63591,
+            "total_price": 4907.73
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-OPA4391PWRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2304,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.07,
+            "total_price": 3.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.307,
+            "total_price": 23.07
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.116,
+            "total_price": 52.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.9067,
+            "total_price": 190.67
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.80688,
+            "total_price": 451.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.78602,
+            "total_price": 893.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-OPA4391PWRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2304,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.07,
+            "total_price": 3.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.307,
+            "total_price": 23.07
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.116,
+            "total_price": 52.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.9067,
+            "total_price": 190.67
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.80688,
+            "total_price": 451.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.78602,
+            "total_price": 893.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-OPA4391PWRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.63591,
+            "total_price": 4907.73
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:30Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "OPA4391PWR",
+    "provider_part_number": "",
+    "description": "QUAD, MICROPOWER, HIGH SPEED-TO-",
+    "detailed_description": "Standard (General Purpose) Amplifier 4 Circuit Push-Pull, Rail-to-Rail 14-TSSOP",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/OPA4391PWR/24421002",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8457/MFG_296%7E4040064-3%7EPW%7E14.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "14-TSSOP (0.173\", 4.40mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Amplifier Type": "Standard (General Purpose)",
+      "Number of Circuits": "4",
+      "Output Type": "Push-Pull, Rail-to-Rail",
+      "Slew Rate": "1V/µs",
+      "Gain Bandwidth Product": "1 MHz",
+      "Current - Input Bias": "0.01 pA",
+      "Voltage - Input Offset": "60 µV",
+      "Current - Supply": "23.5µA (x4 Channels)",
+      "Current - Output / Channel": "60 mA",
+      "Voltage - Supply Span (Min)": "1.7 V",
+      "Voltage - Supply Span (Max)": "5.5 V",
+      "Operating Temperature": "-40°C ~ 125°C (TA)",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "14-TSSOP (0.173\", 4.40mm Width)",
+      "Supplier Device Package": "14-TSSOP"
+    },
+    "compliance": {}
+  }
+}

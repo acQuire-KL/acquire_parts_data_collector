@@ -1,0 +1,443 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:09Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "T520D337M006ATE045",
+    "resolved_manufacturer": "KEMET",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "102 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/508/1/T520D337M006ATE045.pdf",
+          "Description": "Tantalum Capacitors - Polymer 6.3V 330uF 2917 20% ESR=45mOhms",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kemet/images/KEMET-KO-CAP_SPL.jpg",
+          "Category": "Tantalum Capacitors - Polymer",
+          "LeadTime": "308 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KEMET",
+          "ManufacturerPartNumber": "T520D337M006ATE045",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "80-T520D337M006",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.13",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.972",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.842",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.714",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "T520D337M006ATE0457280"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KEMET/T520D337M006ATE045?qs=DvBfZ8bnu98AcX0W%2Fj%2Fikw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "80-T520D337M06ATE045",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0006
+          },
+          "AvailabilityInStock": "102",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5500,
+              "Date": "2026-09-22T00:00:00"
+            },
+            {
+              "Quantity": 9000,
+              "Date": "2026-10-29T00:00:00"
+            },
+            {
+              "Quantity": 8000,
+              "Date": "2026-11-05T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322119"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Mexico"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/508/1/KEM_T2076_T52X_530.pdf",
+          "Description": "Tantalum Capacitors - Polymer 6.3V 330uF 20% ESR=45mOhms",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kemet/images/KEMET-KO-CAP_SPL.jpg",
+          "Category": "Tantalum Capacitors - Polymer",
+          "LeadTime": "175 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KEMET",
+          "ManufacturerPartNumber": "T520D337M006ATE0457280",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "80-T520D337M06ATE045",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.13",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.972",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.842",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.714",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.668",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.599",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "T520D337M006ATE045"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KEMET/T520D337M006ATE0457280?qs=ecuPef%2FthQhEmbYRCRRYcg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0006
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322119"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:09Z",
+    "manufacturer_part_number": "T520D337M006ATE045",
+    "product_quantity_available": 102,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "308 Days",
+    "product_unit_price": 1.64,
+    "offers": [
+      {
+        "provider_part_number": "80-T520D337M006",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 102,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.13,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.972,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.842,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.714,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "80-T520D337M006",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 102,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.13,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.972,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.842,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.714,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:09Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "T520D337M006ATE045",
+    "provider_part_number": "80-T520D337M006",
+    "description": "Tantalum Capacitors - Polymer 6.3V 330uF 2917 20% ESR=45mOhms",
+    "detailed_description": "Tantalum Capacitors - Polymer 6.3V 330uF 2917 20% ESR=45mOhms",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/508/1/T520D337M006ATE045.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/KEMET/T520D337M006ATE045?qs=DvBfZ8bnu98AcX0W%2Fj%2Fikw%3D%3D",
+    "image_url": "https://www.mouser.com/images/kemet/images/KEMET-KO-CAP_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "500"
+    },
+    "compliance": {
+      "TARIC": "8532210000",
+      "CNHTS": "8532211000",
+      "CAHTS": "8532210010",
+      "USHTS": "8532210050",
+      "JPHTS": "853221000",
+      "KRHTS": "8532210000",
+      "MXHTS": "8532210100",
+      "BRHTS": "85322119",
+      "ECCN": "EAR99"
+    }
+  }
+}

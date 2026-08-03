@@ -1,0 +1,68 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:07Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "TCA9548APWR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "TCA9548APWR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113424,
+              "name": "Decoders, multiplexers, switches"
+            },
+            "manufacturer_symbols": [
+              "TCA9548APWR"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: interface; I/O expander; IN: 8; SMD; TSSOP24; -40÷85°C; 400kHz",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.148,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/54/4B/61/00/0/1487941_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=53e7b9ee80fec3a51081b10fbb15dfaef567419c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/54/4B/61/00/0/1487941_1.jpg?width=100&height=75&q=75&ci_sign=7033bff0190b92de96e8afe65837a945c2f56895",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/54/4B/61/00/0/1487941_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b7329ac551b526b798caa339f345c7972eb02b9d"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

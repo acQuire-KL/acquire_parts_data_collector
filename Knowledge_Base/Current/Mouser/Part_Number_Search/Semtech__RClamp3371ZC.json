@@ -1,0 +1,604 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:13:21Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Semtech",
+    "input_mpn": "RClamp3371ZC",
+    "resolved_manufacturer": "Semtech",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "10000 In Stock",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes Femto Farad RailClamp 1-Line, 250fF ESD and EOS Protection",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/semtech/images/RCLAMP3371ZCTFT_SPL.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "35 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Semtech",
+          "ManufacturerPartNumber": "RCLAMP3371ZCTNT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "947-RCLAMP3371ZCTNT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.662",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.421",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.286",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.228",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.209",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.186",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.174",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Semtech/RCLAMP3371ZCTNT?qs=bZr6mbWTK5lvB49IgZSNtA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.5133e-05
+          },
+          "AvailabilityInStock": "10000",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "10806 In Stock",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes Femto Farad RailClamp 1-Line, 250fF ESD and EOS Protection",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/semtech/images/RCLAMP3371ZCTFT_SPL.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "24 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Semtech",
+          "ManufacturerPartNumber": "RCLAMP3371ZCTFT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "947-RCLAMP3371ZCTFT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.817",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.507",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.329",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.253",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.215",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.202",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 15000,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Semtech/RCLAMP3371ZCTFT?qs=55YtniHzbhAJYX2KWxFhdA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "10806",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 30000,
+              "Date": "2026-08-21T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:21Z",
+    "manufacturer_part_number": "RCLAMP3371ZCTNT",
+    "product_quantity_available": 10000,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "35 Days",
+    "product_unit_price": 0.662,
+    "offers": [
+      {
+        "provider_part_number": "947-RCLAMP3371ZCTNT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.421,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.286,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.228,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.209,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.186,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.174,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.172,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "947-RCLAMP3371ZCTFT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10806,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.817,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.507,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.329,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.253,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.215,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.202,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.183,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.172,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "947-RCLAMP3371ZCTNT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.421,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.286,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.228,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.209,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.186,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.174,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.172,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "947-RCLAMP3371ZCTFT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10806,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.817,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.507,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.329,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.253,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.215,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.202,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.183,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.172,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:13:21Z",
+    "manufacturer": "Semtech",
+    "manufacturer_part_number": "RCLAMP3371ZCTNT",
+    "provider_part_number": "947-RCLAMP3371ZCTNT",
+    "description": "ESD Protection Diodes / TVS Diodes Femto Farad RailClamp 1-Line, 250fF ESD and EOS Protection",
+    "detailed_description": "ESD Protection Diodes / TVS Diodes Femto Farad RailClamp 1-Line, 250fF ESD and EOS Protection",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Semtech/RCLAMP3371ZCTNT?qs=bZr6mbWTK5lvB49IgZSNtA%3D%3D",
+    "image_url": "https://www.mouser.com/images/semtech/images/RCLAMP3371ZCTFT_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "JPHTS": "854110090",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100199",
+      "BRHTS": "85411029",
+      "ECCN": "EAR99"
+    }
+  }
+}

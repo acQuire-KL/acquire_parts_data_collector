@@ -1,0 +1,346 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "CM1624-08DE",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "880"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FILTER RLC 40 OHMS /20NH ESD SMD",
+        "DetailedDescription": "RLC EMI Filter 3rd Order Low Pass 6 Channel R = 40Ohms, C = 12pF, L = 20nH 16-UFDFN Exposed Pad"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "CM1624-08DE",
+      "UnitPrice": 0.32058,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/CM1624-08DE/2401274",
+      "DatasheetUrl": "https://www.onsemi.com/pub/Collateral/CM1624-D.PDF",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2400/16-UFDFN%20Exposed%20Pad%20%280.55mm%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "CM1624-08DEOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.32058,
+              "TotalPrice": 961.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 1,
+        "Status": "Obsolete"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "366875",
+          "ValueText": "Low Pass"
+        },
+        {
+          "ParameterId": 375,
+          "ParameterText": "Filter Order",
+          "ParameterType": "String",
+          "ValueId": "202531",
+          "ValueText": "3rd"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "397241",
+          "ValueText": "RLC"
+        },
+        {
+          "ParameterId": 2093,
+          "ParameterText": "Number of Channels",
+          "ParameterType": "Double",
+          "ValueId": "6",
+          "ValueText": "6"
+        },
+        {
+          "ParameterId": 600,
+          "ParameterText": "Center / Cutoff Frequency",
+          "ParameterType": "String",
+          "ValueId": "182368",
+          "ValueText": "300MHz (Cutoff)"
+        },
+        {
+          "ParameterId": 331,
+          "ParameterText": "Attenuation Value",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1540,
+          "ParameterText": "Resistance - Channel (Ohms)",
+          "ParameterType": "String",
+          "ValueId": "211651",
+          "ValueText": "40"
+        },
+        {
+          "ParameterId": 300,
+          "ParameterText": "Values",
+          "ParameterType": "String",
+          "ValueId": "391899",
+          "ValueText": "R = 40Ohms, C = 12pF, L = 20nH"
+        },
+        {
+          "ParameterId": 1541,
+          "ParameterText": "ESD Protection",
+          "ParameterType": "String",
+          "ValueId": "423329",
+          "ValueText": "Yes"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "337227",
+          "ValueText": "Data Lines for Mobile Devices"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "108717",
+          "ValueText": "16-UFDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "11199",
+          "ValueText": "0.130\" L x 0.053\" W (3.30mm x 1.35mm)"
+        },
+        {
+          "ParameterId": 329,
+          "ParameterText": "Height",
+          "ParameterType": "String",
+          "ValueId": "5314",
+          "ValueText": "0.022\" (0.55mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 153098,
+        "Name": "CM1624"
+      },
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 835,
+            "ParentId": 36,
+            "Name": "EMI/RFI Filters (LC, RC Networks)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/318/467/BNX002-01_tmb%2864x64%29.jpg",
+            "SeoDescription": "Products in this family integrate several passive components into a single device in a manner designed to yield a frequency dependent opposition to current flow. Though other types are available, a majority of them are of a low-pass type used to suppress the unwanted transmission of high frequency signals, which might otherwise cause interference or undesired operation.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": "2024-03-22T05:00:00+00:00",
+      "ManufacturerLeadWeeks": "24",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8548.00.0000"
+      },
+      "OtherNames": [
+        "ONSONSCM1624-08DE",
+        "Q8442531Z",
+        "CM1624-08DE-ND",
+        "2832-CM1624-08DE",
+        "CM162408DE",
+        "CM1624-08DEOSCT",
+        "CM1624-08DEOSTR",
+        "CM1624-08DEOSDKR",
+        "2156-CM1624-08DE-OS"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "manufacturer_part_number": "CM1624-08DE",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "24",
+    "product_unit_price": 0.32058,
+    "offers": [
+      {
+        "provider_part_number": "CM1624-08DEOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32058,
+            "total_price": 961.74
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "CM1624-08DEOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32058,
+            "total_price": 961.74
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:27Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "CM1624-08DE",
+    "provider_part_number": "",
+    "description": "FILTER RLC 40 OHMS /20NH ESD SMD",
+    "detailed_description": "RLC EMI Filter 3rd Order Low Pass 6 Channel R = 40Ohms, C = 12pF, L = 20nH 16-UFDFN Exposed Pad",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/CM1624-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/CM1624-08DE/2401274",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2400/16-UFDFN%20Exposed%20Pad%20%280.55mm%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "16-UFDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Low Pass",
+      "Filter Order": "3rd",
+      "Technology": "RLC",
+      "Number of Channels": "6",
+      "Center / Cutoff Frequency": "300MHz (Cutoff)",
+      "Attenuation Value": "-",
+      "Resistance - Channel (Ohms)": "40",
+      "Values": "R = 40Ohms, C = 12pF, L = 20nH",
+      "ESD Protection": "Yes",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Applications": "Data Lines for Mobile Devices",
+      "Voltage - Rated": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "16-UFDFN Exposed Pad",
+      "Size / Dimension": "0.130\" L x 0.053\" W (3.30mm x 1.35mm)",
+      "Height": "0.022\" (0.55mm)"
+    },
+    "compliance": {}
+  }
+}

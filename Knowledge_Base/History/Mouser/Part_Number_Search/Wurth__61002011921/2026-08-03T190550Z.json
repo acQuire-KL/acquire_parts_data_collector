@@ -1,0 +1,123 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:50Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "61002011921",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": " WR-PHD 2.54 mm SMT Socket Header",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": null,
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wurth Elektronik",
+          "ManufacturerPartNumber": "61002011921",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/61002011921?qs=1Kr7Jg1SGW8eCdAkH1HW%252BA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [],
+          "TradeCompliance": []
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "",
+    "captured_at_utc": "2026-08-03T19:05:50Z",
+    "manufacturer_part_number": "61002011921",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": null,
+    "offers": [
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:50Z",
+    "manufacturer": "Wurth Elektronik",
+    "manufacturer_part_number": "61002011921",
+    "provider_part_number": "N/A",
+    "description": " WR-PHD 2.54 mm SMT Socket Header",
+    "detailed_description": " WR-PHD 2.54 mm SMT Socket Header",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/61002011921?qs=1Kr7Jg1SGW8eCdAkH1HW%252BA%3D%3D",
+    "image_url": "",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {},
+    "compliance": {}
+  }
+}

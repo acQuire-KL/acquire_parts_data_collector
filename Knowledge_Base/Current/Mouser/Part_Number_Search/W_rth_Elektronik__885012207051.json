@@ -1,0 +1,320 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:04:22Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "885012207051",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "5798 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 1uF 0805 10% 16V MLCC",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/wurthelectronics/images/WCAP-CSGP_series_SPL.jpg",
+          "Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wurth Elektronik",
+          "ManufacturerPartNumber": "885012207051",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "710-885012207051",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.036",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/885012207051?qs=0KOYDY2FL28XD%252BYYRsJ2XA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 5.5e-06
+          },
+          "AvailabilityInStock": "5798",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 6000,
+              "Date": "2026-08-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532241000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532240010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532240020"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853224000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532240400"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322410"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:22Z",
+    "manufacturer_part_number": "885012207051",
+    "product_quantity_available": 5798,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "182 Days",
+    "product_unit_price": 0.172,
+    "offers": [
+      {
+        "provider_part_number": "710-885012207051",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5798,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.069,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.06,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.041,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.036,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "710-885012207051",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5798,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.069,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.06,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.041,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.036,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:04:22Z",
+    "manufacturer": "Wurth Elektronik",
+    "manufacturer_part_number": "885012207051",
+    "provider_part_number": "710-885012207051",
+    "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 1uF 0805 10% 16V MLCC",
+    "detailed_description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 1uF 0805 10% 16V MLCC",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/885012207051?qs=0KOYDY2FL28XD%252BYYRsJ2XA%3D%3D",
+    "image_url": "https://www.mouser.com/images/wurthelectronics/images/WCAP-CSGP_series_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8532240000",
+      "CNHTS": "8532241000",
+      "CAHTS": "8532240010",
+      "USHTS": "8532240020",
+      "JPHTS": "853224000",
+      "KRHTS": "8532240000",
+      "MXHTS": "8532240400",
+      "BRHTS": "85322410",
+      "ECCN": "EAR99"
+    }
+  }
+}

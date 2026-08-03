@@ -1,0 +1,755 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:03Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bel Fuse Inc.",
+    "input_mpn": "0ZAF0005FF28",
+    "resolved_manufacturer": "Bel Fuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "891"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "LINE VOLTAGE RATED SURFACE MOUNT",
+        "DetailedDescription": "Polymeric PTC Resettable Fuse 240V (250V Int) 50 mA Ih Surface Mount 2920 (7351 Metric), Concave"
+      },
+      "Manufacturer": {
+        "Id": 507,
+        "Name": "Bel Fuse Inc."
+      },
+      "ManufacturerProductNumber": "0ZAF0005FF28",
+      "UnitPrice": 0.69,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bel-fuse-inc/0ZAF0005FF28/22033063",
+      "DatasheetUrl": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-CP-0ZAF-series.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5733/MFG_0ZAF0016FF28.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "5923-0ZAF0005FF28TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 800,
+              "UnitPrice": 0.31748,
+              "TotalPrice": 253.984
+            },
+            {
+              "BreakQuantity": 1600,
+              "UnitPrice": 0.29263,
+              "TotalPrice": 468.208
+            },
+            {
+              "BreakQuantity": 2400,
+              "UnitPrice": 0.27895,
+              "TotalPrice": 669.48
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.26255,
+              "TotalPrice": 1050.2
+            },
+            {
+              "BreakQuantity": 5600,
+              "UnitPrice": 0.25223,
+              "TotalPrice": 1412.488
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.24169,
+              "TotalPrice": 1933.52
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 750,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 800,
+          "StandardPackage": 800,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "5923-0ZAF0005FF28CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.69,
+              "TotalPrice": 0.69
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 0.574,
+              "TotalPrice": 2.87
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.528,
+              "TotalPrice": 5.28
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4384,
+              "TotalPrice": 21.92
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4046,
+              "TotalPrice": 40.46
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.36368,
+              "TotalPrice": 90.92
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 759,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "5923-0ZAF0005FF28DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.69,
+              "TotalPrice": 0.69
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 0.574,
+              "TotalPrice": 2.87
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.528,
+              "TotalPrice": 5.28
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4384,
+              "TotalPrice": 21.92
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4046,
+              "TotalPrice": 40.46
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.36368,
+              "TotalPrice": 90.92
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 759,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 759,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "388650",
+          "ValueText": "Polymeric"
+        },
+        {
+          "ParameterId": 686,
+          "ParameterText": "Voltage - Max",
+          "ParameterType": "String",
+          "ValueId": "796415",
+          "ValueText": "240V (250V Int)"
+        },
+        {
+          "ParameterId": 682,
+          "ParameterText": "Current - Hold (Ih) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "50 mA",
+          "ValueText": "50 mA"
+        },
+        {
+          "ParameterId": 683,
+          "ParameterText": "Current - Trip (It)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "120 mA",
+          "ValueText": "120 mA"
+        },
+        {
+          "ParameterId": 2072,
+          "ParameterText": "Current - Max",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 A",
+          "ValueText": "1 A"
+        },
+        {
+          "ParameterId": 2073,
+          "ParameterText": "Time to Trip",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "15 s",
+          "ValueText": "15 s"
+        },
+        {
+          "ParameterId": 2074,
+          "ParameterText": "Resistance - Initial (Ri) (Min)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 Ohms",
+          "ValueText": "10 Ohms"
+        },
+        {
+          "ParameterId": 2075,
+          "ParameterText": "Resistance - Post Trip (R1) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "70 Ohms",
+          "ValueText": "70 Ohms"
+        },
+        {
+          "ParameterId": 2076,
+          "ParameterText": "Resistance - 25°C (Typ)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "55 Ohms",
+          "ValueText": "55 Ohms"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "316912",
+          "ValueText": "Automotive"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "166854",
+          "ValueText": "2920 (7351 Metric), Concave"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "17628",
+          "ValueText": "0.290\" L x 0.202\" W (7.36mm x 5.12mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "9812",
+          "ValueText": "0.102\" (2.60mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 9,
+        "ParentId": 0,
+        "Name": "Circuit Protection",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+        "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+        "ChildCategories": [
+          {
+            "CategoryId": 150,
+            "ParentId": 9,
+            "Name": "PTC Resettable Fuses",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/532/MFG_MF-GSMF_tmb.jpg",
+            "SeoDescription": "PTC Resettable Fuses are designed to stop current flow when it exceeds a certain limit (overcurrent protection). The Fuses work by increasing its resistance as its temperature rises due to the current increase. The trip current ranges from 14 mA to 50 A with the Time to trip ranging from 8 ms to 90 s. PTC = Positive Temperature Coefficient.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "2A  (4 Weeks)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.40.8070"
+      },
+      "OtherNames": [
+        "507-0ZAF0005FF28TR-ND",
+        "507-0ZAF0005FF28DKR-ND",
+        "5923-0ZAF0005FF28DKR",
+        "507-0ZAF0005FF28DKR",
+        "507-0ZAF0005FF28TR",
+        "5923-0ZAF0005FF28CT",
+        "5923-0ZAF0005FF28TR",
+        "507-0ZAF0005FF28CT-ND",
+        "507-0ZAF0005FF28CT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:03Z",
+    "manufacturer_part_number": "0ZAF0005FF28",
+    "product_quantity_available": 759,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 0.69,
+    "offers": [
+      {
+        "provider_part_number": "5923-0ZAF0005FF28CT-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 759,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.69,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.574,
+            "total_price": 2.87
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.528,
+            "total_price": 5.28
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4384,
+            "total_price": 21.92
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4046,
+            "total_price": 40.46
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.36368,
+            "total_price": 90.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0ZAF0005FF28DKR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 759,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.69,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.574,
+            "total_price": 2.87
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.528,
+            "total_price": 5.28
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4384,
+            "total_price": 21.92
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4046,
+            "total_price": 40.46
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.36368,
+            "total_price": 90.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0ZAF0005FF28TR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 800,
+        "pack_quantity": 800,
+        "quantity_available": 750,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 800,
+            "unit_price": 0.31748,
+            "total_price": 253.984
+          },
+          {
+            "break_quantity": 1600,
+            "unit_price": 0.29263,
+            "total_price": 468.208
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.27895,
+            "total_price": 669.48
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.26255,
+            "total_price": 1050.2
+          },
+          {
+            "break_quantity": 5600,
+            "unit_price": 0.25223,
+            "total_price": 1412.488
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.24169,
+            "total_price": 1933.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "5923-0ZAF0005FF28CT-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 759,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.69,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.574,
+            "total_price": 2.87
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.528,
+            "total_price": 5.28
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4384,
+            "total_price": 21.92
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4046,
+            "total_price": 40.46
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.36368,
+            "total_price": 90.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0ZAF0005FF28DKR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 759,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.69,
+            "total_price": 0.69
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.574,
+            "total_price": 2.87
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.528,
+            "total_price": 5.28
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4384,
+            "total_price": 21.92
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4046,
+            "total_price": 40.46
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.36368,
+            "total_price": 90.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0ZAF0005FF28TR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 800,
+        "pack_quantity": 800,
+        "quantity_available": 750,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 800,
+            "unit_price": 0.31748,
+            "total_price": 253.984
+          },
+          {
+            "break_quantity": 1600,
+            "unit_price": 0.29263,
+            "total_price": 468.208
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.27895,
+            "total_price": 669.48
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.26255,
+            "total_price": 1050.2
+          },
+          {
+            "break_quantity": 5600,
+            "unit_price": 0.25223,
+            "total_price": 1412.488
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.24169,
+            "total_price": 1933.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:03Z",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_part_number": "0ZAF0005FF28",
+    "provider_part_number": "",
+    "description": "LINE VOLTAGE RATED SURFACE MOUNT",
+    "detailed_description": "Polymeric PTC Resettable Fuse 240V (250V Int) 50 mA Ih Surface Mount 2920 (7351 Metric), Concave",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-CP-0ZAF-series.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bel-fuse-inc/0ZAF0005FF28/22033063",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5733/MFG_0ZAF0016FF28.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "2920 (7351 Metric), Concave",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Polymeric",
+      "Voltage - Max": "240V (250V Int)",
+      "Current - Hold (Ih) (Max)": "50 mA",
+      "Current - Trip (It)": "120 mA",
+      "Current - Max": "1 A",
+      "Time to Trip": "15 s",
+      "Resistance - Initial (Ri) (Min)": "10 Ohms",
+      "Resistance - Post Trip (R1) (Max)": "70 Ohms",
+      "Resistance - 25°C (Typ)": "55 Ohms",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Grade": "Automotive",
+      "Qualification": "AEC-Q200",
+      "Ratings": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "2920 (7351 Metric), Concave",
+      "Size / Dimension": "0.290\" L x 0.202\" W (7.36mm x 5.12mm)",
+      "Height - Seated (Max)": "-",
+      "Thickness (Max)": "0.102\" (2.60mm)",
+      "Lead Spacing": "-"
+    },
+    "compliance": {}
+  }
+}

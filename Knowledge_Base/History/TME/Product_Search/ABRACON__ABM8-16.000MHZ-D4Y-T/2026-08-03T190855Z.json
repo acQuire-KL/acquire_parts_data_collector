@@ -1,0 +1,67 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:55Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ABRACON",
+    "input_mpn": "ABM8-16.000MHZ-D4Y-T",
+    "resolved_manufacturer": "ABRACON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "ABM816.000MHZD4Y-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100269,
+              "name": "Resonators and Generators"
+            },
+            "manufacturer_symbols": [
+              "ABM8-16.000MHZ-D4Y-T"
+            ],
+            "manufacturer": {
+              "id": 441,
+              "name": "ABRACON"
+            },
+            "description": "Resonator: ceramic; 18pF; SMD; ESR: 70Ω; 3.2x2.5mm; 16MHz; -40÷85°C",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 0.033,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

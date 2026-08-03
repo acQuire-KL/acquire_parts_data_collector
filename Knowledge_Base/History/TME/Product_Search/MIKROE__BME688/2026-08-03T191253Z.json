@@ -1,0 +1,283 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:53Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MIKROE",
+    "input_mpn": "BME688",
+    "resolved_manufacturer": "MIKROE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MIKROE-4893",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-4893",
+              "ENVIRONMENT 3 CLICK"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BME688; 3.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 15.93,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0d1302db556f7ea0556c0da6a015e815f4b734db",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=100&height=75&q=75&ci_sign=2d4fd8c74b94c38d725b52dda38c5b954b216e8c",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8bac34cfc34806f4ebc5eb9ebc86229417f3c549"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "ABX00050",
+            "ean": "7630049202849",
+            "customer_symbol": "",
+            "category": {
+              "id": 118087,
+              "name": "Arduino Solutions"
+            },
+            "manufacturer_symbols": [
+              "NICLA SENSE ME"
+            ],
+            "manufacturer": {
+              "id": 881,
+              "name": "ARDUINO"
+            },
+            "description": "Dev.kit: Arduino Pro; expansion board; No.of diodes: 1; MKR; 5VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 19.96,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/C9/B5/D0/00/0/875420_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ae1eb96436658e3cce40547be0efb050f5bb879c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/C9/B5/D0/00/0/875420_1.jpg?width=100&height=75&q=75&ci_sign=2fff84a3a7b72a78568fb4fdf6acec8f47309229",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/C9/B5/D0/00/0/875420_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0395f5b9e4b8eef3a6629da30f730a7e469a4f2f"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "ABX00073",
+            "ean": "7630049203525",
+            "customer_symbol": "",
+            "category": {
+              "id": 118087,
+              "name": "Arduino Solutions"
+            },
+            "manufacturer_symbols": [
+              "MKR IOT CARRIER REV2"
+            ],
+            "manufacturer": {
+              "id": 881,
+              "name": "ARDUINO"
+            },
+            "description": "Expansion board; expansion board; Arduino Mkr",
+            "multiples": 1,
+            "minimal_amount": 8,
+            "weight": {
+              "value": 62.7,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/B8/E0/00/0/953256_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=58576179afeb6165adf73d4784100f6bcf278fa0",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/B8/E0/00/0/953256_1.jpg?width=100&height=75&q=75&ci_sign=da6944acfe31cadaf4eb43d677a8354f48427959",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/B8/E0/00/0/953256_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a78ab8ef4cad38df8e46464fb4a5492d106e61b7"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MIKROE-6196",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-6196",
+              "ENVIRONMENT 3 CLICK - 1V8 CUSTOM"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BME688; 1.8VDC,3.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 16.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MIKROE-5207",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-5207",
+              "SMART SENS 2 CLICK"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BHI260AP,BME688,BMM150",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 20.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SS-BME688-I2C",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113691,
+              "name": "Environmental Sensors"
+            },
+            "manufacturer_symbols": [
+              "SS-BME688#I2C",
+              "ITBP-6007"
+            ],
+            "manufacturer": {
+              "id": 1144,
+              "name": "R&D SOFTWARE SOLUTIONS"
+            },
+            "description": "Accessories: expansion board; I2C; 3.3VDC,5VDC; Comp: BME688",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 2.7,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/65/D0/00/0/874152_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ca593550d27d01ee1654d45dcef87f02570cd2fd",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/65/D0/00/0/874152_1.jpg?width=100&height=75&q=75&ci_sign=92429d6a2305d1910c1a21811e425ddba27cad98",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/65/D0/00/0/874152_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c8109c3abc3d1d453e38fc3e3ce2f9355b0c18d6"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

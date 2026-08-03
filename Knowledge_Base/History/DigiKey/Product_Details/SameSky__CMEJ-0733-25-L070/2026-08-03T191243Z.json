@@ -1,0 +1,443 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:43Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "SameSky",
+    "input_mpn": "CMEJ-0733-25-L070",
+    "resolved_manufacturer": "SameSky",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "769"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "MIC COND ANLG OMNI -25DB 0.276\"D",
+        "DetailedDescription": "100 Hz ~ 10 kHz Analog Microphone Electret Condenser Omnidirectional (-25dB ±3dB @ 94dB SPL) Wire Leads"
+      },
+      "Manufacturer": {
+        "Id": 2223,
+        "Name": "Same Sky (Formerly CUI Devices)"
+      },
+      "ManufacturerProductNumber": "CMEJ-0733-25-L070",
+      "UnitPrice": 1.71,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/CMEJ-0733-25-L070/10253454",
+      "DatasheetUrl": "https://www.cuidevices.com/product/resource/cmej-0733-25-l070.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/327/MFG_CMEJ-0733-25-L070.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "102-6545-ND",
+          "PackageType": {
+            "Id": 62,
+            "Name": "Bag"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.71,
+              "TotalPrice": 1.71
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.296,
+              "TotalPrice": 12.96
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.1668,
+              "TotalPrice": 29.17
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.0792,
+              "TotalPrice": 53.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.9999,
+              "TotalPrice": 99.99
+            },
+            {
+              "BreakQuantity": 300,
+              "UnitPrice": 0.88823,
+              "TotalPrice": 266.469
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.84162,
+              "TotalPrice": 420.81
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.7831,
+              "TotalPrice": 783.1
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.68203,
+              "TotalPrice": 3410.15
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2223,
+            "Name": "Same Sky (Formerly CUI Devices)"
+          },
+          "QuantityAvailableforPackageType": 1131,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 100,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 1131,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6083729378001",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "343505",
+          "ValueText": "Electret Condenser"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "313713",
+          "ValueText": "Analog"
+        },
+        {
+          "ParameterId": 630,
+          "ParameterText": "Direction",
+          "ParameterType": "String",
+          "ValueId": "381840",
+          "ValueText": "Omnidirectional"
+        },
+        {
+          "ParameterId": 2145,
+          "ParameterText": "Frequency Range",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "100 Hz ~ 10 kHz",
+          "ValueText": "100 Hz ~ 10 kHz"
+        },
+        {
+          "ParameterId": 54,
+          "ParameterText": "Sensitivity",
+          "ParameterType": "String",
+          "ValueId": "158618",
+          "ValueText": "-25dB ±3dB @ 94dB SPL"
+        },
+        {
+          "ParameterId": 231,
+          "ParameterText": "S/N Ratio",
+          "ParameterType": "String",
+          "ValueId": "262804",
+          "ValueText": "65dB"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "2 V",
+          "ValueText": "2 V"
+        },
+        {
+          "ParameterId": 2095,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "500 µA",
+          "ValueText": "500 µA"
+        },
+        {
+          "ParameterId": 811,
+          "ParameterText": "Port Location",
+          "ParameterType": "String",
+          "ValueId": "413825",
+          "ValueText": "Top"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "421432",
+          "ValueText": "Wire Leads"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "17057",
+          "ValueText": "0.276\" Dia (7.00mm)"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "11374",
+          "ValueText": "0.138\" (3.50mm)"
+        },
+        {
+          "ParameterId": 98,
+          "ParameterText": "Shape",
+          "ParameterType": "String",
+          "ValueId": "329807",
+          "ValueText": "Circular"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 484702,
+        "Name": "CMEJ-0733"
+      },
+      "Category": {
+        "CategoryId": 10,
+        "ParentId": 0,
+        "Name": "Audio Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/569/MFG_ASE02506MS-LW90-DSM-R_tmb.jpg",
+        "SeoDescription": "The Audio Products category encompasses various types of electroacoustic transducers--devices which change sound energy into an electrical signal and vice-versa. They are grouped according to their basic function, such as changing sound into an electrical signal (microphones), an electrical signal into sound (speakers), or an electric power source into some manner of noise (buzzers, sirens). Also included are related accessories for such products, such as gaskets and mounting harware.",
+        "ChildCategories": [
+          {
+            "CategoryId": 158,
+            "ParentId": 10,
+            "Name": "Microphones",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/697/POM-2246P-2-R%2CPOM-2246P-C33-R%2CPOM-2242P-C33-R_tmb%2864x64%29.jpg",
+            "SeoDescription": "Microphones are transducers that convert sound into an electrical signal for storage, transmission and/or rebroadcasting. Ranging from large boom style microphones to small and popular MEMS types, they are differentiated by impedance, voltage rating, sensitivity, frequency range, port location, overall size and mounting type. Analog, I2S, PDM and TDM output interfaces are available.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "9",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 75168,
+        "Name": "CMEJ"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "Not Applicable",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8518.10.8030"
+      },
+      "OtherNames": [
+        "102-6545",
+        "6196-CMEJ-0733-25-L070"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:43Z",
+    "manufacturer_part_number": "CMEJ-0733-25-L070",
+    "product_quantity_available": 1131,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "9",
+    "product_unit_price": 1.71,
+    "offers": [
+      {
+        "provider_part_number": "102-6545-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 62,
+        "package_type": "Bag",
+        "packaging_code": "Bag",
+        "pack_format": "Bag",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 100,
+        "quantity_available": 1131,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.71,
+            "total_price": 1.71
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.296,
+            "total_price": 12.96
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1668,
+            "total_price": 29.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0792,
+            "total_price": 53.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.9999,
+            "total_price": 99.99
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 0.88823,
+            "total_price": 266.469
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.84162,
+            "total_price": 420.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.7831,
+            "total_price": 783.1
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.68203,
+            "total_price": 3410.15
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "102-6545-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 62,
+        "package_type": "Bag",
+        "packaging_code": "Bag",
+        "pack_format": "Bag",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 100,
+        "quantity_available": 1131,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.71,
+            "total_price": 1.71
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.296,
+            "total_price": 12.96
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1668,
+            "total_price": 29.17
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0792,
+            "total_price": 53.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.9999,
+            "total_price": 99.99
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 0.88823,
+            "total_price": 266.469
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.84162,
+            "total_price": 420.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.7831,
+            "total_price": 783.1
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.68203,
+            "total_price": 3410.15
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:43Z",
+    "manufacturer": "Same Sky (Formerly CUI Devices)",
+    "manufacturer_part_number": "CMEJ-0733-25-L070",
+    "provider_part_number": "",
+    "description": "MIC COND ANLG OMNI -25DB 0.276\"D",
+    "detailed_description": "100 Hz ~ 10 kHz Analog Microphone Electret Condenser Omnidirectional (-25dB ±3dB @ 94dB SPL) Wire Leads",
+    "datasheet_url": "https://www.cuidevices.com/product/resource/cmej-0733-25-l070.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/CMEJ-0733-25-L070/10253454",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/327/MFG_CMEJ-0733-25-L070.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Type": "Electret Condenser",
+      "Output Type": "Analog",
+      "Direction": "Omnidirectional",
+      "Frequency Range": "100 Hz ~ 10 kHz",
+      "Sensitivity": "-25dB ±3dB @ 94dB SPL",
+      "S/N Ratio": "65dB",
+      "Voltage - Rated": "2 V",
+      "Current - Supply": "500 µA",
+      "Port Location": "Top",
+      "Ratings": "-",
+      "Termination": "Wire Leads",
+      "Size / Dimension": "0.276\" Dia (7.00mm)",
+      "Height (Max)": "0.138\" (3.50mm)",
+      "Shape": "Circular"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:03Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "1206B226K6R3CT",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "HARDLY_AVAILABLE",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "1206B226K6R3CT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113537,
+              "name": "MLCC SMD capacitors"
+            },
+            "manufacturer_symbols": [
+              "1206B226K6R3CT"
+            ],
+            "manufacturer": {
+              "id": 851,
+              "name": "WALSIN"
+            },
+            "description": "Capacitor: ceramic; MLCC; 22uF; 6.3V; X7R; ±10%; SMD; 1206",
+            "multiples": 2000,
+            "minimal_amount": 2000,
+            "weight": {
+              "value": 0.007,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/F2/B0/00/1/733104_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=b326429cbc1e9893fcaca14e404fe39194b379da",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/F2/B0/00/1/733104_1.jpg?width=100&height=75&q=75&ci_sign=3d66c43870872128590c011c27006cb32a867ca2",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/F2/B0/00/1/733104_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=8435098df43879bb773bf42b336cef57add6fade"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:31Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ESPRESSIF",
+    "input_mpn": "ESP32-S3-WROOM-1-N16R2",
+    "resolved_manufacturer": "ESPRESSIF",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "ESP32S3-WRM1-16R2",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113196,
+              "name": "IoT (WiFi/Bluetooth) modules"
+            },
+            "manufacturer_symbols": [
+              "ESP32-S3-WROOM-1-N16R2"
+            ],
+            "manufacturer": {
+              "id": 1109,
+              "name": "ESPRESSIF"
+            },
+            "description": "Module: IoT; Bluetooth: BLE; WiFi; PCB; IEEE 802.11b/g/n; SMD",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 2.527,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 650
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP2561T-E/SN",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "876"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC TRANSCEIVER HALF 1/1 8SOIC",
+        "DetailedDescription": "1/1 Transceiver Half CANbus 8-SOIC"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP2561T-E/SN",
+      "UnitPrice": 1.01,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP2561T-E-SN/4079887",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MCP2561T-E/SNTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3300,
+              "UnitPrice": 0.77822,
+              "TotalPrice": 2568.126
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 95700,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3300,
+          "StandardPackage": 3300,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP2561T-E/SNCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.01,
+              "TotalPrice": 1.01
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.848,
+              "TotalPrice": 21.2
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8428,
+              "TotalPrice": 84.28
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 98019,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP2561T-E/SNDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.01,
+              "TotalPrice": 1.01
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.848,
+              "TotalPrice": 21.2
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8428,
+              "TotalPrice": 84.28
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 98019,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 98019,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "415534",
+          "ValueText": "Transceiver"
+        },
+        {
+          "ParameterId": 578,
+          "ParameterText": "Protocol",
+          "ParameterType": "String",
+          "ValueId": "325925",
+          "ValueText": "CANbus"
+        },
+        {
+          "ParameterId": 404,
+          "ParameterText": "Number of Drivers/Receivers",
+          "ParameterType": "String",
+          "ValueId": "63111",
+          "ValueText": "1/1"
+        },
+        {
+          "ParameterId": 1684,
+          "ParameterText": "Duplex",
+          "ParameterType": "String",
+          "ValueId": "352455",
+          "ValueText": "Half"
+        },
+        {
+          "ParameterId": 1683,
+          "ParameterText": "Receiver Hysteresis",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "200 mV",
+          "ValueText": "200 mV"
+        },
+        {
+          "ParameterId": 448,
+          "ParameterText": "Data Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "208699",
+          "ValueText": "4.5V ~ 5.5V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "294928",
+          "ValueText": "8-SOIC (0.154\", 3.90mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294926",
+          "ValueText": "8-SOIC"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 109141,
+        "Name": "MCP2561"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2016,
+            "ParentId": 32,
+            "Name": "Interface",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/236/976/175-16-QSOP_tmb%2864x64%29.jpg",
+            "SeoDescription": "Interface components are used to connect various signals or data transmission. Included in this category are analog switches, multiplexers, demultiplexers, CODECs, controllers for communication protocols, direct digital synthesis (DDS), drivers, receivers, transceivers, encoders, decoders, filters, I/O expanders, modems, modules, sensor and detectors, capacitive touch, serializers, deserializers, signal buffers, repeaters, splitters, signal terminators, telecom, universal asynchronous receiver/transmitter (UARTs), voice record and playback, and various boards and specialized products.",
+            "ChildCategories": [
+              {
+                "CategoryId": 710,
+                "ParentId": 2016,
+                "Name": "Drivers, Receivers, Transceivers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/109/446/BCM5464SA1xRBG_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in this family function chiefly to provide the hardware resources necessary for communication over extended cable or trace lengths. Exact functionality varies with the communications protocol employed, and may include things such as transient suppression which may not be strictly necessary for communications purposes but are highly advisable in likely use contexts.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "4",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "MCP2561T-E/SNTR",
+        "MCP2561T-E/SNDKR",
+        "MCP2561T-E/SNCT",
+        "MCP2561T-E/SN-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:37Z",
+    "manufacturer_part_number": "MCP2561T-E/SN",
+    "product_quantity_available": 98019,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "4",
+    "product_unit_price": 1.01,
+    "offers": [
+      {
+        "provider_part_number": "MCP2561T-E/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 98019,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.848,
+            "total_price": 21.2
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8428,
+            "total_price": 84.28
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP2561T-E/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 98019,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.848,
+            "total_price": 21.2
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8428,
+            "total_price": 84.28
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP2561T-E/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 95700,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 0.77822,
+            "total_price": 2568.126
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "MCP2561T-E/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 98019,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.848,
+            "total_price": 21.2
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8428,
+            "total_price": 84.28
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP2561T-E/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 98019,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.848,
+            "total_price": 21.2
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8428,
+            "total_price": 84.28
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP2561T-E/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 95700,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 0.77822,
+            "total_price": 2568.126
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:37Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP2561T-E/SN",
+    "provider_part_number": "",
+    "description": "IC TRANSCEIVER HALF 1/1 8SOIC",
+    "detailed_description": "1/1 Transceiver Half CANbus 8-SOIC",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP2561T-E-SN/4079887",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-SOIC (0.154\", 3.90mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Transceiver",
+      "Protocol": "CANbus",
+      "Number of Drivers/Receivers": "1/1",
+      "Duplex": "Half",
+      "Receiver Hysteresis": "200 mV",
+      "Data Rate": "-",
+      "Voltage - Supply": "4.5V ~ 5.5V",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-SOIC (0.154\", 3.90mm Width)",
+      "Supplier Device Package": "8-SOIC"
+    },
+    "compliance": {}
+  }
+}

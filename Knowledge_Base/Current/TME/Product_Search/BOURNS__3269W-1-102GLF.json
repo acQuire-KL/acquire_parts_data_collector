@@ -1,0 +1,67 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:02Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BOURNS",
+    "input_mpn": "3269W-1-102GLF",
+    "resolved_manufacturer": "BOURNS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "3269W1102GLF-BOU-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112327,
+              "name": "Multiturn SMD trimmers"
+            },
+            "manufacturer_symbols": [
+              "3269W-1-102GLF"
+            ],
+            "manufacturer": {
+              "id": 60,
+              "name": "BOURNS"
+            },
+            "description": "Potentiometer: mounting; multiturn; 1kΩ; 250mW; SMD; ±10%; linear",
+            "multiples": 500,
+            "minimal_amount": 500,
+            "weight": {
+              "value": 0.32,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

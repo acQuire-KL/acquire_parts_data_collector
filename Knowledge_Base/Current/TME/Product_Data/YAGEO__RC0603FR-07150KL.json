@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:11:43Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0603FR-07150KL",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 14063,
+          "symbol": "RC0603FR-07150KL",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.00874,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.00698,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.00407,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.00262,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.00218,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.00146,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.00125,
+                "special": false
+              },
+              {
+                "amount": 15000,
+                "price": 0.00115,
+                "special": false
+              },
+              {
+                "amount": 25000,
+                "price": 0.0011,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

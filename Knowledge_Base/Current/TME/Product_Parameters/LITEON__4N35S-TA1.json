@@ -1,0 +1,170 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:49Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITEON",
+    "input_mpn": "4N35S-TA1",
+    "resolved_manufacturer": "LITEON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "4N35S-TA1",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 128,
+                    "value": "LITEON"
+                  }
+                ]
+              },
+              {
+                "id": 3314,
+                "name": "Type of optocoupler",
+                "values": [
+                  {
+                    "id": 1854892,
+                    "value": "optocoupler"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 429,
+                "name": "Kind of output",
+                "values": [
+                  {
+                    "id": 1444589,
+                    "value": "transistor"
+                  }
+                ]
+              },
+              {
+                "id": 430,
+                "name": "Insulation voltage",
+                "values": [
+                  {
+                    "id": 1519189,
+                    "value": "3.55kV"
+                  }
+                ]
+              },
+              {
+                "id": 433,
+                "name": "CTR@If",
+                "values": [
+                  {
+                    "id": 1444601,
+                    "value": "100%@10mA"
+                  }
+                ]
+              },
+              {
+                "id": 261,
+                "name": "Collector-emitter voltage",
+                "values": [
+                  {
+                    "id": 1440774,
+                    "value": "30V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1444688,
+                    "value": "Gull wing 6"
+                  }
+                ]
+              },
+              {
+                "id": 271,
+                "name": "Turn-on time",
+                "values": [
+                  {
+                    "id": 1444597,
+                    "value": "3µs"
+                  }
+                ]
+              },
+              {
+                "id": 272,
+                "name": "Turn-off time",
+                "values": [
+                  {
+                    "id": 1444598,
+                    "value": "3µs"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1440541,
+                    "value": "6V"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1934301,
+                    "value": "4N35"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

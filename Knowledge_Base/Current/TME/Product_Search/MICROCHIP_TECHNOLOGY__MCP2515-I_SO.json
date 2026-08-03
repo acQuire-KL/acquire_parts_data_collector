@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:07:34Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP2515-I/SO",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL"
+            ],
+            "symbol": "MCP2515-I/SO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112853,
+              "name": "CAN interfaces - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "MCP2515-I/SO"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: CAN controller; 1Mbps; 2.7÷5.5VDC; SO18; -40÷85°C; tube",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.492,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "TB1",
+                  "translation": null,
+                  "amount": 42
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/0A/A5/40/00/1/285344_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0cfa0597d2420142bb8931f3dbd45ac449237e42",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/0A/A5/40/00/1/285344_1.jpg?width=100&height=75&q=75&ci_sign=1b45fef9e2e9e757a31fcacf7df6689e87cfda28",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP3464RT-E/NC",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "995"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC ADC 16BIT 20-UQFN",
+        "DetailedDescription": "16 Bit Analog to Digital Converter 4 Input 1 Sigma-Delta 20-UQFN (3x3)"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP3464RT-E/NC",
+      "UnitPrice": 4.29,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP3464RT-E-NC/12807609",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/150%7EC04-264%7ENC%7E20.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "150-MCP3464RT-E/NCTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 3.25277,
+              "TotalPrice": 9758.31
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "150-MCP3464RT-E/NCCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.29,
+              "TotalPrice": 4.29
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.572,
+              "TotalPrice": 89.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 3289,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "150-MCP3464RT-E/NCDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.29,
+              "TotalPrice": 4.29
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.572,
+              "TotalPrice": 89.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 3289,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 3289,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 153,
+          "ParameterText": "Number of Bits",
+          "ParameterType": "String",
+          "ValueId": "103710",
+          "ValueText": "16"
+        },
+        {
+          "ParameterId": 348,
+          "ParameterText": "Sampling Rate (Per Second)",
+          "ParameterType": "String",
+          "ValueId": "101085",
+          "ValueText": "153.6k"
+        },
+        {
+          "ParameterId": 667,
+          "ParameterText": "Number of Inputs",
+          "ParameterType": "String",
+          "ValueId": "203167",
+          "ValueText": "4"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "338647",
+          "ValueText": "Differential, Single Ended"
+        },
+        {
+          "ParameterId": 243,
+          "ParameterText": "Data Interface",
+          "ParameterType": "String",
+          "ValueId": "406106",
+          "ValueText": "SPI"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "378439",
+          "ValueText": "MUX-ADC"
+        },
+        {
+          "ParameterId": 1785,
+          "ParameterText": "Ratio - S/H:ADC",
+          "ParameterType": "String",
+          "ValueId": "38827",
+          "ValueText": "0:4"
+        },
+        {
+          "ParameterId": 2198,
+          "ParameterText": "Number of A/D Converters",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1523,
+          "ParameterText": "Architecture",
+          "ParameterType": "String",
+          "ValueId": "402717",
+          "ValueText": "Sigma-Delta"
+        },
+        {
+          "ParameterId": 245,
+          "ParameterText": "Reference Type",
+          "ParameterType": "String",
+          "ValueId": "345714",
+          "ValueText": "External, Internal"
+        },
+        {
+          "ParameterId": 346,
+          "ParameterText": "Voltage - Supply, Analog",
+          "ParameterType": "String",
+          "ValueId": "134904",
+          "ValueText": "2.7V ~ 3.6V"
+        },
+        {
+          "ParameterId": 347,
+          "ParameterText": "Voltage - Supply, Digital",
+          "ParameterType": "String",
+          "ValueId": "61312",
+          "ValueText": "1.8V ~ 3.7V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "359713",
+          "ValueText": "Internal Oscillator, Temperature Sensor"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "143786",
+          "ValueText": "20-UFQFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "143792",
+          "ValueText": "20-UQFN (3x3)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 254814,
+        "Name": "MCP3464"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 700,
+                "ParentId": 2009,
+                "Name": "Analog to Digital Converters (ADC)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/324/505%3BCP-16-45%3BCP%3B16_tmb.jpg",
+                "SeoDescription": "Analog-to-digital converters (ADC, A/D, or A-to-D) sample an analog signal, such as a sound picked up by a microphone or the output of a sensor, into a digital signal. Typically, the digital output is a two's complement binary number that is proportional to the input. Input types may be differential, pseudo differential or single-ended. ADCs are selected by number of bits, sampling rate, number of inputs, interface, number of converters, and the architecture such as adaptive delta, dual slope, folding, pipelined, SAR, Sigma-Delta or two-step.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "4",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0030"
+      },
+      "OtherNames": [
+        "150-MCP3464RT-E/NCDKR",
+        "150-MCP3464RT-E/NCCT",
+        "150-MCP3464RT-E/NCTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "manufacturer_part_number": "MCP3464RT-E/NC",
+    "product_quantity_available": 3289,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "4",
+    "product_unit_price": 4.29,
+    "offers": [
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3289,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.29,
+            "total_price": 4.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.572,
+            "total_price": 89.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3289,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.29,
+            "total_price": 4.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.572,
+            "total_price": 89.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 3.25277,
+            "total_price": 9758.31
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3289,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.29,
+            "total_price": 4.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.572,
+            "total_price": 89.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3289,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.29,
+            "total_price": 4.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.572,
+            "total_price": 89.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "150-MCP3464RT-E/NCTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 3.25277,
+            "total_price": 9758.31
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP3464RT-E/NC",
+    "provider_part_number": "",
+    "description": "IC ADC 16BIT 20-UQFN",
+    "detailed_description": "16 Bit Analog to Digital Converter 4 Input 1 Sigma-Delta 20-UQFN (3x3)",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP3464RT-E-NC/12807609",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/150%7EC04-264%7ENC%7E20.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "20-UFQFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Bits": "16",
+      "Sampling Rate (Per Second)": "153.6k",
+      "Number of Inputs": "4",
+      "Input Type": "Differential, Single Ended",
+      "Data Interface": "SPI",
+      "Configuration": "MUX-ADC",
+      "Ratio - S/H:ADC": "0:4",
+      "Number of A/D Converters": "1",
+      "Architecture": "Sigma-Delta",
+      "Reference Type": "External, Internal",
+      "Voltage - Supply, Analog": "2.7V ~ 3.6V",
+      "Voltage - Supply, Digital": "1.8V ~ 3.7V",
+      "Features": "Internal Oscillator, Temperature Sensor",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Package / Case": "20-UFQFN Exposed Pad",
+      "Supplier Device Package": "20-UQFN (3x3)",
+      "Mounting Type": "Surface Mount"
+    },
+    "compliance": {}
+  }
+}

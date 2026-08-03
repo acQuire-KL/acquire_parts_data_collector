@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:08:45Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITEON",
+    "input_mpn": "LTV-817S-TA1",
+    "resolved_manufacturer": "LITEON",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 15623,
+          "symbol": "LTV-817S-TA1",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.205,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.099,
+                "special": false
+              },
+              {
+                "amount": 300,
+                "price": 0.079,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.071,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.063,
+                "special": false
+              },
+              {
+                "amount": 2000,
+                "price": 0.058,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

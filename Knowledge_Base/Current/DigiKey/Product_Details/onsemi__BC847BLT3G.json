@@ -1,0 +1,705 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:51Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "BC847BLT3G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "990"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "TRANS NPN 45V 0.1A SOT23-3",
+        "DetailedDescription": "Bipolar (BJT) Transistor NPN 45 V 100 mA 100MHz 300 mW Surface Mount SOT-23-3 (TO-236)"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "BC847BLT3G",
+      "UnitPrice": 0.1,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/BC847BLT3G/1475995",
+      "DatasheetUrl": "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/488_SOT-23-3%2CTO-236-3%2CMicro3%2CSSD3%2CSST3.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.01549,
+              "TotalPrice": 154.9
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.01385,
+              "TotalPrice": 277.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 50000,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.065,
+              "TotalPrice": 0.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0395,
+              "TotalPrice": 3.95
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.02846,
+              "TotalPrice": 14.23
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.02486,
+              "TotalPrice": 24.86
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.02181,
+              "TotalPrice": 43.62
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.01848,
+              "TotalPrice": 92.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 54396,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.065,
+              "TotalPrice": 0.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0395,
+              "TotalPrice": 3.95
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.02846,
+              "TotalPrice": 14.23
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.02486,
+              "TotalPrice": 24.86
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.02181,
+              "TotalPrice": 43.62
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.01848,
+              "TotalPrice": 92.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 54396,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 54396,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 74,
+          "ParameterText": "Transistor Type",
+          "ParameterType": "String",
+          "ValueId": "380569",
+          "ValueText": "NPN"
+        },
+        {
+          "ParameterId": 2101,
+          "ParameterText": "Current - Collector (Ic) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "100 mA",
+          "ValueText": "100 mA"
+        },
+        {
+          "ParameterId": 2103,
+          "ParameterText": "Voltage - Collector Emitter Breakdown (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "45 V",
+          "ValueText": "45 V"
+        },
+        {
+          "ParameterId": 841,
+          "ParameterText": "Vce Saturation (Max) @ Ib, Ic",
+          "ParameterType": "String",
+          "ValueId": "256077",
+          "ValueText": "600mV @ 5mA, 100mA"
+        },
+        {
+          "ParameterId": 890,
+          "ParameterText": "Current - Collector Cutoff (Max)",
+          "ParameterType": "String",
+          "ValueId": "103376",
+          "ValueText": "15nA (ICBO)"
+        },
+        {
+          "ParameterId": 891,
+          "ParameterText": "DC Current Gain (hFE) (Min) @ Ic, Vce",
+          "ParameterType": "String",
+          "ValueId": "139581",
+          "ValueText": "200 @ 2mA, 5V"
+        },
+        {
+          "ParameterId": 2109,
+          "ParameterText": "Power - Max",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "300 mW",
+          "ValueText": "300 mW"
+        },
+        {
+          "ParameterId": 892,
+          "ParameterText": "Frequency - Transition",
+          "ParameterType": "String",
+          "ValueId": "68967",
+          "ValueText": "100MHz"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242933",
+          "ValueText": "-55°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "413318",
+          "ValueText": "TO-236-3, SC-59, SOT-23-3"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405410",
+          "ValueText": "SOT-23-3 (TO-236)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 17867,
+        "Name": "BC847"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2045,
+            "ParentId": 19,
+            "Name": "Transistors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/955/997/448_TO252-3_tmb.jpg",
+            "SeoDescription": "Transistors are discrete semiconductor devices used to switch or amplify electrical signals. Types of transistors include bipolar (BJT), RF, pre-Biased bipolar (BJT), FETs, MOSEFETs, IGBTs, JFETs, programmable, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2087,
+                "ParentId": 2045,
+                "Name": "Bipolar (BJT)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/427/MFG_MMBT5401_1_tmb%2864x64%29.jpg",
+                "SeoDescription": "Discrete Bipolar Junction Transistors (BJTs) are commonly used to construct analog signal amplification functions in audio, radio, and other applications. One of the first semiconductor devices to be mass produced, their characteristics are less favorable than those of other device types for applications involving high frequency switching and operation with high currents or voltages, but they remain a technology of choice for applications requiring analog signal reproduction with minimal added noise and distortion.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 276,
+                    "ParentId": 2087,
+                    "Name": "Single Bipolar Transistors",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/383/TO-206AA%20TO-18-3_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Discrete Bipolar Junction Transistors (BJTs) are commonly used to construct analog signal amplification functions in audio, radio, and other applications. One of the first semiconductor devices to be mass produced, their characteristics are less favorable than those of other device types for applications involving high frequency switching and operation with high currents or voltages, but they remain a technology of choice for applications requiring analog signal reproduction with minimal added noise and distortion.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "52",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.21.0075"
+      },
+      "OtherNames": [
+        "2156-BC847BLT3G-OS",
+        "BC847BLT3GOSDKR",
+        "BC847BLT3G-ND",
+        "BC847BLT3GOSCT",
+        "BC847BLT3GOSTR",
+        "6196-BC847BLT3G",
+        "ONSONSBC847BLT3G"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:51Z",
+    "manufacturer_part_number": "BC847BLT3G",
+    "product_quantity_available": 54396,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "52",
+    "product_unit_price": 0.1,
+    "offers": [
+      {
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 50000,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.01549,
+            "total_price": 154.9
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.01385,
+            "total_price": 277.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 50000,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.01549,
+            "total_price": 154.9
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.01385,
+            "total_price": 277.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:51Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "BC847BLT3G",
+    "provider_part_number": "",
+    "description": "TRANS NPN 45V 0.1A SOT23-3",
+    "detailed_description": "Bipolar (BJT) Transistor NPN 45 V 100 mA 100MHz 300 mW Surface Mount SOT-23-3 (TO-236)",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/BC847BLT3G/1475995",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/488_SOT-23-3%2CTO-236-3%2CMicro3%2CSSD3%2CSST3.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "TO-236-3, SC-59, SOT-23-3",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Transistor Type": "NPN",
+      "Current - Collector (Ic) (Max)": "100 mA",
+      "Voltage - Collector Emitter Breakdown (Max)": "45 V",
+      "Vce Saturation (Max) @ Ib, Ic": "600mV @ 5mA, 100mA",
+      "Current - Collector Cutoff (Max)": "15nA (ICBO)",
+      "DC Current Gain (hFE) (Min) @ Ic, Vce": "200 @ 2mA, 5V",
+      "Power - Max": "300 mW",
+      "Frequency - Transition": "100MHz",
+      "Operating Temperature": "-55°C ~ 150°C (TJ)",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "TO-236-3, SC-59, SOT-23-3",
+      "Supplier Device Package": "SOT-23-3 (TO-236)"
+    },
+    "compliance": {}
+  }
+}

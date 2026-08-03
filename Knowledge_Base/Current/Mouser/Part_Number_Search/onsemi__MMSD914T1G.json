@@ -1,0 +1,707 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "MMSD914T1G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 4,
+      "Parts": [
+        {
+          "Availability": "5997 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100V 200mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/sod123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "308 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "MMSD914T1G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-MMSD914T1G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.249",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MMSD914T3G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/MMSD914T1G?qs=P4IOph%252Bbot8PMEQIZWg1LQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-05
+          },
+          "AvailabilityInStock": "5997",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 90000,
+              "Date": "2026-09-29T00:00:00"
+            },
+            {
+              "Quantity": 45000,
+              "Date": "2026-11-03T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        },
+        {
+          "Availability": "14966 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SS SWCH DIO 100V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/SOD-123_2_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "308 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "SMMSD914T1G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-SMMSD914T1G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.224",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.084",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.062",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.055",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SMMSD914T3G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/SMMSD914T1G?qs=3PKVEWFFm29d2HIcw4F%252BFg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.167e-05
+          },
+          "AvailabilityInStock": "14966",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 12000,
+              "Date": "2027-02-19T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "3000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        },
+        {
+          "Availability": "14919 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100V 200mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/sod123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "287 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "MMSD914T3G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-MMSD914T3G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.027",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MMSD914T1G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/MMSD914T3G?qs=P4IOph%252Bbot9D47MU0ZFDZQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "14919",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 19610,
+              "Date": "2026-08-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "5150",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        },
+        {
+          "Availability": "10972 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SS SOD123 SWCH DIO 100V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/sod123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "301 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "SMMSD914T3G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-SMMSD914T3G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.224",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.084",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.062",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.042",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.031",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SMMSD914T1G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/SMMSD914T3G?qs=abmNkq9no6BOBqdTDYPljg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.167e-05
+          },
+          "AvailabilityInStock": "10972",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "manufacturer_part_number": "MMSD914T1G",
+    "product_quantity_available": 5997,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "308 Days",
+    "product_unit_price": 0.249,
+    "offers": [
+      {
+        "provider_part_number": "863-MMSD914T1G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5997,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.249,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.106,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.057,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.033,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.028,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "863-MMSD914T1G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5997,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.249,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.106,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.057,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.033,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.028,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:42Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "MMSD914T1G",
+    "provider_part_number": "863-MMSD914T1G",
+    "description": "Small Signal Switching Diodes 100V 200mA",
+    "detailed_description": "Small Signal Switching Diodes 100V 200mA",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/MMSD914T1G?qs=P4IOph%252Bbot8PMEQIZWg1LQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/onsemiconductor/images/sod123.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100070",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100101",
+      "ECCN": "EAR99"
+    }
+  }
+}

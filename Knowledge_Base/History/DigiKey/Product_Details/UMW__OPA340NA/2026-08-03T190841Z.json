@@ -1,0 +1,770 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:41Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "UMW",
+    "input_mpn": "OPA340NA",
+    "resolved_manufacturer": "UMW",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "850"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC OPAMP GP 1 CIRCUIT SOT23-5",
+        "DetailedDescription": "Standard (General Purpose) Amplifier 1 Circuit Single Ended, Rail-to-Rail SOT-23-5"
+      },
+      "Manufacturer": {
+        "Id": 4518,
+        "Name": "UMW"
+      },
+      "ManufacturerProductNumber": "OPA340NA",
+      "UnitPrice": 0.81,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/umw/OPA340NA/24889474",
+      "DatasheetUrl": "https://www.umw-ic.com/static/pdf/1b963e15d0e6622d702f45e5b1ed9081.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6366/MFG_4518_SOT-23-5.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "4518-OPA340NATR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.38099,
+              "TotalPrice": 1142.97
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.37189,
+              "TotalPrice": 2231.34
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.36734,
+              "TotalPrice": 3306.06
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.36229,
+              "TotalPrice": 5434.35
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.35934,
+              "TotalPrice": 7546.14
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 4518,
+            "Name": "UMW"
+          },
+          "QuantityAvailableforPackageType": 9000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "4518-OPA340NACT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.81,
+              "TotalPrice": 0.81
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.585,
+              "TotalPrice": 5.85
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5268,
+              "TotalPrice": 13.17
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4632,
+              "TotalPrice": 46.32
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.43288,
+              "TotalPrice": 108.22
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.41462,
+              "TotalPrice": 207.31
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.40135,
+              "TotalPrice": 401.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 4518,
+            "Name": "UMW"
+          },
+          "QuantityAvailableforPackageType": 10128,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "4518-OPA340NADKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.81,
+              "TotalPrice": 0.81
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.585,
+              "TotalPrice": 5.85
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5268,
+              "TotalPrice": 13.17
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4632,
+              "TotalPrice": 46.32
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.43288,
+              "TotalPrice": 108.22
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.41462,
+              "TotalPrice": 207.31
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.40135,
+              "TotalPrice": 401.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 4518,
+            "Name": "UMW"
+          },
+          "QuantityAvailableforPackageType": 10128,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 10128,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 161,
+          "ParameterText": "Amplifier Type",
+          "ParameterType": "String",
+          "ValueId": "863824",
+          "ValueText": "Standard (General Purpose)"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "759931",
+          "ValueText": "Single Ended, Rail-to-Rail"
+        },
+        {
+          "ParameterId": 511,
+          "ParameterText": "Slew Rate",
+          "ParameterType": "String",
+          "ValueId": "267597",
+          "ValueText": "6V/µs"
+        },
+        {
+          "ParameterId": 658,
+          "ParameterText": "Gain Bandwidth Product",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5.5 MHz",
+          "ValueText": "5.5 MHz"
+        },
+        {
+          "ParameterId": 974,
+          "ParameterText": "Current - Input Bias",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "0.2 pA",
+          "ValueText": "0.2 pA"
+        },
+        {
+          "ParameterId": 975,
+          "ParameterText": "Voltage - Input Offset",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "150 µV",
+          "ValueText": "150 µV"
+        },
+        {
+          "ParameterId": 449,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "String",
+          "ValueId": "277307",
+          "ValueText": "750µA"
+        },
+        {
+          "ParameterId": 2115,
+          "ParameterText": "Current - Output / Channel",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "50 mA",
+          "ValueText": "50 mA"
+        },
+        {
+          "ParameterId": 2609,
+          "ParameterText": "Voltage - Supply Span (Min)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "2.7 V",
+          "ValueText": "2.7 V"
+        },
+        {
+          "ParameterId": 2610,
+          "ParameterText": "Voltage - Supply Span (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5.5 V",
+          "ValueText": "5.5 V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242919",
+          "ValueText": "-55°C ~ 125°C (TA)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "400230",
+          "ValueText": "SC-74A, SOT-753"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405420",
+          "ValueText": "SOT-23-5"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2018,
+            "ParentId": 32,
+            "Name": "Linear",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/156/264%7E11-10C4%7E%7E8_tmb.jpg",
+            "SeoDescription": "Linear circuits and component parameters remain unchanged in regard to voltage and current levels. Included in this category are amplifiers, OP Amps, video amps and modules, analog multipliers, dividers, comparators, video processing, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2034,
+                "ParentId": 2018,
+                "Name": "Amplifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/125/945/488%7E846A-02%7EDM%2C-CUA%2C-DMR2%2C-RM%7E8_tmb%2864x64%29.jpg",
+                "SeoDescription": "",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 687,
+                    "ParentId": 2034,
+                    "Name": "Instrumentation, Op Amps, Buffer Amps",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/280/629/296%3B-4040047-5%3B-D%3B-14_tmb.jpg",
+                    "SeoDescription": "Products in this family are used for the reproduction of analog signals with an attendant increase in amplitude, reduction of source impedance, and/or isolation of a signal source from a driven load, as well as performing mathematical operations on analog signals such as summation, negation, integration, etc. Instrumentation amplifiers, chopper stabilized/auto-zero/zero-drift amplifiers, and current feedback types are included.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "8",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 130563,
+        "Name": "OPA340"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.33.0001"
+      },
+      "OtherNames": [
+        "4518-OPA340NACT",
+        "4518-OPA340NADKR",
+        "4518-OPA340NATR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:41Z",
+    "manufacturer_part_number": "OPA340NA",
+    "product_quantity_available": 10128,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "8",
+    "product_unit_price": 0.81,
+    "offers": [
+      {
+        "provider_part_number": "4518-OPA340NACT-ND",
+        "supplier": "UMW",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10128,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.585,
+            "total_price": 5.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5268,
+            "total_price": 13.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4632,
+            "total_price": 46.32
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43288,
+            "total_price": 108.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41462,
+            "total_price": 207.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40135,
+            "total_price": 401.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "4518-OPA340NADKR-ND",
+        "supplier": "UMW",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10128,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.585,
+            "total_price": 5.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5268,
+            "total_price": 13.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4632,
+            "total_price": 46.32
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43288,
+            "total_price": 108.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41462,
+            "total_price": 207.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40135,
+            "total_price": 401.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "4518-OPA340NATR-ND",
+        "supplier": "UMW",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.38099,
+            "total_price": 1142.97
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.37189,
+            "total_price": 2231.34
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.36734,
+            "total_price": 3306.06
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.36229,
+            "total_price": 5434.35
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.35934,
+            "total_price": 7546.14
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "4518-OPA340NACT-ND",
+        "supplier": "UMW",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10128,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.585,
+            "total_price": 5.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5268,
+            "total_price": 13.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4632,
+            "total_price": 46.32
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43288,
+            "total_price": 108.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41462,
+            "total_price": 207.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40135,
+            "total_price": 401.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "4518-OPA340NADKR-ND",
+        "supplier": "UMW",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10128,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.585,
+            "total_price": 5.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5268,
+            "total_price": 13.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4632,
+            "total_price": 46.32
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43288,
+            "total_price": 108.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41462,
+            "total_price": 207.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40135,
+            "total_price": 401.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "4518-OPA340NATR-ND",
+        "supplier": "UMW",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.38099,
+            "total_price": 1142.97
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.37189,
+            "total_price": 2231.34
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.36734,
+            "total_price": 3306.06
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.36229,
+            "total_price": 5434.35
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.35934,
+            "total_price": 7546.14
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:41Z",
+    "manufacturer": "UMW",
+    "manufacturer_part_number": "OPA340NA",
+    "provider_part_number": "",
+    "description": "IC OPAMP GP 1 CIRCUIT SOT23-5",
+    "detailed_description": "Standard (General Purpose) Amplifier 1 Circuit Single Ended, Rail-to-Rail SOT-23-5",
+    "datasheet_url": "https://www.umw-ic.com/static/pdf/1b963e15d0e6622d702f45e5b1ed9081.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/umw/OPA340NA/24889474",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6366/MFG_4518_SOT-23-5.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SC-74A, SOT-753",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Amplifier Type": "Standard (General Purpose)",
+      "Number of Circuits": "1",
+      "Output Type": "Single Ended, Rail-to-Rail",
+      "Slew Rate": "6V/µs",
+      "Gain Bandwidth Product": "5.5 MHz",
+      "Current - Input Bias": "0.2 pA",
+      "Voltage - Input Offset": "150 µV",
+      "Current - Supply": "750µA",
+      "Current - Output / Channel": "50 mA",
+      "Voltage - Supply Span (Min)": "2.7 V",
+      "Voltage - Supply Span (Max)": "5.5 V",
+      "Operating Temperature": "-55°C ~ 125°C (TA)",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "SC-74A, SOT-753",
+      "Supplier Device Package": "SOT-23-5"
+    },
+    "compliance": {}
+  }
+}

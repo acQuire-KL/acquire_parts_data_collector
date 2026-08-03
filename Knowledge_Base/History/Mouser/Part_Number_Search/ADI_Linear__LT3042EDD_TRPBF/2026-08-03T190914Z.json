@@ -1,0 +1,420 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:14Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "ADI / Linear",
+    "input_mpn": "LT3042EDD#TRPBF",
+    "resolved_manufacturer": "ADI / Linear",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "343 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/lt3042.pdf",
+          "Description": "LDO Voltage Regulators 20V, 200mA, Ultralow N, Ultrahigh PSRR R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_DFN-10_05-08-1699_t.jpg",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LT3042EDD#TRPBF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "584-LT3042EDD#TRPBF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€6.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€5.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€4.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€4.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€4.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€3.92",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€3.66",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LT3042EDD#PBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LT3042EDDTRPBF?qs=oahfZPh6IALjJDoAOMdxVg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-LT3042EDD#PBF",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000348861
+          },
+          "AvailabilityInStock": "343",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 10000,
+              "Date": "2026-08-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "2500",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "17299 On Order",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/lt3042.pdf",
+          "Description": "LDO Voltage Regulators 20V, 200mA, Ultralow N, Ultrahigh PSRR R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_DFN-10_05-08-1699_t.jpg",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LT3042EDD#PBF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "584-LT3042EDD#PBF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "121"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€6.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€5.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€4.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€4.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 242,
+              "Price": "€3.95",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LT3042EDD#TRPBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LT3042EDDPBF?qs=oahfZPh6IAIAxPHCQtsgLA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-LT3042EDD#TRPBF",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000131
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 7982,
+              "Date": "2026-08-27T00:00:00"
+            },
+            {
+              "Quantity": 9317,
+              "Date": "2026-11-03T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1210",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390070"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:14Z",
+    "manufacturer_part_number": "LT3042EDD#TRPBF",
+    "product_quantity_available": 343,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "182 Days",
+    "product_unit_price": 6.49,
+    "offers": [
+      {
+        "provider_part_number": "584-LT3042EDD#TRPBF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 343,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 5.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 4.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 4.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 3.66,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "584-LT3042EDD#TRPBF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 343,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 5.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 4.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 4.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 3.66,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:14Z",
+    "manufacturer": "Analog Devices",
+    "manufacturer_part_number": "LT3042EDD#TRPBF",
+    "provider_part_number": "584-LT3042EDD#TRPBF",
+    "description": "LDO Voltage Regulators 20V, 200mA, Ultralow N, Ultrahigh PSRR R",
+    "detailed_description": "LDO Voltage Regulators 20V, 200mA, Ultralow N, Ultrahigh PSRR R",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/lt3042.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LT3042EDDTRPBF?qs=oahfZPh6IALjJDoAOMdxVg%3D%3D",
+    "image_url": "https://www.mouser.com/images/adi/images/ITP_ADI_DFN-10_05-08-1699_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2500"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390070",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

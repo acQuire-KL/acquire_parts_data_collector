@@ -1,0 +1,583 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:51Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "2533020201601",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "767"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "WSEN-ITDS 3 AXIS ACCELERATION SE",
+        "DetailedDescription": "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.08Hz ~ 400Hz 12-LGA (2x2)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "2533020201601",
+      "UnitPrice": 2.11,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/2533020201601/10640128",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/2533020201601.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6536/1917%7E12LGA-.70-2X2%7E%7E12.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-2533020201601TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.71164,
+              "TotalPrice": 1711.64
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 2000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-2533020201601CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.11,
+              "TotalPrice": 2.11
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.029,
+              "TotalPrice": 20.29
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9586,
+              "TotalPrice": 97.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8887,
+              "TotalPrice": 188.87
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 2210,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-2533020201601DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.11,
+              "TotalPrice": 2.11
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.029,
+              "TotalPrice": 20.29
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9586,
+              "TotalPrice": 97.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8887,
+              "TotalPrice": 188.87
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 2210,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 2210,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6247546369001",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "338722",
+          "ValueText": "Digital"
+        },
+        {
+          "ParameterId": 216,
+          "ParameterText": "Axis",
+          "ParameterType": "String",
+          "ValueId": "422301",
+          "ValueText": "X, Y, Z"
+        },
+        {
+          "ParameterId": 227,
+          "ParameterText": "Acceleration Range",
+          "ParameterType": "String",
+          "ValueId": "2058",
+          "ValueText": "±2g, 4g, 8g, 16g"
+        },
+        {
+          "ParameterId": 1968,
+          "ParameterText": "Sensitivity (LSB/g)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1969,
+          "ParameterText": "Sensitivity (mV/g)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 398,
+          "ParameterText": "Bandwidth",
+          "ParameterType": "String",
+          "ValueId": "425225",
+          "ValueText": "0.08Hz ~ 400Hz"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "752314",
+          "ValueText": "I2C, SPI"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "59577",
+          "ValueText": "1.7V ~ 3.6V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "410933",
+          "ValueText": "Temperature Sensor"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "87947",
+          "ValueText": "12-WFLGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "87159",
+          "ValueText": "12-LGA (2x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2070,
+            "ParentId": 25,
+            "Name": "Motion Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/262/450/G-NSDOG2-002_tmb%2864x64%29.jpg",
+            "SeoDescription": "Motion Sensors are used to detect movement in an X, Y, or Z axis (or a combination thereof) and respond in various ways. Types of motion sensors include accelerometers, gyroscopes, inclinometers, inertial measurement units (IMUs), vibration, tilt switches, and optical.",
+            "ChildCategories": [
+              {
+                "CategoryId": 515,
+                "ParentId": 2070,
+                "Name": "Accelerometers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/362/959/MFG_ADXL35%286%2C7%29_View2_tmb.jpg",
+                "SeoDescription": "Accelerometers are designed to detect and respond to changes in acceleration like movement or vibrations. The Accelerometer types are Analog or Digital in the X, Y, or Z axis with an acceleration range of ±0.5 g to ±2000 g and a sensitivity of 1 to 500 k (LSB/g) with output types of Analog Voltage, Bluetooth, Digital, DSI, IEPE, I2C, PCM, PWM, RF, and SPI.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "28",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 76319,
+        "Name": "WSEN-ITDS"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Affected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "1917-2533020201601DKR",
+        "1917-2533020201601TR-ND",
+        "1917-2533020201601TR",
+        "1917-2533020201601CT-ND",
+        "732-2533020201601TR",
+        "732-2533020201601CT",
+        "1917-2533020201601DKR-ND",
+        "1917-2533020201601CT",
+        "732-2533020201601DKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:51Z",
+    "manufacturer_part_number": "2533020201601",
+    "product_quantity_available": 2210,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "28",
+    "product_unit_price": 2.11,
+    "offers": [
+      {
+        "provider_part_number": "732-2533020201601CT-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2210,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.11,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.029,
+            "total_price": 20.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9586,
+            "total_price": 97.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8887,
+            "total_price": 188.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-2533020201601DKR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2210,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.11,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.029,
+            "total_price": 20.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9586,
+            "total_price": 97.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8887,
+            "total_price": 188.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-2533020201601TR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 2000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.71164,
+            "total_price": 1711.64
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-2533020201601CT-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2210,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.11,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.029,
+            "total_price": 20.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9586,
+            "total_price": 97.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8887,
+            "total_price": 188.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-2533020201601DKR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2210,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.11,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.029,
+            "total_price": 20.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9586,
+            "total_price": 97.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8887,
+            "total_price": 188.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-2533020201601TR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 2000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.71164,
+            "total_price": 1711.64
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:51Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "2533020201601",
+    "provider_part_number": "",
+    "description": "WSEN-ITDS 3 AXIS ACCELERATION SE",
+    "detailed_description": "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.08Hz ~ 400Hz 12-LGA (2x2)",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/2533020201601.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/2533020201601/10640128",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6536/1917%7E12LGA-.70-2X2%7E%7E12.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "12-WFLGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Digital",
+      "Axis": "X, Y, Z",
+      "Acceleration Range": "±2g, 4g, 8g, 16g",
+      "Sensitivity (LSB/g)": "-",
+      "Sensitivity (mV/g)": "-",
+      "Bandwidth": "0.08Hz ~ 400Hz",
+      "Output Type": "I2C, SPI",
+      "Voltage - Supply": "1.7V ~ 3.6V",
+      "Features": "Temperature Sensor",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "12-WFLGA",
+      "Supplier Device Package": "12-LGA (2x2)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:16Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "NXP",
+    "input_mpn": "PCF85063ATL/1,118",
+    "resolved_manufacturer": "NXP",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "PCF85063ATL/1.118",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100435,
+              "name": "RTC circuits"
+            },
+            "manufacturer_symbols": [
+              "PCF85063ATL/1,118"
+            ],
+            "manufacturer": {
+              "id": 34,
+              "name": "NXP"
+            },
+            "description": "IC: RTC circuit; I2C; 1.8÷5.5VDC; HXSON10",
+            "multiples": 4000,
+            "minimal_amount": 4000,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

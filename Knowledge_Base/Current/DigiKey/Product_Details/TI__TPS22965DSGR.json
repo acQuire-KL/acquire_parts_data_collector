@@ -1,0 +1,762 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:25Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPS22965DSGR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "881"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC PWR SWITCH N-CHAN 1:1 8WSON",
+        "DetailedDescription": "Power Switch/Driver 1:1 N-Channel 6A 8-WSON (2x2)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TPS22965DSGR",
+      "UnitPrice": 0.76,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS22965DSGR/3789575",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/tps22965.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4218900%7EDSG%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-39362-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.35131,
+              "TotalPrice": 1053.93
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.3428,
+              "TotalPrice": 2056.8
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.33854,
+              "TotalPrice": 3046.86
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.33382,
+              "TotalPrice": 5007.3
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.33106,
+              "TotalPrice": 6952.26
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 27000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-39362-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.76,
+              "TotalPrice": 0.76
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.542,
+              "TotalPrice": 5.42
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.4876,
+              "TotalPrice": 12.19
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4283,
+              "TotalPrice": 42.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.39988,
+              "TotalPrice": 99.97
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.38278,
+              "TotalPrice": 191.39
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.36924,
+              "TotalPrice": 369.24
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 28246,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-39362-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.76,
+              "TotalPrice": 0.76
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.542,
+              "TotalPrice": 5.42
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.4876,
+              "TotalPrice": 12.19
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4283,
+              "TotalPrice": 42.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.39988,
+              "TotalPrice": 99.97
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.38278,
+              "TotalPrice": 191.39
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.36924,
+              "TotalPrice": 369.24
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 28246,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 28246,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 234,
+          "ParameterText": "Switch Type",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 87,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1273,
+          "ParameterText": "Ratio - Input:Output",
+          "ParameterType": "String",
+          "ValueId": "63478",
+          "ValueText": "1:1"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "354755",
+          "ValueText": "High Side"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "378999",
+          "ValueText": "N-Channel"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "381965",
+          "ValueText": "On/Off"
+        },
+        {
+          "ParameterId": 772,
+          "ParameterText": "Voltage - Load",
+          "ParameterType": "String",
+          "ValueId": "132278",
+          "ValueText": "2.5V ~ 5.7V"
+        },
+        {
+          "ParameterId": 1112,
+          "ParameterText": "Voltage - Supply (Vcc/Vdd)",
+          "ParameterType": "String",
+          "ValueId": "36676",
+          "ValueText": "0.8V ~ 5.7V"
+        },
+        {
+          "ParameterId": 1120,
+          "ParameterText": "Current - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "266261",
+          "ValueText": "6A"
+        },
+        {
+          "ParameterId": 371,
+          "ParameterText": "Rds On (Typ)",
+          "ParameterType": "String",
+          "ValueId": "108272",
+          "ValueText": "16mOhm"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "380373",
+          "ValueText": "Non-Inverting"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "366493",
+          "ValueText": "Load Discharge, Slew Rate Controlled"
+        },
+        {
+          "ParameterId": 1818,
+          "ParameterText": "Fault Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212437",
+          "ValueText": "-40°C ~ 105°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "295476",
+          "ValueText": "8-WSON (2x2)"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "295406",
+          "ValueText": "8-WFDFN Exposed Pad"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 94858,
+        "Name": "TPS22965"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 726,
+                "ParentId": 2025,
+                "Name": "Power Distribution Switches, Load Drivers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/688/367/YZP-6-BGA%20Pkg_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in this family are solid-state devices used to connect or interrupt the flow of current to a supported load, under the direction of a logic-level control signal that is of itself incapable or unsuitable for supplying the load. They integrate the semiconductor switching device used to interrupt current flow and incorporate additional supporting components/functions such as over-voltage clamping, current limiting, and under-voltage lockouts, which differentiate them from similar IC and discrete components.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "9",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "2  (1 Year)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "296-39362-2",
+        "TEXTISTPS22965DSGR",
+        "296-39362-6",
+        "296-39362-1",
+        "2156-TPS22965DSGR",
+        "TPS22965DSGR-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:25Z",
+    "manufacturer_part_number": "TPS22965DSGR",
+    "product_quantity_available": 28246,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "9",
+    "product_unit_price": 0.76,
+    "offers": [
+      {
+        "provider_part_number": "296-39362-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 28246,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.542,
+            "total_price": 5.42
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4876,
+            "total_price": 12.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4283,
+            "total_price": 42.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.39988,
+            "total_price": 99.97
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.38278,
+            "total_price": 191.39
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.36924,
+            "total_price": 369.24
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-39362-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 28246,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.542,
+            "total_price": 5.42
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4876,
+            "total_price": 12.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4283,
+            "total_price": 42.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.39988,
+            "total_price": 99.97
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.38278,
+            "total_price": 191.39
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.36924,
+            "total_price": 369.24
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-39362-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 27000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.35131,
+            "total_price": 1053.93
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.3428,
+            "total_price": 2056.8
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.33854,
+            "total_price": 3046.86
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.33382,
+            "total_price": 5007.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.33106,
+            "total_price": 6952.26
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-39362-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 28246,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.542,
+            "total_price": 5.42
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4876,
+            "total_price": 12.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4283,
+            "total_price": 42.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.39988,
+            "total_price": 99.97
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.38278,
+            "total_price": 191.39
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.36924,
+            "total_price": 369.24
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-39362-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 28246,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.542,
+            "total_price": 5.42
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4876,
+            "total_price": 12.19
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4283,
+            "total_price": 42.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.39988,
+            "total_price": 99.97
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.38278,
+            "total_price": 191.39
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.36924,
+            "total_price": 369.24
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-39362-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 27000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.35131,
+            "total_price": 1053.93
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.3428,
+            "total_price": 2056.8
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.33854,
+            "total_price": 3046.86
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.33382,
+            "total_price": 5007.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.33106,
+            "total_price": 6952.26
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:25Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS22965DSGR",
+    "provider_part_number": "",
+    "description": "IC PWR SWITCH N-CHAN 1:1 8WSON",
+    "detailed_description": "Power Switch/Driver 1:1 N-Channel 6A 8-WSON (2x2)",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tps22965.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS22965DSGR/3789575",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4218900%7EDSG%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-WFDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Switch Type": "General Purpose",
+      "Number of Outputs": "1",
+      "Ratio - Input:Output": "1:1",
+      "Output Configuration": "High Side",
+      "Output Type": "N-Channel",
+      "Interface": "On/Off",
+      "Voltage - Load": "2.5V ~ 5.7V",
+      "Voltage - Supply (Vcc/Vdd)": "0.8V ~ 5.7V",
+      "Current - Output (Max)": "6A",
+      "Rds On (Typ)": "16mOhm",
+      "Input Type": "Non-Inverting",
+      "Features": "Load Discharge, Slew Rate Controlled",
+      "Fault Protection": "-",
+      "Operating Temperature": "-40°C ~ 105°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Supplier Device Package": "8-WSON (2x2)",
+      "Package / Case": "8-WFDFN Exposed Pad"
+    },
+    "compliance": {}
+  }
+}

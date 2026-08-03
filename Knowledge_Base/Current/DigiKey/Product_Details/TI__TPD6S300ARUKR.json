@@ -1,0 +1,654 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:13:40Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TPD6S300ARUKR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "748"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "TPD6S300A USB TYPEC",
+        "DetailedDescription": "Overvoltage/Surge Protection IC 8V Internal Switch 20-WQFN (3x3)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TPD6S300ARUKR",
+      "UnitPrice": 1.05,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TPD6S300ARUKR/9477604",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/tpd6s300a.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4180/296%7E4208637%7ERUK%7E20.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-51856-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.50289,
+              "TotalPrice": 1508.67
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.49147,
+              "TotalPrice": 2948.82
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.48575,
+              "TotalPrice": 4371.75
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.47942,
+              "TotalPrice": 7191.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-51856-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.758,
+              "TotalPrice": 7.58
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.686,
+              "TotalPrice": 17.15
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.6061,
+              "TotalPrice": 60.61
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.56808,
+              "TotalPrice": 142.02
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.54512,
+              "TotalPrice": 272.56
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.53379,
+              "TotalPrice": 533.79
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9556,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-51856-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.758,
+              "TotalPrice": 7.58
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.686,
+              "TotalPrice": 17.15
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.6061,
+              "TotalPrice": 60.61
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.56808,
+              "TotalPrice": 142.02
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.54512,
+              "TotalPrice": 272.56
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.53379,
+              "TotalPrice": 533.79
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9556,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 9556,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 662,
+          "ParameterText": "Voltage - Clamping",
+          "ParameterType": "String",
+          "ValueId": "295157",
+          "ValueText": "8V"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "359728",
+          "ValueText": "Internal Switch"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "143955",
+          "ValueText": "20-WFQFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "144007",
+          "ValueText": "20-WQFN (3x3)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 28617,
+        "Name": "TPD6S300"
+      },
+      "Category": {
+        "CategoryId": 9,
+        "ParentId": 0,
+        "Name": "Circuit Protection",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+        "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+        "ChildCategories": [
+          {
+            "CategoryId": 152,
+            "ParentId": 9,
+            "Name": "Surge Suppression ICs",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/216/876/MFG_TBU-CA_tmb.jpg",
+            "SeoDescription": "Surge Suppression ICs are designed to keep electrical devices safe from excess voltage and/or current. Components in this family are designed using semiconductor materials. The characteristics are clamping voltage, technology, number of circuits, applications, and mounting type. The technologies are external or internal switch with the number of circuits being 1, 2, 3, or 4. Target applications are automotive, Ethernet, general purpose, portable equipment, SLIC, USB, USB OTG, and others.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "2  (1 Year)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "296-51856-6",
+        "296-51856-2",
+        "296-51856-1",
+        "TPD6S300ARUKR-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:40Z",
+    "manufacturer_part_number": "TPD6S300ARUKR",
+    "product_quantity_available": 9556,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.05,
+    "offers": [
+      {
+        "provider_part_number": "296-51856-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9556,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.758,
+            "total_price": 7.58
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.686,
+            "total_price": 17.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6061,
+            "total_price": 60.61
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.56808,
+            "total_price": 142.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.54512,
+            "total_price": 272.56
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.53379,
+            "total_price": 533.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-51856-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9556,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.758,
+            "total_price": 7.58
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.686,
+            "total_price": 17.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6061,
+            "total_price": 60.61
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.56808,
+            "total_price": 142.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.54512,
+            "total_price": 272.56
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.53379,
+            "total_price": 533.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-51856-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.50289,
+            "total_price": 1508.67
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.49147,
+            "total_price": 2948.82
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.48575,
+            "total_price": 4371.75
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.47942,
+            "total_price": 7191.3
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-51856-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9556,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.758,
+            "total_price": 7.58
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.686,
+            "total_price": 17.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6061,
+            "total_price": 60.61
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.56808,
+            "total_price": 142.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.54512,
+            "total_price": 272.56
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.53379,
+            "total_price": 533.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-51856-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9556,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.758,
+            "total_price": 7.58
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.686,
+            "total_price": 17.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6061,
+            "total_price": 60.61
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.56808,
+            "total_price": 142.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.54512,
+            "total_price": 272.56
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.53379,
+            "total_price": 533.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-51856-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.50289,
+            "total_price": 1508.67
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.49147,
+            "total_price": 2948.82
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.48575,
+            "total_price": 4371.75
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.47942,
+            "total_price": 7191.3
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:13:40Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPD6S300ARUKR",
+    "provider_part_number": "",
+    "description": "TPD6S300A USB TYPEC",
+    "detailed_description": "Overvoltage/Surge Protection IC 8V Internal Switch 20-WQFN (3x3)",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tpd6s300a.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TPD6S300ARUKR/9477604",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4180/296%7E4208637%7ERUK%7E20.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "20-WFQFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Voltage - Clamping": "8V",
+      "Technology": "Internal Switch",
+      "Number of Circuits": "2",
+      "Applications": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "20-WFQFN Exposed Pad",
+      "Supplier Device Package": "20-WQFN (3x3)"
+    },
+    "compliance": {}
+  }
+}

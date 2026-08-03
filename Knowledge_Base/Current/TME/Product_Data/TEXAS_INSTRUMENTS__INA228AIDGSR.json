@@ -1,0 +1,84 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:12:38Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "INA228AIDGSR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "INA228AIDGSR",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 3.5,
+                "special": false
+              },
+              {
+                "amount": 3,
+                "price": 3.16,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 2.84,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 2.52,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 2.41,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 2.24,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 2.16,
+                "special": false
+              },
+              {
+                "amount": 2500,
+                "price": 2.06,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

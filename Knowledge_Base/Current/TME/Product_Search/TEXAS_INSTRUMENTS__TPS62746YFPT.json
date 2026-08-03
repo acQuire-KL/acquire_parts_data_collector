@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:15Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "TPS62746YFPT",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "TPS62746YFPT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100220,
+              "name": "Voltage regulators - DC/DC circuits"
+            },
+            "manufacturer_symbols": [
+              "TPS62746YFPT"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: PMIC",
+            "multiples": 250,
+            "minimal_amount": 250,
+            "weight": {
+              "value": 0.027,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

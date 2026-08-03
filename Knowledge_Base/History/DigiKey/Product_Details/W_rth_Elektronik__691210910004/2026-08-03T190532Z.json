@@ -1,0 +1,369 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:32Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "691210910004",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "930"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "TERM BLOCK 4P HORIZON 2.54MM PCB",
+        "DetailedDescription": "4 Position Wire to Board Terminal Block Horizontal with Board 0.100\" (2.54mm) Through Hole"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "691210910004",
+      "UnitPrice": 1.63,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/691210910004/11477505",
+      "DatasheetUrl": "https://www.we-online.com/catalog/datasheet/691210910004.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4908/691210910004.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-691210910004-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.63,
+              "TotalPrice": 1.63
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.495,
+              "TotalPrice": 14.95
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.4172,
+              "TotalPrice": 70.86
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.3133,
+              "TotalPrice": 131.33
+            },
+            {
+              "BreakQuantity": 600,
+              "UnitPrice": 1.10563,
+              "TotalPrice": 663.378
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 3667,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1200,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 3667,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2168,
+          "ParameterText": "Number of Levels",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1075,
+          "ParameterText": "Positions Per Level",
+          "ParameterType": "String",
+          "ValueId": "203167",
+          "ValueText": "4"
+        },
+        {
+          "ParameterId": 89,
+          "ParameterText": "Pitch",
+          "ParameterType": "String",
+          "ValueId": "9726",
+          "ValueText": "0.100\" (2.54mm)"
+        },
+        {
+          "ParameterId": 802,
+          "ParameterText": "Mating Orientation",
+          "ParameterType": "String",
+          "ValueId": "356142",
+          "ValueText": "Horizontal with Board"
+        },
+        {
+          "ParameterId": 2155,
+          "ParameterText": "Current",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "6 A",
+          "ValueText": "6 A"
+        },
+        {
+          "ParameterId": 2191,
+          "ParameterText": "Voltage",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "150 V",
+          "ValueText": "150 V"
+        },
+        {
+          "ParameterId": 78,
+          "ParameterText": "Wire Gauge",
+          "ParameterType": "String",
+          "ValueId": "115051",
+          "ValueText": "18-30 AWG"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 1487,
+          "ParameterText": "Wire Termination",
+          "ParameterType": "String",
+          "ValueId": "400495",
+          "ValueText": "Screw - Rising Cage Clamp"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "351158",
+          "ValueText": "Green"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2030,
+            "ParentId": 20,
+            "Name": "Terminal Blocks",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/382/0395105004_tmb.jpg",
+            "SeoDescription": "Terminal Blocks are insulated, modular style connectors that are used to secure a connection between two or more wires. They come in various configurations and termination styles. These are often used in high-current applications, but their purpose is simply to create safe electrical connections.",
+            "ChildCategories": [
+              {
+                "CategoryId": 371,
+                "ParentId": 2030,
+                "Name": "Wire to Board",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/222/685/1935161_tmb%2864x64%29.jpg",
+                "SeoDescription": "Wire-to-board terminal blocks are surface or through-hole board mount, press fit or panel mount connection points for securing two or more wires to a circuit or power bus. Mounting features may include board guides, flanges, latches, ejectors, levers, strain reliefs and locks. They are selected by current and voltage parameters as well as wire gauge, pitch, numbers of levels and positions, and termination style.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 77320,
+        "Name": "WR-TBL Series 2109"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Affected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "Not Applicable",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.90.4000"
+      },
+      "OtherNames": [
+        "732-691210910004"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:32Z",
+    "manufacturer_part_number": "691210910004",
+    "product_quantity_available": 3667,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 1.63,
+    "offers": [
+      {
+        "provider_part_number": "732-691210910004-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1200,
+        "quantity_available": 3667,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.63,
+            "total_price": 1.63
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.495,
+            "total_price": 14.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4172,
+            "total_price": 70.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3133,
+            "total_price": 131.33
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 1.10563,
+            "total_price": 663.378
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "732-691210910004-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1200,
+        "quantity_available": 3667,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.63,
+            "total_price": 1.63
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.495,
+            "total_price": 14.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4172,
+            "total_price": 70.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3133,
+            "total_price": 131.33
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 1.10563,
+            "total_price": 663.378
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:32Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "691210910004",
+    "provider_part_number": "",
+    "description": "TERM BLOCK 4P HORIZON 2.54MM PCB",
+    "detailed_description": "4 Position Wire to Board Terminal Block Horizontal with Board 0.100\" (2.54mm) Through Hole",
+    "datasheet_url": "https://www.we-online.com/catalog/datasheet/691210910004.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/691210910004/11477505",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4908/691210910004.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Number of Levels": "1",
+      "Positions Per Level": "4",
+      "Pitch": "0.100\" (2.54mm)",
+      "Mating Orientation": "Horizontal with Board",
+      "Current": "6 A",
+      "Voltage": "150 V",
+      "Wire Gauge": "18-30 AWG",
+      "Mounting Type": "Through Hole",
+      "Wire Termination": "Screw - Rising Cage Clamp",
+      "Features": "-",
+      "Color": "Green"
+    },
+    "compliance": {}
+  }
+}

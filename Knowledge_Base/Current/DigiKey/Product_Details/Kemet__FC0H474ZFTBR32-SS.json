@@ -1,0 +1,650 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:22Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Kemet",
+    "input_mpn": "FC0H474ZFTBR32-SS",
+    "resolved_manufacturer": "Kemet",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "778"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP 470MF -20% +80% 5.5V SMD",
+        "DetailedDescription": "470 mF (EDLC) Supercapacitor 5.5 V Radial, Can - SMD 13Ohm @ 1kHz"
+      },
+      "Manufacturer": {
+        "Id": 399,
+        "Name": "KEMET"
+      },
+      "ManufacturerProductNumber": "FC0H474ZFTBR32-SS",
+      "UnitPrice": 6.07,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/kemet/FC0H474ZFTBR32-SS/5804071",
+      "DatasheetUrl": "https://content.kemet.com/datasheets/KEM_S6011_FC.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2147/FC0H474ZFTBR32-SS.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "399-13095-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 200,
+              "UnitPrice": 3.4931,
+              "TotalPrice": 698.62
+            },
+            {
+              "BreakQuantity": 400,
+              "UnitPrice": 3.36028,
+              "TotalPrice": 1344.112
+            },
+            {
+              "BreakQuantity": 600,
+              "UnitPrice": 3.29372,
+              "TotalPrice": 1976.232
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 3.21993,
+              "TotalPrice": 3219.93
+            },
+            {
+              "BreakQuantity": 1400,
+              "UnitPrice": 3.17678,
+              "TotalPrice": 4447.492
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 3.13528,
+              "TotalPrice": 6270.56
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 200,
+          "StandardPackage": 200,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-13095-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 6.07,
+              "TotalPrice": 6.07
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 4.484,
+              "TotalPrice": 44.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 3.8504,
+              "TotalPrice": 192.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 3.6545,
+              "TotalPrice": 365.45
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-13095-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 6.07,
+              "TotalPrice": 6.07
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 4.484,
+              "TotalPrice": 44.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 3.8504,
+              "TotalPrice": 192.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 3.6545,
+              "TotalPrice": 365.45
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "470 mF",
+          "ValueText": "470 mF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "138286",
+          "ValueText": "-20%, +80%"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5.5 V",
+          "ValueText": "5.5 V"
+        },
+        {
+          "ParameterId": 724,
+          "ParameterText": "ESR (Equivalent Series Resistance)",
+          "ParameterType": "String",
+          "ValueId": "92459",
+          "ValueText": "13Ohm @ 1kHz"
+        },
+        {
+          "ParameterId": 725,
+          "ParameterText": "Lifetime @ Temp.",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "404186",
+          "ValueText": "SMD (SMT) Tabs"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "392327",
+          "ValueText": "Radial, Can - SMD"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "29576",
+          "ValueText": "0.630\" Dia (16.00mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "20643",
+          "ValueText": "0.374\" (9.50mm)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 467968,
+        "Name": "FC0H"
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 61,
+            "ParentId": 3,
+            "Name": "Electric Double Layer Capacitors (EDLC), Supercapacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+            "SeoDescription": "Electric double layer capacitors and supercapacitors are a class of electrolytic (polarized) capacitors that offer exceptionally high capacitance values in relation to their physical size and low voltage ratings; individual devices have ratings of a few volts at most, though products incorporating numerous series-connected devices to achieve higher voltage ratings are available. Exhibiting losses that are generally high by standards of other electrolytic capacitors yet low in comparison to electrochemical cells, they are often used as alternatives to the latter in applications requiring high cycle counts or power density.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "99",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 175,
+        "Name": "FC"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.29.0040"
+      },
+      "OtherNames": [
+        "USCFC00H474ZZD",
+        "399-13095-2",
+        "399-13095-1",
+        "399-13095-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:22Z",
+    "manufacturer_part_number": "FC0H474ZFTBR32-SS",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "99",
+    "product_unit_price": 6.07,
+    "offers": [
+      {
+        "provider_part_number": "399-13095-1-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.07,
+            "total_price": 6.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.484,
+            "total_price": 44.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 3.8504,
+            "total_price": 192.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.6545,
+            "total_price": 365.45
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-13095-6-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.07,
+            "total_price": 6.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.484,
+            "total_price": 44.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 3.8504,
+            "total_price": 192.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.6545,
+            "total_price": 365.45
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-13095-2-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 200,
+        "pack_quantity": 200,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 200,
+            "unit_price": 3.4931,
+            "total_price": 698.62
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 3.36028,
+            "total_price": 1344.112
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 3.29372,
+            "total_price": 1976.232
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.21993,
+            "total_price": 3219.93
+          },
+          {
+            "break_quantity": 1400,
+            "unit_price": 3.17678,
+            "total_price": 4447.492
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 3.13528,
+            "total_price": 6270.56
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "399-13095-1-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.07,
+            "total_price": 6.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.484,
+            "total_price": 44.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 3.8504,
+            "total_price": 192.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.6545,
+            "total_price": 365.45
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-13095-6-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.07,
+            "total_price": 6.07
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.484,
+            "total_price": 44.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 3.8504,
+            "total_price": 192.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.6545,
+            "total_price": 365.45
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-13095-2-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 200,
+        "pack_quantity": 200,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 200,
+            "unit_price": 3.4931,
+            "total_price": 698.62
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 3.36028,
+            "total_price": 1344.112
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 3.29372,
+            "total_price": 1976.232
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.21993,
+            "total_price": 3219.93
+          },
+          {
+            "break_quantity": 1400,
+            "unit_price": 3.17678,
+            "total_price": 4447.492
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 3.13528,
+            "total_price": 6270.56
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:22Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "FC0H474ZFTBR32-SS",
+    "provider_part_number": "",
+    "description": "CAP 470MF -20% +80% 5.5V SMD",
+    "detailed_description": "470 mF (EDLC) Supercapacitor 5.5 V Radial, Can - SMD 13Ohm @ 1kHz",
+    "datasheet_url": "https://content.kemet.com/datasheets/KEM_S6011_FC.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/kemet/FC0H474ZFTBR32-SS/5804071",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2147/FC0H474ZFTBR32-SS.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "Radial, Can - SMD",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Capacitance": "470 mF",
+      "Tolerance": "-20%, +80%",
+      "Voltage - Rated": "5.5 V",
+      "ESR (Equivalent Series Resistance)": "13Ohm @ 1kHz",
+      "Lifetime @ Temp.": "-",
+      "Grade": "-",
+      "Qualification": "-",
+      "Termination": "SMD (SMT) Tabs",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "Radial, Can - SMD",
+      "Lead Spacing": "-",
+      "Size / Dimension": "0.630\" Dia (16.00mm)",
+      "Height - Seated (Max)": "0.374\" (9.50mm)",
+      "Operating Temperature": "-40°C ~ 85°C"
+    },
+    "compliance": {}
+  }
+}

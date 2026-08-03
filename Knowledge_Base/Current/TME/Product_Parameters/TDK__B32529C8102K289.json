@@ -1,0 +1,124 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:03:56Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TDK",
+    "input_mpn": "B32529C8102K289",
+    "resolved_manufacturer": "TDK",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "B32529C8102K289",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 471,
+                    "value": "TDK"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1437171,
+                    "value": "polyester"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437249,
+                    "value": "1nF"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1437340,
+                    "value": "400V AC"
+                  },
+                  {
+                    "id": 1437186,
+                    "value": "630V DC"
+                  }
+                ]
+              },
+              {
+                "id": 31,
+                "name": "Terminal pitch",
+                "values": [
+                  {
+                    "id": 1436929,
+                    "value": "5mm"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819340,
+                    "value": "±10%"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1955005,
+                    "value": "7.3x6.5x2.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436576,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

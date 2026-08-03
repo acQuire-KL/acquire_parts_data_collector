@@ -1,0 +1,691 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:07Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TCA9548APWR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "864"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC BUS SWITCH 1 X 8:1 24-TSSOP",
+        "DetailedDescription": "Bus Switch 1 x 8:1 24-TSSOP"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TCA9548APWR",
+      "UnitPrice": 1.3,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TCA9548APWR/3615458",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftca9548a",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040064-6%7EPW%7E24.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-34905-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.6522,
+              "TotalPrice": 1304.4
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.63663,
+              "TotalPrice": 2546.52
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.62884,
+              "TotalPrice": 3773.04
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.62021,
+              "TotalPrice": 6202.1
+            },
+            {
+              "BreakQuantity": 14000,
+              "UnitPrice": 0.61516,
+              "TotalPrice": 8612.24
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 24652,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2000,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-34905-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.35,
+              "TotalPrice": 1.35
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.982,
+              "TotalPrice": 9.82
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.8912,
+              "TotalPrice": 22.28
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7913,
+              "TotalPrice": 79.13
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.74364,
+              "TotalPrice": 185.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.7149,
+              "TotalPrice": 357.45
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.70771,
+              "TotalPrice": 707.71
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 24892,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-34905-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.3,
+              "TotalPrice": 1.3
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.954,
+              "TotalPrice": 9.54
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.8652,
+              "TotalPrice": 21.63
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7682,
+              "TotalPrice": 76.82
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.72196,
+              "TotalPrice": 180.49
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.7077,
+              "TotalPrice": 353.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 24892,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 24892,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "323822",
+          "ValueText": "Bus Switch"
+        },
+        {
+          "ParameterId": 130,
+          "ParameterText": "Circuit",
+          "ParameterType": "String",
+          "ValueId": "40392",
+          "ValueText": "1 x 8:1"
+        },
+        {
+          "ParameterId": 591,
+          "ParameterText": "Independent Circuits",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 592,
+          "ParameterText": "Current - Output High, Low",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 593,
+          "ParameterText": "Voltage Supply Source",
+          "ParameterType": "String",
+          "ValueId": "403070",
+          "ValueText": "Single Supply"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "56916",
+          "ValueText": "1.65V ~ 5.5V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "155158",
+          "ValueText": "24-TSSOP (0.173\", 4.40mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "155156",
+          "ValueText": "24-TSSOP"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 94722,
+        "Name": "TCA9548"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2019,
+            "ParentId": 32,
+            "Name": "Logic",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/312/8-TSSOP%2C-8-MSOP-3x3mm_tmb.jpg",
+            "SeoDescription": "Logic components operate using two voltage levels. These two levels are referred to as High or Low, On or Off, True or False, or simply 1 or 0. There are many components included in this category, such as Buffers, Drivers, Receivers, Transceivers, Comparators, Counters, Dividers, FIFOs Memory, Flip Flops, Gates, Inverters, Latches, Multivibrators, Parity Generators, Shift Registers, Signal Switches, Multiplexers, Decoders, Translators, Level Shifters, Universal Bus FUnctions, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 743,
+                "ParentId": 2019,
+                "Name": "Signal Switches, Multiplexers, Decoders",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/344/270/DIP16_SOT38-1%20Pkg_tmb.jpg",
+                "SeoDescription": "Logic type signal switch, multiplexer, and encoder ICs are used for routing and selection of electrical signals used to represent data in digital format. They differ from similar products designed for use with analog signals in that they are designed to preserve information represented as one of two electrical states, rather than as an infinitely variable quantity within two outer limits.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 34285,
+        "Name": "TCA"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "-296-34905-1",
+        "-TCA9548APWR-NDR",
+        "296-34905-6",
+        "296-34905-2",
+        "296-34905-1",
+        "-296-34905-1-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:07Z",
+    "manufacturer_part_number": "TCA9548APWR",
+    "product_quantity_available": 24892,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.3,
+    "offers": [
+      {
+        "provider_part_number": "296-34905-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 24892,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.35,
+            "total_price": 1.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.982,
+            "total_price": 9.82
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8912,
+            "total_price": 22.28
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7913,
+            "total_price": 79.13
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74364,
+            "total_price": 185.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7149,
+            "total_price": 357.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.70771,
+            "total_price": 707.71
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-34905-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 24892,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.3,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.954,
+            "total_price": 9.54
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8652,
+            "total_price": 21.63
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7682,
+            "total_price": 76.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.72196,
+            "total_price": 180.49
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7077,
+            "total_price": 353.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-34905-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 24652,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.6522,
+            "total_price": 1304.4
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.63663,
+            "total_price": 2546.52
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.62884,
+            "total_price": 3773.04
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.62021,
+            "total_price": 6202.1
+          },
+          {
+            "break_quantity": 14000,
+            "unit_price": 0.61516,
+            "total_price": 8612.24
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-34905-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 24892,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.35,
+            "total_price": 1.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.982,
+            "total_price": 9.82
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8912,
+            "total_price": 22.28
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7913,
+            "total_price": 79.13
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.74364,
+            "total_price": 185.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7149,
+            "total_price": 357.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.70771,
+            "total_price": 707.71
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-34905-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 24892,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.3,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.954,
+            "total_price": 9.54
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8652,
+            "total_price": 21.63
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7682,
+            "total_price": 76.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.72196,
+            "total_price": 180.49
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.7077,
+            "total_price": 353.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-34905-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 24652,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.6522,
+            "total_price": 1304.4
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.63663,
+            "total_price": 2546.52
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.62884,
+            "total_price": 3773.04
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.62021,
+            "total_price": 6202.1
+          },
+          {
+            "break_quantity": 14000,
+            "unit_price": 0.61516,
+            "total_price": 8612.24
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:07Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TCA9548APWR",
+    "provider_part_number": "",
+    "description": "IC BUS SWITCH 1 X 8:1 24-TSSOP",
+    "detailed_description": "Bus Switch 1 x 8:1 24-TSSOP",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftca9548a",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TCA9548APWR/3615458",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040064-6%7EPW%7E24.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "24-TSSOP (0.173\", 4.40mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Bus Switch",
+      "Circuit": "1 x 8:1",
+      "Independent Circuits": "1",
+      "Current - Output High, Low": "-",
+      "Voltage Supply Source": "Single Supply",
+      "Voltage - Supply": "1.65V ~ 5.5V",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "24-TSSOP (0.173\", 4.40mm Width)",
+      "Supplier Device Package": "24-TSSOP"
+    },
+    "compliance": {}
+  }
+}

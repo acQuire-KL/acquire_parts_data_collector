@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:04:51Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TAJA106K010RNJ",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 143371,
+          "symbol": "TAJA106K010R",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.536,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.263,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.144,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.09,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.077,
+                "special": false
+              },
+              {
+                "amount": 2000,
+                "price": 0.07,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.068,
+                "special": false
+              },
+              {
+                "amount": 6000,
+                "price": 0.067,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.066,
+                "special": false
+              },
+              {
+                "amount": 20000,
+                "price": 0.065,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

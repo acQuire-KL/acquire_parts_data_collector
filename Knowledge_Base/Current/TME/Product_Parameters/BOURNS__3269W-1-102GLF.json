@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:03Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BOURNS",
+    "input_mpn": "3269W-1-102GLF",
+    "resolved_manufacturer": "BOURNS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "3269W1102GLF-BOU-0",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 60,
+                    "value": "BOURNS"
+                  }
+                ]
+              },
+              {
+                "id": 186,
+                "name": "Type of potentiometer",
+                "values": [
+                  {
+                    "id": 1438508,
+                    "value": "mounting"
+                  }
+                ]
+              },
+              {
+                "id": 2667,
+                "name": "Kind of potentiometer",
+                "values": [
+                  {
+                    "id": 1438789,
+                    "value": "multiturn"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1436649,
+                    "value": "1kΩ"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1436573,
+                    "value": "0.25W"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819340,
+                    "value": "±10%"
+                  }
+                ]
+              },
+              {
+                "id": 44,
+                "name": "Temperature coefficient",
+                "values": [
+                  {
+                    "id": 1436792,
+                    "value": "100ppm/°C"
+                  }
+                ]
+              },
+              {
+                "id": 194,
+                "name": "Characteristics",
+                "values": [
+                  {
+                    "id": 1438509,
+                    "value": "linear"
+                  }
+                ]
+              },
+              {
+                "id": 2537,
+                "name": "Track material",
+                "values": [
+                  {
+                    "id": 1438573,
+                    "value": "cermet"
+                  }
+                ]
+              },
+              {
+                "id": 189,
+                "name": "Number of electrical turns",
+                "values": [
+                  {
+                    "id": 1439121,
+                    "value": "12"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819697,
+                    "value": "-65...150°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

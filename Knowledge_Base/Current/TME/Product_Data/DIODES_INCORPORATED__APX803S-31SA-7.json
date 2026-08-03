@@ -1,0 +1,84 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:07:48Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "APX803S-31SA-7",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "APX803S-31SA-7",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.23,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 0.185,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.164,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.14,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.116,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.106,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.101,
+                "special": false
+              },
+              {
+                "amount": 3000,
+                "price": 0.093,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:54Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "input_mpn": "MAX31865AAP+",
+    "resolved_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "870"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC RTD TO DIGITAL CONVERT 20SSOP",
+        "DetailedDescription": "Temp Monitoring System (Sensor) External Sensor SPI Output 20-SSOP"
+      },
+      "Manufacturer": {
+        "Id": 175,
+        "Name": "Analog Devices Inc./Maxim Integrated"
+      },
+      "ManufacturerProductNumber": "MAX31865AAP+",
+      "UnitPrice": 9.43,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/analog-devices-inc-maxim-integrated/MAX31865AAP/5396622",
+      "DatasheetUrl": "https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6164/175%7E21-0056%7EAP%7E20.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MAX31865AAP+-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 9.43,
+              "TotalPrice": 9.43
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 7.37,
+              "TotalPrice": 73.7
+            },
+            {
+              "BreakQuantity": 66,
+              "UnitPrice": 6.43606,
+              "TotalPrice": 424.77996
+            },
+            {
+              "BreakQuantity": 132,
+              "UnitPrice": 6.19947,
+              "TotalPrice": 818.33004
+            },
+            {
+              "BreakQuantity": 264,
+              "UnitPrice": 6.00473,
+              "TotalPrice": 1585.24872
+            },
+            {
+              "BreakQuantity": 528,
+              "UnitPrice": 5.84449,
+              "TotalPrice": 3085.89072
+            },
+            {
+              "BreakQuantity": 1056,
+              "UnitPrice": 5.71255,
+              "TotalPrice": 6032.4528
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 175,
+            "Name": "Analog Devices Inc./Maxim Integrated"
+          },
+          "QuantityAvailableforPackageType": 3650,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 66,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 3650,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5834943553001",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "410849",
+          "ValueText": "Temp Monitoring System (Sensor)"
+        },
+        {
+          "ParameterId": 345,
+          "ParameterText": "Sensor Type",
+          "ParameterType": "String",
+          "ValueId": "345656",
+          "ValueText": "External"
+        },
+        {
+          "ParameterId": 469,
+          "ParameterText": "Sensing Temperature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 222,
+          "ParameterText": "Accuracy",
+          "ParameterType": "String",
+          "ValueId": "1007",
+          "ValueText": "±0.5°C(Max)"
+        },
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "309579",
+          "ValueText": "ADC (Sigma Delta), Comparator, Register Bank"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "406106",
+          "ValueText": "SPI"
+        },
+        {
+          "ParameterId": 1234,
+          "ParameterText": "Output Alarm",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 1235,
+          "ParameterText": "Output Fan",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "202821",
+          "ValueText": "3V ~ 3.6V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "143726",
+          "ValueText": "20-SSOP (0.209\", 5.30mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "143723",
+          "ValueText": "20-SSOP"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 95194,
+        "Name": "MAX31865"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 738,
+                "ParentId": 2025,
+                "Name": "Thermal Management",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/318/373/505%3BDH-14-1%3BDH%3B14_tmb%2864x64%29.jpg",
+                "SeoDescription": "Thermal Management ICs are a semiconductor device that controls the power in a circuit based on temperature. The function of these ICs are Fan Control, Hardware Monitor, Temp Monitoring System, Thermal Monitor, Thermocouple Amplifier, Thermocouple Conditioner, and a Thermometer – Thermostat. The sensing temperature is from -260°C to +1800°C with an output type of I2C, SMBus, Active low/Active High, Analog Voltage, Open Drain, PWM, SPI, 2-Wire Serial, and Parallel – Serial.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "26",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "-4941-MAX31865AAP+"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:54Z",
+    "manufacturer_part_number": "MAX31865AAP+",
+    "product_quantity_available": 3650,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "26",
+    "product_unit_price": 9.43,
+    "offers": [
+      {
+        "provider_part_number": "MAX31865AAP+-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 66,
+        "quantity_available": 3650,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.43,
+            "total_price": 9.43
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.37,
+            "total_price": 73.7
+          },
+          {
+            "break_quantity": 66,
+            "unit_price": 6.43606,
+            "total_price": 424.77996
+          },
+          {
+            "break_quantity": 132,
+            "unit_price": 6.19947,
+            "total_price": 818.33004
+          },
+          {
+            "break_quantity": 264,
+            "unit_price": 6.00473,
+            "total_price": 1585.24872
+          },
+          {
+            "break_quantity": 528,
+            "unit_price": 5.84449,
+            "total_price": 3085.89072
+          },
+          {
+            "break_quantity": 1056,
+            "unit_price": 5.71255,
+            "total_price": 6032.4528
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "MAX31865AAP+-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 66,
+        "quantity_available": 3650,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.43,
+            "total_price": 9.43
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.37,
+            "total_price": 73.7
+          },
+          {
+            "break_quantity": 66,
+            "unit_price": 6.43606,
+            "total_price": 424.77996
+          },
+          {
+            "break_quantity": 132,
+            "unit_price": 6.19947,
+            "total_price": 818.33004
+          },
+          {
+            "break_quantity": 264,
+            "unit_price": 6.00473,
+            "total_price": 1585.24872
+          },
+          {
+            "break_quantity": 528,
+            "unit_price": 5.84449,
+            "total_price": 3085.89072
+          },
+          {
+            "break_quantity": 1056,
+            "unit_price": 5.71255,
+            "total_price": 6032.4528
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:54Z",
+    "manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "manufacturer_part_number": "MAX31865AAP+",
+    "provider_part_number": "",
+    "description": "IC RTD TO DIGITAL CONVERT 20SSOP",
+    "detailed_description": "Temp Monitoring System (Sensor) External Sensor SPI Output 20-SSOP",
+    "datasheet_url": "https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc-maxim-integrated/MAX31865AAP/5396622",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6164/175%7E21-0056%7EAP%7E20.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "20-SSOP (0.209\", 5.30mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Temp Monitoring System (Sensor)",
+      "Sensor Type": "External",
+      "Sensing Temperature": "-",
+      "Accuracy": "±0.5°C(Max)",
+      "Topology": "ADC (Sigma Delta), Comparator, Register Bank",
+      "Output Type": "SPI",
+      "Output Alarm": "No",
+      "Output Fan": "No",
+      "Voltage - Supply": "3V ~ 3.6V",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "20-SSOP (0.209\", 5.30mm Width)",
+      "Supplier Device Package": "20-SSOP"
+    },
+    "compliance": {}
+  }
+}

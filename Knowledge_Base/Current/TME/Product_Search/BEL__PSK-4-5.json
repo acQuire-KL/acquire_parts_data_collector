@@ -1,0 +1,267 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:05Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BEL",
+    "input_mpn": "PSK-4-5",
+    "resolved_manufacturer": "BEL",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK4512T-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113656,
+              "name": "Built-in Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-12-T"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "Power supply: switching; AC/DC; 46W; Uout: 12V; 3.8A; OUT: 1; 84%; IT",
+            "multiples": 1,
+            "minimal_amount": 4,
+            "weight": {
+              "value": 220.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK4515T-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 118253,
+              "name": "Power Supplies - Unclassified"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-15-T"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "PSK-45-15-T",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 170.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK4548-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100433,
+              "name": "PCB AC/DC converters"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-48"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "Converter: AC/DC; 45W; Uin: 85÷264VAC; Iout: 940mA; OUT: 1; 87%; 48V",
+            "multiples": 1,
+            "minimal_amount": 3,
+            "weight": {
+              "value": 160.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK4548DIN-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113652,
+              "name": "Din Rail Mounting Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-48-DIN"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "Power supply: switching; for DIN rail; IT; 45W; Uout: 48V; 940mA",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 200.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK4548T-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 118253,
+              "name": "Power Supplies - Unclassified"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-48-T"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "PSK-45-48-T",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 190.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "EXTERNAL_WAREHOUSE",
+              "BLOCKED_FOR_ZBL_MP"
+            ],
+            "symbol": "PSK455T-BEL-0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 118253,
+              "name": "Power Supplies - Unclassified"
+            },
+            "manufacturer_symbols": [
+              "PSK-45-5-T"
+            ],
+            "manufacturer": {
+              "id": 1992,
+              "name": "BEL"
+            },
+            "description": "PSK-45-5-T",
+            "multiples": 1,
+            "minimal_amount": 2,
+            "weight": {
+              "value": 190.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

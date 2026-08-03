@@ -1,0 +1,738 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:38Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "ADC121C021CIMM/NOPB",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "996"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC ADC 12BIT 8-VSSOP",
+        "DetailedDescription": "12 Bit Analog to Digital Converter 1 Input 1 SAR 8-VSSOP"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "ADC121C021CIMM/NOPB",
+      "UnitPrice": 2.35,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/ADC121C021CIMM-NOPB/2075626",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/adc121c021.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8905/MFG_296%7EMUA08A%7EDGK%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "ADC121C021CIMM/NOPBTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.26916,
+              "TotalPrice": 1269.16
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 1.23704,
+              "TotalPrice": 2474.08
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 1.22096,
+              "TotalPrice": 3662.88
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 1.20313,
+              "TotalPrice": 6015.65
+            },
+            {
+              "BreakQuantity": 7000,
+              "UnitPrice": 1.19272,
+              "TotalPrice": 8349.04
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 8000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ADC121C021CIMM/NOPBCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.35,
+              "TotalPrice": 2.35
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.749,
+              "TotalPrice": 17.49
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.5992,
+              "TotalPrice": 39.98
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.4343,
+              "TotalPrice": 143.43
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.3556,
+              "TotalPrice": 338.9
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.32446,
+              "TotalPrice": 662.23
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 8270,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ADC121C021CIMM/NOPBDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.35,
+              "TotalPrice": 2.35
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.749,
+              "TotalPrice": 17.49
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.5992,
+              "TotalPrice": 39.98
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.4343,
+              "TotalPrice": 143.43
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.3556,
+              "TotalPrice": 338.9
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.32446,
+              "TotalPrice": 662.23
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 8270,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 8270,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 153,
+          "ParameterText": "Number of Bits",
+          "ParameterType": "String",
+          "ValueId": "80383",
+          "ValueText": "12"
+        },
+        {
+          "ParameterId": 348,
+          "ParameterText": "Sampling Rate (Per Second)",
+          "ParameterType": "String",
+          "ValueId": "115727",
+          "ValueText": "188.9k"
+        },
+        {
+          "ParameterId": 667,
+          "ParameterText": "Number of Inputs",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "403007",
+          "ValueText": "Single Ended"
+        },
+        {
+          "ParameterId": 243,
+          "ParameterText": "Data Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "399468",
+          "ValueText": "S/H-ADC"
+        },
+        {
+          "ParameterId": 1785,
+          "ParameterText": "Ratio - S/H:ADC",
+          "ParameterType": "String",
+          "ValueId": "63478",
+          "ValueText": "1:1"
+        },
+        {
+          "ParameterId": 2198,
+          "ParameterText": "Number of A/D Converters",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1523,
+          "ParameterText": "Architecture",
+          "ParameterType": "String",
+          "ValueId": "399924",
+          "ValueText": "SAR"
+        },
+        {
+          "ParameterId": 245,
+          "ParameterText": "Reference Type",
+          "ParameterType": "String",
+          "ValueId": "409338",
+          "ValueText": "Supply"
+        },
+        {
+          "ParameterId": 346,
+          "ParameterText": "Voltage - Supply, Analog",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 347,
+          "ParameterText": "Voltage - Supply, Digital",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212434",
+          "ValueText": "-40°C ~ 105°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "295061",
+          "ValueText": "8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "295353",
+          "ValueText": "8-VSSOP"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 61210,
+        "Name": "ADC121C021"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 700,
+                "ParentId": 2009,
+                "Name": "Analog to Digital Converters (ADC)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/324/505%3BCP-16-45%3BCP%3B16_tmb.jpg",
+                "SeoDescription": "Analog-to-digital converters (ADC, A/D, or A-to-D) sample an analog signal, such as a sound picked up by a microphone or the output of a sensor, into a digital signal. Typically, the digital output is a two's complement binary number that is proportional to the input. Input types may be differential, pseudo differential or single-ended. ADCs are selected by number of bits, sampling rate, number of inputs, interface, number of converters, and the architecture such as adaptive delta, dual slope, folding, pipelined, SAR, Sigma-Delta or two-step.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "26",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0030"
+      },
+      "OtherNames": [
+        "ADC121C021CIMMTR",
+        "ADC121C021CIMM/NOPBDKR",
+        "ADC121C021CIMM/NOPBCT",
+        "ADC121C021CIMMCT",
+        "-ADC121C021CIMM-NDR",
+        "*ADC121C021CIMM/NOPB",
+        "ADC121C021CIMMNOPB",
+        "ADC121C021CIMM/NOPBTR",
+        "ADC121C021CIMMTR-ND",
+        "ADC121C021CIMMDKR",
+        "ADC121C021CIMMDKR-ND",
+        "ADC121C021CIMMCT-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:38Z",
+    "manufacturer_part_number": "ADC121C021CIMM/NOPB",
+    "product_quantity_available": 8270,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "26",
+    "product_unit_price": 2.35,
+    "offers": [
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8270,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.749,
+            "total_price": 17.49
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.5992,
+            "total_price": 39.98
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4343,
+            "total_price": 143.43
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.3556,
+            "total_price": 338.9
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.32446,
+            "total_price": 662.23
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8270,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.749,
+            "total_price": 17.49
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.5992,
+            "total_price": 39.98
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4343,
+            "total_price": 143.43
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.3556,
+            "total_price": 338.9
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.32446,
+            "total_price": 662.23
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 8000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.26916,
+            "total_price": 1269.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.23704,
+            "total_price": 2474.08
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.22096,
+            "total_price": 3662.88
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.20313,
+            "total_price": 6015.65
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 1.19272,
+            "total_price": 8349.04
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8270,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.749,
+            "total_price": 17.49
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.5992,
+            "total_price": 39.98
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4343,
+            "total_price": 143.43
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.3556,
+            "total_price": 338.9
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.32446,
+            "total_price": 662.23
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8270,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.749,
+            "total_price": 17.49
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.5992,
+            "total_price": 39.98
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4343,
+            "total_price": 143.43
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.3556,
+            "total_price": 338.9
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.32446,
+            "total_price": 662.23
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ADC121C021CIMM/NOPBTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 8000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.26916,
+            "total_price": 1269.16
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.23704,
+            "total_price": 2474.08
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.22096,
+            "total_price": 3662.88
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.20313,
+            "total_price": 6015.65
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 1.19272,
+            "total_price": 8349.04
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:38Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "ADC121C021CIMM/NOPB",
+    "provider_part_number": "",
+    "description": "IC ADC 12BIT 8-VSSOP",
+    "detailed_description": "12 Bit Analog to Digital Converter 1 Input 1 SAR 8-VSSOP",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/adc121c021.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/ADC121C021CIMM-NOPB/2075626",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8905/MFG_296%7EMUA08A%7EDGK%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Bits": "12",
+      "Sampling Rate (Per Second)": "188.9k",
+      "Number of Inputs": "1",
+      "Input Type": "Single Ended",
+      "Data Interface": "I2C",
+      "Configuration": "S/H-ADC",
+      "Ratio - S/H:ADC": "1:1",
+      "Number of A/D Converters": "1",
+      "Architecture": "SAR",
+      "Reference Type": "Supply",
+      "Voltage - Supply, Analog": "2.7V ~ 5.5V",
+      "Voltage - Supply, Digital": "2.7V ~ 5.5V",
+      "Features": "-",
+      "Operating Temperature": "-40°C ~ 105°C",
+      "Package / Case": "8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)",
+      "Supplier Device Package": "8-VSSOP",
+      "Mounting Type": "Surface Mount"
+    },
+    "compliance": {}
+  }
+}

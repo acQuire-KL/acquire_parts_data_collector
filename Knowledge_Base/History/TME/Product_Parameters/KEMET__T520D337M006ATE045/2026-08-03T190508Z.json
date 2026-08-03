@@ -1,0 +1,180 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "T520D337M006ATE045",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "T520D337M006ATE045",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 142,
+                    "value": "KEMET"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1529972,
+                    "value": "tantalum-polymer"
+                  }
+                ]
+              },
+              {
+                "id": 2650,
+                "name": "Kind of capacitor",
+                "values": [
+                  {
+                    "id": 1632190,
+                    "value": "low ESR"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437953,
+                    "value": "330µF"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1545019,
+                    "value": "6.3V DC"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1621790,
+                    "value": "207.9µA"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1437952,
+                    "value": "D"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620330,
+                    "value": "2917"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620329,
+                    "value": "7343"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2260,
+                "name": "ESR value",
+                "values": [
+                  {
+                    "id": 1481571,
+                    "value": "45mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1828368,
+                    "value": "T520"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819333,
+                    "value": "±20%"
+                  }
+                ]
+              },
+              {
+                "id": 3402,
+                "name": "Trade name",
+                "values": [
+                  {
+                    "id": 1923454,
+                    "value": "KO-CAP"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819389,
+                    "value": "-55...105°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

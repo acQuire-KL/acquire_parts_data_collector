@@ -1,0 +1,320 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:20Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "744042100",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "4111 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Power Inductors - SMD WE-TPC 4818 10uH 1.3A .12Ohm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/wurthelectronics/images/744042100_t.jpg",
+          "Category": "Power Inductors - SMD",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wurth Elektronik",
+          "ManufacturerPartNumber": "744042100",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "710-744042100",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€1.11",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.894",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 800,
+              "Price": "€0.706",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2400,
+              "Price": "€0.632",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/744042100?qs=PGXP4M47uW56WAvZz2XcAA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000165
+          },
+          "AvailabilityInStock": "4111",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 6400,
+              "Date": "2026-08-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504500090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504508000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "850450000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504502090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8504509199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85045000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:20Z",
+    "manufacturer_part_number": "744042100",
+    "product_quantity_available": 4111,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "154 Days",
+    "product_unit_price": 1.31,
+    "offers": [
+      {
+        "provider_part_number": "710-744042100",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4111,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.11,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.894,
+            "total_price": null
+          },
+          {
+            "break_quantity": 800,
+            "unit_price": 0.706,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.632,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "710-744042100",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4111,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.11,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.894,
+            "total_price": null
+          },
+          {
+            "break_quantity": 800,
+            "unit_price": 0.706,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.632,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:20Z",
+    "manufacturer": "Wurth Elektronik",
+    "manufacturer_part_number": "744042100",
+    "provider_part_number": "710-744042100",
+    "description": "Power Inductors - SMD WE-TPC 4818 10uH 1.3A .12Ohm",
+    "detailed_description": "Power Inductors - SMD WE-TPC 4818 10uH 1.3A .12Ohm",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/744042100?qs=PGXP4M47uW56WAvZz2XcAA%3D%3D",
+    "image_url": "https://www.mouser.com/images/wurthelectronics/images/744042100_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "800"
+    },
+    "compliance": {
+      "TARIC": "8504500090",
+      "CNHTS": "8504500000",
+      "CAHTS": "8504500000",
+      "USHTS": "8504508000",
+      "JPHTS": "850450000",
+      "KRHTS": "8504502090",
+      "MXHTS": "8504509199",
+      "BRHTS": "85045000",
+      "ECCN": "EAR99"
+    }
+  }
+}

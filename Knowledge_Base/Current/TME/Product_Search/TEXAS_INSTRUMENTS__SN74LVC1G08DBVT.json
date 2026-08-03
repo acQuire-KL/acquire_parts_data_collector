@@ -1,0 +1,117 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:07:49Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "SN74LVC1G08DBVT",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "SN74LVC1G08DBVT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113427,
+              "name": "Gates, inverters"
+            },
+            "manufacturer_symbols": [
+              "SN74LVC1G08DBVT"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: digital; AND; Ch: 1; IN: 2; CMOS; SMD; SOT23-5; 1.65÷5.5VDC; 10uA",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.049,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 250
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=f17a44846510e0dcc8d3b7260a0f9e75efcb8996",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=100&height=75&q=75&ci_sign=96d03b74e36d55e55b62e2ad88910381f381a33f",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=517f39bfe80a9b3a42d16f316d012b2caab2f40a"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SN74LVC1G08DBVTG4",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113427,
+              "name": "Gates, inverters"
+            },
+            "manufacturer_symbols": [
+              "SN74LVC1G08DBVTG4"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: digital; AND; Ch: 1; IN: 2; SMD; SOT23-5; -40÷125°C; 10uA; 74LVC",
+            "multiples": 250,
+            "minimal_amount": 250,
+            "weight": {
+              "value": 0.029,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/23/F6/61/00/0/1470258_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c32a522fd4036ad8ef23218fb907c167b10a481f",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/23/F6/61/00/0/1470258_1.jpg?width=100&height=75&q=75&ci_sign=192619b9068b0b4dedcd3c6e51a4a293bb3bd422",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

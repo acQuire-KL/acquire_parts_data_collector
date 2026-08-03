@@ -1,0 +1,708 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bel Fuse Inc.",
+    "input_mpn": "0683G5000-01",
+    "resolved_manufacturer": "Bel Fuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "887"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FUSE CERM 5A 350VAC 125VDC 2SMD",
+        "DetailedDescription": "5 A 350 V 125 V Fuse Cartridge, Ceramic Surface Mount 2-SMD, Square End Block"
+      },
+      "Manufacturer": {
+        "Id": 507,
+        "Name": "Bel Fuse Inc."
+      },
+      "ManufacturerProductNumber": "0683G5000-01",
+      "UnitPrice": 2.35,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bel-fuse-inc/0683G5000-01/15283003",
+      "DatasheetUrl": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-CP-0683G-series.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4693/MFG_img-bcp-0683G_v1.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "5923-0683G5000-01TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1500,
+              "UnitPrice": 1.00274,
+              "TotalPrice": 1504.11
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.92301,
+              "TotalPrice": 2769.03
+            },
+            {
+              "BreakQuantity": 4500,
+              "UnitPrice": 0.87905,
+              "TotalPrice": 3955.725
+            },
+            {
+              "BreakQuantity": 7500,
+              "UnitPrice": 0.85064,
+              "TotalPrice": 6379.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1500,
+          "StandardPackage": 1500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "5923-0683G5000-01CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.35,
+              "TotalPrice": 2.35
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.952,
+              "TotalPrice": 9.76
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.801,
+              "TotalPrice": 18.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.4946,
+              "TotalPrice": 74.73
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.3788,
+              "TotalPrice": 137.88
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.23884,
+              "TotalPrice": 309.71
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.142,
+              "TotalPrice": 571.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 248,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "5923-0683G5000-01DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.35,
+              "TotalPrice": 2.35
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.952,
+              "TotalPrice": 9.76
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.801,
+              "TotalPrice": 18.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.4946,
+              "TotalPrice": 74.73
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.3788,
+              "TotalPrice": 137.88
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.23884,
+              "TotalPrice": 309.71
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.142,
+              "TotalPrice": 571.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 5923,
+            "Name": "Bel Fuse Inc."
+          },
+          "QuantityAvailableforPackageType": 248,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 248,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 49,
+          "ParameterText": "Fuse Type",
+          "ParameterType": "String",
+          "ValueId": "326746",
+          "ValueText": "Cartridge, Ceramic"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 A",
+          "ValueText": "5 A"
+        },
+        {
+          "ParameterId": 2143,
+          "ParameterText": "Voltage Rating - AC",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "350 V",
+          "ValueText": "350 V"
+        },
+        {
+          "ParameterId": 2144,
+          "ParameterText": "Voltage Rating - DC",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "125 V",
+          "ValueText": "125 V"
+        },
+        {
+          "ParameterId": 343,
+          "ParameterText": "Response Time",
+          "ParameterType": "String",
+          "ValueId": "403741",
+          "ValueText": "Slow Blow"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "168675",
+          "ValueText": "2-SMD, Square End Block"
+        },
+        {
+          "ParameterId": 1551,
+          "ParameterText": "Breaking Capacity @ Rated Voltage",
+          "ParameterType": "String",
+          "ValueId": "68522",
+          "ValueText": "100A AC, 2kA DC"
+        },
+        {
+          "ParameterId": 2163,
+          "ParameterText": "Melting I²t",
+          "ParameterType": "Double",
+          "ValueId": "47.0",
+          "ValueText": "47.0"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "328303",
+          "ValueText": "CE, cURus"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "13227",
+          "ValueText": "0.183\" Dia x 0.476\" L (4.65mm x 12.10mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 9,
+        "ParentId": 0,
+        "Name": "Circuit Protection",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+        "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+        "ChildCategories": [
+          {
+            "CategoryId": 139,
+            "ParentId": 9,
+            "Name": "Fuses",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/270/869/0297010.WXNV_tmb%2864x64%29.jpg",
+            "SeoDescription": "A fuse is a device designed to stop current flow when it exceeds a certain limit (overcurrent protection). The devices works by creating an opening in a material situated between two end terminals. The material will melt (blow) from an increase in heat generated by the device as the current flow changes. The amount of time it takes the device to blow is often defined as fast or slow-blow.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "10",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 94766,
+        "Name": "0683G"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.10.0040"
+      },
+      "OtherNames": [
+        "507-0683G5000-01DKR",
+        "5923-0683G5000-01DKR",
+        "507-0683G5000-01DKR-ND",
+        "507-0683G5000-01CT-ND",
+        "5923-0683G5000-01TR",
+        "507-0683G5000-01TR-ND",
+        "507-0683G5000-01TR",
+        "5923-0683G5000-01CT",
+        "2266-0683G5000-01-507",
+        "507-0683G5000-01CT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "manufacturer_part_number": "0683G5000-01",
+    "product_quantity_available": 248,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "10",
+    "product_unit_price": 2.35,
+    "offers": [
+      {
+        "provider_part_number": "5923-0683G5000-01CT-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 248,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.952,
+            "total_price": 9.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.801,
+            "total_price": 18.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4946,
+            "total_price": 74.73
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3788,
+            "total_price": 137.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.23884,
+            "total_price": 309.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.142,
+            "total_price": 571.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0683G5000-01DKR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 248,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.952,
+            "total_price": 9.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.801,
+            "total_price": 18.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4946,
+            "total_price": 74.73
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3788,
+            "total_price": 137.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.23884,
+            "total_price": 309.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.142,
+            "total_price": 571.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0683G5000-01TR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1500,
+        "pack_quantity": 1500,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1500,
+            "unit_price": 1.00274,
+            "total_price": 1504.11
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.92301,
+            "total_price": 2769.03
+          },
+          {
+            "break_quantity": 4500,
+            "unit_price": 0.87905,
+            "total_price": 3955.725
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.85064,
+            "total_price": 6379.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "5923-0683G5000-01CT-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 248,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.952,
+            "total_price": 9.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.801,
+            "total_price": 18.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4946,
+            "total_price": 74.73
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3788,
+            "total_price": 137.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.23884,
+            "total_price": 309.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.142,
+            "total_price": 571.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0683G5000-01DKR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 248,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.35,
+            "total_price": 2.35
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.952,
+            "total_price": 9.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.801,
+            "total_price": 18.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.4946,
+            "total_price": 74.73
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3788,
+            "total_price": 137.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.23884,
+            "total_price": 309.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.142,
+            "total_price": 571.0
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "5923-0683G5000-01TR-ND",
+        "supplier": "Bel Fuse Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1500,
+        "pack_quantity": 1500,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1500,
+            "unit_price": 1.00274,
+            "total_price": 1504.11
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.92301,
+            "total_price": 2769.03
+          },
+          {
+            "break_quantity": 4500,
+            "unit_price": 0.87905,
+            "total_price": 3955.725
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.85064,
+            "total_price": 6379.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_part_number": "0683G5000-01",
+    "provider_part_number": "",
+    "description": "FUSE CERM 5A 350VAC 125VDC 2SMD",
+    "detailed_description": "5 A 350 V 125 V Fuse Cartridge, Ceramic Surface Mount 2-SMD, Square End Block",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-CP-0683G-series.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bel-fuse-inc/0683G5000-01/15283003",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4693/MFG_img-bcp-0683G_v1.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "2-SMD, Square End Block",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Mounting Type": "Surface Mount",
+      "Fuse Type": "Cartridge, Ceramic",
+      "Current Rating (Amps)": "5 A",
+      "Voltage Rating - AC": "350 V",
+      "Voltage Rating - DC": "125 V",
+      "Response Time": "Slow Blow",
+      "Package / Case": "2-SMD, Square End Block",
+      "Breaking Capacity @ Rated Voltage": "100A AC, 2kA DC",
+      "Melting I²t": "47.0",
+      "Approval Agency": "CE, cURus",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Color": "-",
+      "Size / Dimension": "0.183\" Dia x 0.476\" L (4.65mm x 12.10mm)"
+    },
+    "compliance": {}
+  }
+}

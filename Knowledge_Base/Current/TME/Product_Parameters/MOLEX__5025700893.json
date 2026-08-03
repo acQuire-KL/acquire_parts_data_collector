@@ -1,0 +1,110 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MOLEX",
+    "input_mpn": "5025700893",
+    "resolved_manufacturer": "MOLEX",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MX-502570-0893",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 162,
+                    "value": "MOLEX"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1453790,
+                    "value": "for cards"
+                  }
+                ]
+              },
+              {
+                "id": 756,
+                "name": "Kind of card",
+                "values": [
+                  {
+                    "id": 1454062,
+                    "value": "microSD"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1453805,
+                    "value": "push-push"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1437405,
+                    "value": "8"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1452681,
+                    "value": "10000 cycles"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819341,
+                    "value": "-25...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

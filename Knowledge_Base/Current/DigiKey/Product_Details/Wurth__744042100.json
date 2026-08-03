@@ -1,0 +1,621 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:19Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "744042100",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "860"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FIXED IND 10UH 1.3A 150 MOHM SMD",
+        "DetailedDescription": "10 µH Shielded Drum Core, Wirewound Inductor 1.3 A 150mOhm Max 1919 (4848 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "744042100",
+      "UnitPrice": 1.34,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/744042100/1638429",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/744042100.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/539/WE-TPC-4828.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-1025-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 800,
+              "UnitPrice": 0.68199,
+              "TotalPrice": 545.592
+            },
+            {
+              "BreakQuantity": 1600,
+              "UnitPrice": 0.61055,
+              "TotalPrice": 976.88
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 14400,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 800,
+          "StandardPackage": 800,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-1025-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.34,
+              "TotalPrice": 1.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.295,
+              "TotalPrice": 12.95
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.1332,
+              "TotalPrice": 56.66
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0362,
+              "TotalPrice": 103.62
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 14712,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-1025-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.34,
+              "TotalPrice": 1.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.295,
+              "TotalPrice": 12.95
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.1332,
+              "TotalPrice": 56.66
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0362,
+              "TotalPrice": 103.62
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 14712,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 14712,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5023037698001",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "694884",
+          "ValueText": "Drum Core, Wirewound"
+        },
+        {
+          "ParameterId": 1221,
+          "ParameterText": "Material - Core",
+          "ParameterType": "String",
+          "ValueId": "346647",
+          "ValueText": "Ferrite"
+        },
+        {
+          "ParameterId": 2087,
+          "ParameterText": "Inductance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 µH",
+          "ValueText": "10 µH"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "2206",
+          "ValueText": "±30%"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.3 A",
+          "ValueText": "1.3 A"
+        },
+        {
+          "ParameterId": 1219,
+          "ParameterText": "Current - Saturation (Isat)",
+          "ParameterType": "String",
+          "ValueId": "119750",
+          "ValueText": "1A"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        },
+        {
+          "ParameterId": 314,
+          "ParameterText": "DC Resistance (DCR)",
+          "ParameterType": "String",
+          "ValueId": "100524",
+          "ValueText": "150mOhm Max"
+        },
+        {
+          "ParameterId": 705,
+          "ParameterText": "Q @ Freq",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 706,
+          "ParameterText": "Frequency - Self Resonant",
+          "ParameterType": "String",
+          "ValueId": "222107",
+          "ValueText": "45MHz"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 1222,
+          "ParameterText": "Inductance Frequency - Test",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "100 kHz",
+          "ValueText": "100 kHz"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "118334",
+          "ValueText": "1919 (4848 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "13476",
+          "ValueText": "0.189\" L x 0.189\" W (4.80mm x 4.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "8489",
+          "ValueText": "0.079\" (2.00mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 4,
+        "ParentId": 0,
+        "Name": "Inductors, Coils, Chokes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/465/830/760308104119_tmb%2864x64%29.jpg",
+        "SeoDescription": "Inductors, coils, and chokes are various names used to refer to products that store energy in the form of a magnetic field. The vast majority of the products found in this category are simple fixed-value devices, though adjustable types, products for wireless power transmission, and magnetically-coupled inductor arrays are also included. Note that the coupled-inductor devices found within this product family are characterized by having multiple identical windings sharing a common magnetic core; similar products with non-identical windings are more commonly described as transformers, and are categorized as such.",
+        "ChildCategories": [
+          {
+            "CategoryId": 71,
+            "ParentId": 4,
+            "Name": "Fixed Inductors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/690/369/MFG_WE-HCF%202013%20Series_tmb%2864x64%29.jpg",
+            "SeoDescription": "An inductor, also known as a coil, choke, or reactor, is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. When the current changes, the magnetic field induces a voltage in the conductor. The induced voltage has a polarity which opposes the change in current that created it. The unit of inductance is the Henry (H). Mounting options include surface, through-hole, and chassis.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "24",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 4383,
+        "Name": "WE-TPC"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.50.4000"
+      },
+      "OtherNames": [
+        "732-1025-6",
+        "732-1025-1",
+        "732-1025-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:19Z",
+    "manufacturer_part_number": "744042100",
+    "product_quantity_available": 14712,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "24",
+    "product_unit_price": 1.34,
+    "offers": [
+      {
+        "provider_part_number": "732-1025-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14712,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.34,
+            "total_price": 1.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.295,
+            "total_price": 12.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.1332,
+            "total_price": 56.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0362,
+            "total_price": 103.62
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-1025-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14712,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.34,
+            "total_price": 1.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.295,
+            "total_price": 12.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.1332,
+            "total_price": 56.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0362,
+            "total_price": 103.62
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-1025-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 800,
+        "pack_quantity": 800,
+        "quantity_available": 14400,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 800,
+            "unit_price": 0.68199,
+            "total_price": 545.592
+          },
+          {
+            "break_quantity": 1600,
+            "unit_price": 0.61055,
+            "total_price": 976.88
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-1025-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14712,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.34,
+            "total_price": 1.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.295,
+            "total_price": 12.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.1332,
+            "total_price": 56.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0362,
+            "total_price": 103.62
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-1025-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14712,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.34,
+            "total_price": 1.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.295,
+            "total_price": 12.95
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.1332,
+            "total_price": 56.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0362,
+            "total_price": 103.62
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-1025-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 800,
+        "pack_quantity": 800,
+        "quantity_available": 14400,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 800,
+            "unit_price": 0.68199,
+            "total_price": 545.592
+          },
+          {
+            "break_quantity": 1600,
+            "unit_price": 0.61055,
+            "total_price": 976.88
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:19Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "744042100",
+    "provider_part_number": "",
+    "description": "FIXED IND 10UH 1.3A 150 MOHM SMD",
+    "detailed_description": "10 µH Shielded Drum Core, Wirewound Inductor 1.3 A 150mOhm Max 1919 (4848 Metric)",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/744042100.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/744042100/1638429",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/539/WE-TPC-4828.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "1919 (4848 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Drum Core, Wirewound",
+      "Material - Core": "Ferrite",
+      "Inductance": "10 µH",
+      "Tolerance": "±30%",
+      "Current Rating (Amps)": "1.3 A",
+      "Current - Saturation (Isat)": "1A",
+      "Shielding": "Shielded",
+      "DC Resistance (DCR)": "150mOhm Max",
+      "Q @ Freq": "-",
+      "Frequency - Self Resonant": "45MHz",
+      "Ratings": "-",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Inductance Frequency - Test": "100 kHz",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "1919 (4848 Metric)",
+      "Supplier Device Package": "-",
+      "Size / Dimension": "0.189\" L x 0.189\" W (4.80mm x 4.80mm)",
+      "Height - Seated (Max)": "0.079\" (2.00mm)"
+    },
+    "compliance": {}
+  }
+}

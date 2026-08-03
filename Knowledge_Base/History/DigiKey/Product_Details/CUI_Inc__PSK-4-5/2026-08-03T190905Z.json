@@ -1,0 +1,462 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:05Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "CUI Inc.",
+    "input_mpn": "PSK-4-5",
+    "resolved_manufacturer": "CUI Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "842"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "AC/DC CONVERTER 5V 4W",
+        "DetailedDescription": "Enclosed AC DC Converters 1 Output 5V 800mA 85 ~ 305 VAC, 120 ~ 431 VDC Input"
+      },
+      "Manufacturer": {
+        "Id": 179,
+        "Name": "Bel Power Solutions"
+      },
+      "ManufacturerProductNumber": "PSK-4-5",
+      "UnitPrice": 15.05,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bel-power-solutions/PSK-4-5/18630048",
+      "DatasheetUrl": "https://belfuse.com/media/datasheets/products/power-supplies/PSK-4.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5052/MFG_PSK-4-5.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "179-PSK-4-5-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 15.05,
+              "TotalPrice": 15.05
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 14.33,
+              "TotalPrice": 71.65
+            },
+            {
+              "BreakQuantity": 22,
+              "UnitPrice": 13.70182,
+              "TotalPrice": 301.44004
+            },
+            {
+              "BreakQuantity": 44,
+              "UnitPrice": 13.41705,
+              "TotalPrice": 590.3502
+            },
+            {
+              "BreakQuantity": 66,
+              "UnitPrice": 13.25318,
+              "TotalPrice": 874.70988
+            },
+            {
+              "BreakQuantity": 110,
+              "UnitPrice": 13.04973,
+              "TotalPrice": 1435.4703
+            },
+            {
+              "BreakQuantity": 264,
+              "UnitPrice": 12.70822,
+              "TotalPrice": 3354.97008
+            },
+            {
+              "BreakQuantity": 506,
+              "UnitPrice": 12.46022,
+              "TotalPrice": 6304.87132
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 179,
+            "Name": "Bel Power Solutions"
+          },
+          "QuantityAvailableforPackageType": 25,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 22,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 25,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "344214",
+          "ValueText": "Enclosed"
+        },
+        {
+          "ParameterId": 2211,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 127,
+          "ParameterText": "Voltage - Input",
+          "ParameterType": "String",
+          "ValueId": "474091",
+          "ValueText": "85 ~ 305 VAC, 120 ~ 431 VDC"
+        },
+        {
+          "ParameterId": 1525,
+          "ParameterText": "Voltage - Output 1",
+          "ParameterType": "String",
+          "ValueId": "249171",
+          "ValueText": "5V"
+        },
+        {
+          "ParameterId": 1526,
+          "ParameterText": "Voltage - Output 2",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1527,
+          "ParameterText": "Voltage - Output 3",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1534,
+          "ParameterText": "Voltage - Output 4",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1120,
+          "ParameterText": "Current - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "286223",
+          "ValueText": "800mA"
+        },
+        {
+          "ParameterId": 2187,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "4 W",
+          "ValueText": "4 W"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "356297",
+          "ValueText": "Household Appliances, ITE (Commercial)"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "417824",
+          "ValueText": "Universal Input"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212607",
+          "ValueText": "-40°C ~ 80°C (With Derating)"
+        },
+        {
+          "ParameterId": 977,
+          "ParameterText": "Efficiency",
+          "ParameterType": "String",
+          "ValueId": "278887",
+          "ValueText": "77%"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "227473",
+          "ValueText": "4-DIP Module"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "56236",
+          "ValueText": "1.62\" L x 0.83\" W x 0.79\" H (41.1mm x 21.0mm x 20.0mm)"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "675457",
+          "ValueText": "CE, UKCA"
+        },
+        {
+          "ParameterId": 2439,
+          "ParameterText": "Standard Number",
+          "ParameterType": "String",
+          "ValueId": "470875",
+          "ValueText": "60335-1; 62368-1"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 744912,
+        "Name": "PSK-4"
+      },
+      "Category": {
+        "CategoryId": 43,
+        "ParentId": 0,
+        "Name": "Power Supplies - Board Mount",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/371/722/MFG_MEZD7120xA-x_back_tmb.jpg",
+        "SeoDescription": "Board mount power supplies are devices used to convert electrical power from some source into a format suitable for powering some desired load, and which are designed to be physically and mechanically connected within an application by means of attachment to a printed circuit board. Further distinctions within the category are made according to the general nature of the transformation performed.",
+        "ChildCategories": [
+          {
+            "CategoryId": 923,
+            "ParentId": 43,
+            "Name": "AC DC Converters",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/453/822/MFG_EML30-P_tmb%2864x64%29.jpg",
+            "SeoDescription": "An device that converts an alternating current voltage input to a direct current voltage level output.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "27",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 111842,
+        "Name": "PSK-4 (4W)"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unknown",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.40.9510"
+      },
+      "OtherNames": [
+        "179-PSK-4-5",
+        "102-PSK-4-5",
+        "PSK45",
+        "102-PSK-4-5-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:05Z",
+    "manufacturer_part_number": "PSK-4-5",
+    "product_quantity_available": 25,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "27",
+    "product_unit_price": 15.05,
+    "offers": [
+      {
+        "provider_part_number": "179-PSK-4-5-ND",
+        "supplier": "Bel Power Solutions",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 22,
+        "quantity_available": 25,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 15.05,
+            "total_price": 15.05
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 14.33,
+            "total_price": 71.65
+          },
+          {
+            "break_quantity": 22,
+            "unit_price": 13.70182,
+            "total_price": 301.44004
+          },
+          {
+            "break_quantity": 44,
+            "unit_price": 13.41705,
+            "total_price": 590.3502
+          },
+          {
+            "break_quantity": 66,
+            "unit_price": 13.25318,
+            "total_price": 874.70988
+          },
+          {
+            "break_quantity": 110,
+            "unit_price": 13.04973,
+            "total_price": 1435.4703
+          },
+          {
+            "break_quantity": 264,
+            "unit_price": 12.70822,
+            "total_price": 3354.97008
+          },
+          {
+            "break_quantity": 506,
+            "unit_price": 12.46022,
+            "total_price": 6304.87132
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "179-PSK-4-5-ND",
+        "supplier": "Bel Power Solutions",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 22,
+        "quantity_available": 25,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 15.05,
+            "total_price": 15.05
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 14.33,
+            "total_price": 71.65
+          },
+          {
+            "break_quantity": 22,
+            "unit_price": 13.70182,
+            "total_price": 301.44004
+          },
+          {
+            "break_quantity": 44,
+            "unit_price": 13.41705,
+            "total_price": 590.3502
+          },
+          {
+            "break_quantity": 66,
+            "unit_price": 13.25318,
+            "total_price": 874.70988
+          },
+          {
+            "break_quantity": 110,
+            "unit_price": 13.04973,
+            "total_price": 1435.4703
+          },
+          {
+            "break_quantity": 264,
+            "unit_price": 12.70822,
+            "total_price": 3354.97008
+          },
+          {
+            "break_quantity": 506,
+            "unit_price": 12.46022,
+            "total_price": 6304.87132
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:05Z",
+    "manufacturer": "Bel Power Solutions",
+    "manufacturer_part_number": "PSK-4-5",
+    "provider_part_number": "",
+    "description": "AC/DC CONVERTER 5V 4W",
+    "detailed_description": "Enclosed AC DC Converters 1 Output 5V 800mA 85 ~ 305 VAC, 120 ~ 431 VDC Input",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/power-supplies/PSK-4.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bel-power-solutions/PSK-4-5/18630048",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5052/MFG_PSK-4-5.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "4-DIP Module",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Type": "Enclosed",
+      "Number of Outputs": "1",
+      "Voltage - Input": "85 ~ 305 VAC, 120 ~ 431 VDC",
+      "Voltage - Output 1": "5V",
+      "Voltage - Output 2": "-",
+      "Voltage - Output 3": "-",
+      "Voltage - Output 4": "-",
+      "Current - Output (Max)": "800mA",
+      "Power (Watts)": "4 W",
+      "Applications": "Household Appliances, ITE (Commercial)",
+      "Features": "Universal Input",
+      "Operating Temperature": "-40°C ~ 80°C (With Derating)",
+      "Efficiency": "77%",
+      "Mounting Type": "Through Hole",
+      "Package / Case": "4-DIP Module",
+      "Size / Dimension": "1.62\" L x 0.83\" W x 0.79\" H (41.1mm x 21.0mm x 20.0mm)",
+      "Approval Agency": "CE, UKCA",
+      "Standard Number": "60335-1; 62368-1"
+    },
+    "compliance": {}
+  }
+}

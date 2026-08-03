@@ -1,0 +1,264 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:06Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "OMRON Electronic Components",
+    "input_mpn": "B3FS-4005P",
+    "resolved_manufacturer": "OMRON Electronic Components",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "B3FS-4005P",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1532,
+                    "value": "OMRON Electronic Components"
+                  }
+                ]
+              },
+              {
+                "id": 689,
+                "name": "Type of switch",
+                "values": [
+                  {
+                    "id": 1641231,
+                    "value": "microswitch TACT"
+                  }
+                ]
+              },
+              {
+                "id": 693,
+                "name": "Contacts configuration",
+                "values": [
+                  {
+                    "id": 1452767,
+                    "value": "SPST-NO"
+                  }
+                ]
+              },
+              {
+                "id": 2412,
+                "name": "Number of positions",
+                "values": [
+                  {
+                    "id": 1441215,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 699,
+                "name": "Stable positions number",
+                "values": [
+                  {
+                    "id": 1453062,
+                    "value": "monostable"
+                  },
+                  {
+                    "id": 1793865,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 695,
+                "name": "DC contacts rating @R",
+                "values": [
+                  {
+                    "id": 1824611,
+                    "value": "50mA / 24V DC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 711,
+                "name": "Illumination",
+                "values": [
+                  {
+                    "id": 1452320,
+                    "value": "none"
+                  }
+                ]
+              },
+              {
+                "id": 708,
+                "name": "Operating Force",
+                "values": [
+                  {
+                    "id": 1452851,
+                    "value": "2.55N"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1808610,
+                    "value": "12x12x4.3mm"
+                  }
+                ]
+              },
+              {
+                "id": 730,
+                "name": "Button height",
+                "values": [
+                  {
+                    "id": 1452810,
+                    "value": "4.3mm"
+                  }
+                ]
+              },
+              {
+                "id": 698,
+                "name": "Switching method",
+                "values": [
+                  {
+                    "id": 1452150,
+                    "value": "OFF-(ON)"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1905293,
+                    "value": "B3FS"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819334,
+                    "value": "-25...70°C"
+                  }
+                ]
+              },
+              {
+                "id": 727,
+                "name": "Button shape",
+                "values": [
+                  {
+                    "id": 1452828,
+                    "value": "round"
+                  }
+                ]
+              },
+              {
+                "id": 718,
+                "name": "Actuator colour",
+                "values": [
+                  {
+                    "id": 1441669,
+                    "value": "black"
+                  }
+                ]
+              },
+              {
+                "id": 117,
+                "name": "Leads",
+                "values": [
+                  {
+                    "id": 1445637,
+                    "value": "for PCB"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "Max. contact resistance:",
+                "values": [
+                  {
+                    "id": 1452493,
+                    "value": "100mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "name": "Min. insulation resistance",
+                "values": [
+                  {
+                    "id": 1886310,
+                    "value": "0.1GΩ"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1444812,
+                    "value": "silver plated"
+                  }
+                ]
+              },
+              {
+                "id": 82,
+                "name": "IP rating",
+                "values": [
+                  {
+                    "id": 1445091,
+                    "value": "IP00"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1452750,
+                    "value": "1000000 cycles"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

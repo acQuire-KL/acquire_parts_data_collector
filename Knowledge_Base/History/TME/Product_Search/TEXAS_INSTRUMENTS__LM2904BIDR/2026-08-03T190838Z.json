@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:08:38Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "LM2904BIDR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "LM2904BIDR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112843,
+              "name": "SMD operational amplifiers"
+            },
+            "manufacturer_symbols": [
+              "LM2904BIDR"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: operational amplifier; 1.2MHz; Ch: 2; ±2÷20VDC,3÷40VDC; SO8",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.105,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/3F/80/C0/00/0/788723_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=9afc7c7650ba6126cace1d548d0fd8558b13e99a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/3F/80/C0/00/0/788723_1.jpg?width=100&height=75&q=75&ci_sign=5c62098ff9e829f093b8864b27783e7dcce31b6e",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/3F/80/C0/00/0/788723_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=012a3612d7cca157780ffc36bf50deb9626d6108"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

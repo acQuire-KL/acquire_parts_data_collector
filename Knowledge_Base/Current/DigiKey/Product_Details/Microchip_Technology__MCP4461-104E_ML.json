@@ -1,0 +1,385 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:56Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP4461-104E/ML",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "845"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC DIG POT 100K 20-QFN",
+        "DetailedDescription": "Digital Potentiometer 100k Ohm 4 Circuit 257 Taps I2C Interface 20-QFN (4x4)"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP4461-104E/ML",
+      "UnitPrice": 2.18,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP4461-104E-ML/2486251",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/en/DeviceDoc/22265a.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5411/150%7EC04-126%7EML%7E20.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MCP4461-104E/ML-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.18,
+              "TotalPrice": 2.18
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.8188,
+              "TotalPrice": 45.47
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.6351,
+              "TotalPrice": 163.51
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 273,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 91,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 273,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2697,
+          "ParameterText": "DigiKey Programmable",
+          "ParameterType": "String",
+          "ValueId": "750491",
+          "ValueText": "Not Verified"
+        },
+        {
+          "ParameterId": 1092,
+          "ParameterText": "Taper",
+          "ParameterType": "String",
+          "ValueId": "365114",
+          "ValueText": "Linear"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "389053",
+          "ValueText": "Potentiometer"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "4",
+          "ValueText": "4"
+        },
+        {
+          "ParameterId": 256,
+          "ParameterText": "Number of Taps",
+          "ParameterType": "String",
+          "ValueId": "158142",
+          "ValueText": "257"
+        },
+        {
+          "ParameterId": 1,
+          "ParameterText": "Resistance (Ohms)",
+          "ParameterType": "String",
+          "ValueId": "68696",
+          "ValueText": "100k"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 149,
+          "ParameterText": "Memory Type",
+          "ParameterType": "String",
+          "ValueId": "380462",
+          "ValueText": "Non-Volatile"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "61334",
+          "ValueText": "1.8V ~ 5.5V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "378414",
+          "ValueText": "Mute, Selectable Address"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 1854,
+          "ParameterText": "Temperature Coefficient (Typ)",
+          "ParameterType": "String",
+          "ValueId": "100664",
+          "ValueText": "150ppm/°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "143663",
+          "ValueText": "20-QFN (4x4)"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "143890",
+          "ValueText": "20-VFQFN Exposed Pad"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 1853,
+          "ParameterText": "Resistance - Wiper (Ohms) (Typ)",
+          "ParameterType": "String",
+          "ValueId": "276932",
+          "ValueText": "75"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 81640,
+        "Name": "MCP4461"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 717,
+                "ParentId": 2009,
+                "Name": "Digital Potentiometers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/956/745/150_14-TSSOP_tmb.jpg",
+                "SeoDescription": "Digital potentiometers are a family of integrated circuit devices which provide an adjustable resistance similar to a traditional mechanical potentiometer or rheostat, but which are controlled by means of electronic signals rather than a mechanical input. Though relatively limited in the amount of electrical power that can be dissipated in their resistance, their ability to be electronically controlled facilitates miniaturization, automation, and remote control of signal-level analog circuits where mechanical potentiometers may have otherwise been used.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "15",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 24523,
+        "Name": "WiperLock™"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": []
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:56Z",
+    "manufacturer_part_number": "MCP4461-104E/ML",
+    "product_quantity_available": 273,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "15",
+    "product_unit_price": 2.18,
+    "offers": [
+      {
+        "provider_part_number": "MCP4461-104E/ML-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 91,
+        "quantity_available": 273,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.18,
+            "total_price": 2.18
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.8188,
+            "total_price": 45.47
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.6351,
+            "total_price": 163.51
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "MCP4461-104E/ML-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 91,
+        "quantity_available": 273,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.18,
+            "total_price": 2.18
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.8188,
+            "total_price": 45.47
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.6351,
+            "total_price": 163.51
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:56Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP4461-104E/ML",
+    "provider_part_number": "",
+    "description": "IC DIG POT 100K 20-QFN",
+    "detailed_description": "Digital Potentiometer 100k Ohm 4 Circuit 257 Taps I2C Interface 20-QFN (4x4)",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/22265a.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP4461-104E-ML/2486251",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5411/150%7EC04-126%7EML%7E20.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "20-VFQFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "DigiKey Programmable": "Not Verified",
+      "Taper": "Linear",
+      "Configuration": "Potentiometer",
+      "Number of Circuits": "4",
+      "Number of Taps": "257",
+      "Resistance (Ohms)": "100k",
+      "Interface": "I2C",
+      "Memory Type": "Non-Volatile",
+      "Voltage - Supply": "1.8V ~ 5.5V",
+      "Features": "Mute, Selectable Address",
+      "Tolerance": "±20%",
+      "Temperature Coefficient (Typ)": "150ppm/°C",
+      "Mounting Type": "Surface Mount",
+      "Supplier Device Package": "20-QFN (4x4)",
+      "Package / Case": "20-VFQFN Exposed Pad",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Resistance - Wiper (Ohms) (Typ)": "75"
+    },
+    "compliance": {}
+  }
+}

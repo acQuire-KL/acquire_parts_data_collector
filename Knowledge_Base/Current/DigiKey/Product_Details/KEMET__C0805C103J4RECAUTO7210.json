@@ -1,0 +1,636 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:04Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "C0805C103J4RECAUTO7210",
+    "resolved_manufacturer": "KEMET",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "973"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP CER 0805 10NF 16V X7R 5%",
+        "DetailedDescription": "10000 pF ±5% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 399,
+        "Name": "KEMET"
+      },
+      "ManufacturerProductNumber": "C0805C103J4RECAUTO7210",
+      "UnitPrice": 0.33,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/kemet/C0805C103J4RECAUTO7210/8647961",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/423/0805-%282012-Metric%29-2%2C00x1%2C20x1%2C00mm.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "399-C0805C103J4RECAUTO7210TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.06811,
+              "TotalPrice": 1021.65
+            },
+            {
+              "BreakQuantity": 45000,
+              "UnitPrice": 0.06323,
+              "TotalPrice": 2845.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 15000,
+          "StandardPackage": 15000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-C0805C103J4RECAUTO7210CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.33,
+              "TotalPrice": 0.33
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.194,
+              "TotalPrice": 1.94
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1414,
+              "TotalPrice": 7.07
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.125,
+              "TotalPrice": 12.5
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09752,
+              "TotalPrice": 48.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 7717,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "399-C0805C103J4RECAUTO7210DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.33,
+              "TotalPrice": 0.33
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.194,
+              "TotalPrice": 1.94
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1414,
+              "TotalPrice": 7.07
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.125,
+              "TotalPrice": 12.5
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09752,
+              "TotalPrice": 48.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 399,
+            "Name": "KEMET"
+          },
+          "QuantityAvailableforPackageType": 7717,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 7717,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6090071025001",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10000 pF",
+          "ValueText": "10000 pF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "2503",
+          "ValueText": "±5%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "108742",
+          "ValueText": "16V"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "422415",
+          "ValueText": "X7R"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "316978",
+          "ValueText": "Automotive, ESD Protection"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409416",
+          "ValueText": "Surface Mount, MLCC"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "8569",
+          "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "6023",
+          "ValueText": "0.035\" (0.88mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 4,
+          "ParameterText": "Lead Style",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 467238,
+        "Name": "C0805C"
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 60,
+            "ParentId": 3,
+            "Name": "Ceramic Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "21",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 70713,
+        "Name": "ESD SMD Auto X7R"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "399-C0805C103J4RECAUTO7210DKR",
+        "399-C0805C103J4RECAUTO7210TR",
+        "C0805C103J4RECAUTO7210-ND",
+        "399-C0805C103J4RECAUTO7210CT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:04Z",
+    "manufacturer_part_number": "C0805C103J4RECAUTO7210",
+    "product_quantity_available": 7717,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "21",
+    "product_unit_price": 0.33,
+    "offers": [
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210CT-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7717,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.194,
+            "total_price": 1.94
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1414,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.125,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09752,
+            "total_price": 48.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210DKR-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7717,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.194,
+            "total_price": 1.94
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1414,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.125,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09752,
+            "total_price": 48.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210TR-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.06811,
+            "total_price": 1021.65
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.06323,
+            "total_price": 2845.35
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210CT-ND",
+        "supplier": "KEMET",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7717,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.194,
+            "total_price": 1.94
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1414,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.125,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09752,
+            "total_price": 48.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210DKR-ND",
+        "supplier": "KEMET",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7717,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.194,
+            "total_price": 1.94
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1414,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.125,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09752,
+            "total_price": 48.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "399-C0805C103J4RECAUTO7210TR-ND",
+        "supplier": "KEMET",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.06811,
+            "total_price": 1021.65
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.06323,
+            "total_price": 2845.35
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:04Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "C0805C103J4RECAUTO7210",
+    "provider_part_number": "",
+    "description": "CAP CER 0805 10NF 16V X7R 5%",
+    "detailed_description": "10000 pF ±5% 16V Ceramic Capacitor X7R 0805 (2012 Metric)",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD",
+    "product_url": "https://www.digikey.ie/en/products/detail/kemet/C0805C103J4RECAUTO7210/8647961",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/423/0805-%282012-Metric%29-2%2C00x1%2C20x1%2C00mm.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0805 (2012 Metric)",
+    "mounting_type": "Surface Mount, MLCC",
+    "attributes": {
+      "Capacitance": "10000 pF",
+      "Tolerance": "±5%",
+      "Voltage - Rated": "16V",
+      "Temperature Coefficient": "X7R",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Features": "-",
+      "Ratings": "AEC-Q200",
+      "Applications": "Automotive, ESD Protection",
+      "Failure Rate": "-",
+      "Mounting Type": "Surface Mount, MLCC",
+      "Package / Case": "0805 (2012 Metric)",
+      "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+      "Height - Seated (Max)": "-",
+      "Thickness (Max)": "0.035\" (0.88mm)",
+      "Lead Spacing": "-",
+      "Lead Style": "-"
+    },
+    "compliance": {}
+  }
+}

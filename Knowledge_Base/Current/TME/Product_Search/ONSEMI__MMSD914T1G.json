@@ -1,0 +1,117 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "MMSD914T1G",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MMSD914T1G",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "MMSD914T1G"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SMMSD914T1G",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "SMMSD914T1G"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 500mA",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.01,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/5C/E6/61/00/0/1470149_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=49af0d5c6b61cad48ef47bbfb86fb9e6c5336f6b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/5C/E6/61/00/0/1470149_1.jpg?width=100&height=75&q=75&ci_sign=f55e128ed7ec26d52de2ef13059976ec9b820b7b",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

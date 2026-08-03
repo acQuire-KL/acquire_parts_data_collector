@@ -1,0 +1,489 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:16Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "SameSky",
+    "input_mpn": "PJ-102AH",
+    "resolved_manufacturer": "SameSky",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "939"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN PWR JACK 2X5.5MM SOLDER",
+        "DetailedDescription": "Power Barrel Connector Jack 2.00mm ID (0.079\"), 5.50mm OD (0.217\") Through Hole, Right Angle"
+      },
+      "Manufacturer": {
+        "Id": 2223,
+        "Name": "Same Sky (Formerly CUI Devices)"
+      },
+      "ManufacturerProductNumber": "PJ-102AH",
+      "UnitPrice": 0.67,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448",
+      "DatasheetUrl": "https://www.cuidevices.com/product/resource/pj-102ah.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6135/MFG_PJ-102AH.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "CP-102AH-ND",
+          "PackageType": {
+            "Id": 17,
+            "Name": "Tray"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.67,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.568,
+              "TotalPrice": 5.68
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5332,
+              "TotalPrice": 13.33
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5076,
+              "TotalPrice": 25.38
+            },
+            {
+              "BreakQuantity": 200,
+              "UnitPrice": 0.46015,
+              "TotalPrice": 92.03
+            },
+            {
+              "BreakQuantity": 400,
+              "UnitPrice": 0.43815,
+              "TotalPrice": 175.26
+            },
+            {
+              "BreakQuantity": 600,
+              "UnitPrice": 0.4258,
+              "TotalPrice": 255.48
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.41071,
+              "TotalPrice": 410.71
+            },
+            {
+              "BreakQuantity": 2600,
+              "UnitPrice": 0.38393,
+              "TotalPrice": 998.218
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2223,
+            "Name": "Same Sky (Formerly CUI Devices)"
+          },
+          "QuantityAvailableforPackageType": 74498,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 200,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 74498,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "361833",
+          "ValueText": "Jack"
+        },
+        {
+          "ParameterId": 29,
+          "ParameterText": "Gender",
+          "ParameterType": "String",
+          "ValueId": "371147",
+          "ValueText": "Male"
+        },
+        {
+          "ParameterId": 1954,
+          "ParameterText": "Industry Recognized Mating Diameter",
+          "ParameterType": "String",
+          "ValueId": "122875",
+          "ValueText": "2.00mm ID (0.079\"), 5.50mm OD (0.217\")"
+        },
+        {
+          "ParameterId": 1952,
+          "ParameterText": "Actual Diameter",
+          "ParameterType": "String",
+          "ValueId": "8486",
+          "ValueText": "0.079\" (2.00mm ID), 0.256\" (6.50mm OD)"
+        },
+        {
+          "ParameterId": 272,
+          "ParameterText": "Number of Positions/Contacts",
+          "ParameterType": "String",
+          "ValueId": "121774",
+          "ValueText": "2 Conductors, 3 Contacts"
+        },
+        {
+          "ParameterId": 541,
+          "ParameterText": "Internal Switch(s)",
+          "ParameterType": "String",
+          "ValueId": "403073",
+          "ValueText": "Single Switch, Normally Closed"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411921",
+          "ValueText": "Through Hole, Right Angle"
+        },
+        {
+          "ParameterId": 1061,
+          "ParameterText": "Mounting Feature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405002",
+          "ValueText": "Solder"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "417858",
+          "ValueText": "Unshielded"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1693,
+          "ParameterText": "Insulation Color",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "155281",
+          "ValueText": "24VDC"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 A",
+          "ValueText": "5 A"
+        },
+        {
+          "ParameterId": 1953,
+          "ParameterText": "Mating Length/Depth",
+          "ParameterType": "String",
+          "ValueId": "20030",
+          "ValueText": "0.354\" (9.00mm)"
+        },
+        {
+          "ParameterId": 697,
+          "ParameterText": "Ingress Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 903,
+          "ParameterText": "Material Flammability Rating",
+          "ParameterType": "String",
+          "ValueId": "417627",
+          "ValueText": "UL94 V-0"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "156454",
+          "ValueText": "-25°C ~ 85°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 476492,
+        "Name": "PJ-102"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2002,
+            "ParentId": 20,
+            "Name": "Barrel Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/513/940/MFG_SP-6330A_tmb.jpg",
+            "SeoDescription": "Barrel-style connectors receive their name from their shape. These connectors have contacts on the inner and outer surfaces and are typically used in audio or low-power connections. This category includes accessories, audio adapters, audio cables, audio connectors, power cables, and power connectors.",
+            "ChildCategories": [
+              {
+                "CategoryId": 435,
+                "ParentId": 2002,
+                "Name": "Power Connectors",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/428/PP3-002A%20%282%29_1_tmb%2864x64%29.jpg",
+                "SeoDescription": "Power barrel connectors are most commonly used to connect low-voltage DC power provided from a wall mounted AC-DC converter to small electronic equipment, such as laptop computers and printers. They are characterized by a tube-shaped plug having electrical contacts on the inner and outer surfaces. Various sizes are available, with inner diameter, outer diameter, and mating length of plug and jack needing to be compatible in order to achieve a proper connection.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "PJ102AH",
+        "CP-102AH-NDR",
+        "045-0722R",
+        "2266-PJ-102AH",
+        "CP-102AH"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:16Z",
+    "manufacturer_part_number": "PJ-102AH",
+    "product_quantity_available": 74498,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 0.67,
+    "offers": [
+      {
+        "provider_part_number": "CP-102AH-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 17,
+        "package_type": "Tray",
+        "packaging_code": "Tray",
+        "pack_format": "Tray",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 74498,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.568,
+            "total_price": 5.68
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5332,
+            "total_price": 13.33
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5076,
+            "total_price": 25.38
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 0.46015,
+            "total_price": 92.03
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 0.43815,
+            "total_price": 175.26
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 0.4258,
+            "total_price": 255.48
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.41071,
+            "total_price": 410.71
+          },
+          {
+            "break_quantity": 2600,
+            "unit_price": 0.38393,
+            "total_price": 998.218
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "CP-102AH-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 17,
+        "package_type": "Tray",
+        "packaging_code": "Tray",
+        "pack_format": "Tray",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 74498,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.568,
+            "total_price": 5.68
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5332,
+            "total_price": 13.33
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5076,
+            "total_price": 25.38
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 0.46015,
+            "total_price": 92.03
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 0.43815,
+            "total_price": 175.26
+          },
+          {
+            "break_quantity": 600,
+            "unit_price": 0.4258,
+            "total_price": 255.48
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.41071,
+            "total_price": 410.71
+          },
+          {
+            "break_quantity": 2600,
+            "unit_price": 0.38393,
+            "total_price": 998.218
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:16Z",
+    "manufacturer": "Same Sky (Formerly CUI Devices)",
+    "manufacturer_part_number": "PJ-102AH",
+    "provider_part_number": "",
+    "description": "CONN PWR JACK 2X5.5MM SOLDER",
+    "detailed_description": "Power Barrel Connector Jack 2.00mm ID (0.079\"), 5.50mm OD (0.217\") Through Hole, Right Angle",
+    "datasheet_url": "https://www.cuidevices.com/product/resource/pj-102ah.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6135/MFG_PJ-102AH.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Through Hole, Right Angle",
+    "attributes": {
+      "Connector Type": "Jack",
+      "Gender": "Male",
+      "Industry Recognized Mating Diameter": "2.00mm ID (0.079\"), 5.50mm OD (0.217\")",
+      "Actual Diameter": "0.079\" (2.00mm ID), 0.256\" (6.50mm OD)",
+      "Number of Positions/Contacts": "2 Conductors, 3 Contacts",
+      "Internal Switch(s)": "Single Switch, Normally Closed",
+      "Mounting Type": "Through Hole, Right Angle",
+      "Mounting Feature": "-",
+      "Termination": "Solder",
+      "Shielding": "Unshielded",
+      "Features": "-",
+      "Insulation Color": "-",
+      "Voltage - Rated": "24VDC",
+      "Current Rating (Amps)": "5 A",
+      "Mating Length/Depth": "0.354\" (9.00mm)",
+      "Ingress Protection": "-",
+      "Material Flammability Rating": "UL94 V-0",
+      "Operating Temperature": "-25°C ~ 85°C"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:06:27Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "input_mpn": "1N4448W",
+    "resolved_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 10219,
+          "symbol": "1N4448W-DIO",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.086,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.0671,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.041,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.0272,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0224,
+                "special": false
+              },
+              {
+                "amount": 3000,
+                "price": 0.0175,
+                "special": false
+              },
+              {
+                "amount": 6000,
+                "price": 0.0151,
+                "special": false
+              },
+              {
+                "amount": 9000,
+                "price": 0.0139,
+                "special": false
+              },
+              {
+                "amount": 15000,
+                "price": 0.0126,
+                "special": false
+              },
+              {
+                "amount": 24000,
+                "price": 0.0117,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

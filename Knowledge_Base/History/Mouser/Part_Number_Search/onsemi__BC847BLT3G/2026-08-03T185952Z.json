@@ -1,0 +1,599 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T18:59:52Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "BC847BLT3G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 3,
+      "Parts": [
+        {
+          "Availability": "9990 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Bipolar Transistors - BJT 100mA 50V NPN",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "Bipolar Transistors - BJT",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "BC847BLT3G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-BC847BLT3G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.146",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.03",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "BC847BLT1G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/BC847BLT3G?qs=vNc2DXHODiJTl5H0CI%2FDnQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "9990",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 40000,
+              "Date": "2026-08-19T00:00:00"
+            },
+            {
+              "Quantity": 50000,
+              "Date": "2026-08-20T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6580",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        },
+        {
+          "Availability": "25309 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Bipolar Transistors - BJT SS SOT23 GP XSTR NPN 45V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "Bipolar Transistors - BJT",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "NSVBC847BLT3G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-NSVBC847BLT3G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.119",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/NSVBC847BLT3G?qs=dbuNSGnowt1zgIJjr5jdAg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "25309",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1420",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        },
+        {
+          "Availability": "951482 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Bipolar Transistors - BJT 100mA 50V NPN",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "Bipolar Transistors - BJT",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "BC847BLT1G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-BC847BLT1G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.03",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "BC847BLT3G"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/BC847BLT1G?qs=vNc2DXHODiLAH81QlkcRzw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-05
+          },
+          "AvailabilityInStock": "951482",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "9000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Malaysia"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:52Z",
+    "manufacturer_part_number": "BC847BLT3G",
+    "product_quantity_available": 9990,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "364 Days",
+    "product_unit_price": 0.146,
+    "offers": [
+      {
+        "provider_part_number": "863-BC847BLT3G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9990,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.146,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.073,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.044,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.026,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.022,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.019,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.019,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "863-BC847BLT3G",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9990,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.146,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.073,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.044,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.026,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.022,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.019,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.019,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T18:59:52Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "BC847BLT3G",
+    "provider_part_number": "863-BC847BLT3G",
+    "description": "Bipolar Transistors - BJT 100mA 50V NPN",
+    "detailed_description": "Bipolar Transistors - BJT 100mA 50V NPN",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/BC847BLT3G?qs=vNc2DXHODiJTl5H0CI%2FDnQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "TARIC": "8541210000",
+      "CNHTS": "8541210000",
+      "CAHTS": "8541210000",
+      "USHTS": "8541210095",
+      "JPHTS": "854121000",
+      "KRHTS": "8541219000",
+      "MXHTS": "8541210100",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:43Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "VISHAY",
+    "input_mpn": "MB4S-E3/80",
+    "resolved_manufacturer": "VISHAY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MB4S-E3/80",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112809,
+              "name": "SMD/THT sing. phase diode bridge rectif."
+            },
+            "manufacturer_symbols": [
+              "MB4S-E3/80"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Bridge rectifier: single-phase; Urmax: 400V; If: 0.5A; Ifsm: 35A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.174,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/B8/97/00/00/0/31115_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=7962be5bd7eccb2890e126d3eb28c70902172dd7",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/B8/97/00/00/0/31115_1.jpg?width=100&height=75&q=75&ci_sign=501801f7d59295508517c1a31b3ac8e19fbef14b",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "RMB4S-E3/80",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112809,
+              "name": "SMD/THT sing. phase diode bridge rectif."
+            },
+            "manufacturer_symbols": [
+              "RMB4S-E3/80"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Bridge rectifier: single-phase; Urmax: 400V; If: 0.5A; Ifsm: 30A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

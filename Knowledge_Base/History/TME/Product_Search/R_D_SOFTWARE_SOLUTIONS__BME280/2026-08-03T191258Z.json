@@ -1,0 +1,242 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:58Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "R&D SOFTWARE SOLUTIONS",
+    "input_mpn": "BME280",
+    "resolved_manufacturer": "R&D SOFTWARE SOLUTIONS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "SS-BME280-I2C",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113691,
+              "name": "Environmental Sensors"
+            },
+            "manufacturer_symbols": [
+              "SS-BME280#I2C",
+              "ITBP-6002"
+            ],
+            "manufacturer": {
+              "id": 1144,
+              "name": "R&D SOFTWARE SOLUTIONS"
+            },
+            "description": "Accessories: expansion board; I2C; 3.3VDC,5VDC; Comp: BME280",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 2.54,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/7E/47/A0/00/0/685287_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ba62996fe2aa29c7e398257d91a94437a2ef01be",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/7E/47/A0/00/0/685287_1.jpg?width=100&height=75&q=75&ci_sign=b618ecca7a12389cb8190c4061342087d85f8201",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/7E/47/A0/00/0/685287_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4b1812997ee725b58a2c6d021b0d7a1fdf8ab07d"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "DF-SEN0335",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113691,
+              "name": "Environmental Sensors"
+            },
+            "manufacturer_symbols": [
+              "SEN0335"
+            ],
+            "manufacturer": {
+              "id": 1215,
+              "name": "DFROBOT"
+            },
+            "description": "Sensor: atmospheric; pressure,air quality,temperature,humidity",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 6.96,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/79/EC/B0/00/1/773783_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=dce667d47a6fbdb2c1086da4f17b387dad921c4c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/79/EC/B0/00/1/773783_1.jpg?width=100&height=75&q=75&ci_sign=9829fea9ab6a982d5c9c39fe8d6d53dca7d8fb1a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/79/EC/B0/00/1/773783_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d1bcbaeb76497ae46dc5ed090d7274f7359427ab"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST",
+              "BLOCKED_FOR_ZBL_GENERAL"
+            ],
+            "symbol": "AC164165",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112892,
+              "name": "Microchip development kits"
+            },
+            "manufacturer_symbols": [
+              "AC164165"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "Dev.kit: Microchip; No.of butt: 4; IEEE 802.11b/g/n; IoT; 3.7VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 103.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/57/A0/00/0/685560_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b18da9067091822ef228aaa9333f312606fa122c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/57/A0/00/0/685560_1.jpg?width=100&height=75&q=75&ci_sign=1be32cdf11708ea58f74ca7c2b2f791c8ac03a3d",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8F/57/A0/00/0/685560_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d5487ae070a845d41b9b14ad31157ad04690d392"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MIKROE-1978",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-1978",
+              "WEATHER CLICK"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BME280; 3.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 20.8,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/FD/63/60/00/0/407263_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=ab30b406ab9ecefd4f3ea610e875f9ff0a542874",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/FD/63/60/00/0/407263_1.jpg?width=100&height=75&q=75&ci_sign=4475a0c2a789059d8a2d216efc5f1541cc2492ec",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/FD/63/60/00/0/407263_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c50096d560a8668263ef3e848df69875293da721"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MIKROE-5761",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-5761",
+              "WEATHER CLICK - CLICKID"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BME280; 3.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 16.25,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/7B/60/11/00/0/1115831_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=17b28f3d2301c5be7de26f6d26b61c5c416c936e",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/7B/60/11/00/0/1115831_1.jpg?width=100&height=75&q=75&ci_sign=c7c2388fa31de496a2d4b54a6ec1a2203da79f73",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/7B/60/11/00/0/1115831_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=efc108a961f6ff38d250e497472c8b843b84e12a"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

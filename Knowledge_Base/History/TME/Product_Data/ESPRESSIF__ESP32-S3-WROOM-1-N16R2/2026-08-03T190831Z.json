@@ -1,0 +1,79 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:08:31Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ESPRESSIF",
+    "input_mpn": "ESP32-S3-WROOM-1-N16R2",
+    "resolved_manufacturer": "ESPRESSIF",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 409,
+          "symbol": "ESP32S3-WRM1-16R2",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 5.22,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 4.54,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 4.28,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 3.92,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 3.7,
+                "special": false
+              },
+              {
+                "amount": 650,
+                "price": 3.49,
+                "special": false
+              },
+              {
+                "amount": 1300,
+                "price": 3.35,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

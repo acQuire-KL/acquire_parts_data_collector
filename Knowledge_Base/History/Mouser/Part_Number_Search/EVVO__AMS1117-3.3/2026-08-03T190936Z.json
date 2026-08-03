@@ -1,0 +1,328 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:36Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "EVVO",
+    "input_mpn": "AMS1117-3.3",
+    "resolved_manufacturer": "EVVO",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "71462 In Stock",
+          "DataSheetUrl": "",
+          "Description": "LDO Voltage Regulators 800MA LDO LINEAR REG A 926-LM1117MP-3.3N A 926-LM1117MP-3.3NOPB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-223-4_DCY_t.jpg",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "LM1117MPX-3.3/NOPB",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "926-LM1117MPX3.3NOPB",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.753",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.682",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.603",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.565",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.542",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.538",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.538",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LM1117MP-3.3/NOPB"
+            },
+            {
+              "APMfrPN": " LM1117MPX-3.3"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM1117MPX-3.3-NOPB?qs=X1J7HmVL2ZHRbBIxXi4utg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "926-LM1117MP-3.3NOPB",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00029
+          },
+          "AvailabilityInStock": "71462",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1001",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Germany"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:36Z",
+    "manufacturer_part_number": "LM1117MPX-3.3/NOPB",
+    "product_quantity_available": 71462,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 1.04,
+    "offers": [
+      {
+        "provider_part_number": "926-LM1117MPX3.3NOPB",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 71462,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.753,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.682,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.603,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.565,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.542,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.538,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.538,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "926-LM1117MPX3.3NOPB",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 71462,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.753,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.682,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.603,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.565,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.542,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.538,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.538,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:36Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM1117MPX-3.3/NOPB",
+    "provider_part_number": "926-LM1117MPX3.3NOPB",
+    "description": "LDO Voltage Regulators 800MA LDO LINEAR REG A 926-LM1117MP-3.3N A 926-LM1117MP-3.3NOPB",
+    "detailed_description": "LDO Voltage Regulators 800MA LDO LINEAR REG A 926-LM1117MP-3.3N A 926-LM1117MP-3.3NOPB",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/LM1117MPX-3.3-NOPB?qs=X1J7HmVL2ZHRbBIxXi4utg%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-223-4_DCY_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "JPHTS": "854239099",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

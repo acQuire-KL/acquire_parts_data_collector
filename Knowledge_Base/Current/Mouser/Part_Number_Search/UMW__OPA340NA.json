@@ -1,0 +1,1610 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "UMW",
+    "input_mpn": "OPA340NA",
+    "resolved_manufacturer": "UMW",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 6,
+      "Parts": [
+        {
+          "Availability": "8255 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail A 595-OPA338 A 595-OPA338UA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-5_DBV_t.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "OPA340NA/250",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-OPA340NA/250",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€3.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.96",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.85",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.76",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.70",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.69",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.64",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "OPA340NA/250G4"
+            },
+            {
+              "APMfrPN": " OPA340NA/3K"
+            },
+            {
+              "APMfrPN": " OPA340NA/3KG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/OPA340NA-250?qs=7nS3%252BbEUL6uF7K6r9QvNBA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-OPA338UA",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "8255",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Taiwan"
+            }
+          ]
+        },
+        {
+          "Availability": "11445 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail A 595-OPA340 A 595-OPA340NA/250",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-5_DBV_t.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "OPA340NA/3K",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-OPA340NA/3K",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.83",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.68",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.43",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.32",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€1.26",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "OPA340NA/250"
+            },
+            {
+              "APMfrPN": " OPA340NA/250G4"
+            },
+            {
+              "APMfrPN": " OPA340NA/3KG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/OPA340NA-3K?qs=7nS3%252BbEUL6u%252B3cpOjAppDw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-OPA340NA/250",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "11445",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 21000,
+              "Date": "2026-11-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Taiwan"
+            }
+          ]
+        },
+        {
+          "Availability": "1617 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail ALT 595-OPA3 ALT 595-OPA340NA/250",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-5_DBV_t.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "OPA340NA/250G4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-OPA340NA/250G4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.22",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.03",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.72",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.63",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.60",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "OPA340NA/250"
+            },
+            {
+              "APMfrPN": " OPA340NA/3K"
+            },
+            {
+              "APMfrPN": " OPA340NA/3KG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/OPA340NA-250G4?qs=7nS3%252BbEUL6u2VVvk%2Fv29jQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-OPA340NA/250",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "1617",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Taiwan"
+            }
+          ]
+        },
+        {
+          "Availability": "4246 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail ALT 595-OPA3 ALT 595-OPA340NA/3K",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-5_DBV_t.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "OPA340NA/3KG4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-OPA340NA/3KG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€1.18",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "OPA340NA/250"
+            },
+            {
+              "APMfrPN": " OPA340NA/250G4"
+            },
+            {
+              "APMfrPN": " OPA340NA/3K"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/OPA340NA-3KG4?qs=7nS3%252BbEUL6uH6E%2F%252BSjy2og%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-OPA340NA/3K",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "4246",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2016 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/MAX4165-MAX4169.pdf",
+          "Description": "Precision Amplifiers High-Output-Drive, Precision, Low-Power,",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_5_t.jpg",
+          "Category": "Precision Amplifiers",
+          "LeadTime": "224 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices / Maxim Integrated",
+          "ManufacturerPartNumber": "MAX4165EUK+T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "700-MAX4165EUKT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€5.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€4.34",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€4.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€3.66",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€3.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€3.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€3.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€3.20",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX4165EUK%2bT?qs=1eQvB6Dk1vjngttwtVeXcQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "2016",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "4537 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps UCSP, Single-Supply, Low-Noise, Low-Dist",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_5_t.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices / Maxim Integrated",
+          "ManufacturerPartNumber": "MAX4250EUK+T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "700-MAX4250EUKT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€4.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€3.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€3.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€2.73",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€2.60",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.52",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€2.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€2.45",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX4250EUK%2bT?qs=1THa7WoU59GrLyw0ogj8Ew%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "4537",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542330996"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532331000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "manufacturer_part_number": "OPA340NA/250",
+    "product_quantity_available": 8255,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 3.14,
+    "offers": [
+      {
+        "provider_part_number": "595-OPA340NA/250",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8255,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.96,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.85,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.7,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.64,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/3K",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 11445,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.45,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.83,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.68,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.32,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.26,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/250G4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1617,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.22,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.82,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.72,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.6,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.56,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/3KG4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4246,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.18,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "700-MAX4165EUKT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2016,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 5.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.66,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 3.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 3.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.45,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 3.2,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "700-MAX4250EUKT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4537,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.6,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.45,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 6,
+    "variation_count": 6,
+    "variations": [
+      {
+        "provider_part_number": "595-OPA340NA/250",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8255,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.96,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.85,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.7,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.64,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/3K",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 11445,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.45,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.83,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.68,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.32,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.26,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/250G4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1617,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.22,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.82,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.72,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.6,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.56,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "595-OPA340NA/3KG4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4246,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.18,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "700-MAX4165EUKT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2016,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 5.64,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.66,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 3.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 3.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 3.45,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 3.2,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "700-MAX4250EUKT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4537,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.6,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.45,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:44Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "OPA340NA/250",
+    "provider_part_number": "595-OPA340NA/250",
+    "description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail A 595-OPA338 A 595-OPA338UA",
+    "detailed_description": "Operational Amplifiers - Op Amps Single-Supply Rail-t o-Rail A 595-OPA338 A 595-OPA338UA",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/OPA340NA-250?qs=7nS3%252BbEUL6uF7K6r9QvNBA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-5_DBV_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "250"
+    },
+    "compliance": {
+      "CNHTS": "8542339000",
+      "CAHTS": "8542330000",
+      "USHTS": "8542330001",
+      "JPHTS": "8542330996",
+      "KRHTS": "8532331000",
+      "MXHTS": "8542330299",
+      "ECCN": "EAR99"
+    }
+  }
+}

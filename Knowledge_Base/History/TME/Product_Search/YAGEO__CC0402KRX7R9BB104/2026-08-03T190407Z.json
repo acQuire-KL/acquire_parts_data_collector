@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:07Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "CC0402KRX7R9BB104",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "HARDLY_AVAILABLE"
+            ],
+            "symbol": "CC0402KRX7R9BB104",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113537,
+              "name": "MLCC SMD capacitors"
+            },
+            "manufacturer_symbols": [
+              "CC0402KRX7R9BB104"
+            ],
+            "manufacturer": {
+              "id": 442,
+              "name": "YAGEO"
+            },
+            "description": "Capacitor: ceramic; MLCC; 100nF; 50V; X7R; ±10%; 0402",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.01,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 10000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/B7/F3/E0/00/0/933755_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=a5b308ceea028cc2c218e8d230a7a62915b28118",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/B7/F3/E0/00/0/933755_1.jpg?width=100&height=75&q=75&ci_sign=0d5ac68aad35b6c59ea52be8ef35a3ca9b1816ce",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/B7/F3/E0/00/0/933755_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=3cb3c6f2082632205449d78e30f9d7a853f24280"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

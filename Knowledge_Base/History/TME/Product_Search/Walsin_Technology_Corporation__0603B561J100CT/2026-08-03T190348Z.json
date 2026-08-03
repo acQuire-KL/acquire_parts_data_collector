@@ -1,0 +1,26 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:03:48Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Walsin Technology Corporation",
+    "input_mpn": "0603B561J100CT",
+    "resolved_manufacturer": "Walsin Technology Corporation",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": []
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

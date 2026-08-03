@@ -1,0 +1,113 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:07Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "T520D337M006ATE045",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "T520D337M006ATE045",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113247,
+              "name": "Polymer - tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "T520D337M006ATE045"
+            ],
+            "manufacturer": {
+              "id": 142,
+              "name": "KEMET"
+            },
+            "description": "Capacitor: tantalum-polymer; low ESR; 330uF; 6.3VDC; 207.9uA; D",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.303,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/E7/90/00/0/622259_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=01f4338cddf1128d098fa7225149ad5d69474ebb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/E7/90/00/0/622259_1.jpg?width=100&height=75&q=75&ci_sign=cddcf354cfee5458be47d0f4177482c41be9a811",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/E7/90/00/0/622259_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1273a3c35b0997b74b8eed7bd98df845e3146408"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "6TPB330MAL",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113762,
+              "name": "SMD Polymer Capacitors"
+            },
+            "manufacturer_symbols": [
+              "6TPB330MAL"
+            ],
+            "manufacturer": {
+              "id": 131,
+              "name": "PANASONIC"
+            },
+            "description": "Capacitor: tantalum-polymer; 330uF; 6.3VDC; 2000mA; SMD; ±20%; 40mΩ",
+            "multiples": 1250,
+            "minimal_amount": 1250,
+            "weight": {
+              "value": 0.67,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

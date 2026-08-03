@@ -1,0 +1,735 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:13:05Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Omron Electronics Inc-EMC Div",
+    "input_mpn": "B3FS-4005P",
+    "resolved_manufacturer": "Omron Electronics Inc-EMC Div",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "761"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "SWITCH TACTILE SPST-NO 0.05A 24V",
+        "DetailedDescription": "Tactile Switch SPST-NO Top Actuated Surface Mount"
+      },
+      "Manufacturer": {
+        "Id": 39,
+        "Name": "Aratas (Formerly Omron Components)"
+      },
+      "ManufacturerProductNumber": "B3FS-4005P",
+      "UnitPrice": 1.61,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/aratas-formerly-omron-components/B3FS-4005P/4947077",
+      "DatasheetUrl": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1861/B3FS-4005P.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "Z4374TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.93466,
+              "TotalPrice": 934.66
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.88901,
+              "TotalPrice": 1778.02
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.86468,
+              "TotalPrice": 2594.04
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.83641,
+              "TotalPrice": 4182.05
+            },
+            {
+              "BreakQuantity": 7000,
+              "UnitPrice": 0.8192,
+              "TotalPrice": 5734.4
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.80214,
+              "TotalPrice": 8021.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 39,
+            "Name": "Aratas (Formerly Omron Components)"
+          },
+          "QuantityAvailableforPackageType": 1000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "Z4374CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.61,
+              "TotalPrice": 1.61
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.359,
+              "TotalPrice": 13.59
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.2612,
+              "TotalPrice": 31.53
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1233,
+              "TotalPrice": 112.33
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.0416,
+              "TotalPrice": 260.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.98552,
+              "TotalPrice": 492.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 39,
+            "Name": "Aratas (Formerly Omron Components)"
+          },
+          "QuantityAvailableforPackageType": 1976,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "Z4374DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.61,
+              "TotalPrice": 1.61
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.359,
+              "TotalPrice": 13.59
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.2612,
+              "TotalPrice": 31.53
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1233,
+              "TotalPrice": 112.33
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.0416,
+              "TotalPrice": 260.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.98552,
+              "TotalPrice": 492.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 39,
+            "Name": "Aratas (Formerly Omron Components)"
+          },
+          "QuantityAvailableforPackageType": 1976,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 1976,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 130,
+          "ParameterText": "Circuit",
+          "ParameterType": "String",
+          "ValueId": "406606",
+          "ValueText": "SPST-NO"
+        },
+        {
+          "ParameterId": 235,
+          "ParameterText": "Switch Function",
+          "ParameterType": "String",
+          "ValueId": "381660",
+          "ValueText": "Off-Mom"
+        },
+        {
+          "ParameterId": 542,
+          "ParameterText": "Contact Rating @ Voltage",
+          "ParameterType": "String",
+          "ValueId": "7476",
+          "ValueText": "0.05A @ 24VDC"
+        },
+        {
+          "ParameterId": 545,
+          "ParameterText": "Actuator Type",
+          "ParameterType": "String",
+          "ValueId": "407938",
+          "ValueText": "Standard"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1547,
+          "ParameterText": "Actuator Height off PCB, Vertical",
+          "ParameterType": "String",
+          "ValueId": "206347",
+          "ValueText": "4.30mm"
+        },
+        {
+          "ParameterId": 2014,
+          "ParameterText": "Actuator Length, Right Angle",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1548,
+          "ParameterText": "Actuator Orientation",
+          "ParameterType": "String",
+          "ValueId": "413829",
+          "ValueText": "Top Actuated"
+        },
+        {
+          "ParameterId": 258,
+          "ParameterText": "Termination Style",
+          "ParameterType": "String",
+          "ValueId": "352076",
+          "ValueText": "Gull Wing"
+        },
+        {
+          "ParameterId": 567,
+          "ParameterText": "Outline",
+          "ParameterType": "String",
+          "ValueId": "81163",
+          "ValueText": "12.00mm x 12.00mm"
+        },
+        {
+          "ParameterId": 528,
+          "ParameterText": "Illumination",
+          "ParameterType": "String",
+          "ValueId": "380363",
+          "ValueText": "Non-Illuminated"
+        },
+        {
+          "ParameterId": 522,
+          "ParameterText": "Illumination Type, Color",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 524,
+          "ParameterText": "Illumination Voltage (Nominal)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 550,
+          "ParameterText": "Operating Force",
+          "ParameterType": "String",
+          "ValueId": "160320",
+          "ValueText": "260gf"
+        },
+        {
+          "ParameterId": 697,
+          "ParameterText": "Ingress Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "156439",
+          "ValueText": "-25°C ~ 70°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 677792,
+        "Name": "B3FS"
+      },
+      "Category": {
+        "CategoryId": 15,
+        "ParentId": 0,
+        "Name": "Switches",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+        "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+        "ChildCategories": [
+          {
+            "CategoryId": 197,
+            "ParentId": 15,
+            "Name": "Tactile Switches",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+            "SeoDescription": "Tactile Switches are an electromechanical device used to start or stop current flow along a circuit. Devices in this family are often very small and are turned on or off through the use of an actuator that is depressed into the unit’s body. These devices also provide feedback to the user through an audible click and/or a change in pressure upon reaching the trigger point. The operating force ranges from 50gf to 970gf.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "26",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 30467,
+        "Name": "B3FS-4"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.50.9031"
+      },
+      "OtherNames": [
+        "Z4374TR",
+        "Z4374DKR",
+        "Z4374CT",
+        "B3FS4005P-ND",
+        "B3FS4005P"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:05Z",
+    "manufacturer_part_number": "B3FS-4005P",
+    "product_quantity_available": 1976,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "26",
+    "product_unit_price": 1.61,
+    "offers": [
+      {
+        "provider_part_number": "Z4374CT-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1976,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.359,
+            "total_price": 13.59
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2612,
+            "total_price": 31.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1233,
+            "total_price": 112.33
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.0416,
+            "total_price": 260.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.98552,
+            "total_price": 492.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "Z4374DKR-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1976,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.359,
+            "total_price": 13.59
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2612,
+            "total_price": 31.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1233,
+            "total_price": 112.33
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.0416,
+            "total_price": 260.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.98552,
+            "total_price": 492.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "Z4374TR-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 1000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.93466,
+            "total_price": 934.66
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.88901,
+            "total_price": 1778.02
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.86468,
+            "total_price": 2594.04
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.83641,
+            "total_price": 4182.05
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.8192,
+            "total_price": 5734.4
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.80214,
+            "total_price": 8021.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "Z4374CT-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1976,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.359,
+            "total_price": 13.59
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2612,
+            "total_price": 31.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1233,
+            "total_price": 112.33
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.0416,
+            "total_price": 260.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.98552,
+            "total_price": 492.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "Z4374DKR-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1976,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": 1.61
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.359,
+            "total_price": 13.59
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2612,
+            "total_price": 31.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1233,
+            "total_price": 112.33
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.0416,
+            "total_price": 260.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.98552,
+            "total_price": 492.76
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "Z4374TR-ND",
+        "supplier": "Aratas (Formerly Omron Components)",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 1000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.93466,
+            "total_price": 934.66
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.88901,
+            "total_price": 1778.02
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.86468,
+            "total_price": 2594.04
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.83641,
+            "total_price": 4182.05
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.8192,
+            "total_price": 5734.4
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.80214,
+            "total_price": 8021.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:13:05Z",
+    "manufacturer": "Aratas (Formerly Omron Components)",
+    "manufacturer_part_number": "B3FS-4005P",
+    "provider_part_number": "",
+    "description": "SWITCH TACTILE SPST-NO 0.05A 24V",
+    "detailed_description": "Tactile Switch SPST-NO Top Actuated Surface Mount",
+    "datasheet_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/aratas-formerly-omron-components/B3FS-4005P/4947077",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1861/B3FS-4005P.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Circuit": "SPST-NO",
+      "Switch Function": "Off-Mom",
+      "Contact Rating @ Voltage": "0.05A @ 24VDC",
+      "Actuator Type": "Standard",
+      "Mounting Type": "Surface Mount",
+      "Actuator Height off PCB, Vertical": "4.30mm",
+      "Actuator Length, Right Angle": "-",
+      "Actuator Orientation": "Top Actuated",
+      "Termination Style": "Gull Wing",
+      "Outline": "12.00mm x 12.00mm",
+      "Illumination": "Non-Illuminated",
+      "Illumination Type, Color": "-",
+      "Illumination Voltage (Nominal)": "-",
+      "Operating Force": "260gf",
+      "Ingress Protection": "-",
+      "Features": "-",
+      "Operating Temperature": "-25°C ~ 70°C"
+    },
+    "compliance": {}
+  }
+}

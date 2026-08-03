@@ -1,0 +1,270 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:51Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TAJA106K010RNJ",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "TAJA106K010R",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113245,
+              "name": "SMD tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "TAJA106K010RNJ"
+            ],
+            "manufacturer": {
+              "id": 50,
+              "name": "KYOCERA AVX"
+            },
+            "description": "Capacitor: tantalum; 10uF; 10VDC; SMD; A; 1206; ±10%; -55÷125°C; TAJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.038,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=316d82f48d74e8d32229b1645eb209ef3902ad2b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=100&height=75&q=75&ci_sign=2dddb05b854d7a3f1978a6d44eb04ce96505a376",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0468fd47f1dd97a6a9858234d65f1c42cb077fce"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "NOT_IN_OFFER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "TAJA106K010RNJ",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113245,
+              "name": "SMD tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "TAJA106K010RNJ"
+            ],
+            "manufacturer": {
+              "id": 50,
+              "name": "KYOCERA AVX"
+            },
+            "description": "Capacitor: tantalum; 10uF; 10VDC; SMD; A; 1206; ±10%; -55÷125°C; TAJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.037,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=316d82f48d74e8d32229b1645eb209ef3902ad2b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=100&height=75&q=75&ci_sign=2dddb05b854d7a3f1978a6d44eb04ce96505a376",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0468fd47f1dd97a6a9858234d65f1c42cb077fce"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "MOQ_VALID_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "TAJA106K010RNJV",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113245,
+              "name": "SMD tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "TAJA106K010RNJV"
+            ],
+            "manufacturer": {
+              "id": 50,
+              "name": "KYOCERA AVX"
+            },
+            "description": "Capacitor: tantalum; 10uF; 10VDC; SMD; A; 1206; ±20%; -55÷125°C; TAJ",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.042,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=316d82f48d74e8d32229b1645eb209ef3902ad2b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=100&height=75&q=75&ci_sign=2dddb05b854d7a3f1978a6d44eb04ce96505a376",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0468fd47f1dd97a6a9858234d65f1c42cb077fce"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "T491A106K010AT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113245,
+              "name": "SMD tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "T491A106K010AT"
+            ],
+            "manufacturer": {
+              "id": 142,
+              "name": "KEMET"
+            },
+            "description": "Capacitor: tantalum; 10uF; 10VDC; SMD; A; 1206; ±10%; -55÷125°C; T491",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.04,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/87/E1/90/00/0/597624_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=f9bcb92e702d720231174c17458908fc6873489d",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/87/E1/90/00/0/597624_1.jpg?width=100&height=75&q=75&ci_sign=fd4df36a3f34899af445008ae0c1d417dd9fc287",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/87/E1/90/00/0/597624_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=3589dc5fd98466f10fdad5743839209c56ba9d5d"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "TAJA106M010R",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113245,
+              "name": "SMD tantalum capacitors"
+            },
+            "manufacturer_symbols": [
+              "TAJA106M010RNJ"
+            ],
+            "manufacturer": {
+              "id": 50,
+              "name": "KYOCERA AVX"
+            },
+            "description": "Capacitor: tantalum; 10uF; 10VDC; SMD; A; 1206; ±20%; -55÷125°C; TAJ",
+            "multiples": 10,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 0.038,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=316d82f48d74e8d32229b1645eb209ef3902ad2b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=100&height=75&q=75&ci_sign=2dddb05b854d7a3f1978a6d44eb04ce96505a376",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/91/E0/B0/00/0/724505_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0468fd47f1dd97a6a9858234d65f1c42cb077fce"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

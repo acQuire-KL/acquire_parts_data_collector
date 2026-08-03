@@ -1,0 +1,504 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:13Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Sullins Connector Solutions",
+    "input_mpn": "NPTC021KFXC-RC",
+    "resolved_manufacturer": "Sullins Connector Solutions",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "941"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN HDR 2POS 0.1 TIN SMD",
+        "DetailedDescription": "2 Position Header, Top or Bottom Entry Connector 0.100\" (2.54mm) Surface Mount Tin"
+      },
+      "Manufacturer": {
+        "Id": 35,
+        "Name": "Sullins Connector Solutions"
+      },
+      "ManufacturerProductNumber": "NPTC021KFXC-RC",
+      "UnitPrice": 0.5,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/sullins-connector-solutions/NPTC021KFXC-RC/776052",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2900/NPxCxx1KFXx-RC%2010487-D.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/842/NPTC021KFXC-RC.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "S5594-ND",
+          "PackageType": {
+            "Id": 61,
+            "Name": "Box"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.5,
+              "TotalPrice": 0.5
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.426,
+              "TotalPrice": 4.26
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.3616,
+              "TotalPrice": 36.16
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.32272,
+              "TotalPrice": 161.36
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.30731,
+              "TotalPrice": 307.31
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.27431,
+              "TotalPrice": 1371.55
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.26122,
+              "TotalPrice": 2612.2
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 35,
+            "Name": "Sullins Connector Solutions"
+          },
+          "QuantityAvailableforPackageType": 108338,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 108338,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "353556",
+          "ValueText": "Header, Top or Bottom Entry"
+        },
+        {
+          "ParameterId": 512,
+          "ParameterText": "Contact Type",
+          "ParameterType": "String",
+          "ValueId": "346565",
+          "ValueText": "Female Socket"
+        },
+        {
+          "ParameterId": 91,
+          "ParameterText": "Style",
+          "ParameterType": "String",
+          "ValueId": "321611",
+          "ValueText": "Board to Board"
+        },
+        {
+          "ParameterId": 88,
+          "ParameterText": "Number of Positions",
+          "ParameterType": "String",
+          "ValueId": "121326",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 564,
+          "ParameterText": "Number of Positions Loaded",
+          "ParameterType": "String",
+          "ValueId": "312745",
+          "ValueText": "All"
+        },
+        {
+          "ParameterId": 1790,
+          "ParameterText": "Pitch - Mating",
+          "ParameterType": "String",
+          "ValueId": "9726",
+          "ValueText": "0.100\" (2.54mm)"
+        },
+        {
+          "ParameterId": 2172,
+          "ParameterText": "Number of Rows",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 2024,
+          "ParameterText": "Row Spacing - Mating",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405002",
+          "ValueText": "Solder"
+        },
+        {
+          "ParameterId": 518,
+          "ParameterText": "Fastening Type",
+          "ParameterType": "String",
+          "ValueId": "390971",
+          "ValueText": "Push-Pull"
+        },
+        {
+          "ParameterId": 1791,
+          "ParameterText": "Contact Finish - Mating",
+          "ParameterType": "String",
+          "ValueId": "412237",
+          "ValueText": "Tin"
+        },
+        {
+          "ParameterId": 1792,
+          "ParameterText": "Contact Finish Thickness - Mating",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1693,
+          "ParameterText": "Insulation Color",
+          "ParameterType": "String",
+          "ValueId": "319929",
+          "ValueText": "Black"
+        },
+        {
+          "ParameterId": 2018,
+          "ParameterText": "Insulation Height",
+          "ParameterType": "String",
+          "ValueId": "17255",
+          "ValueText": "0.280\" (7.10mm)"
+        },
+        {
+          "ParameterId": 2012,
+          "ParameterText": "Contact Length - Post",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212434",
+          "ValueText": "-40°C ~ 105°C"
+        },
+        {
+          "ParameterId": 903,
+          "ParameterText": "Material Flammability Rating",
+          "ParameterType": "String",
+          "ValueId": "417627",
+          "ValueText": "UL94 V-0"
+        },
+        {
+          "ParameterId": 1795,
+          "ParameterText": "Contact Finish - Post",
+          "ParameterType": "String",
+          "ValueId": "412237",
+          "ValueText": "Tin"
+        },
+        {
+          "ParameterId": 1263,
+          "ParameterText": "Mated Stacking Heights",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 697,
+          "ParameterText": "Ingress Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 66,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "String",
+          "ValueId": "201594",
+          "ValueText": "3A"
+        },
+        {
+          "ParameterId": 63,
+          "ParameterText": "Voltage Rating",
+          "ParameterType": "String",
+          "ValueId": "157291",
+          "ValueText": "250V"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 371594,
+        "Name": "NPTC021"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2027,
+            "ParentId": 20,
+            "Name": "Rectangular Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+            "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+            "ChildCategories": [
+              {
+                "CategoryId": 315,
+                "ParentId": 2027,
+                "Name": "Headers, Receptacles, Female Sockets",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/430/193/SFH11-xxPC-D08-ST-BK_tmb.jpg",
+                "SeoDescription": "This type of header (receptacle) contains female sockets within a plastic housing and is meant to be mated with a rectangular cable connector or a male pin header for board-to-board connection. These come in a variety of position and pitch options, with some having a breakaway option to manually change position count with ease. Mounting types include panel mount, board edge, stacking, surface mount, and through-hole.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "11",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "S5594",
+        "NPTC021KFXCRC"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:13Z",
+    "manufacturer_part_number": "NPTC021KFXC-RC",
+    "product_quantity_available": 108338,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "11",
+    "product_unit_price": 0.5,
+    "offers": [
+      {
+        "provider_part_number": "S5594-ND",
+        "supplier": "Sullins Connector Solutions",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 108338,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.5,
+            "total_price": 0.5
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.426,
+            "total_price": 4.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3616,
+            "total_price": 36.16
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32272,
+            "total_price": 161.36
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.30731,
+            "total_price": 307.31
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.27431,
+            "total_price": 1371.55
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.26122,
+            "total_price": 2612.2
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "S5594-ND",
+        "supplier": "Sullins Connector Solutions",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 108338,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.5,
+            "total_price": 0.5
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.426,
+            "total_price": 4.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3616,
+            "total_price": 36.16
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32272,
+            "total_price": 161.36
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.30731,
+            "total_price": 307.31
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.27431,
+            "total_price": 1371.55
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.26122,
+            "total_price": 2612.2
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:13Z",
+    "manufacturer": "Sullins Connector Solutions",
+    "manufacturer_part_number": "NPTC021KFXC-RC",
+    "provider_part_number": "",
+    "description": "CONN HDR 2POS 0.1 TIN SMD",
+    "detailed_description": "2 Position Header, Top or Bottom Entry Connector 0.100\" (2.54mm) Surface Mount Tin",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2900/NPxCxx1KFXx-RC%2010487-D.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/sullins-connector-solutions/NPTC021KFXC-RC/776052",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/842/NPTC021KFXC-RC.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Connector Type": "Header, Top or Bottom Entry",
+      "Contact Type": "Female Socket",
+      "Style": "Board to Board",
+      "Number of Positions": "2",
+      "Number of Positions Loaded": "All",
+      "Pitch - Mating": "0.100\" (2.54mm)",
+      "Number of Rows": "1",
+      "Row Spacing - Mating": "-",
+      "Mounting Type": "Surface Mount",
+      "Termination": "Solder",
+      "Fastening Type": "Push-Pull",
+      "Contact Finish - Mating": "Tin",
+      "Contact Finish Thickness - Mating": "-",
+      "Insulation Color": "Black",
+      "Insulation Height": "0.280\" (7.10mm)",
+      "Contact Length - Post": "-",
+      "Operating Temperature": "-40°C ~ 105°C",
+      "Material Flammability Rating": "UL94 V-0",
+      "Contact Finish - Post": "Tin",
+      "Mated Stacking Heights": "-",
+      "Ingress Protection": "-",
+      "Features": "-",
+      "Current Rating (Amps)": "3A",
+      "Voltage Rating": "250V"
+    },
+    "compliance": {}
+  }
+}

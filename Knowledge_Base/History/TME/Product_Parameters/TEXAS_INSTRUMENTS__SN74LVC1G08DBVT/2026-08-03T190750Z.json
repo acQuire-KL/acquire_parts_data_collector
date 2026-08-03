@@ -1,0 +1,168 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:50Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "SN74LVC1G08DBVT",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "SN74LVC1G08DBVT",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1494628,
+                    "value": "digital"
+                  }
+                ]
+              },
+              {
+                "id": 2428,
+                "name": "Kind of gate",
+                "values": [
+                  {
+                    "id": 1494645,
+                    "value": "AND"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1913225,
+                    "value": "single"
+                  },
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 58,
+                "name": "Number of inputs",
+                "values": [
+                  {
+                    "id": 1454671,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 2611,
+                "name": "Technology",
+                "values": [
+                  {
+                    "id": 1494696,
+                    "value": "CMOS"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1443487,
+                    "value": "SOT23-5"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1493697,
+                    "value": "1.65...5.5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819335,
+                    "value": "-40...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 402,
+                "name": "Quiescent current",
+                "values": [
+                  {
+                    "id": 1631382,
+                    "value": "10µA"
+                  }
+                ]
+              },
+              {
+                "id": 2826,
+                "name": "Family",
+                "values": [
+                  {
+                    "id": 1931745,
+                    "value": "74LVC"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

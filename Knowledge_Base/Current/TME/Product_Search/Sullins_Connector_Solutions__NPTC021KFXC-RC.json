@@ -1,0 +1,26 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:13Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Sullins Connector Solutions",
+    "input_mpn": "NPTC021KFXC-RC",
+    "resolved_manufacturer": "Sullins Connector Solutions",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": []
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

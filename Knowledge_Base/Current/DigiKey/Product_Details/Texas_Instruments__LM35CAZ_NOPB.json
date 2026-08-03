@@ -1,0 +1,439 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:34Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "LM35CAZ/NOPB",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "772"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "SENSOR ANALOG -40C-110C TO92-3",
+        "DetailedDescription": "Temperature Sensor Analog, Local -40°C ~ 110°C 10mV/°C TO-92-3"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "LM35CAZ/NOPB",
+      "UnitPrice": 6.04,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/LM35CAZ-NOPB/148180",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm35",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6209/296%7EZ03A%7E%7E3.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "LM35CAZ/NOPB-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 6.04,
+              "TotalPrice": 6.04
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 5.442,
+              "TotalPrice": 27.21
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 5.218,
+              "TotalPrice": 52.18
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 4.9508,
+              "TotalPrice": 123.77
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 4.768,
+              "TotalPrice": 238.4
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 4.6002,
+              "TotalPrice": 460.02
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 4.26256,
+              "TotalPrice": 2131.28
+            },
+            {
+              "BreakQuantity": 1800,
+              "UnitPrice": 4.0382,
+              "TotalPrice": 7268.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 7095,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1800,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 7095,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 345,
+          "ParameterText": "Sensor Type",
+          "ParameterType": "String",
+          "ValueId": "313855",
+          "ValueText": "Analog, Local"
+        },
+        {
+          "ParameterId": 1847,
+          "ParameterText": "Sensing Temperature - Local",
+          "ParameterType": "String",
+          "ValueId": "212447",
+          "ValueText": "-40°C ~ 110°C"
+        },
+        {
+          "ParameterId": 1848,
+          "ParameterText": "Sensing Temperature - Remote",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "313832",
+          "ValueText": "Analog Voltage"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "228755",
+          "ValueText": "4V ~ 30V"
+        },
+        {
+          "ParameterId": 688,
+          "ParameterText": "Resolution",
+          "ParameterType": "String",
+          "ValueId": "74010",
+          "ValueText": "10mV/°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1846,
+          "ParameterText": "Accuracy - Highest (Lowest)",
+          "ParameterType": "String",
+          "ValueId": "999",
+          "ValueText": "±0.5°C (±1°C)"
+        },
+        {
+          "ParameterId": 1602,
+          "ParameterText": "Test Condition",
+          "ParameterType": "String",
+          "ValueId": "156370",
+          "ValueText": "25°C (-40°C ~ 110°C)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212447",
+          "ValueText": "-40°C ~ 110°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "413304",
+          "ValueText": "TO-226-3, TO-92-3 (TO-226AA)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "413708",
+          "ValueText": "TO-92-3"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 25766,
+        "Name": "LM35"
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2075,
+            "ParentId": 25,
+            "Name": "Temperature Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/220/004/MFG_NTE-DTO210_tmb.jpg",
+            "SeoDescription": "Temperature Sensors are devices that detect hot or cool temperatures and convert the findings into an electrical signal relative to the detection. Types include analog and digital output, industrial analog and digital output, NTC thermistors, PTC thermistors, resistance temperature detectors (RTDs), thermocouples, temperatures probes, thermostats (mechanical, industrial mechanical, solid state), and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 518,
+                "ParentId": 2075,
+                "Name": "Analog and Digital Output",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/298/783/MFG_D6T8L06_tmb.jpg",
+                "SeoDescription": "Analog and Digital Output Temperature Sensors are designed to measure the amount of ambient heat energy. The characteristics are sensor type, sensing temperature local, sensing temperature remote, output type, voltage supply, and resolution. The sensor types are analog local/remote/infrared, analog-digital, local/remote, digital local/remote/infrared, or internal, with a sensing temperature range of -55°C to 200°C.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "Not Applicable",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "LM35CAZ-ND",
+        "*LM35CAZ/NOPB",
+        "-LM35CAZ-NDR",
+        "*LM35CAZ",
+        "LM35CAZ-NDR",
+        "2156-LM35CAZ/NOPB",
+        "TEXTISLM35CAZ/NOPB",
+        "LM35CAZNOPB",
+        "-LM35CAZ/NOPB-ND",
+        "LM35CAZ"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:34Z",
+    "manufacturer_part_number": "LM35CAZ/NOPB",
+    "product_quantity_available": 7095,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 6.04,
+    "offers": [
+      {
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1800,
+        "quantity_available": 7095,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.04,
+            "total_price": 6.04
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 5.442,
+            "total_price": 27.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 5.218,
+            "total_price": 52.18
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.9508,
+            "total_price": 123.77
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 4.768,
+            "total_price": 238.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 4.6002,
+            "total_price": 460.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 4.26256,
+            "total_price": 2131.28
+          },
+          {
+            "break_quantity": 1800,
+            "unit_price": 4.0382,
+            "total_price": 7268.76
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1800,
+        "quantity_available": 7095,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.04,
+            "total_price": 6.04
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 5.442,
+            "total_price": 27.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 5.218,
+            "total_price": 52.18
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.9508,
+            "total_price": 123.77
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 4.768,
+            "total_price": 238.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 4.6002,
+            "total_price": 460.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 4.26256,
+            "total_price": 2131.28
+          },
+          {
+            "break_quantity": 1800,
+            "unit_price": 4.0382,
+            "total_price": 7268.76
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:34Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM35CAZ/NOPB",
+    "provider_part_number": "",
+    "description": "SENSOR ANALOG -40C-110C TO92-3",
+    "detailed_description": "Temperature Sensor Analog, Local -40°C ~ 110°C 10mV/°C TO-92-3",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm35",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/LM35CAZ-NOPB/148180",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6209/296%7EZ03A%7E%7E3.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "TO-226-3, TO-92-3 (TO-226AA)",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Sensor Type": "Analog, Local",
+      "Sensing Temperature - Local": "-40°C ~ 110°C",
+      "Sensing Temperature - Remote": "-",
+      "Output Type": "Analog Voltage",
+      "Voltage - Supply": "4V ~ 30V",
+      "Resolution": "10mV/°C",
+      "Features": "-",
+      "Accuracy - Highest (Lowest)": "±0.5°C (±1°C)",
+      "Test Condition": "25°C (-40°C ~ 110°C)",
+      "Operating Temperature": "-40°C ~ 110°C",
+      "Mounting Type": "Through Hole",
+      "Package / Case": "TO-226-3, TO-92-3 (TO-226AA)",
+      "Supplier Device Package": "TO-92-3"
+    },
+    "compliance": {}
+  }
+}

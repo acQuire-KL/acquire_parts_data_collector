@@ -1,0 +1,194 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T18:59:38Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "ADC121C021CIMM/NOPB",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ADC121C021CIMMNOPB",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 77,
+                    "value": "TEXAS INSTRUMENTS"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443865,
+                    "value": "A/D converter"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 381,
+                "name": "Converter resolution",
+                "values": [
+                  {
+                    "id": 1443869,
+                    "value": "12bit"
+                  }
+                ]
+              },
+              {
+                "id": 382,
+                "name": "Sampling speed",
+                "values": [
+                  {
+                    "id": 1961419,
+                    "value": "188.9ksps"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1443815,
+                    "value": "2.7...5.5V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1494415,
+                    "value": "VSSOP8"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1814684,
+                    "value": "2-wire"
+                  },
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819353,
+                    "value": "-40...105°C"
+                  }
+                ]
+              },
+              {
+                "id": 1398,
+                "name": "Kind of input",
+                "values": [
+                  {
+                    "id": 1857905,
+                    "value": "single-ended"
+                  }
+                ]
+              },
+              {
+                "id": 2408,
+                "name": "Kind of architecture",
+                "values": [
+                  {
+                    "id": 1823390,
+                    "value": "SAR"
+                  }
+                ]
+              },
+              {
+                "id": 2413,
+                "name": "Max INL",
+                "values": [
+                  {
+                    "id": 1443900,
+                    "value": "±1LSB"
+                  }
+                ]
+              },
+              {
+                "id": 2414,
+                "name": "Max DNL",
+                "values": [
+                  {
+                    "id": 1443899,
+                    "value": "±1LSB"
+                  }
+                ]
+              },
+              {
+                "id": 2443,
+                "name": "Relative accuracy",
+                "values": [
+                  {
+                    "id": 1503493,
+                    "value": "1.6LSB"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1961361,
+                    "value": "3.4MHz"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

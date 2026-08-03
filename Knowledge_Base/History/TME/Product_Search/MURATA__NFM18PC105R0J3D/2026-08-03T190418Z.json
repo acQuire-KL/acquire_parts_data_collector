@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:18Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MURATA",
+    "input_mpn": "NFM18PC105R0J3D",
+    "resolved_manufacturer": "MURATA",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "NFM18PC105R0J3D",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112930,
+              "name": "SMD suppression filters"
+            },
+            "manufacturer_symbols": [
+              "NFM18PC105R0J3D"
+            ],
+            "manufacturer": {
+              "id": 147,
+              "name": "MURATA"
+            },
+            "description": "Filter: anti-interference; 1uF; SMD; 6.3VDC; 4A; ±20%; 0603; 180mm",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.032,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 4000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/94/DF/60/00/0/458057_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5d7ced0755c397c7a44a7bb0cd01293e0e54fbcc",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/94/DF/60/00/0/458057_1.jpg?width=100&height=75&q=75&ci_sign=e2403d4857910c498d2826b1d5fb983ad8b762a7",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:07:21Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "LTC4412ES6#TRMPBF",
+    "resolved_manufacturer": "Analog Devices",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "HARDLY_AVAILABLE"
+            ],
+            "symbol": "LTC4412ES6TRMPBF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100221,
+              "name": "Drivers - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "LTC4412ES6#TRMPBF"
+            ],
+            "manufacturer": {
+              "id": 68,
+              "name": "Analog Devices"
+            },
+            "description": "IC: driver; OR controller,PowerPath controller; TSOT23-6; Ch: 1",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.039,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=98ed2c6810e8730d3d29b40276f6cc67975d654a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=100&height=75&q=75&ci_sign=a44c22fc9e146ee2d36acefb2fcb691a7006b78a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

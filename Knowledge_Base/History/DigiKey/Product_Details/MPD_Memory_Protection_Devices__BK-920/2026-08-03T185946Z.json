@@ -1,0 +1,410 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:46Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "MPD (Memory Protection Devices)",
+    "input_mpn": "BK-920",
+    "resolved_manufacturer": "MPD (Memory Protection Devices)",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "992"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "BATTERY RETAINER COIN 20MM SMD",
+        "DetailedDescription": "Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+      },
+      "Manufacturer": {
+        "Id": 61,
+        "Name": "MPD (Memory Protection Devices)"
+      },
+      "ManufacturerProductNumber": "BK-920",
+      "UnitPrice": 0.54,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/mpd-memory-protection-devices/BK-920/14308163",
+      "DatasheetUrl": "https://www.memoryprotectiondevices.com/datasheets/BK-920/BK-920-datasheet.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3001/MFG_BK-920.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "61-BK-920-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.54,
+              "TotalPrice": 0.54
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.453,
+              "TotalPrice": 4.53
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.398,
+              "TotalPrice": 19.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.3763,
+              "TotalPrice": 37.63
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.34948,
+              "TotalPrice": 87.37
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.33046,
+              "TotalPrice": 165.23
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.31245,
+              "TotalPrice": 312.45
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.29014,
+              "TotalPrice": 725.35
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.27434,
+              "TotalPrice": 1371.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 61,
+            "Name": "MPD (Memory Protection Devices)"
+          },
+          "QuantityAvailableforPackageType": 1968,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 1968,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6365055962112",
+      "Parameters": [
+        {
+          "ParameterId": 1445,
+          "ParameterText": "Battery Type, Function",
+          "ParameterType": "String",
+          "ValueId": "332102",
+          "ValueText": "Coin Cell, Retainer"
+        },
+        {
+          "ParameterId": 91,
+          "ParameterText": "Style",
+          "ParameterType": "String",
+          "ValueId": "396039",
+          "ValueText": "Retainer"
+        },
+        {
+          "ParameterId": 32,
+          "ParameterText": "Battery Cell Size",
+          "ParameterType": "String",
+          "ValueId": "332110",
+          "ValueText": "Coin, 20.0mm"
+        },
+        {
+          "ParameterId": 36,
+          "ParameterText": "Number of Cells",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1142,
+          "ParameterText": "Battery Series",
+          "ParameterType": "String",
+          "ValueId": "141257",
+          "ValueText": "2032"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "385069",
+          "ValueText": "PCB, Surface Mount"
+        },
+        {
+          "ParameterId": 258,
+          "ParameterText": "Termination Style",
+          "ParameterType": "String",
+          "ValueId": "404185",
+          "ValueText": "SMD (SMT) Tab"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 759,
+          "ParameterText": "Height Above Board",
+          "ParameterType": "String",
+          "ValueId": "11543",
+          "ValueText": "0.140\" (3.56mm)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 6,
+        "ParentId": 0,
+        "Name": "Battery Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/964/762/11_CR2032_tmb.jpg",
+        "SeoDescription": "The battery product category includes electrochemical storage cells (batteries) in a wide variety of chemistries and sizes, along with holders, clips, contacts, chargers, and other battery-related items including automotive 12V (\"cigarette lighter\") power plugs and sockets. Alkaline, Lithium, lead acid, silver oxide, Ni-MH, Ni-Cad, Zinc-Air, and other chemistries are available, in sizes ranging from the common AA, AAA, D, 9V, 123A, and 2032 to the more obscure 1/3N, 1/6D, 1/2AA, F, and SC, with many others in between.",
+        "ChildCategories": [
+          {
+            "CategoryId": 86,
+            "ParentId": 6,
+            "Name": "Battery Holders, Clips, Contacts",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/284/760/5213_tmb%2864x64%29.jpg",
+            "SeoDescription": "Battery holders, clips, and contacts allow circuitry and devices to connect to battery-based power sources using various termination methods such as plugs, PC pins, crimp, surface and through-hole solder, snaps, or wire leads. Battery holders for coin cell, cylindrical or rectangular batteries are used to secure battery(s) from one to 10 or more cells in series and parallel configurations.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 5500,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "RoHS Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.8000"
+      },
+      "OtherNames": [
+        "61-BK-920"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:46Z",
+    "manufacturer_part_number": "BK-920",
+    "product_quantity_available": 1968,
+    "manufacturer_public_quantity": 5500,
+    "manufacturer_lead_weeks": "20",
+    "product_unit_price": 0.54,
+    "offers": [
+      {
+        "provider_part_number": "61-BK-920-ND",
+        "supplier": "MPD (Memory Protection Devices)",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 500,
+        "quantity_available": 1968,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.54,
+            "total_price": 0.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.453,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.398,
+            "total_price": 19.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3763,
+            "total_price": 37.63
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.34948,
+            "total_price": 87.37
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.33046,
+            "total_price": 165.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.31245,
+            "total_price": 312.45
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.29014,
+            "total_price": 725.35
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.27434,
+            "total_price": 1371.7
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "61-BK-920-ND",
+        "supplier": "MPD (Memory Protection Devices)",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 500,
+        "quantity_available": 1968,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.54,
+            "total_price": 0.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.453,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.398,
+            "total_price": 19.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3763,
+            "total_price": 37.63
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.34948,
+            "total_price": 87.37
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.33046,
+            "total_price": 165.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.31245,
+            "total_price": 312.45
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.29014,
+            "total_price": 725.35
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.27434,
+            "total_price": 1371.7
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:46Z",
+    "manufacturer": "MPD (Memory Protection Devices)",
+    "manufacturer_part_number": "BK-920",
+    "provider_part_number": "",
+    "description": "BATTERY RETAINER COIN 20MM SMD",
+    "detailed_description": "Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab",
+    "datasheet_url": "https://www.memoryprotectiondevices.com/datasheets/BK-920/BK-920-datasheet.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/mpd-memory-protection-devices/BK-920/14308163",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3001/MFG_BK-920.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "PCB, Surface Mount",
+    "attributes": {
+      "Battery Type, Function": "Coin Cell, Retainer",
+      "Style": "Retainer",
+      "Battery Cell Size": "Coin, 20.0mm",
+      "Number of Cells": "1",
+      "Battery Series": "2032",
+      "Mounting Type": "PCB, Surface Mount",
+      "Termination Style": "SMD (SMT) Tab",
+      "Features": "-",
+      "Height Above Board": "0.140\" (3.56mm)",
+      "Operating Temperature": "-"
+    },
+    "compliance": {}
+  }
+}

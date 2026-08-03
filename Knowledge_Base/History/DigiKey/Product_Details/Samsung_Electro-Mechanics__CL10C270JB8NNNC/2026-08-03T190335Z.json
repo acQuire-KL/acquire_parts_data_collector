@@ -1,0 +1,635 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:03:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Samsung Electro-Mechanics",
+    "input_mpn": "CL10C270JB8NNNC",
+    "resolved_manufacturer": "Samsung Electro-Mechanics",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "987"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP CER 27PF 50V C0G/NP0 0603",
+        "DetailedDescription": "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 1276,
+        "Name": "Samsung Electro-Mechanics"
+      },
+      "ManufacturerProductNumber": "CL10C270JB8NNNC",
+      "UnitPrice": 0.1,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/samsung-electro-mechanics/CL10C270JB8NNNC/3886744",
+      "DatasheetUrl": "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2537/Ceramic-Capacitor-CL-Series.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "1276-1086-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.00716,
+              "TotalPrice": 28.64
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.00601,
+              "TotalPrice": 72.12
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1276,
+            "Name": "Samsung Electro-Mechanics"
+          },
+          "QuantityAvailableforPackageType": 40000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1276-1086-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.027,
+              "TotalPrice": 0.27
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.018,
+              "TotalPrice": 0.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0152,
+              "TotalPrice": 1.52
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.01064,
+              "TotalPrice": 5.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1276,
+            "Name": "Samsung Electro-Mechanics"
+          },
+          "QuantityAvailableforPackageType": 41961,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1276-1086-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.027,
+              "TotalPrice": 0.27
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.018,
+              "TotalPrice": 0.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0152,
+              "TotalPrice": 1.52
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.01064,
+              "TotalPrice": 5.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1276,
+            "Name": "Samsung Electro-Mechanics"
+          },
+          "QuantityAvailableforPackageType": 41961,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 41961,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "27 pF",
+          "ValueText": "27 pF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "2503",
+          "ValueText": "±5%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "238738",
+          "ValueText": "50V"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "324183",
+          "ValueText": "C0G, NP0"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409416",
+          "ValueText": "Surface Mount, MLCC"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "6031",
+          "ValueText": "0.035\" (0.90mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 4,
+          "ParameterText": "Lead Style",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 60,
+            "ParentId": 3,
+            "Name": "Ceramic Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "39",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 11392,
+        "Name": "CL"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "1276-1086-6",
+        "1276-1086-1",
+        "1276-1086-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:03:35Z",
+    "manufacturer_part_number": "CL10C270JB8NNNC",
+    "product_quantity_available": 41961,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "39",
+    "product_unit_price": 0.1,
+    "offers": [
+      {
+        "provider_part_number": "1276-1086-1-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 41961,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.027,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.018,
+            "total_price": 0.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0152,
+            "total_price": 1.52
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.01064,
+            "total_price": 5.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1276-1086-6-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 41961,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.027,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.018,
+            "total_price": 0.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0152,
+            "total_price": 1.52
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.01064,
+            "total_price": 5.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1276-1086-2-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 40000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.00716,
+            "total_price": 28.64
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.00601,
+            "total_price": 72.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "1276-1086-1-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 41961,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.027,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.018,
+            "total_price": 0.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0152,
+            "total_price": 1.52
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.01064,
+            "total_price": 5.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1276-1086-6-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 41961,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.027,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.018,
+            "total_price": 0.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0152,
+            "total_price": 1.52
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.01064,
+            "total_price": 5.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1276-1086-2-ND",
+        "supplier": "Samsung Electro-Mechanics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 40000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.00716,
+            "total_price": 28.64
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.00601,
+            "total_price": 72.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:03:35Z",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "manufacturer_part_number": "CL10C270JB8NNNC",
+    "provider_part_number": "",
+    "description": "CAP CER 27PF 50V C0G/NP0 0603",
+    "detailed_description": "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)",
+    "datasheet_url": "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/samsung-electro-mechanics/CL10C270JB8NNNC/3886744",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2537/Ceramic-Capacitor-CL-Series.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount, MLCC",
+    "attributes": {
+      "Capacitance": "27 pF",
+      "Tolerance": "±5%",
+      "Voltage - Rated": "50V",
+      "Temperature Coefficient": "C0G, NP0",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Features": "-",
+      "Ratings": "-",
+      "Applications": "General Purpose",
+      "Failure Rate": "-",
+      "Mounting Type": "Surface Mount, MLCC",
+      "Package / Case": "0603 (1608 Metric)",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "-",
+      "Thickness (Max)": "0.035\" (0.90mm)",
+      "Lead Spacing": "-",
+      "Lead Style": "-"
+    },
+    "compliance": {}
+  }
+}

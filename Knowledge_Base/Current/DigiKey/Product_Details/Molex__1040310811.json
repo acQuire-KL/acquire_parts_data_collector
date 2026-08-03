@@ -1,0 +1,720 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:06Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Molex",
+    "input_mpn": "1040310811",
+    "resolved_manufacturer": "Molex",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "913"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN MICRO SD CARD R/A SMD",
+        "DetailedDescription": "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold"
+      },
+      "Manufacturer": {
+        "Id": 23,
+        "Name": "Molex"
+      },
+      "ManufacturerProductNumber": "1040310811",
+      "UnitPrice": 1.78,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/molex/1040310811/2370379",
+      "DatasheetUrl": "https://www.molex.com/en-us/products/part-detail/1040310811?display=pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/525/1040310811.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "WM6357TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 1.15001,
+              "TotalPrice": 2300.02
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 1.09516,
+              "TotalPrice": 4380.64
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 1.06431,
+              "TotalPrice": 6385.86
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15550,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2000,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "WM6357CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.78,
+              "TotalPrice": 1.78
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.513,
+              "TotalPrice": 15.13
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.4184,
+              "TotalPrice": 35.46
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.3504,
+              "TotalPrice": 67.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.2858,
+              "TotalPrice": 128.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.20528,
+              "TotalPrice": 301.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.14774,
+              "TotalPrice": 573.87
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.10074,
+              "TotalPrice": 1100.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15833,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "WM6357DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.78,
+              "TotalPrice": 1.78
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.513,
+              "TotalPrice": 15.13
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.4184,
+              "TotalPrice": 35.46
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.3504,
+              "TotalPrice": 67.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.2858,
+              "TotalPrice": 128.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.20528,
+              "TotalPrice": 301.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.14774,
+              "TotalPrice": 573.87
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.10074,
+              "TotalPrice": 1100.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15833,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 15833,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 535,
+          "ParameterText": "Card Type",
+          "ParameterType": "String",
+          "ValueId": "400985",
+          "ValueText": "Secure Digital - microSD™"
+        },
+        {
+          "ParameterId": 88,
+          "ParameterText": "Number of Positions",
+          "ParameterType": "String",
+          "ValueId": "64047",
+          "ValueText": "10 (8 + 2)"
+        },
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "333006",
+          "ValueText": "Connector"
+        },
+        {
+          "ParameterId": 1261,
+          "ParameterText": "Insertion, Removal Method",
+          "ParameterType": "String",
+          "ValueId": "390880",
+          "ValueText": "Push In, Pull Out"
+        },
+        {
+          "ParameterId": 1094,
+          "ParameterText": "Ejector Side",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409420",
+          "ValueText": "Surface Mount, Right Angle"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "409552",
+          "ValueText": "Switch"
+        },
+        {
+          "ParameterId": 759,
+          "ParameterText": "Height Above Board",
+          "ParameterType": "String",
+          "ValueId": "7304",
+          "ValueText": "0.056\" (1.42mm)"
+        },
+        {
+          "ParameterId": 1061,
+          "ParameterText": "Mounting Feature",
+          "ParameterType": "String",
+          "ValueId": "380474",
+          "ValueText": "Normal, Standard - Top"
+        },
+        {
+          "ParameterId": 30,
+          "ParameterText": "Contact Finish",
+          "ParameterType": "String",
+          "ValueId": "350796",
+          "ValueText": "Gold"
+        },
+        {
+          "ParameterId": 834,
+          "ParameterText": "Contact Finish Thickness",
+          "ParameterType": "String",
+          "ValueId": "282118",
+          "ValueText": "8.00µin (0.203µm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 139475,
+        "Name": "104031"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2021,
+            "ParentId": 20,
+            "Name": "Memory Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/363/141/2199337-5_tmb.jpg",
+            "SeoDescription": "Memory Connectors are an interconnect system created for use with memory products. Included in this category are Inline Module Sockets, PC Card Sockets, PC Card Adapters, and Accessories. When looking for connectors to be used in tandem with SDRAM, DDR, DRAM, RAM, SGRAM, SD, miniSD, etc. Memory Connectors are where they are found.",
+            "ChildCategories": [
+              {
+                "CategoryId": 414,
+                "ParentId": 2021,
+                "Name": "PC Card Sockets",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/020/850/223/DM3AT-SF-PEJM5_tmb.jpg",
+                "SeoDescription": "PC card sockets are connectors designed to receive card type memory such as CFast, SIM, PCMCIA, Compact Flash, CardBus, ExpressCard, and SD, allowing for regular removal and insertion via hinged lid, push-pull and auto eject methods. They are available in surface, board, screw, straddle, snap-in, and edge mount as well as free-hanging and hand gripped versions.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "15",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 30719,
+        "Name": "104031"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "WM6357TR",
+        "2266-1040310811-23",
+        "WM6357CT",
+        "WM6357-6-ND",
+        "WM6357-2-ND",
+        "WM6357-2",
+        "104031-0811",
+        "WM6357-1",
+        "WM6357-1-ND",
+        "WM6357-6",
+        "1040310811-ND",
+        "WM6357DKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:06Z",
+    "manufacturer_part_number": "1040310811",
+    "product_quantity_available": 15833,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "15",
+    "product_unit_price": 1.78,
+    "offers": [
+      {
+        "provider_part_number": "WM6357CT-ND",
+        "supplier": "Molex",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357DKR-ND",
+        "supplier": "Molex",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357TR-ND",
+        "supplier": "Molex",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 15550,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.15001,
+            "total_price": 2300.02
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 1.09516,
+            "total_price": 4380.64
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.06431,
+            "total_price": 6385.86
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "WM6357CT-ND",
+        "supplier": "Molex",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357DKR-ND",
+        "supplier": "Molex",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357TR-ND",
+        "supplier": "Molex",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 15550,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.15001,
+            "total_price": 2300.02
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 1.09516,
+            "total_price": 4380.64
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.06431,
+            "total_price": 6385.86
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:06Z",
+    "manufacturer": "Molex",
+    "manufacturer_part_number": "1040310811",
+    "provider_part_number": "",
+    "description": "CONN MICRO SD CARD R/A SMD",
+    "detailed_description": "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold",
+    "datasheet_url": "https://www.molex.com/en-us/products/part-detail/1040310811?display=pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/molex/1040310811/2370379",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/525/1040310811.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount, Right Angle",
+    "attributes": {
+      "Card Type": "Secure Digital - microSD™",
+      "Number of Positions": "10 (8 + 2)",
+      "Connector Type": "Connector",
+      "Insertion, Removal Method": "Push In, Pull Out",
+      "Ejector Side": "-",
+      "Mounting Type": "Surface Mount, Right Angle",
+      "Features": "Switch",
+      "Height Above Board": "0.056\" (1.42mm)",
+      "Mounting Feature": "Normal, Standard - Top",
+      "Contact Finish": "Gold",
+      "Contact Finish Thickness": "8.00µin (0.203µm)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:44Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Same Sky®",
+    "input_mpn": "CMEJ-0733-25-L070",
+    "resolved_manufacturer": "Same Sky®",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "CMEJ-0733-25-L070",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100225,
+              "name": "Microphones and Headsets"
+            },
+            "manufacturer_symbols": [
+              "CMEJ-0733-25-L070"
+            ],
+            "manufacturer": {
+              "id": 2042,
+              "name": "Same Sky®"
+            },
+            "description": "Microphone; electret; 100Hz÷10kHz; -25dB; Ø7x3.3mm; 500uA; 1÷10V",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 13.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

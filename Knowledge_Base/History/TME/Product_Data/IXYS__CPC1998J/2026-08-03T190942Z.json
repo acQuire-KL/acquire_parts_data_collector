@@ -1,0 +1,64 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:09:42Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "IXYS",
+    "input_mpn": "CPC1998J",
+    "resolved_manufacturer": "IXYS",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 29,
+          "symbol": "CPC1998J",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 16.54,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 16.03,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 14.99,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 13.44,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

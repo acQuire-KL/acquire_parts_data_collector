@@ -1,0 +1,6038 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:31Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Diotec Semiconductor",
+    "input_mpn": "1N4448W",
+    "resolved_manufacturer": "Diotec Semiconductor",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 50,
+      "Parts": [
+        {
+          "Availability": "17473 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-123F, 100V, 0.15A, 150C",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-123f_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "42 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "1N4448W",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-1N4448W",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.045",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.029",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.018",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.015",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448W?qs=OlC7AqGiEDkIew7HvKWdDA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-05
+          },
+          "AvailabilityInStock": "17473",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "36798 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-E3-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-E3-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.21",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.078",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-E3-08"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-E3-18?qs=uS%252BVSIFnvp41L%2FGx4JO%2Fzw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "36798",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "10750 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-HE3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-HE3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.149",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.107",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.094",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.082",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.036",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 15000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-HE3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-HE3-08?qs=uS%252BVSIFnvp5a%252Bi0cxo%252BOOw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448W-HE3_A-08",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "10750",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "12248 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SWITCHING DIODE GENPURP SOD123",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "211 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "1N4448W-HE3_A-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-HE3_A-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.247",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.157",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.117",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.104",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.075",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/1N4448W-HE3_A-08?qs=Imq1NPwxi770gWrOhLU1lA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "12248",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 15000,
+              "Date": "2026-08-20T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/1N4448WHE3_SOD_123.pdf",
+          "Description": "Small Signal Switching Diodes 500mW HIGH SPEED SWITCHING DIODES",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/1N4448WHE3-TP_SPL.JPG",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "133 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "1N4448WHE3-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-1N4448WHE3-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/1N4448WHE3-TP?qs=rSMjJ%252B1ewcSFbVpM9UnfRA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "6397 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "206 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-E3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-E3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.241",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.152",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-E3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-E3-08?qs=vP9d3Jd3b8awYeLKq0NWRw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "6397",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 15000,
+              "Date": "2026-08-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SWITCHING DIODE GENPURP SOD123",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-HE3_A-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-HE3_A-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.568",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.389",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.246",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.155",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-HE3_A-18?qs=Imq1NPwxi75MiraH9tKqyw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Switching diode 400 mW",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-123F-2_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Part Number Change",
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448W",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-1N4448W",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448W?qs=tHU%2FlV7kTyRSFDg%2FiAp7LQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100030"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 75V, 0.15A, Switching Diode & Array",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-123F_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448W RHG",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-1N4448WRHG",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.138",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.085",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.017",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448W-RHG?qs=KwaGCOX4wIZv%252BQmWUYKiTA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.02655
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 6662,
+              "Date": "2026-08-12T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes DIODE-SS 75V 50MA SOD-123",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/1N4148W-HE3-A-08_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "1N4448W-HE3-A-18",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/1N4448W-HE3-A-18?qs=Z%252BL2brAPG1I7%252BHag5reE9w%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-HE3-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-HE3-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-HE3-08"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-HE3-18?qs=uS%252BVSIFnvp4J065IBS9fPQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448W-HE3_A-18",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/1N4448W(SOD-123).pdf",
+          "Description": "Small Signal Switching Diodes 75Vr 100Vrm 250mA 2A Ifsm 500mW",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/sod-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "1N4448W-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-1N4448W-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/1N4448W-TP?qs=KFo7JewZbUFALNIoK2AHyA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes DIODE-SS 75V 50MA SOD-123",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/1N4148W-HE3-A-08_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "1N4448W-HE3-A-08",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/1N4448W-HE3-A-08?qs=Z%252BL2brAPG1INnCy7mVBRAA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/1N4448WX(SOD-323).pdf",
+          "Description": "Small Signal Switching Diodes 75Vr 100Vrm 250mA 2A Ifsm 500mW",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/SOD-323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "1N4448WX-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-1N4448WX-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/1N4448WX-TP?qs=0RDYWt4CO4cW9YRPV1LX9g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541500000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85415001"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85415020"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SWITCHING DIODE GENPURP SOD323",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/1N4448WS-HG3_A-08_DSL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-HG3_A-08",
+          "Min": "15000",
+          "Mult": "15000",
+          "MouserPartNumber": "78-1N4448WS-HG3_A-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 15000,
+              "Price": "€0.087",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 30000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-HG3_A-08?qs=6avfeC6zeS5P02xEmMpS%2FA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "24250 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 150mA 4ns 500mA IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/sod323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-G3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-G3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.21",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448WS-G3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-G3-08?qs=uS%252BVSIFnvp5g0kjfBqpMHQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448WS-G3-08",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.30000001e-06
+          },
+          "AvailabilityInStock": "24250",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/17ACE0F029B634A0CEB6BADE9A59540DDC0EE588A5EF52E57EBEBA5F5E8D7279.pdf",
+          "Description": "Small Signal Switching Diodes 100V Small Signal Switching Diodes 4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W_R2_10001",
+          "Min": "10000",
+          "Mult": "10000",
+          "MouserPartNumber": "241-1N4448W_R2_10001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.02",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W_R2_10001?qs=sPbYRqrBIVndWyrCuN%252BguA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-1N4448W_R1_00001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100V, 0.15A, Switching Diode & Array",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-323F_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": "Verify Status with Factory",
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448WS RR",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "821-1N4448WSRR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.023",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448WS-RR?qs=SikLhao2tv%2FEbGjbkjBHEg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100030"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100050"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-323F, 100V, 0.15A, 150C, AEC-Q101",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-323f_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "42 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "1N4448WS-AQ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-1N4448WS-AQ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.155",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.111",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.031",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448WS-AQ?qs=Znm5pLBrcALyyZAp%252BUwLsQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-323, 100V, 0.25A, 125C",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-323_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "1N4448WSGW",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-1N4448WSGW",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.031",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.021",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.018",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.014",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.009",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.007",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448WSGW?qs=Y0Uzf4wQF3m0wPYc9D4nPA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "11273 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-323F, 100V, 0.15A, 150C",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-323f_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "49 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "1N4448WS",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-1N4448WS",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.051",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.042",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.029",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.015",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.014",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.012",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448WS?qs=OlC7AqGiEDlRFHe6WPugDA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2e-05
+          },
+          "AvailabilityInStock": "11273",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "13120 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/17ACE0F029B634A0CEB6BADE9A59540DDC0EE588A5EF52E57EBEBA5F5E8D7279.pdf",
+          "Description": "Small Signal Switching Diodes 100V,Small Signal Switching Diodes,SOD-123,4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W_R1_00001",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "241-1N4448W_R1_00001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.015",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W_R1_00001?qs=sPbYRqrBIVlBQVNPmYgN5Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "13120",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/17ACE0F029B634A0CEB6BADE9A59540DDC0EE588A5EF52E57EBEBA5F5E8D7279.pdf",
+          "Description": "Small Signal Switching Diodes 100V Small Signal Switching Diodes 4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W_R2_00001",
+          "Min": "10000",
+          "Mult": "10000",
+          "MouserPartNumber": "241-1N4448W_R2_00001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.02",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W_R2_00001?qs=sPbYRqrBIVmH6WAlFC1MCg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-1N4448W_R1_00001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SWITCHING DIODE GENPURP SOD323",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/1N4148WS-HE3_A-08_DSL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "1N4448WS-HE3_A-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-HE3_A-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.239",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.151",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.064",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/1N4448WS-HE3_A-18?qs=CoAU%2FpHVZXxYyQzKIVAhyw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "12030 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-G3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-G3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.499",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.341",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.216",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.136",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.119",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-G3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-G3-08?qs=uS%252BVSIFnvp5RRMb6bjun7g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "12030",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "11028 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 150mA 4ns 500mA IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/sod323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-E3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-E3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.21",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448WS-E3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-E3-08?qs=uS%252BVSIFnvp5XVNpq9gc0ZA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448WS-E3-08",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.30000001e-06
+          },
+          "AvailabilityInStock": "11028",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "18056 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SWITCHING DIODE GENPURP SOD323",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/1N4148WS-HE3_A-08_DSL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "93 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "1N4448WS-HE3_A-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-HE3_A-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.239",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.151",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.115",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.098",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.064",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/1N4448WS-HE3_A-08?qs=CoAU%2FpHVZXxb1U7jp09SYQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "18056",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2154 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 150mA 4ns 500mA IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/sod323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-E3-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-E3-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.456",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.197",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.124",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.051",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448WS-E3-08"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-E3-18?qs=uS%252BVSIFnvp5G7TlzI6wsWQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448WS-E3-18",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.30000001e-06
+          },
+          "AvailabilityInStock": "2154",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/E67C2F0D51A41B880AB1526AFD34B34B623F8A432FA27E3C7A2C656A7F4F2C0C.pdf",
+          "Description": "Small Signal Switching Diodes 100V,Small Signal Switching Diodes,SOD-123,4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W-AU_R1_000A1",
+          "Min": "120000",
+          "Mult": "3000",
+          "MouserPartNumber": "241-1N4448WAUR1000A1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 120000,
+              "Price": "€0.009",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W-AU_R1_000A1?qs=sPbYRqrBIVkwvemTZHcP5w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "7423 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/1N4448WSF.pdf",
+          "Description": "Small Signal Switching Diodes 100V Switching Diode 4.0ns 25nA 4pF",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/SOD323F_2_DSL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WSFQ-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WSFQ-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.11",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.043",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.037",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WSFQ-7?qs=ZtY9WdtwX559J1sySbB5DQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00014
+          },
+          "AvailabilityInStock": "7423",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 9000,
+              "Date": "2027-05-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-123F, 100V, 0.15A, 150C, AEC-Q101",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-123f_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "1N4448W-AQ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-1N4448W-AQ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.045",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.029",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.018",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.015",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448W-AQ?qs=OlC7AqGiEDmYjIcUa2bsTw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "8334 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/fairchildsemiconductor/images/inhouse_1n4448ws_t.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "1N4448WS",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-1N4448WS",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.146",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.043",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.038",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/1N4448WS?qs=2%2FYqgE%252BHg%252BK6yRFyVjaOwg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.76e-05
+          },
+          "AvailabilityInStock": "8334",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 129000,
+              "Date": "2027-06-25T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "503 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/1N4448W.pdf",
+          "Description": "Small Signal Switching Diodes 100Vrm Fast Switch 75Vrrm 53Vr 400mW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/sod-123-2_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WQ-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WQ-7-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.232",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.101",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WQ-7-F?qs=s5XU71A7K78gaRcR8oskdg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1e-05
+          },
+          "AvailabilityInStock": "503",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 21000,
+              "Date": "2026-12-21T00:00:00"
+            },
+            {
+              "Quantity": 27000,
+              "Date": "2027-02-03T00:00:00"
+            },
+            {
+              "Quantity": 33000,
+              "Date": "2027-02-05T00:00:00"
+            },
+            {
+              "Quantity": 72000,
+              "Date": "2027-06-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Fast Switching Diode SOD323 T&R 3K",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WS-7-F-W",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WS-7-F-W",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.036",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WS-7-F-W?qs=HMhDvBYWqvO%2FU7n%2FBl1QqQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/1N4448W(SOD-123).pdf",
+          "Description": "Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/1N4448WHE3-TP_SPL.JPG",
+          "Category": "Rectifiers",
+          "LeadTime": "140 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "1N4448W-13P",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-1N4448W-13P",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/1N4448W-13P?qs=IKkN%2F947nfA6itWVI0XLvQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Vietnam"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "137038 On Order",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/ds30096.pdf",
+          "Description": "Small Signal Switching Diodes Vr/75V Io/250mA T/R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/sod-323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WS-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WS-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.03",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WS-7-F?qs=4drIV0IxA0qGSTUvNxPxDA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "621-1N4448WS-7-F-W",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.004
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 35038,
+              "Date": "2027-01-06T00:00:00"
+            },
+            {
+              "Quantity": 102000,
+              "Date": "2027-02-05T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SOD-323F, 100V, 0.15A, Switching Diode",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-323F_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448WS R9G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-1N4448WSR9G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.091",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.035",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.031",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448WS-R9G?qs=pBunHO6%252BwtENZLXyOH1E%252Bw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100V, 0.15A, Switching Diode & Array",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-323F_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448WS RRG",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-1N4448WSRRG",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.138",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.085",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448WS-RRG?qs=KwaGCOX4wIYDNtk1mqGLvw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100030"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100050"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "9669 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 150mA 4ns 500mA IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/sod323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-HE3-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-HE3-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.284",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.055",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448WS-HE3-08"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-HE3-18?qs=uS%252BVSIFnvp45X05Q9syspw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448WS-HE3_A-18",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.30000001e-06
+          },
+          "AvailabilityInStock": "9669",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "8225 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes SINGLE JUNC. 100V 4.0NS COMP",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/fairchildsemiconductor/images/inhouse_1n4448wt_t.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "1N4448WT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-1N4448WT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "8000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.026",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/1N4448WT?qs=2%2FYqgE%252BHg%252BJEFyXf7B7EGw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1e-05
+          },
+          "AvailabilityInStock": "8225",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 296000,
+              "Date": "2027-06-04T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "8520",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "14316 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/1N4448WSF.pdf",
+          "Description": "Small Signal Switching Diodes Switching Diode BVR 100V,SOD323F,3K",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/SOD-323F-2_DSL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WSF-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WSF-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.241",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.087",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.062",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.054",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.043",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WSF-7?qs=T%2FOtf55vL7eP3ljw7ktNaw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.9e-06
+          },
+          "AvailabilityInStock": "14316",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 30000,
+              "Date": "2026-09-18T00:00:00"
+            },
+            {
+              "Quantity": 30000,
+              "Date": "2026-10-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "3000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/E67C2F0D51A41B880AB1526AFD34B34B623F8A432FA27E3C7A2C656A7F4F2C0C.pdf",
+          "Description": "Small Signal Switching Diodes 100V Small Signal Switching Diodes 4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W-AU_R2_000A1",
+          "Min": "10000",
+          "Mult": "10000",
+          "MouserPartNumber": "241-1N4448WAUR2000A1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.02",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W-AU_R2_000A1?qs=sPbYRqrBIVlnsjs7yQmEBg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-1N4448WAUR1000A1",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/17ACE0F029B634A0CEB6BADE9A59540DDC0EE588A5EF52E57EBEBA5F5E8D7279.pdf",
+          "Description": "Small Signal Switching Diodes 100V Small Signal Switching Diodes 4A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOD-123_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "1N4448W_R1_10001",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "241-1N4448W_R1_10001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.02",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/1N4448W_R1_10001?qs=sPbYRqrBIVnngf9B1gPSug%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-1N4448W_R1_00001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03498e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 75V, 0.15A, Switching Diode & Array",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SOD-123F_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": "Verify Status with Factory",
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "1N4448W RH",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "821-1N4448WRH",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.036",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/1N4448W-RH?qs=SikLhao2tv8MoYSMTvUTDg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "18727 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 150mA 4ns 500mA IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/sod323.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448WS-HE3-08",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448WS-HE3-08",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.284",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.055",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.042",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 15000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448WS-HE3-18"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448WS-HE3-08?qs=uS%252BVSIFnvp4fgsLlKYDaYg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "78-1N4448WS-HE3_A-08",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.30000001e-06
+          },
+          "AvailabilityInStock": "18727",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "64562 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/1N4448WSF.pdf",
+          "Description": "Small Signal Switching Diodes Fast Switching Diode",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/ITP_621-1N4448WSQ-7-F_t.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448WSQ-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448WSQ-7-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.232",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.143",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448WSQ-7-F?qs=60RJRzIpcl%2FfCfFbWH1pKw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.004
+          },
+          "AvailabilityInStock": "64562",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 39000,
+              "Date": "2027-10-01T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "4280",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Fast Switching Diode SOD123 T&R 3K",
+          "FactoryStock": "426000",
+          "ImagePath": null,
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448W-7-F-W",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448W-7-F-W",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.064",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.029",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.024",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.023",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448W-7-F-W?qs=HMhDvBYWqvNzeS5gnGEgig%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "65130 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes 100 Volt 500mA 4ns",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SOD-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "1N4448W-G3-18",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-1N4448W-G3-18",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.224",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.084",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.054",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "1N4448W-G3-08"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/1N4448W-G3-18?qs=uS%252BVSIFnvp7TRstnk7NdCA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.03e-05
+          },
+          "AvailabilityInStock": "65130",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2039 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/1N4448W.pdf",
+          "Description": "Small Signal Switching Diodes Vr/75V Io/250mA T/R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/sod-123.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "1N4448W-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-1N4448W-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.104",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/1N4448W-7-F?qs=VlTXaPCrgsfMz34DB76PhQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "621-1N4448W-7-F-W",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1e-05
+          },
+          "AvailabilityInStock": "2039",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 42000,
+              "Date": "2027-01-22T00:00:00"
+            },
+            {
+              "Quantity": 72000,
+              "Date": "2027-02-26T00:00:00"
+            },
+            {
+              "Quantity": 117000,
+              "Date": "2027-06-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "4010",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "27234 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Small Signal Switching Diodes Small Signal Diode, SOD-106, 100V, 0.15A, 175C",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sod-106_SPL.jpg",
+          "Category": "Small Signal Switching Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "MCL4448",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-MCL4448",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.078",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50000,
+              "Price": "€0.021",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/MCL4448?qs=OlC7AqGiEDkEV8GCR4yVjA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "637-1N4448WS",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.500000001e-05
+          },
+          "AvailabilityInStock": "27234",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:31Z",
+    "manufacturer_part_number": "1N4448W",
+    "product_quantity_available": 17473,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "42 Days",
+    "product_unit_price": 0.095,
+    "offers": [
+      {
+        "provider_part_number": "637-1N4448W",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17473,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.045,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.029,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.019,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.018,
+            "total_price": null
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.015,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "821-1N4448W",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "637-1N4448W",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 17473,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.045,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.029,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.019,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.018,
+            "total_price": null
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.015,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "821-1N4448W",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:31Z",
+    "manufacturer": "Diotec Semiconductor",
+    "manufacturer_part_number": "1N4448W",
+    "provider_part_number": "637-1N4448W",
+    "description": "Small Signal Switching Diodes Small Signal Diode, SOD-123F, 100V, 0.15A, 150C",
+    "detailed_description": "Small Signal Switching Diodes Small Signal Diode, SOD-123F, 100V, 0.15A, 150C",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/1N4448W?qs=OlC7AqGiEDkIew7HvKWdDA%3D%3D",
+    "image_url": "https://www.mouser.com/images/diotecsemiconductor/images/sod-123f_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "JPHTS": "854110090",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100199",
+      "BRHTS": "85411099",
+      "ECCN": "EAR99"
+    }
+  }
+}

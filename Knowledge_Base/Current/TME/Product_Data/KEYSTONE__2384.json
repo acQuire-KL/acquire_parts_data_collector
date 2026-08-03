@@ -1,0 +1,59 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:12:47Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEYSTONE",
+    "input_mpn": "2384",
+    "resolved_manufacturer": "KEYSTONE",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "KEYS2384",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 10,
+                "price": 0.192,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.172,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.161,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

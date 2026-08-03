@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:44Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Same Sky®",
+    "input_mpn": "CMEJ-0733-25-L070",
+    "resolved_manufacturer": "Same Sky®",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "CMEJ-0733-25-L070",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 2042,
+                    "value": "Same Sky®"
+                  }
+                ]
+              },
+              {
+                "id": 591,
+                "name": "Type of sound transducer",
+                "values": [
+                  {
+                    "id": 1448987,
+                    "value": "microphone"
+                  }
+                ]
+              },
+              {
+                "id": 2322,
+                "name": "Kind of microphone",
+                "values": [
+                  {
+                    "id": 1488662,
+                    "value": "electret"
+                  }
+                ]
+              },
+              {
+                "id": 397,
+                "name": "Bandwidth",
+                "values": [
+                  {
+                    "id": 1717677,
+                    "value": "0.1...10kHz"
+                  }
+                ]
+              },
+              {
+                "id": 2812,
+                "name": "Microphone sensitivity",
+                "values": [
+                  {
+                    "id": 2024528,
+                    "value": "-25dB"
+                  }
+                ]
+              },
+              {
+                "id": 317,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 2024536,
+                    "value": "Ø7x3.3mm"
+                  }
+                ]
+              },
+              {
+                "id": 370,
+                "name": "Operating current",
+                "values": [
+                  {
+                    "id": 1512135,
+                    "value": "0.5mA"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1512134,
+                    "value": "1...10V"
+                  }
+                ]
+              },
+              {
+                "id": 117,
+                "name": "Leads",
+                "values": [
+                  {
+                    "id": 1493739,
+                    "value": "leads with plug"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1550864,
+                    "value": "cables"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819426,
+                    "value": "-40...70°C"
+                  }
+                ]
+              },
+              {
+                "id": 536,
+                "name": "Cable length",
+                "values": [
+                  {
+                    "id": 1713245,
+                    "value": "70mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

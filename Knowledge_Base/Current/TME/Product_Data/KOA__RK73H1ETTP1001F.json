@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:10:18Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KOA",
+    "input_mpn": "RK73H1ETTP1001F",
+    "resolved_manufacturer": "KOA",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "RK73H1ETTP1001F",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 10000,
+                "price": 0.00155,
+                "special": false
+              },
+              {
+                "amount": 20000,
+                "price": 0.00143,
+                "special": false
+              },
+              {
+                "amount": 30000,
+                "price": 0.00137,
+                "special": false
+              },
+              {
+                "amount": 50000,
+                "price": 0.00131,
+                "special": false
+              },
+              {
+                "amount": 70000,
+                "price": 0.00127,
+                "special": false
+              },
+              {
+                "amount": 100000,
+                "price": 0.00123,
+                "special": false
+              },
+              {
+                "amount": 120000,
+                "price": 0.00122,
+                "special": false
+              },
+              {
+                "amount": 250000,
+                "price": 0.00116,
+                "special": false
+              },
+              {
+                "amount": 300000,
+                "price": 0.00115,
+                "special": false
+              },
+              {
+                "amount": 600000,
+                "price": 0.00111,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

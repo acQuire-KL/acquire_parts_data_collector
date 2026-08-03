@@ -1,0 +1,765 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:11:29Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0603FR-0788K7L",
+    "resolved_manufacturer": "YAGEO",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "796"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "RES 88.7K OHM 1% 1/10W 0603",
+        "DetailedDescription": "88.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+      },
+      "Manufacturer": {
+        "Id": 13,
+        "Name": "YAGEO"
+      },
+      "ManufacturerProductNumber": "RC0603FR-0788K7L",
+      "UnitPrice": 0.09,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/yageo/RC0603FR-0788K7L/727415",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4848/13_0603-%281608-metric%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "311-88.7KHRTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.0041,
+              "TotalPrice": 20.5
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.00362,
+              "TotalPrice": 36.2
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.00338,
+              "TotalPrice": 50.7
+            },
+            {
+              "BreakQuantity": 25000,
+              "UnitPrice": 0.00313,
+              "TotalPrice": 78.25
+            },
+            {
+              "BreakQuantity": 35000,
+              "UnitPrice": 0.00299,
+              "TotalPrice": 104.65
+            },
+            {
+              "BreakQuantity": 50000,
+              "UnitPrice": 0.00285,
+              "TotalPrice": 142.5
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 5000,
+          "StandardPackage": 5000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "311-88.7KHRCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.09,
+              "TotalPrice": 0.09
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.022,
+              "TotalPrice": 0.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0164,
+              "TotalPrice": 0.41
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0132,
+              "TotalPrice": 0.66
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0107,
+              "TotalPrice": 1.07
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.0082,
+              "TotalPrice": 2.05
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.00684,
+              "TotalPrice": 3.42
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.00578,
+              "TotalPrice": 5.78
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "311-88.7KHRDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.09,
+              "TotalPrice": 0.09
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.022,
+              "TotalPrice": 0.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0164,
+              "TotalPrice": 0.41
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0132,
+              "TotalPrice": 0.66
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0107,
+              "TotalPrice": 1.07
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.0082,
+              "TotalPrice": 2.05
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.00684,
+              "TotalPrice": 3.42
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.00578,
+              "TotalPrice": 5.78
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2085,
+          "ParameterText": "Resistance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "88.7 kOhms",
+          "ValueText": "88.7 kOhms"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1131",
+          "ValueText": "±1%"
+        },
+        {
+          "ParameterId": 2,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "String",
+          "ValueId": "14064",
+          "ValueText": "0.1W, 1/10W"
+        },
+        {
+          "ParameterId": 174,
+          "ParameterText": "Composition",
+          "ParameterType": "String",
+          "ValueId": "411742",
+          "ValueText": "Thick Film"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "376928",
+          "ValueText": "Moisture Resistant"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "1378",
+          "ValueText": "±100ppm/°C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242934",
+          "ValueText": "-55°C ~ 155°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5314",
+          "ValueText": "0.022\" (0.55mm)"
+        },
+        {
+          "ParameterId": 1127,
+          "ParameterText": "Number of Terminations",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 2,
+        "ParentId": 0,
+        "Name": "Resistors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+        "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+        "ChildCategories": [
+          {
+            "CategoryId": 52,
+            "ParentId": 2,
+            "Name": "Chip Resistor - Surface Mount",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 81248,
+        "Name": "RC_L"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.21.0030"
+      },
+      "OtherNames": [
+        "311-88.7KHRTR",
+        "311-88.7KHRCT",
+        "9C06031A8872FKPFT",
+        "232270468873L",
+        "Q2800948",
+        "311-88.7KHRDKR",
+        "RC0603FR0788K7L"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:11:29Z",
+    "manufacturer_part_number": "RC0603FR-0788K7L",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 0.09,
+    "offers": [
+      {
+        "provider_part_number": "311-88.7KHRCT-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.09,
+            "total_price": 0.09
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.022,
+            "total_price": 0.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0164,
+            "total_price": 0.41
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0132,
+            "total_price": 0.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0107,
+            "total_price": 1.07
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0082,
+            "total_price": 2.05
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.00684,
+            "total_price": 3.42
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.00578,
+            "total_price": 5.78
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "311-88.7KHRDKR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.09,
+            "total_price": 0.09
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.022,
+            "total_price": 0.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0164,
+            "total_price": 0.41
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0132,
+            "total_price": 0.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0107,
+            "total_price": 1.07
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0082,
+            "total_price": 2.05
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.00684,
+            "total_price": 3.42
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.00578,
+            "total_price": 5.78
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "311-88.7KHRTR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 5000,
+        "pack_quantity": 5000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.0041,
+            "total_price": 20.5
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.00362,
+            "total_price": 36.2
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.00338,
+            "total_price": 50.7
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.00313,
+            "total_price": 78.25
+          },
+          {
+            "break_quantity": 35000,
+            "unit_price": 0.00299,
+            "total_price": 104.65
+          },
+          {
+            "break_quantity": 50000,
+            "unit_price": 0.00285,
+            "total_price": 142.5
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "311-88.7KHRCT-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.09,
+            "total_price": 0.09
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.022,
+            "total_price": 0.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0164,
+            "total_price": 0.41
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0132,
+            "total_price": 0.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0107,
+            "total_price": 1.07
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0082,
+            "total_price": 2.05
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.00684,
+            "total_price": 3.42
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.00578,
+            "total_price": 5.78
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "311-88.7KHRDKR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.09,
+            "total_price": 0.09
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.022,
+            "total_price": 0.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0164,
+            "total_price": 0.41
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0132,
+            "total_price": 0.66
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0107,
+            "total_price": 1.07
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0082,
+            "total_price": 2.05
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.00684,
+            "total_price": 3.42
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.00578,
+            "total_price": 5.78
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "311-88.7KHRTR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 5000,
+        "pack_quantity": 5000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.0041,
+            "total_price": 20.5
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.00362,
+            "total_price": 36.2
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.00338,
+            "total_price": 50.7
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.00313,
+            "total_price": 78.25
+          },
+          {
+            "break_quantity": 35000,
+            "unit_price": 0.00299,
+            "total_price": 104.65
+          },
+          {
+            "break_quantity": 50000,
+            "unit_price": 0.00285,
+            "total_price": 142.5
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:11:29Z",
+    "manufacturer": "YAGEO",
+    "manufacturer_part_number": "RC0603FR-0788K7L",
+    "provider_part_number": "",
+    "description": "RES 88.7K OHM 1% 1/10W 0603",
+    "detailed_description": "88.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "product_url": "https://www.digikey.ie/en/products/detail/yageo/RC0603FR-0788K7L/727415",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4848/13_0603-%281608-metric%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "",
+    "attributes": {
+      "Resistance": "88.7 kOhms",
+      "Tolerance": "±1%",
+      "Power (Watts)": "0.1W, 1/10W",
+      "Composition": "Thick Film",
+      "Features": "Moisture Resistant",
+      "Temperature Coefficient": "±100ppm/°C",
+      "Operating Temperature": "-55°C ~ 155°C",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "0.022\" (0.55mm)",
+      "Number of Terminations": "2",
+      "Failure Rate": "-"
+    },
+    "compliance": {}
+  }
+}

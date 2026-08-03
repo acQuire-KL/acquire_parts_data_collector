@@ -1,0 +1,345 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bourns Inc.",
+    "input_mpn": "MF-MSMF250/16X-2",
+    "resolved_manufacturer": "Bourns Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "15117 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/40/1/mf_msmf.pdf",
+          "Description": "Resettable Fuses - PPTC 16V    2.5A-HD   100A  MAX",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/bourns/images/MF_MSMF_DSL.jpg",
+          "Category": "Resettable Fuses - PPTC",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Bourns",
+          "ManufacturerPartNumber": "MF-MSMF250/16X-2",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "652-MF-MSMF250/16X-2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.456",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.399",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.349",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.305",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.262",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1500,
+              "Price": "€0.234",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.216",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4500,
+              "Price": "€0.21",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Bourns/MF-MSMF250-16X-2?qs=9fn1gpisni78zr7pGyDhCQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000142
+          },
+          "AvailabilityInStock": "15117",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8533290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8533400000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8533400000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8533408070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853340000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8533299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8533299900"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85332900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "manufacturer_part_number": "MF-MSMF250/16X-2",
+    "product_quantity_available": 15117,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "84 Days",
+    "product_unit_price": 0.456,
+    "offers": [
+      {
+        "provider_part_number": "652-MF-MSMF250/16X-2",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15117,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.456,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.399,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.349,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.305,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.262,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 0.234,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.216,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4500,
+            "unit_price": 0.21,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "652-MF-MSMF250/16X-2",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15117,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.456,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.399,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.349,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.305,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.262,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 0.234,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.216,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4500,
+            "unit_price": 0.21,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:12Z",
+    "manufacturer": "Bourns",
+    "manufacturer_part_number": "MF-MSMF250/16X-2",
+    "provider_part_number": "652-MF-MSMF250/16X-2",
+    "description": "Resettable Fuses - PPTC 16V    2.5A-HD   100A  MAX",
+    "detailed_description": "Resettable Fuses - PPTC 16V    2.5A-HD   100A  MAX",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/40/1/mf_msmf.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Bourns/MF-MSMF250-16X-2?qs=9fn1gpisni78zr7pGyDhCQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/bourns/images/MF_MSMF_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1500"
+    },
+    "compliance": {
+      "TARIC": "8533290000",
+      "CNHTS": "8533400000",
+      "CAHTS": "8533400000",
+      "USHTS": "8533408070",
+      "JPHTS": "853340000",
+      "KRHTS": "8533299000",
+      "MXHTS": "8533299900",
+      "BRHTS": "85332900",
+      "ECCN": "EAR99"
+    }
+  }
+}

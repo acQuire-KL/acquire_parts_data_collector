@@ -1,0 +1,621 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:11:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Vishay Dale Thin Film",
+    "input_mpn": "TNPW0603100KBEEN",
+    "resolved_manufacturer": "Vishay Dale Thin Film",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "793"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "RES 100K OHM 0.1% 0.21W 0603",
+        "DetailedDescription": "100 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+      },
+      "Manufacturer": {
+        "Id": 541,
+        "Name": "Vishay Dale"
+      },
+      "ManufacturerProductNumber": "TNPW0603100KBEEN",
+      "UnitPrice": 0.6,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/vishay-dale/TNPW0603100KBEEN/1610202",
+      "DatasheetUrl": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/337/MFG_TNPW0603.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "541-3569-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.35116,
+              "TotalPrice": 351.16
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.32772,
+              "TotalPrice": 983.16
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 541,
+            "Name": "Vishay Dale"
+          },
+          "QuantityAvailableforPackageType": 5000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "541-3569-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.6,
+              "TotalPrice": 0.6
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.501,
+              "TotalPrice": 5.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4392,
+              "TotalPrice": 21.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4156,
+              "TotalPrice": 41.56
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.36832,
+              "TotalPrice": 184.16
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 541,
+            "Name": "Vishay Dale"
+          },
+          "QuantityAvailableforPackageType": 5534,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "541-3569-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.6,
+              "TotalPrice": 0.6
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.501,
+              "TotalPrice": 5.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4392,
+              "TotalPrice": 21.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4156,
+              "TotalPrice": 41.56
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.36832,
+              "TotalPrice": 184.16
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 541,
+            "Name": "Vishay Dale"
+          },
+          "QuantityAvailableforPackageType": 5534,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 5534,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2085,
+          "ParameterText": "Resistance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "100 kOhms",
+          "ValueText": "100 kOhms"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "731",
+          "ValueText": "±0.1%"
+        },
+        {
+          "ParameterId": 2,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "String",
+          "ValueId": "759691",
+          "ValueText": "0.21W"
+        },
+        {
+          "ParameterId": 174,
+          "ParameterText": "Composition",
+          "ParameterType": "String",
+          "ValueId": "411766",
+          "ValueText": "Thin Film"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "314231",
+          "ValueText": "Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "2015",
+          "ValueText": "±25ppm/°C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242941",
+          "ValueText": "-55°C ~ 175°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7641",
+          "ValueText": "0.061\" L x 0.033\" W (1.55mm x 0.85mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5314",
+          "ValueText": "0.022\" (0.55mm)"
+        },
+        {
+          "ParameterId": 1127,
+          "ParameterText": "Number of Terminations",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 469042,
+        "Name": "TNPW0603"
+      },
+      "Category": {
+        "CategoryId": 2,
+        "ParentId": 0,
+        "Name": "Resistors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+        "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+        "ChildCategories": [
+          {
+            "CategoryId": 52,
+            "ParentId": 2,
+            "Name": "Chip Resistor - Surface Mount",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "25",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 59540,
+        "Name": "TNPW e3"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.21.0030"
+      },
+      "OtherNames": [
+        "541-3569-6",
+        "TNPW0603 100K 0.1% T9 E52 E3",
+        "TNPW0603100KBEEN-ND",
+        "541-3569-1",
+        "541-3569-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:11:37Z",
+    "manufacturer_part_number": "TNPW0603100KBEEN",
+    "product_quantity_available": 5534,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "25",
+    "product_unit_price": 0.6,
+    "offers": [
+      {
+        "provider_part_number": "541-3569-1-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5534,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.6,
+            "total_price": 0.6
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.501,
+            "total_price": 5.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4392,
+            "total_price": 21.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4156,
+            "total_price": 41.56
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.36832,
+            "total_price": 184.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "541-3569-6-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5534,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.6,
+            "total_price": 0.6
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.501,
+            "total_price": 5.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4392,
+            "total_price": 21.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4156,
+            "total_price": 41.56
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.36832,
+            "total_price": 184.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "541-3569-2-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 5000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.35116,
+            "total_price": 351.16
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32772,
+            "total_price": 983.16
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "541-3569-1-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5534,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.6,
+            "total_price": 0.6
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.501,
+            "total_price": 5.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4392,
+            "total_price": 21.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4156,
+            "total_price": 41.56
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.36832,
+            "total_price": 184.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "541-3569-6-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5534,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.6,
+            "total_price": 0.6
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.501,
+            "total_price": 5.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4392,
+            "total_price": 21.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4156,
+            "total_price": 41.56
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.36832,
+            "total_price": 184.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "541-3569-2-ND",
+        "supplier": "Vishay Dale",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 5000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.35116,
+            "total_price": 351.16
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32772,
+            "total_price": 983.16
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:11:37Z",
+    "manufacturer": "Vishay Dale",
+    "manufacturer_part_number": "TNPW0603100KBEEN",
+    "provider_part_number": "",
+    "description": "RES 100K OHM 0.1% 0.21W 0603",
+    "detailed_description": "100 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film",
+    "datasheet_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/vishay-dale/TNPW0603100KBEEN/1610202",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/337/MFG_TNPW0603.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "",
+    "attributes": {
+      "Resistance": "100 kOhms",
+      "Tolerance": "±0.1%",
+      "Power (Watts)": "0.21W",
+      "Composition": "Thin Film",
+      "Features": "Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant",
+      "Temperature Coefficient": "±25ppm/°C",
+      "Operating Temperature": "-55°C ~ 175°C",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Ratings": "-",
+      "Size / Dimension": "0.061\" L x 0.033\" W (1.55mm x 0.85mm)",
+      "Height - Seated (Max)": "0.022\" (0.55mm)",
+      "Number of Terminations": "2",
+      "Failure Rate": "-"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:04:19Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MURATA",
+    "input_mpn": "NFM18PC105R0J3D",
+    "resolved_manufacturer": "MURATA",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 12034,
+          "symbol": "NFM18PC105R0J3D",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.0962,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.0769,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.0629,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.0569,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.0433,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0382,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.0299,
+                "special": false
+              },
+              {
+                "amount": 8000,
+                "price": 0.0259,
+                "special": false
+              },
+              {
+                "amount": 12000,
+                "price": 0.0236,
+                "special": false
+              },
+              {
+                "amount": 20000,
+                "price": 0.0206,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

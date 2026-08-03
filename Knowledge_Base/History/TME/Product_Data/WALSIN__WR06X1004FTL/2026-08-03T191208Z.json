@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:12:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "WR06X1004FTL",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 18581,
+          "symbol": "WR06X1004FTL",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.05955,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.00772,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.00526,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.00444,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.00352,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.00292,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0024,
+                "special": false
+              },
+              {
+                "amount": 2500,
+                "price": 0.00181,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.0014,
+                "special": false
+              },
+              {
+                "amount": 25000,
+                "price": 0.00114,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

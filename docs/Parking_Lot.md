@@ -474,3 +474,7 @@ Possible later modes:
 - **PIE Explorer** — use a BOM as the component filter, then add analysis, risk assessment and recommendations without changing the provider evidence captured by PDC.
 
 The GUI must remain a view over the Knowledge Base rather than becoming an independent data store.
+
+## Deferred provider investigation — Mouser technical parameters
+
+The current documented Mouser Search API response does not expose the detailed technical parameter set visible on the product webpage. Revisit when Mouser changes its API, another supported endpoint is identified, or a commercial need justifies further investigation.

@@ -1,0 +1,400 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "649003013322",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "935"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN RCPT HSG 3POS 4.20MM",
+        "DetailedDescription": "3 Position Rectangular Housing Connector Receptacle White 0.165\" (4.20mm)"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "649003013322",
+      "UnitPrice": 0.38,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/649003013322/4322289",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/649003013322.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/509/649003013322.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-4760-ND",
+          "PackageType": {
+            "Id": 62,
+            "Name": "Bag"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.38,
+              "TotalPrice": 0.38
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.374,
+              "TotalPrice": 3.74
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.3456,
+              "TotalPrice": 17.28
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.3024,
+              "TotalPrice": 30.24
+            },
+            {
+              "BreakQuantity": 200,
+              "UnitPrice": 0.28075,
+              "TotalPrice": 56.15
+            },
+            {
+              "BreakQuantity": 400,
+              "UnitPrice": 0.26583,
+              "TotalPrice": 106.332
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 3114,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 200,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 3114,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "392960",
+          "ValueText": "Receptacle"
+        },
+        {
+          "ParameterId": 512,
+          "ParameterText": "Contact Type",
+          "ParameterType": "String",
+          "ValueId": "346565",
+          "ValueText": "Female Socket"
+        },
+        {
+          "ParameterId": 88,
+          "ParameterText": "Number of Positions",
+          "ParameterType": "String",
+          "ValueId": "169295",
+          "ValueText": "3"
+        },
+        {
+          "ParameterId": 89,
+          "ParameterText": "Pitch",
+          "ParameterType": "String",
+          "ValueId": "12562",
+          "ValueText": "0.165\" (4.20mm)"
+        },
+        {
+          "ParameterId": 2172,
+          "ParameterText": "Number of Rows",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 563,
+          "ParameterText": "Row Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "349292",
+          "ValueText": "Free Hanging (In-Line)"
+        },
+        {
+          "ParameterId": 31,
+          "ParameterText": "Contact Termination",
+          "ParameterType": "String",
+          "ValueId": "334919",
+          "ValueText": "Crimp"
+        },
+        {
+          "ParameterId": 518,
+          "ParameterText": "Fastening Type",
+          "ParameterType": "String",
+          "ValueId": "363669",
+          "ValueText": "Latch Lock"
+        },
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "421080",
+          "ValueText": "White"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2023,
+          "ParameterText": "Insulation Material",
+          "ParameterType": "String",
+          "ValueId": "388406",
+          "ValueText": "Polyamide (PA66), Nylon 6/6"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212434",
+          "ValueText": "-40°C ~ 105°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2027,
+            "ParentId": 20,
+            "Name": "Rectangular Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+            "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+            "ChildCategories": [
+              {
+                "CategoryId": 319,
+                "ParentId": 2027,
+                "Name": "Rectangular Connector Housings",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/278/884/43025-0800_tmb%2864x64%29.jpg",
+                "SeoDescription": "Rectangular connector housings are plastic connector shells that do not contain any contacts. These are available in multiple mounting types including board mount, bracket mount, DIN rail, free hanging (in-line), panel mount, screw mount, stacking, surface mount, and through-hole. These are available in many different position and pitch options for male or female contacts.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 20863,
+        "Name": "WR-MPC4"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "Not Applicable",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.8000"
+      },
+      "OtherNames": [
+        "732-4760"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:24Z",
+    "manufacturer_part_number": "649003013322",
+    "product_quantity_available": 3114,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.38,
+    "offers": [
+      {
+        "provider_part_number": "732-4760-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 62,
+        "package_type": "Bag",
+        "packaging_code": "Bag",
+        "pack_format": "Bag",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 3114,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.38,
+            "total_price": 0.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.374,
+            "total_price": 3.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3456,
+            "total_price": 17.28
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3024,
+            "total_price": 30.24
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 0.28075,
+            "total_price": 56.15
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 0.26583,
+            "total_price": 106.332
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "732-4760-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 62,
+        "package_type": "Bag",
+        "packaging_code": "Bag",
+        "pack_format": "Bag",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 3114,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.38,
+            "total_price": 0.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.374,
+            "total_price": 3.74
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.3456,
+            "total_price": 17.28
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.3024,
+            "total_price": 30.24
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 0.28075,
+            "total_price": 56.15
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 0.26583,
+            "total_price": 106.332
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:24Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "649003013322",
+    "provider_part_number": "",
+    "description": "CONN RCPT HSG 3POS 4.20MM",
+    "detailed_description": "3 Position Rectangular Housing Connector Receptacle White 0.165\" (4.20mm)",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/649003013322.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/649003013322/4322289",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/509/649003013322.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Free Hanging (In-Line)",
+    "attributes": {
+      "Connector Type": "Receptacle",
+      "Contact Type": "Female Socket",
+      "Number of Positions": "3",
+      "Pitch": "0.165\" (4.20mm)",
+      "Number of Rows": "1",
+      "Row Spacing": "-",
+      "Mounting Type": "Free Hanging (In-Line)",
+      "Contact Termination": "Crimp",
+      "Fastening Type": "Latch Lock",
+      "Color": "White",
+      "Features": "-",
+      "Insulation Material": "Polyamide (PA66), Nylon 6/6",
+      "Operating Temperature": "-40°C ~ 105°C"
+    },
+    "compliance": {}
+  }
+}

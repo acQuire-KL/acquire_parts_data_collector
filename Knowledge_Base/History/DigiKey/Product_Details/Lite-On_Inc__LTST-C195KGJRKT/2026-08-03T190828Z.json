@@ -1,0 +1,743 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Lite-On Inc.",
+    "input_mpn": "LTST-C195KGJRKT",
+    "resolved_manufacturer": "Lite-On Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "855"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "LED GREEN/RED CLEAR CHIP SMD",
+        "DetailedDescription": "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 0606 (1616 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 160,
+        "Name": "Lite-On Inc."
+      },
+      "ManufacturerProductNumber": "LTST-C195KGJRKT",
+      "UnitPrice": 0.29,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/liteon/LTST-C195KGJRKT/386847",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1134/LTST-C195KGJRKT.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2465/160-LED%200605%20SMD.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "160-1452-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.08995,
+              "TotalPrice": 359.8
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.0846,
+              "TotalPrice": 676.8
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.08186,
+              "TotalPrice": 982.32
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.07876,
+              "TotalPrice": 1575.2
+            },
+            {
+              "BreakQuantity": 28000,
+              "UnitPrice": 0.07691,
+              "TotalPrice": 2153.48
+            },
+            {
+              "BreakQuantity": 40000,
+              "UnitPrice": 0.07511,
+              "TotalPrice": 3004.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 544000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "160-1452-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.29,
+              "TotalPrice": 0.29
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.197,
+              "TotalPrice": 1.97
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1386,
+              "TotalPrice": 13.86
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.11232,
+              "TotalPrice": 56.16
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10364,
+              "TotalPrice": 103.64
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.09625,
+              "TotalPrice": 192.5
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 544793,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "160-1452-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.29,
+              "TotalPrice": 0.29
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.197,
+              "TotalPrice": 1.97
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1386,
+              "TotalPrice": 13.86
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.11232,
+              "TotalPrice": 56.16
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10364,
+              "TotalPrice": 103.64
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.09625,
+              "TotalPrice": 192.5
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 160,
+            "Name": "LITEON"
+          },
+          "QuantityAvailableforPackageType": 544793,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 544793,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "351412",
+          "ValueText": "Green, Red"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "358527",
+          "ValueText": "Independent"
+        },
+        {
+          "ParameterId": 525,
+          "ParameterText": "Lens Color",
+          "ParameterType": "String",
+          "ValueId": "332225",
+          "ValueText": "Colorless"
+        },
+        {
+          "ParameterId": 1843,
+          "ParameterText": "Lens Transparency",
+          "ParameterType": "String",
+          "ValueId": "330893",
+          "ValueText": "Clear"
+        },
+        {
+          "ParameterId": 206,
+          "ParameterText": "Millicandela Rating",
+          "ParameterType": "String",
+          "ValueId": "194592",
+          "ValueText": "35mcd Green, 45mcd Red"
+        },
+        {
+          "ParameterId": 2028,
+          "ParameterText": "Lens Style",
+          "ParameterType": "String",
+          "ValueId": "393133",
+          "ValueText": "Rectangle with Flat Top"
+        },
+        {
+          "ParameterId": 2029,
+          "ParameterText": "Lens Size",
+          "ParameterType": "String",
+          "ValueId": "43578",
+          "ValueText": "1.10mm x 1.50mm"
+        },
+        {
+          "ParameterId": 319,
+          "ParameterText": "Voltage - Forward (Vf) (Typ)",
+          "ParameterType": "String",
+          "ValueId": "169046",
+          "ValueText": "2V Green, 2V Red"
+        },
+        {
+          "ParameterId": 543,
+          "ParameterText": "Current - Test",
+          "ParameterType": "String",
+          "ValueId": "143144",
+          "ValueText": "20mA Green, 20mA Red"
+        },
+        {
+          "ParameterId": 551,
+          "ParameterText": "Viewing Angle",
+          "ParameterType": "String",
+          "ValueId": "89843",
+          "ValueText": "130°"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 969,
+          "ParameterText": "Wavelength - Dominant",
+          "ParameterType": "String",
+          "ValueId": "245667",
+          "ValueText": "571nm Green, 631nm Red"
+        },
+        {
+          "ParameterId": 968,
+          "ParameterText": "Wavelength - Peak",
+          "ParameterType": "String",
+          "ValueId": "245792",
+          "ValueText": "574nm Green, 639nm Red"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39285",
+          "ValueText": "0606 (1616 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "329488",
+          "ValueText": "Chip LED"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "56090",
+          "ValueText": "1.60mm L x 1.50mm W"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "27317",
+          "ValueText": "0.55mm"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 322722,
+        "Name": "LTST-C195"
+      },
+      "Category": {
+        "CategoryId": 7,
+        "ParentId": 0,
+        "Name": "Optoelectronics",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/388/510/MFG_ELI70-CR_tmb%2864x64%29.jpg",
+        "SeoDescription": "Broadly defined, optoelectronic products are devices that convert electricity to light, and accessory or supporting items such as reflectors or mounting hardware designed for use with such products. It is a diverse product category, including LEDs, fiber optic transmitters and receivers, LCD, OLED, and VFD displays, EL wire, incandescent lamps, lasers, light pipes and xenon flash tubes, among many other product types.",
+        "ChildCategories": [
+          {
+            "CategoryId": 105,
+            "ParentId": 7,
+            "Name": "LED Indication - Discrete",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/626/HLMP-3507%2CHLMP-3680%2CHLMP-3962_tmb%2864x64%29.jpg",
+            "SeoDescription": "Light emitting diodes are semiconductor devices that emit light when conducting current. LEDs in this family are single or array configuration for status indication on printed circuit boards. They are differentiated by package/case, wavelength, viewing angle, forward voltage, current rating, millicandela rating, color, and mounting type. Configurations include common anode or cathode and bidirectional.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "14",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "3  (168 Hours)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.41.0000"
+      },
+      "OtherNames": [
+        "160-1452-2",
+        "160-1452-1",
+        "160-1452-6",
+        "Q6889667",
+        "LTSTC195KGJRKT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "manufacturer_part_number": "LTST-C195KGJRKT",
+    "product_quantity_available": 544793,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "14",
+    "product_unit_price": 0.29,
+    "offers": [
+      {
+        "provider_part_number": "160-1452-1-ND",
+        "supplier": "LITEON",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 544793,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.197,
+            "total_price": 1.97
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1386,
+            "total_price": 13.86
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.11232,
+            "total_price": 56.16
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10364,
+            "total_price": 103.64
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09625,
+            "total_price": 192.5
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1452-6-ND",
+        "supplier": "LITEON",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 544793,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.197,
+            "total_price": 1.97
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1386,
+            "total_price": 13.86
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.11232,
+            "total_price": 56.16
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10364,
+            "total_price": 103.64
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09625,
+            "total_price": 192.5
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1452-2-ND",
+        "supplier": "LITEON",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 544000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.08995,
+            "total_price": 359.8
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.0846,
+            "total_price": 676.8
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.08186,
+            "total_price": 982.32
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.07876,
+            "total_price": 1575.2
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.07691,
+            "total_price": 2153.48
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.07511,
+            "total_price": 3004.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "160-1452-1-ND",
+        "supplier": "LITEON",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 544793,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.197,
+            "total_price": 1.97
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1386,
+            "total_price": 13.86
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.11232,
+            "total_price": 56.16
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10364,
+            "total_price": 103.64
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09625,
+            "total_price": 192.5
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1452-6-ND",
+        "supplier": "LITEON",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 544793,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.197,
+            "total_price": 1.97
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1386,
+            "total_price": 13.86
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.11232,
+            "total_price": 56.16
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10364,
+            "total_price": 103.64
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09625,
+            "total_price": 192.5
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "160-1452-2-ND",
+        "supplier": "LITEON",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 544000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.08995,
+            "total_price": 359.8
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.0846,
+            "total_price": 676.8
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.08186,
+            "total_price": 982.32
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.07876,
+            "total_price": 1575.2
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.07691,
+            "total_price": 2153.48
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.07511,
+            "total_price": 3004.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:28Z",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_part_number": "LTST-C195KGJRKT",
+    "provider_part_number": "",
+    "description": "LED GREEN/RED CLEAR CHIP SMD",
+    "detailed_description": "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 0606 (1616 Metric)",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1134/LTST-C195KGJRKT.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/liteon/LTST-C195KGJRKT/386847",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2465/160-LED%200605%20SMD.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0606 (1616 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Color": "Green, Red",
+      "Configuration": "Independent",
+      "Lens Color": "Colorless",
+      "Lens Transparency": "Clear",
+      "Millicandela Rating": "35mcd Green, 45mcd Red",
+      "Lens Style": "Rectangle with Flat Top",
+      "Lens Size": "1.10mm x 1.50mm",
+      "Voltage - Forward (Vf) (Typ)": "2V Green, 2V Red",
+      "Current - Test": "20mA Green, 20mA Red",
+      "Viewing Angle": "130°",
+      "Mounting Type": "Surface Mount",
+      "Wavelength - Dominant": "571nm Green, 631nm Red",
+      "Wavelength - Peak": "574nm Green, 639nm Red",
+      "Features": "-",
+      "Package / Case": "0606 (1616 Metric)",
+      "Supplier Device Package": "Chip LED",
+      "Size / Dimension": "1.60mm L x 1.50mm W",
+      "Height (Max)": "0.55mm"
+    },
+    "compliance": {}
+  }
+}

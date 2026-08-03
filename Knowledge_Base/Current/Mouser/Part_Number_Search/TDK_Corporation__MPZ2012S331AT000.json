@@ -1,0 +1,340 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:49Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK Corporation",
+    "input_mpn": "MPZ2012S331AT000",
+    "resolved_manufacturer": "TDK Corporation",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "182981 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Ferrite Beads 330ohms 2.5A 50mOhms 0805 Ferrite Chip",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tdk/images/mmz2012d121bt000_DFI_SPL.jpg",
+          "Category": "Ferrite Beads",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TDK",
+          "ManufacturerPartNumber": "MPZ2012S331AT000",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "810-MPZ2012S331AT000",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "4000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.066",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.035",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.031",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.023",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TDK/MPZ2012S331AT000?qs=i5fQALbACss9SCpS1lr2Dg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "182981",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 256000,
+              "Date": "2026-09-16T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504901110"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8548000001"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8548000000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8548000000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854800000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85045000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:49Z",
+    "manufacturer_part_number": "MPZ2012S331AT000",
+    "product_quantity_available": 182981,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 0.095,
+    "offers": [
+      {
+        "provider_part_number": "810-MPZ2012S331AT000",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 182981,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.052,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.035,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.031,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.023,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.022,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "810-MPZ2012S331AT000",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 182981,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.095,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.066,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.052,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.035,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.031,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.023,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.022,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:49Z",
+    "manufacturer": "TDK",
+    "manufacturer_part_number": "MPZ2012S331AT000",
+    "provider_part_number": "810-MPZ2012S331AT000",
+    "description": "Ferrite Beads 330ohms 2.5A 50mOhms 0805 Ferrite Chip",
+    "detailed_description": "Ferrite Beads 330ohms 2.5A 50mOhms 0805 Ferrite Chip",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/TDK/MPZ2012S331AT000?qs=i5fQALbACss9SCpS1lr2Dg%3D%3D",
+    "image_url": "https://www.mouser.com/images/tdk/images/mmz2012d121bt000_DFI_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "4000"
+    },
+    "compliance": {
+      "TARIC": "8504901110",
+      "CNHTS": "8548000001",
+      "CAHTS": "8548000000",
+      "USHTS": "8548000000",
+      "JPHTS": "854800000",
+      "BRHTS": "85045000",
+      "ECCN": "EAR99"
+    }
+  }
+}

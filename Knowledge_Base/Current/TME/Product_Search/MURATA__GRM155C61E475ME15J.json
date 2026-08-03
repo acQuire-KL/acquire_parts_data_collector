@@ -1,0 +1,72 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:25Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MURATA",
+    "input_mpn": "GRM155C61E475ME15J",
+    "resolved_manufacturer": "MURATA",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "HARDLY_AVAILABLE",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "GRM155C61E475ME15J",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113537,
+              "name": "MLCC SMD capacitors"
+            },
+            "manufacturer_symbols": [
+              "GRM155C61E475ME15J"
+            ],
+            "manufacturer": {
+              "id": 147,
+              "name": "MURATA"
+            },
+            "description": "Capacitor: ceramic; MLCC; 4.7uF; 25V; X5S; ±20%; SMD; 0402; 330mm",
+            "multiples": 40000,
+            "minimal_amount": 40000,
+            "weight": {
+              "value": 0.03,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/1E/52/E0/00/0/927201_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=70eb0303f356606bb60f1012d3f7785d4a313e16",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/1E/52/E0/00/0/927201_1.jpg?width=100&height=75&q=75&ci_sign=e23831b1eb43b01dc5a8fa65300848d95a74f90b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/1E/52/E0/00/0/927201_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=3455086b3300e13e6a686ddc3ef2653d7d3c193d"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

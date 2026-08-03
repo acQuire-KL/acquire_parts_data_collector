@@ -1,0 +1,591 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:10Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "693072010801",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "911"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN MICRO SD CARD R/A SMD",
+        "DetailedDescription": "8 Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "693072010801",
+      "UnitPrice": 2.98,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/693072010801/3124584",
+      "DatasheetUrl": "https://www.we-online.com/catalog/datasheet/693072010801.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/524/MFG_693072010801.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-3820-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1200,
+              "UnitPrice": 1.83581,
+              "TotalPrice": 2202.972
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 1200,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1200,
+          "StandardPackage": 1200,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-3820-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.98,
+              "TotalPrice": 2.98
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.92,
+              "TotalPrice": 29.2
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 2.5708,
+              "TotalPrice": 128.54
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.4571,
+              "TotalPrice": 245.71
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.1073,
+              "TotalPrice": 1053.65
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 2495,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-3820-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.98,
+              "TotalPrice": 2.98
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.92,
+              "TotalPrice": 29.2
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 2.5708,
+              "TotalPrice": 128.54
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.4571,
+              "TotalPrice": 245.71
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.1073,
+              "TotalPrice": 1053.65
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 2495,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 2495,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 535,
+          "ParameterText": "Card Type",
+          "ParameterType": "String",
+          "ValueId": "400985",
+          "ValueText": "Secure Digital - microSD™"
+        },
+        {
+          "ParameterId": 88,
+          "ParameterText": "Number of Positions",
+          "ParameterType": "String",
+          "ValueId": "281410",
+          "ValueText": "8"
+        },
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "333009",
+          "ValueText": "Connector and Ejector"
+        },
+        {
+          "ParameterId": 1261,
+          "ParameterText": "Insertion, Removal Method",
+          "ParameterType": "String",
+          "ValueId": "354883",
+          "ValueText": "Hinged Lid"
+        },
+        {
+          "ParameterId": 1094,
+          "ParameterText": "Ejector Side",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409420",
+          "ValueText": "Surface Mount, Right Angle"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 759,
+          "ParameterText": "Height Above Board",
+          "ParameterType": "String",
+          "ValueId": "8041",
+          "ValueText": "0.069\" (1.75mm)"
+        },
+        {
+          "ParameterId": 1061,
+          "ParameterText": "Mounting Feature",
+          "ParameterType": "String",
+          "ValueId": "380474",
+          "ValueText": "Normal, Standard - Top"
+        },
+        {
+          "ParameterId": 30,
+          "ParameterText": "Contact Finish",
+          "ParameterType": "String",
+          "ValueId": "350796",
+          "ValueText": "Gold"
+        },
+        {
+          "ParameterId": 834,
+          "ParameterText": "Contact Finish Thickness",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 177465,
+        "Name": "69307"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2021,
+            "ParentId": 20,
+            "Name": "Memory Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/363/141/2199337-5_tmb.jpg",
+            "SeoDescription": "Memory Connectors are an interconnect system created for use with memory products. Included in this category are Inline Module Sockets, PC Card Sockets, PC Card Adapters, and Accessories. When looking for connectors to be used in tandem with SDRAM, DDR, DRAM, RAM, SGRAM, SD, miniSD, etc. Memory Connectors are where they are found.",
+            "ChildCategories": [
+              {
+                "CategoryId": 414,
+                "ParentId": 2021,
+                "Name": "PC Card Sockets",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/020/850/223/DM3AT-SF-PEJM5_tmb.jpg",
+                "SeoDescription": "PC card sockets are connectors designed to receive card type memory such as CFast, SIM, PCMCIA, Compact Flash, CardBus, ExpressCard, and SD, allowing for regular removal and insertion via hinged lid, push-pull and auto eject methods. They are available in surface, board, screw, straddle, snap-in, and edge mount as well as free-hanging and hand gripped versions.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 54684,
+        "Name": "WR-CRD"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "732-3820-6",
+        "732-3820-1",
+        "732-3820-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:10Z",
+    "manufacturer_part_number": "693072010801",
+    "product_quantity_available": 2495,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 2.98,
+    "offers": [
+      {
+        "provider_part_number": "732-3820-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2495,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.98,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.92,
+            "total_price": 29.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.5708,
+            "total_price": 128.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.4571,
+            "total_price": 245.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.1073,
+            "total_price": 1053.65
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-3820-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2495,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.98,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.92,
+            "total_price": 29.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.5708,
+            "total_price": 128.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.4571,
+            "total_price": 245.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.1073,
+            "total_price": 1053.65
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-3820-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1200,
+        "pack_quantity": 1200,
+        "quantity_available": 1200,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1200,
+            "unit_price": 1.83581,
+            "total_price": 2202.972
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-3820-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2495,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.98,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.92,
+            "total_price": 29.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.5708,
+            "total_price": 128.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.4571,
+            "total_price": 245.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.1073,
+            "total_price": 1053.65
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-3820-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2495,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.98,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.92,
+            "total_price": 29.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.5708,
+            "total_price": 128.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.4571,
+            "total_price": 245.71
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.1073,
+            "total_price": 1053.65
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-3820-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1200,
+        "pack_quantity": 1200,
+        "quantity_available": 1200,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1200,
+            "unit_price": 1.83581,
+            "total_price": 2202.972
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:10Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "693072010801",
+    "provider_part_number": "",
+    "description": "CONN MICRO SD CARD R/A SMD",
+    "detailed_description": "8 Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold",
+    "datasheet_url": "https://www.we-online.com/catalog/datasheet/693072010801.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/693072010801/3124584",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/524/MFG_693072010801.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount, Right Angle",
+    "attributes": {
+      "Card Type": "Secure Digital - microSD™",
+      "Number of Positions": "8",
+      "Connector Type": "Connector and Ejector",
+      "Insertion, Removal Method": "Hinged Lid",
+      "Ejector Side": "-",
+      "Mounting Type": "Surface Mount, Right Angle",
+      "Features": "-",
+      "Height Above Board": "0.069\" (1.75mm)",
+      "Mounting Feature": "Normal, Standard - Top",
+      "Contact Finish": "Gold",
+      "Contact Finish Thickness": "-"
+    },
+    "compliance": {}
+  }
+}

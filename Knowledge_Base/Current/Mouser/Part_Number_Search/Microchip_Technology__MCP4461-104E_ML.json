@@ -1,0 +1,307 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:08:59Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP4461-104E/ML",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "273 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Digital Potentiometer ICs 100k I2C Quad Ch 8bt Nonvolatile Memory",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/microchiptechnology/images/qfn-20-bottom.jpg",
+          "Category": "Digital Potentiometer ICs",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "MCP4461-104E/ML",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "579-MCP4461-104E/ML",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "91"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.14",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MCP4461T-104E/ML"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/MCP4461-104E-ML?qs=Ot24P6tC%2FQ4oywl6Wkvhdw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000123
+          },
+          "AvailabilityInStock": "273",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Digital Potentiometer ICs 100k I2C Qd Ch 8bit Nonvolatile memory",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/microchiptechnology/images/qfn20.jpg",
+          "Category": "Digital Potentiometer ICs",
+          "LeadTime": "53 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "MCP4461T-104E/ML",
+          "Min": "3300",
+          "Mult": "3300",
+          "MouserPartNumber": "579-MCP4461T-104E/ML",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3300"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3300,
+              "Price": "€2.14",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MCP4461-104E/ML"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/MCP4461T-104E-ML?qs=Ot24P6tC%2FQ5mAoVzRnSNvg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000123
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532241000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532240010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853224000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536909010"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322410"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:59Z",
+    "manufacturer_part_number": "MCP4461-104E/ML",
+    "product_quantity_available": 273,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "56 Days",
+    "product_unit_price": 2.14,
+    "offers": [
+      {
+        "provider_part_number": "579-MCP4461-104E/ML",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 273,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.14,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "579-MCP4461-104E/ML",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 273,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.14,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:08:59Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP4461-104E/ML",
+    "provider_part_number": "579-MCP4461-104E/ML",
+    "description": "Digital Potentiometer ICs 100k I2C Quad Ch 8bt Nonvolatile Memory",
+    "detailed_description": "Digital Potentiometer ICs 100k I2C Quad Ch 8bt Nonvolatile Memory",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/MCP4461-104E-ML?qs=Ot24P6tC%2FQ4oywl6Wkvhdw%3D%3D",
+    "image_url": "https://www.mouser.com/images/microchiptechnology/images/qfn-20-bottom.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tube",
+      "Standard Pack Qty": "91"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "JPHTS": "8542390990",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

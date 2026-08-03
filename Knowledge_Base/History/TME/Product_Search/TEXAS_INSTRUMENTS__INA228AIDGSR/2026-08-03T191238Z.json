@@ -1,0 +1,70 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:38Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "INA228AIDGSR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "INA228AIDGSR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112843,
+              "name": "SMD operational amplifiers"
+            },
+            "manufacturer_symbols": [
+              "INA228AIDGSR"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: instrumentation amplifier; 2.7÷5.5VDC; VSSOP10; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.056,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=23f79920d32ecc06240591bf9ee3acc4712a239a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=100&height=75&q=75&ci_sign=e6c21693f14e722857418509525144905ac86043",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=e720bc52a77d85e04f7ede8236e9c0ea12749007"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

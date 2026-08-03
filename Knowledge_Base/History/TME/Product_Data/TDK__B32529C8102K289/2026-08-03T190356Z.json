@@ -1,0 +1,84 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:03:56Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TDK",
+    "input_mpn": "B32529C8102K289",
+    "resolved_manufacturer": "TDK",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "B32529C8102K289",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.407,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.247,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.17,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.133,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.121,
+                "special": false
+              },
+              {
+                "amount": 3200,
+                "price": 0.103,
+                "special": false
+              },
+              {
+                "amount": 6400,
+                "price": 0.096,
+                "special": false
+              },
+              {
+                "amount": 9600,
+                "price": 0.094,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

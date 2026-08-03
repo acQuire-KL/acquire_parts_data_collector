@@ -1,0 +1,473 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Comchip",
+    "input_mpn": "CDBU40",
+    "resolved_manufacturer": "Comchip",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "15075 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/819/1/CDBU40-HF-RevA797196.pdf",
+          "Description": "Schottky Diodes & Rectifiers VR=40V, IO=200mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/comchiptechnology/images/0603_SOD523F_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Comchip Technology",
+          "ManufacturerPartNumber": "CDBU40",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "750-CDBU40",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "4000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.284",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.172",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Comchip-Technology/CDBU40?qs=2qJf6qQ4IOKD1%2FBMGiTHdQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-06
+          },
+          "AvailabilityInStock": "15075",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541100901"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "14950 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/819/1/CDBU40-HF-RevA797196.pdf",
+          "Description": "Schottky Diodes & Rectifiers VR=40V, IO=200mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/comchiptechnology/images/0603_SOD523F_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Comchip Technology",
+          "ManufacturerPartNumber": "CDBU40-HF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "750-CDBU40-HF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "4000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.235",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.149",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.094",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.082",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.072",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.054",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Comchip-Technology/CDBU40-HF?qs=2qJf6qQ4IOJyq8K2kYdToA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-06
+          },
+          "AvailabilityInStock": "14950",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541100901"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:35Z",
+    "manufacturer_part_number": "CDBU40",
+    "product_quantity_available": 15075,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 0.284,
+    "offers": [
+      {
+        "provider_part_number": "750-CDBU40",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15075,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.284,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.05,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.044,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.04,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "750-CDBU40",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15075,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.284,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.172,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.05,
+            "total_price": null
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.044,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.04,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:35Z",
+    "manufacturer": "Comchip Technology",
+    "manufacturer_part_number": "CDBU40",
+    "provider_part_number": "750-CDBU40",
+    "description": "Schottky Diodes & Rectifiers VR=40V, IO=200mA",
+    "detailed_description": "Schottky Diodes & Rectifiers VR=40V, IO=200mA",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/819/1/CDBU40-HF-RevA797196.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Comchip-Technology/CDBU40?qs=2qJf6qQ4IOKD1%2FBMGiTHdQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/comchiptechnology/images/0603_SOD523F_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "4000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100070",
+      "JPHTS": "8541100901",
+      "KRHTS": "8541409029",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:05Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "PANASONIC",
+    "input_mpn": "ERJ3EKF6193V",
+    "resolved_manufacturer": "PANASONIC",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "ERJ3EKF6193V",
+            "ean": "",
+            "customer_symbol": "RES-0603-619K-1%-0",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "ERJ3EKF6193V",
+              "ERJ-3EKF6193V"
+            ],
+            "manufacturer": {
+              "id": 131,
+              "name": "PANASONIC"
+            },
+            "description": "Resistor: thick film; 619kΩ; 0603; 100mW; ±1%; ERJ3EKF; 100ppm/°C",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 5000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/81/5E/F0/00/0/1041688_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=dc60d7ed1c011915e0c9d0cee5a803671b77dd97",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/81/5E/F0/00/0/1041688_1.jpg?width=100&height=75&q=75&ci_sign=d7efbe4448c309e4dfff23308a95c3610623950a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/81/5E/F0/00/0/1041688_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=ce044db00a34b2381157e0047e4e81a9ce46a9da"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

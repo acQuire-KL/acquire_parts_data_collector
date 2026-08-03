@@ -1,0 +1,439 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:56Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK InvenSense",
+    "input_mpn": "ICS-40730",
+    "resolved_manufacturer": "TDK InvenSense",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "765"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "MICROPHONE MEMS ANALOG NC -32DB",
+        "DetailedDescription": "25 Hz ~ 20 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.63 V Omnidirectional (-32dB @ 94dB SPL) Solder Pads"
+      },
+      "Manufacturer": {
+        "Id": 1428,
+        "Name": "TDK InvenSense"
+      },
+      "ManufacturerProductNumber": "ICS-40730",
+      "UnitPrice": 0.0,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/tdk-invensense/ICS-40730/8544631",
+      "DatasheetUrl": "https://invensense.tdk.com/wp-content/uploads/2020/07/DS-000139-ICS-40730-v1.1.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/733/MFG_ICS-40730.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "1428-1141-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1428,
+            "Name": "TDK InvenSense"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1428-1141-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1428,
+            "Name": "TDK InvenSense"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "1428-1141-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1428,
+            "Name": "TDK InvenSense"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 0,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 1,
+        "Status": "Obsolete"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": true,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "374870",
+          "ValueText": "MEMS (Silicon)"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "313713",
+          "ValueText": "Analog"
+        },
+        {
+          "ParameterId": 630,
+          "ParameterText": "Direction",
+          "ParameterType": "String",
+          "ValueId": "381840",
+          "ValueText": "Omnidirectional"
+        },
+        {
+          "ParameterId": 2145,
+          "ParameterText": "Frequency Range",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "25 Hz ~ 20 kHz",
+          "ValueText": "25 Hz ~ 20 kHz"
+        },
+        {
+          "ParameterId": 54,
+          "ParameterText": "Sensitivity",
+          "ParameterType": "String",
+          "ValueId": "508622",
+          "ValueText": "-32dB @ 94dB SPL"
+        },
+        {
+          "ParameterId": 231,
+          "ParameterText": "S/N Ratio",
+          "ParameterType": "String",
+          "ValueId": "276822",
+          "ValueText": "74dB"
+        },
+        {
+          "ParameterId": 2080,
+          "ParameterText": "Impedance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "750 Ohms",
+          "ValueText": "750 Ohms"
+        },
+        {
+          "ParameterId": 2142,
+          "ParameterText": "Voltage Range",
+          "ParameterType": "RangeUnitOfMeasure",
+          "ValueId": "1.5 V ~ 3.63 V",
+          "ValueText": "1.5 V ~ 3.63 V"
+        },
+        {
+          "ParameterId": 2095,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "285 µA",
+          "ValueText": "285 µA"
+        },
+        {
+          "ParameterId": 811,
+          "ParameterText": "Port Location",
+          "ParameterType": "String",
+          "ValueId": "322311",
+          "ValueText": "Bottom"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405029",
+          "ValueText": "Solder Pads"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "13310",
+          "ValueText": "0.186\" L x 0.148\" W (4.72mm x 3.76mm)"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "11627",
+          "ValueText": "0.142\" (3.60mm)"
+        },
+        {
+          "ParameterId": 98,
+          "ParameterText": "Shape",
+          "ParameterType": "String",
+          "ValueId": "393544",
+          "ValueText": "Rectangular"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 10,
+        "ParentId": 0,
+        "Name": "Audio Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/569/MFG_ASE02506MS-LW90-DSM-R_tmb.jpg",
+        "SeoDescription": "The Audio Products category encompasses various types of electroacoustic transducers--devices which change sound energy into an electrical signal and vice-versa. They are grouped according to their basic function, such as changing sound into an electrical signal (microphones), an electrical signal into sound (speakers), or an electric power source into some manner of noise (buzzers, sirens). Also included are related accessories for such products, such as gaskets and mounting harware.",
+        "ChildCategories": [
+          {
+            "CategoryId": 158,
+            "ParentId": 10,
+            "Name": "Microphones",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/697/POM-2246P-2-R%2CPOM-2246P-C33-R%2CPOM-2242P-C33-R_tmb%2864x64%29.jpg",
+            "SeoDescription": "Microphones are transducers that convert sound into an electrical signal for storage, transmission and/or rebroadcasting. Ranging from large boom style microphones to small and popular MEMS types, they are differentiated by impedance, voltage rating, sensitivity, frequency range, port location, overall size and mounting type. Analog, I2S, PDM and TDM output interfaces are available.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": "2026-06-15T05:00:00+00:00",
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 63700,
+        "Name": "ICS-40730"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8518.10.8030"
+      },
+      "OtherNames": [
+        "1428-1141-1",
+        "1428-1141-2",
+        "1428-1141-6",
+        "ICS-40730-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:56Z",
+    "manufacturer_part_number": "ICS-40730",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.0,
+    "offers": [
+      {
+        "provider_part_number": "1428-1141-1-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1428-1141-6-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1428-1141-2-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 2000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "1428-1141-1-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1428-1141-6-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "1428-1141-2-ND",
+        "supplier": "TDK InvenSense",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 2000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:56Z",
+    "manufacturer": "TDK InvenSense",
+    "manufacturer_part_number": "ICS-40730",
+    "provider_part_number": "",
+    "description": "MICROPHONE MEMS ANALOG NC -32DB",
+    "detailed_description": "25 Hz ~ 20 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.63 V Omnidirectional (-32dB @ 94dB SPL) Solder Pads",
+    "datasheet_url": "https://invensense.tdk.com/wp-content/uploads/2020/07/DS-000139-ICS-40730-v1.1.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/tdk-invensense/ICS-40730/8544631",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/733/MFG_ICS-40730.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Type": "MEMS (Silicon)",
+      "Output Type": "Analog",
+      "Direction": "Omnidirectional",
+      "Frequency Range": "25 Hz ~ 20 kHz",
+      "Sensitivity": "-32dB @ 94dB SPL",
+      "S/N Ratio": "74dB",
+      "Impedance": "750 Ohms",
+      "Voltage Range": "1.5 V ~ 3.63 V",
+      "Current - Supply": "285 µA",
+      "Port Location": "Bottom",
+      "Ratings": "-",
+      "Termination": "Solder Pads",
+      "Size / Dimension": "0.186\" L x 0.148\" W (4.72mm x 3.76mm)",
+      "Height (Max)": "0.142\" (3.60mm)",
+      "Shape": "Rectangular"
+    },
+    "compliance": {}
+  }
+}

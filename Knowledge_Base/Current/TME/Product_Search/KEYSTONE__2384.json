@@ -1,0 +1,917 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:46Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEYSTONE",
+    "input_mpn": "2384",
+    "resolved_manufacturer": "KEYSTONE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "KEYS2384",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112547,
+              "name": "Plastic Standoffs"
+            },
+            "manufacturer_symbols": [
+              "2384"
+            ],
+            "manufacturer": {
+              "id": 430,
+              "name": "KEYSTONE"
+            },
+            "description": "Spacer sleeve; polyamide; L: 12.7mm; Øout: 9.52mm; Øint: 3.86mm",
+            "multiples": 10,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 4.4,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/26/C4/01/00/1/1068130_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c84086f4c69e495130df2cc623cb229f57447366",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/26/C4/01/00/1/1068130_1.jpg?width=100&height=75&q=75&ci_sign=d6c100c9cf563cd60126618147a6d2e2b42723ab",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/26/C4/01/00/1/1068130_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b58c4244718fe1ea7a0ad65b3d090bc3ef1afcd5"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "PR23848",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112723,
+              "name": "Wrenches and Combination Wrenches"
+            },
+            "manufacturer_symbols": [
+              "23848"
+            ],
+            "manufacturer": {
+              "id": 241,
+              "name": "PROXXON"
+            },
+            "description": "Wrench: flat; double-sided; 17mm,19mm; Chrom-vanadium steel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 174.27,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/C3/A7/E0/00/0/948796_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=914202cb722ea6e9297db30c045adde357a7b6af",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/C3/A7/E0/00/0/948796_1.jpg?width=100&height=75&q=75&ci_sign=14fa2131bda996692aad32b8e3e493c972c5820e",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/C3/A7/E0/00/0/948796_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d5e84af686ac2a8b5567c2261745a2294bc4e9e3"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "PR23842",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112723,
+              "name": "Wrenches and Combination Wrenches"
+            },
+            "manufacturer_symbols": [
+              "23842"
+            ],
+            "manufacturer": {
+              "id": 241,
+              "name": "PROXXON"
+            },
+            "description": "Wrench: flat; double-sided; 16mm,17mm; Chrom-vanadium steel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 142.39,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/A3/A7/E0/00/0/948794_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=854f2bf18e13765d30cd20265f6502dbc12a661f",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/A3/A7/E0/00/0/948794_1.jpg?width=100&height=75&q=75&ci_sign=221ebc6f262d376ebb32572ee045b34efdf0c368",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/A3/A7/E0/00/0/948794_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9584028a420bcb4c0d49a027e7444c5eda7e8f2c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "PR23840",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112723,
+              "name": "Wrenches and Combination Wrenches"
+            },
+            "manufacturer_symbols": [
+              "23840"
+            ],
+            "manufacturer": {
+              "id": 241,
+              "name": "PROXXON"
+            },
+            "description": "Wrench: flat; double-sided; 14mm,15mm; Chrom-vanadium steel",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 103.37,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/A7/E0/00/0/948793_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f27e09d6bcc665ee41fa2a4d628ec28c7505cc18",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/A7/E0/00/0/948793_1.jpg?width=100&height=75&q=75&ci_sign=b5885b521c3427fb712d982ddb452ef7b0fc11b0",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/A7/E0/00/0/948793_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d58ef6b21a921c652fe917db183671b002356cb9"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "28002384",
+            "ean": "9006210672502",
+            "customer_symbol": "",
+            "category": {
+              "id": 113668,
+              "name": "Building Automation"
+            },
+            "manufacturer_symbols": [
+              "MSENSOR G3 SFI 30 PIR 5DPI WH"
+            ],
+            "manufacturer": {
+              "id": 1663,
+              "name": "TRIDONIC"
+            },
+            "description": "Sensor: movement; 9.5÷22.5VDC; IP20; -20÷50°C; Kind of sensor: PIR",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 12.57,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/9B/41/00/0/1358259_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=2b5c90bdfdd7d2f94cdaa638a6c06d08231905c4",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/9B/41/00/0/1358259_1.jpg?width=100&height=75&q=75&ci_sign=d155709e7b908baae5867dfbdbe17b7e997e201b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/3B/9B/41/00/0/1358259_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8ed5872f2c7e831af6c1150edba1714c4d8e931b"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "ZSI-52384",
+            "ean": "5901878523842",
+            "customer_symbol": "",
+            "category": {
+              "id": 113628,
+              "name": "Plug-in Power Supplies"
+            },
+            "manufacturer_symbols": [
+              "52384"
+            ],
+            "manufacturer": {
+              "id": 1281,
+              "name": "QOLTEC"
+            },
+            "description": "Power supply: switching; mains power supply,mains,plug-in; 5VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 199.7,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/92/50/11/00/0/1115433_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=99d87a4299077b813289034d9011aec1cd13dfde",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/92/50/11/00/0/1115433_1.jpg?width=100&height=75&q=75&ci_sign=c50f730152589963ac935df5a7388bba7b2addff",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/92/50/11/00/0/1115433_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=005f067c11e261c624d6a234d78fe7eeb405e6e0"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "WIHA.42384",
+            "ean": "4010995423841",
+            "customer_symbol": "",
+            "category": {
+              "id": 112721,
+              "name": "Precision Screwdrivers"
+            },
+            "manufacturer_symbols": [
+              "42384"
+            ],
+            "manufacturer": {
+              "id": 248,
+              "name": "WIHA"
+            },
+            "description": "Screwdriver: precision; slot; SL 1.5; Blade length: 40mm",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 12.28,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9E/E3/A0/00/0/671465_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=78e4db6bef558328f45c450878d247b362265d0f",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9E/E3/A0/00/0/671465_1.jpg?width=100&height=75&q=75&ci_sign=0ea73f1bb5636f0529e1c5548ae8ebcf8aae7e87",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/9E/E3/A0/00/0/671465_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=2a09f749b376ce6c8e2d903f7703dd389e3de0f3"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384013",
+            "ean": "4711112384013",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELL-FL44050C5A011"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "Lamp: LED flood light; 50W; 230VAC; neutral white; 120°; 4000K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 745.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/C0/D5/11/00/0/1137932_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=fc1fa7a43ea061edb0df76a8e206b11e16808936",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/C0/D5/11/00/0/1137932_1.jpg?width=100&height=75&q=75&ci_sign=3d1d7e940daa1b02e8fe1e649cac728dc3fac38d",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/C0/D5/11/00/0/1137932_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=3e722e4bbbc105a0d60595214d50cc0e7a4ba6f7"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384006",
+            "ean": "4711112384006",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELL-FL44030C5A011"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "Lamp: LED flood light; 30W; 230VAC; neutral white; 120°; 4000K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 453.3,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/DA/F0/00/0/1027477_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d1563a74c2c100ae3a01d1a6bb4a5bf805b107a1",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/DA/F0/00/0/1027477_1.jpg?width=100&height=75&q=75&ci_sign=6171dd296c9fe35a0a0a9189ad853a03bc2daf7c",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/59/DA/F0/00/0/1027477_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=78e67dd49f2c3364eae4d498456578fe77a523a0"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384235",
+            "ean": "4711112384235",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FBW48P527AE11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E27; white warm; 230VAC; 1055lm; 8.5W; 270°; 2700K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 54.68,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/DA/F0/00/0/1027481_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=64a514142a40051df533dfca6220d8cf427c5602",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/DA/F0/00/0/1027481_1.jpg?width=100&height=75&q=75&ci_sign=5c802fb606694db352711649ae4da9038a3b0c62",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/99/DA/F0/00/0/1027481_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=baa2c3653416b852f174e351c8c6ae56d128583e"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384280",
+            "ean": "4711112384280",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FCW44P514AF11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E14; white warm; 230VAC; 470lm; 4.5W; 270°; 2700K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 31.83,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/DC/08/01/00/0/1081549_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f04bd30cffb60a4da7378bbc122e0f27925e66da",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/DC/08/01/00/0/1081549_1.jpg?width=100&height=75&q=75&ci_sign=cd46b22552390c0c83b87bbb45149ec7cbea5c5e",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/DC/08/01/00/0/1081549_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d4ac81bcde3ee0444812f1fe23b50758696d56b4"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384334",
+            "ean": "4711112384334",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FGW42P527AF11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E27; white warm; 230VAC; 250lm; 2.5W; 270°; 2700K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 33.83,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D8/E5/11/00/0/1138317_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=217ba95b454c2746bd95498ff847c7463ae1d389",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D8/E5/11/00/0/1138317_1.jpg?width=100&height=75&q=75&ci_sign=8b20e644b83c86ac49617f80acfd91c0cc397d4a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D8/E5/11/00/0/1138317_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=164f02cb272d126d14dc2de86bb494ef472fa20a"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "RITTAL-2384010",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100240,
+              "name": "Remote Control Enclosures"
+            },
+            "manufacturer_symbols": [
+              "2384010"
+            ],
+            "manufacturer": {
+              "id": 1399,
+              "name": "RITTAL"
+            },
+            "description": "Enclosure: for remote controller; 22mm; IP66; X: 100mm; Y: 100mm",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 747.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/A1/51/A0/00/0/660762_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=28502c0d79d2c7ad97305dec156543edf62e8398",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/A1/51/A0/00/0/660762_1.jpg?width=100&height=75&q=75&ci_sign=d48768579c78a63a13443e340ffeb295e5159f85",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/A1/51/A0/00/0/660762_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=abb8f79cc891c36b5fbb9d5fe6873f194341e4c0"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "4711112384624",
+            "ean": "4711112384624",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-CDC44P714AE21"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E14; white cold; 230VAC; 470lm; 4.7W; 180°; 6500K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 26.55,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/DA/F0/00/0/1027496_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=f6c0ffbdd7a44018a37c93fc2dd65f07306a0f36",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/DA/F0/00/0/1027496_1.jpg?width=100&height=75&q=75&ci_sign=22fc7aca988146f188aa7452f56e5fea1314e085",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/8A/DA/F0/00/0/1027496_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b004f05be7fd873306a6b5ce553fdf76b1e9a49b"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384242",
+            "ean": "4711112384242",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FBW410E27AD11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E27; white warm; 230VAC; 1521lm; 10.5W; 270°; 2700K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 55.3,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/CC/08/01/00/0/1081548_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=c0617b51aa9cb6e300149d6b8ef270055211a944",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/CC/08/01/00/0/1081548_1.jpg?width=100&height=75&q=75&ci_sign=506ae690021a0911d73451a0aca3f4fa8d5eba53",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/CC/08/01/00/0/1081548_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0e6b169c99a47f504c66c7bf2b88dbc380e09199"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "POLOLU-2384",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113709,
+              "name": "DC Motors"
+            },
+            "manufacturer_symbols": [
+              "250:1 MICRO METAL GEARMOTOR MP DUAL"
+            ],
+            "manufacturer": {
+              "id": 959,
+              "name": "POLOLU"
+            },
+            "description": "Motor: DC; with gearbox; Medium Power; 6VDC; 670mA; Shaft: D spring",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 10.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/32/6E/60/00/0/452131_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=13eb54dc1dae37eae2bb0e1faf144daac8708712",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/32/6E/60/00/0/452131_1.jpg?width=100&height=75&q=75&ci_sign=00c8c4c83a6d4c5873226b5f292f7e833946c2e8",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/32/6E/60/00/0/452131_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=3fe1fce40a224505c00ef1d6f48a9af9ebbd6bd6"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384327",
+            "ean": "4711112384327",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FCW44P5L4AF11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E14; white warm; 230VAC; 470lm; 4.5W; 270°; 2700K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 30.16,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/A9/DA/F0/00/0/1027482_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9768eebe9ba0c072f114c3e21c9ff1226b50cd53",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/A9/DA/F0/00/0/1027482_1.jpg?width=100&height=75&q=75&ci_sign=ba86d28af9f9bd0f386ffe737d5a9012e318bc0d",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/A9/DA/F0/00/0/1027482_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=657e21716187f3d25c528a6d94bc1332c326f963"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "4711112384808",
+            "ean": "4711112384808",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-GFC44P714AE21"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E14; white cold; 230VAC; 470lm; 4.7W; 180°; 6500K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 26.54,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/DA/DA/F0/00/0/1027501_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=88d3a18dd27554cea04baf60636d4c39cc910dcd",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/DA/DA/F0/00/0/1027501_1.jpg?width=100&height=75&q=75&ci_sign=f36002dd0763844b1103cadd4e3156f66445aae8",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/DA/DA/F0/00/0/1027501_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=25162755b15cc628c2a280c506177cc4cdf4db93"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "4711112384440",
+            "ean": "4711112384440",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-BLC48P5B0AE21"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E27; white cold; 230VAC; 806lm; 8.5W; 180°; 6500K",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 46.4,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/0A/DA/F0/00/0/1027488_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1fb0343106fae63813e0189a84ac2d03e0584b59",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/0A/DA/F0/00/0/1027488_1.jpg?width=100&height=75&q=75&ci_sign=597f1cd64dabf6f3189025b32157cc4668650230",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/0A/DA/F0/00/0/1027488_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=a2c7412d4c6d6d19903333b431ad849659dc6975"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "4711112384228",
+            "ean": "4711112384228",
+            "customer_symbol": "",
+            "category": {
+              "id": 113569,
+              "name": "Light sources - lighting"
+            },
+            "manufacturer_symbols": [
+              "DELS-FBW400727AE11"
+            ],
+            "manufacturer": {
+              "id": 1890,
+              "name": "TOSHIBA LED LIGHTING"
+            },
+            "description": "LED lamp; E27; white warm; 230VAC; 806lm; 7W; 270°; 2700K; CRImin: 80",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 53.4,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "BG1",
+                  "translation": null,
+                  "amount": 10
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/89/DA/F0/00/0/1027480_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=96af58160582e053a1ce66a54d827df7c29b3dd9",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/89/DA/F0/00/0/1027480_1.jpg?width=100&height=75&q=75&ci_sign=83c9829d258f7300517997182c07d0c7aab21ef9",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/89/DA/F0/00/0/1027480_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d33eae9f60f3b2a1afb615dfe64ceebae0acddb8"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

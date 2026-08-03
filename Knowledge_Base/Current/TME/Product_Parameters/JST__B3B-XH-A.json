@@ -1,0 +1,160 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:23Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "JST",
+    "input_mpn": "B3B-XH-A",
+    "resolved_manufacturer": "JST",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "B3B-XH-A",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 475,
+                    "value": "JST"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1443400,
+                    "value": "wire-board"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1436410,
+                    "value": "socket"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Kind of connector",
+                "values": [
+                  {
+                    "id": 1436301,
+                    "value": "male"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443409,
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2052303,
+                    "value": "XH"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1440219,
+                    "value": "3A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1945287,
+                    "value": "0.25kV"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1436304,
+                    "value": "straight"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1436424,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 1322,
+                "name": "Mechanical mounting",
+                "values": [
+                  {
+                    "id": 1436472,
+                    "value": "on PCBs"
+                  }
+                ]
+              },
+              {
+                "id": 426,
+                "name": "Contacts pitch",
+                "values": [
+                  {
+                    "id": 1444507,
+                    "value": "2.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819341,
+                    "value": "-25...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:09:25Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "TLV62569DBVR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 432,
+          "symbol": "TLV62569DBVR",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.215,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 0.175,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.156,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.134,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.111,
+                "special": false
+              },
+              {
+                "amount": 200,
+                "price": 0.104,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.102,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.096,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.092,
+                "special": false
+              },
+              {
+                "amount": 3000,
+                "price": 0.088,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

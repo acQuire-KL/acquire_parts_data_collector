@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:27Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "STMicroelectronics",
+    "input_mpn": "MP34DT05-A",
+    "resolved_manufacturer": "STMicroelectronics",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "STEVAL-MIC001V1",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 35,
+                    "value": "STMicroelectronics"
+                  }
+                ]
+              },
+              {
+                "id": 2479,
+                "name": "Type of development kit",
+                "values": [
+                  {
+                    "id": 1527689,
+                    "value": "evaluation"
+                  }
+                ]
+              },
+              {
+                "id": 2955,
+                "name": "Components",
+                "values": [
+                  {
+                    "id": 1781220,
+                    "value": "MP34DT05-A"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1627041,
+                    "value": "PDM"
+                  }
+                ]
+              },
+              {
+                "id": 1391,
+                "name": "Connection",
+                "values": [
+                  {
+                    "id": 2139211,
+                    "value": "pin strips"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1781107,
+                    "value": "1.6...3.6V DC"
+                  }
+                ]
+              },
+              {
+                "id": 351,
+                "name": "Kit contents",
+                "values": [
+                  {
+                    "id": 1530178,
+                    "value": "prototype board"
+                  }
+                ]
+              },
+              {
+                "id": 1605,
+                "name": "Related items",
+                "values": [
+                  {
+                    "id": 1781108,
+                    "value": "X-NUCLEO-CCA02M1"
+                  }
+                ]
+              },
+              {
+                "id": 1774,
+                "name": "Additional functions",
+                "values": [
+                  {
+                    "id": 1712033,
+                    "value": "MEMS microphone"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

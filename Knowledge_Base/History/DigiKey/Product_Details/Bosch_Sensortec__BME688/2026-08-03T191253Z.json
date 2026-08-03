@@ -1,0 +1,577 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:53Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BME688",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "766"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "SENSOR GAS/HUM/PRES/TEMP I2C SPI",
+        "DetailedDescription": "Gas, Humidity, Pressure, Temperature Sensor I2C, SPI Output"
+      },
+      "Manufacturer": {
+        "Id": 828,
+        "Name": "Bosch Sensortec"
+      },
+      "ManufacturerProductNumber": "BME688",
+      "UnitPrice": 7.86,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bosch-sensortec/BME688/13681261",
+      "DatasheetUrl": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4544/MFG_BME688.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "828-BME688TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 5.24092,
+              "TotalPrice": 15722.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 9000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-BME688CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 7.86,
+              "TotalPrice": 7.86
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 7.108,
+              "TotalPrice": 35.54
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 6.826,
+              "TotalPrice": 68.26
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 6.4892,
+              "TotalPrice": 162.23
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 6.2592,
+              "TotalPrice": 312.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 6.0483,
+              "TotalPrice": 604.83
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 5.69916,
+              "TotalPrice": 2849.58
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 9309,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-BME688DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 7.86,
+              "TotalPrice": 7.86
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 7.108,
+              "TotalPrice": 35.54
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 6.826,
+              "TotalPrice": 68.26
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 6.4892,
+              "TotalPrice": 162.23
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 6.2592,
+              "TotalPrice": 312.96
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 6.0483,
+              "TotalPrice": 604.83
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 5.69916,
+              "TotalPrice": 2849.58
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 9309,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 9309,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6359705826112",
+      "Parameters": [
+        {
+          "ParameterId": 345,
+          "ParameterText": "Sensor Type",
+          "ParameterType": "String",
+          "ValueId": "350278",
+          "ValueText": "Gas, Humidity, Pressure, Temperature"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "752314",
+          "ValueText": "I2C, SPI"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 561,
+            "ParentId": 25,
+            "Name": "Specialized Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+            "SeoDescription": "Specialized Sensors are devices designed for specific requirements or for niche applications. The sensor types are accelerometer, gyroscope, magnetometer, pressure, temperature, humidity, light, air quality monitor, analog-to-frequency converter, anemometer, battery sensor, biometric, bubble detector, button press, camshaft, capacitive, contact sensor, depth gauge, dry contact sensor, fingerprint, force sensing, gas, geiger tube, infrared, joystick, and laser power, among others.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "12",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "828-BME688CT",
+        "828-BME688TR",
+        "0273.017.016-1NV",
+        "828-BME688DKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:53Z",
+    "manufacturer_part_number": "BME688",
+    "product_quantity_available": 9309,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "12",
+    "product_unit_price": 7.86,
+    "offers": [
+      {
+        "provider_part_number": "828-BME688CT-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9309,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.86,
+            "total_price": 7.86
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 7.108,
+            "total_price": 35.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.826,
+            "total_price": 68.26
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.4892,
+            "total_price": 162.23
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 6.2592,
+            "total_price": 312.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.0483,
+            "total_price": 604.83
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.69916,
+            "total_price": 2849.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-BME688DKR-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9309,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.86,
+            "total_price": 7.86
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 7.108,
+            "total_price": 35.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.826,
+            "total_price": 68.26
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.4892,
+            "total_price": 162.23
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 6.2592,
+            "total_price": 312.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.0483,
+            "total_price": 604.83
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.69916,
+            "total_price": 2849.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-BME688TR-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 5.24092,
+            "total_price": 15722.76
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "828-BME688CT-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9309,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.86,
+            "total_price": 7.86
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 7.108,
+            "total_price": 35.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.826,
+            "total_price": 68.26
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.4892,
+            "total_price": 162.23
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 6.2592,
+            "total_price": 312.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.0483,
+            "total_price": 604.83
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.69916,
+            "total_price": 2849.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-BME688DKR-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9309,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.86,
+            "total_price": 7.86
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 7.108,
+            "total_price": 35.54
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.826,
+            "total_price": 68.26
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.4892,
+            "total_price": 162.23
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 6.2592,
+            "total_price": 312.96
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.0483,
+            "total_price": 604.83
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.69916,
+            "total_price": 2849.58
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-BME688TR-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 5.24092,
+            "total_price": 15722.76
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:53Z",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_part_number": "BME688",
+    "provider_part_number": "",
+    "description": "SENSOR GAS/HUM/PRES/TEMP I2C SPI",
+    "detailed_description": "Gas, Humidity, Pressure, Temperature Sensor I2C, SPI Output",
+    "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bosch-sensortec/BME688/13681261",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4544/MFG_BME688.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Sensor Type": "Gas, Humidity, Pressure, Temperature",
+      "Output Type": "I2C, SPI",
+      "Operating Temperature": "-40°C ~ 85°C"
+    },
+    "compliance": {}
+  }
+}

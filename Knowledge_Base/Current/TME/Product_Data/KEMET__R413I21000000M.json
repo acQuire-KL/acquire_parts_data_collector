@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:04:06Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "R413I21000000M",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 523,
+          "symbol": "MKPY2-10NR15",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.602,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.294,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.212,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.186,
+                "special": false
+              },
+              {
+                "amount": 200,
+                "price": 0.167,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.146,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.135,
+                "special": false
+              },
+              {
+                "amount": 2000,
+                "price": 0.127,
+                "special": false
+              },
+              {
+                "amount": 4000,
+                "price": 0.122,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

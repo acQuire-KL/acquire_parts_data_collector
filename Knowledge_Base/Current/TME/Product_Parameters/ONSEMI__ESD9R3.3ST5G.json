@@ -1,0 +1,154 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ONSEMI",
+    "input_mpn": "ESD9R3.3ST5G",
+    "resolved_manufacturer": "ONSEMI",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ESD9R3.3ST5G",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 41,
+                    "value": "ONSEMI"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1440400,
+                    "value": "TVS"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 1636031,
+                    "value": "ESD"
+                  }
+                ]
+              },
+              {
+                "id": 3409,
+                "name": "Peak pulse power dissipation",
+                "values": [
+                  {
+                    "id": 1930591,
+                    "value": "0.15W"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1586828,
+                    "value": "3.3V"
+                  }
+                ]
+              },
+              {
+                "id": 243,
+                "name": "Breakdown voltage",
+                "values": [
+                  {
+                    "id": 1698193,
+                    "value": "4.8V"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1440649,
+                    "value": "1A"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1440398,
+                    "value": "unidirectional"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1623451,
+                    "value": "SOD923"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1623452,
+                    "value": "1nA"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

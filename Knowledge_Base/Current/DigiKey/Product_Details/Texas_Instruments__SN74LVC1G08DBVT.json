@@ -1,0 +1,667 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:49Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "SN74LVC1G08DBVT",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "871"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC GATE AND 1CH 2-INP SOT23-5",
+        "DetailedDescription": "AND Gate IC 1 Channel SOT-23-5"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "SN74LVC1G08DBVT",
+      "UnitPrice": 0.79,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/SN74LVC1G08DBVT/1591976",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4073253-4%7EDBV%7E5.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-26592-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.41628,
+              "TotalPrice": 104.07
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.3987,
+              "TotalPrice": 199.35
+            },
+            {
+              "BreakQuantity": 750,
+              "UnitPrice": 0.38987,
+              "TotalPrice": 292.4025
+            },
+            {
+              "BreakQuantity": 1250,
+              "UnitPrice": 0.3801,
+              "TotalPrice": 475.125
+            },
+            {
+              "BreakQuantity": 1750,
+              "UnitPrice": 0.37439,
+              "TotalPrice": 655.1825
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.3689,
+              "TotalPrice": 922.25
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9250,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 250,
+          "StandardPackage": 250,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-26592-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.562,
+              "TotalPrice": 5.62
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5068,
+              "TotalPrice": 12.67
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4455,
+              "TotalPrice": 44.55
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9496,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-26592-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.562,
+              "TotalPrice": 5.62
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5068,
+              "TotalPrice": 12.67
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4455,
+              "TotalPrice": 44.55
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9496,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 9496,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 247,
+          "ParameterText": "Logic Type",
+          "ParameterType": "String",
+          "ValueId": "313906",
+          "ValueText": "AND Gate"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 667,
+          "ParameterText": "Number of Inputs",
+          "ParameterType": "String",
+          "ValueId": "121326",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "56916",
+          "ValueText": "1.65V ~ 5.5V"
+        },
+        {
+          "ParameterId": 2116,
+          "ParameterText": "Current - Quiescent (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 µA",
+          "ValueText": "10 µA"
+        },
+        {
+          "ParameterId": 592,
+          "ParameterText": "Current - Output High, Low",
+          "ParameterType": "String",
+          "ValueId": "188508",
+          "ValueText": "32mA, 32mA"
+        },
+        {
+          "ParameterId": 1543,
+          "ParameterText": "Input Logic Level - Low",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1542,
+          "ParameterText": "Input Logic Level - High",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1552,
+          "ParameterText": "Max Propagation Delay @ V, Max CL",
+          "ParameterType": "String",
+          "ValueId": "228120",
+          "ValueText": "4ns @ 5V, 50pF"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212479",
+          "ValueText": "-40°C ~ 125°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405420",
+          "ValueText": "SOT-23-5"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "400230",
+          "ValueText": "SC-74A, SOT-753"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 14239,
+        "Name": "74LVC1G08"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2019,
+            "ParentId": 32,
+            "Name": "Logic",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/312/8-TSSOP%2C-8-MSOP-3x3mm_tmb.jpg",
+            "SeoDescription": "Logic components operate using two voltage levels. These two levels are referred to as High or Low, On or Off, True or False, or simply 1 or 0. There are many components included in this category, such as Buffers, Drivers, Receivers, Transceivers, Comparators, Counters, Dividers, FIFOs Memory, Flip Flops, Gates, Inverters, Latches, Multivibrators, Parity Generators, Shift Registers, Signal Switches, Multiplexers, Decoders, Translators, Level Shifters, Universal Bus FUnctions, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 705,
+                "ParentId": 2019,
+                "Name": "Gates and Inverters",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/958/564/296_14-DIP_tmb.jpg",
+                "SeoDescription": "Products in the logic gate and inverter family perform elementary logical operations on individual logic signals such as AND, NOT, OR, etc. Unlike flip-flops they do not have a capacity to store information and respond immediately to the signals presented to their inputs. Though long supplanted by implementations in integrated circuit form for realizing complex functions, discrete gates remain available for use in circumstances where only very simple logical functions are needed.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "9",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 75,
+        "Name": "74LVC"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "-296-26592-1",
+        "-SN74LVC1G08DBVTE4-NDR",
+        "-SN74LVC1G08DBVTE4",
+        "-296-26592-1-ND",
+        "296-26592-6",
+        "296-26592-1",
+        "296-26592-2",
+        "2156-SN74LVC1G08DBVT",
+        "TEXTISSN74LVC1G08DBVT",
+        "SN74LVC1G08DBVT-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:49Z",
+    "manufacturer_part_number": "SN74LVC1G08DBVT",
+    "product_quantity_available": 9496,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "9",
+    "product_unit_price": 0.79,
+    "offers": [
+      {
+        "provider_part_number": "296-26592-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9496,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.562,
+            "total_price": 5.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5068,
+            "total_price": 12.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4455,
+            "total_price": 44.55
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-26592-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9496,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.562,
+            "total_price": 5.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5068,
+            "total_price": 12.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4455,
+            "total_price": 44.55
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-26592-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 9250,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41628,
+            "total_price": 104.07
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3987,
+            "total_price": 199.35
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 0.38987,
+            "total_price": 292.4025
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 0.3801,
+            "total_price": 475.125
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.37439,
+            "total_price": 655.1825
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.3689,
+            "total_price": 922.25
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-26592-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9496,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.562,
+            "total_price": 5.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5068,
+            "total_price": 12.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4455,
+            "total_price": 44.55
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-26592-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 9496,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.562,
+            "total_price": 5.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5068,
+            "total_price": 12.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4455,
+            "total_price": 44.55
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-26592-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 9250,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41628,
+            "total_price": 104.07
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3987,
+            "total_price": 199.35
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 0.38987,
+            "total_price": 292.4025
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 0.3801,
+            "total_price": 475.125
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.37439,
+            "total_price": 655.1825
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.3689,
+            "total_price": 922.25
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:49Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "SN74LVC1G08DBVT",
+    "provider_part_number": "",
+    "description": "IC GATE AND 1CH 2-INP SOT23-5",
+    "detailed_description": "AND Gate IC 1 Channel SOT-23-5",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/SN74LVC1G08DBVT/1591976",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4073253-4%7EDBV%7E5.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SC-74A, SOT-753",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Logic Type": "AND Gate",
+      "Number of Circuits": "1",
+      "Number of Inputs": "2",
+      "Features": "-",
+      "Voltage - Supply": "1.65V ~ 5.5V",
+      "Current - Quiescent (Max)": "10 µA",
+      "Current - Output High, Low": "32mA, 32mA",
+      "Input Logic Level - Low": "-",
+      "Input Logic Level - High": "-",
+      "Max Propagation Delay @ V, Max CL": "4ns @ 5V, 50pF",
+      "Operating Temperature": "-40°C ~ 125°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Supplier Device Package": "SOT-23-5",
+      "Package / Case": "SC-74A, SOT-753"
+    },
+    "compliance": {}
+  }
+}

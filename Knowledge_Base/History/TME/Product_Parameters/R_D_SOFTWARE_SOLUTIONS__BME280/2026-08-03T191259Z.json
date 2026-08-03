@@ -1,0 +1,132 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:59Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "R&D SOFTWARE SOLUTIONS",
+    "input_mpn": "BME280",
+    "resolved_manufacturer": "R&D SOFTWARE SOLUTIONS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "SS-BME280-I2C",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1144,
+                    "value": "R&D SOFTWARE SOLUTIONS"
+                  }
+                ]
+              },
+              {
+                "id": 1744,
+                "name": "Type of accessories for development kits",
+                "values": [
+                  {
+                    "id": 1489868,
+                    "value": "expansion board"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1473984,
+                    "value": "3.3V DC"
+                  },
+                  {
+                    "id": 1438560,
+                    "value": "5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 2955,
+                "name": "Components",
+                "values": [
+                  {
+                    "id": 1634050,
+                    "value": "BME280"
+                  }
+                ]
+              },
+              {
+                "id": 351,
+                "name": "Kit contents",
+                "values": [
+                  {
+                    "id": 1530178,
+                    "value": "prototype board"
+                  }
+                ]
+              },
+              {
+                "id": 1594,
+                "name": "Dimensions",
+                "values": [
+                  {
+                    "id": 1774797,
+                    "value": "13x27mm"
+                  }
+                ]
+              },
+              {
+                "id": 2558,
+                "name": "Kind of module",
+                "values": [
+                  {
+                    "id": 1717184,
+                    "value": "humidity sensor"
+                  },
+                  {
+                    "id": 1633746,
+                    "value": "pressure sensor"
+                  },
+                  {
+                    "id": 1634051,
+                    "value": "temperature sensor"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819329,
+                    "value": "-40...80°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

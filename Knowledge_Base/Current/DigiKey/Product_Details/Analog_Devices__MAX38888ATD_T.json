@@ -1,0 +1,579 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:56Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "MAX38888ATD+T",
+    "resolved_manufacturer": "Analog Devices",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "869"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC BATT MFUNC SUPERCAP 14TDFN",
+        "DetailedDescription": "Battery Multi-Function Controller IC Supercapacitor 14-TDFN (3x3)"
+      },
+      "Manufacturer": {
+        "Id": 175,
+        "Name": "Analog Devices Inc./Maxim Integrated"
+      },
+      "ManufacturerProductNumber": "MAX38888ATD+T",
+      "UnitPrice": 9.17,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/analog-devices-inc-maxim-integrated/MAX38888ATD-T/9833538",
+      "DatasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX38888.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6165/175%7E21-0137%7ETD%7E14.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "175-MAX38888ATD+TTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 5.41378,
+              "TotalPrice": 13534.45
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 175,
+            "Name": "Analog Devices Inc./Maxim Integrated"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2500,
+          "StandardPackage": 2500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "175-MAX38888ATD+TCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 9.17,
+              "TotalPrice": 9.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 7.16,
+              "TotalPrice": 71.6
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 6.6572,
+              "TotalPrice": 166.43
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 6.1047,
+              "TotalPrice": 610.47
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 6.02024,
+              "TotalPrice": 1505.06
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 175,
+            "Name": "Analog Devices Inc./Maxim Integrated"
+          },
+          "QuantityAvailableforPackageType": 1933,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "175-MAX38888ATD+TDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 9.17,
+              "TotalPrice": 9.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 7.16,
+              "TotalPrice": 71.6
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 6.6572,
+              "TotalPrice": 166.43
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 6.1047,
+              "TotalPrice": 610.47
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 6.02024,
+              "TotalPrice": 1505.06
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 175,
+            "Name": "Analog Devices Inc./Maxim Integrated"
+          },
+          "QuantityAvailableforPackageType": 1933,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 1933,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "378173",
+          "ValueText": "Multi-Function Controller"
+        },
+        {
+          "ParameterId": 412,
+          "ParameterText": "Battery Chemistry",
+          "ParameterType": "String",
+          "ValueId": "409308",
+          "ValueText": "Supercapacitor"
+        },
+        {
+          "ParameterId": 36,
+          "ParameterText": "Number of Cells",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1818,
+          "ParameterText": "Fault Protection",
+          "ParameterType": "String",
+          "ValueId": "402104",
+          "ValueText": "Short Circuit"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "97494",
+          "ValueText": "14-WFDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "97367",
+          "ValueText": "14-TDFN (3x3)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 119140,
+        "Name": "MAX38888"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 713,
+                "ParentId": 2025,
+                "Name": "Battery Management",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/320/511/STC3115AIQT_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the Battery Management PMIC (Power Management Integrated Circuit) family are used for battery-related monitoring and control functions including authentication, cell balancing, condition monitoring, fuel gauging, source selection, short circuit protection, over- and under-voltage protection, and others. Note that while some products in this family may include a battery charging function among their features, products implementing a charging function as a principle feature are classified separately.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "11",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "175-MAX38888ATD+TTR-ND",
+        "MAX38888ATD+T-ND",
+        "505-MAX38888ATD+TTR",
+        "175-MAX38888ATD+TTR",
+        "175-MAX38888ATD+TDKR",
+        "175-MAX38888ATD+TCT",
+        "505-MAX38888ATD+TTR-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:56Z",
+    "manufacturer_part_number": "MAX38888ATD+T",
+    "product_quantity_available": 1933,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "11",
+    "product_unit_price": 9.17,
+    "offers": [
+      {
+        "provider_part_number": "175-MAX38888ATD+TCT-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1933,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.17,
+            "total_price": 9.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.16,
+            "total_price": 71.6
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.6572,
+            "total_price": 166.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.1047,
+            "total_price": 610.47
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 6.02024,
+            "total_price": 1505.06
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "175-MAX38888ATD+TDKR-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1933,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.17,
+            "total_price": 9.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.16,
+            "total_price": 71.6
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.6572,
+            "total_price": 166.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.1047,
+            "total_price": 610.47
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 6.02024,
+            "total_price": 1505.06
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "175-MAX38888ATD+TTR-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 5.41378,
+            "total_price": 13534.45
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "175-MAX38888ATD+TCT-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1933,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.17,
+            "total_price": 9.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.16,
+            "total_price": 71.6
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.6572,
+            "total_price": 166.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.1047,
+            "total_price": 610.47
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 6.02024,
+            "total_price": 1505.06
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "175-MAX38888ATD+TDKR-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1933,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.17,
+            "total_price": 9.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.16,
+            "total_price": 71.6
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.6572,
+            "total_price": 166.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 6.1047,
+            "total_price": 610.47
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 6.02024,
+            "total_price": 1505.06
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "175-MAX38888ATD+TTR-ND",
+        "supplier": "Analog Devices Inc./Maxim Integrated",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 5.41378,
+            "total_price": 13534.45
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:56Z",
+    "manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "manufacturer_part_number": "MAX38888ATD+T",
+    "provider_part_number": "",
+    "description": "IC BATT MFUNC SUPERCAP 14TDFN",
+    "detailed_description": "Battery Multi-Function Controller IC Supercapacitor 14-TDFN (3x3)",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX38888.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc-maxim-integrated/MAX38888ATD-T/9833538",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6165/175%7E21-0137%7ETD%7E14.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "14-WFDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Multi-Function Controller",
+      "Battery Chemistry": "Supercapacitor",
+      "Number of Cells": "-",
+      "Fault Protection": "Short Circuit",
+      "Interface": "-",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "14-WFDFN Exposed Pad",
+      "Supplier Device Package": "14-TDFN (3x3)"
+    },
+    "compliance": {}
+  }
+}

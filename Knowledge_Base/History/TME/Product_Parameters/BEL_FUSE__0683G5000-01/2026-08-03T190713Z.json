@@ -1,0 +1,198 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:13Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BEL FUSE",
+    "input_mpn": "0683G5000-01",
+    "resolved_manufacturer": "BEL FUSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "0683G5000-01",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 658,
+                    "value": "BEL FUSE"
+                  }
+                ]
+              },
+              {
+                "id": 617,
+                "name": "Type of fuse",
+                "values": [
+                  {
+                    "id": 1449024,
+                    "value": "fuse"
+                  }
+                ]
+              },
+              {
+                "id": 2628,
+                "name": "Kind of fuse",
+                "values": [
+                  {
+                    "id": 1449132,
+                    "value": "ceramic"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1440174,
+                    "value": "5A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1472973,
+                    "value": "125V DC"
+                  },
+                  {
+                    "id": 1779623,
+                    "value": "350V AC"
+                  }
+                ]
+              },
+              {
+                "id": 2629,
+                "name": "Fuse characteristics",
+                "values": [
+                  {
+                    "id": 1449028,
+                    "value": "time-lag"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2144323,
+                    "value": "0683G"
+                  }
+                ]
+              },
+              {
+                "id": 585,
+                "name": "Breaking capacity",
+                "values": [
+                  {
+                    "id": 1588284,
+                    "value": "2kA"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 2137216,
+                    "value": "4818"
+                  }
+                ]
+              },
+              {
+                "id": 588,
+                "name": "Fuses application",
+                "values": [
+                  {
+                    "id": 1473352,
+                    "value": "automotive fuses"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1448642,
+                    "value": "17mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1444812,
+                    "value": "silver plated"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 117,
+                "name": "Leads",
+                "values": [
+                  {
+                    "id": 1437055,
+                    "value": "for soldering"
+                  }
+                ]
+              },
+              {
+                "id": 436,
+                "name": "Conform to the norm",
+                "values": [
+                  {
+                    "id": 1469847,
+                    "value": "CE"
+                  },
+                  {
+                    "id": 2046754,
+                    "value": "cURus"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MOLEX",
+    "input_mpn": "5025700893",
+    "resolved_manufacturer": "MOLEX",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MX-502570-0893",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100432,
+              "name": "Card connectors"
+            },
+            "manufacturer_symbols": [
+              "502570-0893",
+              "5025700893"
+            ],
+            "manufacturer": {
+              "id": 162,
+              "name": "MOLEX"
+            },
+            "description": "Connector: for cards; microSD; push-push; SMT; PIN: 8",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.734,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1300
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/2F/50/00/0/389775_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b0b677ab1e9f0e02e886f414b4e02530c3ffb243",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/2F/50/00/0/389775_1.jpg?width=100&height=75&q=75&ci_sign=88aeedb40eb1ea2023e6d3cbe5ea9acb645274e1",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/F8/2F/50/00/0/389775_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1ba09869627fc59af96bf945629342d834cf4f54"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

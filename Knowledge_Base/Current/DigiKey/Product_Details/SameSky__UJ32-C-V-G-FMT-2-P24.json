@@ -1,0 +1,461 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:57Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "SameSky",
+    "input_mpn": "UJ32-C-V-G-FMT-2-P24",
+    "resolved_manufacturer": "SameSky",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "917"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN RCPT USB 3.2 TYPE C 24POS",
+        "DetailedDescription": "USB-C (USB TYPE-C) USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 24 Position Board Edge, Straddle Mount"
+      },
+      "Manufacturer": {
+        "Id": 2223,
+        "Name": "Same Sky (Formerly CUI Devices)"
+      },
+      "ManufacturerProductNumber": "UJ32-C-V-G-FMT-2-P24",
+      "UnitPrice": 0.91,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/UJ32-C-V-G-FMT-2-P24/24818602",
+      "DatasheetUrl": "https://www.sameskydevices.com/product/resource/uj32-c-v-g-fmt-2-p24.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8881/MFG_UJ32-C-V-G-FMT-2-P24.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "2223-UJ32-C-V-G-FMT-2-P24-ND",
+          "PackageType": {
+            "Id": 61,
+            "Name": "Box"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.91,
+              "TotalPrice": 0.91
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.775,
+              "TotalPrice": 7.75
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.7256,
+              "TotalPrice": 18.14
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.6912,
+              "TotalPrice": 34.56
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.6582,
+              "TotalPrice": 65.82
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.61688,
+              "TotalPrice": 154.22
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.58742,
+              "TotalPrice": 293.71
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.55936,
+              "TotalPrice": 559.36
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.52435,
+              "TotalPrice": 1310.875
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2223,
+            "Name": "Same Sky (Formerly CUI Devices)"
+          },
+          "QuantityAvailableforPackageType": 936,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 50,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 936,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "418395",
+          "ValueText": "USB-C (USB TYPE-C)"
+        },
+        {
+          "ParameterId": 27,
+          "ParameterText": "Number of Contacts",
+          "ParameterType": "String",
+          "ValueId": "151929",
+          "ValueText": "24"
+        },
+        {
+          "ParameterId": 29,
+          "ParameterText": "Gender",
+          "ParameterType": "String",
+          "ValueId": "392960",
+          "ValueText": "Receptacle"
+        },
+        {
+          "ParameterId": 392,
+          "ParameterText": "Specifications",
+          "ParameterType": "String",
+          "ValueId": "418607",
+          "ValueText": "USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0))"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "321150",
+          "ValueText": "Board Edge, Straddle Mount"
+        },
+        {
+          "ParameterId": 1061,
+          "ParameterText": "Mounting Feature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405002",
+          "ValueText": "Solder"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "878081",
+          "ValueText": "3.0µ\" Finish Thickness"
+        },
+        {
+          "ParameterId": 697,
+          "ParameterText": "Ingress Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "156454",
+          "ValueText": "-25°C ~ 85°C"
+        },
+        {
+          "ParameterId": 2171,
+          "ParameterText": "Number of Ports",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 66,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "String",
+          "ValueId": "16434",
+          "ValueText": "0.25A, 1.25A, 5A"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "226165",
+          "ValueText": "48VDC"
+        },
+        {
+          "ParameterId": 1499,
+          "ParameterText": "Mating Cycles",
+          "ParameterType": "Double",
+          "ValueId": "10000",
+          "ValueText": "10000"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2032,
+            "ParentId": 20,
+            "Name": "USB, DVI, HDMI Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/290/048/0484050003_tmb.jpg",
+            "SeoDescription": "USB, DVI, and HDMI Connectors are devices most often used to provide a connection port between a computer and some other device for audio and video interface. The characteristics being connector type, number of contacts, gender, mounting type, current rating, and voltage rating. The connector types are DisplayPort, DMS-59, DVI- (A, D, or I), Firewire, HDMI (micro, mini), and USB (A, B, C, micro, mini).",
+            "ChildCategories": [
+              {
+                "CategoryId": 312,
+                "ParentId": 2032,
+                "Name": "USB, DVI, HDMI Connector Assemblies",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/290/060/0484060003_tmb.jpg",
+                "SeoDescription": "USB, DVI, and HDMI Connectors are devices most often used to provide a connection port between a computer and some other device for audio and video interface. The characteristics being connector type, number of contacts, gender, mounting type, current rating, and voltage rating. The connector types are DisplayPort, DMS-59, DVI- (A, D, or I), Firewire, HDMI (micro, mini), and USB (A, B, C, micro, mini).",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "8",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 103434,
+        "Name": "UJ32"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "RoHS Compliant",
+        "MoistureSensitivityLevel": "Not Applicable",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "2223-UJ32-C-V-G-FMT-2-P24"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:57Z",
+    "manufacturer_part_number": "UJ32-C-V-G-FMT-2-P24",
+    "product_quantity_available": 936,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "8",
+    "product_unit_price": 0.91,
+    "offers": [
+      {
+        "provider_part_number": "2223-UJ32-C-V-G-FMT-2-P24-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 50,
+        "quantity_available": 936,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.91,
+            "total_price": 0.91
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.775,
+            "total_price": 7.75
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.7256,
+            "total_price": 18.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.6912,
+            "total_price": 34.56
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6582,
+            "total_price": 65.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.61688,
+            "total_price": 154.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.58742,
+            "total_price": 293.71
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.55936,
+            "total_price": 559.36
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.52435,
+            "total_price": 1310.875
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "2223-UJ32-C-V-G-FMT-2-P24-ND",
+        "supplier": "Same Sky (Formerly CUI Devices)",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 50,
+        "quantity_available": 936,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.91,
+            "total_price": 0.91
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.775,
+            "total_price": 7.75
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.7256,
+            "total_price": 18.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.6912,
+            "total_price": 34.56
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.6582,
+            "total_price": 65.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.61688,
+            "total_price": 154.22
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.58742,
+            "total_price": 293.71
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.55936,
+            "total_price": 559.36
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.52435,
+            "total_price": 1310.875
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:57Z",
+    "manufacturer": "Same Sky (Formerly CUI Devices)",
+    "manufacturer_part_number": "UJ32-C-V-G-FMT-2-P24",
+    "provider_part_number": "",
+    "description": "CONN RCPT USB 3.2 TYPE C 24POS",
+    "detailed_description": "USB-C (USB TYPE-C) USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 24 Position Board Edge, Straddle Mount",
+    "datasheet_url": "https://www.sameskydevices.com/product/resource/uj32-c-v-g-fmt-2-p24.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/same-sky-formerly-cui-devices/UJ32-C-V-G-FMT-2-P24/24818602",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8881/MFG_UJ32-C-V-G-FMT-2-P24.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Board Edge, Straddle Mount",
+    "attributes": {
+      "Connector Type": "USB-C (USB TYPE-C)",
+      "Number of Contacts": "24",
+      "Gender": "Receptacle",
+      "Specifications": "USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0))",
+      "Mounting Type": "Board Edge, Straddle Mount",
+      "Mounting Feature": "-",
+      "Termination": "Solder",
+      "Features": "3.0µ\" Finish Thickness",
+      "Ingress Protection": "-",
+      "Operating Temperature": "-25°C ~ 85°C",
+      "Number of Ports": "1",
+      "Current Rating (Amps)": "0.25A, 1.25A, 5A",
+      "Voltage - Rated": "48VDC",
+      "Mating Cycles": "10000",
+      "Shielding": "Shielded"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:13:11Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "ESD9R3.3ST5G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "759"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "TVS DIODE 3.3VWM 7.8VC SOD923",
+        "DetailedDescription": "7.8V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "ESD9R3.3ST5G",
+      "UnitPrice": 0.96,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/ESD9R3-3ST5G/1961067",
+      "DatasheetUrl": "https://www.onsemi.com/pub/Collateral/ESD9R3.3S-D.PDF",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6296/488%7E514AB-01%7E%7E2.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.21266,
+              "TotalPrice": 1701.28
+            },
+            {
+              "BreakQuantity": 16000,
+              "UnitPrice": 0.19813,
+              "TotalPrice": 3170.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112000,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 8000,
+          "StandardPackage": 8000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.96,
+              "TotalPrice": 0.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.603,
+              "TotalPrice": 6.03
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 22.26
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.394,
+              "TotalPrice": 39.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.30392,
+              "TotalPrice": 151.96
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112678,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.96,
+              "TotalPrice": 0.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.603,
+              "TotalPrice": 6.03
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 22.26
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.394,
+              "TotalPrice": 39.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.30392,
+              "TotalPrice": 151.96
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112678,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 112678,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "423536",
+          "ValueText": "Zener"
+        },
+        {
+          "ParameterId": 1729,
+          "ParameterText": "Unidirectional Channels",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 761,
+          "ParameterText": "Voltage - Reverse Standoff (Typ)",
+          "ParameterType": "String",
+          "ValueId": "174122",
+          "ValueText": "3.3V (Max)"
+        },
+        {
+          "ParameterId": 1731,
+          "ParameterText": "Voltage - Breakdown (Min)",
+          "ParameterType": "String",
+          "ValueId": "210818",
+          "ValueText": "4.8V"
+        },
+        {
+          "ParameterId": 1732,
+          "ParameterText": "Voltage - Clamping (Max) @ Ipp",
+          "ParameterType": "String",
+          "ValueId": "271816",
+          "ValueText": "7.8V"
+        },
+        {
+          "ParameterId": 714,
+          "ParameterText": "Current - Peak Pulse (10/1000µs)",
+          "ParameterType": "String",
+          "ValueId": "119755",
+          "ValueText": "1A (8/20µs)"
+        },
+        {
+          "ParameterId": 1733,
+          "ParameterText": "Power - Peak Pulse",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1734,
+          "ParameterText": "Power Line Protection",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 566,
+          "ParameterText": "Capacitance @ Frequency",
+          "ParameterType": "String",
+          "ValueId": "28526",
+          "ValueText": "0.5pF @ 1MHz"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242921",
+          "ValueText": "-55°C ~ 125°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "404879",
+          "ValueText": "SOD-923"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "404879",
+          "ValueText": "SOD-923"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 282544,
+        "Name": "ESD9R3.3"
+      },
+      "Category": {
+        "CategoryId": 9,
+        "ParentId": 0,
+        "Name": "Circuit Protection",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+        "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2040,
+            "ParentId": 9,
+            "Name": "Transient Voltage Suppressors (TVS)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/256/835/DO-214AA_SMB_tmb%2864x64%29.jpg",
+            "SeoDescription": "TVS, or Transient Voltage Suppressors are devices designed to limit or prevent temporary surges or spikes within a specific voltage level.",
+            "ChildCategories": [
+              {
+                "CategoryId": 144,
+                "ParentId": 2040,
+                "Name": "TVS Diodes",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/332/776/112%3BDO214AA%28SMBJ%29%3B%3B2_tmb%2864x64%29.jpg",
+                "SeoDescription": "TVS Diodes are a semiconductor device designed to limit or stop surges in a specific voltage level. The items in this family are designed using diodes (a component that conducts in just one direction). TVS is an acronym for Transient Voltage Suppression (Suppressor). The types are steering (rail to rail) or Zener with the characteristics of unidirectional channels, bidirectional channels, voltage – reverse standoff, voltage – breakdown, voltage – clamping, current – peak pulse, power – peak pulse, and power line protection.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "52",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0080"
+      },
+      "OtherNames": [
+        "ESD9R3.3ST5GOSCT",
+        "ESD9R33ST5G",
+        "2156-ESD9R3.3ST5G-488",
+        "ESD9R3.3ST5GOSDKR",
+        "ESD9R3.3ST5G-ND",
+        "ESD9R3.3ST5GOSTR",
+        "2832-ESD9R3.3ST5GTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:11Z",
+    "manufacturer_part_number": "ESD9R3.3ST5G",
+    "product_quantity_available": 112678,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "52",
+    "product_unit_price": 0.96,
+    "offers": [
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 8000,
+        "pack_quantity": 8000,
+        "quantity_available": 112000,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.21266,
+            "total_price": 1701.28
+          },
+          {
+            "break_quantity": 16000,
+            "unit_price": 0.19813,
+            "total_price": 3170.08
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 8000,
+        "pack_quantity": 8000,
+        "quantity_available": 112000,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.21266,
+            "total_price": 1701.28
+          },
+          {
+            "break_quantity": 16000,
+            "unit_price": 0.19813,
+            "total_price": 3170.08
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:13:11Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "ESD9R3.3ST5G",
+    "provider_part_number": "",
+    "description": "TVS DIODE 3.3VWM 7.8VC SOD923",
+    "detailed_description": "7.8V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD9R3.3S-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/ESD9R3-3ST5G/1961067",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6296/488%7E514AB-01%7E%7E2.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SOD-923",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Zener",
+      "Unidirectional Channels": "1",
+      "Voltage - Reverse Standoff (Typ)": "3.3V (Max)",
+      "Voltage - Breakdown (Min)": "4.8V",
+      "Voltage - Clamping (Max) @ Ipp": "7.8V",
+      "Current - Peak Pulse (10/1000µs)": "1A (8/20µs)",
+      "Power - Peak Pulse": "-",
+      "Power Line Protection": "No",
+      "Applications": "General Purpose",
+      "Capacitance @ Frequency": "0.5pF @ 1MHz",
+      "Operating Temperature": "-55°C ~ 125°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "SOD-923",
+      "Supplier Device Package": "SOD-923"
+    },
+    "compliance": {}
+  }
+}

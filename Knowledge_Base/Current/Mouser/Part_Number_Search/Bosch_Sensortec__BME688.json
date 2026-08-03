@@ -1,0 +1,342 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:55Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BME688",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "4796 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1046/1/bst-bme688-fl000.pdf",
+          "Description": "Air Quality Sensors Combined gas, humidity, pressure and temperature sensor",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/boschsensortec/images/BME688_DSL.jpg",
+          "Category": "Air Quality Sensors",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Bosch Sensortec",
+          "ManufacturerPartNumber": "BME688",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "262-BME688",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "6000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€7.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5,
+              "Price": "€6.73",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€6.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€6.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€5.93",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€5.73",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€5.46",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€4.96",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€4.96",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BME688?qs=IS%252B4QmGtzzqQoVDscqwx3A%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "262-BME690",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "4796",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 18000,
+              "Date": "2026-10-21T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542391090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "9027100010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "9027102000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "902710000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "9027100000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "9027100100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "90271000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:55Z",
+    "manufacturer_part_number": "BME688",
+    "product_quantity_available": 4796,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "84 Days",
+    "product_unit_price": 7.44,
+    "offers": [
+      {
+        "provider_part_number": "262-BME688",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4796,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 6.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 5.93,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 5.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 4.96,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 4.96,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "262-BME688",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4796,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 7.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 6.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 6.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 5.93,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 5.73,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 5.46,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 4.96,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 4.96,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:55Z",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_part_number": "BME688",
+    "provider_part_number": "262-BME688",
+    "description": "Air Quality Sensors Combined gas, humidity, pressure and temperature sensor",
+    "detailed_description": "Air Quality Sensors Combined gas, humidity, pressure and temperature sensor",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1046/1/bst-bme688-fl000.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BME688?qs=IS%252B4QmGtzzqQoVDscqwx3A%3D%3D",
+    "image_url": "https://www.mouser.com/images/boschsensortec/images/BME688_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "6000"
+    },
+    "compliance": {
+      "CNHTS": "8542391090",
+      "CAHTS": "9027100010",
+      "USHTS": "9027102000",
+      "JPHTS": "902710000",
+      "KRHTS": "9027100000",
+      "MXHTS": "9027100100",
+      "BRHTS": "90271000",
+      "ECCN": "EAR99"
+    }
+  }
+}

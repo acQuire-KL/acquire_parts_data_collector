@@ -1,0 +1,721 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:16Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "NXP",
+    "input_mpn": "PCF85063ATL/1,118",
+    "resolved_manufacturer": "NXP",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "780"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC RTC CLK/CALENDAR I2C 10DFN",
+        "DetailedDescription": "Real Time Clock (RTC) IC Clock/Calendar I2C, 2-Wire Serial 10-XFDFN Exposed Pad"
+      },
+      "Manufacturer": {
+        "Id": 568,
+        "Name": "NXP USA Inc."
+      },
+      "ManufacturerProductNumber": "PCF85063ATL/1,118",
+      "UnitPrice": 0.79,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/nxp-usa-inc/PCF85063ATL-1-118/4022741",
+      "DatasheetUrl": "https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6347/568%7ESOT1197-1%7E%7E10.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "568-10235-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.36086,
+              "TotalPrice": 1443.44
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.35265,
+              "TotalPrice": 2821.2
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.34855,
+              "TotalPrice": 4182.6
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.34399,
+              "TotalPrice": 6879.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "568-10235-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5076,
+              "TotalPrice": 12.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 44.52
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.41556,
+              "TotalPrice": 103.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.39768,
+              "TotalPrice": 198.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38295,
+              "TotalPrice": 382.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36641,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "568-10235-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5076,
+              "TotalPrice": 12.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 44.52
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.41556,
+              "TotalPrice": 103.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.39768,
+              "TotalPrice": 198.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38295,
+              "TotalPrice": 382.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36641,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 36641,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2697,
+          "ParameterText": "DigiKey Programmable",
+          "ParameterType": "String",
+          "ValueId": "750491",
+          "ValueText": "Not Verified"
+        },
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "331362",
+          "ValueText": "Clock/Calendar"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "312619",
+          "ValueText": "Alarm, Leap Year, Square Wave Output"
+        },
+        {
+          "ParameterId": 142,
+          "ParameterText": "Memory Size",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 341,
+          "ParameterText": "Time Format",
+          "ParameterType": "String",
+          "ValueId": "354597",
+          "ValueText": "HH:MM:SS (12/24 hr)"
+        },
+        {
+          "ParameterId": 342,
+          "ParameterText": "Date Format",
+          "ParameterType": "String",
+          "ValueId": "423358",
+          "ValueText": "YY-MM-DD-dd"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "799911",
+          "ValueText": "I2C, 2-Wire Serial"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "38737",
+          "ValueText": "0.9V ~ 5.5V"
+        },
+        {
+          "ParameterId": 1446,
+          "ParameterText": "Voltage - Supply, Battery",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1754,
+          "ParameterText": "Current - Timekeeping (Max)",
+          "ParameterType": "String",
+          "ValueId": "28780",
+          "ValueText": "0.6µA @ 3.3V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "74811",
+          "ValueText": "10-XFDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "73274",
+          "ValueText": "10-DFN (2.6x2.6)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 107636,
+        "Name": "PCF85063"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2006,
+            "ParentId": 32,
+            "Name": "Clock/Timing",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+            "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+            "ChildCategories": [
+              {
+                "CategoryId": 690,
+                "ParentId": 2006,
+                "Name": "Real Time Clocks",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/290/Epson-10-SMT-3%2C2-2%2C5-2nd_tmb.jpg",
+                "SeoDescription": "Real Time Clocks (RTCs) provide time and/or date information in almost any electronic device which needs to keep accurate time. The clock types are binary counter, clock/calendar/supervisor, elapsed time counter, phantom time chip, portable system controller, temperature recorder, time event recorder, and timer clock peripheral.  They contain memory sizes ranging from 2 B to 2 MB and have interface options of I2C, Parallel, Serial, SPI, 1-Wire, 2-Wire, 3-Wire, and 4-Wire.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "568-10235-2",
+        "568-10235-1",
+        "935299022118",
+        "568-10235-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:16Z",
+    "manufacturer_part_number": "PCF85063ATL/1,118",
+    "product_quantity_available": 36641,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.79,
+    "offers": [
+      {
+        "provider_part_number": "568-10235-1-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-6-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-2-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 36000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.36086,
+            "total_price": 1443.44
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.35265,
+            "total_price": 2821.2
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.34855,
+            "total_price": 4182.6
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.34399,
+            "total_price": 6879.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "568-10235-1-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-6-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-2-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 36000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.36086,
+            "total_price": 1443.44
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.35265,
+            "total_price": 2821.2
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.34855,
+            "total_price": 4182.6
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.34399,
+            "total_price": 6879.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:16Z",
+    "manufacturer": "NXP USA Inc.",
+    "manufacturer_part_number": "PCF85063ATL/1,118",
+    "provider_part_number": "",
+    "description": "IC RTC CLK/CALENDAR I2C 10DFN",
+    "detailed_description": "Real Time Clock (RTC) IC Clock/Calendar I2C, 2-Wire Serial 10-XFDFN Exposed Pad",
+    "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/nxp-usa-inc/PCF85063ATL-1-118/4022741",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6347/568%7ESOT1197-1%7E%7E10.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "10-XFDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "DigiKey Programmable": "Not Verified",
+      "Type": "Clock/Calendar",
+      "Features": "Alarm, Leap Year, Square Wave Output",
+      "Memory Size": "-",
+      "Time Format": "HH:MM:SS (12/24 hr)",
+      "Date Format": "YY-MM-DD-dd",
+      "Interface": "I2C, 2-Wire Serial",
+      "Voltage - Supply": "0.9V ~ 5.5V",
+      "Voltage - Supply, Battery": "-",
+      "Current - Timekeeping (Max)": "0.6µA @ 3.3V",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "10-XFDFN Exposed Pad",
+      "Supplier Device Package": "10-DFN (2.6x2.6)"
+    },
+    "compliance": {}
+  }
+}

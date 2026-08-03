@@ -1,0 +1,288 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:11Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "62000211622",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "1719 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Headers & Wire Housings WR-WTB Wire-to-Board Connectors 2.00 mm 2P Male, Vertical, Shrouded Header",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/wurthelectronics/images/62000211622_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Wurth Elektronik",
+          "ManufacturerPartNumber": "62000211622",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "710-62000211622",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.102",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.094",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/62000211622?qs=ulEaXIWI0c90wrFEMj4Fiw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "1719",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-08-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:11Z",
+    "manufacturer_part_number": "62000211622",
+    "product_quantity_available": 1719,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 0.103,
+    "offers": [
+      {
+        "provider_part_number": "710-62000211622",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1719,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.103,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.094,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.083,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "710-62000211622",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1719,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.103,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.102,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.094,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.083,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:11Z",
+    "manufacturer": "Wurth Elektronik",
+    "manufacturer_part_number": "62000211622",
+    "provider_part_number": "710-62000211622",
+    "description": "Headers & Wire Housings WR-WTB Wire-to-Board Connectors 2.00 mm 2P Male, Vertical, Shrouded Header",
+    "detailed_description": "Headers & Wire Housings WR-WTB Wire-to-Board Connectors 2.00 mm 2P Male, Vertical, Shrouded Header",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Wurth-Elektronik/62000211622?qs=ulEaXIWI0c90wrFEMj4Fiw%3D%3D",
+    "image_url": "https://www.mouser.com/images/wurthelectronics/images/62000211622_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CNHTS": "8536901100",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

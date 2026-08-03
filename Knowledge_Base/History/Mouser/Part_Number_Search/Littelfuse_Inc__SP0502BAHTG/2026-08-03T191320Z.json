@@ -1,0 +1,305 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:13:20Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Littelfuse Inc.",
+    "input_mpn": "SP0502BAHTG",
+    "resolved_manufacturer": "Littelfuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "69268 In Stock",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes 2 Channel SMT array",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "91 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Littelfuse",
+          "ManufacturerPartNumber": "SP0502BAHTG",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "576-SP0502BAHTG",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.601",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.414",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.323",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.292",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.24",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Littelfuse/SP0502BAHTG?qs=RnOBYWd%2Fz7eJQ3Gn98FRmg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.4e-05
+          },
+          "AvailabilityInStock": "69268",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 51000,
+              "Date": "2026-10-15T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411029"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:20Z",
+    "manufacturer_part_number": "SP0502BAHTG",
+    "product_quantity_available": 69268,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "91 Days",
+    "product_unit_price": 1.01,
+    "offers": [
+      {
+        "provider_part_number": "576-SP0502BAHTG",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 69268,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.601,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.414,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.323,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.292,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.24,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "576-SP0502BAHTG",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 69268,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.601,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.414,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.323,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.292,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.24,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:13:20Z",
+    "manufacturer": "Littelfuse",
+    "manufacturer_part_number": "SP0502BAHTG",
+    "provider_part_number": "576-SP0502BAHTG",
+    "description": "ESD Protection Diodes / TVS Diodes 2 Channel SMT array",
+    "detailed_description": "ESD Protection Diodes / TVS Diodes 2 Channel SMT array",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Littelfuse/SP0502BAHTG?qs=RnOBYWd%2Fz7eJQ3Gn98FRmg%3D%3D",
+    "image_url": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541590000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "JPHTS": "854110090",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100199",
+      "BRHTS": "85411029",
+      "ECCN": "EAR99"
+    }
+  }
+}

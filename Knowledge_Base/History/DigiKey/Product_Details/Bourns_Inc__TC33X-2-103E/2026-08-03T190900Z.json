@@ -1,0 +1,740 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:00Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bourns Inc.",
+    "input_mpn": "TC33X-2-103E",
+    "resolved_manufacturer": "Bourns Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "844"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "TRIMMER 10K OHM 0.15W J LEAD TOP",
+        "DetailedDescription": "10 kOhms 0.15W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"
+      },
+      "Manufacturer": {
+        "Id": 118,
+        "Name": "Bourns Inc."
+      },
+      "ManufacturerProductNumber": "TC33X-2-103E",
+      "UnitPrice": 0.24,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bourns-inc/TC33X-2-103E/612858",
+      "DatasheetUrl": "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2584/TC33X%20SERIES.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "TC33X-103ETR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.12978,
+              "TotalPrice": 324.45
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.12263,
+              "TotalPrice": 613.15
+            },
+            {
+              "BreakQuantity": 7500,
+              "UnitPrice": 0.11862,
+              "TotalPrice": 889.65
+            },
+            {
+              "BreakQuantity": 12500,
+              "UnitPrice": 0.11375,
+              "TotalPrice": 1421.875
+            },
+            {
+              "BreakQuantity": 17500,
+              "UnitPrice": 0.11064,
+              "TotalPrice": 1936.2
+            },
+            {
+              "BreakQuantity": 25000,
+              "UnitPrice": 0.10744,
+              "TotalPrice": 2686.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 118,
+            "Name": "Bourns Inc."
+          },
+          "QuantityAvailableforPackageType": 20000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2500,
+          "StandardPackage": 2500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "TC33X-103ECT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.24,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.202,
+              "TotalPrice": 2.02
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.188,
+              "TotalPrice": 4.7
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1778,
+              "TotalPrice": 8.89
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1683,
+              "TotalPrice": 16.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.15636,
+              "TotalPrice": 39.09
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.1479,
+              "TotalPrice": 73.95
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.13983,
+              "TotalPrice": 139.83
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 118,
+            "Name": "Bourns Inc."
+          },
+          "QuantityAvailableforPackageType": 21160,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "TC33X-103EDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.24,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.202,
+              "TotalPrice": 2.02
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.188,
+              "TotalPrice": 4.7
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1778,
+              "TotalPrice": 8.89
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1683,
+              "TotalPrice": 16.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.15636,
+              "TotalPrice": 39.09
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.1479,
+              "TotalPrice": 73.95
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.13983,
+              "TotalPrice": 139.83
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 118,
+            "Name": "Bourns Inc."
+          },
+          "QuantityAvailableforPackageType": 21160,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 21160,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2085,
+          "ParameterText": "Resistance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 kOhms",
+          "ValueText": "10 kOhms"
+        },
+        {
+          "ParameterId": 2,
+          "ParameterText": "Power (Watts)",
+          "ParameterType": "String",
+          "ValueId": "12371",
+          "ValueText": "0.15W"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1989",
+          "ValueText": "±25%"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "2005",
+          "ValueText": "±250ppm/°C"
+        },
+        {
+          "ParameterId": 2218,
+          "ParameterText": "Number of Turns",
+          "ParameterType": "Double",
+          "ValueId": "1.0",
+          "ValueText": "1.0"
+        },
+        {
+          "ParameterId": 24,
+          "ParameterText": "Adjustment Type",
+          "ParameterType": "String",
+          "ValueId": "413830",
+          "ValueText": "Top Adjustment"
+        },
+        {
+          "ParameterId": 1083,
+          "ParameterText": "Resistive Material",
+          "ParameterType": "String",
+          "ValueId": "328966",
+          "ValueText": "Cermet"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 258,
+          "ParameterText": "Termination Style",
+          "ParameterType": "String",
+          "ValueId": "361793",
+          "ValueText": "J Lead"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "703005",
+          "ValueText": "Rectangular - 0.150\" x 0.142\" Face (3.80mm x 3.60mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 121894,
+        "Name": "TC33X"
+      },
+      "Category": {
+        "CategoryId": 5,
+        "ParentId": 0,
+        "Name": "Potentiometers, Variable Resistors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/422/53C2-Series_tmb.jpg",
+        "SeoDescription": "The products in this category include user-adjustable (as opposed to fixed-value) resistors, and accessories such as mounting hardware and turn-counting dials designed for use therewith. The various product groups within are differentiated according to their basic physical form and intended application; slide potentiometers for example are adjusted using a linear motion, whereas rotary potentiometers are adjusted using a turning motion.",
+        "ChildCategories": [
+          {
+            "CategoryId": 80,
+            "ParentId": 5,
+            "Name": "Trimmer Potentiometers",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/627/649/3296W%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Trimmer potentiometers allow for precise manual adjustment of an in-circuit resistance value. Also known as trimpots, they are available in bottom, side or top adjustment and may allow for single or multiple turns of actuation. They range in value from 10 Ω to 5 MΩ of resistance and 5% to 30% of value tolerance in surface mount, through-hole, chassis mount, and panel mount configurations.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "20",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1649,
+        "Name": "Trimpot® TC33 - Open Frame"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8533.40.8050"
+      },
+      "OtherNames": [
+        "TC33X-103ETR",
+        "TC33X-103ECT",
+        "TC33X-103ETR-NDR",
+        "TC33X-103EDKR",
+        "TC33X2103E",
+        "TC33X-103ECT-NDR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:00Z",
+    "manufacturer_part_number": "TC33X-2-103E",
+    "product_quantity_available": 21160,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "20",
+    "product_unit_price": 0.24,
+    "offers": [
+      {
+        "provider_part_number": "TC33X-103ECT-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21160,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.202,
+            "total_price": 2.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.188,
+            "total_price": 4.7
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1778,
+            "total_price": 8.89
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1683,
+            "total_price": 16.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.15636,
+            "total_price": 39.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1479,
+            "total_price": 73.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13983,
+            "total_price": 139.83
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "TC33X-103EDKR-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21160,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.202,
+            "total_price": 2.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.188,
+            "total_price": 4.7
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1778,
+            "total_price": 8.89
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1683,
+            "total_price": 16.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.15636,
+            "total_price": 39.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1479,
+            "total_price": 73.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13983,
+            "total_price": 139.83
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "TC33X-103ETR-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 20000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.12978,
+            "total_price": 324.45
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.12263,
+            "total_price": 613.15
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.11862,
+            "total_price": 889.65
+          },
+          {
+            "break_quantity": 12500,
+            "unit_price": 0.11375,
+            "total_price": 1421.875
+          },
+          {
+            "break_quantity": 17500,
+            "unit_price": 0.11064,
+            "total_price": 1936.2
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.10744,
+            "total_price": 2686.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "TC33X-103ECT-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21160,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.202,
+            "total_price": 2.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.188,
+            "total_price": 4.7
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1778,
+            "total_price": 8.89
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1683,
+            "total_price": 16.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.15636,
+            "total_price": 39.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1479,
+            "total_price": 73.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13983,
+            "total_price": 139.83
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "TC33X-103EDKR-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21160,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.202,
+            "total_price": 2.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.188,
+            "total_price": 4.7
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1778,
+            "total_price": 8.89
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1683,
+            "total_price": 16.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.15636,
+            "total_price": 39.09
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1479,
+            "total_price": 73.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.13983,
+            "total_price": 139.83
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "TC33X-103ETR-ND",
+        "supplier": "Bourns Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 20000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.12978,
+            "total_price": 324.45
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.12263,
+            "total_price": 613.15
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.11862,
+            "total_price": 889.65
+          },
+          {
+            "break_quantity": 12500,
+            "unit_price": 0.11375,
+            "total_price": 1421.875
+          },
+          {
+            "break_quantity": 17500,
+            "unit_price": 0.11064,
+            "total_price": 1936.2
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.10744,
+            "total_price": 2686.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:00Z",
+    "manufacturer": "Bourns Inc.",
+    "manufacturer_part_number": "TC33X-2-103E",
+    "provider_part_number": "",
+    "description": "TRIMMER 10K OHM 0.15W J LEAD TOP",
+    "detailed_description": "10 kOhms 0.15W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment",
+    "datasheet_url": "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bourns-inc/TC33X-2-103E/612858",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2584/TC33X%20SERIES.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Resistance": "10 kOhms",
+      "Power (Watts)": "0.15W",
+      "Tolerance": "±25%",
+      "Temperature Coefficient": "±250ppm/°C",
+      "Number of Turns": "1.0",
+      "Adjustment Type": "Top Adjustment",
+      "Resistive Material": "Cermet",
+      "Mounting Type": "Surface Mount",
+      "Termination Style": "J Lead",
+      "Size / Dimension": "Rectangular - 0.150\" x 0.142\" Face (3.80mm x 3.60mm)"
+    },
+    "compliance": {}
+  }
+}

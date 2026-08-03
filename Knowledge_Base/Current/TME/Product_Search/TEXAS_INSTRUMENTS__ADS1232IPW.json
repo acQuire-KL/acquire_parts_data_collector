@@ -1,0 +1,162 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T18:59:42Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "ADS1232IPW",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "ADS1232IPW",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112877,
+              "name": "A/D converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "ADS1232IPW"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: A/D converter; Ch: 2; 24bit; 80sps; 2.7÷5.3V; TSSOP24",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/F6/61/00/1/1470257_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=004e3397f319dff101e1dea14ec16a38e69dc1a9",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/F6/61/00/1/1470257_1.jpg?width=100&height=75&q=75&ci_sign=338c931cd4062724689eb203e807f2d1f5a41f9c",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "ADS1232IPWG4",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112877,
+              "name": "A/D converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "ADS1232IPWG4"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: A/D converter; Ch: 2; 24bit; 80sps; TSSOP24; 2.7÷5.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.094,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "TB1",
+                  "translation": null,
+                  "amount": 60
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/89/8E/00/00/0/59544_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d5b886f0a50d630f2e5d0d9aae1fe394a0a40311",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/89/8E/00/00/0/59544_1.jpg?width=100&height=75&q=75&ci_sign=c8525c9f8ce3827310509a466c7e076d8c1bab1d",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "ADS1232IPWR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112877,
+              "name": "A/D converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "ADS1232IPWR"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: A/D converter; Ch: 2; 24bit; 80sps; 2.7÷5.3V; TSSOP24",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/F6/61/00/1/1470257_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=004e3397f319dff101e1dea14ec16a38e69dc1a9",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/13/F6/61/00/1/1470257_1.jpg?width=100&height=75&q=75&ci_sign=338c931cd4062724689eb203e807f2d1f5a41f9c",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

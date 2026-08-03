@@ -1,0 +1,712 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:47Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK Corporation",
+    "input_mpn": "MPZ2012S331AT000",
+    "resolved_manufacturer": "TDK Corporation",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "896"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FERRITE BEAD 330 OHM 0805 1LN",
+        "DetailedDescription": "330 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2.5A 50mOhm"
+      },
+      "Manufacturer": {
+        "Id": 445,
+        "Name": "TDK"
+      },
+      "ManufacturerProductNumber": "MPZ2012S331AT000",
+      "UnitPrice": 0.1,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/tdk/MPZ2012S331AT000/571876",
+      "DatasheetUrl": "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz2012_en.pdf?ref_disty=digikey",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2367/MFG_MPZ2012.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "445-MPZ2012S331AT000TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.02356,
+              "TotalPrice": 94.24
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.02033,
+              "TotalPrice": 162.64
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.01946,
+              "TotalPrice": 233.52
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 47850,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "445-MPZ2012S331AT000CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.067,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.058,
+              "TotalPrice": 1.45
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0522,
+              "TotalPrice": 2.61
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0469,
+              "TotalPrice": 4.69
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.04032,
+              "TotalPrice": 10.08
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.03584,
+              "TotalPrice": 17.92
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.03167,
+              "TotalPrice": 31.67
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 47890,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "445-MPZ2012S331AT000DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.067,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.058,
+              "TotalPrice": 1.45
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0522,
+              "TotalPrice": 2.61
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0469,
+              "TotalPrice": 4.69
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.04032,
+              "TotalPrice": 10.08
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.03584,
+              "TotalPrice": 17.92
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.03167,
+              "TotalPrice": 31.67
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 47890,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 47890,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 21,
+          "ParameterText": "Filter Type",
+          "ParameterType": "String",
+          "ValueId": "389223",
+          "ValueText": "Power Line"
+        },
+        {
+          "ParameterId": 2169,
+          "ParameterText": "Number of Lines",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 2280,
+          "ParameterText": "Impedance @ Frequency",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "330 Ohms @ 100 MHz",
+          "ValueText": "330 Ohms @ 100 MHz"
+        },
+        {
+          "ParameterId": 1923,
+          "ParameterText": "Current Rating (Max)",
+          "ParameterType": "String",
+          "ValueId": "131531",
+          "ValueText": "2.5A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "238333",
+          "ValueText": "50mOhm"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "6516",
+          "ValueText": "0.041\" (1.05mm)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "8569",
+          "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 841,
+            "ParentId": 36,
+            "Name": "Ferrite Beads and Chips",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/281/882/MPZ2012xxxxxxxx_tmb.jpg",
+            "SeoDescription": "Ferrite cores are devices that are designed to prevent high frequency noise or EMI (electromagnetic interference). These ferrite cores are made to be placed within an electric circuit. Key characteristics are the filter type (differential, signal, or power), number of lines, max current rating, impedance and a specified frequency, and mounting type (free hanging, surface mount, or through-hole).",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "15",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1507,
+        "Name": "MPZ"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8548.00.0000"
+      },
+      "OtherNames": [
+        "445-1569-6",
+        "445-MPZ2012S331AT000CT",
+        "Q4622669",
+        "445-1569-1",
+        "445-1569-2-NDL",
+        "-MPZ2012S331AT",
+        "445-1569-2",
+        "445-1569-2-ND",
+        "445-MPZ2012S331AT000TR",
+        "445-1569-6-ND",
+        "445-1569-1-ND",
+        "MPZ2012S331A",
+        "-572-MPZ2012S331AT000",
+        "445-MPZ2012S331AT000DKR",
+        "MPZ2012S331AT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:47Z",
+    "manufacturer_part_number": "MPZ2012S331AT000",
+    "product_quantity_available": 47890,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "15",
+    "product_unit_price": 0.1,
+    "offers": [
+      {
+        "provider_part_number": "445-MPZ2012S331AT000CT-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 47890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.058,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0522,
+            "total_price": 2.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0469,
+            "total_price": 4.69
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04032,
+            "total_price": 10.08
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03584,
+            "total_price": 17.92
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.03167,
+            "total_price": 31.67
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-MPZ2012S331AT000DKR-ND",
+        "supplier": "TDK",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 47890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.058,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0522,
+            "total_price": 2.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0469,
+            "total_price": 4.69
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04032,
+            "total_price": 10.08
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03584,
+            "total_price": 17.92
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.03167,
+            "total_price": 31.67
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-MPZ2012S331AT000TR-ND",
+        "supplier": "TDK",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 47850,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.02356,
+            "total_price": 94.24
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.02033,
+            "total_price": 162.64
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.01946,
+            "total_price": 233.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "445-MPZ2012S331AT000CT-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 47890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.058,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0522,
+            "total_price": 2.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0469,
+            "total_price": 4.69
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04032,
+            "total_price": 10.08
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03584,
+            "total_price": 17.92
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.03167,
+            "total_price": 31.67
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-MPZ2012S331AT000DKR-ND",
+        "supplier": "TDK",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 47890,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.067,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.058,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0522,
+            "total_price": 2.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0469,
+            "total_price": 4.69
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.04032,
+            "total_price": 10.08
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.03584,
+            "total_price": 17.92
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.03167,
+            "total_price": 31.67
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-MPZ2012S331AT000TR-ND",
+        "supplier": "TDK",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 47850,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.02356,
+            "total_price": 94.24
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.02033,
+            "total_price": 162.64
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.01946,
+            "total_price": 233.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:47Z",
+    "manufacturer": "TDK",
+    "manufacturer_part_number": "MPZ2012S331AT000",
+    "provider_part_number": "",
+    "description": "FERRITE BEAD 330 OHM 0805 1LN",
+    "detailed_description": "330 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2.5A 50mOhm",
+    "datasheet_url": "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz2012_en.pdf?ref_disty=digikey",
+    "product_url": "https://www.digikey.ie/en/products/detail/tdk/MPZ2012S331AT000/571876",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2367/MFG_MPZ2012.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0805 (2012 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Filter Type": "Power Line",
+      "Number of Lines": "1",
+      "Impedance @ Frequency": "330 Ohms @ 100 MHz",
+      "Current Rating (Max)": "2.5A",
+      "DC Resistance (DCR) (Max)": "50mOhm",
+      "Ratings": "-",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Package / Case": "0805 (2012 Metric)",
+      "Mounting Type": "Surface Mount",
+      "Height (Max)": "0.041\" (1.05mm)",
+      "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+    },
+    "compliance": {}
+  }
+}

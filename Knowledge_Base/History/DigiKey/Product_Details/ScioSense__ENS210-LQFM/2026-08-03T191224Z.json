@@ -1,0 +1,718 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:12:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "ScioSense",
+    "input_mpn": "ENS210-LQFM",
+    "resolved_manufacturer": "ScioSense",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "777"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "I2C, QFN4, DIGITAL PRE-CALIBRATE",
+        "DetailedDescription": "Humidity, Temperature 0 ~ 100% RH I2C ±2% RH 3 s Surface Mount"
+      },
+      "Manufacturer": {
+        "Id": 2618,
+        "Name": "ScioSense"
+      },
+      "ManufacturerProductNumber": "ENS210-LQFM",
+      "UnitPrice": 1.42,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/sciosense/ENS210-LQFM/6490747",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8389/ENS210.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2089/ENS210-LQFMx.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "2618-ENS210-LQFMTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3500,
+              "UnitPrice": 0.85083,
+              "TotalPrice": 2977.905
+            },
+            {
+              "BreakQuantity": 7000,
+              "UnitPrice": 0.82441,
+              "TotalPrice": 5770.87
+            },
+            {
+              "BreakQuantity": 10500,
+              "UnitPrice": 0.80998,
+              "TotalPrice": 8504.79
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2618,
+            "Name": "ScioSense"
+          },
+          "QuantityAvailableforPackageType": 7000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3500,
+          "StandardPackage": 3500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2618-ENS210-LQFMCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.42,
+              "TotalPrice": 1.42
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.256,
+              "TotalPrice": 6.28
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.195,
+              "TotalPrice": 11.95
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.1236,
+              "TotalPrice": 28.09
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.0742,
+              "TotalPrice": 53.71
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0291,
+              "TotalPrice": 102.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.93848,
+              "TotalPrice": 469.24
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.90479,
+              "TotalPrice": 904.79
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2618,
+            "Name": "ScioSense"
+          },
+          "QuantityAvailableforPackageType": 7265,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2618-ENS210-LQFMDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.42,
+              "TotalPrice": 1.42
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.256,
+              "TotalPrice": 6.28
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.195,
+              "TotalPrice": 11.95
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.1236,
+              "TotalPrice": 28.09
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.0742,
+              "TotalPrice": 53.71
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0291,
+              "TotalPrice": 102.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.93848,
+              "TotalPrice": 469.24
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.90479,
+              "TotalPrice": 904.79
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2618,
+            "Name": "ScioSense"
+          },
+          "QuantityAvailableforPackageType": 7265,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 7265,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 345,
+          "ParameterText": "Sensor Type",
+          "ParameterType": "String",
+          "ValueId": "356668",
+          "ValueText": "Humidity, Temperature"
+        },
+        {
+          "ParameterId": 444,
+          "ParameterText": "Humidity Range",
+          "ParameterType": "String",
+          "ValueId": "3013",
+          "ValueText": "0 ~ 100% RH"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 71,
+          "ParameterText": "Output",
+          "ParameterType": "String",
+          "ValueId": "107782",
+          "ValueText": "16b"
+        },
+        {
+          "ParameterId": 222,
+          "ParameterText": "Accuracy",
+          "ParameterType": "String",
+          "ValueId": "1685",
+          "ValueText": "±2% RH"
+        },
+        {
+          "ParameterId": 2239,
+          "ParameterText": "Response Time",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "3 s",
+          "ValueText": "3 s"
+        },
+        {
+          "ParameterId": 54,
+          "ParameterText": "Sensitivity",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "58218",
+          "ValueText": "1.71V ~ 3.6V"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212425",
+          "ValueText": "-40°C ~ 100°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "228896",
+          "ValueText": "4-WDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "228252",
+          "ValueText": "4-QFN (2x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 313085,
+        "Name": "ENS210"
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 529,
+            "ParentId": 25,
+            "Name": "Humidity, Moisture Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/178/956/HTM2500_tmb%2864x64%29.jpg",
+            "SeoDescription": "Moisture Sensors are designed to detect and respond to the presence or a change in the amount of humidity along with Pressure, Temperature, and Light. The output types are Analog Voltage, Capacitance, Digital, Frequency, I2C, LCD Display, LCD, PDM, PWM, Resistive, SDM, SPI, ZACwire, and ZigBee with accuracy ranging from ±1.5% RH to ±7% RH.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "4",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 119754,
+        "Name": "ENS210"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "RoHS Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "503700006",
+        "2618-503700011TR",
+        "2618-503700011TR-ND",
+        "ENS210-LQFMDKR",
+        "503700011",
+        "ENS210-LQFMTR",
+        "2618-ENS210-LQFMDKR",
+        "2618-ENS210-LQFMTR",
+        "ENS210-LQFMCT-ND",
+        "ENS210-LQFMTR-ND",
+        "ENS210-LQFMDKR-ND",
+        "2618-ENS210-LQFMCT",
+        "ENS210-LQFMCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:24Z",
+    "manufacturer_part_number": "ENS210-LQFM",
+    "product_quantity_available": 7265,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "4",
+    "product_unit_price": 1.42,
+    "offers": [
+      {
+        "provider_part_number": "2618-ENS210-LQFMCT-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7265,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.42,
+            "total_price": 1.42
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.256,
+            "total_price": 6.28
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.195,
+            "total_price": 11.95
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1236,
+            "total_price": 28.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0742,
+            "total_price": 53.71
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0291,
+            "total_price": 102.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93848,
+            "total_price": 469.24
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.90479,
+            "total_price": 904.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2618-ENS210-LQFMDKR-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7265,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.42,
+            "total_price": 1.42
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.256,
+            "total_price": 6.28
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.195,
+            "total_price": 11.95
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1236,
+            "total_price": 28.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0742,
+            "total_price": 53.71
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0291,
+            "total_price": 102.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93848,
+            "total_price": 469.24
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.90479,
+            "total_price": 904.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2618-ENS210-LQFMTR-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3500,
+        "pack_quantity": 3500,
+        "quantity_available": 7000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.85083,
+            "total_price": 2977.905
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.82441,
+            "total_price": 5770.87
+          },
+          {
+            "break_quantity": 10500,
+            "unit_price": 0.80998,
+            "total_price": 8504.79
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "2618-ENS210-LQFMCT-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7265,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.42,
+            "total_price": 1.42
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.256,
+            "total_price": 6.28
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.195,
+            "total_price": 11.95
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1236,
+            "total_price": 28.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0742,
+            "total_price": 53.71
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0291,
+            "total_price": 102.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93848,
+            "total_price": 469.24
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.90479,
+            "total_price": 904.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2618-ENS210-LQFMDKR-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7265,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.42,
+            "total_price": 1.42
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.256,
+            "total_price": 6.28
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.195,
+            "total_price": 11.95
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1236,
+            "total_price": 28.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.0742,
+            "total_price": 53.71
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0291,
+            "total_price": 102.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.93848,
+            "total_price": 469.24
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.90479,
+            "total_price": 904.79
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2618-ENS210-LQFMTR-ND",
+        "supplier": "ScioSense",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3500,
+        "pack_quantity": 3500,
+        "quantity_available": 7000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.85083,
+            "total_price": 2977.905
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.82441,
+            "total_price": 5770.87
+          },
+          {
+            "break_quantity": 10500,
+            "unit_price": 0.80998,
+            "total_price": 8504.79
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:12:24Z",
+    "manufacturer": "ScioSense",
+    "manufacturer_part_number": "ENS210-LQFM",
+    "provider_part_number": "",
+    "description": "I2C, QFN4, DIGITAL PRE-CALIBRATE",
+    "detailed_description": "Humidity, Temperature 0 ~ 100% RH I2C ±2% RH 3 s Surface Mount",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8389/ENS210.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/sciosense/ENS210-LQFM/6490747",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2089/ENS210-LQFMx.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "4-WDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Sensor Type": "Humidity, Temperature",
+      "Humidity Range": "0 ~ 100% RH",
+      "Output Type": "I2C",
+      "Output": "16b",
+      "Accuracy": "±2% RH",
+      "Response Time": "3 s",
+      "Sensitivity": "-",
+      "Voltage - Supply": "1.71V ~ 3.6V",
+      "Mounting Type": "Surface Mount",
+      "Operating Temperature": "-40°C ~ 100°C",
+      "Package / Case": "4-WDFN Exposed Pad",
+      "Supplier Device Package": "4-QFN (2x2)"
+    },
+    "compliance": {}
+  }
+}

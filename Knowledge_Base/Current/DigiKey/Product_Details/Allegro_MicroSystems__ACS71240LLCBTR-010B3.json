@@ -1,0 +1,734 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Allegro MicroSystems",
+    "input_mpn": "ACS71240LLCBTR-010B3",
+    "resolved_manufacturer": "Allegro MicroSystems",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "873"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CURRENT SENSOR HE/OL 10A 8-SOIC",
+        "DetailedDescription": "Current Sensor 10A 1 Channel Hall Effect, Open Loop Bidirectional 8-SOIC (0.154\", 3.90mm Width)"
+      },
+      "Manufacturer": {
+        "Id": 620,
+        "Name": "Allegro MicroSystems"
+      },
+      "ManufacturerProductNumber": "ACS71240LLCBTR-010B3",
+      "UnitPrice": 2.47,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/allegro-microsystems/ACS71240LLCBTR-010B3/10146663",
+      "DatasheetUrl": "https://www.allegromicro.com/~/media/files/datasheets/acs71240-datasheet.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6822/MFG_620%7E8SOIC-3.9%7ELC%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "620-2051-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 1.5416,
+              "TotalPrice": 4624.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 620,
+            "Name": "Allegro MicroSystems"
+          },
+          "QuantityAvailableforPackageType": 6000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "620-2051-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.47,
+              "TotalPrice": 2.47
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 2.202,
+              "TotalPrice": 11.01
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.102,
+              "TotalPrice": 21.02
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.9828,
+              "TotalPrice": 49.57
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9014,
+              "TotalPrice": 95.07
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8268,
+              "TotalPrice": 182.68
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.6767,
+              "TotalPrice": 838.35
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.62082,
+              "TotalPrice": 1620.82
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 620,
+            "Name": "Allegro MicroSystems"
+          },
+          "QuantityAvailableforPackageType": 6460,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "620-2051-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.47,
+              "TotalPrice": 2.47
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 2.202,
+              "TotalPrice": 11.01
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.102,
+              "TotalPrice": 21.02
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.9828,
+              "TotalPrice": 49.57
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9014,
+              "TotalPrice": 95.07
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8268,
+              "TotalPrice": 182.68
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.6767,
+              "TotalPrice": 838.35
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.62082,
+              "TotalPrice": 1620.82
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 620,
+            "Name": "Allegro MicroSystems"
+          },
+          "QuantityAvailableforPackageType": 6460,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 6460,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1076,
+          "ParameterText": "For Measuring",
+          "ParameterType": "String",
+          "ValueId": "307332",
+          "ValueText": "AC/DC"
+        },
+        {
+          "ParameterId": 345,
+          "ParameterText": "Sensor Type",
+          "ParameterType": "String",
+          "ValueId": "352504",
+          "ValueText": "Hall Effect, Open Loop"
+        },
+        {
+          "ParameterId": 1153,
+          "ParameterText": "Current - Sensing",
+          "ParameterType": "String",
+          "ValueId": "72441",
+          "ValueText": "10A"
+        },
+        {
+          "ParameterId": 2093,
+          "ParameterText": "Number of Channels",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 71,
+          "ParameterText": "Output",
+          "ParameterType": "String",
+          "ValueId": "420137",
+          "ValueText": "Voltage"
+        },
+        {
+          "ParameterId": 54,
+          "ParameterText": "Sensitivity",
+          "ParameterType": "String",
+          "ValueId": "90691",
+          "ValueText": "132mV/A"
+        },
+        {
+          "ParameterId": 139,
+          "ParameterText": "Frequency",
+          "ParameterType": "String",
+          "ValueId": "84024",
+          "ValueText": "120kHz"
+        },
+        {
+          "ParameterId": 381,
+          "ParameterText": "Linearity",
+          "ParameterType": "String",
+          "ValueId": "1131",
+          "ValueText": "±1%"
+        },
+        {
+          "ParameterId": 222,
+          "ParameterText": "Accuracy",
+          "ParameterType": "String",
+          "ValueId": "2682",
+          "ValueText": "±6%"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "202821",
+          "ValueText": "3V ~ 3.6V"
+        },
+        {
+          "ParameterId": 343,
+          "ParameterText": "Response Time",
+          "ParameterType": "String",
+          "ValueId": "211633",
+          "ValueText": "4µs"
+        },
+        {
+          "ParameterId": 1121,
+          "ParameterText": "Current - Supply (Max)",
+          "ParameterType": "String",
+          "ValueId": "87183",
+          "ValueText": "12mA"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212507",
+          "ValueText": "-40°C ~ 150°C"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "316912",
+          "ValueText": "Automotive"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "312102",
+          "ValueText": "AEC-Q100"
+        },
+        {
+          "ParameterId": 52,
+          "ParameterText": "Polarization",
+          "ParameterType": "String",
+          "ValueId": "319712",
+          "ValueText": "Bidirectional"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "294928",
+          "ValueText": "8-SOIC (0.154\", 3.90mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294926",
+          "ValueText": "8-SOIC"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 300565,
+        "Name": "ACS712"
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 525,
+            "ParentId": 25,
+            "Name": "Current Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/280/501/MFG_AT-SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Current Sensors are designed to detect and respond to changes in the flow of electricity in a wire or circuit. The sensor types are current switch, flux gate, hall effect, current indicator, current sensor, magnetic modulator, magnetoresistive, and transformer w/conditioning with current sensing ranging from programmable to 5mA to 2500A for measuring AC or DC current.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "36",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "2  (1 Year)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "620-2051-2",
+        "620-2051-6",
+        "620-2051-1"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "manufacturer_part_number": "ACS71240LLCBTR-010B3",
+    "product_quantity_available": 6460,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "36",
+    "product_unit_price": 2.47,
+    "offers": [
+      {
+        "provider_part_number": "620-2051-1-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6460,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": 2.47
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 2.202,
+            "total_price": 11.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.102,
+            "total_price": 21.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.9828,
+            "total_price": 49.57
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9014,
+            "total_price": 95.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8268,
+            "total_price": 182.68
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.6767,
+            "total_price": 838.35
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.62082,
+            "total_price": 1620.82
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "620-2051-6-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6460,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": 2.47
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 2.202,
+            "total_price": 11.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.102,
+            "total_price": 21.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.9828,
+            "total_price": 49.57
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9014,
+            "total_price": 95.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8268,
+            "total_price": 182.68
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.6767,
+            "total_price": 838.35
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.62082,
+            "total_price": 1620.82
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "620-2051-2-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 6000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.5416,
+            "total_price": 4624.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "620-2051-1-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6460,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": 2.47
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 2.202,
+            "total_price": 11.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.102,
+            "total_price": 21.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.9828,
+            "total_price": 49.57
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9014,
+            "total_price": 95.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8268,
+            "total_price": 182.68
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.6767,
+            "total_price": 838.35
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.62082,
+            "total_price": 1620.82
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "620-2051-6-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6460,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.47,
+            "total_price": 2.47
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 2.202,
+            "total_price": 11.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.102,
+            "total_price": 21.02
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.9828,
+            "total_price": 49.57
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9014,
+            "total_price": 95.07
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8268,
+            "total_price": 182.68
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.6767,
+            "total_price": 838.35
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.62082,
+            "total_price": 1620.82
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "620-2051-2-ND",
+        "supplier": "Allegro MicroSystems",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 6000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.5416,
+            "total_price": 4624.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:45Z",
+    "manufacturer": "Allegro MicroSystems",
+    "manufacturer_part_number": "ACS71240LLCBTR-010B3",
+    "provider_part_number": "",
+    "description": "CURRENT SENSOR HE/OL 10A 8-SOIC",
+    "detailed_description": "Current Sensor 10A 1 Channel Hall Effect, Open Loop Bidirectional 8-SOIC (0.154\", 3.90mm Width)",
+    "datasheet_url": "https://www.allegromicro.com/~/media/files/datasheets/acs71240-datasheet.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/allegro-microsystems/ACS71240LLCBTR-010B3/10146663",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6822/MFG_620%7E8SOIC-3.9%7ELC%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-SOIC (0.154\", 3.90mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "For Measuring": "AC/DC",
+      "Sensor Type": "Hall Effect, Open Loop",
+      "Current - Sensing": "10A",
+      "Number of Channels": "1",
+      "Output": "Voltage",
+      "Sensitivity": "132mV/A",
+      "Frequency": "120kHz",
+      "Linearity": "±1%",
+      "Accuracy": "±6%",
+      "Voltage - Supply": "3V ~ 3.6V",
+      "Response Time": "4µs",
+      "Current - Supply (Max)": "12mA",
+      "Operating Temperature": "-40°C ~ 150°C",
+      "Grade": "Automotive",
+      "Qualification": "AEC-Q100",
+      "Polarization": "Bidirectional",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-SOIC (0.154\", 3.90mm Width)",
+      "Supplier Device Package": "8-SOIC"
+    },
+    "compliance": {}
+  }
+}

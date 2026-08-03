@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:13:05Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "OMRON Electronic Components",
+    "input_mpn": "B3FS-4005P",
+    "resolved_manufacturer": "OMRON Electronic Components",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "B3FS-4005P",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113048,
+              "name": "Microswitches TACT"
+            },
+            "manufacturer_symbols": [
+              "B3FS-4005P"
+            ],
+            "manufacturer": {
+              "id": 1532,
+              "name": "OMRON Electronic Components"
+            },
+            "description": "Microswitch TACT; SPST-NO; Pos: 2; 0.05A/24VDC; SMT; none; 2.55N",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.106,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 1000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/AE/7A/F0/00/0/1026026_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=659965567c74f97a1de6295e56ff5ad389bf8452",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/AE/7A/F0/00/0/1026026_1.jpg?width=100&height=75&q=75&ci_sign=548d107eceac5928ec5e14a4b9df5749ecc84202",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/AE/7A/F0/00/0/1026026_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=da042c61e50374eedc77eb3acac5a1e5922270bd"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:59Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MOLEX",
+    "input_mpn": "2169900001",
+    "resolved_manufacturer": "MOLEX",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "2169900001-MOL",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 162,
+                    "value": "MOLEX"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1597857,
+                    "value": "USB C"
+                  }
+                ]
+              },
+              {
+                "id": 1322,
+                "name": "Mechanical mounting",
+                "values": [
+                  {
+                    "id": 1436472,
+                    "value": "on PCBs"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443988,
+                    "value": "16"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1446994,
+                    "value": "angled"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1436423,
+                    "value": "shielded"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 1472280,
+                    "value": "USB 2.0"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1436303,
+                    "value": "gold-plated"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1449041,
+                    "value": "1.25A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1447009,
+                    "value": "30V"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1452681,
+                    "value": "10000 cycles"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:29Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "CM1624-08DE",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "EMI Filter Circuits 8-CH EMI Filter for T-Flash/MicroSD",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/UDFN_16_case_517BE_DSL.jpg",
+          "Category": "EMI Filter Circuits",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "CM1624-08DE",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "748-CM1624-08DE",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/CM1624-08DE?qs=bXBibfwyPRFMJRiP9A%252BDOw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0002
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8533290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8548000001"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8548000000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8548000000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854800000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85332999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85415020"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "",
+    "captured_at_utc": "2026-08-03T19:07:29Z",
+    "manufacturer_part_number": "CM1624-08DE",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": null,
+    "offers": [
+      {
+        "provider_part_number": "748-CM1624-08DE",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "748-CM1624-08DE",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:29Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "CM1624-08DE",
+    "provider_part_number": "748-CM1624-08DE",
+    "description": "EMI Filter Circuits 8-CH EMI Filter for T-Flash/MicroSD",
+    "detailed_description": "EMI Filter Circuits 8-CH EMI Filter for T-Flash/MicroSD",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/CM1624-08DE?qs=bXBibfwyPRFMJRiP9A%252BDOw%3D%3D",
+    "image_url": "https://www.mouser.com/images/onsemiconductor/images/UDFN_16_case_517BE_DSL.jpg",
+    "lifecycle_status": "End of Life",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8533290000",
+      "CNHTS": "8548000001",
+      "CAHTS": "8548000000",
+      "USHTS": "8548000000",
+      "JPHTS": "854800000",
+      "MXHTS": "85332999",
+      "BRHTS": "85415020",
+      "ECCN": "EAR99"
+    }
+  }
+}

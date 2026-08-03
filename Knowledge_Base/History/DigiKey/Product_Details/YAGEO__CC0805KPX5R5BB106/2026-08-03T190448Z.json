@@ -1,0 +1,635 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:48Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "CC0805KPX5R5BB106",
+    "resolved_manufacturer": "YAGEO",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "953"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP CER 10UF 6.3V X5R 0805",
+        "DetailedDescription": "10 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 13,
+        "Name": "YAGEO"
+      },
+      "ManufacturerProductNumber": "CC0805KPX5R5BB106",
+      "UnitPrice": 0.19,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/yageo/CC0805KPX5R5BB106/11611317",
+      "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2485/0805%288%5E5mm%20thickness%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "13-CC0805KPX5R5BB106TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.03293,
+              "TotalPrice": 493.95
+            },
+            {
+              "BreakQuantity": 45000,
+              "UnitPrice": 0.03,
+              "TotalPrice": 1350.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 30000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 15000,
+          "StandardPackage": 15000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "13-CC0805KPX5R5BB106CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.19,
+              "TotalPrice": 0.19
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.109,
+              "TotalPrice": 1.09
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0772,
+              "TotalPrice": 3.86
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0672,
+              "TotalPrice": 6.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.05064,
+              "TotalPrice": 25.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 55044,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "13-CC0805KPX5R5BB106DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.19,
+              "TotalPrice": 0.19
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.109,
+              "TotalPrice": 1.09
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0772,
+              "TotalPrice": 3.86
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0672,
+              "TotalPrice": 6.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.05064,
+              "TotalPrice": 25.32
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 13,
+            "Name": "YAGEO"
+          },
+          "QuantityAvailableforPackageType": 55044,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 55044,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6365329721112",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 µF",
+          "ValueText": "10 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1340",
+          "ValueText": "±10%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "252155",
+          "ValueText": "6.3V"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "422407",
+          "ValueText": "X5R"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "243000",
+          "ValueText": "-55°C ~ 85°C"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409416",
+          "ValueText": "Surface Mount, MLCC"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39329",
+          "ValueText": "0805 (2012 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "8569",
+          "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1501,
+          "ParameterText": "Thickness (Max)",
+          "ParameterType": "String",
+          "ValueId": "6126",
+          "ValueText": "0.037\" (0.95mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 4,
+          "ParameterText": "Lead Style",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 60,
+            "ParentId": 3,
+            "Name": "Ceramic Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "64",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1727,
+        "Name": "CC"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "13-CC0805KPX5R5BB106TR",
+        "13-CC0805KPX5R5BB106CT",
+        "13-CC0805KPX5R5BB106DKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:48Z",
+    "manufacturer_part_number": "CC0805KPX5R5BB106",
+    "product_quantity_available": 55044,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "64",
+    "product_unit_price": 0.19,
+    "offers": [
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106CT-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55044,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.19,
+            "total_price": 0.19
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.109,
+            "total_price": 1.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0772,
+            "total_price": 3.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0672,
+            "total_price": 6.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.05064,
+            "total_price": 25.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106DKR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55044,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.19,
+            "total_price": 0.19
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.109,
+            "total_price": 1.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0772,
+            "total_price": 3.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0672,
+            "total_price": 6.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.05064,
+            "total_price": 25.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106TR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 30000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.03293,
+            "total_price": 493.95
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.03,
+            "total_price": 1350.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106CT-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55044,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.19,
+            "total_price": 0.19
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.109,
+            "total_price": 1.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0772,
+            "total_price": 3.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0672,
+            "total_price": 6.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.05064,
+            "total_price": 25.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106DKR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 55044,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.19,
+            "total_price": 0.19
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.109,
+            "total_price": 1.09
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0772,
+            "total_price": 3.86
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0672,
+            "total_price": 6.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.05064,
+            "total_price": 25.32
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "13-CC0805KPX5R5BB106TR-ND",
+        "supplier": "YAGEO",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 30000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.03293,
+            "total_price": 493.95
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.03,
+            "total_price": 1350.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:48Z",
+    "manufacturer": "YAGEO",
+    "manufacturer_part_number": "CC0805KPX5R5BB106",
+    "provider_part_number": "",
+    "description": "CAP CER 10UF 6.3V X5R 0805",
+    "detailed_description": "10 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V",
+    "product_url": "https://www.digikey.ie/en/products/detail/yageo/CC0805KPX5R5BB106/11611317",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2485/0805%288%5E5mm%20thickness%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0805 (2012 Metric)",
+    "mounting_type": "Surface Mount, MLCC",
+    "attributes": {
+      "Capacitance": "10 µF",
+      "Tolerance": "±10%",
+      "Voltage - Rated": "6.3V",
+      "Temperature Coefficient": "X5R",
+      "Operating Temperature": "-55°C ~ 85°C",
+      "Features": "-",
+      "Ratings": "-",
+      "Applications": "General Purpose",
+      "Failure Rate": "-",
+      "Mounting Type": "Surface Mount, MLCC",
+      "Package / Case": "0805 (2012 Metric)",
+      "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+      "Height - Seated (Max)": "-",
+      "Thickness (Max)": "0.037\" (0.95mm)",
+      "Lead Spacing": "-",
+      "Lead Style": "-"
+    },
+    "compliance": {}
+  }
+}

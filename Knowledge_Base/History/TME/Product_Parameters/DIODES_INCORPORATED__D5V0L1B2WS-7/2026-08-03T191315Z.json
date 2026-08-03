@@ -1,0 +1,154 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:13:15Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "D5V0L1B2WS-7",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "D5V0L1B2WS-7",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 584,
+                    "value": "DIODES INCORPORATED"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1440400,
+                    "value": "TVS"
+                  }
+                ]
+              },
+              {
+                "id": 3409,
+                "name": "Peak pulse power dissipation",
+                "values": [
+                  {
+                    "id": 1930586,
+                    "value": "84W"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1440536,
+                    "value": "5V"
+                  }
+                ]
+              },
+              {
+                "id": 243,
+                "name": "Breakdown voltage",
+                "values": [
+                  {
+                    "id": 1739369,
+                    "value": "6...8V"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1586754,
+                    "value": "6A"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1440419,
+                    "value": "bidirectional"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1440251,
+                    "value": "SOD323"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1615249,
+                    "value": "0.1µA"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

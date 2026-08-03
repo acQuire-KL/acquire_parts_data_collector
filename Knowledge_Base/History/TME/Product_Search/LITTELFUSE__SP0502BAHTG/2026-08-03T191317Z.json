@@ -1,0 +1,71 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:13:17Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LITTELFUSE",
+    "input_mpn": "SP0502BAHTG",
+    "resolved_manufacturer": "LITTELFUSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS",
+              "NEW"
+            ],
+            "symbol": "SP0502BAHTG-LF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113178,
+              "name": "Protection diodes - arrays"
+            },
+            "manufacturer_symbols": [
+              "SP0502BAHTG"
+            ],
+            "manufacturer": {
+              "id": 454,
+              "name": "LITTELFUSE"
+            },
+            "description": "Diode: TVS array; 6V; 0.025kW; unidirectional; ESD; SOT23-3; Ch: 2",
+            "multiples": 3000,
+            "minimal_amount": 3000,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/C8/D7/61/00/0/1473932_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1679390983a5071dad739d70802d156ba08626f2",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/C8/D7/61/00/0/1473932_1.jpg?width=100&height=75&q=75&ci_sign=e0a43e2db0fa07cb308a26702db493106a4b5fb4",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

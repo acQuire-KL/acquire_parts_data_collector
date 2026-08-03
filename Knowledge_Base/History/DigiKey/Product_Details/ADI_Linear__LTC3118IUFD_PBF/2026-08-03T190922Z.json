@@ -1,0 +1,424 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:22Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "ADI / Linear",
+    "input_mpn": "LTC3118IUFD#PBF",
+    "resolved_manufacturer": "ADI / Linear",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "836"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG BUCK BOOST ADJ 2A 24QFN",
+        "DetailedDescription": "Buck-Boost Switching Regulator IC Positive Adjustable 2V 1 Output 2A 24-WFQFN Exposed Pad"
+      },
+      "Manufacturer": {
+        "Id": 505,
+        "Name": "Analog Devices Inc."
+      },
+      "ManufacturerProductNumber": "LTC3118IUFD#PBF",
+      "UnitPrice": 16.63,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC3118IUFD-PBF/5171469",
+      "DatasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/3118fa.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4895/505%7E05-08-1696%7EUFD%7E24.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "LTC3118IUFD#PBF-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 16.63,
+              "TotalPrice": 16.63
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 13.238,
+              "TotalPrice": 132.38
+            },
+            {
+              "BreakQuantity": 73,
+              "UnitPrice": 11.63986,
+              "TotalPrice": 849.70978
+            },
+            {
+              "BreakQuantity": 146,
+              "UnitPrice": 11.26164,
+              "TotalPrice": 1644.19944
+            },
+            {
+              "BreakQuantity": 292,
+              "UnitPrice": 10.95051,
+              "TotalPrice": 3197.54892
+            },
+            {
+              "BreakQuantity": 511,
+              "UnitPrice": 10.73996,
+              "TotalPrice": 5488.11956
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 517,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 73,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 517,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5784650641001",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "408393",
+          "ValueText": "Step-Up/Step-Down"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "323652",
+          "ValueText": "Buck-Boost"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "310372",
+          "ValueText": "Adjustable"
+        },
+        {
+          "ParameterId": 87,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1471,
+          "ParameterText": "Voltage - Input (Min)",
+          "ParameterType": "String",
+          "ValueId": "126943",
+          "ValueText": "2.2V"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "116509",
+          "ValueText": "18V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "168722",
+          "ValueText": "2V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "116509",
+          "ValueText": "18V"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        },
+        {
+          "ParameterId": 384,
+          "ParameterText": "Frequency - Switching",
+          "ParameterType": "String",
+          "ValueId": "48570",
+          "ValueText": "1.2MHz"
+        },
+        {
+          "ParameterId": 1320,
+          "ParameterText": "Synchronous Rectifier",
+          "ParameterType": "String",
+          "ValueId": "423329",
+          "ValueText": "Yes"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212481",
+          "ValueText": "-40°C ~ 125°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "155354",
+          "ValueText": "24-WFQFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "155045",
+          "ValueText": "24-QFN (4x5)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 115403,
+        "Name": "LTC3118"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 739,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - DC DC Switching Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/932/150%3B-C04-1196%3B-PHA%3B-32_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the DC-DC switching regulator PMIC (Power Management Integrated Circuit) family are component-level devices used in applications requiring stabilization of a DC input voltage and/or transformation thereof to an output voltage of different magnitude. They are distinguished from similar products called \"controller\" PMICs by virtue of integrating the main switching element through which the power delivered by the device passes.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "10",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "-2735-LTC3118IUFD#PBF"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:22Z",
+    "manufacturer_part_number": "LTC3118IUFD#PBF",
+    "product_quantity_available": 517,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "10",
+    "product_unit_price": 16.63,
+    "offers": [
+      {
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 73,
+        "quantity_available": 517,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 16.63,
+            "total_price": 16.63
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 13.238,
+            "total_price": 132.38
+          },
+          {
+            "break_quantity": 73,
+            "unit_price": 11.63986,
+            "total_price": 849.70978
+          },
+          {
+            "break_quantity": 146,
+            "unit_price": 11.26164,
+            "total_price": 1644.19944
+          },
+          {
+            "break_quantity": 292,
+            "unit_price": 10.95051,
+            "total_price": 3197.54892
+          },
+          {
+            "break_quantity": 511,
+            "unit_price": 10.73996,
+            "total_price": 5488.11956
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 73,
+        "quantity_available": 517,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 16.63,
+            "total_price": 16.63
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 13.238,
+            "total_price": 132.38
+          },
+          {
+            "break_quantity": 73,
+            "unit_price": 11.63986,
+            "total_price": 849.70978
+          },
+          {
+            "break_quantity": 146,
+            "unit_price": 11.26164,
+            "total_price": 1644.19944
+          },
+          {
+            "break_quantity": 292,
+            "unit_price": 10.95051,
+            "total_price": 3197.54892
+          },
+          {
+            "break_quantity": 511,
+            "unit_price": 10.73996,
+            "total_price": 5488.11956
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:22Z",
+    "manufacturer": "Analog Devices Inc.",
+    "manufacturer_part_number": "LTC3118IUFD#PBF",
+    "provider_part_number": "",
+    "description": "IC REG BUCK BOOST ADJ 2A 24QFN",
+    "detailed_description": "Buck-Boost Switching Regulator IC Positive Adjustable 2V 1 Output 2A 24-WFQFN Exposed Pad",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/3118fa.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC3118IUFD-PBF/5171469",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4895/505%7E05-08-1696%7EUFD%7E24.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "24-WFQFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Step-Up/Step-Down",
+      "Output Configuration": "Positive",
+      "Topology": "Buck-Boost",
+      "Output Type": "Adjustable",
+      "Number of Outputs": "1",
+      "Voltage - Input (Min)": "2.2V",
+      "Voltage - Input (Max)": "18V",
+      "Voltage - Output (Min/Fixed)": "2V",
+      "Voltage - Output (Max)": "18V",
+      "Current - Output": "2A",
+      "Frequency - Switching": "1.2MHz",
+      "Synchronous Rectifier": "Yes",
+      "Operating Temperature": "-40°C ~ 125°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "24-WFQFN Exposed Pad",
+      "Supplier Device Package": "24-QFN (4x5)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:04:52Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TAJA106K010RNJ",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 3,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "Tantalum Capacitors - Solid SMD 10V 10uF 10% 1206 ES R= 3 Ohm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/avx/images/TAJ_series_DSL.jpg",
+          "Category": "Tantalum Capacitors - Solid SMD",
+          "LeadTime": "91 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "TAJA106K010RNJ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "581-TAJA106K010",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.151",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.135",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.091",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TAJA106K010RNJ?qs=OVpPYgiJXXXdYDvaS2xyLQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.7e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 143778,
+              "Date": "2026-08-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "El Salvador"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Tantalum Capacitors - Solid SMD",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Tantalum Capacitors - Solid SMD",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "TAJA106K010RNJ-",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TAJA106K010RNJ-?qs=%252BXxaIXUDbq3OT30cJgxN%2FA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "Availability": "5916 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Tantalum Capacitors - Solid SMD 10V 10uF 10% 1206 12 06 SMD",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/avx/images/TAJ_series_DSL.jpg",
+          "Category": "Tantalum Capacitors - Solid SMD",
+          "LeadTime": "91 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KYOCERA AVX",
+          "ManufacturerPartNumber": "TAJA106K010RNJV",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "581-TAJA106K010RNJV",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.421",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.243",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.146",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.118",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.078",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TAJA106K010RNJV?qs=q%252BHV0zBR8MhA8vzi7uQCHA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.7e-05
+          },
+          "AvailabilityInStock": "5916",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 14000,
+              "Date": "2026-12-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532211000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532210010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532210050"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853221000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532210000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "El Salvador"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:52Z",
+    "manufacturer_part_number": "TAJA106K010RNJ",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "91 Days",
+    "product_unit_price": 0.344,
+    "offers": [
+      {
+        "provider_part_number": "581-TAJA106K010",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.151,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.091,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.076,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "581-TAJA106K010",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.151,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.091,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.076,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:04:52Z",
+    "manufacturer": "KYOCERA AVX",
+    "manufacturer_part_number": "TAJA106K010RNJ",
+    "provider_part_number": "581-TAJA106K010",
+    "description": "Tantalum Capacitors - Solid SMD 10V 10uF 10% 1206 ES R= 3 Ohm",
+    "detailed_description": "Tantalum Capacitors - Solid SMD 10V 10uF 10% 1206 ES R= 3 Ohm",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/KYOCERA-AVX/TAJA106K010RNJ?qs=OVpPYgiJXXXdYDvaS2xyLQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/avx/images/TAJ_series_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8532210000",
+      "CNHTS": "8532211000",
+      "CAHTS": "8532210010",
+      "USHTS": "8532210050",
+      "JPHTS": "853221000",
+      "KRHTS": "8532210000",
+      "MXHTS": "8532210100",
+      "ECCN": "EAR99"
+    }
+  }
+}

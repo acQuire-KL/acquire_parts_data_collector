@@ -1,0 +1,89 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:08:36Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "TMUX1108PWR",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "TMUX1108PWR",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 4.49,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 4.14,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 3.82,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 3.65,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 3.47,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 3.3,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 3.07,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 2.81,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 2.63,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:21Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "input_mpn": "LTC2630ISC6-LZ12#TRMPBF",
+    "resolved_manufacturer": "Analog Devices Inc./Maxim Integrated",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "905"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC DAC 12BIT SC-70-6",
+        "DetailedDescription": "12 Bit Digital to Analog Converter 1 SC-70-6"
+      },
+      "Manufacturer": {
+        "Id": 505,
+        "Name": "Analog Devices Inc."
+      },
+      "ManufacturerProductNumber": "LTC2630ISC6-LZ12#TRMPBF",
+      "UnitPrice": 4.75,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC2630ISC6-LZ12-TRMPBF/1643754",
+      "DatasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/2630fg.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6285/505%7E05-08-1638%7ESC%7E6.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "LTC2630ISC6-LZ12#TRMPBFTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.79664,
+              "TotalPrice": 1398.32
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 2.72363,
+              "TotalPrice": 2723.63
+            },
+            {
+              "BreakQuantity": 1500,
+              "UnitPrice": 2.68707,
+              "TotalPrice": 4030.605
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 2.64656,
+              "TotalPrice": 6616.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 500,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "LTC2630ISC6-LZ12#TRMPBFCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.75,
+              "TotalPrice": 4.75
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 3.622,
+              "TotalPrice": 36.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.3412,
+              "TotalPrice": 83.53
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 3.0326,
+              "TotalPrice": 303.26
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 2.90308,
+              "TotalPrice": 725.77
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 3308,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "LTC2630ISC6-LZ12#TRMPBFDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.75,
+              "TotalPrice": 4.75
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 3.622,
+              "TotalPrice": 36.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.3412,
+              "TotalPrice": 83.53
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 3.0326,
+              "TotalPrice": 303.26
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 2.90308,
+              "TotalPrice": 725.77
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 3308,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 3308,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5981704610001",
+      "Parameters": [
+        {
+          "ParameterId": 153,
+          "ParameterText": "Number of Bits",
+          "ParameterType": "String",
+          "ValueId": "80383",
+          "ValueText": "12"
+        },
+        {
+          "ParameterId": 1973,
+          "ParameterText": "Number of D/A Converters",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 997,
+          "ParameterText": "Settling Time",
+          "ParameterType": "String",
+          "ValueId": "207007",
+          "ValueText": "4.4µs (Typ)"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "420138",
+          "ValueText": "Voltage - Buffered"
+        },
+        {
+          "ParameterId": 1975,
+          "ParameterText": "Differential Output",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 243,
+          "ParameterText": "Data Interface",
+          "ParameterType": "String",
+          "ValueId": "406106",
+          "ValueText": "SPI"
+        },
+        {
+          "ParameterId": 245,
+          "ParameterText": "Reference Type",
+          "ParameterType": "String",
+          "ValueId": "359741",
+          "ValueText": "Internal, Supply"
+        },
+        {
+          "ParameterId": 346,
+          "ParameterText": "Voltage - Supply, Analog",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 347,
+          "ParameterText": "Voltage - Supply, Digital",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 1974,
+          "ParameterText": "INL/DNL (LSB)",
+          "ParameterType": "String",
+          "ValueId": "1152",
+          "ValueText": "±1, ±1 (Max)"
+        },
+        {
+          "ParameterId": 1523,
+          "ParameterText": "Architecture",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "267377",
+          "ValueText": "6-TSSOP, SC-88, SOT-363"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "400206",
+          "ValueText": "SC-70-6"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 118053,
+        "Name": "LTC2630"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 701,
+                "ParentId": 2009,
+                "Name": "Digital to Analog Converters (DAC)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/505-SOT-23-8_1_tmb%2864x64%29.jpg",
+                "SeoDescription": "Digital-to-analog converters (DAC, D/A, D2A, or D-to-A) convert a digital signal into an analog buffered or unbuffered voltage or current. The suitability of a DACs architecture for a particular application is determined by resolution and sampling frequency. DACs are commonly used in music players to convert digital data streams into analog audio signals. They are also used in televisions and mobile phones to convert digital video data into analog video signals which connect to the screen drivers to display monochrome or color images.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "10",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0040"
+      },
+      "OtherNames": [
+        "LTC2630ISC6-LZ12#TRMPBFCT",
+        "LTC2630ISC6-LZ12#TRMPBFTR",
+        "LTC2630ISC6-LZ12#TRMPBFDKR",
+        "-2735-LTC2630ISC6-LZ12#TRMPBFCT",
+        "LTC2630ISC6LZ12TRMPBF"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:21Z",
+    "manufacturer_part_number": "LTC2630ISC6-LZ12#TRMPBF",
+    "product_quantity_available": 3308,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "10",
+    "product_unit_price": 4.75,
+    "offers": [
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFCT-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3308,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.75,
+            "total_price": 4.75
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.622,
+            "total_price": 36.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.3412,
+            "total_price": 83.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.0326,
+            "total_price": 303.26
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.90308,
+            "total_price": 725.77
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFDKR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3308,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.75,
+            "total_price": 4.75
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.622,
+            "total_price": 36.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.3412,
+            "total_price": 83.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.0326,
+            "total_price": 303.26
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.90308,
+            "total_price": 725.77
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFTR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 2.79664,
+            "total_price": 1398.32
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.72363,
+            "total_price": 2723.63
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 2.68707,
+            "total_price": 4030.605
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.64656,
+            "total_price": 6616.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFCT-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3308,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.75,
+            "total_price": 4.75
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.622,
+            "total_price": 36.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.3412,
+            "total_price": 83.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.0326,
+            "total_price": 303.26
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.90308,
+            "total_price": 725.77
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFDKR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3308,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.75,
+            "total_price": 4.75
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.622,
+            "total_price": 36.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.3412,
+            "total_price": 83.53
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.0326,
+            "total_price": 303.26
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.90308,
+            "total_price": 725.77
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "LTC2630ISC6-LZ12#TRMPBFTR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 2.79664,
+            "total_price": 1398.32
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.72363,
+            "total_price": 2723.63
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 2.68707,
+            "total_price": 4030.605
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.64656,
+            "total_price": 6616.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:21Z",
+    "manufacturer": "Analog Devices Inc.",
+    "manufacturer_part_number": "LTC2630ISC6-LZ12#TRMPBF",
+    "provider_part_number": "",
+    "description": "IC DAC 12BIT SC-70-6",
+    "detailed_description": "12 Bit Digital to Analog Converter 1 SC-70-6",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/2630fg.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC2630ISC6-LZ12-TRMPBF/1643754",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6285/505%7E05-08-1638%7ESC%7E6.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "6-TSSOP, SC-88, SOT-363",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Bits": "12",
+      "Number of D/A Converters": "1",
+      "Settling Time": "4.4µs (Typ)",
+      "Output Type": "Voltage - Buffered",
+      "Differential Output": "No",
+      "Data Interface": "SPI",
+      "Reference Type": "Internal, Supply",
+      "Voltage - Supply, Analog": "2.7V ~ 5.5V",
+      "Voltage - Supply, Digital": "2.7V ~ 5.5V",
+      "INL/DNL (LSB)": "±1, ±1 (Max)",
+      "Architecture": "-",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Package / Case": "6-TSSOP, SC-88, SOT-363",
+      "Supplier Device Package": "SC-70-6",
+      "Mounting Type": "Surface Mount"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T18:59:50Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TE Connectivity",
+    "input_mpn": "BAT-HLD-001-THM",
+    "resolved_manufacturer": "TE Connectivity",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "8203 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Coin Cell Battery Holders Bat Hld CR2032/2025 Through-hole Mount",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/linxtechnologies/images/bat-hld-001-thm_SPL.jpg",
+          "Category": "Coin Cell Battery Holders",
+          "LeadTime": "80 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity / Linx Technologies",
+          "ManufacturerPartNumber": "BAT-HLD-001-THM",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "712-BAT-HLD-001-THM",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.662",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.581",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.50",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.479",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.438",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.416",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.345",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.326",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00078
+          },
+          "AvailabilityInStock": "8203",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 40000,
+              "Date": "2026-10-15T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536909599"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536909000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536900090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536908585"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853690000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536909090"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85369090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Coin Cell Battery Holders Bat Holder CR2032 THM Tape n Reel",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/linxtechnologies/images/BAT-HLD-001-THM__SPL.jpg",
+          "Category": "Coin Cell Battery Holders",
+          "LeadTime": "94 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TE Connectivity / Linx Technologies",
+          "ManufacturerPartNumber": "BAT-HLD-001-THM-TR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "712-BAT-HLD001THM-TR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "400"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.955",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.793",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.719",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.687",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.625",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 400,
+              "Price": "€0.578",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 800,
+              "Price": "€0.546",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2400,
+              "Price": "€0.507",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4800,
+              "Price": "€0.48",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-001-THM-TR?qs=1sbE9T7hb3a7mD8p42MgHg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "712-BAT-HLD-001-THM",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.001860556
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536909599"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536900090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536908585"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853690000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536909090"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85369090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:50Z",
+    "manufacturer_part_number": "BAT-HLD-001-THM",
+    "product_quantity_available": 8203,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "80 Days",
+    "product_unit_price": 0.662,
+    "offers": [
+      {
+        "provider_part_number": "712-BAT-HLD-001-THM",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8203,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.581,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.479,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.438,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.416,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.345,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.326,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "712-BAT-HLD-001-THM",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8203,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.581,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.479,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.438,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.416,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.345,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.326,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T18:59:50Z",
+    "manufacturer": "TE Connectivity / Linx Technologies",
+    "manufacturer_part_number": "BAT-HLD-001-THM",
+    "provider_part_number": "712-BAT-HLD-001-THM",
+    "description": "Coin Cell Battery Holders Bat Hld CR2032/2025 Through-hole Mount",
+    "detailed_description": "Coin Cell Battery Holders Bat Hld CR2032/2025 Through-hole Mount",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D",
+    "image_url": "https://www.mouser.com/images/linxtechnologies/images/bat-hld-001-thm_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "500"
+    },
+    "compliance": {
+      "TARIC": "8536909599",
+      "CNHTS": "8536909000",
+      "CAHTS": "8536900090",
+      "USHTS": "8536908585",
+      "JPHTS": "853690000",
+      "KRHTS": "8536909090",
+      "BRHTS": "85369090",
+      "ECCN": "EAR99"
+    }
+  }
+}

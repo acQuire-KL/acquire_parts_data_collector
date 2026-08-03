@@ -1,0 +1,498 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:13:27Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "ST Micro",
+    "input_mpn": "USBLC6-2SC6",
+    "resolved_manufacturer": "ST Micro",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes ESD Protection Low Cap",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/stmicroelectronics/images/sot23-6l.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "175 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "STMicroelectronics",
+          "ManufacturerPartNumber": "USBLC6-2SC6",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "511-USBLC6-2SC6",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.251",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.175",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.135",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.085",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.7e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 145424,
+              "Date": "2026-08-31T00:00:00"
+            },
+            {
+              "Quantity": 243000,
+              "Date": "2026-09-28T00:00:00"
+            },
+            {
+              "Quantity": 243000,
+              "Date": "2027-03-01T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": ""
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Singapore"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes 2 Line 2.5pF 10nA USB 2.0 Automotive",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/stmicroelectronics/images/sot23-6l.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "175 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "STMicroelectronics",
+          "ManufacturerPartNumber": "USBLC6-2SC6Y",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "511-USBLC6-2SC6Y",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.357",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.229",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.173",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.156",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.122",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.098",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0167
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 52251,
+              "Date": "2026-09-23T00:00:00"
+            },
+            {
+              "Quantity": 66000,
+              "Date": "2026-10-14T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:27Z",
+    "manufacturer_part_number": "USBLC6-2SC6",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "175 Days",
+    "product_unit_price": 0.404,
+    "offers": [
+      {
+        "provider_part_number": "511-USBLC6-2SC6",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.251,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.175,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.086,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.085,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.073,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "511-USBLC6-2SC6",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.251,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.175,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.135,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.086,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.085,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.073,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:13:27Z",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_part_number": "USBLC6-2SC6",
+    "provider_part_number": "511-USBLC6-2SC6",
+    "description": "ESD Protection Diodes / TVS Diodes ESD Protection Low Cap",
+    "detailed_description": "ESD Protection Diodes / TVS Diodes ESD Protection Low Cap",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D",
+    "image_url": "https://www.mouser.com/images/stmicroelectronics/images/sot23-6l.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541590000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "JPHTS": "8542390990",
+      "MXHTS": "8541100101",
+      "BRHTS": "",
+      "ECCN": "EAR99"
+    }
+  }
+}

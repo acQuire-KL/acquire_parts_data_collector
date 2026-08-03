@@ -1,0 +1,100 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:47Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEYSTONE",
+    "input_mpn": "2384",
+    "resolved_manufacturer": "KEYSTONE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "KEYS2384",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 430,
+                    "value": "KEYSTONE"
+                  }
+                ]
+              },
+              {
+                "id": 1483,
+                "name": "Type of spacer",
+                "values": [
+                  {
+                    "id": 1476210,
+                    "value": "spacer sleeve"
+                  }
+                ]
+              },
+              {
+                "id": 139,
+                "name": "Material",
+                "values": [
+                  {
+                    "id": 1437804,
+                    "value": "polyamide"
+                  }
+                ]
+              },
+              {
+                "id": 1501,
+                "name": "Spacer length",
+                "values": [
+                  {
+                    "id": 1476151,
+                    "value": "12.7mm"
+                  }
+                ]
+              },
+              {
+                "id": 662,
+                "name": "Outside diameter",
+                "values": [
+                  {
+                    "id": 1456981,
+                    "value": "9.52mm"
+                  }
+                ]
+              },
+              {
+                "id": 679,
+                "name": "Internal diameter",
+                "values": [
+                  {
+                    "id": 1913453,
+                    "value": "3.86mm"
+                  }
+                ]
+              },
+              {
+                "id": 2585,
+                "name": "Shape",
+                "values": [
+                  {
+                    "id": 1845172,
+                    "value": "sleeve"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

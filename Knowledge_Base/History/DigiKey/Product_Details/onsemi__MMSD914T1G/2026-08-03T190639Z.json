@@ -1,0 +1,630 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:39Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "onsemi",
+    "input_mpn": "MMSD914T1G",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "899"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "DIODE STANDARD 100V 200MA SOD123",
+        "DetailedDescription": "Diode 100 V 200mA Surface Mount SOD-123"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "MMSD914T1G",
+      "UnitPrice": 0.13,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/MMSD914T1G/919706",
+      "DatasheetUrl": "https://www.onsemi.com/pdf/datasheet/mmsd914t1-d.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6241/488%7E425-04%7EZ%7E2.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MMSD914T1GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.02482,
+              "TotalPrice": 74.46
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.02202,
+              "TotalPrice": 132.12
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 30000,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MMSD914T1GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.13,
+              "TotalPrice": 0.13
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.078,
+              "TotalPrice": 0.78
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0554,
+              "TotalPrice": 2.77
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.048,
+              "TotalPrice": 4.8
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0347,
+              "TotalPrice": 17.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 30000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MMSD914T1GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.13,
+              "TotalPrice": 0.13
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.078,
+              "TotalPrice": 0.78
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0554,
+              "TotalPrice": 2.77
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.048,
+              "TotalPrice": 4.8
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0347,
+              "TotalPrice": 17.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 30000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "407938",
+          "ValueText": "Standard"
+        },
+        {
+          "ParameterId": 2071,
+          "ParameterText": "Voltage - DC Reverse (Vr) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "100 V",
+          "ValueText": "100 V"
+        },
+        {
+          "ParameterId": 914,
+          "ParameterText": "Current - Average Rectified (Io)",
+          "ParameterType": "String",
+          "ValueId": "140417",
+          "ValueText": "200mA"
+        },
+        {
+          "ParameterId": 2261,
+          "ParameterText": "Voltage - Forward (Vf) (Max) @ If",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "1 V @ 10 mA",
+          "ValueText": "1 V @ 10 mA"
+        },
+        {
+          "ParameterId": 143,
+          "ParameterText": "Speed",
+          "ParameterType": "String",
+          "ValueId": "404017",
+          "ValueText": "Small Signal =< 200mA (Io), Any Speed"
+        },
+        {
+          "ParameterId": 552,
+          "ParameterText": "Reverse Recovery Time (trr)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "4 ns",
+          "ValueText": "4 ns"
+        },
+        {
+          "ParameterId": 2269,
+          "ParameterText": "Current - Reverse Leakage @ Vr",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "5 µA @ 75 V",
+          "ValueText": "5 µA @ 75 V"
+        },
+        {
+          "ParameterId": 718,
+          "ParameterText": "Capacitance @ Vr, F",
+          "ParameterType": "String",
+          "ValueId": "228186",
+          "ValueText": "4pF @ 0V, 1MHz"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "404824",
+          "ValueText": "SOD-123"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "404824",
+          "ValueText": "SOD-123"
+        },
+        {
+          "ParameterId": 1686,
+          "ParameterText": "Operating Temperature - Junction",
+          "ParameterType": "String",
+          "ValueId": "242931",
+          "ValueText": "-55°C ~ 150°C"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 21994,
+        "Name": "MMSD914"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2042,
+            "ParentId": 19,
+            "Name": "Diodes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/961/736/31_SOT-23-3%20PKG_tmb.jpg",
+            "SeoDescription": "Diodes are devices that allow the flow of current in one direction and block current flow in the opposite direction. Types of diodes include current regulation, bridge rectifiers, RF, rectifier arrays, rectifiers, variable capacitance (varicaps, varactors), zener, zener arrays, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2085,
+                "ParentId": 2042,
+                "Name": "Rectifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/349/140/DO-214AC%2CSMA_403D-02_tmb.jpg",
+                "SeoDescription": "Rectifiers are a diode family used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 280,
+                    "ParentId": 2085,
+                    "Name": "Single Diodes",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/430/DO-35_1N4148_1_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Products within the single rectifier diode family are used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "44",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0070"
+      },
+      "OtherNames": [
+        "MMSD914T1GOSDKR",
+        "MMSD914T1GOSCT",
+        "2156-MMSD914T1G-OS",
+        "MMSD914T1GOS-ND",
+        "MMSD914T1GOSTR",
+        "MMSD914T1GOS",
+        "6196-MMSD914T1G",
+        "ONSONSMMSD914T1G"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:39Z",
+    "manufacturer_part_number": "MMSD914T1G",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "44",
+    "product_unit_price": 0.13,
+    "offers": [
+      {
+        "provider_part_number": "MMSD914T1GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.13,
+            "total_price": 0.13
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.078,
+            "total_price": 0.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0554,
+            "total_price": 2.77
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.048,
+            "total_price": 4.8
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0347,
+            "total_price": 17.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MMSD914T1GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.13,
+            "total_price": 0.13
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.078,
+            "total_price": 0.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0554,
+            "total_price": 2.77
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.048,
+            "total_price": 4.8
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0347,
+            "total_price": 17.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MMSD914T1GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.02482,
+            "total_price": 74.46
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.02202,
+            "total_price": 132.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "MMSD914T1GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.13,
+            "total_price": 0.13
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.078,
+            "total_price": 0.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0554,
+            "total_price": 2.77
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.048,
+            "total_price": 4.8
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0347,
+            "total_price": 17.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MMSD914T1GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.13,
+            "total_price": 0.13
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.078,
+            "total_price": 0.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0554,
+            "total_price": 2.77
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.048,
+            "total_price": 4.8
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0347,
+            "total_price": 17.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MMSD914T1GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 30000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.02482,
+            "total_price": 74.46
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.02202,
+            "total_price": 132.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:39Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "MMSD914T1G",
+    "provider_part_number": "",
+    "description": "DIODE STANDARD 100V 200MA SOD123",
+    "detailed_description": "Diode 100 V 200mA Surface Mount SOD-123",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/mmsd914t1-d.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/MMSD914T1G/919706",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6241/488%7E425-04%7EZ%7E2.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SOD-123",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Technology": "Standard",
+      "Voltage - DC Reverse (Vr) (Max)": "100 V",
+      "Current - Average Rectified (Io)": "200mA",
+      "Voltage - Forward (Vf) (Max) @ If": "1 V @ 10 mA",
+      "Speed": "Small Signal =< 200mA (Io), Any Speed",
+      "Reverse Recovery Time (trr)": "4 ns",
+      "Current - Reverse Leakage @ Vr": "5 µA @ 75 V",
+      "Capacitance @ Vr, F": "4pF @ 0V, 1MHz",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "SOD-123",
+      "Supplier Device Package": "SOD-123",
+      "Operating Temperature - Junction": "-55°C ~ 150°C"
+    },
+    "compliance": {}
+  }
+}

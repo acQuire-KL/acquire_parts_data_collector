@@ -1,0 +1,342 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:23Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "ADI / Linear",
+    "input_mpn": "LTC3118IUFD#PBF",
+    "resolved_manufacturer": "ADI / Linear",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "222 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/3118fa.pdf",
+          "Description": "Switching Controllers 18V, 2A Buck-Boost DC/DC Conv w/ L-Loss",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_QFN-24_05-08-1696_t.jpg",
+          "Category": "Switching Controllers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LTC3118IUFD#PBF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "584-LTC3118IUFD#PBF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "73"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€14.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€11.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€11.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 73,
+              "Price": "€10.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1022,
+              "Price": "€9.67",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTC3118IUFD#TRPBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC3118IUFDPBF?qs=oahfZPh6IALinA8dvE%252Bygw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-LTC3118IUFDTRPBF",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000273
+          },
+          "AvailabilityInStock": "222",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/3118fa.pdf",
+          "Description": "Switching Controllers 18V, 2A Buck-Boost DC/DC Conv w/ L-Loss",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_QFN-24_05-08-1696_t.jpg",
+          "Category": "Switching Controllers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Analog Devices",
+          "ManufacturerPartNumber": "LTC3118IUFD#TRPBF",
+          "Min": "2500",
+          "Mult": "2500",
+          "MouserPartNumber": "584-LTC3118IUFDTRPBF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2500,
+              "Price": "€10.12",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "LTC3118IUFD#PBF"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC3118IUFDTRPBF?qs=oahfZPh6IAK8UHZsvHJZnw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "584-LTC3118IUFD#PBF",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:23Z",
+    "manufacturer_part_number": "LTC3118IUFD#PBF",
+    "product_quantity_available": 222,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "98 Days",
+    "product_unit_price": 14.99,
+    "offers": [
+      {
+        "provider_part_number": "584-LTC3118IUFD#PBF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 222,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 14.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 11.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 11.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 73,
+            "unit_price": 10.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1022,
+            "unit_price": 9.67,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "584-LTC3118IUFD#PBF",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 222,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 14.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 11.94,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 11.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 73,
+            "unit_price": 10.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1022,
+            "unit_price": 9.67,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:23Z",
+    "manufacturer": "Analog Devices",
+    "manufacturer_part_number": "LTC3118IUFD#PBF",
+    "provider_part_number": "584-LTC3118IUFD#PBF",
+    "description": "Switching Controllers 18V, 2A Buck-Boost DC/DC Conv w/ L-Loss",
+    "detailed_description": "Switching Controllers 18V, 2A Buck-Boost DC/DC Conv w/ L-Loss",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/3118fa.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Analog-Devices/LTC3118IUFDPBF?qs=oahfZPh6IALinA8dvE%252Bygw%3D%3D",
+    "image_url": "https://www.mouser.com/images/adi/images/ITP_ADI_QFN-24_05-08-1696_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tube",
+      "Standard Pack Qty": "73"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

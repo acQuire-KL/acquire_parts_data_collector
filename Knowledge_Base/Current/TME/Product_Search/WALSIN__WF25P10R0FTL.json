@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:48Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "WALSIN",
+    "input_mpn": "WF25P10R0FTL",
+    "resolved_manufacturer": "WALSIN",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "WF25P10R0FTL",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100300,
+              "name": "SMD resistors"
+            },
+            "manufacturer_symbols": [
+              "WF25P10R0FTL"
+            ],
+            "manufacturer": {
+              "id": 851,
+              "name": "WALSIN"
+            },
+            "description": "Resistor: thick film; 10Ω; SMD; 2512; 2W; ±1%; 300V; -55÷155°C",
+            "multiples": 10,
+            "minimal_amount": 10,
+            "weight": {
+              "value": 0.055,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 4000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/2A/C2/B0/00/0/732322_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=e9cbf159e3e9f9412d2fcb1823b9d5c106a74c18",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/2A/C2/B0/00/0/732322_1.jpg?width=100&height=75&q=75&ci_sign=a048d614c587f0eb6f454571f359c19c72f80828",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/2A/C2/B0/00/0/732322_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=f7db25bd0f199c4be23ffd8eab717ebaf78fab3f"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

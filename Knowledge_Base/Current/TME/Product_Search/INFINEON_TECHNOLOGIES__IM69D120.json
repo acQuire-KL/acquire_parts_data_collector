@@ -1,0 +1,72 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:30Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "INFINEON TECHNOLOGIES",
+    "input_mpn": "IM69D120",
+    "resolved_manufacturer": "INFINEON TECHNOLOGIES",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "IM69D120",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100219,
+              "name": "RTV - audio integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "IM69D120V01XTSA1"
+            ],
+            "manufacturer": {
+              "id": 47,
+              "name": "INFINEON TECHNOLOGIES"
+            },
+            "description": "IC: driver/sensor; digital microphone; PDM; MEMS; 1.62÷3.6VDC",
+            "multiples": 1000,
+            "minimal_amount": 1000,
+            "weight": {
+              "value": 0.056,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/C7/BE/80/00/0/584572_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1cc92dcaddf85a3d659ef00feb733eaae5444fec",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/C7/BE/80/00/0/584572_1.jpg?width=100&height=75&q=75&ci_sign=dab2a0cd41c61d96ec9a6fd5579844b2ebf6e881",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/C7/BE/80/00/0/584572_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4e43af2395c9bddf6808255a8d8d0d09423eff25"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

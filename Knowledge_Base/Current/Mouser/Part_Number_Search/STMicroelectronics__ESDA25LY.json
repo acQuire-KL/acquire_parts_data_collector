@@ -1,0 +1,335 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:13:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "STMicroelectronics",
+    "input_mpn": "ESDA25LY",
+    "resolved_manufacturer": "STMicroelectronics",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes Dual Transil Array Automotive ESD",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/stmicroelectronics/images/SOT_23_3.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "STMicroelectronics",
+          "ManufacturerPartNumber": "ESDA25LY",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "511-ESDA25LY",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.212",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.132",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.099",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.064",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/ESDA25LY?qs=hKcDQsDv3HY%252BMeYV0LkHOw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8.8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:13:35Z",
+    "manufacturer_part_number": "ESDA25LY",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 0.344,
+    "offers": [
+      {
+        "provider_part_number": "511-ESDA25LY",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.212,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.081,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.064,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.05,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "511-ESDA25LY",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.212,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.132,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.099,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.081,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.064,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.05,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:13:35Z",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_part_number": "ESDA25LY",
+    "provider_part_number": "511-ESDA25LY",
+    "description": "ESD Protection Diodes / TVS Diodes Dual Transil Array Automotive ESD",
+    "detailed_description": "ESD Protection Diodes / TVS Diodes Dual Transil Array Automotive ESD",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/ESDA25LY?qs=hKcDQsDv3HY%252BMeYV0LkHOw%3D%3D",
+    "image_url": "https://www.mouser.com/images/stmicroelectronics/images/SOT_23_3.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541590000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100070",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100101",
+      "ECCN": "EAR99"
+    }
+  }
+}

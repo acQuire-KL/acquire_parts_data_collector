@@ -1,0 +1,626 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:34Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Comchip",
+    "input_mpn": "CDBU40",
+    "resolved_manufacturer": "Comchip",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "901"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "DIODE SCHOTTKY 40V 200MA 0603",
+        "DetailedDescription": "Diode 40 V 200mA Surface Mount 0603/SOD-523F"
+      },
+      "Manufacturer": {
+        "Id": 641,
+        "Name": "Comchip Technology"
+      },
+      "ManufacturerProductNumber": "CDBU40",
+      "UnitPrice": 0.29,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/comchip-technology/CDBU40/3308522",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/CDBU40_DS.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/921/641-SOD-523.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "641-2093-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.05692,
+              "TotalPrice": 227.68
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.04854,
+              "TotalPrice": 582.48
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 641,
+            "Name": "Comchip Technology"
+          },
+          "QuantityAvailableforPackageType": 12000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "641-2093-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.29,
+              "TotalPrice": 0.29
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.175,
+              "TotalPrice": 1.75
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1254,
+              "TotalPrice": 6.27
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1092,
+              "TotalPrice": 10.92
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0806,
+              "TotalPrice": 40.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 641,
+            "Name": "Comchip Technology"
+          },
+          "QuantityAvailableforPackageType": 14631,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "641-2093-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.29,
+              "TotalPrice": 0.29
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.175,
+              "TotalPrice": 1.75
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1254,
+              "TotalPrice": 6.27
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1092,
+              "TotalPrice": 10.92
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0806,
+              "TotalPrice": 40.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 641,
+            "Name": "Comchip Technology"
+          },
+          "QuantityAvailableforPackageType": 14631,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 14631,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "400378",
+          "ValueText": "Schottky"
+        },
+        {
+          "ParameterId": 2071,
+          "ParameterText": "Voltage - DC Reverse (Vr) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "40 V",
+          "ValueText": "40 V"
+        },
+        {
+          "ParameterId": 914,
+          "ParameterText": "Current - Average Rectified (Io)",
+          "ParameterType": "String",
+          "ValueId": "140417",
+          "ValueText": "200mA"
+        },
+        {
+          "ParameterId": 2261,
+          "ParameterText": "Voltage - Forward (Vf) (Max) @ If",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "1 V @ 40 mA",
+          "ValueText": "1 V @ 40 mA"
+        },
+        {
+          "ParameterId": 143,
+          "ParameterText": "Speed",
+          "ParameterType": "String",
+          "ValueId": "404017",
+          "ValueText": "Small Signal =< 200mA (Io), Any Speed"
+        },
+        {
+          "ParameterId": 552,
+          "ParameterText": "Reverse Recovery Time (trr)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "5 ns",
+          "ValueText": "5 ns"
+        },
+        {
+          "ParameterId": 2269,
+          "ParameterText": "Current - Reverse Leakage @ Vr",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "200 nA @ 30 V",
+          "ValueText": "200 nA @ 30 V"
+        },
+        {
+          "ParameterId": 718,
+          "ParameterText": "Capacitance @ Vr, F",
+          "ParameterType": "String",
+          "ValueId": "249053",
+          "ValueText": "5pF @ 0V, 1MHz"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "168669",
+          "ValueText": "2-SMD, No Lead"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39275",
+          "ValueText": "0603/SOD-523F"
+        },
+        {
+          "ParameterId": 1686,
+          "ParameterText": "Operating Temperature - Junction",
+          "ParameterType": "String",
+          "ValueId": "85436",
+          "ValueText": "125°C (Max)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2042,
+            "ParentId": 19,
+            "Name": "Diodes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/961/736/31_SOT-23-3%20PKG_tmb.jpg",
+            "SeoDescription": "Diodes are devices that allow the flow of current in one direction and block current flow in the opposite direction. Types of diodes include current regulation, bridge rectifiers, RF, rectifier arrays, rectifiers, variable capacitance (varicaps, varactors), zener, zener arrays, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2085,
+                "ParentId": 2042,
+                "Name": "Rectifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/349/140/DO-214AC%2CSMA_403D-02_tmb.jpg",
+                "SeoDescription": "Rectifiers are a diode family used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 280,
+                    "ParentId": 2085,
+                    "Name": "Single Diodes",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/430/DO-35_1N4148_1_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Products within the single rectifier diode family are used to allow current flow in one direction only, and implement exactly one instance of this function per device package. Diodes used for other purposes (including zener and variable capacitance diodes) are listed separately in product families of their own, as are products incorporating multiple diodes per device package.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 16000,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.10.0070"
+      },
+      "OtherNames": [
+        "641-2093-2",
+        "CDBU40-ND",
+        "641-2093-1",
+        "641-2093-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:34Z",
+    "manufacturer_part_number": "CDBU40",
+    "product_quantity_available": 14631,
+    "manufacturer_public_quantity": 16000,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.29,
+    "offers": [
+      {
+        "provider_part_number": "641-2093-1-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14631,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.175,
+            "total_price": 1.75
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1254,
+            "total_price": 6.27
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1092,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0806,
+            "total_price": 40.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "641-2093-6-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14631,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.175,
+            "total_price": 1.75
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1254,
+            "total_price": 6.27
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1092,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0806,
+            "total_price": 40.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "641-2093-2-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.05692,
+            "total_price": 227.68
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.04854,
+            "total_price": 582.48
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "641-2093-1-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14631,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.175,
+            "total_price": 1.75
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1254,
+            "total_price": 6.27
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1092,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0806,
+            "total_price": 40.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "641-2093-6-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14631,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.29,
+            "total_price": 0.29
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.175,
+            "total_price": 1.75
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1254,
+            "total_price": 6.27
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1092,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0806,
+            "total_price": 40.3
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "641-2093-2-ND",
+        "supplier": "Comchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.05692,
+            "total_price": 227.68
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.04854,
+            "total_price": 582.48
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:34Z",
+    "manufacturer": "Comchip Technology",
+    "manufacturer_part_number": "CDBU40",
+    "provider_part_number": "",
+    "description": "DIODE SCHOTTKY 40V 200MA 0603",
+    "detailed_description": "Diode 40 V 200mA Surface Mount 0603/SOD-523F",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/CDBU40_DS.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/comchip-technology/CDBU40/3308522",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/921/641-SOD-523.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "2-SMD, No Lead",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Technology": "Schottky",
+      "Voltage - DC Reverse (Vr) (Max)": "40 V",
+      "Current - Average Rectified (Io)": "200mA",
+      "Voltage - Forward (Vf) (Max) @ If": "1 V @ 40 mA",
+      "Speed": "Small Signal =< 200mA (Io), Any Speed",
+      "Reverse Recovery Time (trr)": "5 ns",
+      "Current - Reverse Leakage @ Vr": "200 nA @ 30 V",
+      "Capacitance @ Vr, F": "5pF @ 0V, 1MHz",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "2-SMD, No Lead",
+      "Supplier Device Package": "0603/SOD-523F",
+      "Operating Temperature - Junction": "125°C (Max)"
+    },
+    "compliance": {}
+  }
+}

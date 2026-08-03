@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:10:27Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0603FR-072KL",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 28897,
+          "symbol": "RC0603FR-072K",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.13316,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.02671,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.01391,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.01095,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.006,
+                "special": false
+              },
+              {
+                "amount": 2500,
+                "price": 0.00514,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.0047,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.00439,
+                "special": false
+              },
+              {
+                "amount": 15000,
+                "price": 0.00424,
+                "special": false
+              },
+              {
+                "amount": 25000,
+                "price": 0.0041,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

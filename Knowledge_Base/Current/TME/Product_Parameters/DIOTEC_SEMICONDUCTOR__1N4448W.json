@@ -1,0 +1,184 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:27Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "input_mpn": "1N4448W",
+    "resolved_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "1N4448W-DIO",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 43,
+                    "value": "DIOTEC SEMICONDUCTOR"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1440247,
+                    "value": "switching"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 2139782,
+                    "value": "0.1kV"
+                  }
+                ]
+              },
+              {
+                "id": 227,
+                "name": "Load current",
+                "values": [
+                  {
+                    "id": 1633842,
+                    "value": "0.3A"
+                  }
+                ]
+              },
+              {
+                "id": 230,
+                "name": "Reverse recovery time",
+                "values": [
+                  {
+                    "id": 1440245,
+                    "value": "4ns"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1612600,
+                    "value": "single diode"
+                  }
+                ]
+              },
+              {
+                "id": 2207,
+                "name": "Features of semiconductor devices",
+                "values": [
+                  {
+                    "id": 1697000,
+                    "value": "superfast switching"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1619661,
+                    "value": "SOD123F"
+                  }
+                ]
+              },
+              {
+                "id": 226,
+                "name": "Max. forward voltage",
+                "values": [
+                  {
+                    "id": 1594135,
+                    "value": "1.25V"
+                  }
+                ]
+              },
+              {
+                "id": 225,
+                "name": "Max. load current",
+                "values": [
+                  {
+                    "id": 1701294,
+                    "value": "0.3A"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1440649,
+                    "value": "1A"
+                  }
+                ]
+              },
+              {
+                "id": 245,
+                "name": "Leakage current",
+                "values": [
+                  {
+                    "id": 1501421,
+                    "value": "50µA"
+                  }
+                ]
+              },
+              {
+                "id": 589,
+                "name": "Power dissipation",
+                "values": [
+                  {
+                    "id": 1507572,
+                    "value": "0.4W"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

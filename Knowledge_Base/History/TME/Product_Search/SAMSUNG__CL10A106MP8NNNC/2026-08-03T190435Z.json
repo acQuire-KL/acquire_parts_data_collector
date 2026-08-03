@@ -1,0 +1,81 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:35Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "SAMSUNG",
+    "input_mpn": "CL10A106MP8NNNC",
+    "resolved_manufacturer": "SAMSUNG",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "HARDLY_AVAILABLE"
+            ],
+            "symbol": "CL10A106MP8NNNC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113537,
+              "name": "MLCC SMD capacitors"
+            },
+            "manufacturer_symbols": [
+              "CL10A106MP8NNNC"
+            ],
+            "manufacturer": {
+              "id": 78,
+              "name": "SAMSUNG"
+            },
+            "description": "Capacitor: ceramic; MLCC; 10uF; 10V; X5R; ±20%; SMD; 0603",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.03,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 4000
+                },
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 40000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/F2/B0/00/1/733098_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=b581469a721118f8ca2768a949685b3548c66ba5",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/F2/B0/00/1/733098_1.jpg?width=100&height=75&q=75&ci_sign=96eb51ef4a890459099c72c0e3754a4dadab8db2",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/F2/B0/00/1/733098_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=6b8918ce4ccc9b6896f24b9aae305914453ee8eb"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

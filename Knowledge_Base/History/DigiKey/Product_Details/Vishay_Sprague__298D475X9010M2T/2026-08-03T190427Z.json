@@ -1,0 +1,687 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:27Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Vishay Sprague",
+    "input_mpn": "298D475X9010M2T",
+    "resolved_manufacturer": "Vishay Sprague",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "961"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP TANT 4.7UF 10% 10V 0603",
+        "DetailedDescription": "4.7 µF Molded Tantalum Capacitors 10 V 0603 (1608 Metric) 5Ohm"
+      },
+      "Manufacturer": {
+        "Id": 718,
+        "Name": "Vishay Sprague"
+      },
+      "ManufacturerProductNumber": "298D475X9010M2T",
+      "UnitPrice": 1.05,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/vishay-sprague/298D475X9010M2T/1559515",
+      "DatasheetUrl": "https://www.vishay.com/docs/40065/298d298w.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2485/298D%200603%20pkg.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "718-1163-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.3529,
+              "TotalPrice": 1411.6
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.33982,
+              "TotalPrice": 2718.56
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.33326,
+              "TotalPrice": 3999.12
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.326,
+              "TotalPrice": 6520.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 718,
+            "Name": "Vishay Sprague"
+          },
+          "QuantityAvailableforPackageType": 20000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "718-1163-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.678,
+              "TotalPrice": 6.78
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5322,
+              "TotalPrice": 26.61
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4873,
+              "TotalPrice": 48.73
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.41152,
+              "TotalPrice": 205.76
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38807,
+              "TotalPrice": 388.07
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 718,
+            "Name": "Vishay Sprague"
+          },
+          "QuantityAvailableforPackageType": 22834,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "718-1163-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.678,
+              "TotalPrice": 6.78
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5322,
+              "TotalPrice": 26.61
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4873,
+              "TotalPrice": 48.73
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.41152,
+              "TotalPrice": 205.76
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38807,
+              "TotalPrice": 388.07
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 718,
+            "Name": "Vishay Sprague"
+          },
+          "QuantityAvailableforPackageType": 22834,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 22834,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "4.7 µF",
+          "ValueText": "4.7 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1340",
+          "ValueText": "±10%"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 V",
+          "ValueText": "10 V"
+        },
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "376942",
+          "ValueText": "Molded"
+        },
+        {
+          "ParameterId": 724,
+          "ParameterText": "ESR (Equivalent Series Resistance)",
+          "ParameterType": "String",
+          "ValueId": "248990",
+          "ValueText": "5Ohm"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 725,
+          "ParameterText": "Lifetime @ Temp.",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7829",
+          "ValueText": "0.063\" L x 0.033\" W (1.60mm x 0.85mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "6024",
+          "ValueText": "0.035\" (0.89mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 987,
+          "ParameterText": "Manufacturer Size Code",
+          "ParameterType": "String",
+          "ValueId": "369877",
+          "ValueText": "M"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 59,
+            "ParentId": 3,
+            "Name": "Tantalum Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/653/436/T491%20SERIES%203.5L%2C2.8W_tmb%2864x64%29.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Tantalum capacitors have an anode electrode (+) made of tantalum metal, electrolyte that acts as the cathode, and a thin insulating layer of tantalum oxide that acts as the dielectric. Tantalum capacitors have high capacitance-voltage (CV) product per unit volume at low weights and are known for high reliability.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "23",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 18510,
+        "Name": "MICROTAN®, 298D"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.21.0050"
+      },
+      "OtherNames": [
+        "718-1163-6",
+        "718-1163-1",
+        "718-1163-2"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:27Z",
+    "manufacturer_part_number": "298D475X9010M2T",
+    "product_quantity_available": 22834,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "23",
+    "product_unit_price": 1.05,
+    "offers": [
+      {
+        "provider_part_number": "718-1163-1-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22834,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.678,
+            "total_price": 6.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5322,
+            "total_price": 26.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4873,
+            "total_price": 48.73
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41152,
+            "total_price": 205.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38807,
+            "total_price": 388.07
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "718-1163-6-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22834,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.678,
+            "total_price": 6.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5322,
+            "total_price": 26.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4873,
+            "total_price": 48.73
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41152,
+            "total_price": 205.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38807,
+            "total_price": 388.07
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "718-1163-2-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 20000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.3529,
+            "total_price": 1411.6
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.33982,
+            "total_price": 2718.56
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.33326,
+            "total_price": 3999.12
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.326,
+            "total_price": 6520.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "718-1163-1-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22834,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.678,
+            "total_price": 6.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5322,
+            "total_price": 26.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4873,
+            "total_price": 48.73
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41152,
+            "total_price": 205.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38807,
+            "total_price": 388.07
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "718-1163-6-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22834,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.678,
+            "total_price": 6.78
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5322,
+            "total_price": 26.61
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4873,
+            "total_price": 48.73
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.41152,
+            "total_price": 205.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38807,
+            "total_price": 388.07
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "718-1163-2-ND",
+        "supplier": "Vishay Sprague",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 20000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.3529,
+            "total_price": 1411.6
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.33982,
+            "total_price": 2718.56
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.33326,
+            "total_price": 3999.12
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.326,
+            "total_price": 6520.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:27Z",
+    "manufacturer": "Vishay Sprague",
+    "manufacturer_part_number": "298D475X9010M2T",
+    "provider_part_number": "",
+    "description": "CAP TANT 4.7UF 10% 10V 0603",
+    "detailed_description": "4.7 µF Molded Tantalum Capacitors 10 V 0603 (1608 Metric) 5Ohm",
+    "datasheet_url": "https://www.vishay.com/docs/40065/298d298w.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/vishay-sprague/298D475X9010M2T/1559515",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2485/298D%200603%20pkg.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Capacitance": "4.7 µF",
+      "Tolerance": "±10%",
+      "Voltage - Rated": "10 V",
+      "Type": "Molded",
+      "ESR (Equivalent Series Resistance)": "5Ohm",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Lifetime @ Temp.": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric)",
+      "Size / Dimension": "0.063\" L x 0.033\" W (1.60mm x 0.85mm)",
+      "Height - Seated (Max)": "0.035\" (0.89mm)",
+      "Lead Spacing": "-",
+      "Manufacturer Size Code": "M",
+      "Features": "General Purpose",
+      "Failure Rate": "-"
+    },
+    "compliance": {}
+  }
+}

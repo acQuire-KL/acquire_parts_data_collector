@@ -1,0 +1,686 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:21Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices Inc.",
+    "input_mpn": "LTC4412ES6#TRMPBF",
+    "resolved_manufacturer": "Analog Devices Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "883"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC OR CTRLR SRC SELECT TSOT23-6",
+        "DetailedDescription": "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
+      },
+      "Manufacturer": {
+        "Id": 505,
+        "Name": "Analog Devices Inc."
+      },
+      "ManufacturerProductNumber": "LTC4412ES6#TRMPBF",
+      "UnitPrice": 4.53,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC4412ES6-TRMPBF/1116052",
+      "DatasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4412.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6257/505%7E05-08-1636%7ES%2CS6%7E6.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "505-LTC4412ES6#TRMPBFTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.65902,
+              "TotalPrice": 1329.51
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 2.58898,
+              "TotalPrice": 2588.98
+            },
+            {
+              "BreakQuantity": 1500,
+              "UnitPrice": 2.55389,
+              "TotalPrice": 3830.835
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 2.51503,
+              "TotalPrice": 6287.575
+            },
+            {
+              "BreakQuantity": 3500,
+              "UnitPrice": 2.49232,
+              "TotalPrice": 8723.12
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 33000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 500,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "505-LTC4412ES6#TRMPBFCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.53,
+              "TotalPrice": 4.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 3.451,
+              "TotalPrice": 34.51
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.1816,
+              "TotalPrice": 79.54
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.8853,
+              "TotalPrice": 288.53
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 2.75592,
+              "TotalPrice": 688.98
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 33577,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "505-LTC4412ES6#TRMPBFDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 4.53,
+              "TotalPrice": 4.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 3.451,
+              "TotalPrice": 34.51
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 3.1816,
+              "TotalPrice": 79.54
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.8853,
+              "TotalPrice": 288.53
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 2.75592,
+              "TotalPrice": 688.98
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 33577,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 33577,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5784650641001",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "405621",
+          "ValueText": "Source Selector Switch"
+        },
+        {
+          "ParameterId": 606,
+          "ParameterText": "FET Type",
+          "ParameterType": "String",
+          "ValueId": "385103",
+          "ValueText": "P-Channel"
+        },
+        {
+          "ParameterId": 1273,
+          "ParameterText": "Ratio - Input:Output",
+          "ParameterType": "String",
+          "ValueId": "137551",
+          "ValueText": "2:1"
+        },
+        {
+          "ParameterId": 541,
+          "ParameterText": "Internal Switch(s)",
+          "ParameterType": "String",
+          "ValueId": "380240",
+          "ValueText": "No"
+        },
+        {
+          "ParameterId": 835,
+          "ParameterText": "Delay Time - ON",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "110 µs",
+          "ValueText": "110 µs"
+        },
+        {
+          "ParameterId": 836,
+          "ParameterText": "Delay Time - OFF",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "13 µs",
+          "ValueText": "13 µs"
+        },
+        {
+          "ParameterId": 1120,
+          "ParameterText": "Current - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2095,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "15 µA",
+          "ValueText": "15 µA"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "132225",
+          "ValueText": "2.5V ~ 28V"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "352791",
+          "ValueText": "Handheld, USB Powered Supplies"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "405435",
+          "ValueText": "SOT-23-6 Thin, TSOT-23-6"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "416359",
+          "ValueText": "TSOT-23-6"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 19440,
+        "Name": "LTC4412"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 758,
+                "ParentId": 2025,
+                "Name": "OR Controllers, Ideal Diodes",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/121/029/296%3B4040047-3%3BD%3B8_tmb.jpg",
+                "SeoDescription": "Ideal diode controllers, also called OR'ing controllers, are devices designed to control an external pass transistor (usually a FET) in a manner that allows current flow in only one direction, similar to a rectifier diode but with significantly lower conduction loss. Among other applications, they are commonly used for providing reverse-flow protection in power supplies designed to be connected in parallel for sake of redundancy or increased output current capability.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "19",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 19047,
+        "Name": "PowerPath™"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "LTC4412ES6#TRMPBFDKR-ND",
+        "LTC4412ES6#TRMPBFTR-ND",
+        "-2735-LTC4412ES6#TRMPBFDKR",
+        "LTC4412ES6#TRMPBFTR",
+        "LTC4412ES6#PBF-ND",
+        "LTC4412ES6#TRMPBFDKR",
+        "505-LTC4412ES6#TRMPBFTR",
+        "505-LTC4412ES6#TRMPBFDKR",
+        "505-LTC4412ES6#TRMPBFCT",
+        "LTC4412ES6#TRMPBFCT-ND",
+        "LTC4412ES6#PBF",
+        "-2735-LTC4412ES6#TRMPBFCT",
+        "LTC4412ES6TRMPBF",
+        "LTC4412ES6#TRMPBFCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:21Z",
+    "manufacturer_part_number": "LTC4412ES6#TRMPBF",
+    "product_quantity_available": 33577,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "19",
+    "product_unit_price": 4.53,
+    "offers": [
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFCT-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 33577,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.53,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.451,
+            "total_price": 34.51
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.1816,
+            "total_price": 79.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.8853,
+            "total_price": 288.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.75592,
+            "total_price": 688.98
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFDKR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 33577,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.53,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.451,
+            "total_price": 34.51
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.1816,
+            "total_price": 79.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.8853,
+            "total_price": 288.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.75592,
+            "total_price": 688.98
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFTR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 33000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 2.65902,
+            "total_price": 1329.51
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.58898,
+            "total_price": 2588.98
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 2.55389,
+            "total_price": 3830.835
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.51503,
+            "total_price": 6287.575
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 2.49232,
+            "total_price": 8723.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFCT-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 33577,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.53,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.451,
+            "total_price": 34.51
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.1816,
+            "total_price": 79.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.8853,
+            "total_price": 288.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.75592,
+            "total_price": 688.98
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFDKR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 33577,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 4.53,
+            "total_price": 4.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 3.451,
+            "total_price": 34.51
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 3.1816,
+            "total_price": 79.54
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.8853,
+            "total_price": 288.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.75592,
+            "total_price": 688.98
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "505-LTC4412ES6#TRMPBFTR-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 33000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 2.65902,
+            "total_price": 1329.51
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.58898,
+            "total_price": 2588.98
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 2.55389,
+            "total_price": 3830.835
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 2.51503,
+            "total_price": 6287.575
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 2.49232,
+            "total_price": 8723.12
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:21Z",
+    "manufacturer": "Analog Devices Inc.",
+    "manufacturer_part_number": "LTC4412ES6#TRMPBF",
+    "provider_part_number": "",
+    "description": "IC OR CTRLR SRC SELECT TSOT23-6",
+    "detailed_description": "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4412.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC4412ES6-TRMPBF/1116052",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6257/505%7E05-08-1636%7ES%2CS6%7E6.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SOT-23-6 Thin, TSOT-23-6",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Source Selector Switch",
+      "FET Type": "P-Channel",
+      "Ratio - Input:Output": "2:1",
+      "Internal Switch(s)": "No",
+      "Delay Time - ON": "110 µs",
+      "Delay Time - OFF": "13 µs",
+      "Current - Output (Max)": "-",
+      "Current - Supply": "15 µA",
+      "Voltage - Supply": "2.5V ~ 28V",
+      "Applications": "Handheld, USB Powered Supplies",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "SOT-23-6 Thin, TSOT-23-6",
+      "Supplier Device Package": "TSOT-23-6"
+    },
+    "compliance": {}
+  }
+}

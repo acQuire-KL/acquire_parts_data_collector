@@ -1,0 +1,719 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:51Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KYOCERA AVX",
+    "input_mpn": "TAJA106K010RNJ",
+    "resolved_manufacturer": "KYOCERA AVX",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "952"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP TANT 10UF 10% 10V 1206",
+        "DetailedDescription": "10 µF Molded Tantalum Capacitors 10 V 1206 (3216 Metric) 3Ohm"
+      },
+      "Manufacturer": {
+        "Id": 478,
+        "Name": "KYOCERA AVX"
+      },
+      "ManufacturerProductNumber": "TAJA106K010RNJ",
+      "UnitPrice": 0.37,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/kyocera-avx/TAJA106K010RNJ/364911",
+      "DatasheetUrl": "https://datasheets.kyocera-avx.com/TAJ.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2573/OxiCap%20NOJ%20SERIES%201.6H%2C3.2L%2C1.6W.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "478-1654-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.09831,
+              "TotalPrice": 196.62
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.09207,
+              "TotalPrice": 368.28
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.08895,
+              "TotalPrice": 533.7
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.08549,
+              "TotalPrice": 854.9
+            },
+            {
+              "BreakQuantity": 14000,
+              "UnitPrice": 0.08346,
+              "TotalPrice": 1168.44
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.08152,
+              "TotalPrice": 1630.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 68700,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2000,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "478-1654-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.37,
+              "TotalPrice": 0.37
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.22,
+              "TotalPrice": 2.2
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1626,
+              "TotalPrice": 8.13
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.145,
+              "TotalPrice": 14.5
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.1151,
+              "TotalPrice": 57.55
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10588,
+              "TotalPrice": 105.88
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 68768,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "478-1654-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.37,
+              "TotalPrice": 0.37
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.22,
+              "TotalPrice": 2.2
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.1626,
+              "TotalPrice": 8.13
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.145,
+              "TotalPrice": 14.5
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.1151,
+              "TotalPrice": 57.55
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10588,
+              "TotalPrice": 105.88
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 68768,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 68768,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 µF",
+          "ValueText": "10 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1340",
+          "ValueText": "±10%"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 V",
+          "ValueText": "10 V"
+        },
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "376942",
+          "ValueText": "Molded"
+        },
+        {
+          "ParameterId": 724,
+          "ParameterText": "ESR (Equivalent Series Resistance)",
+          "ParameterType": "String",
+          "ValueId": "202359",
+          "ValueText": "3Ohm"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 725,
+          "ParameterText": "Lifetime @ Temp.",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "83711",
+          "ValueText": "1206 (3216 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "10933",
+          "ValueText": "0.126\" L x 0.063\" W (3.20mm x 1.60mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "8192",
+          "ValueText": "0.071\" (1.80mm)"
+        },
+        {
+          "ParameterId": 508,
+          "ParameterText": "Lead Spacing",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 987,
+          "ParameterText": "Manufacturer Size Code",
+          "ParameterType": "String",
+          "ValueId": "305680",
+          "ValueText": "A"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "350483",
+          "ValueText": "General Purpose"
+        },
+        {
+          "ParameterId": 1531,
+          "ParameterText": "Failure Rate",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 3,
+        "ParentId": 0,
+        "Name": "Capacitors",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+        "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+        "ChildCategories": [
+          {
+            "CategoryId": 59,
+            "ParentId": 3,
+            "Name": "Tantalum Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/653/436/T491%20SERIES%203.5L%2C2.8W_tmb%2864x64%29.jpg",
+            "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Tantalum capacitors have an anode electrode (+) made of tantalum metal, electrolyte that acts as the cathode, and a thin insulating layer of tantalum oxide that acts as the dielectric. Tantalum capacitors have high capacitance-voltage (CV) product per unit volume at low weights and are known for high reliability.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 1471,
+        "Name": "TAJ"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.21.0050"
+      },
+      "OtherNames": [
+        "TAJA106K010R",
+        "TAJA106K010R-ND",
+        "478-1654-1",
+        "478-1654-2",
+        "478-1654-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:51Z",
+    "manufacturer_part_number": "TAJA106K010RNJ",
+    "product_quantity_available": 68768,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 0.37,
+    "offers": [
+      {
+        "provider_part_number": "478-1654-1-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 68768,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": 0.37
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.22,
+            "total_price": 2.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1626,
+            "total_price": 8.13
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": 14.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1151,
+            "total_price": 57.55
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10588,
+            "total_price": 105.88
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-1654-6-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 68768,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": 0.37
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.22,
+            "total_price": 2.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1626,
+            "total_price": 8.13
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": 14.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1151,
+            "total_price": 57.55
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10588,
+            "total_price": 105.88
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-1654-2-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 68700,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09831,
+            "total_price": 196.62
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.09207,
+            "total_price": 368.28
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.08895,
+            "total_price": 533.7
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.08549,
+            "total_price": 854.9
+          },
+          {
+            "break_quantity": 14000,
+            "unit_price": 0.08346,
+            "total_price": 1168.44
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.08152,
+            "total_price": 1630.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "478-1654-1-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 68768,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": 0.37
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.22,
+            "total_price": 2.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1626,
+            "total_price": 8.13
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": 14.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1151,
+            "total_price": 57.55
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10588,
+            "total_price": 105.88
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-1654-6-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 68768,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": 0.37
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.22,
+            "total_price": 2.2
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.1626,
+            "total_price": 8.13
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": 14.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.1151,
+            "total_price": 57.55
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10588,
+            "total_price": 105.88
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-1654-2-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 68700,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.09831,
+            "total_price": 196.62
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.09207,
+            "total_price": 368.28
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.08895,
+            "total_price": 533.7
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.08549,
+            "total_price": 854.9
+          },
+          {
+            "break_quantity": 14000,
+            "unit_price": 0.08346,
+            "total_price": 1168.44
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.08152,
+            "total_price": 1630.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:51Z",
+    "manufacturer": "KYOCERA AVX",
+    "manufacturer_part_number": "TAJA106K010RNJ",
+    "provider_part_number": "",
+    "description": "CAP TANT 10UF 10% 10V 1206",
+    "detailed_description": "10 µF Molded Tantalum Capacitors 10 V 1206 (3216 Metric) 3Ohm",
+    "datasheet_url": "https://datasheets.kyocera-avx.com/TAJ.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/kyocera-avx/TAJA106K010RNJ/364911",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2573/OxiCap%20NOJ%20SERIES%201.6H%2C3.2L%2C1.6W.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "1206 (3216 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Capacitance": "10 µF",
+      "Tolerance": "±10%",
+      "Voltage - Rated": "10 V",
+      "Type": "Molded",
+      "ESR (Equivalent Series Resistance)": "3Ohm",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Lifetime @ Temp.": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "1206 (3216 Metric)",
+      "Size / Dimension": "0.126\" L x 0.063\" W (3.20mm x 1.60mm)",
+      "Height - Seated (Max)": "0.071\" (1.80mm)",
+      "Lead Spacing": "-",
+      "Manufacturer Size Code": "A",
+      "Features": "General Purpose",
+      "Failure Rate": "-"
+    },
+    "compliance": {}
+  }
+}

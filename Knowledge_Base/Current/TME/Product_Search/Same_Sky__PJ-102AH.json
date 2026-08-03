@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:05:16Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Same Sky®",
+    "input_mpn": "PJ-102AH",
+    "resolved_manufacturer": "Same Sky®",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "NEW"
+            ],
+            "symbol": "PJ102AH",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112990,
+              "name": "DC power connectors"
+            },
+            "manufacturer_symbols": [
+              "PJ-102AH"
+            ],
+            "manufacturer": {
+              "id": 2042,
+              "name": "Same Sky®"
+            },
+            "description": "Connector: DC supply; socket; female; 5A; 24V; PIN: 2; horizontal",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.787,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "TR1",
+                  "translation": null,
+                  "amount": 200
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9C/F5/71/00/0/1531849_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=1a073b75e689c624d3de7ca89c1ebf647caec5d3",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9C/F5/71/00/0/1531849_1.jpg?width=100&height=75&q=75&ci_sign=32ea2573e48879c6bab9a0002b1b983c9cb698f8",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/9C/F5/71/00/0/1531849_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=d167065135b77bd7d061ac5619f1f0c9f16eb7c9"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

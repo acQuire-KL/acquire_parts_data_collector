@@ -1,0 +1,188 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:11Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BOURNS",
+    "input_mpn": "MF-MSMF250/16X-2",
+    "resolved_manufacturer": "BOURNS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MF-MSMF250/16X-2",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 60,
+                    "value": "BOURNS"
+                  }
+                ]
+              },
+              {
+                "id": 617,
+                "name": "Type of fuse",
+                "values": [
+                  {
+                    "id": 1473027,
+                    "value": "PTC polymer"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1449012,
+                    "value": "2.5A"
+                  }
+                ]
+              },
+              {
+                "id": 424,
+                "name": "Maximum current",
+                "values": [
+                  {
+                    "id": 1497646,
+                    "value": "100A"
+                  }
+                ]
+              },
+              {
+                "id": 951,
+                "name": "Switched current",
+                "values": [
+                  {
+                    "id": 1473086,
+                    "value": "5A"
+                  }
+                ]
+              },
+              {
+                "id": 743,
+                "name": "Max. voltage",
+                "values": [
+                  {
+                    "id": 1488222,
+                    "value": "16V"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1437094,
+                    "value": "PCB"
+                  },
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1903038,
+                    "value": "MF-SM"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1442229,
+                    "value": "1.2W"
+                  }
+                ]
+              },
+              {
+                "id": 1738,
+                "name": "Min. resistance",
+                "values": [
+                  {
+                    "id": 1481254,
+                    "value": "15mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 1739,
+                "name": "Max resistance",
+                "values": [
+                  {
+                    "id": 1473094,
+                    "value": "100mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620237,
+                    "value": "1812"
+                  }
+                ]
+              },
+              {
+                "id": 588,
+                "name": "Fuses application",
+                "values": [
+                  {
+                    "id": 1533829,
+                    "value": "automotive applications"
+                  },
+                  {
+                    "id": 1449362,
+                    "value": "standard applications"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

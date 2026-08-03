@@ -1,0 +1,306 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:43Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Littelfuse Inc.",
+    "input_mpn": "CPC1998J",
+    "resolved_manufacturer": "Littelfuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "4562 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/100/1/CPC1998J.pdf",
+          "Description": "Solid State Relays - PCB Mount SP AC Solid State Power Switch",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/ixys/images/CPC1998_DSL.JPG",
+          "Category": "Solid State Relays - PCB Mount",
+          "LeadTime": "161 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "IXYS Integrated Circuits",
+          "ManufacturerPartNumber": "CPC1998J",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "849-CPC1998J",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "25"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€18.71",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€16.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€16.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€15.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€14.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€14.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€13.94",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/IXYS-Integrated-Circuits/CPC1998J?qs=MxzUEhdSHRY7LQM%252B%2FT7QOw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.005684
+          },
+          "AvailabilityInStock": "4562",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2725,
+              "Date": "2026-09-21T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536490099"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541490000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536490010"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541498000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8536490001"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536490000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85364900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:43Z",
+    "manufacturer_part_number": "CPC1998J",
+    "product_quantity_available": 4562,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "161 Days",
+    "product_unit_price": 18.71,
+    "offers": [
+      {
+        "provider_part_number": "849-CPC1998J",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4562,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 18.71,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 16.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 16.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 15.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 14.95,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 14.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 13.94,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "849-CPC1998J",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4562,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 18.71,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 16.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 16.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 15.47,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 14.95,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 14.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 13.94,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:43Z",
+    "manufacturer": "IXYS Integrated Circuits",
+    "manufacturer_part_number": "CPC1998J",
+    "provider_part_number": "849-CPC1998J",
+    "description": "Solid State Relays - PCB Mount SP AC Solid State Power Switch",
+    "detailed_description": "Solid State Relays - PCB Mount SP AC Solid State Power Switch",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/100/1/CPC1998J.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/IXYS-Integrated-Circuits/CPC1998J?qs=MxzUEhdSHRY7LQM%252B%2FT7QOw%3D%3D",
+    "image_url": "https://www.mouser.com/images/ixys/images/CPC1998_DSL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tube",
+      "Standard Pack Qty": "25"
+    },
+    "compliance": {
+      "TARIC": "8536490099",
+      "CNHTS": "8541490000",
+      "CAHTS": "8536490010",
+      "USHTS": "8541498000",
+      "JPHTS": "8536490001",
+      "KRHTS": "8536490000",
+      "BRHTS": "85364900",
+      "ECCN": "EAR99"
+    }
+  }
+}

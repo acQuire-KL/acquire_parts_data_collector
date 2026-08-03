@@ -1,0 +1,206 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:04:06Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "R413I21000000M",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MKPY2-10NR15",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 142,
+                    "value": "KEMET"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1437618,
+                    "value": "polypropylene"
+                  }
+                ]
+              },
+              {
+                "id": 2650,
+                "name": "Kind of capacitor",
+                "values": [
+                  {
+                    "id": 1437578,
+                    "value": "X1"
+                  },
+                  {
+                    "id": 1437586,
+                    "value": "Y2"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1828354,
+                    "value": "R41"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437162,
+                    "value": "10nF"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1437311,
+                    "value": "250V AC"
+                  },
+                  {
+                    "id": 1437351,
+                    "value": "1kV DC"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1734150,
+                    "value": "5x11x18mm"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436576,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819333,
+                    "value": "±20%"
+                  }
+                ]
+              },
+              {
+                "id": 31,
+                "name": "Terminal pitch",
+                "values": [
+                  {
+                    "id": 1437349,
+                    "value": "15mm"
+                  }
+                ]
+              },
+              {
+                "id": 128,
+                "name": "Climate class",
+                "values": [
+                  {
+                    "id": 1493855,
+                    "value": "40/100/56"
+                  },
+                  {
+                    "id": 1437899,
+                    "value": "IEC 60068-1"
+                  }
+                ]
+              },
+              {
+                "id": 129,
+                "name": "Capacitor application",
+                "values": [
+                  {
+                    "id": 1437964,
+                    "value": "between the supply pole and mass"
+                  },
+                  {
+                    "id": 1437901,
+                    "value": "between the supply poles"
+                  }
+                ]
+              },
+              {
+                "id": 1671,
+                "name": "Lead length",
+                "values": [
+                  {
+                    "id": 1529920,
+                    "value": "4mm"
+                  }
+                ]
+              },
+              {
+                "id": 436,
+                "name": "Conform to the norm",
+                "values": [
+                  {
+                    "id": 1617448,
+                    "value": "AEC-Q200"
+                  }
+                ]
+              },
+              {
+                "id": 3074,
+                "name": "Alias",
+                "values": [
+                  {
+                    "id": 1762946,
+                    "value": "413I21000000M"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819391,
+                    "value": "-40...110°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

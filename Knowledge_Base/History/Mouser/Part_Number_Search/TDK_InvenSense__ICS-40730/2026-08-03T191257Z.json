@@ -1,0 +1,199 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:57Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK InvenSense",
+    "input_mpn": "ICS-40730",
+    "resolved_manufacturer": "TDK InvenSense",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "MEMS Microphones Ultra-Low Noise Microphone with Differential Output",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/tdk/images/ICS-40730_SPL.jpg",
+          "Category": "MEMS Microphones",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "TDK InvenSense",
+          "ManufacturerPartNumber": "ICS-40730",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "410-ICS-40730",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TDK-InvenSense/ICS-40730?qs=u4fy%2FsgLU9NSEazDXv1BKw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00026
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8518100090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542391010"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8518100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8518108030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "851810000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "",
+    "captured_at_utc": "2026-08-03T19:12:57Z",
+    "manufacturer_part_number": "ICS-40730",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": null,
+    "offers": [
+      {
+        "provider_part_number": "410-ICS-40730",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "410-ICS-40730",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:57Z",
+    "manufacturer": "TDK InvenSense",
+    "manufacturer_part_number": "ICS-40730",
+    "provider_part_number": "410-ICS-40730",
+    "description": "MEMS Microphones Ultra-Low Noise Microphone with Differential Output",
+    "detailed_description": "MEMS Microphones Ultra-Low Noise Microphone with Differential Output",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/TDK-InvenSense/ICS-40730?qs=u4fy%2FsgLU9NSEazDXv1BKw%3D%3D",
+    "image_url": "https://www.mouser.com/images/tdk/images/ICS-40730_SPL.jpg",
+    "lifecycle_status": "End of Life",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8518100090",
+      "CNHTS": "8542391010",
+      "CAHTS": "8518100000",
+      "USHTS": "8518108030",
+      "JPHTS": "851810000",
+      "MXHTS": "8542399901",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,973 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:26Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "input_mpn": "1N4448W",
+    "resolved_manufacturer": "DIOTEC SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "1N4448W-DIO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W"
+            ],
+            "manufacturer": {
+              "id": 43,
+              "name": "DIOTEC SEMICONDUCTOR"
+            },
+            "description": "Diode: switching; SMD; 100V; 300mA; 4ns; SOD123F; Ufmax: 1.25V; 400mW",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.022,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=eda461faee492abb29e02bbc7517d2f6d26f2b5b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=100&height=75&q=75&ci_sign=cf3de0c991226d9f85a904dd05eb2b8105076de9",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=252428f334a7278fffb70747945909f283ab2703"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WTR-SMC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WTR"
+            ],
+            "manufacturer": {
+              "id": 1827,
+              "name": "SMC DIODE SOLUTIONS"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.25A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WSF-7",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WSF-7"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD323F; Ufmax: 0.62V",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.015,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/4E/00/00/0/58425_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=18a5833dcb6ec0cfe8db81c970ba931c0dcf164b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/4E/00/00/0/58425_1.jpg?width=100&height=75&q=75&ci_sign=7cca5b68f1721ec6f0e9c3c158feddb275c5baf0",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WSTR-SMC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WSTR"
+            ],
+            "manufacturer": {
+              "id": 1827,
+              "name": "SMC DIODE SOLUTIONS"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.25A; 4ns; SOD323; Ufmax: 1.25V; Ifsm: 2A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.016,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b5797da2b6d5190be75b8b649a4ddc65ee8fb753",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=100&height=75&q=75&ci_sign=d40d080041b6a56b250ba072b7e39a9b99759988",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448W-E3-08",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W-E3-08"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD123; Ufmax: 1V; Ifsm: 0.5A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.019,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "1N4448W-TP",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W-TP"
+            ],
+            "manufacturer": {
+              "id": 1438,
+              "name": "MICRO COMMERCIAL COMPONENTS"
+            },
+            "description": "Diode: switching; SMD; 100V; 250mA; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WS-DIO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS"
+            ],
+            "manufacturer": {
+              "id": 43,
+              "name": "DIOTEC SEMICONDUCTOR"
+            },
+            "description": "Diode: switching; SMD; 100V; 300mA; 4ns; SOD323F; Ufmax: 1.25V",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.011,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/4E/00/00/0/58425_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=18a5833dcb6ec0cfe8db81c970ba931c0dcf164b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/4E/00/00/0/58425_1.jpg?width=100&height=75&q=75&ci_sign=7cca5b68f1721ec6f0e9c3c158feddb275c5baf0",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WT"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.3A; 4ns; SOD523F; Ufmax: 1V; Ir: 5uA",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.006,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 8000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/8C/DC/00/00/1/52680_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8caadb9c0e37ea525b50b7c6d48f38b3094c6f08",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/8C/DC/00/00/1/52680_1.jpg?width=100&height=75&q=75&ci_sign=23b96bb2de15d4bcb79dc60e1206bc5fe433579d",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WQ-7-F",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WQ-7-F"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD123; Ufmax: 0.72V",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.019,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WS",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS"
+            ],
+            "manufacturer": {
+              "id": 41,
+              "name": "ONSEMI"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.15A; 4ns; SOD323F; Ufmax: 1V; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.013,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/32/01/00/0/1057593_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=194357c015e243bb38d4128956e963d9ae879fa6",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/32/01/00/0/1057593_1.jpg?width=100&height=75&q=75&ci_sign=2391c19ffce7dea2b6ca570c2862247e51bd4be9",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/93/32/01/00/0/1057593_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=92615d43d68db9592aadaca795748ad7a1572ea9"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448W-AQ-DIO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W-AQ"
+            ],
+            "manufacturer": {
+              "id": 43,
+              "name": "DIOTEC SEMICONDUCTOR"
+            },
+            "description": "Diode: switching; SMD; 100V; 300mA; 4ns; SOD123F; Ufmax: 1.25V; 400mW",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.017,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=eda461faee492abb29e02bbc7517d2f6d26f2b5b",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=100&height=75&q=75&ci_sign=cf3de0c991226d9f85a904dd05eb2b8105076de9",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/F2/32/01/00/0/1057583_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=252428f334a7278fffb70747945909f283ab2703"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WS-DC",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS"
+            ],
+            "manufacturer": {
+              "id": 33,
+              "name": "DC COMPONENTS"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.15A; 4ns; SOD323; Ufmax: 1V; Ifsm: 4A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.014,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b5797da2b6d5190be75b8b649a4ddc65ee8fb753",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=100&height=75&q=75&ci_sign=d40d080041b6a56b250ba072b7e39a9b99759988",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "AVAILABLE_WHILE_STOCKS_LAST"
+            ],
+            "symbol": "1N4448WS-YAN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS"
+            ],
+            "manufacturer": {
+              "id": 1317,
+              "name": "YANGJIE TECHNOLOGY"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.5A; 4ns; SOD323; Ufmax: 1V; Ifsm: 4A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.014,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/51/E1/A0/00/0/663061_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=12745bbd1ea88caf9ce1c4bdfbc77e9512cca1c7",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/51/E1/A0/00/0/663061_1.jpg?width=100&height=75&q=75&ci_sign=7c2af57974af2aa207f4a923b784650f11ed0f1a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/51/E1/A0/00/0/663061_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=20090842d33ce630af2e98a6600862d17e38e264"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WSGW-DIO",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WSGW"
+            ],
+            "manufacturer": {
+              "id": 43,
+              "name": "DIOTEC SEMICONDUCTOR"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD323; Ufmax: 1.25V",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.012,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b5797da2b6d5190be75b8b649a4ddc65ee8fb753",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=100&height=75&q=75&ci_sign=d40d080041b6a56b250ba072b7e39a9b99759988",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WS-R1",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS_R1_00001"
+            ],
+            "manufacturer": {
+              "id": 1891,
+              "name": "PanJit Semiconductor"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.15A; SOD323; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.012,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 5000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/FB/F1/01/00/0/1056703_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=57340b75f214cc3218d3e09110505486bc3ea649",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/FB/F1/01/00/0/1056703_1.jpg?width=100&height=75&q=75&ci_sign=add824ed876421bda18cf463ed10d9d9c2818a2c",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "1N4448WS-HE3-08",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS-HE3-08"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.15A; 4ns; SOD323; Ufmax: 1V; Ir: 50uA",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.016,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b5797da2b6d5190be75b8b649a4ddc65ee8fb753",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=100&height=75&q=75&ci_sign=d40d080041b6a56b250ba072b7e39a9b99759988",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "1N4448W-7-F",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W-7-F"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.25A; 4ns; SOD123; Ufmax: 1.25V; Ifsm: 1A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.019,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/5D/27/A0/00/0/684757_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=4eb7a71a3b1b88f492997bb59bcf372e9e1bb4f8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/5D/27/A0/00/0/684757_1.jpg?width=100&height=75&q=75&ci_sign=f6c987a61ebae97a9f855fb5cd576a5b08d990ea",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "1N4448WS-7-F",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WS-7-F"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: switching; SMD; 75V; 0.25A; 4ns; SOD323; Ufmax: 1.25V; Ifsm: 1A",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.017,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b5797da2b6d5190be75b8b649a4ddc65ee8fb753",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/01/EC/00/00/1/52752_1.jpg?width=100&height=75&q=75&ci_sign=d40d080041b6a56b250ba072b7e39a9b99759988",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "1N4448W-HE3-08",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448W-HE3-08"
+            ],
+            "manufacturer": {
+              "id": 36,
+              "name": "VISHAY"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD123; Ufmax: 1V; Ifsm: 0.5A",
+            "multiples": 25,
+            "minimal_amount": 25,
+            "weight": {
+              "value": 0.02,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c"
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "1N4448WSFQ-7",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112791,
+              "name": "SMD universal diodes"
+            },
+            "manufacturer_symbols": [
+              "1N4448WSFQ-7"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "Diode: switching; SMD; 100V; 0.25A; 4ns; SOD323F; Ufmax: 0.62V",
+            "multiples": 3000,
+            "minimal_amount": 3000,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/42/F6/61/00/0/1470244_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0cc5f98baef7392c16f0329a86775969cd799ef5",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/42/F6/61/00/0/1470244_1.jpg?width=100&height=75&q=75&ci_sign=df1addafa476a3c216f13a6e06423cf13ab298e8",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

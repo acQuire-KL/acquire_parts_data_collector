@@ -1,0 +1,79 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:42Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "IXYS",
+    "input_mpn": "CPC1998J",
+    "resolved_manufacturer": "IXYS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "CPC1998J",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100052,
+              "name": "One Phase Solid State Relays"
+            },
+            "manufacturer_symbols": [
+              "CPC1998J"
+            ],
+            "manufacturer": {
+              "id": 39,
+              "name": "IXYS"
+            },
+            "description": "Relay: solid state; Icntrl max: 150mA; 5000mA; max.240VAC; 1-phase",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 5.705,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "TB1",
+                  "translation": null,
+                  "amount": 25
+                },
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 250
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/FF/E6/A0/00/0/683775_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=eff0e54ad306176d27b3b5b453c08014ae238298",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/FF/E6/A0/00/0/683775_1.jpg?width=100&height=75&q=75&ci_sign=94e94eb6000242f52766b35ceb8c98064604eacb",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/FF/E6/A0/00/0/683775_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8261b1fa01b1d156d88f1ac4c58950940cef468a"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

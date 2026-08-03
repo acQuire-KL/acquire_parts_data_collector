@@ -1,0 +1,769 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "TLV62569DBVR",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "835"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG BUCK ADJ 2A SOT23-5",
+        "DetailedDescription": "Buck Switching Regulator IC Positive Adjustable 0.6V Output 2A SC-74A, SOT-753"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TLV62569DBVR",
+      "UnitPrice": 0.24,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TLV62569DBVR/6580119",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv62569",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4073253-4%7EDBV%7E5.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-47360-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.09857,
+              "TotalPrice": 295.71
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.09555,
+              "TotalPrice": 573.3
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.09404,
+              "TotalPrice": 846.36
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.09237,
+              "TotalPrice": 1385.55
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.09139,
+              "TotalPrice": 1919.19
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.09045,
+              "TotalPrice": 2713.5
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 258000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-47360-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.24,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.166,
+              "TotalPrice": 1.66
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1468,
+              "TotalPrice": 3.67
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1258,
+              "TotalPrice": 12.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.11576,
+              "TotalPrice": 28.94
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.10972,
+              "TotalPrice": 54.86
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10474,
+              "TotalPrice": 104.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 260033,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-47360-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.24,
+              "TotalPrice": 0.24
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.166,
+              "TotalPrice": 1.66
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1468,
+              "TotalPrice": 3.67
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1258,
+              "TotalPrice": 12.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.11576,
+              "TotalPrice": 28.94
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.10972,
+              "TotalPrice": 54.86
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.10474,
+              "TotalPrice": 104.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 260033,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 260033,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "408308",
+          "ValueText": "Step-Down"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "323617",
+          "ValueText": "Buck"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "310372",
+          "ValueText": "Adjustable"
+        },
+        {
+          "ParameterId": 87,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1471,
+          "ParameterText": "Voltage - Input (Min)",
+          "ParameterType": "String",
+          "ValueId": "132007",
+          "ValueText": "2.5V"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "233086",
+          "ValueText": "5.5V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "31294",
+          "ValueText": "0.6V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "233086",
+          "ValueText": "5.5V"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        },
+        {
+          "ParameterId": 384,
+          "ParameterText": "Frequency - Switching",
+          "ParameterType": "String",
+          "ValueId": "55338",
+          "ValueText": "1.5MHz"
+        },
+        {
+          "ParameterId": 1320,
+          "ParameterText": "Synchronous Rectifier",
+          "ParameterType": "String",
+          "ValueId": "423329",
+          "ValueText": "Yes"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212481",
+          "ValueText": "-40°C ~ 125°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "400230",
+          "ValueText": "SC-74A, SOT-753"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "405420",
+          "ValueText": "SOT-23-5"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 257130,
+        "Name": "TLV62569"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 739,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - DC DC Switching Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/932/150%3B-C04-1196%3B-PHA%3B-32_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the DC-DC switching regulator PMIC (Power Management Integrated Circuit) family are component-level devices used in applications requiring stabilization of a DC input voltage and/or transformation thereof to an output voltage of different magnitude. They are distinguished from similar products called \"controller\" PMICs by virtue of integrating the main switching element through which the power delivered by the device passes.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "TEXTISTLV62569DBVR",
+        "TLV62569DBVR-ND",
+        "296-47360-6",
+        "2156-TLV62569DBVR",
+        "296-47360-2",
+        "296-47360-1"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:24Z",
+    "manufacturer_part_number": "TLV62569DBVR",
+    "product_quantity_available": 260033,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.24,
+    "offers": [
+      {
+        "provider_part_number": "296-47360-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 260033,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.166,
+            "total_price": 1.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1468,
+            "total_price": 3.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1258,
+            "total_price": 12.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.11576,
+            "total_price": 28.94
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.10972,
+            "total_price": 54.86
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10474,
+            "total_price": 104.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-47360-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 260033,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.166,
+            "total_price": 1.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1468,
+            "total_price": 3.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1258,
+            "total_price": 12.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.11576,
+            "total_price": 28.94
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.10972,
+            "total_price": 54.86
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10474,
+            "total_price": 104.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-47360-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 258000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.09857,
+            "total_price": 295.71
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.09555,
+            "total_price": 573.3
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.09404,
+            "total_price": 846.36
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.09237,
+            "total_price": 1385.55
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.09139,
+            "total_price": 1919.19
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.09045,
+            "total_price": 2713.5
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-47360-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 260033,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.166,
+            "total_price": 1.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1468,
+            "total_price": 3.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1258,
+            "total_price": 12.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.11576,
+            "total_price": 28.94
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.10972,
+            "total_price": 54.86
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10474,
+            "total_price": 104.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-47360-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 260033,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.24,
+            "total_price": 0.24
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.166,
+            "total_price": 1.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1468,
+            "total_price": 3.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1258,
+            "total_price": 12.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.11576,
+            "total_price": 28.94
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.10972,
+            "total_price": 54.86
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.10474,
+            "total_price": 104.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-47360-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 258000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.09857,
+            "total_price": 295.71
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.09555,
+            "total_price": 573.3
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.09404,
+            "total_price": 846.36
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.09237,
+            "total_price": 1385.55
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.09139,
+            "total_price": 1919.19
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.09045,
+            "total_price": 2713.5
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:24Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TLV62569DBVR",
+    "provider_part_number": "",
+    "description": "IC REG BUCK ADJ 2A SOT23-5",
+    "detailed_description": "Buck Switching Regulator IC Positive Adjustable 0.6V Output 2A SC-74A, SOT-753",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv62569",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TLV62569DBVR/6580119",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8900/MFG_296%7E4073253-4%7EDBV%7E5.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "SC-74A, SOT-753",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Step-Down",
+      "Output Configuration": "Positive",
+      "Topology": "Buck",
+      "Output Type": "Adjustable",
+      "Number of Outputs": "-",
+      "Voltage - Input (Min)": "2.5V",
+      "Voltage - Input (Max)": "5.5V",
+      "Voltage - Output (Min/Fixed)": "0.6V",
+      "Voltage - Output (Max)": "5.5V",
+      "Current - Output": "2A",
+      "Frequency - Switching": "1.5MHz",
+      "Synchronous Rectifier": "Yes",
+      "Operating Temperature": "-40°C ~ 125°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "SC-74A, SOT-753",
+      "Supplier Device Package": "SOT-23-5"
+    },
+    "compliance": {}
+  }
+}

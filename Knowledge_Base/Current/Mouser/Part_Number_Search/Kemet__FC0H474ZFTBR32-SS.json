@@ -1,0 +1,301 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:12:23Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Kemet",
+    "input_mpn": "FC0H474ZFTBR32-SS",
+    "resolved_manufacturer": "Kemet",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "2224 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/72/1/FC0H474ZFTBR32_SS.pdf",
+          "Description": "Supercapacitors / Ultracapacitors 5.5V 0.47F -20/+80% Tape Width=32mm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kemet/images/FC_DSL.jpg",
+          "Category": "Supercapacitors / Ultracapacitors",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KEMET",
+          "ManufacturerPartNumber": "FC0H474ZFTBR32-SS",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "80-FC0H474ZFTBR32-SS",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "200"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€6.40",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€4.89",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€4.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€3.97",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 200,
+              "Price": "€3.97",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 400,
+              "Price": "€3.89",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KEMET/FC0H474ZFTBR32-SS?qs=6Y36ihRkJPVAFy4Gt4DFzg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.004
+          },
+          "AvailabilityInStock": "2224",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 1800,
+              "Date": "2026-12-07T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "400",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532290000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532290040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8532100006"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532100000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85321000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:12:23Z",
+    "manufacturer_part_number": "FC0H474ZFTBR32-SS",
+    "product_quantity_available": 2224,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "364 Days",
+    "product_unit_price": 6.4,
+    "offers": [
+      {
+        "provider_part_number": "80-FC0H474ZFTBR32-SS",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2224,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.4,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.89,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 4.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.97,
+            "total_price": null
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 3.97,
+            "total_price": null
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 3.89,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "80-FC0H474ZFTBR32-SS",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2224,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.4,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 4.89,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 4.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 3.97,
+            "total_price": null
+          },
+          {
+            "break_quantity": 200,
+            "unit_price": 3.97,
+            "total_price": null
+          },
+          {
+            "break_quantity": 400,
+            "unit_price": 3.89,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:12:23Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "FC0H474ZFTBR32-SS",
+    "provider_part_number": "80-FC0H474ZFTBR32-SS",
+    "description": "Supercapacitors / Ultracapacitors 5.5V 0.47F -20/+80% Tape Width=32mm",
+    "detailed_description": "Supercapacitors / Ultracapacitors 5.5V 0.47F -20/+80% Tape Width=32mm",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/72/1/FC0H474ZFTBR32_SS.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/KEMET/FC0H474ZFTBR32-SS?qs=6Y36ihRkJPVAFy4Gt4DFzg%3D%3D",
+    "image_url": "https://www.mouser.com/images/kemet/images/FC_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "200"
+    },
+    "compliance": {
+      "TARIC": "8532290000",
+      "CNHTS": "8532290000",
+      "CAHTS": "8532100000",
+      "USHTS": "8532290040",
+      "JPHTS": "8532100006",
+      "KRHTS": "8532100000",
+      "BRHTS": "85321000",
+      "ECCN": "EAR99"
+    }
+  }
+}

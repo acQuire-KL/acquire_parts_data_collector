@@ -1,0 +1,503 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:07:07Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Littelfuse Inc.",
+    "input_mpn": "36912000000",
+    "resolved_manufacturer": "Littelfuse Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "889"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FUSE BOARD MNT 2A 300VAC RADIAL",
+        "DetailedDescription": "2 A 300 V Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Box"
+      },
+      "Manufacturer": {
+        "Id": 18,
+        "Name": "Littelfuse Inc."
+      },
+      "ManufacturerProductNumber": "36912000000",
+      "UnitPrice": 0.81,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/littelfuse-inc/36912000000/1986934",
+      "DatasheetUrl": "https://www.littelfuse.com/assetdocs/fuse-369-datasheet?assetguid=2d4d6025-892d-4199-9612-78de96bc2dfe",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2588/MFG_369%20Series.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "F5461CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.81,
+              "TotalPrice": 0.81
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 0.672,
+              "TotalPrice": 3.36
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.619,
+              "TotalPrice": 6.19
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5134,
+              "TotalPrice": 25.67
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4737,
+              "TotalPrice": 47.37
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.4258,
+              "TotalPrice": 106.45
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.3927,
+              "TotalPrice": 196.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 18,
+            "Name": "Littelfuse Inc."
+          },
+          "QuantityAvailableforPackageType": 901,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "F5461TB-ND",
+          "PackageType": {
+            "Id": 4,
+            "Name": "Tape & Box (TB)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1400,
+              "UnitPrice": 0.29827,
+              "TotalPrice": 417.578
+            },
+            {
+              "BreakQuantity": 2800,
+              "UnitPrice": 0.2748,
+              "TotalPrice": 769.44
+            },
+            {
+              "BreakQuantity": 4200,
+              "UnitPrice": 0.26276,
+              "TotalPrice": 1103.592
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 18,
+            "Name": "Littelfuse Inc."
+          },
+          "QuantityAvailableforPackageType": 32200,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1400,
+          "StandardPackage": 1400,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 33101,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 49,
+          "ParameterText": "Fuse Type",
+          "ParameterType": "String",
+          "ValueId": "321582",
+          "ValueText": "Board Mount (Cartridge Style Excluded)"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "2 A",
+          "ValueText": "2 A"
+        },
+        {
+          "ParameterId": 2143,
+          "ParameterText": "Voltage Rating - AC",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "300 V",
+          "ValueText": "300 V"
+        },
+        {
+          "ParameterId": 343,
+          "ParameterText": "Response Time",
+          "ParameterType": "String",
+          "ValueId": "403741",
+          "ValueText": "Slow Blow"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "392313",
+          "ValueText": "Radial, Box"
+        },
+        {
+          "ParameterId": 1551,
+          "ParameterText": "Breaking Capacity @ Rated Voltage",
+          "ParameterType": "String",
+          "ValueId": "237743",
+          "ValueText": "50A"
+        },
+        {
+          "ParameterId": 2163,
+          "ParameterText": "Melting I²t",
+          "ParameterType": "Double",
+          "ValueId": "21.0",
+          "ValueText": "21.0"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "335773",
+          "ValueText": "cULus, PSE/JET"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "19461",
+          "ValueText": "0.335\" L x 0.157\" W x 0.315\" H (8.50mm x 4.00mm x 8.00mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 9,
+        "ParentId": 0,
+        "Name": "Circuit Protection",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+        "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+        "ChildCategories": [
+          {
+            "CategoryId": 139,
+            "ParentId": 9,
+            "Name": "Fuses",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/270/869/0297010.WXNV_tmb%2864x64%29.jpg",
+            "SeoDescription": "A fuse is a device designed to stop current flow when it exceeds a certain limit (overcurrent protection). The devices works by creating an opening in a material situated between two end terminals. The material will melt (blow) from an increase in heat generated by the device as the current flow changes. The amount of time it takes the device to blow is often defined as fast or slow-blow.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "19",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 19166,
+        "Name": "TE5® 369"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.10.0040"
+      },
+      "OtherNames": [
+        "-36912000000",
+        "F5461TB",
+        "36912000000-ND",
+        "F5461CT",
+        "3691200000",
+        "3937-36912000000"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:07Z",
+    "manufacturer_part_number": "36912000000",
+    "product_quantity_available": 33101,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "19",
+    "product_unit_price": 0.81,
+    "offers": [
+      {
+        "provider_part_number": "F5461TB-ND",
+        "supplier": "Littelfuse Inc.",
+        "package_type_id": 4,
+        "package_type": "Tape & Box (TB)",
+        "packaging_code": "Tape & Box (TB)",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1400,
+        "pack_quantity": 1400,
+        "quantity_available": 32200,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1400,
+            "unit_price": 0.29827,
+            "total_price": 417.578
+          },
+          {
+            "break_quantity": 2800,
+            "unit_price": 0.2748,
+            "total_price": 769.44
+          },
+          {
+            "break_quantity": 4200,
+            "unit_price": 0.26276,
+            "total_price": 1103.592
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "F5461CT-ND",
+        "supplier": "Littelfuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 901,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.672,
+            "total_price": 3.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.619,
+            "total_price": 6.19
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5134,
+            "total_price": 25.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4737,
+            "total_price": 47.37
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.4258,
+            "total_price": 106.45
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3927,
+            "total_price": 196.35
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "F5461TB-ND",
+        "supplier": "Littelfuse Inc.",
+        "package_type_id": 4,
+        "package_type": "Tape & Box (TB)",
+        "packaging_code": "Tape & Box (TB)",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1400,
+        "pack_quantity": 1400,
+        "quantity_available": 32200,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1400,
+            "unit_price": 0.29827,
+            "total_price": 417.578
+          },
+          {
+            "break_quantity": 2800,
+            "unit_price": 0.2748,
+            "total_price": 769.44
+          },
+          {
+            "break_quantity": 4200,
+            "unit_price": 0.26276,
+            "total_price": 1103.592
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "F5461CT-ND",
+        "supplier": "Littelfuse Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 901,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.81,
+            "total_price": 0.81
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.672,
+            "total_price": 3.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.619,
+            "total_price": 6.19
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5134,
+            "total_price": 25.67
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4737,
+            "total_price": 47.37
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.4258,
+            "total_price": 106.45
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3927,
+            "total_price": 196.35
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:07:07Z",
+    "manufacturer": "Littelfuse Inc.",
+    "manufacturer_part_number": "36912000000",
+    "provider_part_number": "",
+    "description": "FUSE BOARD MNT 2A 300VAC RADIAL",
+    "detailed_description": "2 A 300 V Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Box",
+    "datasheet_url": "https://www.littelfuse.com/assetdocs/fuse-369-datasheet?assetguid=2d4d6025-892d-4199-9612-78de96bc2dfe",
+    "product_url": "https://www.digikey.ie/en/products/detail/littelfuse-inc/36912000000/1986934",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2588/MFG_369%20Series.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "Radial, Box",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Mounting Type": "Through Hole",
+      "Fuse Type": "Board Mount (Cartridge Style Excluded)",
+      "Current Rating (Amps)": "2 A",
+      "Voltage Rating - AC": "300 V",
+      "Response Time": "Slow Blow",
+      "Package / Case": "Radial, Box",
+      "Breaking Capacity @ Rated Voltage": "50A",
+      "Melting I²t": "21.0",
+      "Approval Agency": "cULus, PSE/JET",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Color": "-",
+      "Size / Dimension": "0.335\" L x 0.157\" W x 0.315\" H (8.50mm x 4.00mm x 8.00mm)"
+    },
+    "compliance": {}
+  }
+}

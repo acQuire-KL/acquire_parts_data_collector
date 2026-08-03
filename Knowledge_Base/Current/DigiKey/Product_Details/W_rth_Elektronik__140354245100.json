@@ -1,0 +1,640 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:51Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Würth Elektronik",
+    "input_mpn": "140354245100",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "847"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "OPTOISO 3.75KV 1CH TRANS 4-SOP",
+        "DetailedDescription": "Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "140354245100",
+      "UnitPrice": 0.34,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/140354245100/13584843",
+      "DatasheetUrl": "",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6529/MFG_732%7E4SOP-4.4%7E%7E4.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-140354245100TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.22822,
+              "TotalPrice": 684.66
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-140354245100CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.301,
+              "TotalPrice": 3.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2764,
+              "TotalPrice": 13.82
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2518,
+              "TotalPrice": 25.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.2408,
+              "TotalPrice": 120.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6920,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-140354245100DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.301,
+              "TotalPrice": 3.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2764,
+              "TotalPrice": 13.82
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2518,
+              "TotalPrice": 25.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.2408,
+              "TotalPrice": 120.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6920,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 6920,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2093,
+          "ParameterText": "Number of Channels",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 597,
+          "ParameterText": "Voltage - Isolation",
+          "ParameterType": "String",
+          "ValueId": "198356",
+          "ValueText": "3750Vrms"
+        },
+        {
+          "ParameterId": 598,
+          "ParameterText": "Current Transfer Ratio (Min)",
+          "ParameterType": "String",
+          "ValueId": "235700",
+          "ValueText": "50% @ 1mA"
+        },
+        {
+          "ParameterId": 1241,
+          "ParameterText": "Current Transfer Ratio (Max)",
+          "ParameterType": "String",
+          "ValueId": "99545",
+          "ValueText": "150% @ 1mA"
+        },
+        {
+          "ParameterId": 1744,
+          "ParameterText": "Turn On / Turn Off Time (Typ)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1745,
+          "ParameterText": "Rise / Fall Time (Typ)",
+          "ParameterType": "String",
+          "ValueId": "235396",
+          "ValueText": "5µs, 6µs"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "307321",
+          "ValueText": "AC, DC"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "415695",
+          "ValueText": "Transistor"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "287637",
+          "ValueText": "80V"
+        },
+        {
+          "ParameterId": 494,
+          "ParameterText": "Current - Output / Channel",
+          "ParameterType": "String",
+          "ValueId": "238101",
+          "ValueText": "50mA"
+        },
+        {
+          "ParameterId": 319,
+          "ParameterText": "Voltage - Forward (Vf) (Typ)",
+          "ParameterType": "String",
+          "ValueId": "47025",
+          "ValueText": "1.24V"
+        },
+        {
+          "ParameterId": 2130,
+          "ParameterText": "Current - DC Forward (If) (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "60 mA",
+          "ValueText": "60 mA"
+        },
+        {
+          "ParameterId": 632,
+          "ParameterText": "Vce Saturation (Max)",
+          "ParameterType": "String",
+          "ValueId": "140643",
+          "ValueText": "200mV"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242908",
+          "ValueText": "-55°C ~ 110°C"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "228338",
+          "ValueText": "4-SMD, Gull Wing"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "228369",
+          "ValueText": "4-SOP"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 39,
+        "ParentId": 0,
+        "Name": "Isolators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/151/173/CPC1301GRTR_tmb.jpg",
+        "SeoDescription": "Isolator products are used where it is necessary to pass information, control signals, or gate drive signals between portions of a system that must not have a direct electrical connection with each other, whether for functional or safety-related reasons. Within this category, devices are further organized according to the character of their output stages; some device outputs behave like transistor, others like logic gates, photovoltaic (solar) cells, thyristors, or photoresistors.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2058,
+            "ParentId": 39,
+            "Name": "Optocouplers, Optoisolators",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/133/803/8-SOIC_tmb%2864x64%29.jpg",
+            "SeoDescription": "Optoisolators, also referred to as optical couplers, photocouplers, and optocouplers, are devices that use light to transmit electrical signals to isolated circuits. Output types include logic, transistor, photovoltaic, triac, and SCR.",
+            "ChildCategories": [
+              {
+                "CategoryId": 903,
+                "ParentId": 2058,
+                "Name": "Transistor, Photovoltaic Output Optoisolators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/151/173/CPC1301GRTR_tmb.jpg",
+                "SeoDescription": "Transistor or photovoltaic output optoisolators use light to transmit information across an electrical insulation barrier, usually for safety or functional reasons. They are distinguished from other optoisolator types by their use of a simple phototransistor or photovoltaic cell (solar cell) as an output device. The outputs of these devices do not require an external power source for operation and are analog in character, allowing their use for transmitting analog information between circuits which cannot be electrically connected.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 83921,
+        "Name": "WL-OCPT"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.49.8000"
+      },
+      "OtherNames": [
+        "732-140354245100TR",
+        "732-140354245100CT",
+        "CN",
+        "732-140354245100DKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:51Z",
+    "manufacturer_part_number": "140354245100",
+    "product_quantity_available": 6920,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.34,
+    "offers": [
+      {
+        "provider_part_number": "732-140354245100CT-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100DKR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100TR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 6000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.22822,
+            "total_price": 684.66
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-140354245100CT-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100DKR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100TR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 6000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.22822,
+            "total_price": 684.66
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:51Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "140354245100",
+    "provider_part_number": "",
+    "description": "OPTOISO 3.75KV 1CH TRANS 4-SOP",
+    "detailed_description": "Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP",
+    "datasheet_url": "",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/140354245100/13584843",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6529/MFG_732%7E4SOP-4.4%7E%7E4.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "4-SMD, Gull Wing",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Channels": "1",
+      "Voltage - Isolation": "3750Vrms",
+      "Current Transfer Ratio (Min)": "50% @ 1mA",
+      "Current Transfer Ratio (Max)": "150% @ 1mA",
+      "Turn On / Turn Off Time (Typ)": "-",
+      "Rise / Fall Time (Typ)": "5µs, 6µs",
+      "Input Type": "AC, DC",
+      "Output Type": "Transistor",
+      "Voltage - Output (Max)": "80V",
+      "Current - Output / Channel": "50mA",
+      "Voltage - Forward (Vf) (Typ)": "1.24V",
+      "Current - DC Forward (If) (Max)": "60 mA",
+      "Vce Saturation (Max)": "200mV",
+      "Operating Temperature": "-55°C ~ 110°C",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "4-SMD, Gull Wing",
+      "Supplier Device Package": "4-SOP"
+    },
+    "compliance": {}
+  }
+}

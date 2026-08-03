@@ -1,0 +1,194 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T18:59:33Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP3221A5T-E/OT",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MCP3221A5T-E/OT",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 632,
+                    "value": "MICROCHIP TECHNOLOGY"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443865,
+                    "value": "A/D converter"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 381,
+                "name": "Converter resolution",
+                "values": [
+                  {
+                    "id": 1443869,
+                    "value": "12bit"
+                  }
+                ]
+              },
+              {
+                "id": 382,
+                "name": "Sampling speed",
+                "values": [
+                  {
+                    "id": 1443870,
+                    "value": "100ksps"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1443815,
+                    "value": "2.7...5.5V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1443487,
+                    "value": "SOT23-5"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819335,
+                    "value": "-40...125°C"
+                  }
+                ]
+              },
+              {
+                "id": 2413,
+                "name": "Max INL",
+                "values": [
+                  {
+                    "id": 1443910,
+                    "value": "±2LSB"
+                  }
+                ]
+              },
+              {
+                "id": 2414,
+                "name": "Max DNL",
+                "values": [
+                  {
+                    "id": 1443899,
+                    "value": "±1LSB"
+                  }
+                ]
+              },
+              {
+                "id": 804,
+                "name": "Integrated circuit features",
+                "values": [
+                  {
+                    "id": 1774908,
+                    "value": "LPC"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 3658,
+                "name": "Manufacturer standard package",
+                "values": [
+                  {
+                    "id": 2151454,
+                    "value": "3000pcs."
+                  }
+                ]
+              },
+              {
+                "id": 370,
+                "name": "Operating current",
+                "values": [
+                  {
+                    "id": 1443909,
+                    "value": "450µA"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

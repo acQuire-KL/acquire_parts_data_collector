@@ -1,0 +1,124 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:07:22Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "LTC4412ES6#TRMPBF",
+    "resolved_manufacturer": "Analog Devices",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LTC4412ES6TRMPBF",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 68,
+                    "value": "Analog Devices"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1443705,
+                    "value": "driver"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1763034,
+                    "value": "OR controller"
+                  },
+                  {
+                    "id": 1493024,
+                    "value": "PowerPath controller"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1493023,
+                    "value": "TSOT23-6"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1516553,
+                    "value": "2.5...28V DC"
+                  }
+                ]
+              },
+              {
+                "id": 804,
+                "name": "Integrated circuit features",
+                "values": [
+                  {
+                    "id": 1493025,
+                    "value": "low loss"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 511,
+                "name": "Application",
+                "values": [
+                  {
+                    "id": 1763030,
+                    "value": "battery backup system"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

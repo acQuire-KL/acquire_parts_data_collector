@@ -2,28 +2,28 @@
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
   "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-07-31T16:04:12Z",
+  "last_updated_at_utc": "2026-08-03T19:13:41Z",
   "providers": {
     "DigiKey": {
-      "last_capture_at_utc": "2026-07-22T17:59:03Z",
-      "current_records": 9,
-      "history_records": 0
+      "last_capture_at_utc": "2026-08-03T19:13:40Z",
+      "current_records": 233,
+      "history_records": 224
     },
     "Mouser": {
-      "last_capture_at_utc": "2026-07-31T16:04:12Z",
-      "current_records": 10,
-      "history_records": 80
+      "last_capture_at_utc": "2026-08-03T19:13:41Z",
+      "current_records": 260,
+      "history_records": 330
     },
     "TME": {
-      "last_capture_at_utc": "2026-07-28T20:15:17Z",
-      "current_records": 3,
-      "history_records": 6
+      "last_capture_at_utc": "2026-08-03T19:13:40Z",
+      "current_records": 568,
+      "history_records": 572
     }
   },
   "refresh_planning": {
     "enabled": false,
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
-  "total_current_records": 32,
-  "total_history_records": 86
+  "total_current_records": 1071,
+  "total_history_records": 1126
 }

@@ -1,0 +1,641 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:06:51Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "FDMA1024NZ",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "894"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "MOSFET 2N-CH 20V 5A 6MICROFET",
+        "DetailedDescription": "Mosfet Array 20V 5A 700mW Surface Mount 6-MicroFET (2x2)"
+      },
+      "Manufacturer": {
+        "Id": 488,
+        "Name": "onsemi"
+      },
+      "ManufacturerProductNumber": "FDMA1024NZ",
+      "UnitPrice": 1.01,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/onsemi/FDMA1024NZ/1966961",
+      "DatasheetUrl": "https://www.onsemi.com/pub/Collateral/FDMA1024NZ-D.PDF",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6155/488%7EMKT-UMLP16E%7E%7E6.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "FDMA1024NZTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.25286,
+              "TotalPrice": 758.58
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.23342,
+              "TotalPrice": 1400.52
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 9000,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "FDMA1024NZCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.01,
+              "TotalPrice": 1.01
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.636,
+              "TotalPrice": 6.36
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.47,
+              "TotalPrice": 23.5
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4162,
+              "TotalPrice": 41.62
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.32186,
+              "TotalPrice": 160.93
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 9000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "FDMA1024NZDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.01,
+              "TotalPrice": 1.01
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.636,
+              "TotalPrice": 6.36
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.47,
+              "TotalPrice": 23.5
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4162,
+              "TotalPrice": 41.62
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.32186,
+              "TotalPrice": 160.93
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 9000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 0,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6288870697001",
+      "Parameters": [
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "377049",
+          "ValueText": "MOSFET (Metal Oxide)"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "121938",
+          "ValueText": "2 N-Channel (Dual)"
+        },
+        {
+          "ParameterId": 959,
+          "ParameterText": "FET Feature",
+          "ParameterType": "String",
+          "ValueId": "366722",
+          "ValueText": "Logic Level Gate"
+        },
+        {
+          "ParameterId": 607,
+          "ParameterText": "Drain to Source Voltage (Vdss)",
+          "ParameterType": "String",
+          "ValueId": "143803",
+          "ValueText": "20V"
+        },
+        {
+          "ParameterId": 608,
+          "ParameterText": "Current - Continuous Drain (Id) @ 25°C",
+          "ParameterType": "String",
+          "ValueId": "247706",
+          "ValueText": "5A"
+        },
+        {
+          "ParameterId": 612,
+          "ParameterText": "Rds On (Max) @ Id, Vgs",
+          "ParameterType": "String",
+          "ValueId": "242531",
+          "ValueText": "54mOhm @ 5A, 4.5V"
+        },
+        {
+          "ParameterId": 1236,
+          "ParameterText": "Vgs(th) (Max) @ Id",
+          "ParameterType": "String",
+          "ValueId": "120960",
+          "ValueText": "1V @ 250µA"
+        },
+        {
+          "ParameterId": 613,
+          "ParameterText": "Gate Charge (Qg) (Max) @ Vgs",
+          "ParameterType": "String",
+          "ValueId": "269683",
+          "ValueText": "7.3nC @ 4.5V"
+        },
+        {
+          "ParameterId": 611,
+          "ParameterText": "Input Capacitance (Ciss) (Max) @ Vds",
+          "ParameterType": "String",
+          "ValueId": "237325",
+          "ValueText": "500pF @ 10V"
+        },
+        {
+          "ParameterId": 588,
+          "ParameterText": "Power - Max",
+          "ParameterType": "String",
+          "ValueId": "273254",
+          "ValueText": "700mW"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242933",
+          "ValueText": "-55°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "267607",
+          "ValueText": "6-VDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "266877",
+          "ValueText": "6-MicroFET (2x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 314197,
+        "Name": "FDMA1024"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2045,
+            "ParentId": 19,
+            "Name": "Transistors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/955/997/448_TO252-3_tmb.jpg",
+            "SeoDescription": "Transistors are discrete semiconductor devices used to switch or amplify electrical signals. Types of transistors include bipolar (BJT), RF, pre-Biased bipolar (BJT), FETs, MOSEFETs, IGBTs, JFETs, programmable, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2088,
+                "ParentId": 2045,
+                "Name": "FETs, MOSFETs",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/871/273/MFG_TO-220SIS_tmb.jpg",
+                "SeoDescription": "Field-effect transistors (FET) are electronic devices which use an electric field to control the flow of current. Application of a voltage to the gate terminal alters the conductivity between the drain and source terminals. FETs are also known as unipolar transistors since they involve single-carrier-type operation. That is, FETs use electrons or holes as charge carriers in their operation, but not both. Field effect transistors generally display very high input impedance at low frequencies. Metal oxide semiconductor field effect transistors, or MOSFETs, are a type of FET.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 289,
+                    "ParentId": 2088,
+                    "Name": "FET, MOSFET Arrays",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+                    "SeoDescription": "Field-effect transistors (FET) are electronic devices which use an electric field to control the flow of current. Application of a voltage to the gate terminal alters the conductivity between the drain and source terminals. FETs are also known as unipolar transistors since they involve single-carrier-type operation. That is, FETs use electrons or holes as charge carriers in their operation, but not both. Field effect transistors generally display very high input impedance at low frequencies.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "52",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 17250,
+        "Name": "PowerTrench®"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.21.0095"
+      },
+      "OtherNames": [
+        "FDMA1024NZDKR",
+        "FDMA1024NZCT",
+        "FDMA1024NZTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:51Z",
+    "manufacturer_part_number": "FDMA1024NZ",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "52",
+    "product_unit_price": 1.01,
+    "offers": [
+      {
+        "provider_part_number": "FDMA1024NZCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.636,
+            "total_price": 6.36
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.47,
+            "total_price": 23.5
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4162,
+            "total_price": 41.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32186,
+            "total_price": 160.93
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "FDMA1024NZDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.636,
+            "total_price": 6.36
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.47,
+            "total_price": 23.5
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4162,
+            "total_price": 41.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32186,
+            "total_price": 160.93
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "FDMA1024NZTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.25286,
+            "total_price": 758.58
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.23342,
+            "total_price": 1400.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "FDMA1024NZCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.636,
+            "total_price": 6.36
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.47,
+            "total_price": 23.5
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4162,
+            "total_price": 41.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32186,
+            "total_price": 160.93
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "FDMA1024NZDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.01,
+            "total_price": 1.01
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.636,
+            "total_price": 6.36
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.47,
+            "total_price": 23.5
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4162,
+            "total_price": 41.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.32186,
+            "total_price": 160.93
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "FDMA1024NZTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 9000,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.25286,
+            "total_price": 758.58
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.23342,
+            "total_price": 1400.52
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:06:51Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "FDMA1024NZ",
+    "provider_part_number": "",
+    "description": "MOSFET 2N-CH 20V 5A 6MICROFET",
+    "detailed_description": "Mosfet Array 20V 5A 700mW Surface Mount 6-MicroFET (2x2)",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/FDMA1024NZ-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/FDMA1024NZ/1966961",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6155/488%7EMKT-UMLP16E%7E%7E6.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "6-VDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Technology": "MOSFET (Metal Oxide)",
+      "Configuration": "2 N-Channel (Dual)",
+      "FET Feature": "Logic Level Gate",
+      "Drain to Source Voltage (Vdss)": "20V",
+      "Current - Continuous Drain (Id) @ 25°C": "5A",
+      "Rds On (Max) @ Id, Vgs": "54mOhm @ 5A, 4.5V",
+      "Vgs(th) (Max) @ Id": "1V @ 250µA",
+      "Gate Charge (Qg) (Max) @ Vgs": "7.3nC @ 4.5V",
+      "Input Capacitance (Ciss) (Max) @ Vds": "500pF @ 10V",
+      "Power - Max": "700mW",
+      "Operating Temperature": "-55°C ~ 150°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "6-VDFN Exposed Pad",
+      "Supplier Device Package": "6-MicroFET (2x2)"
+    },
+    "compliance": {}
+  }
+}

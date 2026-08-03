@@ -1,0 +1,437 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T18:59:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "ADS1015IDGSR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "18599 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 12-Bit ADC I2C-Comp atible 3.3kSPS Wit A A 595-ADS1015IDGST",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_MSOP-10_DGS_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1015IDGSR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-ADS1015IDGSR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.25",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.87",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.76",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.76",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1015IDGST"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1015IDGSR?qs=IK5e5L0zOXhCrFZ0pftZqw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1015IDGST",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.37e-05
+          },
+          "AvailabilityInStock": "18599",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "320",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "2615 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 12-Bit ADC I2C-Comp atible 3.3kSPS Wit A A 595-ADS1015IDGSR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_MSOP-10_DGS_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1015IDGST",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-ADS1015IDGST",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€3.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.67",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€2.22",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€2.10",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.00",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.91",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1015IDGSR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1015IDGST?qs=IK5e5L0zOXh9z6MvmmS6pA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1015IDGSR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.37e-05
+          },
+          "AvailabilityInStock": "2615",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 7250,
+              "Date": "2026-09-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:37Z",
+    "manufacturer_part_number": "ADS1015IDGSR",
+    "product_quantity_available": 18599,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 2.99,
+    "offers": [
+      {
+        "provider_part_number": "595-ADS1015IDGSR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 18599,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.25,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.06,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.87,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.76,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-ADS1015IDGSR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 18599,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.99,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.25,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.06,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.87,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.76,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T18:59:37Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "ADS1015IDGSR",
+    "provider_part_number": "595-ADS1015IDGSR",
+    "description": "Analog to Digital Converters - ADC 12-Bit ADC I2C-Comp atible 3.3kSPS Wit A A 595-ADS1015IDGST",
+    "detailed_description": "Analog to Digital Converters - ADC 12-Bit ADC I2C-Comp atible 3.3kSPS Wit A A 595-ADS1015IDGST",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1015IDGSR?qs=IK5e5L0zOXhCrFZ0pftZqw%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_MSOP-10_DGS_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2500"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390030",
+      "JPHTS": "8542390990",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:12:20Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "FC0V474ZFTBR24",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 411,
+          "symbol": "FC0V474ZFTBR24",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 1.95,
+                "special": false
+              },
+              {
+                "amount": 2,
+                "price": 1.83,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 1.65,
+                "special": false
+              },
+              {
+                "amount": 20,
+                "price": 1.59,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 1.51,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 1.45,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 1.34,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 1.29,
+                "special": false
+              },
+              {
+                "amount": 2500,
+                "price": 1.24,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 1.2,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

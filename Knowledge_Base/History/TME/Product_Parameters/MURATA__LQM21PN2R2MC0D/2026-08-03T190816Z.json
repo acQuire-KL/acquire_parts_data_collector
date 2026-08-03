@@ -1,0 +1,160 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:16Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MURATA",
+    "input_mpn": "LQM21PN2R2MC0D",
+    "resolved_manufacturer": "MURATA",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "LQM21PN2R2MC0D",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 147,
+                    "value": "MURATA"
+                  }
+                ]
+              },
+              {
+                "id": 568,
+                "name": "Type of inductor",
+                "values": [
+                  {
+                    "id": 2010699,
+                    "value": "multilayer"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620229,
+                    "value": "0805"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620230,
+                    "value": "2012"
+                  }
+                ]
+              },
+              {
+                "id": 566,
+                "name": "Inductance",
+                "values": [
+                  {
+                    "id": 1438481,
+                    "value": "2.2µH"
+                  }
+                ]
+              },
+              {
+                "id": 370,
+                "name": "Operating current",
+                "values": [
+                  {
+                    "id": 1448493,
+                    "value": "0.6A"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1908709,
+                    "value": "0.425Ω"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819333,
+                    "value": "±20%"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1630941,
+                    "value": "LQM"
+                  }
+                ]
+              },
+              {
+                "id": 575,
+                "name": "Resonant frequency",
+                "values": [
+                  {
+                    "id": 1438471,
+                    "value": "50MHz"
+                  }
+                ]
+              },
+              {
+                "id": 726,
+                "name": "Roll diameter max.",
+                "values": [
+                  {
+                    "id": 2037643,
+                    "value": "180mm"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

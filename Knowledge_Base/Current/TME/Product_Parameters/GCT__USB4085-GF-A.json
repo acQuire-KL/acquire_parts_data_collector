@@ -1,0 +1,140 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:54Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "GCT",
+    "input_mpn": "USB4085-GF-A",
+    "resolved_manufacturer": "GCT",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "USB4085-GF-A",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1808,
+                    "value": "GCT"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1597857,
+                    "value": "USB C"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1436410,
+                    "value": "socket"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1436424,
+                    "value": "THT"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443988,
+                    "value": "16"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1443442,
+                    "value": "horizontal"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1936563,
+                    "value": "top board mount"
+                  }
+                ]
+              },
+              {
+                "id": 1382,
+                "name": "Version",
+                "values": [
+                  {
+                    "id": 1472280,
+                    "value": "USB 2.0"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1440219,
+                    "value": "3A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1475250,
+                    "value": "48V DC"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1453978,
+                    "value": "20000 cycles"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

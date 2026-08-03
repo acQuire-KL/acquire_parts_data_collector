@@ -1,0 +1,423 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:05:29Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth",
+    "input_mpn": "638263222003",
+    "resolved_manufacturer": "Wurth",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "932"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "WR-FAST_THT MALE VERTICAL HEADER",
+        "DetailedDescription": "0.248\" (6.30mm) Quick Connect Male Solder Connector Non-Mating End Insulated"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "638263222003",
+      "UnitPrice": 0.76,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/638263222003/11569938",
+      "DatasheetUrl": "https://www.we-online.com/catalog/datasheet/638263222003.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4806/MFG_638263222003.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-638263222003-ND",
+          "PackageType": {
+            "Id": 61,
+            "Name": "Box"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.76,
+              "TotalPrice": 0.76
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.707,
+              "TotalPrice": 7.07
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.6314,
+              "TotalPrice": 31.57
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.5482,
+              "TotalPrice": 54.82
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.52336,
+              "TotalPrice": 130.84
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.46518,
+              "TotalPrice": 232.59
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.43742,
+              "TotalPrice": 437.42
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 21,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 200,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 21,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 298,
+          "ParameterText": "Terminal Type",
+          "ParameterType": "String",
+          "ValueId": "353507",
+          "ValueText": "Header"
+        },
+        {
+          "ParameterId": 29,
+          "ParameterText": "Gender",
+          "ParameterType": "String",
+          "ValueId": "371147",
+          "ValueText": "Male"
+        },
+        {
+          "ParameterId": 1048,
+          "ParameterText": "Tab Width",
+          "ParameterType": "String",
+          "ValueId": "15788",
+          "ValueText": "0.248\" (6.30mm)"
+        },
+        {
+          "ParameterId": 1047,
+          "ParameterText": "Tab Thickness",
+          "ParameterType": "String",
+          "ValueId": "5803",
+          "ValueText": "0.031\" (0.79mm)"
+        },
+        {
+          "ParameterId": 1049,
+          "ParameterText": "Tab Length",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 577,
+          "ParameterText": "Length - Overall",
+          "ParameterType": "String",
+          "ValueId": "38279",
+          "ValueText": "0.984\" (25.00mm)"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "405002",
+          "ValueText": "Solder"
+        },
+        {
+          "ParameterId": 78,
+          "ParameterText": "Wire Gauge",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 92,
+          "ParameterText": "Insulation",
+          "ParameterType": "String",
+          "ValueId": "380392",
+          "ValueText": "Non-Mating End Insulated"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "169906",
+          "ValueText": "3 Tabs"
+        },
+        {
+          "ParameterId": 37,
+          "ParameterText": "Color",
+          "ParameterType": "String",
+          "ValueId": "319929",
+          "ValueText": "Black"
+        },
+        {
+          "ParameterId": 1084,
+          "ParameterText": "Contact Material",
+          "ParameterType": "String",
+          "ValueId": "408172",
+          "ValueText": "Steel"
+        },
+        {
+          "ParameterId": 30,
+          "ParameterText": "Contact Finish",
+          "ParameterType": "String",
+          "ValueId": "412237",
+          "ValueText": "Tin"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2031,
+            "ParentId": 20,
+            "Name": "Terminals",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/272/926/19070-0040_tmb%2864x64%29.jpg",
+            "SeoDescription": "Terminals are the endpoint of a wired connection. These include barrel or bullet connectors, foil connectors, knife connectors, PC Pin connectors, quick connects, rectangular connectors, ring connectors, screw connectors, solder lug connectors, spade connectors, turret connectors, wire pin connectors, wire splice connectors, wire to board connectors, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 392,
+                "ParentId": 2031,
+                "Name": "Quick Connects, Quick Disconnect Connectors",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/173/657/42238-2_tmb.jpg",
+                "SeoDescription": "Quick connect/quick disconnect terminals allow for fast and dependable connection and disconnection of two wires. These single conductor connectors are commonly referred to as FASTON terminals, tab terminals, or blade connectors. They come in a range of different widths, lengths, and wire gauges, and are available uninsulated, partially insulated, or fully insulated. Unlike a lot of electronic components, the color of insulation on these is relevant because it signifies the wire gauge. The terminals can be angled at various degrees, stacked, or multiple other configurations with straight being the standard. There are numerous mounting types and contact finishes for the end user to choose from with these multifunction connectors.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "19",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 79915,
+        "Name": "WR-FAST"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.90.4000"
+      },
+      "OtherNames": [
+        "732-638263222003"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:29Z",
+    "manufacturer_part_number": "638263222003",
+    "product_quantity_available": 21,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "19",
+    "product_unit_price": 0.76,
+    "offers": [
+      {
+        "provider_part_number": "732-638263222003-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 21,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.707,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.6314,
+            "total_price": 31.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.5482,
+            "total_price": 54.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.52336,
+            "total_price": 130.84
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.46518,
+            "total_price": 232.59
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.43742,
+            "total_price": 437.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "732-638263222003-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 61,
+        "package_type": "Box",
+        "packaging_code": "Box",
+        "pack_format": "Box",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 200,
+        "quantity_available": 21,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.76,
+            "total_price": 0.76
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.707,
+            "total_price": 7.07
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.6314,
+            "total_price": 31.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.5482,
+            "total_price": 54.82
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.52336,
+            "total_price": 130.84
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.46518,
+            "total_price": 232.59
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.43742,
+            "total_price": 437.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:05:29Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "638263222003",
+    "provider_part_number": "",
+    "description": "WR-FAST_THT MALE VERTICAL HEADER",
+    "detailed_description": "0.248\" (6.30mm) Quick Connect Male Solder Connector Non-Mating End Insulated",
+    "datasheet_url": "https://www.we-online.com/catalog/datasheet/638263222003.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/638263222003/11569938",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4806/MFG_638263222003.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Terminal Type": "Header",
+      "Gender": "Male",
+      "Tab Width": "0.248\" (6.30mm)",
+      "Tab Thickness": "0.031\" (0.79mm)",
+      "Tab Length": "-",
+      "Length - Overall": "0.984\" (25.00mm)",
+      "Termination": "Solder",
+      "Wire Gauge": "-",
+      "Insulation": "Non-Mating End Insulated",
+      "Mounting Type": "Through Hole",
+      "Features": "3 Tabs",
+      "Color": "Black",
+      "Contact Material": "Steel",
+      "Contact Finish": "Tin"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:05Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Hirose Electric Co Ltd",
+    "input_mpn": "FH26W-45S-0.3SHW(60)",
+    "resolved_manufacturer": "Hirose Electric Co Ltd",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "3046 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/731/1/FH26W_45S_0.3SHW_60_CL0580_2414_3_60_2DDrawing_0001001683.pdf",
+          "Description": "FFC & FPC Connectors",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/hiroseelectric/images/fh26j-55s-0_3shw_60__SPL_FIR.jpg",
+          "Category": "FFC & FPC Connectors",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Hirose Connector",
+          "ManufacturerPartNumber": "FH26W-45S-0.3SHW(60)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "798-FH26W45S03SHW60",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.98",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.69",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.34",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "FH26W-45S-0.3SHW(97)"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/FH26W-45S-0.3SHW60?qs=vcbW%252B4%252BSTIpsVxTSDEXV1Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.001
+          },
+          "AvailabilityInStock": "3046",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5000,
+              "Date": "2026-08-11T00:00:00"
+            },
+            {
+              "Quantity": 10000,
+              "Date": "2026-08-27T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "28 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/731/1/FH26W_45S_0.3SHW_97_CL0580_2414_3_97_2DDrawing_0001143173.pdf",
+          "Description": "FFC & FPC Connectors",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/hiroseelectric/images/fh26j-55s-0_3shw_60__SPL_FIR.jpg",
+          "Category": "FFC & FPC Connectors",
+          "LeadTime": "69 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Hirose Connector",
+          "ManufacturerPartNumber": "FH26W-45S-0.3SHW(97)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "798-FH26W45S03SHW97",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.86",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€2.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.19",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€2.17",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "FH26W-45S-0.3SHW(60)"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/FH26W-45S-0.3SHW97?qs=vcbW%252B4%252BSTIpJ%2Fi45kB3NpA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0001
+          },
+          "AvailabilityInStock": "28",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 500,
+              "Date": "2026-09-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:06:05Z",
+    "manufacturer_part_number": "FH26W-45S-0.3SHW(60)",
+    "product_quantity_available": 3046,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "84 Days",
+    "product_unit_price": 1.98,
+    "offers": [
+      {
+        "provider_part_number": "798-FH26W45S03SHW60",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3046,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.98,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.28,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "798-FH26W45S03SHW60",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3046,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.98,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.69,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.28,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.28,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:05Z",
+    "manufacturer": "Hirose Connector",
+    "manufacturer_part_number": "FH26W-45S-0.3SHW(60)",
+    "provider_part_number": "798-FH26W45S03SHW60",
+    "description": "FFC & FPC Connectors",
+    "detailed_description": "FFC & FPC Connectors",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/731/1/FH26W_45S_0.3SHW_60_CL0580_2414_3_60_2DDrawing_0001001683.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/FH26W-45S-0.3SHW60?qs=vcbW%252B4%252BSTIpsVxTSDEXV1Q%3D%3D",
+    "image_url": "https://www.mouser.com/images/hiroseelectric/images/fh26j-55s-0_3shw_60__SPL_FIR.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "5000"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CNHTS": "8536901100",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "MXHTS": "8536699999",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

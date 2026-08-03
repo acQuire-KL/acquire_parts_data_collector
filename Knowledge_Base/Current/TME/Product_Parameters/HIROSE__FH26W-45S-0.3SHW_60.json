@@ -1,0 +1,204 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:04Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "HIROSE",
+    "input_mpn": "FH26W-45S-0.3SHW(60)",
+    "resolved_manufacturer": "HIROSE",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "FH26W-45S-03SHW-60",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 508,
+                    "value": "HIROSE"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1443959,
+                    "value": "FFC/FPC"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1436303,
+                    "value": "gold-plated"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1447009,
+                    "value": "30V"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1439325,
+                    "value": "0.2A"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2052743,
+                    "value": "FH26"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1501767,
+                    "value": "45"
+                  }
+                ]
+              },
+              {
+                "id": 205,
+                "name": "Body material",
+                "values": [
+                  {
+                    "id": 1448079,
+                    "value": "polyamide"
+                  }
+                ]
+              },
+              {
+                "id": 413,
+                "name": "Contact material",
+                "values": [
+                  {
+                    "id": 1445034,
+                    "value": "phosphor bronze"
+                  }
+                ]
+              },
+              {
+                "id": 425,
+                "name": "Tape pitch",
+                "values": [
+                  {
+                    "id": 1479740,
+                    "value": "0.3mm"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1443442,
+                    "value": "horizontal"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1477731,
+                    "value": "bottom contacts"
+                  },
+                  {
+                    "id": 1443960,
+                    "value": "ZIF"
+                  }
+                ]
+              },
+              {
+                "id": 177,
+                "name": "Flammability rating",
+                "values": [
+                  {
+                    "id": 1446953,
+                    "value": "UL94HB"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819360,
+                    "value": "-55...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 516,
+                "name": "Locking system",
+                "values": [
+                  {
+                    "id": 2141433,
+                    "value": "FlipLock"
+                  }
+                ]
+              },
+              {
+                "id": 3530,
+                "name": "Application - series/manufacturer",
+                "values": [
+                  {
+                    "id": 2060122,
+                    "value": "FPC"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

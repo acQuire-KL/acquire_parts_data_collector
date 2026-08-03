@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:05:47Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "GCT",
+    "input_mpn": "USB4920-00-A",
+    "resolved_manufacturer": "GCT",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 4793,
+          "symbol": "USB4920-00-A",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.566,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.482,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.451,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.427,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.407,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.381,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.364,
+                "special": false
+              },
+              {
+                "amount": 700,
+                "price": 0.357,
+                "special": false
+              },
+              {
+                "amount": 2100,
+                "price": 0.333,
+                "special": false
+              },
+              {
+                "amount": 4900,
+                "price": 0.316,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

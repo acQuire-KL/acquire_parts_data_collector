@@ -1,0 +1,677 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "ADS1232IPW",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 4,
+      "Parts": [
+        {
+          "Availability": "268 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se A 595-ADS1232IPW A 595-ADS1232IPWR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-24_PW_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1232IPW",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-ADS1232IPW",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "60"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€9.90",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€7.76",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€6.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 120,
+              "Price": "€6.55",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 300,
+              "Price": "€6.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 540,
+              "Price": "€6.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1200,
+              "Price": "€6.03",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1232IPWG4"
+            },
+            {
+              "APMfrPN": " ADS1232IPWR"
+            },
+            {
+              "APMfrPN": " ADS1232IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1232IPW?qs=RaXRGs7zCv6Rk%2FfR%2Fwl4vA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1232IPWR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.26e-05
+          },
+          "AvailabilityInStock": "268",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "1378 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se ALT 595-ADS1232I ALT 595-ADS1232IPW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-24_PW_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1232IPWG4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-ADS1232IPWG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tube"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "60"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€9.99",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€7.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€6.36",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 120,
+              "Price": "€6.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 300,
+              "Price": "€6.11",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 540,
+              "Price": "€6.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1200,
+              "Price": "€6.03",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1232IPW"
+            },
+            {
+              "APMfrPN": " ADS1232IPWR"
+            },
+            {
+              "APMfrPN": " ADS1232IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1232IPWG4?qs=RaXRGs7zCv4rwmfc74rZiw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1232IPW",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.26e-05
+          },
+          "AvailabilityInStock": "1378",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se ALT 595-ADS1232I ALT 595-ADS1232IPWR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-24_PW_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1232IPWRG4",
+          "Min": "2000",
+          "Mult": "2000",
+          "MouserPartNumber": "595-ADS1232IPWRG4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 2000,
+              "Price": "€3.90",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1232IPW"
+            },
+            {
+              "APMfrPN": " ADS1232IPWG4"
+            },
+            {
+              "APMfrPN": " ADS1232IPWR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1232IPWRG4?qs=RaXRGs7zCv7561QJJ0MhVA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1232IPWR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.26e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542319000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85423999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "1877 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se A 595-ADS1232IPW A 595-ADS1232IPW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-24_PW_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADS1232IPWR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-ADS1232IPWR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€6.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€5.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€4.70",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€4.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€4.17",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€3.90",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€3.78",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€3.55",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADS1232IPW"
+            },
+            {
+              "APMfrPN": " ADS1232IPWG4"
+            },
+            {
+              "APMfrPN": " ADS1232IPWRG4"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1232IPWR?qs=RaXRGs7zCv4BjWfKxNB1Dw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-ADS1232IPW",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.26e-05
+          },
+          "AvailabilityInStock": "1877",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8542390990"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "manufacturer_part_number": "ADS1232IPW",
+    "product_quantity_available": 268,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 9.9,
+    "offers": [
+      {
+        "provider_part_number": "595-ADS1232IPW",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 268,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.9,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.82,
+            "total_price": null
+          },
+          {
+            "break_quantity": 120,
+            "unit_price": 6.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 6.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 540,
+            "unit_price": 6.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1200,
+            "unit_price": 6.03,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-ADS1232IPW",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 268,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 9.9,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 7.76,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 6.82,
+            "total_price": null
+          },
+          {
+            "break_quantity": 120,
+            "unit_price": 6.55,
+            "total_price": null
+          },
+          {
+            "break_quantity": 300,
+            "unit_price": 6.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 540,
+            "unit_price": 6.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1200,
+            "unit_price": 6.03,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "ADS1232IPW",
+    "provider_part_number": "595-ADS1232IPW",
+    "description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se A 595-ADS1232IPW A 595-ADS1232IPWR",
+    "detailed_description": "Analog to Digital Converters - ADC 24-Bit Ultra Low-Noi se A 595-ADS1232IPW A 595-ADS1232IPWR",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADS1232IPW?qs=RaXRGs7zCv6Rk%2FfR%2Fwl4vA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_TSSOP-24_PW_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tube",
+      "Standard Pack Qty": "60"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390030",
+      "JPHTS": "8542390990",
+      "MXHTS": "85423999",
+      "ECCN": "EAR99"
+    }
+  }
+}

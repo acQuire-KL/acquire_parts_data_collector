@@ -1,0 +1,620 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:09:39Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TI",
+    "input_mpn": "LM27762DSST",
+    "resolved_manufacturer": "TI",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "829"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG CHARGE PUMP ADJ DL 12WSON",
+        "DetailedDescription": "PMIC - Voltage Regulators - Linear Switching 2 Output Charge Pump 1.7MHz ~ 2.3MHz 12-WSON (3x2)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "LM27762DSST",
+      "UnitPrice": 2.38,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/LM27762DSST/6234952",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm27762",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4218908%7EDSS%7E12.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-44944-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.37136,
+              "TotalPrice": 342.84
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.3235,
+              "TotalPrice": 661.75
+            },
+            {
+              "BreakQuantity": 750,
+              "UnitPrice": 1.29952,
+              "TotalPrice": 974.64
+            },
+            {
+              "BreakQuantity": 1250,
+              "UnitPrice": 1.27296,
+              "TotalPrice": 1591.2
+            },
+            {
+              "BreakQuantity": 1750,
+              "UnitPrice": 1.25743,
+              "TotalPrice": 2200.5025
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 1.2425,
+              "TotalPrice": 3106.25
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 250,
+          "StandardPackage": 250,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-44944-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.38,
+              "TotalPrice": 2.38
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.769,
+              "TotalPrice": 17.69
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.6172,
+              "TotalPrice": 40.43
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.4508,
+              "TotalPrice": 145.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3121,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-44944-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.38,
+              "TotalPrice": 2.38
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.769,
+              "TotalPrice": 17.69
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.6172,
+              "TotalPrice": 40.43
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.4508,
+              "TotalPrice": 145.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3121,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 3121,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "329199",
+          "ValueText": "Charge Pump"
+        },
+        {
+          "ParameterId": 2211,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 384,
+          "ParameterText": "Frequency - Switching",
+          "ParameterType": "String",
+          "ValueId": "59344",
+          "ValueText": "1.7MHz ~ 2.3MHz"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212621",
+          "ValueText": "-40°C ~ 85°C (TA)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "87946",
+          "ValueText": "12-WFDFN Exposed Pad"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "88017",
+          "ValueText": "12-WSON (3x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 254682,
+        "Name": "LM27762"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 776,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - Linear + Switching",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/154/264/505%3BCP-48-13%3BCP%3B48_tmb.jpg",
+                "SeoDescription": "Products in this family are used for constructing circuits that perform a DC-DC conversion or voltage regulation function, using a combination of switch-mode and linear regulator functions. While exact topologies vary, the underlying goal of such products is to obtain a combination of the efficiency advantages of switch-mode techniques with the low-noise qualities of linear regulation.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "9",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "296-44944-6",
+        "296-44944-2",
+        "296-44944-1"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:39Z",
+    "manufacturer_part_number": "LM27762DSST",
+    "product_quantity_available": 3121,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "9",
+    "product_unit_price": 2.38,
+    "offers": [
+      {
+        "provider_part_number": "296-44944-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3121,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.38,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.769,
+            "total_price": 17.69
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.6172,
+            "total_price": 40.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4508,
+            "total_price": 145.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-44944-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3121,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.38,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.769,
+            "total_price": 17.69
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.6172,
+            "total_price": 40.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4508,
+            "total_price": 145.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-44944-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 1.37136,
+            "total_price": 342.84
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.3235,
+            "total_price": 661.75
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 1.29952,
+            "total_price": 974.64
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 1.27296,
+            "total_price": 1591.2
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 1.25743,
+            "total_price": 2200.5025
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.2425,
+            "total_price": 3106.25
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-44944-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3121,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.38,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.769,
+            "total_price": 17.69
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.6172,
+            "total_price": 40.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4508,
+            "total_price": 145.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-44944-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3121,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.38,
+            "total_price": 2.38
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.769,
+            "total_price": 17.69
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.6172,
+            "total_price": 40.43
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.4508,
+            "total_price": 145.08
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-44944-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 250,
+        "pack_quantity": 250,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 250,
+            "unit_price": 1.37136,
+            "total_price": 342.84
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.3235,
+            "total_price": 661.75
+          },
+          {
+            "break_quantity": 750,
+            "unit_price": 1.29952,
+            "total_price": 974.64
+          },
+          {
+            "break_quantity": 1250,
+            "unit_price": 1.27296,
+            "total_price": 1591.2
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 1.25743,
+            "total_price": 2200.5025
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.2425,
+            "total_price": 3106.25
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:09:39Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM27762DSST",
+    "provider_part_number": "",
+    "description": "IC REG CHARGE PUMP ADJ DL 12WSON",
+    "detailed_description": "PMIC - Voltage Regulators - Linear Switching 2 Output Charge Pump 1.7MHz ~ 2.3MHz 12-WSON (3x2)",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm27762",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/LM27762DSST/6234952",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4218908%7EDSS%7E12.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "12-WFDFN Exposed Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Topology": "Charge Pump",
+      "Number of Outputs": "2",
+      "Frequency - Switching": "1.7MHz ~ 2.3MHz",
+      "Operating Temperature": "-40°C ~ 85°C (TA)",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "12-WFDFN Exposed Pad",
+      "Supplier Device Package": "12-WSON (3x2)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:05:46Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "GCT",
+    "input_mpn": "USB4105-GF-A",
+    "resolved_manufacturer": "GCT",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 4,
+      "Parts": [
+        {
+          "Availability": "473379 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf",
+          "Description": "USB Connectors USB Type C,2.0, Rec,SMT, 0.95mmTH Shell Stakes,G/F,RA,Top Mnt,T&R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/globalconnectortechnology/images/USB4105-GF-A_SPL.jpg",
+          "Category": "USB Connectors",
+          "LeadTime": "49 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "GCT",
+          "ManufacturerPartNumber": "USB4105-GF-A",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "640-USB4105-GF-A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.697",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.637",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.574",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 800,
+              "Price": "€0.434",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2400,
+              "Price": "€0.408",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4800,
+              "Price": "€0.388",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9600,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000768
+          },
+          "AvailabilityInStock": "473379",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901900"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "96469 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf",
+          "Description": "USB Connectors USB Type C, 2.0 SMT PCB Top Mnt 1.20mm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/globalconnectortechnology/images/USB4105-GF-A_SPL.jpg",
+          "Category": "USB Connectors",
+          "LeadTime": "49 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "GCT",
+          "ManufacturerPartNumber": "USB4105-GF-A-120",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "640-USB4105-GF-A-120",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.697",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.637",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.574",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 800,
+              "Price": "€0.434",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2400,
+              "Price": "€0.408",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4800,
+              "Price": "€0.388",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9600,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/GCT/USB4105-GF-A-120?qs=QNEnbhJQKva%252Bjxw%2FpEjDhQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "96469",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "43234 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf",
+          "Description": "USB Connectors USB Type C, 2.0 SMT PCB Top Mnt .60mm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/globalconnectortechnology/images/USB4105-GF-A_SPL.jpg",
+          "Category": "USB Connectors",
+          "LeadTime": "49 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "GCT",
+          "ManufacturerPartNumber": "USB4105-GF-A-060",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "640-USB4105-GF-A-060",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.697",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.637",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.574",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 800,
+              "Price": "€0.434",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2400,
+              "Price": "€0.408",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4800,
+              "Price": "€0.388",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9600,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/GCT/USB4105-GF-A-060?qs=QNEnbhJQKvY2mocwNJzgfA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "43234",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "USB Connectors USB Type C,2.0, Rec,SMT, 1.2mm TH Shell Stakes,15U,RA,Top Mnt,T&R",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/globalconnectortechnology/images/USB4105-GF-A_SPL.jpg",
+          "Category": "USB Connectors",
+          "LeadTime": "35 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "GCT",
+          "ManufacturerPartNumber": "USB4105-15-A-120",
+          "Min": "21600",
+          "Mult": "800",
+          "MouserPartNumber": "640-USB410515A120",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 21600,
+              "Price": "€0.416",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/GCT/USB4105-15-A-120?qs=Li%252BoUPsLEnvmAzMIJvmFxA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "640-USB4105-GF-A-120",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:05:46Z",
+    "manufacturer_part_number": "USB4105-GF-A",
+    "product_quantity_available": 473379,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "49 Days",
+    "product_unit_price": 0.8,
+    "offers": [
+      {
+        "provider_part_number": "640-USB4105-GF-A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 473379,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.697,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.637,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.574,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.525,
+            "total_price": null
+          },
+          {
+            "break_quantity": 800,
+            "unit_price": 0.434,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.408,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4800,
+            "unit_price": 0.388,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9600,
+            "unit_price": 0.37,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "640-USB4105-GF-A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 473379,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.8,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.697,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.637,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.574,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.525,
+            "total_price": null
+          },
+          {
+            "break_quantity": 800,
+            "unit_price": 0.434,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2400,
+            "unit_price": 0.408,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4800,
+            "unit_price": 0.388,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9600,
+            "unit_price": 0.37,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:05:46Z",
+    "manufacturer": "GCT",
+    "manufacturer_part_number": "USB4105-GF-A",
+    "provider_part_number": "640-USB4105-GF-A",
+    "description": "USB Connectors USB Type C,2.0, Rec,SMT, 0.95mmTH Shell Stakes,G/F,RA,Top Mnt,T&R",
+    "detailed_description": "USB Connectors USB Type C,2.0, Rec,SMT, 0.95mmTH Shell Stakes,G/F,RA,Top Mnt,T&R",
+    "datasheet_url": "https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D",
+    "image_url": "https://www.mouser.com/images/globalconnectortechnology/images/USB4105-GF-A_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "800"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CNHTS": "8536901900",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "MXHTS": "8536699999",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

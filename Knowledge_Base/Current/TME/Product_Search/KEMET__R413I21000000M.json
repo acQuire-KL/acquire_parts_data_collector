@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:04:05Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "R413I21000000M",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MKPY2-10NR15",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100265,
+              "name": "THT Film Capacitors"
+            },
+            "manufacturer_symbols": [
+              "R413I21000000M"
+            ],
+            "manufacturer": {
+              "id": 142,
+              "name": "KEMET"
+            },
+            "description": "Capacitor: polypropylene; X1,Y2; R41; 10nF; 1kVDC; 250VAC; THT; ±20%",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 1.23,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "CT1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/54/D6/20/00/0/159045_1.jpg?width=640&height=480&ci_sign=d495a9bee387357b668b1589a2f23e4b32b09738",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/54/D6/20/00/0/159045_1.jpg?width=100&height=75&q=75&ci_sign=4ad859aa33d89c4c095feefb08b362f1e93e3170",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

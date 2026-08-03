@@ -1,0 +1,562 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK Corporation",
+    "input_mpn": "PS1440P02BT",
+    "resolved_manufacturer": "TDK Corporation",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "993"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "BUZZER PIEZO 3V 14MM TH",
+        "DetailedDescription": "Buzzers Transducer, Externally Driven Piezo 3 V 4kHz 75dB @ 3V, 10cm Through Hole PC Pins"
+      },
+      "Manufacturer": {
+        "Id": 445,
+        "Name": "TDK"
+      },
+      "ManufacturerProductNumber": "PS1440P02BT",
+      "UnitPrice": 0.68,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/tdk/PS1440P02BT/2236828",
+      "DatasheetUrl": "https://product.tdk.com/en/system/files?file=dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2905/PS-PC%20SERIES.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "445-5242-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.68,
+              "TotalPrice": 0.68
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.533,
+              "TotalPrice": 5.33
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.484,
+              "TotalPrice": 12.1
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4504,
+              "TotalPrice": 22.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4197,
+              "TotalPrice": 41.97
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 149,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "445-5242-3-ND",
+          "PackageType": {
+            "Id": 4,
+            "Name": "Tape & Box (TB)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 350,
+              "UnitPrice": 0.4026,
+              "TotalPrice": 140.91
+            },
+            {
+              "BreakQuantity": 700,
+              "UnitPrice": 0.37374,
+              "TotalPrice": 261.618
+            },
+            {
+              "BreakQuantity": 1050,
+              "UnitPrice": 0.35806,
+              "TotalPrice": 375.963
+            },
+            {
+              "BreakQuantity": 1750,
+              "UnitPrice": 0.33943,
+              "TotalPrice": 594.0025
+            },
+            {
+              "BreakQuantity": 2450,
+              "UnitPrice": 0.32781,
+              "TotalPrice": 803.1345
+            },
+            {
+              "BreakQuantity": 3500,
+              "UnitPrice": 0.31603,
+              "TotalPrice": 1106.105
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 4550,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 350,
+          "StandardPackage": 350,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 4699,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1398,
+          "ParameterText": "Driver Circuitry",
+          "ParameterType": "String",
+          "ValueId": "415673",
+          "ValueText": "Transducer, Externally Driven"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "423557",
+          "ValueText": "Zero-Peak Signal"
+        },
+        {
+          "ParameterId": 2079,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "3 V",
+          "ValueText": "3 V"
+        },
+        {
+          "ParameterId": 569,
+          "ParameterText": "Voltage Range",
+          "ParameterType": "String",
+          "ValueId": "3291",
+          "ValueText": "0 ~ 30V"
+        },
+        {
+          "ParameterId": 139,
+          "ParameterText": "Frequency",
+          "ParameterType": "String",
+          "ValueId": "227761",
+          "ValueText": "4kHz"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "387291",
+          "ValueText": "Piezo"
+        },
+        {
+          "ParameterId": 538,
+          "ParameterText": "Operating Mode",
+          "ParameterType": "String",
+          "ValueId": "403075",
+          "ValueText": "Single Tone"
+        },
+        {
+          "ParameterId": 402,
+          "ParameterText": "Duration",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 397,
+          "ParameterText": "Sound Pressure Level (SPL)",
+          "ParameterType": "String",
+          "ValueId": "277921",
+          "ValueText": "75dB @ 3V, 10cm"
+        },
+        {
+          "ParameterId": 449,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 811,
+          "ParameterText": "Port Location",
+          "ParameterType": "String",
+          "ValueId": "413825",
+          "ValueText": "Top"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "67003",
+          "ValueText": "-10°C ~ 70°C"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "411897",
+          "ValueText": "Through Hole"
+        },
+        {
+          "ParameterId": 589,
+          "ParameterText": "Termination",
+          "ParameterType": "String",
+          "ValueId": "384858",
+          "ValueText": "PC Pins"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "27121",
+          "ValueText": "0.551\" Dia (14.00mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "20390",
+          "ValueText": "0.362\" (9.20mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": null,
+        "Name": null
+      },
+      "Category": {
+        "CategoryId": 10,
+        "ParentId": 0,
+        "Name": "Audio Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/569/MFG_ASE02506MS-LW90-DSM-R_tmb.jpg",
+        "SeoDescription": "The Audio Products category encompasses various types of electroacoustic transducers--devices which change sound energy into an electrical signal and vice-versa. They are grouped according to their basic function, such as changing sound into an electrical signal (microphones), an electrical signal into sound (speakers), or an electric power source into some manner of noise (buzzers, sirens). Also included are related accessories for such products, such as gaskets and mounting harware.",
+        "ChildCategories": [
+          {
+            "CategoryId": 157,
+            "ParentId": 10,
+            "Name": "Alarms, Buzzers, and Sirens",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/302/481/CEM-1206S_tmb%2864x64%29.jpg",
+            "SeoDescription": "Alarms, Buzzers, and Sirens are devices that produce an audible signal usually like a steady high-pitched hum that is encased within a molded housing. The characteristics are driver circuitry, input type, voltage rated, voltage range, frequency, technology, operating mode, current supply, and port location. The technology is electromechanical, magnetic, piezo, and piezo (with feedback) with a frequency from multiple, 200Hz to 8kHz.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "8",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 5155,
+        "Name": "PS"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8531.80.9041"
+      },
+      "OtherNames": [
+        "445-5242-1",
+        "445-5242-3"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "manufacturer_part_number": "PS1440P02BT",
+    "product_quantity_available": 4699,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "8",
+    "product_unit_price": 0.68,
+    "offers": [
+      {
+        "provider_part_number": "445-5242-3-ND",
+        "supplier": "TDK",
+        "package_type_id": 4,
+        "package_type": "Tape & Box (TB)",
+        "packaging_code": "Tape & Box (TB)",
+        "pack_format": "Box",
+        "minimum_order_quantity": 350,
+        "pack_quantity": 350,
+        "quantity_available": 4550,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 350,
+            "unit_price": 0.4026,
+            "total_price": 140.91
+          },
+          {
+            "break_quantity": 700,
+            "unit_price": 0.37374,
+            "total_price": 261.618
+          },
+          {
+            "break_quantity": 1050,
+            "unit_price": 0.35806,
+            "total_price": 375.963
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.33943,
+            "total_price": 594.0025
+          },
+          {
+            "break_quantity": 2450,
+            "unit_price": 0.32781,
+            "total_price": 803.1345
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.31603,
+            "total_price": 1106.105
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-5242-1-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 149,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.68,
+            "total_price": 0.68
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.533,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.484,
+            "total_price": 12.1
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4504,
+            "total_price": 22.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4197,
+            "total_price": 41.97
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "445-5242-3-ND",
+        "supplier": "TDK",
+        "package_type_id": 4,
+        "package_type": "Tape & Box (TB)",
+        "packaging_code": "Tape & Box (TB)",
+        "pack_format": "Box",
+        "minimum_order_quantity": 350,
+        "pack_quantity": 350,
+        "quantity_available": 4550,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 350,
+            "unit_price": 0.4026,
+            "total_price": 140.91
+          },
+          {
+            "break_quantity": 700,
+            "unit_price": 0.37374,
+            "total_price": 261.618
+          },
+          {
+            "break_quantity": 1050,
+            "unit_price": 0.35806,
+            "total_price": 375.963
+          },
+          {
+            "break_quantity": 1750,
+            "unit_price": 0.33943,
+            "total_price": 594.0025
+          },
+          {
+            "break_quantity": 2450,
+            "unit_price": 0.32781,
+            "total_price": 803.1345
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.31603,
+            "total_price": 1106.105
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-5242-1-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 149,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.68,
+            "total_price": 0.68
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.533,
+            "total_price": 5.33
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.484,
+            "total_price": 12.1
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4504,
+            "total_price": 22.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4197,
+            "total_price": 41.97
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
+    "manufacturer": "TDK",
+    "manufacturer_part_number": "PS1440P02BT",
+    "provider_part_number": "",
+    "description": "BUZZER PIEZO 3V 14MM TH",
+    "detailed_description": "Buzzers Transducer, Externally Driven Piezo 3 V 4kHz 75dB @ 3V, 10cm Through Hole PC Pins",
+    "datasheet_url": "https://product.tdk.com/en/system/files?file=dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/tdk/PS1440P02BT/2236828",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2905/PS-PC%20SERIES.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Through Hole",
+    "attributes": {
+      "Driver Circuitry": "Transducer, Externally Driven",
+      "Input Type": "Zero-Peak Signal",
+      "Voltage - Rated": "3 V",
+      "Voltage Range": "0 ~ 30V",
+      "Frequency": "4kHz",
+      "Technology": "Piezo",
+      "Operating Mode": "Single Tone",
+      "Duration": "-",
+      "Sound Pressure Level (SPL)": "75dB @ 3V, 10cm",
+      "Current - Supply": "-",
+      "Port Location": "Top",
+      "Operating Temperature": "-10°C ~ 70°C",
+      "Approval Agency": "-",
+      "Ratings": "-",
+      "Mounting Type": "Through Hole",
+      "Termination": "PC Pins",
+      "Size / Dimension": "0.551\" Dia (14.00mm)",
+      "Height - Seated (Max)": "0.362\" (9.20mm)"
+    },
+    "compliance": {}
+  }
+}

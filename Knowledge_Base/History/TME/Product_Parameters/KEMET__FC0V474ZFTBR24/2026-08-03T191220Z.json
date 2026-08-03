@@ -1,0 +1,160 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:12:20Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "FC0V474ZFTBR24",
+    "resolved_manufacturer": "KEMET",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "FC0V474ZFTBR24",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 142,
+                    "value": "KEMET"
+                  }
+                ]
+              },
+              {
+                "id": 115,
+                "name": "Type of capacitor",
+                "values": [
+                  {
+                    "id": 1875937,
+                    "value": "supercapacitor"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1447663,
+                    "value": "0.47F"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1693221,
+                    "value": "3.5V DC"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1838477,
+                    "value": "-20...80%"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1734596,
+                    "value": "Ø10.5x8.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 31,
+                "name": "Terminal pitch",
+                "values": [
+                  {
+                    "id": 1436929,
+                    "value": "5mm"
+                  }
+                ]
+              },
+              {
+                "id": 2260,
+                "name": "ESR value",
+                "values": [
+                  {
+                    "id": 1693215,
+                    "value": "25Ω"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819334,
+                    "value": "-25...70°C"
+                  }
+                ]
+              },
+              {
+                "id": 328,
+                "name": "Height",
+                "values": [
+                  {
+                    "id": 1444345,
+                    "value": "8.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 142,
+                "name": "Diameter",
+                "values": [
+                  {
+                    "id": 1471691,
+                    "value": "10.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 3402,
+                "name": "Trade name",
+                "values": [
+                  {
+                    "id": 1932055,
+                    "value": "EDLC"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

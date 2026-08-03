@@ -1,0 +1,70 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:13:33Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "STMicroelectronics",
+    "input_mpn": "ESDA25LY",
+    "resolved_manufacturer": "STMicroelectronics",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "ESDA25LY",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113178,
+              "name": "Protection diodes - arrays"
+            },
+            "manufacturer_symbols": [
+              "ESDA25LY"
+            ],
+            "manufacturer": {
+              "id": 35,
+              "name": "STMicroelectronics"
+            },
+            "description": "Diode: TVS array; 25÷30V; 7A; 300W; common anode; ESD; SOT23; Ch: 2",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.01,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/E6/61/00/0/1470137_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=dc87ae2fd30f5089e924847ef067c8e7881b44ff",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/9B/E6/61/00/0/1470137_1.jpg?width=100&height=75&q=75&ci_sign=2bc0fa41b8fc9fec7ddbee7692de2b99e25f108a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

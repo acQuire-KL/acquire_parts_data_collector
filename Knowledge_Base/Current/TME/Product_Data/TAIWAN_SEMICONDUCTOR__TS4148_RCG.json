@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:06:37Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TAIWAN SEMICONDUCTOR",
+    "input_mpn": "TS4148 RCG",
+    "resolved_manufacturer": "TAIWAN SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 38823,
+          "symbol": "TS4148-RCG",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.1472,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.0983,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.0655,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.0553,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.039,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.0341,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.0264,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.0242,
+                "special": false
+              },
+              {
+                "amount": 20000,
+                "price": 0.0225,
+                "special": false
+              },
+              {
+                "amount": 30000,
+                "price": 0.0217,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:09:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Diodes Incorporated",
+    "input_mpn": "AP62250WU-7",
+    "resolved_manufacturer": "Diodes Incorporated",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "756 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/TSOT-26-6_DSL.jpg",
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "AP62250WU-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-AP62250WU-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.278",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.248",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.216",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.20",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.181",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/AP62250WU-7?qs=7MVldsJ5Uax1PUc8sdeimQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "756",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 15000,
+              "Date": "2026-10-19T00:00:00"
+            },
+            {
+              "Quantity": 18000,
+              "Date": "2027-05-12T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1600",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Korea, Republic of"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Switching Voltage Regulators",
+          "LeadTime": "308 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "AP62250WU-7-N",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-AP62250WU-7-N",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.413",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.286",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.255",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.22",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.203",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.193",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.164",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/AP62250WU-7-N?qs=cEOXnW3%2Fj3851A%252B1qvHG7g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:09:35Z",
+    "manufacturer_part_number": "AP62250WU-7",
+    "product_quantity_available": 756,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "280 Days",
+    "product_unit_price": 0.404,
+    "offers": [
+      {
+        "provider_part_number": "621-AP62250WU-7",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 756,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.278,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.248,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.216,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.2,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.189,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.181,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "621-AP62250WU-7",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 756,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.404,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.278,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.248,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.216,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.2,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.189,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.181,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.181,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:09:35Z",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_part_number": "AP62250WU-7",
+    "provider_part_number": "621-AP62250WU-7",
+    "description": "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K",
+    "detailed_description": "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/AP62250WU-7?qs=7MVldsJ5Uax1PUc8sdeimQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/diodesinc/images/TSOT-26-6_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Cut Tape",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

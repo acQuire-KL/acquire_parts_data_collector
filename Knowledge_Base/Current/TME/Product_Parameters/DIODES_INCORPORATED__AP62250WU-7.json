@@ -1,0 +1,154 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:34Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "AP62250WU-7",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "AP62250WU-7",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 584,
+                    "value": "DIODES INCORPORATED"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1646347,
+                    "value": "PMIC"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1543881,
+                    "value": "DC/DC converter"
+                  }
+                ]
+              },
+              {
+                "id": 624,
+                "name": "Input voltage",
+                "values": [
+                  {
+                    "id": 1896011,
+                    "value": "4.2...18V DC"
+                  }
+                ]
+              },
+              {
+                "id": 364,
+                "name": "Output voltage",
+                "values": [
+                  {
+                    "id": 1895409,
+                    "value": "0.8...7V DC"
+                  }
+                ]
+              },
+              {
+                "id": 365,
+                "name": "Output current",
+                "values": [
+                  {
+                    "id": 1443628,
+                    "value": "2.5A"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1605071,
+                    "value": "TSOT26"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1635644,
+                    "value": "1.3MHz"
+                  }
+                ]
+              },
+              {
+                "id": 2900,
+                "name": "Topology",
+                "values": [
+                  {
+                    "id": 1623616,
+                    "value": "buck"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:04:18Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Murata Electronics",
+    "input_mpn": "NFM18PC105R0J3D",
+    "resolved_manufacturer": "Murata Electronics",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "965"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP FEEDTHRU 1UF 20% 6.3V 0603",
+        "DetailedDescription": "1 µF Feed Through Capacitor 6.3V 4 A 10mOhm 0603 (1608 Metric), 3 PC Pad"
+      },
+      "Manufacturer": {
+        "Id": 490,
+        "Name": "Murata Electronics"
+      },
+      "ManufacturerProductNumber": "NFM18PC105R0J3D",
+      "UnitPrice": 0.17,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/murata-electronics/NFM18PC105R0J3D/2595168",
+      "DatasheetUrl": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/NFM18PC105R0J3-0-770-EN_PDF_CERAMICCAPACITORSMD",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4900/EMIFIL-NFM18-Series-3-PC-Pad.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "490-6970-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.07775,
+              "TotalPrice": 311.0
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.07313,
+              "TotalPrice": 585.04
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.07056,
+              "TotalPrice": 846.72
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.06745,
+              "TotalPrice": 1349.0
+            },
+            {
+              "BreakQuantity": 28000,
+              "UnitPrice": 0.06548,
+              "TotalPrice": 1833.44
+            },
+            {
+              "BreakQuantity": 40000,
+              "UnitPrice": 0.06345,
+              "TotalPrice": 2538.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 203000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-6970-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.136,
+              "TotalPrice": 1.36
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1256,
+              "TotalPrice": 3.14
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.118,
+              "TotalPrice": 5.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.111,
+              "TotalPrice": 11.1
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.10228,
+              "TotalPrice": 25.57
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09616,
+              "TotalPrice": 48.08
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.09046,
+              "TotalPrice": 90.46
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 203332,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-6970-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.17,
+              "TotalPrice": 0.17
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.136,
+              "TotalPrice": 1.36
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1256,
+              "TotalPrice": 3.14
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.118,
+              "TotalPrice": 5.9
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.111,
+              "TotalPrice": 11.1
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.10228,
+              "TotalPrice": 25.57
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09616,
+              "TotalPrice": 48.08
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.09046,
+              "TotalPrice": 90.46
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 203332,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 203332,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "346440",
+          "ValueText": "Feed Through"
+        },
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 µF",
+          "ValueText": "1 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "252155",
+          "ValueText": "6.3V"
+        },
+        {
+          "ParameterId": 2155,
+          "ParameterText": "Current",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "4 A",
+          "ValueText": "4 A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "73892",
+          "ValueText": "10mOhm"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242904",
+          "ValueText": "-55°C ~ 105°C"
+        },
+        {
+          "ParameterId": 327,
+          "ParameterText": "Insertion Loss",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39248",
+          "ValueText": "0603 (1608 Metric), 3 PC Pad"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "6031",
+          "ValueText": "0.035\" (0.90mm)"
+        },
+        {
+          "ParameterId": 121,
+          "ParameterText": "Thread Size",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 180961,
+        "Name": "NFM18PC"
+      },
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 845,
+            "ParentId": 36,
+            "Name": "Feed Through, Pass Through Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/077/NFM41P%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Feed through capacitors are a variety of devices designed to provide capacitive coupling to a conductor which passes through them. Commonly used for broadband filtering of DC power lines, they are often produced in mechanical form factors designed to be mounted within a conductive enclosure, in context of RF, microwave, and other sensitive applications.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 53694,
+        "Name": "EMIFIL®, NFM18"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "NFM18PC105R0J3D-ND",
+        "490-6970-2",
+        "490-6970-1",
+        "490-6970-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:18Z",
+    "manufacturer_part_number": "NFM18PC105R0J3D",
+    "product_quantity_available": 203332,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 0.17,
+    "offers": [
+      {
+        "provider_part_number": "490-6970-1-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 203332,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.136,
+            "total_price": 1.36
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1256,
+            "total_price": 3.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.118,
+            "total_price": 5.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.111,
+            "total_price": 11.1
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.10228,
+            "total_price": 25.57
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09616,
+            "total_price": 48.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09046,
+            "total_price": 90.46
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-6970-6-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 203332,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.136,
+            "total_price": 1.36
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1256,
+            "total_price": 3.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.118,
+            "total_price": 5.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.111,
+            "total_price": 11.1
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.10228,
+            "total_price": 25.57
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09616,
+            "total_price": 48.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09046,
+            "total_price": 90.46
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-6970-2-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 203000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.07775,
+            "total_price": 311.0
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.07313,
+            "total_price": 585.04
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.07056,
+            "total_price": 846.72
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.06745,
+            "total_price": 1349.0
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.06548,
+            "total_price": 1833.44
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.06345,
+            "total_price": 2538.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "490-6970-1-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 203332,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.136,
+            "total_price": 1.36
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1256,
+            "total_price": 3.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.118,
+            "total_price": 5.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.111,
+            "total_price": 11.1
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.10228,
+            "total_price": 25.57
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09616,
+            "total_price": 48.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09046,
+            "total_price": 90.46
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-6970-6-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 203332,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.17,
+            "total_price": 0.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.136,
+            "total_price": 1.36
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1256,
+            "total_price": 3.14
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.118,
+            "total_price": 5.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.111,
+            "total_price": 11.1
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.10228,
+            "total_price": 25.57
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09616,
+            "total_price": 48.08
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.09046,
+            "total_price": 90.46
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-6970-2-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 203000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.07775,
+            "total_price": 311.0
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.07313,
+            "total_price": 585.04
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.07056,
+            "total_price": 846.72
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.06745,
+            "total_price": 1349.0
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.06548,
+            "total_price": 1833.44
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.06345,
+            "total_price": 2538.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:04:18Z",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_part_number": "NFM18PC105R0J3D",
+    "provider_part_number": "",
+    "description": "CAP FEEDTHRU 1UF 20% 6.3V 0603",
+    "detailed_description": "1 µF Feed Through Capacitor 6.3V 4 A 10mOhm 0603 (1608 Metric), 3 PC Pad",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/NFM18PC105R0J3-0-770-EN_PDF_CERAMICCAPACITORSMD",
+    "product_url": "https://www.digikey.ie/en/products/detail/murata-electronics/NFM18PC105R0J3D/2595168",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4900/EMIFIL-NFM18-Series-3-PC-Pad.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric), 3 PC Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Feed Through",
+      "Capacitance": "1 µF",
+      "Tolerance": "±20%",
+      "Voltage - Rated": "6.3V",
+      "Current": "4 A",
+      "DC Resistance (DCR) (Max)": "10mOhm",
+      "Operating Temperature": "-55°C ~ 105°C",
+      "Insertion Loss": "-",
+      "Temperature Coefficient": "-",
+      "Ratings": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric), 3 PC Pad",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height (Max)": "0.035\" (0.90mm)",
+      "Thread Size": "-"
+    },
+    "compliance": {}
+  }
+}

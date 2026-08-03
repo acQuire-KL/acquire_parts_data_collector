@@ -1,0 +1,246 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:32Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ESPRESSIF",
+    "input_mpn": "ESP32-S3-WROOM-1-N16R2",
+    "resolved_manufacturer": "ESPRESSIF",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ESP32S3-WRM1-16R2",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1109,
+                    "value": "ESPRESSIF"
+                  }
+                ]
+              },
+              {
+                "id": 2124,
+                "name": "Type of communications module",
+                "values": [
+                  {
+                    "id": 1634644,
+                    "value": "IoT"
+                  }
+                ]
+              },
+              {
+                "id": 3547,
+                "name": "Bluetooth version",
+                "values": [
+                  {
+                    "id": 2062509,
+                    "value": "BLE"
+                  }
+                ]
+              },
+              {
+                "id": 301,
+                "name": "Kind of network",
+                "values": [
+                  {
+                    "id": 1544138,
+                    "value": "WiFi"
+                  }
+                ]
+              },
+              {
+                "id": 2320,
+                "name": "Kind of antenna",
+                "values": [
+                  {
+                    "id": 1724565,
+                    "value": "PCB"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1474144,
+                    "value": "3...3.6V DC"
+                  }
+                ]
+              },
+              {
+                "id": 2131,
+                "name": "Communictions protocol",
+                "values": [
+                  {
+                    "id": 1524565,
+                    "value": "IEEE 802.11b/g/n"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1635574,
+                    "value": "ADC"
+                  },
+                  {
+                    "id": 1506593,
+                    "value": "GPIO"
+                  },
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  },
+                  {
+                    "id": 1491220,
+                    "value": "I2S"
+                  },
+                  {
+                    "id": 1453726,
+                    "value": "JTAG"
+                  },
+                  {
+                    "id": 1460773,
+                    "value": "PWM"
+                  },
+                  {
+                    "id": 1524563,
+                    "value": "SDIO"
+                  },
+                  {
+                    "id": 1443806,
+                    "value": "SPI"
+                  },
+                  {
+                    "id": 1453415,
+                    "value": "UART"
+                  },
+                  {
+                    "id": 1453653,
+                    "value": "USB OTG"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 1594,
+                "name": "Dimensions",
+                "values": [
+                  {
+                    "id": 1732022,
+                    "value": "18x25.5x3.1mm"
+                  }
+                ]
+              },
+              {
+                "id": 2144,
+                "name": "Ciphering",
+                "values": [
+                  {
+                    "id": 1521867,
+                    "value": "AES"
+                  },
+                  {
+                    "id": 1634770,
+                    "value": "ECC"
+                  },
+                  {
+                    "id": 1917761,
+                    "value": "RNG"
+                  },
+                  {
+                    "id": 1634771,
+                    "value": "RSA"
+                  },
+                  {
+                    "id": 1634273,
+                    "value": "SHA"
+                  }
+                ]
+              },
+              {
+                "id": 3208,
+                "name": "Band",
+                "values": [
+                  {
+                    "id": 1830514,
+                    "value": "2.412...2.484GHz"
+                  }
+                ]
+              },
+              {
+                "id": 3461,
+                "name": "Memory",
+                "values": [
+                  {
+                    "id": 1979417,
+                    "value": "512kB SRAM"
+                  },
+                  {
+                    "id": 1979186,
+                    "value": "16MB FLASH"
+                  }
+                ]
+              },
+              {
+                "id": 2955,
+                "name": "Components",
+                "values": [
+                  {
+                    "id": 1917765,
+                    "value": "ESP32-S3R2"
+                  }
+                ]
+              },
+              {
+                "id": 2983,
+                "name": "Number of cores",
+                "values": [
+                  {
+                    "id": 1634274,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

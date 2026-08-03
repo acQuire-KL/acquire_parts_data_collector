@@ -1,0 +1,552 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T18:59:30Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP3202T-CI/SN",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "999"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC ADC 12BIT 8-SOIC",
+        "DetailedDescription": "12 Bit Analog to Digital Converter 1, 2 Input 1 SAR 8-SOIC"
+      },
+      "Manufacturer": {
+        "Id": 150,
+        "Name": "Microchip Technology"
+      },
+      "ManufacturerProductNumber": "MCP3202T-CI/SN",
+      "UnitPrice": 1.45,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP3202T-CI-SN/319435",
+      "DatasheetUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21034F.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "MCP3202T-CI/SNTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3300,
+              "UnitPrice": 1.10175,
+              "TotalPrice": 3635.775
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 3300,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3300,
+          "StandardPackage": 3300,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP3202T-CI/SNCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.45,
+              "TotalPrice": 1.45
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.2176,
+              "TotalPrice": 30.44
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 4061,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "MCP3202T-CI/SNDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.45,
+              "TotalPrice": 1.45
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.2176,
+              "TotalPrice": 30.44
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 150,
+            "Name": "Microchip Technology"
+          },
+          "QuantityAvailableforPackageType": 4061,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 4061,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5566805959001",
+      "Parameters": [
+        {
+          "ParameterId": 153,
+          "ParameterText": "Number of Bits",
+          "ParameterType": "String",
+          "ValueId": "80383",
+          "ValueText": "12"
+        },
+        {
+          "ParameterId": 348,
+          "ParameterText": "Sampling Rate (Per Second)",
+          "ParameterType": "String",
+          "ValueId": "68696",
+          "ValueText": "100k"
+        },
+        {
+          "ParameterId": 667,
+          "ParameterText": "Number of Inputs",
+          "ParameterType": "String",
+          "ValueId": "40509",
+          "ValueText": "1, 2"
+        },
+        {
+          "ParameterId": 474,
+          "ParameterText": "Input Type",
+          "ParameterType": "String",
+          "ValueId": "390518",
+          "ValueText": "Pseudo-Differential, Single Ended"
+        },
+        {
+          "ParameterId": 243,
+          "ParameterText": "Data Interface",
+          "ParameterType": "String",
+          "ValueId": "406106",
+          "ValueText": "SPI"
+        },
+        {
+          "ParameterId": 207,
+          "ParameterText": "Configuration",
+          "ParameterType": "String",
+          "ValueId": "399468",
+          "ValueText": "S/H-ADC"
+        },
+        {
+          "ParameterId": 1785,
+          "ParameterText": "Ratio - S/H:ADC",
+          "ParameterType": "String",
+          "ValueId": "63478",
+          "ValueText": "1:1"
+        },
+        {
+          "ParameterId": 2198,
+          "ParameterText": "Number of A/D Converters",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1523,
+          "ParameterText": "Architecture",
+          "ParameterType": "String",
+          "ValueId": "399924",
+          "ValueText": "SAR"
+        },
+        {
+          "ParameterId": 245,
+          "ParameterText": "Reference Type",
+          "ParameterType": "String",
+          "ValueId": "345656",
+          "ValueText": "External"
+        },
+        {
+          "ParameterId": 346,
+          "ParameterText": "Voltage - Supply, Analog",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 347,
+          "ParameterText": "Voltage - Supply, Digital",
+          "ParameterType": "String",
+          "ValueId": "134947",
+          "ValueText": "2.7V ~ 5.5V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "294928",
+          "ValueText": "8-SOIC (0.154\", 3.90mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294926",
+          "ValueText": "8-SOIC"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 7958,
+        "Name": "MCP3202"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2009,
+            "ParentId": 32,
+            "Name": "Data Acquisition",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/130/296%7E4221009%7EDW%7E16_tmb.jpg",
+            "SeoDescription": "Data Acquisition is technology used to convert real-world data into digital information. Products in this category include analog-to-digital converters (ADCs), digital-to-analog converters (DACs), special purpose, analog front end (AFE), digital potentiometers, touchscreen controllers, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 700,
+                "ParentId": 2009,
+                "Name": "Analog to Digital Converters (ADC)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/324/505%3BCP-16-45%3BCP%3B16_tmb.jpg",
+                "SeoDescription": "Analog-to-digital converters (ADC, A/D, or A-to-D) sample an analog signal, such as a sound picked up by a microphone or the output of a sensor, into a digital signal. Typically, the digital output is a two's complement binary number that is proportional to the input. Input types may be differential, pseudo differential or single-ended. ADCs are selected by number of bits, sampling rate, number of inputs, interface, number of converters, and the architecture such as adaptive delta, dual slope, folding, pipelined, SAR, Sigma-Delta or two-step.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "4",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0030"
+      },
+      "OtherNames": [
+        "MCP3202T-CI/SN-ND",
+        "MCP3202T-CI/SNTR",
+        "MCP3202T-CI/SNCT",
+        "MCP3202T-CI/SNDKR",
+        "6196-MCP3202T-CI/SN",
+        "MCP3202T-CI/SN-NDR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:30Z",
+    "manufacturer_part_number": "MCP3202T-CI/SN",
+    "product_quantity_available": 4061,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "4",
+    "product_unit_price": 1.45,
+    "offers": [
+      {
+        "provider_part_number": "MCP3202T-CI/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4061,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.45,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2176,
+            "total_price": 30.44
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP3202T-CI/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4061,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.45,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2176,
+            "total_price": 30.44
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP3202T-CI/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 3300,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.10175,
+            "total_price": 3635.775
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "MCP3202T-CI/SNCT-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4061,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.45,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2176,
+            "total_price": 30.44
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP3202T-CI/SNDKR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 4061,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.45,
+            "total_price": 1.45
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.2176,
+            "total_price": 30.44
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "MCP3202T-CI/SNTR-ND",
+        "supplier": "Microchip Technology",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3300,
+        "pack_quantity": 3300,
+        "quantity_available": 3300,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3300,
+            "unit_price": 1.10175,
+            "total_price": 3635.775
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T18:59:30Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP3202T-CI/SN",
+    "provider_part_number": "",
+    "description": "IC ADC 12BIT 8-SOIC",
+    "detailed_description": "12 Bit Analog to Digital Converter 1, 2 Input 1 SAR 8-SOIC",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21034F.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/microchip-technology/MCP3202T-CI-SN/319435",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8456/MFG_150%7EC04-057%7ESN%2COA%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-SOIC (0.154\", 3.90mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Number of Bits": "12",
+      "Sampling Rate (Per Second)": "100k",
+      "Number of Inputs": "1, 2",
+      "Input Type": "Pseudo-Differential, Single Ended",
+      "Data Interface": "SPI",
+      "Configuration": "S/H-ADC",
+      "Ratio - S/H:ADC": "1:1",
+      "Number of A/D Converters": "1",
+      "Architecture": "SAR",
+      "Reference Type": "External",
+      "Voltage - Supply, Analog": "2.7V ~ 5.5V",
+      "Voltage - Supply, Digital": "2.7V ~ 5.5V",
+      "Features": "-",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Package / Case": "8-SOIC (0.154\", 3.90mm Width)",
+      "Supplier Device Package": "8-SOIC",
+      "Mounting Type": "Surface Mount"
+    },
+    "compliance": {}
+  }
+}

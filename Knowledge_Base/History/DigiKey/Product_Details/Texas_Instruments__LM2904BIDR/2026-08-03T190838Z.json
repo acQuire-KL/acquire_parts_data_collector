@@ -1,0 +1,769 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-03T19:08:38Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "LM2904BIDR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "851"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+        "DetailedDescription": "Standard (General Purpose) Amplifier 2 Circuit 8-SOIC"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "LM2904BIDR",
+      "UnitPrice": 0.21,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/LM2904BIDR/10715598",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2904v",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8899/MFG_296%7E4214825%7ED%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-LM2904BIDRTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.08478,
+              "TotalPrice": 211.95
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.08202,
+              "TotalPrice": 410.1
+            },
+            {
+              "BreakQuantity": 7500,
+              "UnitPrice": 0.08065,
+              "TotalPrice": 604.875
+            },
+            {
+              "BreakQuantity": 12500,
+              "UnitPrice": 0.07912,
+              "TotalPrice": 989.0
+            },
+            {
+              "BreakQuantity": 17500,
+              "UnitPrice": 0.07822,
+              "TotalPrice": 1368.85
+            },
+            {
+              "BreakQuantity": 25000,
+              "UnitPrice": 0.07736,
+              "TotalPrice": 1934.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 17500,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2500,
+          "StandardPackage": 2500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-LM2904BIDRCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.21,
+              "TotalPrice": 0.21
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.143,
+              "TotalPrice": 1.43
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.126,
+              "TotalPrice": 3.15
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1076,
+              "TotalPrice": 10.76
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.09896,
+              "TotalPrice": 24.74
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09368,
+              "TotalPrice": 46.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.08935,
+              "TotalPrice": 89.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 21235,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-LM2904BIDRDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.21,
+              "TotalPrice": 0.21
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.143,
+              "TotalPrice": 1.43
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.126,
+              "TotalPrice": 3.15
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1076,
+              "TotalPrice": 10.76
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.09896,
+              "TotalPrice": 24.74
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.09368,
+              "TotalPrice": 46.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.08935,
+              "TotalPrice": 89.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 21235,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 21235,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 161,
+          "ParameterText": "Amplifier Type",
+          "ParameterType": "String",
+          "ValueId": "863824",
+          "ValueText": "Standard (General Purpose)"
+        },
+        {
+          "ParameterId": 2094,
+          "ParameterText": "Number of Circuits",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 511,
+          "ParameterText": "Slew Rate",
+          "ParameterType": "String",
+          "ValueId": "28672",
+          "ValueText": "0.5V/µs"
+        },
+        {
+          "ParameterId": 658,
+          "ParameterText": "Gain Bandwidth Product",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.2 MHz",
+          "ValueText": "1.2 MHz"
+        },
+        {
+          "ParameterId": 974,
+          "ParameterText": "Current - Input Bias",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "10 nA",
+          "ValueText": "10 nA"
+        },
+        {
+          "ParameterId": 975,
+          "ParameterText": "Voltage - Input Offset",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "300 µV",
+          "ValueText": "300 µV"
+        },
+        {
+          "ParameterId": 449,
+          "ParameterText": "Current - Supply",
+          "ParameterType": "String",
+          "ValueId": "483889",
+          "ValueText": "300µA (x2 Channels)"
+        },
+        {
+          "ParameterId": 2115,
+          "ParameterText": "Current - Output / Channel",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "40 mA",
+          "ValueText": "40 mA"
+        },
+        {
+          "ParameterId": 2609,
+          "ParameterText": "Voltage - Supply Span (Min)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "3 V",
+          "ValueText": "3 V"
+        },
+        {
+          "ParameterId": 2610,
+          "ParameterText": "Voltage - Supply Span (Max)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "36 V",
+          "ValueText": "36 V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212479",
+          "ValueText": "-40°C ~ 125°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "294928",
+          "ValueText": "8-SOIC (0.154\", 3.90mm Width)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294926",
+          "ValueText": "8-SOIC"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 554,
+        "Name": "LM2904"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2018,
+            "ParentId": 32,
+            "Name": "Linear",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/030/156/264%7E11-10C4%7E%7E8_tmb.jpg",
+            "SeoDescription": "Linear circuits and component parameters remain unchanged in regard to voltage and current levels. Included in this category are amplifiers, OP Amps, video amps and modules, analog multipliers, dividers, comparators, video processing, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2034,
+                "ParentId": 2018,
+                "Name": "Amplifiers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/125/945/488%7E846A-02%7EDM%2C-CUA%2C-DMR2%2C-RM%7E8_tmb%2864x64%29.jpg",
+                "SeoDescription": "",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 687,
+                    "ParentId": 2034,
+                    "Name": "Instrumentation, Op Amps, Buffer Amps",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://www.digikey.ie//mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/280/629/296%3B-4040047-5%3B-D%3B-14_tmb.jpg",
+                    "SeoDescription": "Products in this family are used for the reproduction of analog signals with an attendant increase in amplitude, reduction of source impedance, and/or isolation of a signal source from a driven load, as well as performing mathematical operations on analog signals such as summation, negation, integration, etc. Instrumentation amplifiers, chopper stabilized/auto-zero/zero-drift amplifiers, and current feedback types are included.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "DateLastBuyChance": null,
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "ShippingInfo": null,
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.33.0001"
+      },
+      "OtherNames": [
+        "296-LM2904BIDRCT",
+        "296-LM2904BIDRDKR",
+        "296-LM2904BIDRTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:08:38Z",
+    "manufacturer_part_number": "LM2904BIDR",
+    "product_quantity_available": 21235,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.21,
+    "offers": [
+      {
+        "provider_part_number": "296-LM2904BIDRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21235,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.21,
+            "total_price": 0.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.143,
+            "total_price": 1.43
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.126,
+            "total_price": 3.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1076,
+            "total_price": 10.76
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09896,
+            "total_price": 24.74
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09368,
+            "total_price": 46.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.08935,
+            "total_price": 89.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-LM2904BIDRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21235,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.21,
+            "total_price": 0.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.143,
+            "total_price": 1.43
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.126,
+            "total_price": 3.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1076,
+            "total_price": 10.76
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09896,
+            "total_price": 24.74
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09368,
+            "total_price": 46.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.08935,
+            "total_price": 89.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-LM2904BIDRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 17500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.08478,
+            "total_price": 211.95
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.08202,
+            "total_price": 410.1
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.08065,
+            "total_price": 604.875
+          },
+          {
+            "break_quantity": 12500,
+            "unit_price": 0.07912,
+            "total_price": 989.0
+          },
+          {
+            "break_quantity": 17500,
+            "unit_price": 0.07822,
+            "total_price": 1368.85
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.07736,
+            "total_price": 1934.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-LM2904BIDRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21235,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.21,
+            "total_price": 0.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.143,
+            "total_price": 1.43
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.126,
+            "total_price": 3.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1076,
+            "total_price": 10.76
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09896,
+            "total_price": 24.74
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09368,
+            "total_price": 46.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.08935,
+            "total_price": 89.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-LM2904BIDRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 21235,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.21,
+            "total_price": 0.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.143,
+            "total_price": 1.43
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.126,
+            "total_price": 3.15
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1076,
+            "total_price": 10.76
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.09896,
+            "total_price": 24.74
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.09368,
+            "total_price": 46.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.08935,
+            "total_price": 89.35
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-LM2904BIDRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2500,
+        "pack_quantity": 2500,
+        "quantity_available": 17500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.08478,
+            "total_price": 211.95
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.08202,
+            "total_price": 410.1
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.08065,
+            "total_price": 604.875
+          },
+          {
+            "break_quantity": 12500,
+            "unit_price": 0.07912,
+            "total_price": 989.0
+          },
+          {
+            "break_quantity": 17500,
+            "unit_price": 0.07822,
+            "total_price": 1368.85
+          },
+          {
+            "break_quantity": 25000,
+            "unit_price": 0.07736,
+            "total_price": 1934.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-03T19:08:38Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM2904BIDR",
+    "provider_part_number": "",
+    "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+    "detailed_description": "Standard (General Purpose) Amplifier 2 Circuit 8-SOIC",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2904v",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/LM2904BIDR/10715598",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8899/MFG_296%7E4214825%7ED%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-SOIC (0.154\", 3.90mm Width)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Amplifier Type": "Standard (General Purpose)",
+      "Number of Circuits": "2",
+      "Output Type": "-",
+      "Slew Rate": "0.5V/µs",
+      "Gain Bandwidth Product": "1.2 MHz",
+      "Current - Input Bias": "10 nA",
+      "Voltage - Input Offset": "300 µV",
+      "Current - Supply": "300µA (x2 Channels)",
+      "Current - Output / Channel": "40 mA",
+      "Voltage - Supply Span (Min)": "3 V",
+      "Voltage - Supply Span (Max)": "36 V",
+      "Operating Temperature": "-40°C ~ 125°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-SOIC (0.154\", 3.90mm Width)",
+      "Supplier Device Package": "8-SOIC"
+    },
+    "compliance": {}
+  }
+}

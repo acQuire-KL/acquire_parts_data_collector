@@ -1,0 +1,174 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:06:37Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TAIWAN SEMICONDUCTOR",
+    "input_mpn": "TS4148 RCG",
+    "resolved_manufacturer": "TAIWAN SEMICONDUCTOR",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "TS4148-RCG",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 42,
+                    "value": "TAIWAN SEMICONDUCTOR"
+                  }
+                ]
+              },
+              {
+                "id": 1088,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 1440247,
+                    "value": "switching"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "name": "Max. off-state voltage",
+                "values": [
+                  {
+                    "id": 1440242,
+                    "value": "75V"
+                  }
+                ]
+              },
+              {
+                "id": 227,
+                "name": "Load current",
+                "values": [
+                  {
+                    "id": 1633839,
+                    "value": "0.1A"
+                  }
+                ]
+              },
+              {
+                "id": 230,
+                "name": "Reverse recovery time",
+                "values": [
+                  {
+                    "id": 1440245,
+                    "value": "4ns"
+                  }
+                ]
+              },
+              {
+                "id": 229,
+                "name": "Semiconductor structure",
+                "values": [
+                  {
+                    "id": 1612600,
+                    "value": "single diode"
+                  }
+                ]
+              },
+              {
+                "id": 2207,
+                "name": "Features of semiconductor devices",
+                "values": [
+                  {
+                    "id": 1439861,
+                    "value": "fast switching"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1478381,
+                    "value": "4pF"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620227,
+                    "value": "0603"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620228,
+                    "value": "1608"
+                  }
+                ]
+              },
+              {
+                "id": 226,
+                "name": "Max. forward voltage",
+                "values": [
+                  {
+                    "id": 1591603,
+                    "value": "1V"
+                  }
+                ]
+              },
+              {
+                "id": 234,
+                "name": "Max. forward impulse current",
+                "values": [
+                  {
+                    "id": 1701170,
+                    "value": "0.8A"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

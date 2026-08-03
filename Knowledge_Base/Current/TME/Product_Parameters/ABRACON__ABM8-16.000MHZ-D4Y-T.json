@@ -1,0 +1,110 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:08:55Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "ABRACON",
+    "input_mpn": "ABM8-16.000MHZ-D4Y-T",
+    "resolved_manufacturer": "ABRACON",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ABM816.000MHZD4Y-0",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 441,
+                    "value": "ABRACON"
+                  }
+                ]
+              },
+              {
+                "id": 143,
+                "name": "Type of resonator",
+                "values": [
+                  {
+                    "id": 1437918,
+                    "value": "ceramic"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437319,
+                    "value": "18pF"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2260,
+                "name": "ESR value",
+                "values": [
+                  {
+                    "id": 1937253,
+                    "value": "70Ω"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 2075715,
+                    "value": "3.2x2.5mm"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1437721,
+                    "value": "16MHz"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

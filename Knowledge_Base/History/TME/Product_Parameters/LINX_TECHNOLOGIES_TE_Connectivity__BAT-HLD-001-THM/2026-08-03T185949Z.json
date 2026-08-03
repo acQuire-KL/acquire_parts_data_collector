@@ -1,0 +1,118 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T18:59:49Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "LINX TECHNOLOGIES / TE Connectivity",
+    "input_mpn": "BAT-HLD-001-THM",
+    "resolved_manufacturer": "LINX TECHNOLOGIES / TE Connectivity",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "BAT-HLD-001-THM",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1462,
+                    "value": "LINX TECHNOLOGIES / TE Connectivity"
+                  }
+                ]
+              },
+              {
+                "id": 538,
+                "name": "Type of battery accessory",
+                "values": [
+                  {
+                    "id": 1448057,
+                    "value": "holder"
+                  }
+                ]
+              },
+              {
+                "id": 494,
+                "name": "Cell size",
+                "values": [
+                  {
+                    "id": 1477606,
+                    "value": "BR2020"
+                  },
+                  {
+                    "id": 1477602,
+                    "value": "BR2025"
+                  },
+                  {
+                    "id": 1477607,
+                    "value": "CL2020"
+                  },
+                  {
+                    "id": 1447424,
+                    "value": "CR2025"
+                  },
+                  {
+                    "id": 1447425,
+                    "value": "CR2032"
+                  },
+                  {
+                    "id": 1477603,
+                    "value": "DL2025"
+                  },
+                  {
+                    "id": 1477609,
+                    "value": "DL2032"
+                  },
+                  {
+                    "id": 1480311,
+                    "value": "DR2032"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1437094,
+                    "value": "PCB"
+                  }
+                ]
+              },
+              {
+                "id": 328,
+                "name": "Height",
+                "values": [
+                  {
+                    "id": 1861548,
+                    "value": "4.22mm"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1437815,
+                    "value": "bulk"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

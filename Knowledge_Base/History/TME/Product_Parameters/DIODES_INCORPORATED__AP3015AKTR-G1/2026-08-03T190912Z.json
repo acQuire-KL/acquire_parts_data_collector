@@ -1,0 +1,164 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "AP3015AKTR-G1",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "AP3015AKTR-G1",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 584,
+                    "value": "DIODES INCORPORATED"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1646347,
+                    "value": "PMIC"
+                  }
+                ]
+              },
+              {
+                "id": 2613,
+                "name": "Kind of integrated circuit",
+                "values": [
+                  {
+                    "id": 1543881,
+                    "value": "DC/DC converter"
+                  }
+                ]
+              },
+              {
+                "id": 624,
+                "name": "Input voltage",
+                "values": [
+                  {
+                    "id": 1895205,
+                    "value": "1...12V DC"
+                  }
+                ]
+              },
+              {
+                "id": 364,
+                "name": "Output voltage",
+                "values": [
+                  {
+                    "id": 1895206,
+                    "value": "1.23...34V DC"
+                  }
+                ]
+              },
+              {
+                "id": 365,
+                "name": "Output current",
+                "values": [
+                  {
+                    "id": 1443471,
+                    "value": "0.1A"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1502585,
+                    "value": "SOT25"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 144,
+                "name": "Frequency",
+                "values": [
+                  {
+                    "id": 1502028,
+                    "value": "150kHz"
+                  }
+                ]
+              },
+              {
+                "id": 2900,
+                "name": "Topology",
+                "values": [
+                  {
+                    "id": 1623639,
+                    "value": "boost"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  },
+                  {
+                    "id": 1437179,
+                    "value": "tape"
+                  }
+                ]
+              },
+              {
+                "id": 632,
+                "name": "Efficiency",
+                "values": [
+                  {
+                    "id": 1819547,
+                    "value": "81%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

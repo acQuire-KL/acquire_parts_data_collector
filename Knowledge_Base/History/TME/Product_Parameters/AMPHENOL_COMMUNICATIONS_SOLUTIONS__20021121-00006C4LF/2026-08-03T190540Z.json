@@ -1,0 +1,170 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:05:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "input_mpn": "20021121-00006C4LF",
+    "resolved_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "20021121-00006C4LF",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1718,
+                    "value": "AMPHENOL COMMUNICATIONS SOLUTIONS"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1443642,
+                    "value": "pin strips"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1443643,
+                    "value": "pin header"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Kind of connector",
+                "values": [
+                  {
+                    "id": 1436301,
+                    "value": "male"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443418,
+                    "value": "6"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2052229,
+                    "value": "Minitek127®"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1443393,
+                    "value": "vertical"
+                  }
+                ]
+              },
+              {
+                "id": 1322,
+                "name": "Mechanical mounting",
+                "values": [
+                  {
+                    "id": 1436472,
+                    "value": "on PCBs"
+                  }
+                ]
+              },
+              {
+                "id": 426,
+                "name": "Contacts pitch",
+                "values": [
+                  {
+                    "id": 1443644,
+                    "value": "1.27mm"
+                  }
+                ]
+              },
+              {
+                "id": 418,
+                "name": "Connector pinout layout",
+                "values": [
+                  {
+                    "id": 1443995,
+                    "value": "2x3"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1436303,
+                    "value": "gold-plated"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1551716,
+                    "value": "cut from reel"
+                  }
+                ]
+              },
+              {
+                "id": 2826,
+                "name": "Family",
+                "values": [
+                  {
+                    "id": 1933905,
+                    "value": "FCI"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

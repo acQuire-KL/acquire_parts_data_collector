@@ -85,3 +85,7 @@ PDC owns the heavy lifting required to collect, normalise, correlate and validat
 ## PDCPartProfile grows additively
 
 Useful attributes discovered from any provider are added to the provider-neutral PDCPartProfile. Existing useful attributes are not deleted because another provider does not expose them, and no provider is treated as authoritative.
+
+## 20. Human Approval Controls the Parts Master
+
+PDC may import, enrich and recommend Parts Master records, but no record may enter the Approved Parts Master without explicit human acceptance. Provider data and automated proposals remain staging evidence until approved. The source workbook must remain unchanged and every imported value must remain traceable.

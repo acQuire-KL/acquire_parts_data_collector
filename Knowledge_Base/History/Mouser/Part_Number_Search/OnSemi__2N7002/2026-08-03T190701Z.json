@@ -1,0 +1,5532 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:07:01Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "2N7002",
+    "resolved_manufacturer": "OnSemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 193,
+      "Parts": [
+        {
+          "Availability": "523272 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs N-CHANNEL 60V 115mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "147 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.576",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.357",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.229",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.174",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.174",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002_D87Z"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002?qs=0dwsXDNhqlz66WJJhrTFjQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "523272",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "600",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Korea, Republic of"
+            }
+          ]
+        },
+        {
+          "Availability": "192674 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs MOSFET, SOT-23, 60V, 0.28A, 150C, N",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sot-23_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.067",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.035",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.019",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/2N7002?qs=OlC7AqGiEDmcCpiykpS%252BnA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.9e-05
+          },
+          "AvailabilityInStock": "192674",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs N-Ch 60 Volt 0.20 A 1.8 Ohm STripFET",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "STMicroelectronics",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "511-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/STMicroelectronics/2N7002?qs=gr8Zi5OG3MhbM22ee9cxCw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854129000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541299900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs SOT23    N-CH  60V .115A",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002?qs=vHuUswq2%252BsyOgi1wFjG7yg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210075"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 60V 7.5Ohm",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "689-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/2N7002?qs=8dJUblG%2FnkKa0bmy9K2NLQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs RECOMMENDED ALT 2N70",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay / Siliconix",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "781-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Siliconix/2N7002?qs=xBpwZ0JX2zKeuvZKtdYLZQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "781-2N7002E-T1-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "448101 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_2N7002_DS_v02_04_en.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-23-3",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002H6327XTSA2",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002H6327XTSA2",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.232",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.046",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.034",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002 H6327"
+            },
+            {
+              "APMfrPN": " 2N7002H6327XT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002H6327XTSA2?qs=OwbwYO03UsKhD7unS2LllQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "448101",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 117000,
+              "Date": "2026-08-24T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536509090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85365090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Austria"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_2N7002_DS_v02_04_en.pdf",
+          "Description": "MOSFETs",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Restricted Availability",
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002?qs=bAKSY%2FctAC7%252BW3Ad%252B5U1pw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "Availability": "364 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/2N7002.pdf",
+          "Description": "MOSFETs 2N7002 Family SOT23 T&R 10K",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002-13-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002-13-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.037",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.037",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002-7-F"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002-13-F?qs=lLdsDCK6IB1UDGoyufMm0w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "364",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 10000,
+              "Date": "2027-02-12T00:00:00"
+            },
+            {
+              "Quantity": 10000,
+              "Date": "2027-03-19T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "6757 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 60V 200mW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.054",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002-13-F"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002-7-F?qs=jMXWnm70%252BC%252BAX%252BMLzUkTZg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "621-2N7002-7-F-W",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "6757",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 300000,
+              "Date": "2027-02-19T00:00:00"
+            },
+            {
+              "Quantity": 384000,
+              "Date": "2027-06-30T00:00:00"
+            },
+            {
+              "Quantity": 564000,
+              "Date": "2027-07-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "6000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "3315 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/2N7002DW_Rev2_3.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-363-6",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_363_6_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002DWH6327XT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002DWH6327SA1",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.238",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.151",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.095",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.072",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.055",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002DW H6327"
+            },
+            {
+              "APMfrPN": " 2N7002DWH6327XTSA1"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002DWH6327XT?qs=zO0nedAqnNKjs5neRJEZJg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": "3315",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Austria"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/2N7002(SOT-23).pdf",
+          "Description": "MOSFETs 60V, 115mA",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "168 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "2N7002-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-2N7002-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/2N7002-TP?qs=SdqRYZZ9IxDRd5hZUGn6Cw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Thailand"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "150442 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs FET 60V 5.0 OHM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/SOT-23-3_TO-236_case_318_style8_DSL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002-G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "863-2N7002-G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.473",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.328",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.208",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.131",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002-G?qs=UkDUCjYnTB2kntk9T2C9DQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "150442",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1610",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "19875 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/Infineon_2N7002_DS_v02_04_en.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-23-3",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002 H6327",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002H6327",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.275",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.157",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.03",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002H6327XT"
+            },
+            {
+              "APMfrPN": " 2N7002H6327XTSA2"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002-H6327?qs=CVg1V728NXGZyf6kD1tkzQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "19875",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Austria"
+            }
+          ]
+        },
+        {
+          "Availability": "48913 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs N-CHANNEL ENHANCEMENT MODE",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002A-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002A-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.198",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.075",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.059",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.04",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002A-7?qs=oUsD4qhOtFwMIOlLSeau%252Bg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "48913",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 39000,
+              "Date": "2027-07-02T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "3080",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "20697 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/312/1/2N7002.PDF",
+          "Description": "MOSFETs N-Ch 60Vds 60Vdg 40Vgs 350mW",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/centralsemiconductor/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "10 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Central Semiconductor",
+          "ManufacturerPartNumber": "2N7002 TR TIN/LEAD",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "610-2N7002TR-TIN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.233",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.148",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.082",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.06",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Central-Semiconductor/2N7002-TR-TIN-LEAD?qs=l7cgNqFNU1ivldnEvunT3Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "20697",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Italy"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "22990 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/819/1/2N7002_G_RevB201450.pdf",
+          "Description": "MOSFETs BVDD=60V ID=200mA",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/comchiptechnology/images/sot-23_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Comchip Technology",
+          "ManufacturerPartNumber": "2N7002-G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "750-2N7002-G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.318",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.215",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.137",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.065",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.037",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Comchip-Technology/2N7002-G?qs=2qJf6qQ4IOJ20VorenPmaA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "750-2N7002-HF",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "22990",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541409029"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "23202 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/2N7002DW_Rev2_3.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-363-6",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_363_6_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002DW H6327",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002DWH6327",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.464",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.326",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.113",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.10",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002DWH6327XT"
+            },
+            {
+              "APMfrPN": " 2N7002DWH6327XTSA1"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002DW-H6327?qs=oPPfIaWL1l36YxLjySuhig%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": "23202",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Austria"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/2N7002DW_Rev2_3.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-363-6",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_363_6_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002DWH6327XTSA1",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002DWH6327XTS",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.43",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.291",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.124",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.112",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002DW H6327"
+            },
+            {
+              "APMfrPN": " 2N7002DWH6327XT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002DWH6327XTSA1?qs=OwbwYO03UsJ4tzkoO9q4Zw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Austria"
+            }
+          ]
+        },
+        {
+          "Availability": "74993 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002 Family SOT23 T&R 3K",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diodesinc/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002Q-7-F",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002Q-7-F",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.275",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.168",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002Q-7-F?qs=y6ZabgHbY%252BxehHyaDIObtw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "74993",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1710",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854129000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541299900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002_S00Z",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002S00Z",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002_S00Z?qs=FpsthQXstzrPwER6fqSOvQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/onsemiconductor/images/SOT-23-3_logo_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002-F169",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002-F169?qs=lYGu3FyN48fbhRm1CtE2TQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/2N7002.pdf",
+          "Description": "MOSFETs",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002-7-F-79",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002-7-F-79?qs=gZXFycFWdANr%252BCG8C4sYRA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/2N7002KDWA(SOT-363).pdf",
+          "Description": "MOSFETs 60V Dual N-Ch 20Vgs 340mA 150mW 30pF",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "2N7002KDWA-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-2N7002KDWA-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "30000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/2N7002KDWA-TP?qs=P1JMDcb91o4I6udsIpcfPQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/mccc-s-a0009363432-1.pdf",
+          "Description": "MOSFETs N-Channel MOSFET",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "2N7002-TP-HF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-2N7002-TP-HF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/2N7002-TP-HF?qs=pUKx8fyJudCx17s8xVyIfA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs N-CHANNEL 60V 115mA",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002_NB9G002",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002_NB9G002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002_NB9G002?qs=dbR6zmBeCN%252B%2F0724GElWbw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "512-2N7002",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs N-CHANNEL 60V 115mA",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002_Q",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002_Q",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "15000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002_Q?qs=9L1wJi6FmzVo2ZwCJi%2FPfg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs NCh Enhancement Mode",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002_L99Z",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002_L99Z",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002_L99Z?qs=HoXvrljJQFKYtGEp4%2F9inA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/2N7002.pdf",
+          "Description": "MOSFETs 60V 200mW",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002-7?qs=FOlmdCx%252BAA3M8YqGhWFHPw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs N-CHANNEL 60V 115mA",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002MTF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002MTF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002MTF?qs=0dwsXDNhqlwydJzdNYsHHw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "863-2N7002LT1G",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/2N7002DW_Rev2 3.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-363-6",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_363_6_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002DW L6327",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002DWL6327",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002DW-L6327?qs=QdTgSBuqQUMnHBdkOTCayw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "726-2N7002DWH6327SA1",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/101/1/NDS7002A-D.PDF",
+          "Description": "MOSFETs N-Ch Enhancement Mode Field Effect",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Restricted Availability",
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "2N7002-D87Z",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-2N7002D87Z",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002-D87Z?qs=j%252B1pi9TdxUbzjvpKmVQlyw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "512-2N7002",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/2N7002(SOT-23).pdf",
+          "Description": "MOSFETs DMOS TRANSISTOR",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/BZX84B3V6HE3-TP_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "168 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "2N7002-13P",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-2N7002-13P",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/2N7002-13P?qs=pUKx8fyJudBqb%252Bo5h6o%2FOA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs Nch MOSFET 60V 0.3A RDS(on)=3ohms SOT-23",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Panasonic",
+          "ManufacturerPartNumber": "2N7002E",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "667-2N7002E",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panasonic/2N7002E?qs=uS%252BVSIFnvp5hzCqsQ4cMOg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/70/1/2N7002_Rev2.1.pdf",
+          "Description": "MOSFETs N-Ch 60V 300mA SOT-23-3",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Infineon Technologies",
+          "ManufacturerPartNumber": "2N7002 L6327",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "726-2N7002L6327",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Infineon-Technologies/2N7002-L6327?qs=rr3AYcQpCdeGXc04GfctzA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "726-2N7002H6327",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/312/1/2N7002.pdf",
+          "Description": "MOSFETs N-Ch 60Vds 60Vdg 40Vgs 115mA 350mW",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/centralsemiconductor/images/SOT_23_3_t.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Factory Special Order",
+          "Manufacturer": "Central Semiconductor",
+          "ManufacturerPartNumber": "2N7002 TR13 TIN/LEAD",
+          "Min": "10000",
+          "Mult": "10000",
+          "MouserPartNumber": "610-2N7002TR13-TL",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Central-Semiconductor/2N7002-TR13-TIN-LEAD?qs=l7cgNqFNU1hZBFS9AF0kog%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/175/1/2N7002.pdf",
+          "Description": "MOSFETs",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "MOSFETs",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002-7-G",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002-7-G?qs=gZXFycFWdAMK88nirXAh%252Bw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "Availability": "906 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002AKS-Q/SOT363/SC-88",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT363_TSSOP-6_SPL.JPG",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002AKS-QX",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002AKS-QX",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.215",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.131",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.059",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002AKS-QX?qs=mELouGlnn3deD5iO0L%2FnKQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "906",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854129000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541299900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002/SOT23/TO-236AB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002/HAMR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002/HAMR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.109",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.045",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002,235"
+            },
+            {
+              "APMfrPN": " 2N7002,215"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002-HAMR?qs=vLWxofP3U2z6UwzQk4y2Pw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 11581,
+              "Date": "2027-07-30T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002PS/SOT363/SC-88",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/TSSOP-6_SOT363_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": "Not Recommended for New Designs",
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002PSZ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002PSZ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.327",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.222",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.042",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002PS,115"
+            },
+            {
+              "APMfrPN": " 2N7002PS,125"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002PSZ?qs=W0yvOO0ixfHIpYDKZOeDqA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "22142 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002 Family SOT23 T&R 3K",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diodes Incorporated",
+          "ManufacturerPartNumber": "2N7002KQ-7",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "621-2N7002KQ-7",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.267",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.165",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002KQ-13"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diodes-Incorporated/2N7002KQ-7?qs=W%2FMpXkg%252BdQ4Icaa9BdJOtg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "22142",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "3000",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "China"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002PV/SOT666/SOT6",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT666_SOT-666-6_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": "Not Recommended for New Designs",
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002PV,115",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002PV-115",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "4000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.192",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.079",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 8000,
+              "Price": "€0.051",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002PV115?qs=8%252BCzCWLBsnAwhR4WwNBcOA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541210101"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541219000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "73508 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002BK/SOT23/TO-236AB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002BKVL",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002BKVL",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.038",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.028",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.022",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "2N7002BK,215"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002BKVL?qs=uj7TeyS2Sj%252Bj9MS%252BagW4%2FA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "73508",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Japan"
+            }
+          ]
+        },
+        {
+          "Availability": "2963 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002AKW-Q/SOT323/SC-70",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT323_SC-70-3_SPL.JPG",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002AKW-QX",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002AKW-QX",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.146",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.091",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.041",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.036",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.03",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002AKW-QX?qs=mELouGlnn3ceMf%252BDiePY%252BA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "2963",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854129000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541299900"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "50 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs 2N7002AKRA-Q/SOT1268/DFN1412-6",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT1268-1_DFN1412-6_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "2N7002AKRA-QZ",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-2N7002AKRA-QZ",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.327",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.221",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.077",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/2N7002AKRA-QZ?qs=iLKYxzqNS76nSoK81HPNvg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "50",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 5000,
+              "Date": "2027-08-13T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541290065"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "5904 In Stock",
+          "DataSheetUrl": "",
+          "Description": "MOSFETs MOSFET, SOT-323, 60V, 0.315A, 150C, N",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/diotecsemiconductor/images/sot-323_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "49 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Diotec Semiconductor",
+          "ManufacturerPartNumber": "2N7002PW",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "637-2N7002PW",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.069",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.032",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.027",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.025",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 45000,
+              "Price": "€0.024",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Diotec-Semiconductor/2N7002PW?qs=Y0Uzf4wQF3n%2FCryFs1lYIA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "5904",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 12000,
+              "Date": "2026-10-30T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/B6E4CBD8413D7EBD11B9FD8C5356F10834788C613ADCA58A40C94B1B78EED297.pdf",
+          "Description": "MOSFETs 60V N-Channel Enhancement Mode MOSFET - ESD Protected",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOT-23_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "2N7002K_R2_10001",
+          "Min": "12000",
+          "Mult": "12000",
+          "MouserPartNumber": "241-2N7002K_R2_10001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "12000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 12000,
+              "Price": "€0.027",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/2N7002K_R2_10001?qs=sPbYRqrBIVkWAb0iDZEZ8w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-2N7002K_R1_00001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/8B0184B3F160471A27C520DDD0A6D87B80613CFFF177B08B6571A132846B754F.pdf",
+          "Description": "MOSFETs 60V N-Channel Enhancement Mode MOSFET - ESD Protected",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOT-363_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "2N7002KDW_R1_10001",
+          "Min": "3000",
+          "Mult": "3000",
+          "MouserPartNumber": "241-2N7002KDWR110001",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 3000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/2N7002KDW_R1_10001?qs=sPbYRqrBIVnwwfAgxBaboQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-2N7002KDWR100001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/3736/1/8B0184B3F160471A27C520DDD0A6D87B80613CFFF177B08B6571A132846B754F.pdf",
+          "Description": "MOSFETs 60V N-Channel Enhancement Mode MOSFET - ESD Protected",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panjit/images/SOT-363_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panjit",
+          "ManufacturerPartNumber": "2N7002KDW_R2_000A3",
+          "Min": "10000",
+          "Mult": "10000",
+          "MouserPartNumber": "241-2N7002KDWR2000A3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 10000,
+              "Price": "€0.033",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panjit/2N7002KDW_R2_000A3?qs=sPbYRqrBIVlYGhbIHEIXHg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "241-2N7002KDWR100001",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 7.5e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/819/1/QW_JTR133_2N7002W_HF_RevB.pdf",
+          "Description": "MOSFETs MOSFET N-CH 60V 0.25A SOT323",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/comchiptechnology/images/SOT_323_3_DSL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Comchip Technology",
+          "ManufacturerPartNumber": "2N7002W-HF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "750-2N7002W-HF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.258",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.103",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 24000,
+              "Price": "€0.043",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Comchip-Technology/2N7002W-HF?qs=T%252BzbugeAwjgjc69zQz8ULA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100070"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:07:01Z",
+    "manufacturer_part_number": "2N7002",
+    "product_quantity_available": 523272,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "147 Days",
+    "product_unit_price": 0.576,
+    "offers": [
+      {
+        "provider_part_number": "512-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 523272,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.576,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.357,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.229,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.174,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.174,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "637-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 192674,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.112,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.053,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.035,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.022,
+            "total_price": null
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.019,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "511-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "689-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "781-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 7,
+    "variation_count": 7,
+    "variations": [
+      {
+        "provider_part_number": "512-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 523272,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.576,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.357,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.229,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.174,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.174,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "637-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 192674,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.112,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.067,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.053,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.046,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.035,
+            "total_price": null
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.022,
+            "total_price": null
+          },
+          {
+            "break_quantity": 45000,
+            "unit_price": 0.019,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "511-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "689-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "781-2N7002",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:07:01Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "2N7002",
+    "provider_part_number": "512-2N7002",
+    "description": "MOSFETs N-CHANNEL 60V 115mA",
+    "detailed_description": "MOSFETs N-CHANNEL 60V 115mA",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/2N7002?qs=0dwsXDNhqlz66WJJhrTFjQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_3_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541210000",
+      "CNHTS": "8541210000",
+      "CAHTS": "8541210000",
+      "USHTS": "8541210095",
+      "JPHTS": "854121000",
+      "KRHTS": "8541219000",
+      "MXHTS": "8541210100",
+      "ECCN": "EAR99"
+    }
+  }
+}

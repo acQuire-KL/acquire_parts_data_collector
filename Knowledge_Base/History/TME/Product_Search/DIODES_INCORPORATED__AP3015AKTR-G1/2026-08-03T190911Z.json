@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:09:11Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "DIODES INCORPORATED",
+    "input_mpn": "AP3015AKTR-G1",
+    "resolved_manufacturer": "DIODES INCORPORATED",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "AP3015AKTR-G1",
+            "ean": "",
+            "customer_symbol": "REG-SMD-ADJ-A100-B",
+            "category": {
+              "id": 100220,
+              "name": "Voltage regulators - DC/DC circuits"
+            },
+            "manufacturer_symbols": [
+              "AP3015AKTR-G1"
+            ],
+            "manufacturer": {
+              "id": 584,
+              "name": "DIODES INCORPORATED"
+            },
+            "description": "PMIC; DC/DC converter; Uin: 1÷12VDC; Uout: 1.23÷34VDC; 0.1A; SOT25",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.026,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/37/5F/B0/00/0/783731_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=1bf454c2d50d6ce2d4e1f917d77f4fb2f2b52ed8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/37/5F/B0/00/0/783731_1.jpg?width=100&height=75&q=75&ci_sign=7a3cd928f3db0228a932ce889d4d801f3890c694",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/37/5F/B0/00/0/783731_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=dd7ddab7a2f6402475ed920eec92c0e80a3999d0"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

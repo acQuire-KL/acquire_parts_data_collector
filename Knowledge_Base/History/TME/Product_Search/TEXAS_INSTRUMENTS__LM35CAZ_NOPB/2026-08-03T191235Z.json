@@ -1,0 +1,68 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:12:35Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TEXAS INSTRUMENTS",
+    "input_mpn": "LM35CAZ/NOPB",
+    "resolved_manufacturer": "TEXAS INSTRUMENTS",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "LM35CAZ/NOPB",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100223,
+              "name": "Temperature transducers"
+            },
+            "manufacturer_symbols": [
+              "LM35CAZ/NOPB"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: temperature sensor; -40÷110°C; TO92; THT; Interface: analog",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.246,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D5/B5/40/00/0/285533_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=04506b75cafe72654ab0ee9a23862979795303b5",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D5/B5/40/00/0/285533_1.jpg?width=100&height=75&q=75&ci_sign=0e59ca4881f6b00bceb56d23d66a2441927f6589",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

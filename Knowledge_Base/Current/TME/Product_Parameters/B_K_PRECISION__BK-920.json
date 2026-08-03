@@ -1,0 +1,230 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T18:59:46Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "B&K PRECISION",
+    "input_mpn": "BK-920",
+    "resolved_manufacturer": "B&K PRECISION",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "BK9205B",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1612,
+                    "value": "B&K PRECISION"
+                  }
+                ]
+              },
+              {
+                "id": 3562,
+                "name": "Type of laboratory power supply",
+                "values": [
+                  {
+                    "id": 2065126,
+                    "value": "programmable"
+                  }
+                ]
+              },
+              {
+                "id": 2706,
+                "name": "Kind of power supply",
+                "values": [
+                  {
+                    "id": 1816794,
+                    "value": "multi- range"
+                  },
+                  {
+                    "id": 1634498,
+                    "value": "single-channel"
+                  }
+                ]
+              },
+              {
+                "id": 383,
+                "name": "Number of channels",
+                "values": [
+                  {
+                    "id": 1443898,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 364,
+                "name": "Output voltage",
+                "values": [
+                  {
+                    "id": 1593538,
+                    "value": "60V DC"
+                  }
+                ]
+              },
+              {
+                "id": 365,
+                "name": "Output current",
+                "values": [
+                  {
+                    "id": 1455114,
+                    "value": "25A"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1449855,
+                    "value": "100...240V AC"
+                  }
+                ]
+              },
+              {
+                "id": 55,
+                "name": "Kind of display used",
+                "values": [
+                  {
+                    "id": 1816637,
+                    "value": "VFD"
+                  }
+                ]
+              },
+              {
+                "id": 2024,
+                "name": "Output voltage resolution",
+                "values": [
+                  {
+                    "id": 1504856,
+                    "value": "1mV"
+                  }
+                ]
+              },
+              {
+                "id": 2025,
+                "name": "Output current resolution",
+                "values": [
+                  {
+                    "id": 1504811,
+                    "value": "0.1mA"
+                  }
+                ]
+              },
+              {
+                "id": 3398,
+                "name": "Voltage stabilisation",
+                "values": [
+                  {
+                    "id": 1896404,
+                    "value": "≤0.01%+ 15mV"
+                  }
+                ]
+              },
+              {
+                "id": 3397,
+                "name": "Current stabilisation",
+                "values": [
+                  {
+                    "id": 1896362,
+                    "value": "≤0.05%+ 10mA"
+                  }
+                ]
+              },
+              {
+                "id": 564,
+                "name": "Maximum power",
+                "values": [
+                  {
+                    "id": 1545757,
+                    "value": "600W"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1444039,
+                    "value": "RS232"
+                  },
+                  {
+                    "id": 1453663,
+                    "value": "USB"
+                  }
+                ]
+              },
+              {
+                "id": 1747,
+                "name": "Standard equipment",
+                "values": [
+                  {
+                    "id": 1466180,
+                    "value": "calibration certificate"
+                  },
+                  {
+                    "id": 1468271,
+                    "value": "mains cable"
+                  },
+                  {
+                    "id": 1491676,
+                    "value": "user's manual"
+                  }
+                ]
+              },
+              {
+                "id": 1776,
+                "name": "Protection",
+                "values": [
+                  {
+                    "id": 1499330,
+                    "value": "anti-overvoltage OVP"
+                  },
+                  {
+                    "id": 1454716,
+                    "value": "overheating OTP"
+                  }
+                ]
+              },
+              {
+                "id": 1594,
+                "name": "Dimensions",
+                "values": [
+                  {
+                    "id": 1816652,
+                    "value": "214.5x88.2x445mm"
+                  }
+                ]
+              },
+              {
+                "id": 1774,
+                "name": "Additional functions",
+                "values": [
+                  {
+                    "id": 1733020,
+                    "value": "voltmeter"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:19Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP4812-E/SN",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MCP4812-E/SN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112878,
+              "name": "D/A converters - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "MCP4812-E/SN"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: D/A converter; 10bit; Ch: 2; Uoper: 2.7÷5.5V; SOIC8; -40÷125°C",
+            "multiples": 100,
+            "minimal_amount": 200,
+            "weight": {
+              "value": 0.094,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/04/6A/61/00/0/1484352_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=384c014856150684bfaf973d0bab8e9da2e75ede",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/04/6A/61/00/0/1484352_1.jpg?width=100&height=75&q=75&ci_sign=6f2ee20cd5d11bc343259c531fbc1d8af2dbf614",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/04/6A/61/00/0/1484352_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=3feec85d62933365b121c3c0230a064a5053fe2f"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

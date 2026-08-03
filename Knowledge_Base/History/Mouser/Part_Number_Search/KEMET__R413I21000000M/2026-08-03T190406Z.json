@@ -1,0 +1,301 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:04:06Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "KEMET",
+    "input_mpn": "R413I21000000M",
+    "resolved_manufacturer": "KEMET",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "5758 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/508/1/R413I21000000M.pdf",
+          "Description": "Safety Capacitors .01uF 300volts 20%",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/kemet/images/R41_DSL.JPG",
+          "Category": "Safety Capacitors",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "KEMET",
+          "ManufacturerPartNumber": "R413I21000000M",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "80-R413I21000000M",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.568",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.267",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.241",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.197",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.171",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€0.158",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.157",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/KEMET/R413I21000000M?qs=06HLYMEcjuXsyd6QmqX%2Fdw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.001304396
+          },
+          "AvailabilityInStock": "5758",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532250000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8532259000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532250000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532250070"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853225000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532250000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322590"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T19:04:06Z",
+    "manufacturer_part_number": "R413I21000000M",
+    "product_quantity_available": 5758,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "280 Days",
+    "product_unit_price": 0.568,
+    "offers": [
+      {
+        "provider_part_number": "80-R413I21000000M",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5758,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.568,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.241,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.197,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.171,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.158,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.157,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "80-R413I21000000M",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5758,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.568,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.241,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.197,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.171,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.158,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.157,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:04:06Z",
+    "manufacturer": "KEMET",
+    "manufacturer_part_number": "R413I21000000M",
+    "provider_part_number": "80-R413I21000000M",
+    "description": "Safety Capacitors .01uF 300volts 20%",
+    "detailed_description": "Safety Capacitors .01uF 300volts 20%",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/508/1/R413I21000000M.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/KEMET/R413I21000000M?qs=06HLYMEcjuXsyd6QmqX%2Fdw%3D%3D",
+    "image_url": "https://www.mouser.com/images/kemet/images/R41_DSL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8532250000",
+      "CNHTS": "8532259000",
+      "CAHTS": "8532250000",
+      "USHTS": "8532250070",
+      "JPHTS": "853225000",
+      "KRHTS": "8532250000",
+      "BRHTS": "85322590",
+      "ECCN": "EAR99"
+    }
+  }
+}

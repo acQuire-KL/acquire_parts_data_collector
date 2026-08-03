@@ -1,0 +1,72 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:06:54Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "NEXPERIA",
+    "input_mpn": "PMV65XPVL",
+    "resolved_manufacturer": "NEXPERIA",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "PMV65XPVL",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112828,
+              "name": "SMD P channel transistors"
+            },
+            "manufacturer_symbols": [
+              "PMV65XPVL"
+            ],
+            "manufacturer": {
+              "id": 1241,
+              "name": "NEXPERIA"
+            },
+            "description": "Transistor: P-MOSFET; Trench; unipolar; -20V; -1.8A; Idm: -16A",
+            "multiples": 10000,
+            "minimal_amount": 10000,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=53a9483b00423785bfa262542fe924f68ccc28c8",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=100&height=75&q=75&ci_sign=80feb935007a89ef09e1b01ec813a442e73a913a",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/E0/6F/B0/00/1/783886_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ae045b98c56bfe99eb0678181e28b971187e8be"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

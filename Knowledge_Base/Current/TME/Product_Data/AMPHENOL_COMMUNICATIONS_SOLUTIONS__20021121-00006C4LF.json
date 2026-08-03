@@ -1,0 +1,79 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:05:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "input_mpn": "20021121-00006C4LF",
+    "resolved_manufacturer": "AMPHENOL COMMUNICATIONS SOLUTIONS",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 5964,
+          "symbol": "20021121-00006C4LF",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.507,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.462,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 0.416,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.376,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.338,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.312,
+                "special": false
+              },
+              {
+                "amount": 300,
+                "price": 0.309,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

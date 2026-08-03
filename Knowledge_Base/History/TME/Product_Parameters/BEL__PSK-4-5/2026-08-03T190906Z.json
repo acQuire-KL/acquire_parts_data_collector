@@ -1,0 +1,184 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-03T19:09:06Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "BEL",
+    "input_mpn": "PSK-4-5",
+    "resolved_manufacturer": "BEL",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "PSK4512T-BEL-0",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1992,
+                    "value": "BEL"
+                  }
+                ]
+              },
+              {
+                "id": 622,
+                "name": "Type of power supply",
+                "values": [
+                  {
+                    "id": 1449829,
+                    "value": "switching"
+                  }
+                ]
+              },
+              {
+                "id": 2706,
+                "name": "Kind of power supply",
+                "values": [
+                  {
+                    "id": 1823238,
+                    "value": "AC/DC"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1492347,
+                    "value": "46W"
+                  }
+                ]
+              },
+              {
+                "id": 364,
+                "name": "Output voltage",
+                "values": [
+                  {
+                    "id": 1443381,
+                    "value": "12V"
+                  }
+                ]
+              },
+              {
+                "id": 365,
+                "name": "Output current",
+                "values": [
+                  {
+                    "id": 1498627,
+                    "value": "3.8A"
+                  }
+                ]
+              },
+              {
+                "id": 63,
+                "name": "Number of outputs",
+                "values": [
+                  {
+                    "id": 1454561,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 631,
+                "name": "Maximum output current",
+                "values": [
+                  {
+                    "id": 1607876,
+                    "value": "3.8A"
+                  }
+                ]
+              },
+              {
+                "id": 317,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1948239,
+                    "value": "135x70x37.9mm"
+                  }
+                ]
+              },
+              {
+                "id": 73,
+                "name": "Electrical connection",
+                "values": [
+                  {
+                    "id": 1454965,
+                    "value": "terminal block"
+                  }
+                ]
+              },
+              {
+                "id": 632,
+                "name": "Efficiency",
+                "values": [
+                  {
+                    "id": 1819548,
+                    "value": "84%"
+                  }
+                ]
+              },
+              {
+                "id": 511,
+                "name": "Application",
+                "values": [
+                  {
+                    "id": 1606604,
+                    "value": "IT"
+                  }
+                ]
+              },
+              {
+                "id": 436,
+                "name": "Conform to the norm",
+                "values": [
+                  {
+                    "id": 1469847,
+                    "value": "CE"
+                  },
+                  {
+                    "id": 2046754,
+                    "value": "cURus"
+                  }
+                ]
+              },
+              {
+                "id": 430,
+                "name": "Insulation voltage",
+                "values": [
+                  {
+                    "id": 1444642,
+                    "value": "4kV"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1613110,
+                    "value": "100...370V DC"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T19:06:33Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "SMBJ5361B/TR13",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "Zener Diodes Voltage Regulator",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/microchiptechnology/images/DO-214AB-2_DSL.JPG",
+          "Category": "Zener Diodes",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "SMBJ5361B/TR13",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "494-SMBJ5361B/TR13",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/SMBJ5361B-TR13?qs=pU29NIZ4ZwBnsUDyvbm%252B2g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100030"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100050"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "",
+    "captured_at_utc": "2026-08-03T19:06:33Z",
+    "manufacturer_part_number": "SMBJ5361B/TR13",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": null,
+    "offers": [
+      {
+        "provider_part_number": "494-SMBJ5361B/TR13",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "494-SMBJ5361B/TR13",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T19:06:33Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "SMBJ5361B/TR13",
+    "provider_part_number": "494-SMBJ5361B/TR13",
+    "description": "Zener Diodes Voltage Regulator",
+    "detailed_description": "Zener Diodes Voltage Regulator",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/SMBJ5361B-TR13?qs=pU29NIZ4ZwBnsUDyvbm%252B2g%3D%3D",
+    "image_url": "https://www.mouser.com/images/microchiptechnology/images/DO-214AB-2_DSL.JPG",
+    "lifecycle_status": "Obsolete",
+    "rohs_status": "No",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Cut Tape",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100030",
+      "USHTS": "8541100050",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100101",
+      "ECCN": "EAR99"
+    }
+  }
+}

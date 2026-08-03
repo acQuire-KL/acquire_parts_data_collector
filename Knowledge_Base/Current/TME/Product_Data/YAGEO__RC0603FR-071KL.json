@@ -1,0 +1,94 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-03T19:10:21Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "YAGEO",
+    "input_mpn": "RC0603FR-071KL",
+    "resolved_manufacturer": "YAGEO",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 1230408,
+          "symbol": "RC0603FR-071K",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.0482,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.013,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.00673,
+                "special": false
+              },
+              {
+                "amount": 250,
+                "price": 0.00525,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.00436,
+                "special": false
+              },
+              {
+                "amount": 1000,
+                "price": 0.00363,
+                "special": false
+              },
+              {
+                "amount": 5000,
+                "price": 0.00239,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.00204,
+                "special": false
+              },
+              {
+                "amount": 15000,
+                "price": 0.00188,
+                "special": false
+              },
+              {
+                "amount": 25000,
+                "price": 0.00169,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

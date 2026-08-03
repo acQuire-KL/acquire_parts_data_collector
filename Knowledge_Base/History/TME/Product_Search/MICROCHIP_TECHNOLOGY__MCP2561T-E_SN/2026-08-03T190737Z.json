@@ -1,0 +1,71 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:07:37Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "MICROCHIP TECHNOLOGY",
+    "input_mpn": "MCP2561T-E/SN",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL",
+              "NEW"
+            ],
+            "symbol": "MCP2561T-E/SN",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112853,
+              "name": "CAN interfaces - integrated circuits"
+            },
+            "manufacturer_symbols": [
+              "MCP2561T-E/SN"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: CAN transceiver; 1Mbps; SOIC8; -40÷125°C; No.of rec: 1",
+            "multiples": 3300,
+            "minimal_amount": 3300,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/72/6A/61/00/0/1484327_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=9a2ab7f417979de2e6b80d3da14614d53174207c",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/72/6A/61/00/0/1484327_1.jpg?width=100&height=75&q=75&ci_sign=aa8af5bf1fe702ebb48e62975907b255a443f5d1",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/72/6A/61/00/0/1484327_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5ef086a18595c3c2c5023d7e8503834612f60f57"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-03T19:13:25Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "STMicroelectronics",
+    "input_mpn": "USBLC6-2SC6",
+    "resolved_manufacturer": "STMicroelectronics",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "USBLC6-2SC6",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113178,
+              "name": "Protection diodes - arrays"
+            },
+            "manufacturer_symbols": [
+              "USBLC6-2SC6"
+            ],
+            "manufacturer": {
+              "id": 35,
+              "name": "STMicroelectronics"
+            },
+            "description": "Diode: TVS array; 6V; bidirectional; ESD; SOT23-6; Ch: 2; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.026,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=98ed2c6810e8730d3d29b40276f6cc67975d654a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=100&height=75&q=75&ci_sign=a44c22fc9e146ee2d36acefb2fcb691a7006b78a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [],
+            "symbol": "USBLC6-2SC6Y",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113178,
+              "name": "Protection diodes - arrays"
+            },
+            "manufacturer_symbols": [
+              "USBLC6-2SC6Y"
+            ],
+            "manufacturer": {
+              "id": 35,
+              "name": "STMicroelectronics"
+            },
+            "description": "Diode: TVS array; 6V; bidirectional; ESD; SOT23-6; Ch: 2; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.03,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=98ed2c6810e8730d3d29b40276f6cc67975d654a",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/58/B5/40/00/0/285573_1.jpg?width=100&height=75&q=75&ci_sign=a44c22fc9e146ee2d36acefb2fcb691a7006b78a",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "USBLC6-2SC6-AKS",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113178,
+              "name": "Protection diodes - arrays"
+            },
+            "manufacturer_symbols": [
+              "AKS1201"
+            ],
+            "manufacturer": {
+              "id": 2142,
+              "name": "AKYGA SEMI"
+            },
+            "description": "Diode: TVS array; 6V; bidirectional; ESD; SOT23-6; Ch: 2; reel,tape",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/03/E9/61/00/0/1482288_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=461ab41020677224d19cfcb68913983477bf0c45",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/03/E9/61/00/0/1482288_1.jpg?width=100&height=75&q=75&ci_sign=b0a6d06c0c3159d8a0a9b09f6a38f4e855515bae",
+                "high_resolution": null
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

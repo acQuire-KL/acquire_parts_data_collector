@@ -1,0 +1,494 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "ADC121C021CIMM/NOPB",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "6379 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC I2C-Comptble 12B ADC A 926-AD121C021CIMK A 926-AD121C021CIMKNPB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_VSSOP-8_DGK_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADC121C021CIMM/NOPB",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "926-AD121C021CIMMNPB",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.72",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.57",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.42",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.34",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.30",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.24",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€1.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.21",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADC121C021CIMK/NOPB"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADC121C021CIMM-NOPB?qs=7X5t%252BdzoRHA%252B3VfLL0KGYQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "926-AD121C021CIMKNPB",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00014
+          },
+          "AvailabilityInStock": "6379",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 13000,
+              "Date": "2026-09-24T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "64 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Analog to Digital Converters - ADC I2C-Comptble 12B ADC A 926-A121C021CIMKX A 926-A121C021CIMKXNPB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SOT-23-Thin-6_DDC_t.jpg",
+          "Category": "Analog to Digital Converters - ADC",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "ADC121C021CIMK/NOPB",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "926-AD121C021CIMKNPB",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€3.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.88",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.78",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.76",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.71",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€1.61",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.58",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "ADC121C021CIMKX/NOPB"
+            },
+            {
+              "APMfrPN": " ADC121C021CIMM/NOPB"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADC121C021CIMK-NOPB?qs=7X5t%252BdzoRHCpyBc1ZtMoSA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "926-A121C021CIMKXNPB",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.19e-05
+          },
+          "AvailabilityInStock": "64",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-08-28T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "manufacturer_part_number": "ADC121C021CIMM/NOPB",
+    "product_quantity_available": 6379,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "182 Days",
+    "product_unit_price": 2.31,
+    "offers": [
+      {
+        "provider_part_number": "926-AD121C021CIMMNPB",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6379,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.72,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.57,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.42,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.21,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "926-AD121C021CIMMNPB",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6379,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.72,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.57,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.42,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.34,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.3,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.24,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.21,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "ADC121C021CIMM/NOPB",
+    "provider_part_number": "926-AD121C021CIMMNPB",
+    "description": "Analog to Digital Converters - ADC I2C-Comptble 12B ADC A 926-AD121C021CIMK A 926-AD121C021CIMKNPB",
+    "detailed_description": "Analog to Digital Converters - ADC I2C-Comptble 12B ADC A 926-AD121C021CIMK A 926-AD121C021CIMKNPB",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/ADC121C021CIMM-NOPB?qs=7X5t%252BdzoRHA%252B3VfLL0KGYQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_VSSOP-8_DGK_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390030",
+      "JPHTS": "854239099",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}
