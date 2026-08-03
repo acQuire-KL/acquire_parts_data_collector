@@ -1,5 +1,51 @@
 # Changelog
 
+## v0.2.9 Sprint 4.2.5 Patch 1 — PDCPartProfile Rename
+
+### Changed
+
+- Renamed the internal engineering model from `ProviderPartProfile` to `PDCPartProfile`.
+- Renamed provider normaliser entry points and development checks to use PDC terminology.
+- Added `provider_profiles/pdc_part_profile.py` as the definitive model module.
+- Retained temporary compatibility aliases for older local scripts.
+
+### Preserved
+
+- JSON schema version remains `0.2`.
+- JSON section names, values, provider mappings and output paths are unchanged.
+- No workbook, qualification, correlation or provider behaviour is changed.
+
+## v0.2.9 Sprint 4.2.4 Patch 2 — Shared Range Normalisation
+
+### Fixed
+
+- Corrected DigiKey signed-range parsing for values such as `-40°C ~ 85°C`.
+- Added provider-independent range validation requiring a parsed maximum to be greater than its minimum.
+- Added Celsius/Fahrenheit recognition and conversion to Celsius for normalised temperature ranges.
+- Prevented single values from being silently duplicated into false min/max ranges.
+
+### Added
+
+- Added regression tests covering signed ranges, multiple separators, invalid/reversed ranges, unit conversion, and DigiKey/TME temperature correlation.
+- Applied the shared range utility to current TME and DigiKey normalised range attributes.
+
+## v0.2.9 Sprint 4.2.3a — PDCPartProfile Foundation
+
+### Added
+
+- Added the provider-neutral `PDCPartProfile` model with Identity, Technical, Commercial, Logistics, Media and Provider Metadata sections.
+- Added attribute-level provenance retaining provider, endpoint, raw name, raw value, normalised value, unit and capture timestamp.
+- Added provider-independent normalisation helpers for numeric values, ranges, package names, mounting types, pack formats and protocol-relative URLs.
+- Added the TME normaliser combining Product Search, Product Data and Product Parameters into one profile.
+- Added `tme_profile_check.py` to build a readable console summary and JSON inspection artefact from the current TME Knowledge Base captures.
+- Added regression tests for the common profile, normalisation helpers and the three-endpoint TME mapping.
+
+### Preserved
+
+- Raw TME responses remain the authoritative captured evidence.
+- No correlated Knowledge Base Part Profile, confidence score, supplier ranking or PIE decision logic is introduced in this step.
+- Existing DigiKey and Mouser profiles are unchanged until Sprint 4.2.4.
+
 ## 0.2.8 - Sprint 4.2.2a TME Connectivity
 
 - Added isolated TME Product API v2 connectivity client.
@@ -130,6 +176,21 @@ Added TME Product API connectivity.
 
 # Changelog
 
+## v0.2.9 Sprint 4.2.5 Patch 1 — PDCPartProfile Rename
+
+### Changed
+
+- Renamed the internal engineering model from `ProviderPartProfile` to `PDCPartProfile`.
+- Renamed provider normaliser entry points and development checks to use PDC terminology.
+- Added `provider_profiles/pdc_part_profile.py` as the definitive model module.
+- Retained temporary compatibility aliases for older local scripts.
+
+### Preserved
+
+- JSON schema version remains `0.2`.
+- JSON section names, values, provider mappings and output paths are unchanged.
+- No workbook, qualification, correlation or provider behaviour is changed.
+
 ## [0.2.5] - Unreleased
 
 ### Provider framework — Step 1
@@ -226,3 +287,9 @@ This step changes documentation only. Python behaviour and workbook output are u
 - Added a normalised pack format while retaining the original provider package description.
 - Updated Knowledge Base schema to 1.1 and embedded the commercial profile in new and migrated product records.
 - Existing Knowledge Base records remain compatible; their commercial profile is derived in memory when absent.
+
+## Sprint 4.2.4 - PDCPartProfile refinement (DigiKey)
+
+- Expanded the provider-neutral profile additively for lifecycle, regulatory and richer commercial offers.
+- Added DigiKey Product Details normalisation without discarding package-specific offers or price ladders.
+- Preserved TME compatibility with the expanded profile.

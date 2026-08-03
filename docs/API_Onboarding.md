@@ -77,7 +77,7 @@ Purpose:
 - Save raw JSON response.
 - Produce concise console output.
 
-The connectivity check should not modify the Knowledge Base or workbook.
+The connectivity check must not modify the workbook. Once connectivity is verified, it should use the common Knowledge Base raw-response capture path so the provider is stored using the same Current/History structure as existing providers.
 
 ---
 
@@ -87,15 +87,12 @@ Save the complete JSON response.
 
 Location:
 
-```
-raw_responses/
+```text
+Knowledge_Base/Current/<Provider>/<Endpoint>/
+Knowledge_Base/History/<Provider>/<Endpoint>/<Part_Key>/
 ```
 
-Filename example:
-
-```
-TME_MCP1711T-25I_OT_20260726_192903.json
-```
+The Current file is the latest captured response. History retains timestamped evidence from each live capture.
 
 This response becomes the reference when implementing the provider mapper.
 

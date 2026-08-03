@@ -1,0 +1,16 @@
+Sprint 4.2.2c Patch 1 - TME Product Data scopes and independent endpoint execution
+
+1. Extract this ZIP over the PDC project root.
+2. Run:
+       python -m unittest discover -s tests -v
+3. Run the live capture:
+       python tme_connectivity_check.py MCP1711T-25I/OT
+
+Default Product Data scopes:
+- prices
+- stock
+
+Optional custom scopes can be repeated, for example:
+       python tme_connectivity_check.py MCP1711T-25I/OT --data-scope prices --data-scope stock
+
+Each endpoint is attempted independently after successful authentication.

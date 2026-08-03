@@ -1,0 +1,13 @@
+PDC v0.2.9 — Sprint 4.2.5 Patch 2
+Mouser PDCPartProfile normaliser
+
+1. Extract this package over the project root, preserving folders.
+2. Run:
+   py -m unittest discover -s tests -v
+3. Generate the three provider profiles:
+   py tme_profile_check.py
+   py digikey_profile_check.py
+   py mouser_profile_check.py
+4. Inspect output/provider_profiles/MOUSER__Microchip_Technology__MCP1711T-25I_OT.json
+
+This patch adds Mouser normalisation only. It does not change the workbook or qualification rules.

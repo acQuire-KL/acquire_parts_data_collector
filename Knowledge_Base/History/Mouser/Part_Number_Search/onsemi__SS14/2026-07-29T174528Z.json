@@ -1,0 +1,4325 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-07-29T17:45:28Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "OnSemi",
+    "input_mpn": "SS14",
+    "resolved_manufacturer": "onsemi",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 747,
+      "Parts": [
+        {
+          "Availability": "210540 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers SMA 40V 1.0A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/fairchildsemiconductor/images/inhouse_ss14_t.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "onsemi",
+          "ManufacturerPartNumber": "SS14",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "512-SS14",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.145",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.086",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00012
+          },
+          "AvailabilityInStock": "210540",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SalesMaximumOrderQty": "1110",
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Taiwan"
+            }
+          ]
+        },
+        {
+          "Availability": "14774 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A, 40V, Schottky Rectifier",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/DO-214AC-SMA_SPL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "154 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "SS14",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-SS14",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.192",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.058",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.049",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 22500,
+              "Price": "€0.044",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14 F3"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/SS14?qs=JV7lzlMm3yLIdi0ESVd3YQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.4e-05
+          },
+          "AvailabilityInStock": "14774",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 22500,
+              "Date": "2026-10-23T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "32370 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A,40V,SM SCHOTTKY RECT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO214_AC_2_SPL.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-M3/5AT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14-M35AT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.321",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.205",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.154",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.125",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-M3/61T"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-M3-5AT?qs=u%252Bh7cTrMUz9sZ2wuc5tO4g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.3e-05
+          },
+          "AvailabilityInStock": "32370",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/omron_ss_1110.pdf",
+          "Description": "Basic / Snap Action Switches Subminiature Basic Switch",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Basic / Snap Action Switches",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Omron Electronics",
+          "ManufacturerPartNumber": "SS-1-4",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "653-SS-1-4",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Omron-Electronics/SS-1-4?qs=WOBxwZpV8jX16lfj3RCnxA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "653-SS-5",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0016
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536500090"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536509040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536509040"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Indonesia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "18680 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A,40V,SM SCHOTTKY RECT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO214_AC_2_SPL.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "59 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-M3/61T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14-M361T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.525",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.321",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.205",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.154",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1800,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-M3/5AT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-M3-61T?qs=u%252Bh7cTrMUz%2FJmgGUfiBs3Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": "18680",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "20989 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A,40V,SM SCHOTTKY RECT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO214_AC_2_SPL.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "56 Days",
+          "LifecycleStatus": "New at Mouser",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-M3\\5AT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14-M3\\5AT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.808",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.558",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.353",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.218",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.162",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.144",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.124",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 22500,
+              "Price": "€0.089",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-M3%5C5AT?qs=TuK3vfAjtkV2Tm%252BijztvEQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "20989",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A SCHOTTKY BARRIER",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/SMA.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "126 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "SS14-LTP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-SS14-LTP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/SS14-LTP?qs=cLwp4wpikzAw2VEYiDo3NQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-05
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Vietnam"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "19070 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A, 40V SMA SKY RECT.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO_214_AC_SMA_2_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "50 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HM3_B/H",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14HM3_B/H",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.834",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.574",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.364",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.225",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.166",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1800,
+              "Price": "€0.147",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3600,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.097",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 23400,
+              "Price": "€0.092",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HM3_B-H?qs=MLItCLRbWsxX42l%252BtkHFGA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "19070",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A, 40V SMA SKY RECT.",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SS12HE3_B-I_SPL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HM3_B/I",
+          "Min": "15000",
+          "Mult": "7500",
+          "MouserPartNumber": "78-SS14HM3BI",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 15000,
+              "Price": "€0.097",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 22500,
+              "Price": "€0.092",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HM3_B-I?qs=MLItCLRbWsx%252By4DMABM5Pg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "100498 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1.0 Amp 40 Volt",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "53 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/61T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14-E3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.246",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.156",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.076",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1800,
+              "Price": "€0.068",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3600,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 9000,
+              "Price": "€0.059",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 23400,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-E3/5AT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-61T?qs=x2jpVgRnAtMLNL7KZbtr8g%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00011
+          },
+          "AvailabilityInStock": "100498",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 174600,
+              "Date": "2026-08-26T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "11722 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40V Sctky Bar Rectfr SMA (DO-214AC)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO_214_AC_SMA_2_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "38 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3_B/H",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14HE3_B/H",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.482",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.298",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1800,
+              "Price": "€0.08",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14HE3_B/I"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3_B-H?qs=MLItCLRbWsz7Po8vSKN6%2Fw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000977
+          },
+          "AvailabilityInStock": "11722",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85411099"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "110565 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "55 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/5AT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14-E3/5AT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.404",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.246",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.156",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.093",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.057",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 22500,
+              "Price": "€0.05",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-E3/61T"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-5AT?qs=x2jpVgRnAtNS8cYenlSSJA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00011
+          },
+          "AvailabilityInStock": "110565",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "18736 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40V Sctky Bar Rectfr SMA (DO-214AC)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO_214_AC_SMA_2_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3_B/I",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14HE3_B/I",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.482",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.298",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.189",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.11",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7500,
+              "Price": "€0.081",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14HE3_B/H"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3_B-I?qs=MLItCLRbWszAtE8EH2ABfA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "18736",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85322410"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2730 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A 40V Schottky Rect ifier",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/PRD-DO-214AC__SMA__SPL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Verify Status with Factory",
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "SS14 F3",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-SS14F3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.903",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.64",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.398",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.274",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.23",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1800,
+              "Price": "€0.206",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/SS14-F3?qs=uK0tH8HBz59eeKafNkMBfQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.4e-05
+          },
+          "AvailabilityInStock": "2730",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-6600HE3_B/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-6600HE3_B-H?qs=MLItCLRbWszu%2FAakQSPOHQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-61HE3J_A/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-61HE3J_A-H?qs=l5LPopohbqSy%2Fo2oNeIfkA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3C/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3C-I?qs=zW32dvEIR3sZVQJKLO91jw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/2GT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14/2GT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-2GT?qs=x2jpVgRnAtOSyVSa9IWAFg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-7001HE3_B/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-7001HE3_B-I?qs=MLItCLRbWsx6obcPOf39Mg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/5AT",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-5AT?qs=x2jpVgRnAtNpURNGsIj2Bg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85411001"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/2GT",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-2GT?qs=x2jpVgRnAtOqf1LD0V7SpQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85411001"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3/61T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14HE3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3-61T?qs=x2jpVgRnAtNkxQ%252BAUUoNmw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-71CHE3_A/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-71CHE3_A-I?qs=l5LPopohbqRzQ7lrP7kuaA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3_A/I",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14HE3_A/I",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3_A-I?qs=SKRcP3y%252BHgNhnqZlnVIYpw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-71CHE3_B/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-71CHE3_B-I?qs=MLItCLRbWszszzQn38eYcA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECT 40V   1A    SM  SCHOTTKY",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SML4754HE3-A-I_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-6HE3-B/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-6HE3-B-I?qs=QNEnbhJQKvaQ0W49tCpcHA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3/5AT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14HE3/5AT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3-5AT?qs=x2jpVgRnAtM%2FaQD6a2EMLQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A SCHOTTKY BARRIER",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "SS14-LTP-HF",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-SS14-LTP-HF",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/SS14-LTP-HF?qs=rSMjJ%252B1ewcSJkpXBwBJdUQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-05
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/2FT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14/2FT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-2FT?qs=x2jpVgRnAtOzhKsQk00Tkw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECT 40V   1A    SM  SCHOTTKY",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SML4754HE3-A-I_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14HM3-B/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14HM3-B-I?qs=Fd5IDHV0Wqzs1GjcKdvBYw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/61T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-61T?qs=x2jpVgRnAtNVvZAdyP%252BCtw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/1T",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-1T?qs=SH0Geuu7vjd5T0jJYFyc1Q%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85411001"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-7000HE3_A/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-7000HE3_A-I?qs=l5LPopohbqQL0WjQIaDBMA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/11T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14-E3/11T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-11T?qs=x2jpVgRnAtNcGcS9bOrd4A%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "625-SS14-E3/5AT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECT 40V   1A    SM  SCHOTTKY",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/SML4754HE3-A-I_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14HM3-B/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14HM3-B-H?qs=Fd5IDHV0WqznAoUJozRSFg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/13T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14/13T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-13T?qs=x2jpVgRnAtOQ%2Frx8xQo%2FKw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/51T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14-E3/51T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-E3/5AT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-51T?qs=x2jpVgRnAtPTw7Hhqf%252Bf6w%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "625-SS14-E3/5AT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3/63T",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14HE3/61T"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3-63T?qs=x2jpVgRnAtNl4sy950mxFQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85411001"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-6605HE3_B/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-6605HE3_B-H?qs=MLItCLRbWsybGh4evxMbTw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-6605HE3_A/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-6605HE3_A-H?qs=l5LPopohbqT1hp7AeHWzfA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-7001HE3_A/I",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-7001HE3_A-I?qs=l5LPopohbqRj%252BfqS3UA0uQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 40 Volt 1.0 Amp 40 Amp IFSM",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/DO_214_AC_SMA_2_DSL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14HE3_A/H",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "78-SS14HE3_A/H",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14HE3_A-H?qs=asPD7ZL2j3W4uh%252B5lmoyrA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.4e-05
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/SS12_SS110_HSMA_B.pdf",
+          "Description": "Schottky Diodes & Rectifiers 1A, 40V",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/DO-214AC.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "SS14-TP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-SS14-TP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/SS14-TP?qs=SdqRYZZ9IxDco1NnwkToXA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000112
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854110090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541109000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers 1A 40V Schottky Rect ifier",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/taiwansemiconductor/images/SMA_DO-214AC_2_SPL.jpg",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Part Number Change",
+          "Manufacturer": "Taiwan Semiconductor",
+          "ManufacturerPartNumber": "SS14 M2G",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "821-SS14M2G",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Taiwan-Semiconductor/SS14-M2G?qs=mAH9sUMRCttdQeg0L83afA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "REACH-SVHC": [
+            "Lead (7439-92-1)"
+          ],
+          "SuggestedReplacement": "821-SS14",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/225/1/SS12HE3_L_SS110HE3_L_DO_214AC.pdf",
+          "Description": "Schottky Diodes & Rectifiers 1A SCHOTTKY BARRIER",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/mcc/images/3SMAJ5925BHE3-TP_SPL.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Commercial Components (MCC)",
+          "ManufacturerPartNumber": "SS14HE3-LTP",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "833-SS14HE3-LTP",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5000"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Commercial-Components-MCC/SS14HE3-LTP?qs=rSMjJ%252B1ewcT%252BYZDip%252BwZ8w%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-05
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/fairchild semiconductor_ss19.pdf",
+          "Description": "Schottky Diodes & Rectifiers SMA 40V 1.0A",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "onsemi / Fairchild",
+          "ManufacturerPartNumber": "SS14_Q",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/onsemi-Fairchild/SS14_Q?qs=u5yq8O%2FS73%252BBU4pVJCJWPA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/11T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14/11T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1800"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-11T?qs=x2jpVgRnAtNBqVu8Xalxkg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14-E3/63T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14-E3/63T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "SS14-E3/61T"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-E3-63T?qs=x2jpVgRnAtNcpQDkjaOxBQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "625-SS14-E3/5AT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers RECOMMENDED ALT SS14",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/vishay/images/88586.JPG",
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Vishay Semiconductors",
+          "ManufacturerPartNumber": "SS14/63T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "625-SS14/63T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay-Semiconductors/SS14-63T?qs=x2jpVgRnAtPnCEfxvVMEFg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "No",
+          "SuggestedReplacement": "625-SS14-E3",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000106
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541100101"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "Schottky Diodes & Rectifiers",
+          "FactoryStock": null,
+          "ImagePath": null,
+          "Category": "Schottky Diodes & Rectifiers",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "End of Life",
+          "Manufacturer": "Vishay",
+          "ManufacturerPartNumber": "SS14-6600HE3_A/H",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Vishay/SS14-6600HE3_A-H?qs=l5LPopohbqTvYZz49vBzSg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            }
+          ],
+          "TradeCompliance": []
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-07-29T17:45:28Z",
+    "manufacturer_part_number": "SS14",
+    "product_quantity_available": 210540,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "56 Days",
+    "product_unit_price": 0.378,
+    "offers": [
+      {
+        "provider_part_number": "512-SS14",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 210540,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.378,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.086,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.086,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "821-SS14",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14774,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.192,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.058,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.049,
+            "total_price": null
+          },
+          {
+            "break_quantity": 22500,
+            "unit_price": 0.044,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "653-SS-1-4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "512-SS14",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 210540,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.378,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.23,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.145,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.108,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.086,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.086,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "821-SS14",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14774,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.192,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.089,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.058,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7500,
+            "unit_price": 0.049,
+            "total_price": null
+          },
+          {
+            "break_quantity": 22500,
+            "unit_price": 0.044,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "653-SS-1-4",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-07-29T17:45:28Z",
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "SS14",
+    "provider_part_number": "512-SS14",
+    "description": "Schottky Diodes & Rectifiers SMA 40V 1.0A",
+    "detailed_description": "Schottky Diodes & Rectifiers SMA 40V 1.0A",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D",
+    "image_url": "https://www.mouser.com/images/fairchildsemiconductor/images/inhouse_ss14_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant By Exemption",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "7500"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541100000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "JPHTS": "854110090",
+      "KRHTS": "8541109000",
+      "MXHTS": "8541100101",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-07-28T19:11:32Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Coilcraft",
+    "input_mpn": "XFL4015-471MEC",
+    "resolved_manufacturer": "Coilcraft",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "2430 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
+          "Description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
+          "Category": "Power Inductors - SMD",
+          "LeadTime": "280 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Coilcraft",
+          "ManufacturerPartNumber": "XFL4015-471MEC",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "994-XFL4015-471MEC",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.92",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.63",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.51",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.02",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.963",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.929",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.894",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "XFL4015-471MEB"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 9.5e-05
+          },
+          "AvailabilityInStock": "2430",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 11000,
+              "Date": "2027-03-19T00:00:00"
+            },
+            {
+              "Quantity": 18000,
+              "Date": "2027-04-30T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8504500090"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8504500000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8504508000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "850450000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8504502090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8504509199"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85045000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Indonesia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-07-28T19:11:32Z",
+    "manufacturer_part_number": "XFL4015-471MEC",
+    "product_quantity_available": 2430,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "280 Days",
+    "product_unit_price": 1.92,
+    "offers": [
+      {
+        "provider_part_number": "994-XFL4015-471MEC",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2430,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.929,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.894,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "994-XFL4015-471MEC",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2430,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.63,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.51,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.02,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.963,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.929,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.894,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-07-28T19:11:32Z",
+    "manufacturer": "Coilcraft",
+    "manufacturer_part_number": "XFL4015-471MEC",
+    "provider_part_number": "994-XFL4015-471MEC",
+    "description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
+    "detailed_description": "Power Inductors - SMD 470nH Shld 11.2A 8.36mOhm AECQ2",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/995/1/xfl4015.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D",
+    "image_url": "https://www.mouser.com/images/coilcraft/images/XFL4015_series_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "TARIC": "8504500090",
+      "CNHTS": "8504500000",
+      "CAHTS": "8504500000",
+      "USHTS": "8504508000",
+      "JPHTS": "850450000",
+      "KRHTS": "8504502090",
+      "MXHTS": "8504509199",
+      "BRHTS": "85045000",
+      "ECCN": "EAR99"
+    }
+  }
+}

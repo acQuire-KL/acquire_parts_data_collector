@@ -65,3 +65,23 @@ Large changes should be divided into coherent steps that leave the project runna
 ## 15. Keep Deferred Work in the Parking Lot
 
 Worthwhile ideas that are outside the current sprint should be recorded in `docs/Parking_Lot.md`. They should not rely on conversational memory.
+## 16. Preserve Provider Independence
+
+All provider-specific authentication, request construction, response parsing and mapping must remain inside the provider package or common provider framework. The core PDC application should treat every provider through the same contract. Adding a new provider should not require provider-specific changes to workbook, Knowledge Base or orchestration code.
+
+## 17. Make Provider Onboarding Repeatable
+
+A newly connected provider should use the common raw-response capture path before provider-neutral mapping is introduced. Provider folders, metadata, current/history storage and test expectations should be created by shared infrastructure rather than duplicated provider code.
+
+## 18. Normalise Once, Consume Everywhere
+
+Provider-specific terminology, units and formats shall be translated into a common internal representation within PDC. The Knowledge Base, workbook and PIE shall consume the normalised representation and shall not duplicate provider-specific parsing or mapping logic. Raw provider values must remain available as evidence.
+
+## 19. Validate Before Publishing to PIE
+
+PDC owns the heavy lifting required to collect, normalise, correlate and validate data attributes before they become the trusted Knowledge Base record used by PIE. PIE may analyse and make recommendations from that record, but should not need to reinterpret provider-native formats or determine whether equivalent technical values mean the same thing.
+
+
+## PDCPartProfile grows additively
+
+Useful attributes discovered from any provider are added to the provider-neutral PDCPartProfile. Existing useful attributes are not deleted because another provider does not expose them, and no provider is treated as authoritative.

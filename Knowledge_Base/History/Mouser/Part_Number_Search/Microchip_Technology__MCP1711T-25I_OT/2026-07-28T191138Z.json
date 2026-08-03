@@ -1,0 +1,230 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-07-28T19:11:38Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Microchip Technology",
+    "input_mpn": "MCP1711T-25I/OT",
+    "resolved_manufacturer": "Microchip Technology",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "3608 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/282/1/20005415D.pdf",
+          "Description": "LDO Voltage Regulators Capless Ultra Low IQ LDO",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_5_t.jpg",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "140 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Microchip Technology",
+          "ManufacturerPartNumber": "MCP1711T-25I/OT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "579-MCP1711T-25I/OT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.43",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.43",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/MCP1711T-25I-OT?qs=U5tD5cY1XDwGhoSOfZYQFQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 6.3e-06
+          },
+          "AvailabilityInStock": "3608",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542319000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8542311000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-07-28T19:11:38Z",
+    "manufacturer_part_number": "MCP1711T-25I/OT",
+    "product_quantity_available": 3608,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "140 Days",
+    "product_unit_price": 0.43,
+    "offers": [
+      {
+        "provider_part_number": "579-MCP1711T-25I/OT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3608,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.43,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "579-MCP1711T-25I/OT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3608,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.43,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-07-28T19:11:38Z",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_part_number": "MCP1711T-25I/OT",
+    "provider_part_number": "579-MCP1711T-25I/OT",
+    "description": "LDO Voltage Regulators Capless Ultra Low IQ LDO",
+    "detailed_description": "LDO Voltage Regulators Capless Ultra Low IQ LDO",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/282/1/20005415D.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Microchip-Technology/MCP1711T-25I-OT?qs=U5tD5cY1XDwGhoSOfZYQFQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/mouserelectronics/images/SOT_23_5_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8542319000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "KRHTS": "8542311000",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

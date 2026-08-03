@@ -1,0 +1,468 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-07-27T22:08:35Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Nexperia",
+    "input_mpn": "PMV65XPVL",
+    "resolved_manufacturer": "Nexperia USA Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs PMV65XP/SOT23/TO-236AB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "PMV65XPVL",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-PMV65XPVL",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.387",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.267",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.169",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.107",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.094",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "PMV65XP,215"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/PMV65XPVL?qs=cnAQGvEIVkJ603h8fX9nLg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 19990,
+              "Date": "2027-07-05T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541290000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "8541290100"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "85412999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "",
+          "Description": "MOSFETs PMV65XP/SOT23/TO-236AB",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+          "Category": "MOSFETs",
+          "LeadTime": "365 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Nexperia",
+          "ManufacturerPartNumber": "PMV65XP,215",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "771-PMV65XP-T/R",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.447",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.279",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.195",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.123",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.108",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.083",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "PMV65XPVL"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Nexperia/PMV65XP215?qs=LOCUfHb8d9vrGIOLtHQKZA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 8e-06
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 90337,
+              "Date": "2027-07-05T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541210000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541210095"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854121000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541299000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541210100"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-07-27T22:08:35Z",
+    "manufacturer_part_number": "PMV65XPVL",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "365 Days",
+    "product_unit_price": 0.387,
+    "offers": [
+      {
+        "provider_part_number": "771-PMV65XPVL",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.387,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.169,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.107,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.094,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "771-PMV65XPVL",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.387,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.169,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.107,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.094,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.083,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.063,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-07-27T22:08:35Z",
+    "manufacturer": "Nexperia",
+    "manufacturer_part_number": "PMV65XPVL",
+    "provider_part_number": "771-PMV65XPVL",
+    "description": "MOSFETs PMV65XP/SOT23/TO-236AB",
+    "detailed_description": "MOSFETs PMV65XP/SOT23/TO-236AB",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Nexperia/PMV65XPVL?qs=cnAQGvEIVkJ603h8fX9nLg%3D%3D",
+    "image_url": "https://www.mouser.com/images/nexperia/images/Nexperia_SOT23_236AB-3_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "TARIC": "8541290000",
+      "CNHTS": "8541210000",
+      "CAHTS": "8541290000",
+      "USHTS": "8541210095",
+      "JPHTS": "8541290100",
+      "KRHTS": "8541299000",
+      "MXHTS": "85412999",
+      "ECCN": "EAR99"
+    }
+  }
+}

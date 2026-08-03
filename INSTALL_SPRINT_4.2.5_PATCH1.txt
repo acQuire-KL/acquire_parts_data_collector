@@ -1,0 +1,31 @@
+PDC v0.2.9 - Sprint 4.2.5 Patch 1
+=======================================
+
+Objective
+---------
+Rename the internal engineering model from ProviderPartProfile to
+PDCPartProfile with no functional or JSON schema changes.
+
+Install
+-------
+Copy this patch over the project root, preserving folder structure.
+
+Important deletion
+------------------
+Delete the old file if it remains after copying:
+    tests/test_provider_part_profile.py
+
+The compatibility module provider_profiles/models.py is intentionally retained
+to avoid breaking older local scripts. New code imports PDCPartProfile from:
+    provider_profiles/pdc_part_profile.py
+
+Test
+----
+    py -m unittest discover -s tests -v
+    py tme_profile_check.py
+    py digikey_profile_check.py
+
+Expected behaviour
+------------------
+The generated JSON structure and values are unchanged from Sprint 4.2.4.
+Only internal names, imports, tests and documentation are renamed.

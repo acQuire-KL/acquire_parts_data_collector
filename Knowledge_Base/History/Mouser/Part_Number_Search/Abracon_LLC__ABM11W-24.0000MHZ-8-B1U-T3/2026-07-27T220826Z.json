@@ -1,0 +1,327 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-07-27T22:08:26Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Abracon",
+    "input_mpn": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "resolved_manufacturer": "Abracon LLC",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "2768 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/184/1/ABM11W.pdf",
+          "Description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/abracon/images/ABM11W_series_DSL.jpg",
+          "Category": "Crystals",
+          "LeadTime": "98 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "ABRACON",
+          "ManufacturerPartNumber": "ABM11W-24.0000MHZ-8-B1U-T3",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "815-11W24-8B1UT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.327",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.287",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.261",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.249",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.237",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.226",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.193",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.182",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABM11W-24.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yaFaX%252BbPy3iQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "2768",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541600000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541600000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541600020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541600060"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854160010"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8541609000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8541600100"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85416010"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-07-27T22:08:26Z",
+    "manufacturer_part_number": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "product_quantity_available": 2768,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "98 Days",
+    "product_unit_price": 0.327,
+    "offers": [
+      {
+        "provider_part_number": "815-11W24-8B1UT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2768,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.327,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.287,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.261,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.249,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.237,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.226,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.193,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.182,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "815-11W24-8B1UT",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2768,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.327,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.287,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.261,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.249,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.237,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.226,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.193,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.182,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-07-27T22:08:26Z",
+    "manufacturer": "ABRACON",
+    "manufacturer_part_number": "ABM11W-24.0000MHZ-8-B1U-T3",
+    "provider_part_number": "815-11W24-8B1UT",
+    "description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
+    "detailed_description": "Crystals Xtal 2016 4-SMD 24MHz Tol 10ppm Stab 10ppm -20C - 70C 8pF 50 Ohms",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/ABM11W.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/ABRACON/ABM11W-24.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yaFaX%252BbPy3iQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/abracon/images/ABM11W_series_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8541600000",
+      "CNHTS": "8541600000",
+      "CAHTS": "8541600020",
+      "USHTS": "8541600060",
+      "JPHTS": "854160010",
+      "KRHTS": "8541609000",
+      "MXHTS": "8541600100",
+      "BRHTS": "85416010",
+      "ECCN": "EAR99"
+    }
+  }
+}

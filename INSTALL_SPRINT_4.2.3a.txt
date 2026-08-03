@@ -1,0 +1,49 @@
+PDC v0.2.9 Sprint 4.2.3a - Provider Part Profile Foundation
+================================================================
+
+This ZIP is an incremental patch for:
+  v0.2.9 Sprint 4.2.2c Patch 1
+
+Installation
+------------
+1. Confirm the repository is on release/v0.2.9 and the working tree is clean.
+2. Extract this ZIP into the project root, preserving folders.
+3. Allow the new files to be added and the documentation files to be replaced.
+4. Do not copy or commit any .env file.
+
+Test
+----
+Run:
+
+  python -m pytest -q
+
+Expected result:
+
+  69 passed
+
+Build the TME Provider Part Profile from the captures already in the Knowledge Base:
+
+  python tme_profile_check.py
+
+Expected key values for MCP1711T-25I/OT:
+
+  Package                  : SOT-23-5
+  Output voltage           : 2.5 V
+  Output current           : 0.15 A
+  Input voltage            : 1.4 to 6.0 V
+  Operating temperature    : -40.0 to 85.0 °C
+  Supplier MOQ             : 3
+  Stock                    : 367 pcs
+  Listed pack quantity     : 150
+  Manufacturer std. pack   : 3000
+  Price breaks             : 4 (EUR)
+  Provenance entries       : 14
+
+The generated inspection JSON is written under:
+
+  output/provider_profiles/
+
+Scope boundary
+--------------
+This step does not write the Provider Part Profile back into the Knowledge Base,
+does not correlate multiple providers and does not change DigiKey or Mouser.

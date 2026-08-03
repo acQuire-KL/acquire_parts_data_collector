@@ -1,0 +1,76 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-07-28T19:41:40Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "",
+    "input_mpn": "MCP1711T-25I/OT",
+    "resolved_manufacturer": "MICROCHIP TECHNOLOGY",
+    "locale": "en-IE",
+    "currency": "",
+    "request_context": "customer-linked",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_GENERAL"
+            ],
+            "symbol": "MCP1711T-25I/OT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112880,
+              "name": "LDO fixed voltage regulators"
+            },
+            "manufacturer_symbols": [
+              "MCP1711T-25I/OT"
+            ],
+            "manufacturer": {
+              "id": 632,
+              "name": "MICROCHIP TECHNOLOGY"
+            },
+            "description": "IC: voltage regulator; LDO,linear,fixed; 2.5V; 0.15A; SOT23-5; SMD",
+            "multiples": 1,
+            "minimal_amount": 3,
+            "weight": {
+              "value": 0.024,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 150
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=f17a44846510e0dcc8d3b7260a0f9e75efcb8996",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=100&height=75&q=75&ci_sign=96d03b74e36d55e55b62e2ad88910381f381a33f",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/D4/B0/C0/00/0/789325_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=517f39bfe80a9b3a42d16f316d012b2caab2f40a"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

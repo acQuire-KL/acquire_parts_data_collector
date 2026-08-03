@@ -177,3 +177,40 @@ Those actions belong to PIE or to explicit user review.
 PDC queries every enabled provider independently and preserves each provider response as peer evidence. The provider-neutral component summary is created only after provider execution has completed. It may confirm identity and engineering agreement, but it must not rank providers, choose suppliers or make sourcing recommendations; those responsibilities belong to PIE.
 
 The workbook is a review dashboard over the Knowledge Base. Detailed commercial offers remain in Commercial Analysis, while raw responses and common profiles remain in the Knowledge Base.
+
+## 11. PDCPartProfile
+
+Each provider normaliser targets the same internal contract:
+
+```text
+Provider 1 ─┐
+Provider 2 ─┼──> PDCPartProfile
+Provider 3 ─┤
+Provider n ─┘
+```
+
+A PDCPartProfile represents one provider's normalised evidence for one manufacturer part. It contains provider-neutral Identity, Technical, Commercial, Logistics and Media sections, together with provider metadata, provenance and references to the retained raw records.
+
+The profile is not yet the final correlated Knowledge Base Part Profile. The later validation and correlation stage combines several PDCPartProfiles, preserves disagreements and assigns evidence confidence before publishing the trusted record consumed by PIE.
+
+```text
+Provider-native responses
+        │
+        ▼
+Provider-specific normaliser
+        │
+        ▼
+PDCPartProfile
+        │
+        ▼
+Validation and correlation (PDC)
+        │
+        ▼
+Validated Knowledge Base Part Profile
+        │
+        ▼
+PIE
+```
+
+The model must evolve from provider evidence rather than from one provider's field names. TME is the first implementation; DigiKey and Mouser will be refactored to the same contract before the profile is declared stable.
+
