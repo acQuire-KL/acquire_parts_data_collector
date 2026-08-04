@@ -1,0 +1,28 @@
+PDC v0.2.10 Sprint 4.5 Patch 1 - Candidate Review Workflow
+============================================================
+
+Copy the patch files over the project root, preserving folders.
+
+1. Run tests:
+
+   py -m unittest discover -s tests -v
+
+2. Generate a review file from a candidate file:
+
+   py candidate_review_check.py "output\knowledge_base_population\<RUN>__CANDIDATES.csv"
+
+The generated file is named:
+
+   <RUN>__CANDIDATE_REVIEW.csv
+
+Editable fields:
+- Review Decision: Accept / Reject / Defer
+- Approved Manufacturer
+- Approved MPN
+- Procurement Variant Group
+- Engineer Notes
+- Reviewed By
+- Reviewed Date
+
+This patch records decisions only. It does not update the Parts Master,
+allocate AIPNs, approve records automatically, or alter provider evidence.

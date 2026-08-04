@@ -258,7 +258,7 @@
     "locale": "IE",
     "currency": "EUR",
     "request_context": "live_api",
-    "captured_at_utc": "2026-08-03T18:59:40Z",
+    "captured_at_utc": "2026-08-04T19:51:15Z",
     "source_endpoints": [
       "Product_Details"
     ]
@@ -271,7 +271,7 @@
       "raw_value": "Microchip Technology",
       "normalised_value": "Microchip Technology",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "identity.manufacturer_part_number": {
       "provider": "DigiKey",
@@ -280,7 +280,7 @@
       "raw_value": "MCP3464RT-E/NC",
       "normalised_value": "MCP3464RT-E/NC",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "technical.package": {
       "provider": "DigiKey",
@@ -289,7 +289,7 @@
       "raw_value": "20-UFQFN Exposed Pad",
       "normalised_value": "20-UFQFN Exposed Pad",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "commercial.offers": {
       "provider": "DigiKey",
@@ -475,7 +475,7 @@
         }
       ],
       "unit": "EUR",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "commercial.stock_quantity": {
       "provider": "DigiKey",
@@ -484,7 +484,7 @@
       "raw_value": 3289,
       "normalised_value": 3289,
       "unit": "pcs",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "lifecycle.status": {
       "provider": "DigiKey",
@@ -493,7 +493,7 @@
       "raw_value": "Active",
       "normalised_value": "Active",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     },
     "regulatory.rohs_status": {
       "provider": "DigiKey",
@@ -502,7 +502,7 @@
       "raw_value": "ROHS3 Compliant",
       "normalised_value": "ROHS3 Compliant",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:40Z"
+      "captured_at_utc": "2026-08-04T19:51:15Z"
     }
   },
   "raw_references": {

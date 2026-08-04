@@ -1,0 +1,65 @@
+PDC v0.2.10 — Sprint 4.4 Patch 3
+Provider Search Qualification and Candidate Capture
+====================================================
+
+INSTALL
+-------
+Extract this update over the project root, preserving the folder structure.
+
+TEST
+----
+Run:
+
+    py -m unittest discover -s tests -v
+
+Expected:
+
+    Ran 102 tests
+    OK
+
+QUALIFICATION RUN
+-----------------
+Re-run the staging Parts Master, initially against DigiKey only and a small
+record count:
+
+    py knowledge_base_population_check.py "output\parts_master_staging\AIPN_Parts_Master__STAGING.csv" --provider DigiKey --limit 10 --force
+
+Then run the complete DigiKey qualification when the sample output is sound:
+
+    py knowledge_base_population_check.py "output\parts_master_staging\AIPN_Parts_Master__STAGING.csv" --provider DigiKey --limit 0 --force
+
+NEW OUTPUTS
+-----------
+The normal population reports remain. Patch 3 adds:
+
+    __CANDIDATES.csv
+        Every MFG+MPN returned by the MPN-only fallback, ranked for review.
+        No candidate is approved or selected automatically.
+
+    __PROVIDER_ERRORS.csv
+        Authentication, HTTP, quota, timeout and parser/runtime failures only.
+
+The RESULTS report also includes Search Stage and Candidate Count.
+
+SEARCH HIERARCHY
+----------------
+DigiKey now uses:
+
+    1. Resolve source manufacturer against DigiKey's manufacturer catalogue.
+    2. Query Product Details using Manufacturer ID + MPN.
+    3. Where that cannot resolve an ambiguous/not-found identity, run an
+       MPN-only keyword search.
+    4. Preserve and rank every returned MFG+MPN combination for review.
+
+STATUSES
+--------
+    Exact Match
+    Alias Match
+    Multiple Candidates
+    Not Found
+    Provider Error
+
+GOVERNANCE
+----------
+This patch does not modify or approve the staging Parts Master and does not
+allocate AIPNs. Candidate ranking is review assistance only.

@@ -2,12 +2,12 @@
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
   "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-08-03T19:13:41Z",
+  "last_updated_at_utc": "2026-08-04T19:51:21Z",
   "providers": {
     "DigiKey": {
-      "last_capture_at_utc": "2026-08-03T19:13:40Z",
-      "current_records": 233,
-      "history_records": 224
+      "last_capture_at_utc": "2026-08-04T19:51:21Z",
+      "current_records": 234,
+      "history_records": 232
     },
     "Mouser": {
       "last_capture_at_utc": "2026-08-03T19:13:41Z",
@@ -24,6 +24,6 @@
     "enabled": false,
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
-  "total_current_records": 1071,
-  "total_history_records": 1126
+  "total_current_records": 1072,
+  "total_history_records": 1134
 }

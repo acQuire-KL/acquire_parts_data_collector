@@ -24,3 +24,8 @@
 - Added lossless legacy AIPN Parts Master seed import.
 - Added staging, duplicate, issue, alias, trace and summary outputs.
 - Enforced pending-verification status with zero automatic approvals or AIPN allocation.
+
+## v0.2.10 Sprint 4.4 Patch 3
+- Added DigiKey Manufacturer + MPN search qualification.
+- Added MPN-only candidate capture for ambiguous/unresolved searches.
+- Added candidate ranking and separate provider-error reporting.

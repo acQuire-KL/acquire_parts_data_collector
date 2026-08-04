@@ -1,4 +1,4 @@
-"""Command-line runner for Sprint 4.4 Patch 2 Knowledge Base population."""
+"""Command-line runner for Sprint 4.4 Patch 3 qualified Knowledge Base population."""
 from __future__ import annotations
 
 import argparse
@@ -51,7 +51,7 @@ def main() -> int:
     print("\nOutputs")
     for label, path in paths.items():
         print(f"{label:<10}: {path}")
-    return 1 if summary["status_counts"].get("Failed", 0) else 0
+    return 1 if summary["status_counts"].get("Provider Error", 0) else 0
 
 
 if __name__ == "__main__":

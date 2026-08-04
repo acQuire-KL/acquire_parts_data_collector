@@ -88,7 +88,7 @@
     "tax_rate_percent": null,
     "supplier_moq": 1,
     "order_multiple": null,
-    "stock_quantity": 8270,
+    "stock_quantity": 8120,
     "manufacturer_public_quantity": 0,
     "manufacturer_lead_time_weeks": 26.0,
     "unit_price": 2.35,
@@ -223,7 +223,7 @@
         "pack_format": "Cut Tape",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8270,
+        "quantity_available": 8120,
         "maximum_distribution_quantity": 999999999,
         "marketplace": false,
         "tariff_active": true,
@@ -271,7 +271,7 @@
         "pack_format": "DigiReel",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 8270,
+        "quantity_available": 8120,
         "maximum_distribution_quantity": 999999999,
         "marketplace": false,
         "tariff_active": true,
@@ -411,7 +411,7 @@
     "locale": "IE",
     "currency": "EUR",
     "request_context": "live_api",
-    "captured_at_utc": "2026-08-03T18:59:38Z",
+    "captured_at_utc": "2026-08-04T19:51:14Z",
     "source_endpoints": [
       "Product_Details"
     ]
@@ -424,7 +424,7 @@
       "raw_value": "Texas Instruments",
       "normalised_value": "Texas Instruments",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "identity.manufacturer_part_number": {
       "provider": "DigiKey",
@@ -433,7 +433,7 @@
       "raw_value": "ADC121C021CIMM/NOPB",
       "normalised_value": "ADC121C021CIMM/NOPB",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "technical.package": {
       "provider": "DigiKey",
@@ -442,7 +442,7 @@
       "raw_value": "8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)",
       "normalised_value": "8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "commercial.offers": {
       "provider": "DigiKey",
@@ -540,7 +540,7 @@
             "Id": 296,
             "Name": "Texas Instruments"
           },
-          "QuantityAvailableforPackageType": 8270,
+          "QuantityAvailableforPackageType": 8120,
           "MaxQuantityForDistribution": 999999999,
           "MinimumOrderQuantity": 1,
           "StandardPackage": 1,
@@ -591,7 +591,7 @@
             "Id": 296,
             "Name": "Texas Instruments"
           },
-          "QuantityAvailableforPackageType": 8270,
+          "QuantityAvailableforPackageType": 8120,
           "MaxQuantityForDistribution": 999999999,
           "MinimumOrderQuantity": 1,
           "StandardPackage": 1,
@@ -608,7 +608,7 @@
           "pack_format": "Cut Tape",
           "minimum_order_quantity": 1,
           "pack_quantity": 1,
-          "quantity_available": 8270,
+          "quantity_available": 8120,
           "maximum_distribution_quantity": 999999999,
           "marketplace": false,
           "tariff_active": true,
@@ -656,7 +656,7 @@
           "pack_format": "DigiReel",
           "minimum_order_quantity": 1,
           "pack_quantity": 1,
-          "quantity_available": 8270,
+          "quantity_available": 8120,
           "maximum_distribution_quantity": 999999999,
           "marketplace": false,
           "tariff_active": true,
@@ -748,16 +748,16 @@
         }
       ],
       "unit": "EUR",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "commercial.stock_quantity": {
       "provider": "DigiKey",
       "endpoint": "Product_Details",
       "raw_name": "Product.QuantityAvailable",
-      "raw_value": 8270,
-      "normalised_value": 8270,
+      "raw_value": 8120,
+      "normalised_value": 8120,
       "unit": "pcs",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "lifecycle.status": {
       "provider": "DigiKey",
@@ -766,7 +766,7 @@
       "raw_value": "Active",
       "normalised_value": "Active",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     },
     "regulatory.rohs_status": {
       "provider": "DigiKey",
@@ -775,7 +775,7 @@
       "raw_value": "ROHS3 Compliant",
       "normalised_value": "ROHS3 Compliant",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:38Z"
+      "captured_at_utc": "2026-08-04T19:51:14Z"
     }
   },
   "raw_references": {

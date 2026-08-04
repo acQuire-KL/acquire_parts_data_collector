@@ -24,6 +24,17 @@ from providers.mouser import MouserProvider
 from providers.mouser.normalizer import build_mouser_pdc_part_profile
 from providers.tme import TmeClient
 from providers.tme.normalizer import build_tme_pdc_part_profile
+from manufacturer_resolver import resolve_manufacturer
+from provider_search_qualification import (
+    ProviderCandidate,
+    STATUS_ALIAS_MATCH,
+    STATUS_EXACT_MATCH,
+    STATUS_MULTIPLE_CANDIDATES,
+    STATUS_NOT_FOUND as QUALIFIED_NOT_FOUND,
+    STATUS_PROVIDER_ERROR,
+    extract_digikey_candidates,
+    qualification_status,
+)
 
 
 STATUS_DOWNLOADED = "Downloaded"
@@ -97,6 +108,8 @@ class ProviderOutcome:
     message: str = ""
     knowledge_base_paths: list[str] = field(default_factory=list)
     profile_path: str = ""
+    search_stage: str = ""
+    candidates: list[ProviderCandidate] = field(default_factory=list)
 
     def to_row(self) -> OrderedDict[str, object]:
         return OrderedDict([
@@ -106,6 +119,8 @@ class ProviderOutcome:
             ("Provider", self.provider),
             ("Status", self.status),
             ("Message", self.message),
+            ("Search Stage", self.search_stage),
+            ("Candidate Count", len(self.candidates)),
             ("Knowledge Base Paths", " | ".join(self.knowledge_base_paths)),
             ("PDCPartProfile Path", self.profile_path),
         ])
@@ -127,28 +142,67 @@ class DigiKeyPopulationProvider:
         self.profile_root = profile_root
         self.provider = provider or DigiKeyProvider(settings, knowledge_base)
 
+    def _candidate_outcome(self, record_id: str, manufacturer: str, mpn: str, message: str) -> ProviderOutcome:
+        payload, _ = self.provider.client.keyword_search(mpn)
+        candidates = extract_digikey_candidates(payload, manufacturer, mpn)
+        status = qualification_status(candidates)
+        return ProviderOutcome(
+            record_id, manufacturer, mpn, self.name, status, message=message,
+            search_stage="MPN-only fallback", candidates=candidates,
+        )
+
     def collect(self, record_id: str, manufacturer: str, mpn: str, *, force: bool = False) -> ProviderOutcome:
         cached = None if force else _find_cached_path(self.knowledge_base.root, self.name, self.endpoint, manufacturer, mpn)
         if cached:
             document = _load_json(cached)
             status = STATUS_CACHED
+            search_stage = "Knowledge Base cache"
         else:
-            record = self.provider.details(
-                mpn,
-                force=force,
-                input_manufacturer=manufacturer,
-                resolved_manufacturer=manufacturer,
-            )
+            resolution = resolve_manufacturer(manufacturer, self.provider.manufacturers(force=False))
+            if resolution.manufacturer_id is None:
+                return self._candidate_outcome(
+                    record_id, manufacturer, mpn,
+                    f"Manufacturer unresolved: {resolution.reason}",
+                )
+            try:
+                record = self.provider.details(
+                    mpn,
+                    manufacturer_id=resolution.manufacturer_id,
+                    force=force,
+                    input_manufacturer=manufacturer,
+                    resolved_manufacturer=resolution.matched_name,
+                )
+            except RuntimeError as error:
+                # Product Details can reject ambiguous or unresolved identities.
+                # Candidate discovery preserves all MFG+MPN combinations for review.
+                text = str(error)
+                if any(marker in text.casefold() for marker in (
+                    "duplicate", "multiple", "not found", "requested product", "404"
+                )):
+                    return self._candidate_outcome(record_id, manufacturer, mpn, text)
+                raise
             document = _record_document(record)
-            cached = _find_cached_path(self.knowledge_base.root, self.name, self.endpoint, manufacturer, mpn)
+            cached = _find_cached_path(self.knowledge_base.root, self.name, self.endpoint, resolution.matched_name, mpn)
             status = STATUS_DOWNLOADED
+            search_stage = "Manufacturer + MPN" if resolution.method == "normalised_exact" else "Manufacturer alias + MPN"
         profile = build_digikey_pdc_part_profile(
             document,
             raw_references={"product_details": str(cached or "")},
         )
         profile_path = _write_profile(profile, self.profile_root, self.name, manufacturer, mpn)
-        return ProviderOutcome(record_id, manufacturer, mpn, self.name, status,
-                               knowledge_base_paths=[str(cached or "")], profile_path=str(profile_path))
+        returned_manufacturer = str(profile.identity.manufacturer or "")
+        returned_mpn = str(profile.identity.manufacturer_part_number or "")
+        if returned_manufacturer and returned_mpn:
+            from manufacturer_resolver import names_equivalent
+            from provider_search_qualification import normalise_mpn
+            qualified = names_equivalent(manufacturer, returned_manufacturer) and normalise_mpn(mpn) == normalise_mpn(returned_mpn)
+            if qualified:
+                status = STATUS_EXACT_MATCH if manufacturer.casefold().strip() == returned_manufacturer.casefold().strip() else STATUS_ALIAS_MATCH
+        return ProviderOutcome(
+            record_id, manufacturer, mpn, self.name, status,
+            knowledge_base_paths=[str(cached or "")], profile_path=str(profile_path),
+            search_stage=search_stage,
+        )
 
 
 class MouserPopulationProvider:
@@ -347,7 +401,7 @@ def populate_knowledge_base(
                 outcome = ProviderOutcome(record_id, manufacturer, mpn, provider.name, STATUS_SKIPPED, str(error))
             except Exception as error:
                 outcome = ProviderOutcome(
-                    record_id, manufacturer, mpn, provider.name, STATUS_FAILED,
+                    record_id, manufacturer, mpn, provider.name, STATUS_PROVIDER_ERROR,
                     f"{type(error).__name__}: {error}",
                 )
             run.outcomes.append(outcome)
@@ -367,18 +421,31 @@ def write_population_outputs(run: PopulationRun, output_root: str | Path) -> dic
         "skipped": root / f"{stem}__SKIPPED.csv",
         "summary": root / f"{stem}__SUMMARY.json",
         "run_log": root / f"{stem}__RUN_LOG.txt",
+        "candidates": root / f"{stem}__CANDIDATES.csv",
+        "provider_errors": root / f"{stem}__PROVIDER_ERRORS.csv",
     }
     rows = [outcome.to_row() for outcome in run.outcomes]
     fieldnames = list(rows[0].keys()) if rows else [
         "Record ID", "Manufacturer", "Manufacturer Part Number", "Provider", "Status",
-        "Message", "Knowledge Base Paths", "PDCPartProfile Path",
+        "Message", "Search Stage", "Candidate Count", "Knowledge Base Paths", "PDCPartProfile Path",
     ]
-    for key, statuses in (("results", None), ("failures", {STATUS_FAILED, STATUS_NOT_FOUND}), ("skipped", {STATUS_SKIPPED})):
+    for key, statuses in (("results", None), ("failures", {STATUS_FAILED, STATUS_NOT_FOUND, STATUS_MULTIPLE_CANDIDATES, QUALIFIED_NOT_FOUND}), ("skipped", {STATUS_SKIPPED}), ("provider_errors", {STATUS_PROVIDER_ERROR})):
         selected = rows if statuses is None else [row for row in rows if row["Status"] in statuses]
         with paths[key].open("w", encoding="utf-8-sig", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(selected)
+    candidate_rows = [candidate.to_row(outcome.record_id) for outcome in run.outcomes for candidate in outcome.candidates]
+    candidate_fields = list(candidate_rows[0].keys()) if candidate_rows else [
+        "Record ID", "Provider", "Source Manufacturer", "Source MPN", "Candidate Rank",
+        "Returned Manufacturer", "Returned MPN", "Provider Part Number", "Description",
+        "Product URL", "Manufacturer ID", "Source Stage", "MPN Exact",
+        "Manufacturer Equivalent", "Manufacturer Score", "Approval Status",
+    ]
+    with paths["candidates"].open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=candidate_fields)
+        writer.writeheader()
+        writer.writerows(candidate_rows)
     summary = run.summary()
     paths["summary"].write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     lines = [

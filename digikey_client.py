@@ -102,6 +102,33 @@ class DigiKeyClient:
         )
         return data
 
+
+    def keyword_search(self, keyword, *, record_count=50, record_start_position=0):
+        """Return DigiKey keyword-search results without selecting a product.
+
+        This is deliberately used only as a candidate-discovery fallback when
+        an exact Manufacturer + MPN Product Details request cannot be resolved.
+        """
+        clean_keyword = str(keyword or "").strip()
+        if not clean_keyword:
+            raise ValueError("A keyword or MPN is required for DigiKey search")
+        payload = {
+            "Keywords": clean_keyword,
+            "RecordCount": int(record_count),
+            "RecordStartPosition": int(record_start_position),
+            "SearchOptions": ["SearchWithYourSignUpLanguage"],
+            "ExcludeMarketPlaceProducts": False,
+        }
+        response = self.session.post(
+            self.s.base_url + "/products/v4/search/keyword",
+            headers=self._headers(),
+            json=payload,
+            timeout=30,
+        )
+        if not response.ok:
+            raise RuntimeError(f"DigiKey {response.status_code}: {response.text[:1000]}")
+        return response.json(), self._rate_limit(response)
+
     def details(
         self,
         mpn,

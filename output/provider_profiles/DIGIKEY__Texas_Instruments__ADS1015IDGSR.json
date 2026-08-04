@@ -80,7 +80,7 @@
     "tax_rate_percent": null,
     "supplier_moq": 1,
     "order_multiple": null,
-    "stock_quantity": 13213,
+    "stock_quantity": 13210,
     "manufacturer_public_quantity": 0,
     "manufacturer_lead_time_weeks": 9.0,
     "unit_price": 3.04,
@@ -193,9 +193,9 @@
         "packaging_code": "Cut Tape (CT)",
         "pack_format": "Cut Tape",
         "minimum_order_quantity": 1,
-        "pack_quantity": 1,
-        "quantity_available": 13213,
-        "maximum_distribution_quantity": 999999999,
+        "pack_quantity": 0,
+        "quantity_available": 13210,
+        "maximum_distribution_quantity": 0,
         "marketplace": false,
         "tariff_active": true,
         "additional_charges": [],
@@ -242,7 +242,7 @@
         "pack_format": "DigiReel",
         "minimum_order_quantity": 1,
         "pack_quantity": 1,
-        "quantity_available": 13213,
+        "quantity_available": 13210,
         "maximum_distribution_quantity": 999999999,
         "marketplace": false,
         "tariff_active": true,
@@ -367,7 +367,7 @@
     "locale": "IE",
     "currency": "EUR",
     "request_context": "live_api",
-    "captured_at_utc": "2026-08-03T18:59:34Z",
+    "captured_at_utc": "2026-08-04T19:51:13Z",
     "source_endpoints": [
       "Product_Details"
     ]
@@ -380,7 +380,7 @@
       "raw_value": "Texas Instruments",
       "normalised_value": "Texas Instruments",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "identity.manufacturer_part_number": {
       "provider": "DigiKey",
@@ -389,7 +389,7 @@
       "raw_value": "ADS1015IDGSR",
       "normalised_value": "ADS1015IDGSR",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "technical.package": {
       "provider": "DigiKey",
@@ -398,7 +398,7 @@
       "raw_value": "10-TFSOP, 10-MSOP (0.118\", 3.00mm Width)",
       "normalised_value": "10-TFSOP, 10-MSOP (0.118\", 3.00mm Width)",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "commercial.offers": {
       "provider": "DigiKey",
@@ -481,10 +481,10 @@
             "Id": 296,
             "Name": "Texas Instruments"
           },
-          "QuantityAvailableforPackageType": 13213,
-          "MaxQuantityForDistribution": 999999999,
+          "QuantityAvailableforPackageType": 13210,
+          "MaxQuantityForDistribution": 0,
           "MinimumOrderQuantity": 1,
-          "StandardPackage": 1,
+          "StandardPackage": 0,
           "DigiReelFee": 0.0
         },
         {
@@ -532,7 +532,7 @@
             "Id": 296,
             "Name": "Texas Instruments"
           },
-          "QuantityAvailableforPackageType": 13213,
+          "QuantityAvailableforPackageType": 13210,
           "MaxQuantityForDistribution": 999999999,
           "MinimumOrderQuantity": 1,
           "StandardPackage": 1,
@@ -548,9 +548,9 @@
           "packaging_code": "Cut Tape (CT)",
           "pack_format": "Cut Tape",
           "minimum_order_quantity": 1,
-          "pack_quantity": 1,
-          "quantity_available": 13213,
-          "maximum_distribution_quantity": 999999999,
+          "pack_quantity": 0,
+          "quantity_available": 13210,
+          "maximum_distribution_quantity": 0,
           "marketplace": false,
           "tariff_active": true,
           "additional_charges": [],
@@ -597,7 +597,7 @@
           "pack_format": "DigiReel",
           "minimum_order_quantity": 1,
           "pack_quantity": 1,
-          "quantity_available": 13213,
+          "quantity_available": 13210,
           "maximum_distribution_quantity": 999999999,
           "marketplace": false,
           "tariff_active": true,
@@ -674,16 +674,16 @@
         }
       ],
       "unit": "EUR",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "commercial.stock_quantity": {
       "provider": "DigiKey",
       "endpoint": "Product_Details",
       "raw_name": "Product.QuantityAvailable",
-      "raw_value": 13213,
-      "normalised_value": 13213,
+      "raw_value": 13210,
+      "normalised_value": 13210,
       "unit": "pcs",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "lifecycle.status": {
       "provider": "DigiKey",
@@ -692,7 +692,7 @@
       "raw_value": "Active",
       "normalised_value": "Active",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     },
     "regulatory.rohs_status": {
       "provider": "DigiKey",
@@ -701,7 +701,7 @@
       "raw_value": "ROHS3 Compliant",
       "normalised_value": "ROHS3 Compliant",
       "unit": "",
-      "captured_at_utc": "2026-08-03T18:59:34Z"
+      "captured_at_utc": "2026-08-04T19:51:13Z"
     }
   },
   "raw_references": {

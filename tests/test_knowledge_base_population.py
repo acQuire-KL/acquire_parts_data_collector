@@ -11,6 +11,7 @@ from knowledge_base_population import (
     STATUS_CACHED,
     STATUS_DOWNLOADED,
     STATUS_FAILED,
+    STATUS_PROVIDER_ERROR,
     STATUS_SKIPPED,
     load_staging_records,
     populate_knowledge_base,
@@ -94,7 +95,7 @@ class KnowledgeBasePopulationTests(unittest.TestCase):
             broken = FakeProvider("Broken", failure=RuntimeError("network"))
             run = populate_knowledge_base(path, [missing, broken], progress=False)
             self.assertEqual(STATUS_SKIPPED, run.outcomes[0].status)
-            self.assertEqual(STATUS_FAILED, run.outcomes[1].status)
+            self.assertEqual(STATUS_PROVIDER_ERROR, run.outcomes[1].status)
             self.assertIn("network", run.outcomes[1].message)
 
     def test_outputs_include_summary_failures_and_skips(self):
