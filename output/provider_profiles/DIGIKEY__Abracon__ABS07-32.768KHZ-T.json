@@ -1,0 +1,877 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Abracon LLC",
+    "manufacturer_part_number": "ABS07-32.768KHZ-T",
+    "provider_part_number": "535-9542-1-ND",
+    "alternative_names": [
+      "535-9542-1",
+      "535-9542-2",
+      "ABS0732768KHZT",
+      "Q4741645",
+      "2266-ABS07-32.768KHZ-T-535",
+      "ABS07-32.768KHZ-T.",
+      "535-9542-6"
+    ],
+    "description": "CRYSTAL 32.7680KHZ 12.5PF SMD",
+    "detailed_description": "32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead",
+    "category": "Crystals, Oscillators, Resonators",
+    "subcategory": "Crystals",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "kHz Crystal (Tuning Fork)",
+    "regulator_type": [],
+    "manufacturer_series": "ABS07",
+    "package": "2-SMD, No Lead",
+    "supplier_device_package": "2-SMD (3.2x1.5)",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 85.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Frequency": [
+        "32.768 kHz"
+      ],
+      "Frequency Stability": [
+        "-"
+      ],
+      "Frequency Tolerance": [
+        "±20ppm"
+      ],
+      "Load Capacitance": [
+        "12.5pF"
+      ],
+      "ESR (Equivalent Series Resistance)": [
+        "70 kOhms"
+      ],
+      "Operating Mode": [
+        "Fundamental"
+      ],
+      "Ratings": [
+        "-"
+      ],
+      "Size / Dimension": [
+        "0.126\" L x 0.059\" W (3.20mm x 1.50mm)"
+      ],
+      "Height - Seated (Max)": [
+        "0.035\" (0.90mm)"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 639358,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 20.0,
+    "unit_price": 0.53,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.53,
+        "total_price": 0.53,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.462,
+        "total_price": 4.62,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.4368,
+        "total_price": 10.92,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.4186,
+        "total_price": 20.93,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.4014,
+        "total_price": 40.14,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.37964,
+        "total_price": 94.91,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.3639,
+        "total_price": 181.95,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.34885,
+        "total_price": 348.85,
+        "provider_part_number": "535-9542-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 0.53,
+        "total_price": 0.53,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.462,
+        "total_price": 4.62,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.4368,
+        "total_price": 10.92,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.4186,
+        "total_price": 20.93,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.4014,
+        "total_price": 40.14,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.37964,
+        "total_price": 94.91,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.3639,
+        "total_price": 181.95,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.34885,
+        "total_price": 348.85,
+        "provider_part_number": "535-9542-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 3000,
+        "unit_price": 0.32626,
+        "total_price": 978.78,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 6000,
+        "unit_price": 0.31278,
+        "total_price": 1876.68,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 9000,
+        "unit_price": 0.30515,
+        "total_price": 2746.35,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 15000,
+        "unit_price": 0.29582,
+        "total_price": 4437.3,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 21000,
+        "unit_price": 0.28983,
+        "total_price": 6086.43,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 30000,
+        "unit_price": 0.28361,
+        "total_price": 8508.3,
+        "provider_part_number": "535-9542-2-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "535-9542-1-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 639358,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.53,
+            "total_price": 0.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.462,
+            "total_price": 4.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4368,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4186,
+            "total_price": 20.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4014,
+            "total_price": 40.14
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.37964,
+            "total_price": 94.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3639,
+            "total_price": 181.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.34885,
+            "total_price": 348.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-9542-6-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 639358,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.53,
+            "total_price": 0.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.462,
+            "total_price": 4.62
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.4368,
+            "total_price": 10.92
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4186,
+            "total_price": 20.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4014,
+            "total_price": 40.14
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.37964,
+            "total_price": 94.91
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.3639,
+            "total_price": 181.95
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.34885,
+            "total_price": 348.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-9542-2-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 639358,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.32626,
+            "total_price": 978.78
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.31278,
+            "total_price": 1876.68
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.30515,
+            "total_price": 2746.35
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.29582,
+            "total_price": 4437.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.28983,
+            "total_price": 6086.43
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.28361,
+            "total_price": 8508.3
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 3000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "Not Applicable",
+    "eccn": "EAR99",
+    "hts_code": "8541.60.0010",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2367/ABS07%20Series.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://abracon.com/Resonators/ABS07.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858",
+    "video_url": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6199253411001"
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:08:53Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Abracon LLC",
+      "normalised_value": "Abracon LLC",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "ABS07-32.768KHZ-T",
+      "normalised_value": "ABS07-32.768KHZ-T",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "2-SMD, No Lead",
+      "normalised_value": "2-SMD, No Lead",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "535-9542-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.32626,
+              "TotalPrice": 978.78
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.31278,
+              "TotalPrice": 1876.68
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.30515,
+              "TotalPrice": 2746.35
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.29582,
+              "TotalPrice": 4437.3
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.28983,
+              "TotalPrice": 6086.43
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.28361,
+              "TotalPrice": 8508.3
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 639358,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "535-9542-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.53,
+              "TotalPrice": 0.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.462,
+              "TotalPrice": 4.62
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.4368,
+              "TotalPrice": 10.92
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4186,
+              "TotalPrice": 20.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4014,
+              "TotalPrice": 40.14
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.37964,
+              "TotalPrice": 94.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.3639,
+              "TotalPrice": 181.95
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.34885,
+              "TotalPrice": 348.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 639358,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "535-9542-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.53,
+              "TotalPrice": 0.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.462,
+              "TotalPrice": 4.62
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.4368,
+              "TotalPrice": 10.92
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4186,
+              "TotalPrice": 20.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4014,
+              "TotalPrice": 40.14
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.37964,
+              "TotalPrice": 94.91
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.3639,
+              "TotalPrice": 181.95
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.34885,
+              "TotalPrice": 348.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 639358,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "535-9542-1-ND",
+          "supplier": "Abracon LLC",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 639358,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": false,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.53,
+              "total_price": 0.53
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.462,
+              "total_price": 4.62
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.4368,
+              "total_price": 10.92
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.4186,
+              "total_price": 20.93
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.4014,
+              "total_price": 40.14
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.37964,
+              "total_price": 94.91
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.3639,
+              "total_price": 181.95
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.34885,
+              "total_price": 348.85
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "535-9542-6-ND",
+          "supplier": "Abracon LLC",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 639358,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": false,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.53,
+              "total_price": 0.53
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.462,
+              "total_price": 4.62
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.4368,
+              "total_price": 10.92
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.4186,
+              "total_price": 20.93
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.4014,
+              "total_price": 40.14
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.37964,
+              "total_price": 94.91
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.3639,
+              "total_price": 181.95
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.34885,
+              "total_price": 348.85
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "535-9542-2-ND",
+          "supplier": "Abracon LLC",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 3000,
+          "pack_quantity": 3000,
+          "quantity_available": 639358,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": false,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 3000,
+              "unit_price": 0.32626,
+              "total_price": 978.78
+            },
+            {
+              "break_quantity": 6000,
+              "unit_price": 0.31278,
+              "total_price": 1876.68
+            },
+            {
+              "break_quantity": 9000,
+              "unit_price": 0.30515,
+              "total_price": 2746.35
+            },
+            {
+              "break_quantity": 15000,
+              "unit_price": 0.29582,
+              "total_price": 4437.3
+            },
+            {
+              "break_quantity": 21000,
+              "unit_price": 0.28983,
+              "total_price": 6086.43
+            },
+            {
+              "break_quantity": 30000,
+              "unit_price": 0.28361,
+              "total_price": 8508.3
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 639358,
+      "normalised_value": 639358,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:53Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Abracon__ABS07-32.768KHZ-T.json"
+  }
+}

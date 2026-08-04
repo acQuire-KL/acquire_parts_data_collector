@@ -1,0 +1,657 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "ESD9R3.3ST5G",
+    "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+    "alternative_names": [
+      "ESD9R3.3ST5GOSCT",
+      "ESD9R33ST5G",
+      "2156-ESD9R3.3ST5G-488",
+      "ESD9R3.3ST5GOSDKR",
+      "ESD9R3.3ST5G-ND",
+      "ESD9R3.3ST5GOSTR",
+      "2832-ESD9R3.3ST5GTR"
+    ],
+    "description": "TVS DIODE 3.3VWM 7.8VC SOD923",
+    "detailed_description": "7.8V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923",
+    "category": "Circuit Protection",
+    "subcategory": "TVS Diodes",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "Zener",
+    "regulator_type": [],
+    "manufacturer_series": "ESD9R3.3",
+    "package": "SOD-923",
+    "supplier_device_package": "SOD-923",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 125.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Unidirectional Channels": [
+        "1"
+      ],
+      "Voltage - Reverse Standoff (Typ)": [
+        "3.3V (Max)"
+      ],
+      "Voltage - Breakdown (Min)": [
+        "4.8V"
+      ],
+      "Voltage - Clamping (Max) @ Ipp": [
+        "7.8V"
+      ],
+      "Current - Peak Pulse (10/1000µs)": [
+        "1A (8/20µs)"
+      ],
+      "Power - Peak Pulse": [
+        "-"
+      ],
+      "Power Line Protection": [
+        "No"
+      ],
+      "Applications": [
+        "General Purpose"
+      ],
+      "Capacitance @ Frequency": [
+        "0.5pF @ 1MHz"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 112678,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 52.0,
+    "unit_price": 0.96,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.96,
+        "total_price": 0.96,
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.603,
+        "total_price": 6.03,
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.4452,
+        "total_price": 22.26,
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.394,
+        "total_price": 39.4,
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.30392,
+        "total_price": 151.96,
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 0.96,
+        "total_price": 0.96,
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.603,
+        "total_price": 6.03,
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.4452,
+        "total_price": 22.26,
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.394,
+        "total_price": 39.4,
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.30392,
+        "total_price": 151.96,
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 8000,
+        "unit_price": 0.21266,
+        "total_price": 1701.28,
+        "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 16000,
+        "unit_price": 0.19813,
+        "total_price": 3170.08,
+        "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 112678,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.96,
+            "total_price": 0.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.603,
+            "total_price": 6.03
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.4452,
+            "total_price": 22.26
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.394,
+            "total_price": 39.4
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.30392,
+            "total_price": 151.96
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 8000,
+        "pack_quantity": 8000,
+        "quantity_available": 112000,
+        "maximum_distribution_quantity": 24000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.21266,
+            "total_price": 1701.28
+          },
+          {
+            "break_quantity": 16000,
+            "unit_price": 0.19813,
+            "total_price": 3170.08
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 8000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8541.10.0080",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6296/488%7E514AB-01%7E%7E2.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD9R3.3S-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/ESD9R3-3ST5G/1961067",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:13:11Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "onsemi",
+      "normalised_value": "onsemi",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "ESD9R3.3ST5G",
+      "normalised_value": "ESD9R3.3ST5G",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "SOD-923",
+      "normalised_value": "SOD-923",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.21266,
+              "TotalPrice": 1701.28
+            },
+            {
+              "BreakQuantity": 16000,
+              "UnitPrice": 0.19813,
+              "TotalPrice": 3170.08
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112000,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 8000,
+          "StandardPackage": 8000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.96,
+              "TotalPrice": 0.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.603,
+              "TotalPrice": 6.03
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 22.26
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.394,
+              "TotalPrice": 39.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.30392,
+              "TotalPrice": 151.96
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112678,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "ESD9R3.3ST5GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.96,
+              "TotalPrice": 0.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.603,
+              "TotalPrice": 6.03
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 22.26
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.394,
+              "TotalPrice": 39.4
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.30392,
+              "TotalPrice": 151.96
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 112678,
+          "MaxQuantityForDistribution": 24000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "ESD9R3.3ST5GOSCT-ND",
+          "supplier": "onsemi",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 112678,
+          "maximum_distribution_quantity": 24000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.96,
+              "total_price": 0.96
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.603,
+              "total_price": 6.03
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.4452,
+              "total_price": 22.26
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.394,
+              "total_price": 39.4
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.30392,
+              "total_price": 151.96
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "ESD9R3.3ST5GOSDKR-ND",
+          "supplier": "onsemi",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 112678,
+          "maximum_distribution_quantity": 24000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.96,
+              "total_price": 0.96
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.603,
+              "total_price": 6.03
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.4452,
+              "total_price": 22.26
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.394,
+              "total_price": 39.4
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.30392,
+              "total_price": 151.96
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "ESD9R3.3ST5GOSTR-ND",
+          "supplier": "onsemi",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 8000,
+          "pack_quantity": 8000,
+          "quantity_available": 112000,
+          "maximum_distribution_quantity": 24000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 8000,
+              "unit_price": 0.21266,
+              "total_price": 1701.28
+            },
+            {
+              "break_quantity": 16000,
+              "unit_price": 0.19813,
+              "total_price": 3170.08
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 112678,
+      "normalised_value": 112678,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:13:11Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\onsemi__ESD9R3.3ST5G.json"
+  }
+}

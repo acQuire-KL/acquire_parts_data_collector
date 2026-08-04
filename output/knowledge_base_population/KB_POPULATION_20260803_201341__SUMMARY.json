@@ -1,0 +1,32 @@
+{
+  "source_file": "C:\\development\\acquire_parts_data_collector\\output\\parts_master_staging\\AIPN_Parts_Master__STAGING.csv",
+  "started_at_utc": "2026-08-03T19:03:29Z",
+  "finished_at_utc": "2026-08-03T19:13:41Z",
+  "total_staging_records": 260,
+  "selected_records": 260,
+  "provider_operations": 780,
+  "status_counts": {
+    "Already Cached": 45,
+    "Not Found": 111,
+    "Downloaded": 594,
+    "Failed": 30
+  },
+  "provider_statistics": {
+    "DigiKey": {
+      "Already Cached": 17,
+      "Downloaded": 214,
+      "Failed": 29
+    },
+    "Mouser": {
+      "Already Cached": 18,
+      "Not Found": 5,
+      "Downloaded": 236,
+      "Failed": 1
+    },
+    "TME": {
+      "Already Cached": 10,
+      "Not Found": 106,
+      "Downloaded": 144
+    }
+  }
+}

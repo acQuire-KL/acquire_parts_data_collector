@@ -1,0 +1,279 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "MIKROE",
+    "manufacturer_part_number": "MIKROE-4893",
+    "provider_part_number": "MIKROE-4893",
+    "alternative_names": [],
+    "description": "Click board; prototype board; Comp: BME688; 3.3VDC",
+    "detailed_description": "Click board; prototype board; Comp: BME688; 3.3VDC",
+    "category": "Add-on boards",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Type of accessories for development kits": [
+        "Click board"
+      ],
+      "Kit contents": [
+        "prototype board"
+      ],
+      "Components": [
+        "BME688"
+      ],
+      "Interface": [
+        "I2C",
+        "SPI"
+      ],
+      "Connection": [
+        "mikroBUS connector"
+      ],
+      "Kind of module": [
+        "gas sensor",
+        "humidity/temperature sensor",
+        "pressure sensor"
+      ],
+      "Supply voltage": [
+        "3.3V DC"
+      ],
+      "Size": [
+        "S"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 2,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 25.77,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": null,
+    "pack_formats": [],
+    "weight_value": 15.93,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0d1302db556f7ea0556c0da6a015e815f4b734db",
+    "thumbnail_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=100&height=75&q=75&ci_sign=2d4fd8c74b94c38d725b52dda38c5b954b216e8c",
+    "high_resolution_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/E4/45/D0/00/0/873550_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=8bac34cfc34806f4ebc5eb9ebc86229417f3c549",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:12:54Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "MIKROE",
+      "normalised_value": "MIKROE",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "MIKROE-4893",
+      "normalised_value": "MIKROE-4893",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "Click board; prototype board; Comp: BME688; 3.3VDC",
+      "normalised_value": "Click board; prototype board; Comp: BME688; 3.3VDC",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 2,
+      "normalised_value": 2,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 25.77,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 25.77,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": null,
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:54Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\MIKROE__BME688.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\MIKROE__BME688.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\MIKROE__BME688.json"
+  }
+}

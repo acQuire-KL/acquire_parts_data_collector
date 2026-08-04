@@ -1,0 +1,439 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "LM35CAZ/NOPB",
+    "provider_part_number": "LM35CAZ/NOPB-ND",
+    "alternative_names": [
+      "LM35CAZ-ND",
+      "*LM35CAZ/NOPB",
+      "-LM35CAZ-NDR",
+      "*LM35CAZ",
+      "LM35CAZ-NDR",
+      "2156-LM35CAZ/NOPB",
+      "TEXTISLM35CAZ/NOPB",
+      "LM35CAZNOPB",
+      "-LM35CAZ/NOPB-ND",
+      "LM35CAZ"
+    ],
+    "description": "SENSOR ANALOG -40C-110C TO92-3",
+    "detailed_description": "Temperature Sensor Analog, Local -40°C ~ 110°C 10mV/°C TO-92-3",
+    "category": "Sensors, Transducers",
+    "subcategory": "Analog and Digital Output",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [
+      "Analog Voltage"
+    ],
+    "manufacturer_series": "LM35",
+    "package": "TO-226-3, TO-92-3 (TO-226AA)",
+    "supplier_device_package": "TO-92-3",
+    "mounting_type": "THT",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 110.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Sensor Type": [
+        "Analog, Local"
+      ],
+      "Sensing Temperature - Local": [
+        "-40°C ~ 110°C"
+      ],
+      "Sensing Temperature - Remote": [
+        "-"
+      ],
+      "Voltage - Supply": [
+        "4V ~ 30V"
+      ],
+      "Resolution": [
+        "10mV/°C"
+      ],
+      "Features": [
+        "-"
+      ],
+      "Accuracy - Highest (Lowest)": [
+        "±0.5°C (±1°C)"
+      ],
+      "Test Condition": [
+        "25°C (-40°C ~ 110°C)"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 7095,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 16.0,
+    "unit_price": 6.04,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 6.04,
+        "total_price": 6.04,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 5,
+        "unit_price": 5.442,
+        "total_price": 27.21,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 5.218,
+        "total_price": 52.18,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 4.9508,
+        "total_price": 123.77,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 4.768,
+        "total_price": 238.4,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 4.6002,
+        "total_price": 460.02,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 4.26256,
+        "total_price": 2131.28,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      },
+      {
+        "break_quantity": 1800,
+        "unit_price": 4.0382,
+        "total_price": 7268.76,
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "pack_format": "Loose"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "LM35CAZ/NOPB-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1800,
+        "quantity_available": 7095,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 6.04,
+            "total_price": 6.04
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 5.442,
+            "total_price": 27.21
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 5.218,
+            "total_price": 52.18
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 4.9508,
+            "total_price": 123.77
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 4.768,
+            "total_price": 238.4
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 4.6002,
+            "total_price": 460.02
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 4.26256,
+            "total_price": 2131.28
+          },
+          {
+            "break_quantity": 1800,
+            "unit_price": 4.0382,
+            "total_price": 7268.76
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 1800,
+    "pack_formats": [
+      "Loose"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "Not Applicable",
+    "eccn": "EAR99",
+    "hts_code": "8542.39.0090",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6209/296%7EZ03A%7E%7E3.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm35",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/LM35CAZ-NOPB/148180",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:12:34Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Texas Instruments",
+      "normalised_value": "Texas Instruments",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "LM35CAZ/NOPB",
+      "normalised_value": "LM35CAZ/NOPB",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "TO-226-3, TO-92-3 (TO-226AA)",
+      "normalised_value": "TO-226-3, TO-92-3 (TO-226AA)",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "LM35CAZ/NOPB-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 6.04,
+              "TotalPrice": 6.04
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 5.442,
+              "TotalPrice": 27.21
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 5.218,
+              "TotalPrice": 52.18
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 4.9508,
+              "TotalPrice": 123.77
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 4.768,
+              "TotalPrice": 238.4
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 4.6002,
+              "TotalPrice": 460.02
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 4.26256,
+              "TotalPrice": 2131.28
+            },
+            {
+              "BreakQuantity": 1800,
+              "UnitPrice": 4.0382,
+              "TotalPrice": 7268.76
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 7095,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1800,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "LM35CAZ/NOPB-ND",
+          "supplier": "Texas Instruments",
+          "package_type_id": 3,
+          "package_type": "Bulk",
+          "packaging_code": "Bulk",
+          "pack_format": "Loose",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1800,
+          "quantity_available": 7095,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 6.04,
+              "total_price": 6.04
+            },
+            {
+              "break_quantity": 5,
+              "unit_price": 5.442,
+              "total_price": 27.21
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 5.218,
+              "total_price": 52.18
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 4.9508,
+              "total_price": 123.77
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 4.768,
+              "total_price": 238.4
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 4.6002,
+              "total_price": 460.02
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 4.26256,
+              "total_price": 2131.28
+            },
+            {
+              "break_quantity": 1800,
+              "unit_price": 4.0382,
+              "total_price": 7268.76
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 7095,
+      "normalised_value": 7095,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:34Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Texas_Instruments__LM35CAZ_NOPB.json"
+  }
+}

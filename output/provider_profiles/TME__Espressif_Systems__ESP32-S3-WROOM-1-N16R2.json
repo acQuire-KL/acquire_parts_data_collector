@@ -1,0 +1,395 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "ESPRESSIF",
+    "manufacturer_part_number": "ESP32S3-WRM1-16R2",
+    "provider_part_number": "ESP32S3-WRM1-16R2",
+    "alternative_names": [],
+    "description": "Module: IoT; Bluetooth: BLE; WiFi; PCB; IEEE 802.11b/g/n; SMD",
+    "detailed_description": "Module: IoT; Bluetooth: BLE; WiFi; PCB; IEEE 802.11b/g/n; SMD",
+    "category": "IoT (WiFi/Bluetooth) modules",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 85.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Type of communications module": [
+        "IoT"
+      ],
+      "Bluetooth version": [
+        "BLE"
+      ],
+      "Kind of network": [
+        "WiFi"
+      ],
+      "Kind of antenna": [
+        "PCB"
+      ],
+      "Supply voltage": [
+        "3...3.6V DC"
+      ],
+      "Communictions protocol": [
+        "IEEE 802.11b/g/n"
+      ],
+      "Interface": [
+        "ADC",
+        "GPIO",
+        "I2C",
+        "I2S",
+        "JTAG",
+        "PWM",
+        "SDIO",
+        "SPI",
+        "UART",
+        "USB OTG"
+      ],
+      "Dimensions": [
+        "18x25.5x3.1mm"
+      ],
+      "Ciphering": [
+        "AES",
+        "ECC",
+        "RNG",
+        "RSA",
+        "SHA"
+      ],
+      "Band": [
+        "2.412...2.484GHz"
+      ],
+      "Memory": [
+        "512kB SRAM",
+        "16MB FLASH"
+      ],
+      "Components": [
+        "ESP32-S3R2"
+      ],
+      "Number of cores": [
+        "2"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 409,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 5.22,
+        "special": false
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 4.54,
+        "special": false
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 4.28,
+        "special": false
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 3.92,
+        "special": false
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 3.7,
+        "special": false
+      },
+      {
+        "break_quantity": 650,
+        "unit_price": 3.49,
+        "special": false
+      },
+      {
+        "break_quantity": 1300,
+        "unit_price": 3.35,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": 650,
+    "manufacturer_standard_pack_quantity": null,
+    "pack_formats": [],
+    "weight_value": 2.527,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:08:32Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "ESPRESSIF",
+      "normalised_value": "ESPRESSIF",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "ESP32S3-WRM1-16R2",
+      "normalised_value": "ESP32S3-WRM1-16R2",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "Module: IoT; Bluetooth: BLE; WiFi; PCB; IEEE 802.11b/g/n; SMD",
+      "normalised_value": "Module: IoT; Bluetooth: BLE; WiFi; PCB; IEEE 802.11b/g/n; SMD",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "SMD",
+      "normalised_value": "SMD",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "-40...85°C",
+      "normalised_value": {
+        "min": -40.0,
+        "max": 85.0
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 409,
+      "normalised_value": 409,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 5.22,
+          "special": false
+        },
+        {
+          "amount": 10,
+          "price": 4.54,
+          "special": false
+        },
+        {
+          "amount": 25,
+          "price": 4.28,
+          "special": false
+        },
+        {
+          "amount": 100,
+          "price": 3.92,
+          "special": false
+        },
+        {
+          "amount": 250,
+          "price": 3.7,
+          "special": false
+        },
+        {
+          "amount": 650,
+          "price": 3.49,
+          "special": false
+        },
+        {
+          "amount": 1300,
+          "price": 3.35,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 5.22,
+          "special": false
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 4.54,
+          "special": false
+        },
+        {
+          "break_quantity": 25,
+          "unit_price": 4.28,
+          "special": false
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 3.92,
+          "special": false
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 3.7,
+          "special": false
+        },
+        {
+          "break_quantity": 650,
+          "unit_price": 3.49,
+          "special": false
+        },
+        {
+          "break_quantity": 1300,
+          "unit_price": 3.35,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": 650,
+      "normalised_value": 650,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:32Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\ESPRESSIF__ESP32-S3-WROOM-1-N16R2.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\ESPRESSIF__ESP32-S3-WROOM-1-N16R2.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\ESPRESSIF__ESP32-S3-WROOM-1-N16R2.json"
+  }
+}

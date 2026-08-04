@@ -1,0 +1,510 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "FDMA1024NZ",
+    "provider_part_number": "512-FDMA1024NZ",
+    "alternative_names": [],
+    "description": "MOSFETs 20V Dual N-Channel PowerTrench",
+    "detailed_description": "MOSFETs 20V Dual N-Channel PowerTrench",
+    "category": "MOSFETs",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {}
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 52.0,
+    "unit_price": 0.998,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.998,
+        "total_price": 0.998,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.625,
+        "total_price": 6.25,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.409,
+        "total_price": 40.9,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.317,
+        "total_price": 158.5,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.287,
+        "total_price": 287.0,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 3000,
+        "unit_price": 0.287,
+        "total_price": 861.0,
+        "provider_part_number": "512-FDMA1024NZ",
+        "pack_format": ""
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "512-FDMA1024NZ",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "available_pack_formats": [
+          "Reel",
+          "Cut Tape",
+          "MouseReel"
+        ],
+        "minimum_order_quantity": 1,
+        "order_multiple": 1,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "MouseReel service charge",
+            "amount": 5.0,
+            "currency": "EUR",
+            "application": "per_order_line",
+            "raw_description": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.998,
+            "total_price": 0.998
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.625,
+            "total_price": 6.25
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.409,
+            "total_price": 40.9
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.317,
+            "total_price": 158.5
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.287,
+            "total_price": 287.0
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.287,
+            "total_price": 861.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 3000,
+    "pack_formats": [
+      "Reel",
+      "Cut Tape",
+      "MouseReel"
+    ],
+    "weight_value": 0.04,
+    "weight_unit": "g",
+    "deliveries": [
+      {
+        "Quantity": 8530,
+        "Date": "2026-08-11T00:00:00"
+      },
+      {
+        "Quantity": 12000,
+        "Date": "2026-09-28T00:00:00"
+      },
+      {
+        "Quantity": 21000,
+        "Date": "2026-10-09T00:00:00"
+      }
+    ]
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "EAR99",
+    "hts_code": "8541290065",
+    "country_of_origin": "Thailand",
+    "additional_compliance": {
+      "TARIC": "8541290000",
+      "CNHTS": "8541290000",
+      "CAHTS": "8541290000",
+      "JPHTS": "8541290100",
+      "KRHTS": "8541299000",
+      "MXHTS": "85412999",
+      "Assembly Country of Origin": "Thailand",
+      "Country of Diffusion": "United States"
+    }
+  },
+  "media": {
+    "primary_image_url": "https://www.mouser.com/images/fairchildsemiconductor/images/MLP_MicroFET_2x2_6_DSL.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/onsemi/FDMA1024NZ?qs=0mlrQ0IOoOgODl1JASFkkw%3D%3D",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "Mouser",
+    "locale": "en-US",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:06:53Z",
+    "source_endpoints": [
+      "Part_Number_Search"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Manufacturer",
+      "raw_value": "onsemi",
+      "normalised_value": "onsemi",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ManufacturerPartNumber",
+      "raw_value": "FDMA1024NZ",
+      "normalised_value": "FDMA1024NZ",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "AvailabilityInStock",
+      "raw_value": "0",
+      "normalised_value": 0,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "PriceBreaks",
+      "raw_value": [
+        {
+          "Quantity": 1,
+          "Price": "€0.998",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 10,
+          "Price": "€0.625",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 100,
+          "Price": "€0.409",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 500,
+          "Price": "€0.317",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 1000,
+          "Price": "€0.287",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 3000,
+          "Price": "€0.287",
+          "Currency": "EUR"
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.998,
+          "total_price": 0.998,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.625,
+          "total_price": 6.25,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.409,
+          "total_price": 40.9,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 0.317,
+          "total_price": 158.5,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 1000,
+          "unit_price": 0.287,
+          "total_price": 287.0,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 3000,
+          "unit_price": 0.287,
+          "total_price": 861.0,
+          "provider_part_number": "512-FDMA1024NZ",
+          "pack_format": ""
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "commercial.offers": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductAttributes + PriceBreaks",
+      "raw_value": {
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Reel"
+          },
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Cut Tape"
+          },
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "MouseReel",
+            "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "3000"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "€0.998",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 10,
+            "Price": "€0.625",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 100,
+            "Price": "€0.409",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 500,
+            "Price": "€0.317",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 1000,
+            "Price": "€0.287",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 3000,
+            "Price": "€0.287",
+            "Currency": "EUR"
+          }
+        ]
+      },
+      "normalised_value": [
+        {
+          "provider_part_number": "512-FDMA1024NZ",
+          "supplier": "Mouser",
+          "package_type_id": null,
+          "package_type": "",
+          "packaging_code": "",
+          "pack_format": "",
+          "available_pack_formats": [
+            "Reel",
+            "Cut Tape",
+            "MouseReel"
+          ],
+          "minimum_order_quantity": 1,
+          "order_multiple": 1,
+          "pack_quantity": 3000,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": null,
+          "marketplace": false,
+          "tariff_active": null,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "MouseReel service charge",
+              "amount": 5.0,
+              "currency": "EUR",
+              "application": "per_order_line",
+              "raw_description": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.998,
+              "total_price": 0.998
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.625,
+              "total_price": 6.25
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.409,
+              "total_price": 40.9
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.317,
+              "total_price": 158.5
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.287,
+              "total_price": 287.0
+            },
+            {
+              "break_quantity": 3000,
+              "unit_price": 0.287,
+              "total_price": 861.0
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "commercial.manufacturer_lead_time_weeks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "LeadTime",
+      "raw_value": "364 Days",
+      "normalised_value": 52.0,
+      "unit": "weeks",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Standard Pack Qty",
+      "raw_value": "3000",
+      "normalised_value": 3000,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ROHSStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "regulatory.eccn": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductCompliance.ECCN",
+      "raw_value": "EAR99",
+      "normalised_value": "EAR99",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    },
+    "regulatory.country_of_origin": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "TradeCompliance.Country of Origin",
+      "raw_value": "Thailand",
+      "normalised_value": "Thailand",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:53Z"
+    }
+  },
+  "raw_references": {
+    "part_number_search": "Knowledge_Base\\Current\\Mouser\\Part_Number_Search\\OnSemi__FDMA1024NZ.json"
+  }
+}

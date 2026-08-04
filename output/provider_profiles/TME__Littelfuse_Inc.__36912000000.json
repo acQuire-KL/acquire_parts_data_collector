@@ -1,0 +1,369 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "LITTELFUSE",
+    "manufacturer_part_number": "36912000000",
+    "provider_part_number": "36912000000",
+    "alternative_names": [],
+    "description": "Fuse: fuse; 2A; 300VAC; time-lag; TE5; 369; 5.08mm",
+    "detailed_description": "Fuse: fuse; 2A; 300VAC; time-lag; TE5; 369; 5.08mm",
+    "category": "Fuses TE5",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "369",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Type of fuse": [
+        "fuse"
+      ],
+      "Kind of fuse": [
+        "miniature"
+      ],
+      "Current rating": [
+        "2A"
+      ],
+      "Rated voltage": [
+        "300V AC"
+      ],
+      "Fuse characteristics": [
+        "time-lag"
+      ],
+      "Fuse size": [
+        "TE5"
+      ],
+      "Breaking capacity": [
+        "50A"
+      ],
+      "Max voltage drop": [
+        "90mV"
+      ],
+      "Terminal pitch": [
+        "5.08mm"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 2466,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.517,
+        "special": false
+      },
+      {
+        "break_quantity": 5,
+        "unit_price": 0.476,
+        "special": false
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.443,
+        "special": false
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.391,
+        "special": false
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.353,
+        "special": false
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.328,
+        "special": false
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.314,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": 1400,
+    "manufacturer_standard_pack_quantity": null,
+    "pack_formats": [],
+    "weight_value": 0.45,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/0C/0B/A0/00/0/700608_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=2245afcfa30f22f3294fa0410e3ea6f165d77257",
+    "thumbnail_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/0C/0B/A0/00/0/700608_1.jpg?width=100&height=75&q=75&ci_sign=cf9328eea0a030f80a3c9d7c10c9b6df78e6220a",
+    "high_resolution_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/0C/0B/A0/00/0/700608_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0f47778ed48aa59e376a1f437f77e7bc932c38d0",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:07:08Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "LITTELFUSE",
+      "normalised_value": "LITTELFUSE",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "36912000000",
+      "normalised_value": "36912000000",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "Fuse: fuse; 2A; 300VAC; time-lag; TE5; 369; 5.08mm",
+      "normalised_value": "Fuse: fuse; 2A; 300VAC; time-lag; TE5; 369; 5.08mm",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 2466,
+      "normalised_value": 2466,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 0.517,
+          "special": false
+        },
+        {
+          "amount": 5,
+          "price": 0.476,
+          "special": false
+        },
+        {
+          "amount": 10,
+          "price": 0.443,
+          "special": false
+        },
+        {
+          "amount": 25,
+          "price": 0.391,
+          "special": false
+        },
+        {
+          "amount": 50,
+          "price": 0.353,
+          "special": false
+        },
+        {
+          "amount": 100,
+          "price": 0.328,
+          "special": false
+        },
+        {
+          "amount": 250,
+          "price": 0.314,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.517,
+          "special": false
+        },
+        {
+          "break_quantity": 5,
+          "unit_price": 0.476,
+          "special": false
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.443,
+          "special": false
+        },
+        {
+          "break_quantity": 25,
+          "unit_price": 0.391,
+          "special": false
+        },
+        {
+          "break_quantity": 50,
+          "unit_price": 0.353,
+          "special": false
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.328,
+          "special": false
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 0.314,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": 1400,
+      "normalised_value": 1400,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:08Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\LITTELFUSE__36912000000.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\LITTELFUSE__36912000000.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\LITTELFUSE__36912000000.json"
+  }
+}

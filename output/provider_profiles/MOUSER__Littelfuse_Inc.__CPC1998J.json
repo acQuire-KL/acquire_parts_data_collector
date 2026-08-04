@@ -1,0 +1,503 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "IXYS Integrated Circuits",
+    "manufacturer_part_number": "CPC1998J",
+    "provider_part_number": "849-CPC1998J",
+    "alternative_names": [],
+    "description": "Solid State Relays - PCB Mount SP AC Solid State Power Switch",
+    "detailed_description": "Solid State Relays - PCB Mount SP AC Solid State Power Switch",
+    "category": "Solid State Relays - PCB Mount",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {}
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 4562,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 23.0,
+    "unit_price": 18.71,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 18.71,
+        "total_price": 18.71,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 16.99,
+        "total_price": 169.9,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 16.18,
+        "total_price": 404.5,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 15.47,
+        "total_price": 773.5,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 14.95,
+        "total_price": 1495.0,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 14.3,
+        "total_price": 3575.0,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 13.94,
+        "total_price": 6970.0,
+        "provider_part_number": "849-CPC1998J",
+        "pack_format": ""
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "849-CPC1998J",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "available_pack_formats": [
+          "Tube"
+        ],
+        "minimum_order_quantity": 1,
+        "order_multiple": 1,
+        "pack_quantity": 25,
+        "quantity_available": 4562,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 18.71,
+            "total_price": 18.71
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 16.99,
+            "total_price": 169.9
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 16.18,
+            "total_price": 404.5
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 15.47,
+            "total_price": 773.5
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 14.95,
+            "total_price": 1495.0
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 14.3,
+            "total_price": 3575.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 13.94,
+            "total_price": 6970.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 25,
+    "pack_formats": [
+      "Tube"
+    ],
+    "weight_value": 5.684,
+    "weight_unit": "g",
+    "deliveries": [
+      {
+        "Quantity": 2725,
+        "Date": "2026-09-21T00:00:00"
+      }
+    ]
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "EAR99",
+    "hts_code": "8541498000",
+    "country_of_origin": "Philippines",
+    "additional_compliance": {
+      "TARIC": "8536490099",
+      "CNHTS": "8541490000",
+      "CAHTS": "8536490010",
+      "JPHTS": "8536490001",
+      "KRHTS": "8536490000",
+      "BRHTS": "85364900",
+      "Assembly Country of Origin": "Not available",
+      "Country of Diffusion": "Not available"
+    }
+  },
+  "media": {
+    "primary_image_url": "https://www.mouser.com/images/ixys/images/CPC1998_DSL.JPG",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/100/1/CPC1998J.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/IXYS-Integrated-Circuits/CPC1998J?qs=MxzUEhdSHRY7LQM%252B%2FT7QOw%3D%3D",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "Mouser",
+    "locale": "en-US",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:09:43Z",
+    "source_endpoints": [
+      "Part_Number_Search"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Manufacturer",
+      "raw_value": "IXYS Integrated Circuits",
+      "normalised_value": "IXYS Integrated Circuits",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ManufacturerPartNumber",
+      "raw_value": "CPC1998J",
+      "normalised_value": "CPC1998J",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "AvailabilityInStock",
+      "raw_value": "4562",
+      "normalised_value": 4562,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "PriceBreaks",
+      "raw_value": [
+        {
+          "Quantity": 1,
+          "Price": "€18.71",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 10,
+          "Price": "€16.99",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 25,
+          "Price": "€16.18",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 50,
+          "Price": "€15.47",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 100,
+          "Price": "€14.95",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 250,
+          "Price": "€14.30",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 500,
+          "Price": "€13.94",
+          "Currency": "EUR"
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 18.71,
+          "total_price": 18.71,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 16.99,
+          "total_price": 169.9,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 25,
+          "unit_price": 16.18,
+          "total_price": 404.5,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 50,
+          "unit_price": 15.47,
+          "total_price": 773.5,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 14.95,
+          "total_price": 1495.0,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 14.3,
+          "total_price": 3575.0,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 13.94,
+          "total_price": 6970.0,
+          "provider_part_number": "849-CPC1998J",
+          "pack_format": ""
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "commercial.offers": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductAttributes + PriceBreaks",
+      "raw_value": {
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Tube"
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "25"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "€18.71",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 10,
+            "Price": "€16.99",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 25,
+            "Price": "€16.18",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 50,
+            "Price": "€15.47",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 100,
+            "Price": "€14.95",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 250,
+            "Price": "€14.30",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 500,
+            "Price": "€13.94",
+            "Currency": "EUR"
+          }
+        ]
+      },
+      "normalised_value": [
+        {
+          "provider_part_number": "849-CPC1998J",
+          "supplier": "Mouser",
+          "package_type_id": null,
+          "package_type": "",
+          "packaging_code": "",
+          "pack_format": "",
+          "available_pack_formats": [
+            "Tube"
+          ],
+          "minimum_order_quantity": 1,
+          "order_multiple": 1,
+          "pack_quantity": 25,
+          "quantity_available": 4562,
+          "maximum_distribution_quantity": null,
+          "marketplace": false,
+          "tariff_active": null,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 18.71,
+              "total_price": 18.71
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 16.99,
+              "total_price": 169.9
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 16.18,
+              "total_price": 404.5
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 15.47,
+              "total_price": 773.5
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 14.95,
+              "total_price": 1495.0
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 14.3,
+              "total_price": 3575.0
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 13.94,
+              "total_price": 6970.0
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "commercial.manufacturer_lead_time_weeks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "LeadTime",
+      "raw_value": "161 Days",
+      "normalised_value": 23.0,
+      "unit": "weeks",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Standard Pack Qty",
+      "raw_value": "25",
+      "normalised_value": 25,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ROHSStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "regulatory.eccn": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductCompliance.ECCN",
+      "raw_value": "EAR99",
+      "normalised_value": "EAR99",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    },
+    "regulatory.country_of_origin": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "TradeCompliance.Country of Origin",
+      "raw_value": "Philippines",
+      "normalised_value": "Philippines",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:43Z"
+    }
+  },
+  "raw_references": {
+    "part_number_search": "Knowledge_Base\\Current\\Mouser\\Part_Number_Search\\Littelfuse_Inc__CPC1998J.json"
+  }
+}

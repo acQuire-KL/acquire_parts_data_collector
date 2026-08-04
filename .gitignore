@@ -3,7 +3,7 @@
 .idea/
 __pycache__/
 *.pyc
-output/*
+#output/*  Allow during Dev work ONLY
 !output/.gitkeep
 raw_responses/*
 !raw_responses/.gitkeep

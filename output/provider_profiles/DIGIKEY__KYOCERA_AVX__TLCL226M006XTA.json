@@ -1,0 +1,697 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "KYOCERA AVX",
+    "manufacturer_part_number": "TLCL226M006XTA",
+    "provider_part_number": "478-3343-1-ND",
+    "alternative_names": [
+      "478-3343-6",
+      "478-3343-2",
+      "478-3343-1"
+    ],
+    "description": "CAP TANT 22UF 20% 6.3V 0603",
+    "detailed_description": "22 µF Molded Tantalum Capacitors 6.3 V 0603 (1608 Metric) 7.5Ohm",
+    "category": "Capacitors",
+    "subcategory": "Tantalum Capacitors",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "Molded",
+    "regulator_type": [],
+    "manufacturer_series": "TLC",
+    "package": "0603 (1608 Metric)",
+    "supplier_device_package": "",
+    "mounting_type": "SMD",
+    "output_voltage_v": 6.3,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 125.0,
+    "tolerance_percent": 20.0,
+    "channel_count": null,
+    "additional_attributes": {
+      "Capacitance": [
+        "22 µF"
+      ],
+      "ESR (Equivalent Series Resistance)": [
+        "7.5Ohm"
+      ],
+      "Lifetime @ Temp.": [
+        "-"
+      ],
+      "Size / Dimension": [
+        "0.063\" L x 0.033\" W (1.60mm x 0.85mm)"
+      ],
+      "Height - Seated (Max)": [
+        "0.039\" (1.00mm)"
+      ],
+      "Lead Spacing": [
+        "-"
+      ],
+      "Manufacturer Size Code": [
+        "L"
+      ],
+      "Features": [
+        "General Purpose"
+      ],
+      "Failure Rate": [
+        "-"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 23.0,
+    "unit_price": 1.68,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 1.68,
+        "total_price": 1.68,
+        "provider_part_number": "478-3343-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 1.127,
+        "total_price": 11.27,
+        "provider_part_number": "478-3343-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.9076,
+        "total_price": 45.38,
+        "provider_part_number": "478-3343-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.8401,
+        "total_price": 84.01,
+        "provider_part_number": "478-3343-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 1.68,
+        "total_price": 1.68,
+        "provider_part_number": "478-3343-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 1.127,
+        "total_price": 11.27,
+        "provider_part_number": "478-3343-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.9076,
+        "total_price": 45.38,
+        "provider_part_number": "478-3343-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.8401,
+        "total_price": 84.01,
+        "provider_part_number": "478-3343-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.72576,
+        "total_price": 362.88,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.69037,
+        "total_price": 690.37,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 1500,
+        "unit_price": 0.67265,
+        "total_price": 1008.975,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 2500,
+        "unit_price": 0.653,
+        "total_price": 1632.5,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 3500,
+        "unit_price": 0.64152,
+        "total_price": 2245.32,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 0.63047,
+        "total_price": 3152.35,
+        "provider_part_number": "478-3343-2-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "478-3343-1-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.68,
+            "total_price": 1.68
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.127,
+            "total_price": 11.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.9076,
+            "total_price": 45.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8401,
+            "total_price": 84.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-3343-6-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.68,
+            "total_price": 1.68
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.127,
+            "total_price": 11.27
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.9076,
+            "total_price": 45.38
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8401,
+            "total_price": 84.01
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "478-3343-2-ND",
+        "supplier": "KYOCERA AVX",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 0.72576,
+            "total_price": 362.88
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.69037,
+            "total_price": 690.37
+          },
+          {
+            "break_quantity": 1500,
+            "unit_price": 0.67265,
+            "total_price": 1008.975
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.653,
+            "total_price": 1632.5
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.64152,
+            "total_price": 2245.32
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.63047,
+            "total_price": 3152.35
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 500,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "3  (168 Hours)",
+    "eccn": "EAR99",
+    "hts_code": "8532.21.0050",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2603/TAC%2CTLC%20SERIES%201.6L%2C0.85W.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://datasheets.kyocera-avx.com/TLC.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/kyocera-avx/TLCL226M006XTA/929975",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:04:56Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "KYOCERA AVX",
+      "normalised_value": "KYOCERA AVX",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "TLCL226M006XTA",
+      "normalised_value": "TLCL226M006XTA",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "0603 (1608 Metric)",
+      "normalised_value": "0603 (1608 Metric)",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "478-3343-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.72576,
+              "TotalPrice": 362.88
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.69037,
+              "TotalPrice": 690.37
+            },
+            {
+              "BreakQuantity": 1500,
+              "UnitPrice": 0.67265,
+              "TotalPrice": 1008.975
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.653,
+              "TotalPrice": 1632.5
+            },
+            {
+              "BreakQuantity": 3500,
+              "UnitPrice": 0.64152,
+              "TotalPrice": 2245.32
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.63047,
+              "TotalPrice": 3152.35
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 500,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "478-3343-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.68,
+              "TotalPrice": 1.68
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.127,
+              "TotalPrice": 11.27
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.9076,
+              "TotalPrice": 45.38
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8401,
+              "TotalPrice": 84.01
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "478-3343-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.68,
+              "TotalPrice": 1.68
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.127,
+              "TotalPrice": 11.27
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.9076,
+              "TotalPrice": 45.38
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8401,
+              "TotalPrice": 84.01
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 478,
+            "Name": "KYOCERA AVX"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "478-3343-1-ND",
+          "supplier": "KYOCERA AVX",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.68,
+              "total_price": 1.68
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 1.127,
+              "total_price": 11.27
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.9076,
+              "total_price": 45.38
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.8401,
+              "total_price": 84.01
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "478-3343-6-ND",
+          "supplier": "KYOCERA AVX",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.68,
+              "total_price": 1.68
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 1.127,
+              "total_price": 11.27
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.9076,
+              "total_price": 45.38
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.8401,
+              "total_price": 84.01
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "478-3343-2-ND",
+          "supplier": "KYOCERA AVX",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 500,
+          "pack_quantity": 500,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 500,
+              "unit_price": 0.72576,
+              "total_price": 362.88
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.69037,
+              "total_price": 690.37
+            },
+            {
+              "break_quantity": 1500,
+              "unit_price": 0.67265,
+              "total_price": 1008.975
+            },
+            {
+              "break_quantity": 2500,
+              "unit_price": 0.653,
+              "total_price": 1632.5
+            },
+            {
+              "break_quantity": 3500,
+              "unit_price": 0.64152,
+              "total_price": 2245.32
+            },
+            {
+              "break_quantity": 5000,
+              "unit_price": 0.63047,
+              "total_price": 3152.35
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 0,
+      "normalised_value": 0,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:56Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\KYOCERA_AVX__TLCL226M006XTA.json"
+  }
+}

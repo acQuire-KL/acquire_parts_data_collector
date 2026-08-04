@@ -1,0 +1,420 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "ONSEMI",
+    "manufacturer_part_number": "MMSD914T1G",
+    "provider_part_number": "MMSD914T1G",
+    "alternative_names": [],
+    "description": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+    "detailed_description": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+    "category": "SMD universal diodes",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "SOD123",
+    "supplier_device_package": "",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Type of diode": [
+        "switching"
+      ],
+      "Max. off-state voltage": [
+        "0.1kV"
+      ],
+      "Load current": [
+        "0.2A"
+      ],
+      "Reverse recovery time": [
+        "4ns"
+      ],
+      "Semiconductor structure": [
+        "single diode"
+      ],
+      "Capacitance": [
+        "4pF"
+      ],
+      "Max. forward voltage": [
+        "1V"
+      ],
+      "Max. forward impulse current": [
+        "2A"
+      ],
+      "Leakage current": [
+        "5µA"
+      ],
+      "Power dissipation": [
+        "0.425W"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 345,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.1196,
+        "special": false
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.0744,
+        "special": false
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.0592,
+        "special": false
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.05,
+        "special": false
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.0426,
+        "special": false
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.0351,
+        "special": false
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.0307,
+        "special": false
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.0262,
+        "special": false
+      },
+      {
+        "break_quantity": 3000,
+        "unit_price": 0.0215,
+        "special": false
+      },
+      {
+        "break_quantity": 6000,
+        "unit_price": 0.0194,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": 3000,
+    "manufacturer_standard_pack_quantity": null,
+    "pack_formats": [
+      "Reel",
+      "Tape"
+    ],
+    "weight_value": 0.02,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=0ed02bb7658a142d379e684e191663d4200a34cb",
+    "thumbnail_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=100&height=75&q=75&ci_sign=700d9133e031c7ebd9f91cf4cbf5bb7ade1258cc",
+    "high_resolution_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/D9/49/D0/00/0/890013_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d3ab3cf246e9f6a88f95fda4cb510794a983213c",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:06:40Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "ONSEMI",
+      "normalised_value": "ONSEMI",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "MMSD914T1G",
+      "normalised_value": "MMSD914T1G",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+      "normalised_value": "Diode: switching; SMD; 100V; 0.2A; 4ns; SOD123; Ufmax: 1V; Ifsm: 2A",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "SOD123",
+      "normalised_value": "SOD123",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "SMD",
+      "normalised_value": "SMD",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 345,
+      "normalised_value": 345,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 0.1196,
+          "special": false
+        },
+        {
+          "amount": 10,
+          "price": 0.0744,
+          "special": false
+        },
+        {
+          "amount": 25,
+          "price": 0.0592,
+          "special": false
+        },
+        {
+          "amount": 50,
+          "price": 0.05,
+          "special": false
+        },
+        {
+          "amount": 100,
+          "price": 0.0426,
+          "special": false
+        },
+        {
+          "amount": 250,
+          "price": 0.0351,
+          "special": false
+        },
+        {
+          "amount": 500,
+          "price": 0.0307,
+          "special": false
+        },
+        {
+          "amount": 1000,
+          "price": 0.0262,
+          "special": false
+        },
+        {
+          "amount": 3000,
+          "price": 0.0215,
+          "special": false
+        },
+        {
+          "amount": 6000,
+          "price": 0.0194,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.1196,
+          "special": false
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.0744,
+          "special": false
+        },
+        {
+          "break_quantity": 25,
+          "unit_price": 0.0592,
+          "special": false
+        },
+        {
+          "break_quantity": 50,
+          "unit_price": 0.05,
+          "special": false
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.0426,
+          "special": false
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 0.0351,
+          "special": false
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 0.0307,
+          "special": false
+        },
+        {
+          "break_quantity": 1000,
+          "unit_price": 0.0262,
+          "special": false
+        },
+        {
+          "break_quantity": 3000,
+          "unit_price": 0.0215,
+          "special": false
+        },
+        {
+          "break_quantity": 6000,
+          "unit_price": 0.0194,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": 3000,
+      "normalised_value": 3000,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:40Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\ONSEMI__MMSD914T1G.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\ONSEMI__MMSD914T1G.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\ONSEMI__MMSD914T1G.json"
+  }
+}

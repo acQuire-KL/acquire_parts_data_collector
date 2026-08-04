@@ -1,0 +1,377 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "TEXAS INSTRUMENTS",
+    "manufacturer_part_number": "INA228AIDGSR",
+    "provider_part_number": "INA228AIDGSR",
+    "alternative_names": [],
+    "description": "IC: instrumentation amplifier; 2.7÷5.5VDC; VSSOP10; reel,tape",
+    "detailed_description": "IC: instrumentation amplifier; 2.7÷5.5VDC; VSSOP10; reel,tape",
+    "category": "SMD operational amplifiers",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "instrumentation amplifier",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "VSSOP10",
+    "supplier_device_package": "",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 125.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Voltage supply range": [
+        "2.7...5.5V DC"
+      ],
+      "Integrated circuit features": [
+        "20bit ADC"
+      ],
+      "Interface": [
+        "I2C",
+        "SMBus"
+      ],
+      "Kind of integrated circuit": [
+        "bidirectional",
+        "current and voltage monitor",
+        "high-/low-side"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 0,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 3.5,
+        "special": false
+      },
+      {
+        "break_quantity": 3,
+        "unit_price": 3.16,
+        "special": false
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 2.84,
+        "special": false
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 2.52,
+        "special": false
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 2.41,
+        "special": false
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 2.24,
+        "special": false
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 2.16,
+        "special": false
+      },
+      {
+        "break_quantity": 2500,
+        "unit_price": 2.06,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 2500,
+    "pack_formats": [
+      "Reel",
+      "Tape"
+    ],
+    "weight_value": 0.056,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [
+      "BLOCKED_FOR_ZBL_BACKORDERS"
+    ],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=23f79920d32ecc06240591bf9ee3acc4712a239a",
+    "thumbnail_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=100&height=75&q=75&ci_sign=e6c21693f14e722857418509525144905ac86043",
+    "high_resolution_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/59/6B/41/00/0/1357461_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=e720bc52a77d85e04f7ede8236e9c0ea12749007",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:12:38Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "TEXAS INSTRUMENTS",
+      "normalised_value": "TEXAS INSTRUMENTS",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "INA228AIDGSR",
+      "normalised_value": "INA228AIDGSR",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "IC: instrumentation amplifier; 2.7÷5.5VDC; VSSOP10; reel,tape",
+      "normalised_value": "IC: instrumentation amplifier; 2.7÷5.5VDC; VSSOP10; reel,tape",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "VSSOP10",
+      "normalised_value": "VSSOP10",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "SMT",
+      "normalised_value": "SMD",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "-40...125°C",
+      "normalised_value": {
+        "min": -40.0,
+        "max": 125.0
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 0,
+      "normalised_value": 0,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 3.5,
+          "special": false
+        },
+        {
+          "amount": 3,
+          "price": 3.16,
+          "special": false
+        },
+        {
+          "amount": 10,
+          "price": 2.84,
+          "special": false
+        },
+        {
+          "amount": 25,
+          "price": 2.52,
+          "special": false
+        },
+        {
+          "amount": 100,
+          "price": 2.41,
+          "special": false
+        },
+        {
+          "amount": 250,
+          "price": 2.24,
+          "special": false
+        },
+        {
+          "amount": 1000,
+          "price": 2.16,
+          "special": false
+        },
+        {
+          "amount": 2500,
+          "price": 2.06,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 3.5,
+          "special": false
+        },
+        {
+          "break_quantity": 3,
+          "unit_price": 3.16,
+          "special": false
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 2.84,
+          "special": false
+        },
+        {
+          "break_quantity": 25,
+          "unit_price": 2.52,
+          "special": false
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 2.41,
+          "special": false
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 2.24,
+          "special": false
+        },
+        {
+          "break_quantity": 1000,
+          "unit_price": 2.16,
+          "special": false
+        },
+        {
+          "break_quantity": 2500,
+          "unit_price": 2.06,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": null,
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "2500pcs.",
+      "normalised_value": 2500,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:38Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\TEXAS_INSTRUMENTS__INA228AIDGSR.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\TEXAS_INSTRUMENTS__INA228AIDGSR.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\TEXAS_INSTRUMENTS__INA228AIDGSR.json"
+  }
+}

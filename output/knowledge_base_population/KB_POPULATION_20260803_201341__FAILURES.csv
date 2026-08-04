@@ -1,0 +1,422 @@
+﻿Record ID,Manufacturer,Manufacturer Part Number,Provider,Status,Message,Knowledge Base Paths,PDCPartProfile Path
+PMR-000007,TDK Corporation,PS1440P02BT,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TDK_Corporation__PS1440P02BT.json,
+PMR-000008,MPD (Memory Protection Devices),BK-920,Mouser,Not Found,Mouser returned no parts,Knowledge_Base\Current\Mouser\Part_Number_Search\MPD_Memory_Protection_Devices__BK-920.json,
+PMR-000011,Wurth,885012006004,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012006004.json,
+PMR-000012,Würth Elektronik,885012007002,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012007002.json,
+PMR-000014,Wurth,885012006054,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012006054.json,
+PMR-000016,Wurth,885012206077,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012206077.json,
+PMR-000018,Wurth,885012006010,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012006010.json,
+PMR-000019,Walsin Technology Corporation,0603B561J100CT,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Walsin_Technology_Corporation__0603B561J100CT.json,
+PMR-000020,KEMET,C0805C561J4HAC7800,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product c0805c561j4hac7800 Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""16d1d2a4-b84f-44de-8188-a21118ac2f7b"",
+                ""errors"": []
+            }
+        ",,
+PMR-000020,KEMET,C0805C561J4HAC7800,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\KEMET__C0805C561J4HAC7800.json,
+PMR-000021,Wurth,885012206034,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012206034.json,
+PMR-000022,Würth Elektronik,885012007008,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012007008.json,
+PMR-000024,Würth Elektronik,885012207062,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012207062.json,
+PMR-000026,Wurth,885012206014,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012206014.json,
+PMR-000027,KEMET,C0805C103J4RECAUTO7210,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\KEMET__C0805C103J4RECAUTO7210.json,
+PMR-000030,Wurth,885012206071,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012206071.json,
+PMR-000031,YAGEO,CC0805JRX7R7BB104,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product cc0805jrx7r7bb104 Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""ca5943af-0d30-422e-dce2-3d20e6fe6026"",
+                ""errors"": []
+            }
+        ",,
+PMR-000031,YAGEO,CC0805JRX7R7BB104,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\YAGEO__CC0805JRX7R7BB104.json,
+PMR-000032,Würth Elektronik,885012207098,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012207098.json,
+PMR-000036,Würth Elektronik,885012207051,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012207051.json,
+PMR-000037,Würth Elektronik,885012207078,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012207078.json,
+PMR-000039,Vishay Sprague,298D475X9010M2T,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Vishay_Sprague__298D475X9010M2T.json,
+PMR-000041,Wurth,885012207053,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012207053.json,
+PMR-000043,KYOCERA AVX,TCM1A106M8R-02,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\KYOCERA_AVX__TCM1A106M8R-02.json,
+PMR-000045,Wurth,885012106006,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__885012106006.json,
+PMR-000046,Würth Elektronik,885012207026,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__885012207026.json,
+PMR-000048,YAGEO,CC0805KPX5R5BB106,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\YAGEO__CC0805KPX5R5BB106.json,
+PMR-000050,Samsung Electro-Mechanics,CL31B106KOHNFNE,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Samsung_Electro-Mechanics__CL31B106KOHNFNE.json,
+PMR-000051,Würth Elektronik,875105240001,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__875105240001.json,
+PMR-000052,KYOCERA AVX,TLCL226M006XTA,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\KYOCERA_AVX__TLCL226M006XTA.json,
+PMR-000056,Würth Elektronik,865060453006,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__865060453006.json,
+PMR-000058,Wurth,62000211622,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__62000211622.json,
+PMR-000059,Würth Elektronik,61900211121,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__61900211121.json,
+PMR-000060,Sullins Connector Solutions,NPTC021KFXC-RC,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Sullins_Connector_Solutions__NPTC021KFXC-RC.json,
+PMR-000060,Sullins Connector Solutions,NPTC021KFXC-RC,Mouser,Not Found,Mouser returned no parts,Knowledge_Base\Current\Mouser\Part_Number_Search\Sullins_Connector_Solutions__NPTC021KFXC-RC.json,
+PMR-000061,Wurth,653102124022,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__653102124022.json,
+PMR-000064,Wurth,62000311622,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__62000311622.json,
+PMR-000066,Würth Elektronik,649003013322,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__649003013322.json,
+PMR-000067,Würth Elektronik,64900311122,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__64900311122.json,
+PMR-000068,Würth Elektronik,638263122003,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__638263122003.json,
+PMR-000069,Wurth,638263222003,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__638263222003.json,
+PMR-000070,Wurth,620303124022,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__620303124022.json,
+PMR-000071,Würth Elektronik,691210910004,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__691210910004.json,
+PMR-000072,Wurth,620304124022,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__620304124022.json,
+PMR-000073,Wurth,614104190121,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product 614104190121 Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""9b795df4-50f7-4804-a381-cda81388e1e8"",
+                ""errors"": []
+            }
+        ",,
+PMR-000073,Wurth,614104190121,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__614104190121.json,
+PMR-000074,Würth Elektronik,61300511121,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__61300511121.json,
+PMR-000076,Sullins Connector Solutions,NPTC061KFXC-RC,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Sullins_Connector_Solutions__NPTC061KFXC-RC.json,
+PMR-000076,Sullins Connector Solutions,NPTC061KFXC-RC,Mouser,Not Found,Mouser returned no parts,Knowledge_Base\Current\Mouser\Part_Number_Search\Sullins_Connector_Solutions__NPTC061KFXC-RC.json,
+PMR-000077,Wurth,692122030100,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__692122030100.json,
+PMR-000080,Wurth,61002011921,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product 61002011921 Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""352f2555-5295-4876-d235-b3ea4fca4fa6"",
+                ""errors"": []
+            }
+        ",,
+PMR-000080,Wurth,61002011921,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__61002011921.json,
+PMR-000081,Hirose Electric Co Ltd,CX90MF-16P,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Hirose_Electric_Co_Ltd__CX90MF-16P.json,
+PMR-000083,Amp,12401948E412A,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Amp__12401948E412A.json,
+PMR-000084,SameSky,UJ32-C-V-G-FMT-2-P24,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\SameSky__UJ32-C-V-G-FMT-2-P24.json,
+PMR-000085,Molex,2169900001,Mouser,Failed,HTTPError: 403 Client Error: Forbidden for url: https://api.mouser.com/api/v1/search/partnumber?apiKey=9ddef7f0-02ee-4bcf-b1e4-8ff038b36f45,,
+PMR-000089,Würth Elektronik,693071010811,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__693071010811.json,
+PMR-000090,Würth Elektronik,693072010801,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__693072010801.json,
+PMR-000092,Wurth,632722200212,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__632722200212.json,
+PMR-000093,Wurth,629722000214,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__629722000214.json,
+PMR-000096,Analog Devices Inc./Maxim Integrated,LTC2630ISC6-LZ12#TRMPBF,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Analog_Devices_Inc._Maxim_Integrated__LTC2630ISC6-LZ12_TRMPBF.json,
+PMR-000098,Diotec Semiconductor,1N4448W,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for 1n4448w. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""f5d448ca-0bc0-41ae-d51e-357b4d9d34db"",
+                ""errors"": []
+            }
+        ",,
+PMR-000099,Microchip Technology,SMBJ5361B/TR13,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Microchip_Technology__SMBJ5361B_TR13.json,
+PMR-000100,Comchip,CDBU40,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Comchip__CDBU40.json,
+PMR-000105,Würth Elektronik,742792625,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__742792625.json,
+PMR-000107,Wurth,742841160,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__742841160.json,
+PMR-000110,OnSemi,FDN340P,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for fdn340p. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""8530467c-54d3-4fc1-f8fa-54c11dbf365a"",
+                ""errors"": []
+            }
+        ",,
+PMR-000111,OnSemi,2N7002,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for 2n7002. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""98e22512-bcad-46ad-f393-532605f6e59f"",
+                ""errors"": []
+            }
+        ",,
+PMR-000113,Littelfuse Inc.,1206L110YR,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product 1206l110yr Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""7f31700d-4850-4b90-f9aa-5d4ac811182a"",
+                ""errors"": []
+            }
+        ",,
+PMR-000113,Littelfuse Inc.,1206L110YR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Littelfuse_Inc__1206L110YR.json,
+PMR-000113,Littelfuse Inc.,1206L110YR,Mouser,Not Found,Mouser returned no parts,Knowledge_Base\Current\Mouser\Part_Number_Search\Littelfuse_Inc__1206L110YR.json,
+PMR-000117,TI,ADPL62083UR30O+T,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__ADPL62083UR30O_T.json,
+PMR-000119,Maxim,MAX17048G+T10,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Maxim__MAX17048G_T10.json,
+PMR-000121,Nexperia,TXB0104QRUTRQ1,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Nexperia__TXB0104QRUTRQ1.json,
+PMR-000123,OnSemi,CM1624-08DE,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\OnSemi__CM1624-08DE.json,
+PMR-000124,TI,OPA4391PWR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__OPA4391PWR.json,
+PMR-000128,Texas Instruments,LM311DR,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for lm311dr. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""3594a528-20f2-42bc-8656-b2760b7100c0"",
+                ""errors"": []
+            }
+        ",,
+PMR-000129,Texas Instruments,LM2903BIDR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Texas_Instruments__LM2903BIDR.json,
+PMR-000130,Allegro MicroSystems,ACS71240LLCBTR-010B3,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Allegro_MicroSystems__ACS71240LLCBTR-010B3.json,
+PMR-000133,Analog Devices Inc./Maxim Integrated,MAX31865AAP+,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Analog_Devices_Inc._Maxim_Integrated__MAX31865AAP.json,
+PMR-000134,Analog Devices,MAX38888ATD+T,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Analog_Devices__MAX38888ATD_T.json,
+PMR-000135,OnSemi,TL331VSN4T1G,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\OnSemi__TL331VSN4T1G.json,
+PMR-000136,Texas Instruments,LM2903BIDDFR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Texas_Instruments__LM2903BIDDFR.json,
+PMR-000140,Würth Elektronik,744383130033,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__744383130033.json,
+PMR-000141,Coilcraft,XFL4015-471MEC,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Coilcraft__XFL4015-471MEC.json,
+PMR-000143,Coilcraft,XAL4020-222ME,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product xal4020-222me Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""310f0c89-1dd9-432a-b95e-527828dd68a0"",
+                ""errors"": []
+            }
+        ",,
+PMR-000143,Coilcraft,XAL4020-222ME,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Coilcraft__XAL4020-222ME.json,
+PMR-000144,Wurth,744042100,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__744042100.json,
+PMR-000145,Würth Elektronik,150060VS75000,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__150060VS75000.json,
+PMR-000146,Würth Elektronik,150080VS75000,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__150080VS75000.json,
+PMR-000147,Würth Elektronik,150060SS75000,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__150060SS75000.json,
+PMR-000148,Kingbright,APTD1608LSECK/J3-PF,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Kingbright__APTD1608LSECK_J3-PF.json,
+PMR-000157,Würth Elektronik,140354245100,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__140354245100.json,
+PMR-000161,Bourns Inc.,TC33X-2-103E,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Bourns_Inc__TC33X-2-103E.json,
+PMR-000164,ADI,ADR5041BKSZ,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product adr5041bksz Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""466be7e5-b0eb-4059-a8af-d6eefc5ada78"",
+                ""errors"": []
+            }
+        ",,
+PMR-000164,ADI,ADR5041BKSZ,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\ADI__ADR5041BKSZ.json,
+PMR-000166,ADI / Linear,LT3042EDD#TRPBF,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\ADI_Linear__LT3042EDD_TRPBF.json,
+PMR-000169,ADI / Linear,LTC3118IUFD#PBF,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\ADI_Linear__LTC3118IUFD_PBF.json,
+PMR-000171,TI,TPS63802DLAR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__TPS63802DLAR.json,
+PMR-000175,EVVO,AMS1117-3.3,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for ams1117-3.3. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""69c4bea2-04b2-4b0b-cc53-efcc212e36bf"",
+                ""errors"": []
+            }
+        ",,
+PMR-000175,EVVO,AMS1117-3.3,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\EVVO__AMS1117-3.3.json,
+PMR-000177,TI,LM27762DSST,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__LM27762DSST.json,
+PMR-000181,Walsin Technology Corporation,WF25P10R0FTL,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product wf25p10r0ftl Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""b063879f-b922-45db-a104-0d5372f21677"",
+                ""errors"": []
+            }
+        ",,
+PMR-000181,Walsin Technology Corporation,WF25P10R0FTL,Mouser,Not Found,Mouser returned no parts,Knowledge_Base\Current\Mouser\Part_Number_Search\Walsin_Technology_Corporation__WF25P10R0FTL.json,
+PMR-000184,YAGEO,RC2512FK-0739RL,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\YAGEO__RC2512FK-0739RL.json,
+PMR-000188,YAGEO,RT0603FRE07232RL,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\YAGEO__RT0603FRE07232RL.json,
+PMR-000190,YAGEO,RT0603FRE07332RL,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\YAGEO__RT0603FRE07332RL.json,
+PMR-000195,Stackpole Electronics Inc,RMCF0603FT1K50,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Stackpole_Electronics_Inc__RMCF0603FT1K50.json,
+PMR-000204,Vishay Dale Thin Film,TNPW060310K0BEEA,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Vishay_Dale_Thin_Film__TNPW060310K0BEEA.json,
+PMR-000208,Vishay Dale Thin Film,TNPW060325K2BEEN,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Vishay_Dale_Thin_Film__TNPW060325K2BEEN.json,
+PMR-000210,Vishay Dale Thin Film,TNPW060350K5BEEA,DigiKey,Failed,"RuntimeError: DigiKey 500: {""fault"":{""faultstring"":""Execution of ServiceCallout SC-Quota failed. Reason: ResponseCode 500 is treated as error"",""detail"":{""errorcode"":""steps.servicecallout.ExecutionFailed""}}}",,
+PMR-000210,Vishay Dale Thin Film,TNPW060350K5BEEA,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Vishay_Dale_Thin_Film__TNPW060350K5BEEA.json,
+PMR-000211,Royal Ohm,0603SAF8662T5E,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product 0603saf8662t5e Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""08901ead-f187-46b9-ee2d-8ddbd8b476cc"",
+                ""errors"": []
+            }
+        ",,
+PMR-000215,Vishay Dale Thin Film,TNPW0603100KBEEN,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Vishay_Dale_Thin_Film__TNPW0603100KBEEN.json,
+PMR-000216,Panasonic,ERJ3EKF1303V,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product erj3ekf1303v Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""b8f09e8a-e637-4b57-b0ec-4d48b29f77ca"",
+                ""errors"": []
+            }
+        ",,
+PMR-000221,Panasonic,ERJ3EKF3923V,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product erj3ekf3923v Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""b84dcd69-1232-47e0-c874-a000329d3e3a"",
+                ""errors"": []
+            }
+        ",,
+PMR-000224,Panasonic,ERJ3EKF6193V,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product erj3ekf6193v Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""d57d5c70-b46e-402e-e0e0-b5cacbff6213"",
+                ""errors"": []
+            }
+        ",,
+PMR-000226,Royal Ohm,0603SAF1204T5E,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product 0603saf1204t5e Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""6c82ca36-0997-4fbc-c9d5-f863b1a42edb"",
+                ""errors"": []
+            }
+        ",,
+PMR-000230,Kemet,FC0H474ZFTBR32-SS,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Kemet__FC0H474ZFTBR32-SS.json,
+PMR-000231,ScioSense,ENS210-LQFM,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\ScioSense__ENS210-LQFM.json,
+PMR-000232,ST Micro,MP34DT05-A,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product mp34dt05-a Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""da7d579a-10eb-41d2-ec45-0b87d8979c94"",
+                ""errors"": []
+            }
+        ",,
+PMR-000233,Knowles,SPH0645LM4H,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product sph0645lm4h Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""5e5d64a4-5cdf-4a72-d002-d9d47c4f8038"",
+                ""errors"": []
+            }
+        ",,
+PMR-000233,Knowles,SPH0645LM4H,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Knowles__SPH0645LM4H.json,
+PMR-000234,Infineon Technologies,IM69D120,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product im69d120 Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""fe5a791b-c9e0-451e-a266-b584142c2f44"",
+                ""errors"": []
+            }
+        ",,
+PMR-000235,Melexis Technologies NV,MLX90640ESF-BAB-000-TU,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product mlx90640esf-bab-000-tu Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""d769b2fa-e561-42fe-e6b1-5f6eb8c53c73"",
+                ""errors"": []
+            }
+        ",,
+PMR-000235,Melexis Technologies NV,MLX90640ESF-BAB-000-TU,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Melexis_Technologies_NV__MLX90640ESF-BAB-000-TU.json,
+PMR-000240,Adafruit,2384,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for 2384. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""68efaa6a-e872-404b-8ee0-73d31bb89828"",
+                ""errors"": []
+            }
+        ",,
+PMR-000241,Wurth,2533020201601,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Wurth__2533020201601.json,
+PMR-000243,TDK InvenSense,ICS-40730,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TDK_InvenSense__ICS-40730.json,
+PMR-000245,C&K,KMR213G LFG,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\C_K__KMR213G_LFG.json,
+PMR-000246,Würth Elektronik,434153017835,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\W_rth_Elektronik__434153017835.json,
+PMR-000252,Semtech,RClamp3371ZC,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product rclamp3371zc Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""6665418d-9128-4c8a-9dc7-261e97c009bb"",
+                ""errors"": []
+            }
+        ",,
+PMR-000252,Semtech,RClamp3371ZC,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Semtech__RClamp3371ZC.json,
+PMR-000253,Bourns Inc.,SMBJ7.0A,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for smbj7.0a. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""3a97b410-42c3-4104-d910-12042450a717"",
+                ""errors"": []
+            }
+        ",,
+PMR-000254,ST Micro,USBLC6-2SC6,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for usblc6-2sc6. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""2074efcb-7988-470b-ac90-271113d4019b"",
+                ""errors"": []
+            }
+        ",,
+PMR-000255,Semtech,UCLAMP2411ZATFT,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Semtech__UCLAMP2411ZATFT.json,
+PMR-000256,EVVO,PESD1CAN,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Duplicate Products found for pesd1can. Please narrow your search or provide manufacturerId"",
+                ""instance"": """",
+                ""correlationId"": ""4a0be05f-033c-489c-b1d3-1f6e0146da11"",
+                ""errors"": []
+            }
+        ",,
+PMR-000258,Semtech,TDS2221PW,DigiKey,Failed,"RuntimeError: DigiKey 404: 
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
+                ""title"": ""Not Found"",
+                ""status"": 404,
+                ""detail"": ""Requested Product tds2221pw Not Found"",
+                ""instance"": """",
+                ""correlationId"": ""aa6f065a-6b36-4795-f7df-87591a0acda1"",
+                ""errors"": []
+            }
+        ",,
+PMR-000258,Semtech,TDS2221PW,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\Semtech__TDS2221PW.json,
+PMR-000259,TI,TPD8S300ARUKR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__TPD8S300ARUKR.json,
+PMR-000260,TI,TPD6S300ARUKR,TME,Not Found,TME returned no products,Knowledge_Base\Current\TME\Product_Search\TI__TPD6S300ARUKR.json,

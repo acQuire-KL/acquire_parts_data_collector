@@ -1,0 +1,605 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "YAGEO",
+    "manufacturer_part_number": "CC0805KPX5R5BB106",
+    "provider_part_number": "603-CC0805KPX5R5BB10",
+    "alternative_names": [],
+    "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 10uF X5R 0805 10% HI CV",
+    "detailed_description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 10uF X5R 0805 10% HI CV",
+    "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {}
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 52.0,
+    "unit_price": 0.138,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.138,
+        "total_price": 0.138,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.057,
+        "total_price": 0.57,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.05,
+        "total_price": 5.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.038,
+        "total_price": 19.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.034,
+        "total_price": 34.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 2500,
+        "unit_price": 0.03,
+        "total_price": 75.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 0.028,
+        "total_price": 140.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 10000,
+        "unit_price": 0.022,
+        "total_price": 220.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 15000,
+        "unit_price": 0.022,
+        "total_price": 330.0,
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "pack_format": ""
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "603-CC0805KPX5R5BB10",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "available_pack_formats": [
+          "Reel",
+          "Cut Tape",
+          "MouseReel"
+        ],
+        "minimum_order_quantity": 1,
+        "order_multiple": 1,
+        "pack_quantity": 15000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "MouseReel service charge",
+            "amount": 5.0,
+            "currency": "EUR",
+            "application": "per_order_line",
+            "raw_description": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.138,
+            "total_price": 0.138
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.057,
+            "total_price": 0.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.05,
+            "total_price": 5.0
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.038,
+            "total_price": 19.0
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.034,
+            "total_price": 34.0
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.03,
+            "total_price": 75.0
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.028,
+            "total_price": 140.0
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.022,
+            "total_price": 220.0
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.022,
+            "total_price": 330.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 15000,
+    "pack_formats": [
+      "Reel",
+      "Cut Tape",
+      "MouseReel"
+    ],
+    "weight_value": 0.0055,
+    "weight_unit": "g",
+    "deliveries": [
+      {
+        "Quantity": 75000,
+        "Date": "2026-10-23T00:00:00"
+      }
+    ]
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "EAR99",
+    "hts_code": "8532240020",
+    "country_of_origin": "Taiwan",
+    "additional_compliance": {
+      "TARIC": "8532240000",
+      "CNHTS": "8532241000",
+      "CAHTS": "8532240010",
+      "JPHTS": "853224000",
+      "KRHTS": "8532240000",
+      "MXHTS": "8532240400",
+      "BRHTS": "85322410",
+      "Assembly Country of Origin": "Not available",
+      "Country of Diffusion": "Not available"
+    }
+  },
+  "media": {
+    "primary_image_url": "https://www.mouser.com/images/yageo/images/AC_capacitor_SPL.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/508/1/upy-gphc_x5r_4v-to-50v.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/YAGEO/CC0805KPX5R5BB106?qs=mzRxyRlhVdteieYD40V4vg%3D%3D",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "Mouser",
+    "locale": "en-US",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:04:50Z",
+    "source_endpoints": [
+      "Part_Number_Search"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Manufacturer",
+      "raw_value": "YAGEO",
+      "normalised_value": "YAGEO",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ManufacturerPartNumber",
+      "raw_value": "CC0805KPX5R5BB106",
+      "normalised_value": "CC0805KPX5R5BB106",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "AvailabilityInStock",
+      "raw_value": "0",
+      "normalised_value": 0,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "PriceBreaks",
+      "raw_value": [
+        {
+          "Quantity": 1,
+          "Price": "€0.138",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 10,
+          "Price": "€0.057",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 100,
+          "Price": "€0.05",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 500,
+          "Price": "€0.038",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 1000,
+          "Price": "€0.034",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 2500,
+          "Price": "€0.03",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 5000,
+          "Price": "€0.028",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 10000,
+          "Price": "€0.022",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 15000,
+          "Price": "€0.022",
+          "Currency": "EUR"
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.138,
+          "total_price": 0.138,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.057,
+          "total_price": 0.57,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.05,
+          "total_price": 5.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 0.038,
+          "total_price": 19.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 1000,
+          "unit_price": 0.034,
+          "total_price": 34.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 2500,
+          "unit_price": 0.03,
+          "total_price": 75.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 5000,
+          "unit_price": 0.028,
+          "total_price": 140.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 10000,
+          "unit_price": 0.022,
+          "total_price": 220.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 15000,
+          "unit_price": 0.022,
+          "total_price": 330.0,
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "pack_format": ""
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "commercial.offers": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductAttributes + PriceBreaks",
+      "raw_value": {
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Reel"
+          },
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Cut Tape"
+          },
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "MouseReel",
+            "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "15000"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "€0.138",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 10,
+            "Price": "€0.057",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 100,
+            "Price": "€0.05",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 500,
+            "Price": "€0.038",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 1000,
+            "Price": "€0.034",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 2500,
+            "Price": "€0.03",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 5000,
+            "Price": "€0.028",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 10000,
+            "Price": "€0.022",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 15000,
+            "Price": "€0.022",
+            "Currency": "EUR"
+          }
+        ]
+      },
+      "normalised_value": [
+        {
+          "provider_part_number": "603-CC0805KPX5R5BB10",
+          "supplier": "Mouser",
+          "package_type_id": null,
+          "package_type": "",
+          "packaging_code": "",
+          "pack_format": "",
+          "available_pack_formats": [
+            "Reel",
+            "Cut Tape",
+            "MouseReel"
+          ],
+          "minimum_order_quantity": 1,
+          "order_multiple": 1,
+          "pack_quantity": 15000,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": null,
+          "marketplace": false,
+          "tariff_active": null,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "MouseReel service charge",
+              "amount": 5.0,
+              "currency": "EUR",
+              "application": "per_order_line",
+              "raw_description": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.138,
+              "total_price": 0.138
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.057,
+              "total_price": 0.57
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.05,
+              "total_price": 5.0
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.038,
+              "total_price": 19.0
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.034,
+              "total_price": 34.0
+            },
+            {
+              "break_quantity": 2500,
+              "unit_price": 0.03,
+              "total_price": 75.0
+            },
+            {
+              "break_quantity": 5000,
+              "unit_price": 0.028,
+              "total_price": 140.0
+            },
+            {
+              "break_quantity": 10000,
+              "unit_price": 0.022,
+              "total_price": 220.0
+            },
+            {
+              "break_quantity": 15000,
+              "unit_price": 0.022,
+              "total_price": 330.0
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "commercial.manufacturer_lead_time_weeks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "LeadTime",
+      "raw_value": "364 Days",
+      "normalised_value": 52.0,
+      "unit": "weeks",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Standard Pack Qty",
+      "raw_value": "15000",
+      "normalised_value": 15000,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ROHSStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "regulatory.eccn": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductCompliance.ECCN",
+      "raw_value": "EAR99",
+      "normalised_value": "EAR99",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    },
+    "regulatory.country_of_origin": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "TradeCompliance.Country of Origin",
+      "raw_value": "Taiwan",
+      "normalised_value": "Taiwan",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:50Z"
+    }
+  },
+  "raw_references": {
+    "part_number_search": "Knowledge_Base\\Current\\Mouser\\Part_Number_Search\\YAGEO__CC0805KPX5R5BB106.json"
+  }
+}

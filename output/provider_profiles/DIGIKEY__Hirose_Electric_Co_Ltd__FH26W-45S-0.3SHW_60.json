@@ -1,0 +1,786 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_part_number": "FH26W-45S-0.3SHW(60)",
+    "provider_part_number": "H125805CT-ND",
+    "alternative_names": [
+      "H125805TR",
+      "H125805DKR",
+      "580-2414-3-60",
+      "FH26W-45S-0.3SHW(60)-ND",
+      "H125805CT"
+    ],
+    "description": "CONN FPC BOTTOM 45POS 0.3MM R/A",
+    "detailed_description": "45 Position FPC Connector Contacts, Bottom 0.012\" (0.30mm) Surface Mount, Right Angle",
+    "category": "Connectors, Interconnects",
+    "subcategory": "FFC, FPC (Flat Flexible) Connector Assemblies",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "FH26",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "Surface Mount, Right Angle",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 85.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Flat Flex Type": [
+        "FPC"
+      ],
+      "Connector/Contact Type": [
+        "Contacts, Bottom"
+      ],
+      "Number of Positions": [
+        "45"
+      ],
+      "Pitch": [
+        "0.012\" (0.30mm)"
+      ],
+      "Termination": [
+        "Solder"
+      ],
+      "FFC, FCB Thickness": [
+        "0.20mm"
+      ],
+      "Height Above Board": [
+        "0.039\" (1.00mm)"
+      ],
+      "Locking Feature": [
+        "Flip Lock"
+      ],
+      "Cable End Type": [
+        "Tapered"
+      ],
+      "Contact Material": [
+        "Phosphor Bronze"
+      ],
+      "Contact Finish": [
+        "Gold"
+      ],
+      "Housing Material": [
+        "Liquid Crystal Polymer (LCP)"
+      ],
+      "Actuator Material": [
+        "Polyamide (PA), Nylon"
+      ],
+      "Features": [
+        "Zero Insertion Force (ZIF)"
+      ],
+      "Voltage Rating": [
+        "30V"
+      ],
+      "Material Flammability Rating": [
+        "UL94 HB"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 2456,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 12.0,
+    "unit_price": 2.53,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 2.53,
+        "total_price": 2.53,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 2.146,
+        "total_price": 21.46,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 2.0116,
+        "total_price": 50.29,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 1.9152,
+        "total_price": 95.76,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 1.8237,
+        "total_price": 182.37,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 1.70948,
+        "total_price": 427.37,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 1.62788,
+        "total_price": 813.94,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 1.57864,
+        "total_price": 1578.64,
+        "provider_part_number": "H125805CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 2.53,
+        "total_price": 2.53,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 2.146,
+        "total_price": 21.46,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 2.0116,
+        "total_price": 50.29,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 1.9152,
+        "total_price": 95.76,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 1.8237,
+        "total_price": 182.37,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 1.70948,
+        "total_price": 427.37,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 1.62788,
+        "total_price": 813.94,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 1.57864,
+        "total_price": 1578.64,
+        "provider_part_number": "H125805DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 1.38394,
+        "total_price": 6919.7,
+        "provider_part_number": "H125805TR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "H125805CT-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2456,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.53,
+            "total_price": 2.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.146,
+            "total_price": 21.46
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0116,
+            "total_price": 50.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9152,
+            "total_price": 95.76
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8237,
+            "total_price": 182.37
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.70948,
+            "total_price": 427.37
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.62788,
+            "total_price": 813.94
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.57864,
+            "total_price": 1578.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "H125805DKR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2456,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.53,
+            "total_price": 2.53
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.146,
+            "total_price": 21.46
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0116,
+            "total_price": 50.29
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.9152,
+            "total_price": 95.76
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.8237,
+            "total_price": 182.37
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.70948,
+            "total_price": 427.37
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.62788,
+            "total_price": 813.94
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.57864,
+            "total_price": 1578.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "H125805TR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 5000,
+        "pack_quantity": 5000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.38394,
+            "total_price": 6919.7
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 5000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "REACH Unknown",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8536.69.4051",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2475/FH26x-45S-0.3SHW%28xx%29.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.hirose.com/product/document?clcode=CL0580-2401-1-60&productname=FH26W-13S-0.3SHW(60)&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en",
+    "product_url": "https://www.digikey.ie/en/products/detail/hirose-electric-co-ltd/FH26W-45S-0-3SHW-60/5132505",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:06:03Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Hirose Electric Co Ltd",
+      "normalised_value": "Hirose Electric Co Ltd",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "FH26W-45S-0.3SHW(60)",
+      "normalised_value": "FH26W-45S-0.3SHW(60)",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "H125805TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 1.38394,
+              "TotalPrice": 6919.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 5000,
+          "StandardPackage": 5000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "H125805CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.53,
+              "TotalPrice": 2.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.146,
+              "TotalPrice": 21.46
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.0116,
+              "TotalPrice": 50.29
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9152,
+              "TotalPrice": 95.76
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8237,
+              "TotalPrice": 182.37
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.70948,
+              "TotalPrice": 427.37
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.62788,
+              "TotalPrice": 813.94
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.57864,
+              "TotalPrice": 1578.64
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 2456,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "H125805DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.53,
+              "TotalPrice": 2.53
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.146,
+              "TotalPrice": 21.46
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.0116,
+              "TotalPrice": 50.29
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.9152,
+              "TotalPrice": 95.76
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.8237,
+              "TotalPrice": 182.37
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.70948,
+              "TotalPrice": 427.37
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.62788,
+              "TotalPrice": 813.94
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.57864,
+              "TotalPrice": 1578.64
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 2456,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "H125805CT-ND",
+          "supplier": "Hirose Electric Co Ltd",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 2456,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 2.53,
+              "total_price": 2.53
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 2.146,
+              "total_price": 21.46
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 2.0116,
+              "total_price": 50.29
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 1.9152,
+              "total_price": 95.76
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 1.8237,
+              "total_price": 182.37
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 1.70948,
+              "total_price": 427.37
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 1.62788,
+              "total_price": 813.94
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 1.57864,
+              "total_price": 1578.64
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "H125805DKR-ND",
+          "supplier": "Hirose Electric Co Ltd",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 2456,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 2.53,
+              "total_price": 2.53
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 2.146,
+              "total_price": 21.46
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 2.0116,
+              "total_price": 50.29
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 1.9152,
+              "total_price": 95.76
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 1.8237,
+              "total_price": 182.37
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 1.70948,
+              "total_price": 427.37
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 1.62788,
+              "total_price": 813.94
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 1.57864,
+              "total_price": 1578.64
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "H125805TR-ND",
+          "supplier": "Hirose Electric Co Ltd",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 5000,
+          "pack_quantity": 5000,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 5000,
+              "unit_price": 1.38394,
+              "total_price": 6919.7
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 2456,
+      "normalised_value": 2456,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:03Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Hirose_Electric_Co_Ltd__FH26W-45S-0.3SHW_60.json"
+  }
+}

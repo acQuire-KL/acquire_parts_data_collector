@@ -1,0 +1,819 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Molex",
+    "manufacturer_part_number": "1040310811",
+    "provider_part_number": "WM6357CT-ND",
+    "alternative_names": [
+      "WM6357TR",
+      "2266-1040310811-23",
+      "WM6357CT",
+      "WM6357-6-ND",
+      "WM6357-2-ND",
+      "WM6357-2",
+      "104031-0811",
+      "WM6357-1",
+      "WM6357-1-ND",
+      "WM6357-6",
+      "1040310811-ND",
+      "WM6357DKR"
+    ],
+    "description": "CONN MICRO SD CARD R/A SMD",
+    "detailed_description": "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold",
+    "category": "Connectors, Interconnects",
+    "subcategory": "PC Card Sockets",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "104031",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "Surface Mount, Right Angle",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Card Type": [
+        "Secure Digital - microSD™"
+      ],
+      "Number of Positions": [
+        "10 (8 + 2)"
+      ],
+      "Connector Type": [
+        "Connector"
+      ],
+      "Insertion, Removal Method": [
+        "Push In, Pull Out"
+      ],
+      "Ejector Side": [
+        "-"
+      ],
+      "Features": [
+        "Switch"
+      ],
+      "Height Above Board": [
+        "0.056\" (1.42mm)"
+      ],
+      "Mounting Feature": [
+        "Normal, Standard - Top"
+      ],
+      "Contact Finish": [
+        "Gold"
+      ],
+      "Contact Finish Thickness": [
+        "8.00µin (0.203µm)"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 15833,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 15.0,
+    "unit_price": 1.78,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 1.78,
+        "total_price": 1.78,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 1.513,
+        "total_price": 15.13,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 1.4184,
+        "total_price": 35.46,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 1.3504,
+        "total_price": 67.52,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 1.2858,
+        "total_price": 128.58,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 1.20528,
+        "total_price": 301.32,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 1.14774,
+        "total_price": 573.87,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 1.10074,
+        "total_price": 1100.74,
+        "provider_part_number": "WM6357CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 1.78,
+        "total_price": 1.78,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 1.513,
+        "total_price": 15.13,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 1.4184,
+        "total_price": 35.46,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 1.3504,
+        "total_price": 67.52,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 1.2858,
+        "total_price": 128.58,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 1.20528,
+        "total_price": 301.32,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 1.14774,
+        "total_price": 573.87,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 1.10074,
+        "total_price": 1100.74,
+        "provider_part_number": "WM6357DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 2000,
+        "unit_price": 1.15001,
+        "total_price": 2300.02,
+        "provider_part_number": "WM6357TR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 4000,
+        "unit_price": 1.09516,
+        "total_price": 4380.64,
+        "provider_part_number": "WM6357TR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 6000,
+        "unit_price": 1.06431,
+        "total_price": 6385.86,
+        "provider_part_number": "WM6357TR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "WM6357CT-ND",
+        "supplier": "Molex",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357DKR-ND",
+        "supplier": "Molex",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 15833,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.78,
+            "total_price": 1.78
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.513,
+            "total_price": 15.13
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.4184,
+            "total_price": 35.46
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.3504,
+            "total_price": 67.52
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.2858,
+            "total_price": 128.58
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.20528,
+            "total_price": 301.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14774,
+            "total_price": 573.87
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.10074,
+            "total_price": 1100.74
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "WM6357TR-ND",
+        "supplier": "Molex",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 2000,
+        "pack_quantity": 2000,
+        "quantity_available": 15550,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.15001,
+            "total_price": 2300.02
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 1.09516,
+            "total_price": 4380.64
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 1.06431,
+            "total_price": 6385.86
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 2000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8536.69.4040",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/525/1040310811.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.molex.com/en-us/products/part-detail/1040310811?display=pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/molex/1040310811/2370379",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:06:06Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Molex",
+      "normalised_value": "Molex",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "1040310811",
+      "normalised_value": "1040310811",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "WM6357TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 1.15001,
+              "TotalPrice": 2300.02
+            },
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 1.09516,
+              "TotalPrice": 4380.64
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 1.06431,
+              "TotalPrice": 6385.86
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15550,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 2000,
+          "StandardPackage": 2000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "WM6357CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.78,
+              "TotalPrice": 1.78
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.513,
+              "TotalPrice": 15.13
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.4184,
+              "TotalPrice": 35.46
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.3504,
+              "TotalPrice": 67.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.2858,
+              "TotalPrice": 128.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.20528,
+              "TotalPrice": 301.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.14774,
+              "TotalPrice": 573.87
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.10074,
+              "TotalPrice": 1100.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15833,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "WM6357DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.78,
+              "TotalPrice": 1.78
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.513,
+              "TotalPrice": 15.13
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.4184,
+              "TotalPrice": 35.46
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.3504,
+              "TotalPrice": 67.52
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.2858,
+              "TotalPrice": 128.58
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.20528,
+              "TotalPrice": 301.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.14774,
+              "TotalPrice": 573.87
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.10074,
+              "TotalPrice": 1100.74
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 900,
+            "Name": "Molex"
+          },
+          "QuantityAvailableforPackageType": 15833,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "WM6357CT-ND",
+          "supplier": "Molex",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 15833,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.78,
+              "total_price": 1.78
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 1.513,
+              "total_price": 15.13
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 1.4184,
+              "total_price": 35.46
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 1.3504,
+              "total_price": 67.52
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 1.2858,
+              "total_price": 128.58
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 1.20528,
+              "total_price": 301.32
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 1.14774,
+              "total_price": 573.87
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 1.10074,
+              "total_price": 1100.74
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "WM6357DKR-ND",
+          "supplier": "Molex",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 15833,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.78,
+              "total_price": 1.78
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 1.513,
+              "total_price": 15.13
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 1.4184,
+              "total_price": 35.46
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 1.3504,
+              "total_price": 67.52
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 1.2858,
+              "total_price": 128.58
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 1.20528,
+              "total_price": 301.32
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 1.14774,
+              "total_price": 573.87
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 1.10074,
+              "total_price": 1100.74
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "WM6357TR-ND",
+          "supplier": "Molex",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 2000,
+          "pack_quantity": 2000,
+          "quantity_available": 15550,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 2000,
+              "unit_price": 1.15001,
+              "total_price": 2300.02
+            },
+            {
+              "break_quantity": 4000,
+              "unit_price": 1.09516,
+              "total_price": 4380.64
+            },
+            {
+              "break_quantity": 6000,
+              "unit_price": 1.06431,
+              "total_price": 6385.86
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 15833,
+      "normalised_value": 15833,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:06:06Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Molex__1040310811.json"
+  }
+}

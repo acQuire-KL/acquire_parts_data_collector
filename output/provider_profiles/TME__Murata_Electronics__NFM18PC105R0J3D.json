@@ -1,0 +1,411 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "MURATA",
+    "manufacturer_part_number": "NFM18PC105R0J3D",
+    "provider_part_number": "NFM18PC105R0J3D",
+    "alternative_names": [],
+    "description": "Filter: anti-interference; 1uF; SMD; 6.3VDC; 4A; ±20%; 0603; 180mm",
+    "detailed_description": "Filter: anti-interference; 1uF; SMD; 6.3VDC; 4A; ±20%; 0603; 180mm",
+    "category": "SMD suppression filters",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "EMIFIL",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 105.0,
+    "tolerance_percent": 20.0,
+    "channel_count": null,
+    "additional_attributes": {
+      "Type of filter": [
+        "anti-interference"
+      ],
+      "Capacitance": [
+        "1µF"
+      ],
+      "Min. insulation resistance": [
+        "500MΩ"
+      ],
+      "Operating voltage": [
+        "6.3V DC"
+      ],
+      "Max. operating current": [
+        "4A"
+      ],
+      "Case - inch": [
+        "0603"
+      ],
+      "Case - mm": [
+        "1608"
+      ],
+      "Roll diameter max.": [
+        "180mm"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "NET",
+    "tax_type": "VAT",
+    "tax_rate_percent": 0.0,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 12034,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_time_weeks": null,
+    "unit_price": null,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.0962,
+        "special": false
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.0769,
+        "special": false
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.0629,
+        "special": false
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.0569,
+        "special": false
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.0433,
+        "special": false
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.0382,
+        "special": false
+      },
+      {
+        "break_quantity": 4000,
+        "unit_price": 0.0299,
+        "special": false
+      },
+      {
+        "break_quantity": 8000,
+        "unit_price": 0.0259,
+        "special": false
+      },
+      {
+        "break_quantity": 12000,
+        "unit_price": 0.0236,
+        "special": false
+      },
+      {
+        "break_quantity": 20000,
+        "unit_price": 0.0206,
+        "special": false
+      }
+    ],
+    "offers": []
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": 4000,
+    "manufacturer_standard_pack_quantity": null,
+    "pack_formats": [],
+    "weight_value": 0.032,
+    "weight_unit": "g",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "",
+    "hts_code": "",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/94/DF/60/00/0/458057_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=5d7ced0755c397c7a44a7bb0cd01293e0e54fbcc",
+    "thumbnail_url": "https://ce8dc832c.cloudimg.io/v7/_cdn_/94/DF/60/00/0/458057_1.jpg?width=100&height=75&q=75&ci_sign=e2403d4857910c498d2826b1d5fb983ad8b762a7",
+    "high_resolution_image_url": "",
+    "datasheet_url": "",
+    "product_url": "",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "TME",
+    "locale": "en-IE",
+    "currency": "EUR",
+    "request_context": "customer-linked",
+    "captured_at_utc": "2026-08-03T19:04:19Z",
+    "source_endpoints": [
+      "Product_Search",
+      "Product_Data",
+      "Product_Parameters"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "manufacturer.name",
+      "raw_value": "MURATA",
+      "normalised_value": "MURATA",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "symbol",
+      "raw_value": "NFM18PC105R0J3D",
+      "normalised_value": "NFM18PC105R0J3D",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "identity.description": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "description",
+      "raw_value": "Filter: anti-interference; 1uF; SMD; 6.3VDC; 4A; ±20%; 0603; 180mm",
+      "normalised_value": "Filter: anti-interference; 1uF; SMD; 6.3VDC; 4A; ±20%; 0603; 180mm",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.package": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.mounting_type": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Mounting",
+      "raw_value": "SMD",
+      "normalised_value": "SMD",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.output_voltage_v": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output voltage",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.output_current_a": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Output current",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "A",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.input_voltage": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Input voltage",
+      "raw_value": "",
+      "normalised_value": {
+        "min": null,
+        "max": null
+      },
+      "unit": "V",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "technical.operating_temperature": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Operating temperature",
+      "raw_value": "-55...105°C",
+      "normalised_value": {
+        "min": -55.0,
+        "max": 105.0
+      },
+      "unit": "°C",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "commercial.supplier_moq": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "minimal_amount",
+      "raw_value": 1,
+      "normalised_value": 1,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "stock_quantity",
+      "raw_value": 12034,
+      "normalised_value": 12034,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "TME",
+      "endpoint": "Product_Data",
+      "raw_name": "prices.elements",
+      "raw_value": [
+        {
+          "amount": 1,
+          "price": 0.0962,
+          "special": false
+        },
+        {
+          "amount": 10,
+          "price": 0.0769,
+          "special": false
+        },
+        {
+          "amount": 50,
+          "price": 0.0629,
+          "special": false
+        },
+        {
+          "amount": 100,
+          "price": 0.0569,
+          "special": false
+        },
+        {
+          "amount": 500,
+          "price": 0.0433,
+          "special": false
+        },
+        {
+          "amount": 1000,
+          "price": 0.0382,
+          "special": false
+        },
+        {
+          "amount": 4000,
+          "price": 0.0299,
+          "special": false
+        },
+        {
+          "amount": 8000,
+          "price": 0.0259,
+          "special": false
+        },
+        {
+          "amount": 12000,
+          "price": 0.0236,
+          "special": false
+        },
+        {
+          "amount": 20000,
+          "price": 0.0206,
+          "special": false
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.0962,
+          "special": false
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.0769,
+          "special": false
+        },
+        {
+          "break_quantity": 50,
+          "unit_price": 0.0629,
+          "special": false
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.0569,
+          "special": false
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 0.0433,
+          "special": false
+        },
+        {
+          "break_quantity": 1000,
+          "unit_price": 0.0382,
+          "special": false
+        },
+        {
+          "break_quantity": 4000,
+          "unit_price": 0.0299,
+          "special": false
+        },
+        {
+          "break_quantity": 8000,
+          "unit_price": 0.0259,
+          "special": false
+        },
+        {
+          "break_quantity": 12000,
+          "unit_price": 0.0236,
+          "special": false
+        },
+        {
+          "break_quantity": 20000,
+          "unit_price": 0.0206,
+          "special": false
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "logistics.listed_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Search",
+      "raw_name": "packing.elements[0].amount",
+      "raw_value": 4000,
+      "normalised_value": 4000,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "TME",
+      "endpoint": "Product_Parameters",
+      "raw_name": "Manufacturer standard package",
+      "raw_value": "",
+      "normalised_value": null,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:04:19Z"
+    }
+  },
+  "raw_references": {
+    "search": "Knowledge_Base\\Current\\TME\\Product_Search\\MURATA__NFM18PC105R0J3D.json",
+    "data": "Knowledge_Base\\Current\\TME\\Product_Data\\MURATA__NFM18PC105R0J3D.json",
+    "parameters": "Knowledge_Base\\Current\\TME\\Product_Parameters\\MURATA__NFM18PC105R0J3D.json"
+  }
+}

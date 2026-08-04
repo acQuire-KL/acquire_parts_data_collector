@@ -1,0 +1,786 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "NXP USA Inc.",
+    "manufacturer_part_number": "PCF85063ATL/1,118",
+    "provider_part_number": "568-10235-1-ND",
+    "alternative_names": [
+      "568-10235-2",
+      "568-10235-1",
+      "935299022118",
+      "568-10235-6"
+    ],
+    "description": "IC RTC CLK/CALENDAR I2C 10DFN",
+    "detailed_description": "Real Time Clock (RTC) IC Clock/Calendar I2C, 2-Wire Serial 10-XFDFN Exposed Pad",
+    "category": "Integrated Circuits (ICs)",
+    "subcategory": "Real Time Clocks",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "Clock/Calendar",
+    "regulator_type": [],
+    "manufacturer_series": "PCF85063",
+    "package": "10-XFDFN Exposed Pad",
+    "supplier_device_package": "10-DFN (2.6x2.6)",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 85.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "DigiKey Programmable": [
+        "Not Verified"
+      ],
+      "Features": [
+        "Alarm, Leap Year, Square Wave Output"
+      ],
+      "Memory Size": [
+        "-"
+      ],
+      "Time Format": [
+        "HH:MM:SS (12/24 hr)"
+      ],
+      "Date Format": [
+        "YY-MM-DD-dd"
+      ],
+      "Interface": [
+        "I2C, 2-Wire Serial"
+      ],
+      "Voltage - Supply": [
+        "0.9V ~ 5.5V"
+      ],
+      "Voltage - Supply, Battery": [
+        "-"
+      ],
+      "Current - Timekeeping (Max)": [
+        "0.6µA @ 3.3V"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 36641,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 16.0,
+    "unit_price": 0.79,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.79,
+        "total_price": 0.79,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.564,
+        "total_price": 5.64,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.5076,
+        "total_price": 12.69,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.4452,
+        "total_price": 44.52,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.41556,
+        "total_price": 103.89,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.39768,
+        "total_price": 198.84,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.38295,
+        "total_price": 382.95,
+        "provider_part_number": "568-10235-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 0.79,
+        "total_price": 0.79,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.564,
+        "total_price": 5.64,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.5076,
+        "total_price": 12.69,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.4452,
+        "total_price": 44.52,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.41556,
+        "total_price": 103.89,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.39768,
+        "total_price": 198.84,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.38295,
+        "total_price": 382.95,
+        "provider_part_number": "568-10235-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 4000,
+        "unit_price": 0.36086,
+        "total_price": 1443.44,
+        "provider_part_number": "568-10235-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 8000,
+        "unit_price": 0.35265,
+        "total_price": 2821.2,
+        "provider_part_number": "568-10235-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 12000,
+        "unit_price": 0.34855,
+        "total_price": 4182.6,
+        "provider_part_number": "568-10235-2-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 20000,
+        "unit_price": 0.34399,
+        "total_price": 6879.8,
+        "provider_part_number": "568-10235-2-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "568-10235-1-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-6-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36641,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.79,
+            "total_price": 0.79
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5076,
+            "total_price": 12.69
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4452,
+            "total_price": 44.52
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.41556,
+            "total_price": 103.89
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.39768,
+            "total_price": 198.84
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.38295,
+            "total_price": 382.95
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "568-10235-2-ND",
+        "supplier": "NXP USA Inc.",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": 4000,
+        "quantity_available": 36000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.36086,
+            "total_price": 1443.44
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.35265,
+            "total_price": 2821.2
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.34855,
+            "total_price": 4182.6
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.34399,
+            "total_price": 6879.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 4000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8542.39.0070",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6347/568%7ESOT1197-1%7E%7E10.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/nxp-usa-inc/PCF85063ATL-1-118/4022741",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:12:16Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "NXP USA Inc.",
+      "normalised_value": "NXP USA Inc.",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "PCF85063ATL/1,118",
+      "normalised_value": "PCF85063ATL/1,118",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "10-XFDFN Exposed Pad",
+      "normalised_value": "10-XFDFN Exposed Pad",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "568-10235-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.36086,
+              "TotalPrice": 1443.44
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.35265,
+              "TotalPrice": 2821.2
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.34855,
+              "TotalPrice": 4182.6
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.34399,
+              "TotalPrice": 6879.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 4000,
+          "StandardPackage": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "568-10235-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5076,
+              "TotalPrice": 12.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 44.52
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.41556,
+              "TotalPrice": 103.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.39768,
+              "TotalPrice": 198.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38295,
+              "TotalPrice": 382.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36641,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "568-10235-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.79,
+              "TotalPrice": 0.79
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5076,
+              "TotalPrice": 12.69
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4452,
+              "TotalPrice": 44.52
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.41556,
+              "TotalPrice": 103.89
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.39768,
+              "TotalPrice": 198.84
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.38295,
+              "TotalPrice": 382.95
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 568,
+            "Name": "NXP USA Inc."
+          },
+          "QuantityAvailableforPackageType": 36641,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "568-10235-1-ND",
+          "supplier": "NXP USA Inc.",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 36641,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.79,
+              "total_price": 0.79
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.564,
+              "total_price": 5.64
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.5076,
+              "total_price": 12.69
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.4452,
+              "total_price": 44.52
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.41556,
+              "total_price": 103.89
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.39768,
+              "total_price": 198.84
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.38295,
+              "total_price": 382.95
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "568-10235-6-ND",
+          "supplier": "NXP USA Inc.",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 36641,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.79,
+              "total_price": 0.79
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.564,
+              "total_price": 5.64
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.5076,
+              "total_price": 12.69
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.4452,
+              "total_price": 44.52
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.41556,
+              "total_price": 103.89
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.39768,
+              "total_price": 198.84
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.38295,
+              "total_price": 382.95
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "568-10235-2-ND",
+          "supplier": "NXP USA Inc.",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 4000,
+          "pack_quantity": 4000,
+          "quantity_available": 36000,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 4000,
+              "unit_price": 0.36086,
+              "total_price": 1443.44
+            },
+            {
+              "break_quantity": 8000,
+              "unit_price": 0.35265,
+              "total_price": 2821.2
+            },
+            {
+              "break_quantity": 12000,
+              "unit_price": 0.34855,
+              "total_price": 4182.6
+            },
+            {
+              "break_quantity": 20000,
+              "unit_price": 0.34399,
+              "total_price": 6879.8
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 36641,
+      "normalised_value": 36641,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:16Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\NXP__PCF85063ATL_1_118.json"
+  }
+}

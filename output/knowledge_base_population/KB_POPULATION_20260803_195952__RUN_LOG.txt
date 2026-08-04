@@ -1,0 +1,24 @@
+PDC Knowledge Base Population
+========================================
+Source              : C:\development\acquire_parts_data_collector\output\parts_master_staging\AIPN_Parts_Master__STAGING.csv
+Started UTC         : 2026-08-03T18:59:28Z
+Finished UTC        : 2026-08-03T18:59:52Z
+Staging records     : 260
+Selected records    : 10
+Provider operations : 30
+
+Status counts
+----------------------------------------
+Downloaded          : 28
+Not Found           : 2
+
+Provider statistics
+----------------------------------------
+DigiKey
+  Downloaded        : 10
+Mouser
+  Downloaded        : 9
+  Not Found         : 1
+TME
+  Downloaded        : 9
+  Not Found         : 1

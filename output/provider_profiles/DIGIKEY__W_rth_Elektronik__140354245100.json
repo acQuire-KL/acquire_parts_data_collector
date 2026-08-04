@@ -1,0 +1,640 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "140354245100",
+    "provider_part_number": "732-140354245100CT-ND",
+    "alternative_names": [
+      "732-140354245100TR",
+      "732-140354245100CT",
+      "CN",
+      "732-140354245100DKR"
+    ],
+    "description": "OPTOISO 3.75KV 1CH TRANS 4-SOP",
+    "detailed_description": "Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP",
+    "category": "Isolators",
+    "subcategory": "Transistor, Photovoltaic Output Optoisolators",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [
+      "Transistor"
+    ],
+    "manufacturer_series": "WL-OCPT",
+    "package": "4-SMD, Gull Wing",
+    "supplier_device_package": "4-SOP",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 110.0,
+    "tolerance_percent": null,
+    "channel_count": 1,
+    "additional_attributes": {
+      "Voltage - Isolation": [
+        "3750Vrms"
+      ],
+      "Current Transfer Ratio (Min)": [
+        "50% @ 1mA"
+      ],
+      "Current Transfer Ratio (Max)": [
+        "150% @ 1mA"
+      ],
+      "Turn On / Turn Off Time (Typ)": [
+        "-"
+      ],
+      "Rise / Fall Time (Typ)": [
+        "5µs, 6µs"
+      ],
+      "Input Type": [
+        "AC, DC"
+      ],
+      "Voltage - Output (Max)": [
+        "80V"
+      ],
+      "Current - Output / Channel": [
+        "50mA"
+      ],
+      "Voltage - Forward (Vf) (Typ)": [
+        "1.24V"
+      ],
+      "Current - DC Forward (If) (Max)": [
+        "60 mA"
+      ],
+      "Vce Saturation (Max)": [
+        "200mV"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 6920,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 16.0,
+    "unit_price": 0.34,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.34,
+        "total_price": 0.34,
+        "provider_part_number": "732-140354245100CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.301,
+        "total_price": 3.01,
+        "provider_part_number": "732-140354245100CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.2764,
+        "total_price": 13.82,
+        "provider_part_number": "732-140354245100CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.2518,
+        "total_price": 25.18,
+        "provider_part_number": "732-140354245100CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.2408,
+        "total_price": 120.4,
+        "provider_part_number": "732-140354245100CT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 0.34,
+        "total_price": 0.34,
+        "provider_part_number": "732-140354245100DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.301,
+        "total_price": 3.01,
+        "provider_part_number": "732-140354245100DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.2764,
+        "total_price": 13.82,
+        "provider_part_number": "732-140354245100DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.2518,
+        "total_price": 25.18,
+        "provider_part_number": "732-140354245100DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.2408,
+        "total_price": 120.4,
+        "provider_part_number": "732-140354245100DKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 3000,
+        "unit_price": 0.22822,
+        "total_price": 684.66,
+        "provider_part_number": "732-140354245100TR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "732-140354245100CT-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100DKR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 6920,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.34,
+            "total_price": 0.34
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.301,
+            "total_price": 3.01
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2764,
+            "total_price": 13.82
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2518,
+            "total_price": 25.18
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.2408,
+            "total_price": 120.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-140354245100TR-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 6000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.22822,
+            "total_price": 684.66
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 3000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8541.49.8000",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6529/MFG_732%7E4SOP-4.4%7E%7E4.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/140354245100/13584843",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:08:51Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Würth Elektronik",
+      "normalised_value": "Würth Elektronik",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "140354245100",
+      "normalised_value": "140354245100",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "4-SMD, Gull Wing",
+      "normalised_value": "4-SMD, Gull Wing",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "732-140354245100TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.22822,
+              "TotalPrice": 684.66
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-140354245100CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.301,
+              "TotalPrice": 3.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2764,
+              "TotalPrice": 13.82
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2518,
+              "TotalPrice": 25.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.2408,
+              "TotalPrice": 120.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6920,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-140354245100DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.34,
+              "TotalPrice": 0.34
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.301,
+              "TotalPrice": 3.01
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2764,
+              "TotalPrice": 13.82
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2518,
+              "TotalPrice": 25.18
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.2408,
+              "TotalPrice": 120.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 6920,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "732-140354245100CT-ND",
+          "supplier": "Würth Elektronik",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 6920,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.34,
+              "total_price": 0.34
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.301,
+              "total_price": 3.01
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.2764,
+              "total_price": 13.82
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.2518,
+              "total_price": 25.18
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.2408,
+              "total_price": 120.4
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "732-140354245100DKR-ND",
+          "supplier": "Würth Elektronik",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 6920,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.34,
+              "total_price": 0.34
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.301,
+              "total_price": 3.01
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.2764,
+              "total_price": 13.82
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.2518,
+              "total_price": 25.18
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.2408,
+              "total_price": 120.4
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "732-140354245100TR-ND",
+          "supplier": "Würth Elektronik",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 3000,
+          "pack_quantity": 3000,
+          "quantity_available": 6000,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 3000,
+              "unit_price": 0.22822,
+              "total_price": 684.66
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 6920,
+      "normalised_value": 6920,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:08:51Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\W_rth_Elektronik__140354245100.json"
+  }
+}

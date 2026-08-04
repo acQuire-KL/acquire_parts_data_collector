@@ -1,0 +1,760 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_part_number": "BME280",
+    "provider_part_number": "828-1063-1-ND",
+    "alternative_names": [
+      "828-1063-2",
+      "828-1063-6",
+      "0273.141.185-1NV",
+      "828-1063-1"
+    ],
+    "description": "SENSOR PRESSURE HUMIDITY TEMP",
+    "detailed_description": "Humidity, Pressure, Temperature 0 ~ 100% RH I2C, SPI ±3% 1 s Surface Mount",
+    "category": "Sensors, Transducers",
+    "subcategory": "Humidity, Moisture Sensors",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [
+      "I2C, SPI"
+    ],
+    "manufacturer_series": "BME280",
+    "package": "8-VFLGA",
+    "supplier_device_package": "8-LGA (2.5x2.5)",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 85.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Sensor Type": [
+        "Humidity, Pressure, Temperature"
+      ],
+      "Humidity Range": [
+        "0 ~ 100% RH"
+      ],
+      "Output": [
+        "16b"
+      ],
+      "Accuracy": [
+        "±3%"
+      ],
+      "Response Time": [
+        "1 s"
+      ],
+      "Sensitivity": [
+        "-"
+      ],
+      "Voltage - Supply": [
+        "1.71V ~ 3.6V"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 12.0,
+    "unit_price": 3.5,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 3.5,
+        "total_price": 3.5,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 5,
+        "unit_price": 3.134,
+        "total_price": 15.67,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 2.997,
+        "total_price": 29.97,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 2.8336,
+        "total_price": 70.84,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 2.7218,
+        "total_price": 136.09,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 2.6198,
+        "total_price": 261.98,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 2.41442,
+        "total_price": 1207.21,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 2.33792,
+        "total_price": 2337.92,
+        "provider_part_number": "828-1063-1-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 3.5,
+        "total_price": 3.5,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 5,
+        "unit_price": 3.134,
+        "total_price": 15.67,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 2.997,
+        "total_price": 29.97,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 2.8336,
+        "total_price": 70.84,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 2.7218,
+        "total_price": 136.09,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 2.6198,
+        "total_price": 261.98,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 2.41442,
+        "total_price": 1207.21,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 2.33792,
+        "total_price": 2337.92,
+        "provider_part_number": "828-1063-6-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10000,
+        "unit_price": 2.12634,
+        "total_price": 21263.4,
+        "provider_part_number": "828-1063-2-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "828-1063-1-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.5,
+            "total_price": 3.5
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 3.134,
+            "total_price": 15.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.997,
+            "total_price": 29.97
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.8336,
+            "total_price": 70.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.7218,
+            "total_price": 136.09
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.6198,
+            "total_price": 261.98
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.41442,
+            "total_price": 1207.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.33792,
+            "total_price": 2337.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1063-6-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.5,
+            "total_price": 3.5
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 3.134,
+            "total_price": 15.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.997,
+            "total_price": 29.97
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.8336,
+            "total_price": 70.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 2.7218,
+            "total_price": 136.09
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.6198,
+            "total_price": 261.98
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.41442,
+            "total_price": 1207.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.33792,
+            "total_price": 2337.92
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1063-2-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 2.12634,
+            "total_price": 21263.4
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 10000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8542.39.0070",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1164/MFG_BME280.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bosch-sensortec/BME280/6136306",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:12:58Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Bosch Sensortec",
+      "normalised_value": "Bosch Sensortec",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "BME280",
+      "normalised_value": "BME280",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "8-VFLGA",
+      "normalised_value": "8-VFLGA",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "828-1063-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 2.12634,
+              "TotalPrice": 21263.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-1063-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 3.5,
+              "TotalPrice": 3.5
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 3.134,
+              "TotalPrice": 15.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.997,
+              "TotalPrice": 29.97
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.8336,
+              "TotalPrice": 70.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 2.7218,
+              "TotalPrice": 136.09
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.6198,
+              "TotalPrice": 261.98
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.41442,
+              "TotalPrice": 1207.21
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 2.33792,
+              "TotalPrice": 2337.92
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-1063-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 3.5,
+              "TotalPrice": 3.5
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 3.134,
+              "TotalPrice": 15.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.997,
+              "TotalPrice": 29.97
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.8336,
+              "TotalPrice": 70.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 2.7218,
+              "TotalPrice": 136.09
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 2.6198,
+              "TotalPrice": 261.98
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 2.41442,
+              "TotalPrice": 1207.21
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 2.33792,
+              "TotalPrice": 2337.92
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "828-1063-1-ND",
+          "supplier": "Bosch Sensortec",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 3.5,
+              "total_price": 3.5
+            },
+            {
+              "break_quantity": 5,
+              "unit_price": 3.134,
+              "total_price": 15.67
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 2.997,
+              "total_price": 29.97
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 2.8336,
+              "total_price": 70.84
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 2.7218,
+              "total_price": 136.09
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 2.6198,
+              "total_price": 261.98
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 2.41442,
+              "total_price": 1207.21
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 2.33792,
+              "total_price": 2337.92
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "828-1063-6-ND",
+          "supplier": "Bosch Sensortec",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 3.5,
+              "total_price": 3.5
+            },
+            {
+              "break_quantity": 5,
+              "unit_price": 3.134,
+              "total_price": 15.67
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 2.997,
+              "total_price": 29.97
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 2.8336,
+              "total_price": 70.84
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 2.7218,
+              "total_price": 136.09
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 2.6198,
+              "total_price": 261.98
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 2.41442,
+              "total_price": 1207.21
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 2.33792,
+              "total_price": 2337.92
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "828-1063-2-ND",
+          "supplier": "Bosch Sensortec",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 10000,
+          "pack_quantity": 10000,
+          "quantity_available": 0,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 10000,
+              "unit_price": 2.12634,
+              "total_price": 21263.4
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 0,
+      "normalised_value": 0,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:12:58Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Bosch_Sensortec__BME280.json"
+  }
+}

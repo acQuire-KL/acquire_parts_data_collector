@@ -1,0 +1,13 @@
+{
+  "source_file": "AIPN Parts Master.xlsx",
+  "source_sheet": "My Lists Worksheet",
+  "source_rows": 263,
+  "staging_records": 260,
+  "incomplete_identity_rows": 0,
+  "duplicate_identity_groups": 3,
+  "manufacturer_alias_groups": 4,
+  "record_status": "Imported - Pending Verification",
+  "automatic_approvals": 0,
+  "new_aipns_allocated": 0,
+  "lossless_traceability_check": "PASS"
+}

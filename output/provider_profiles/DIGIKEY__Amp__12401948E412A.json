@@ -1,0 +1,835 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Amphenol ICC (Commercial Products)",
+    "manufacturer_part_number": "12401948E412A",
+    "provider_part_number": "664-12401948E412ACT-ND",
+    "alternative_names": [
+      "664-12401948E412ACT",
+      "664-12401948E412ATR",
+      "664-12401948E412ADKR"
+    ],
+    "description": "CONN RCP USB2.0 TYPC 24P BRD CUT",
+    "detailed_description": "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Board Cutout, Surface Mount, Right Angle; Through Hole",
+    "category": "Connectors, Interconnects",
+    "subcategory": "USB, DVI, HDMI Connector Assemblies",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "1240194",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "Board Cutout, Surface Mount, Right Angle; Through Hole",
+    "output_voltage_v": null,
+    "output_current_a": 5.0,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Connector Type": [
+        "USB-C (USB TYPE-C)"
+      ],
+      "Number of Contacts": [
+        "24 (16+8 Dummy)"
+      ],
+      "Gender": [
+        "Receptacle"
+      ],
+      "Specifications": [
+        "USB 2.0"
+      ],
+      "Mounting Feature": [
+        "Horizontal, Mid Mount"
+      ],
+      "Termination": [
+        "Solder"
+      ],
+      "Features": [
+        "Board Guide"
+      ],
+      "Ingress Protection": [
+        "-"
+      ],
+      "Number of Ports": [
+        "1"
+      ],
+      "Mating Cycles": [
+        "10000"
+      ],
+      "Shielding": [
+        "Shielded"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 3586,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 16.0,
+    "unit_price": 1.05,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 1.05,
+        "total_price": 1.05,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.894,
+        "total_price": 8.94,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.8372,
+        "total_price": 20.93,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.7974,
+        "total_price": 39.87,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.7592,
+        "total_price": 75.92,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.71168,
+        "total_price": 177.92,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.6777,
+        "total_price": 338.85,
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 1.05,
+        "total_price": 1.05,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.894,
+        "total_price": 8.94,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 25,
+        "unit_price": 0.8372,
+        "total_price": 20.93,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.7974,
+        "total_price": 39.87,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.7592,
+        "total_price": 75.92,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.71168,
+        "total_price": 177.92,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.6777,
+        "total_price": 338.85,
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.64533,
+        "total_price": 645.33,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 2000,
+        "unit_price": 0.61454,
+        "total_price": 1229.08,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 3000,
+        "unit_price": 0.59721,
+        "total_price": 1791.63,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 0.57608,
+        "total_price": 2880.4,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 7000,
+        "unit_price": 0.56258,
+        "total_price": 3938.06,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 10000,
+        "unit_price": 0.54861,
+        "total_price": 5486.1,
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "664-12401948E412ACT-ND",
+        "supplier": "Amphenol CS (Commercial Products)",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3586,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.894,
+            "total_price": 8.94
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8372,
+            "total_price": 20.93
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.7974,
+            "total_price": 39.87
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7592,
+            "total_price": 75.92
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.71168,
+            "total_price": 177.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.6777,
+            "total_price": 338.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "664-12401948E412ADKR-ND",
+        "supplier": "Amphenol CS (Commercial Products)",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 3586,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.05,
+            "total_price": 1.05
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.894,
+            "total_price": 8.94
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.8372,
+            "total_price": 20.93
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.7974,
+            "total_price": 39.87
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.7592,
+            "total_price": 75.92
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.71168,
+            "total_price": 177.92
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.6777,
+            "total_price": 338.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "664-12401948E412ATR-ND",
+        "supplier": "Amphenol CS (Commercial Products)",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.64533,
+            "total_price": 645.33
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.61454,
+            "total_price": 1229.08
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.59721,
+            "total_price": 1791.63
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.57608,
+            "total_price": 2880.4
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.56258,
+            "total_price": 3938.06
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.54861,
+            "total_price": 5486.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 1000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "REACH Unknown",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8536.69.4040",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2616/MFG_1240XXXXEX12A.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_2_0_type_c_lite.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/amphenol-cs-commercial-products/12401948E412A/13683167",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:05:55Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Amphenol ICC (Commercial Products)",
+      "normalised_value": "Amphenol ICC (Commercial Products)",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "12401948E412A",
+      "normalised_value": "12401948E412A",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "",
+      "normalised_value": "",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "664-12401948E412ATR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.64533,
+              "TotalPrice": 645.33
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.61454,
+              "TotalPrice": 1229.08
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.59721,
+              "TotalPrice": 1791.63
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.57608,
+              "TotalPrice": 2880.4
+            },
+            {
+              "BreakQuantity": 7000,
+              "UnitPrice": 0.56258,
+              "TotalPrice": 3938.06
+            },
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.54861,
+              "TotalPrice": 5486.1
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 664,
+            "Name": "Amphenol CS (Commercial Products)"
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "664-12401948E412ACT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.894,
+              "TotalPrice": 8.94
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.8372,
+              "TotalPrice": 20.93
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.7974,
+              "TotalPrice": 39.87
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7592,
+              "TotalPrice": 75.92
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.71168,
+              "TotalPrice": 177.92
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.6777,
+              "TotalPrice": 338.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 664,
+            "Name": "Amphenol CS (Commercial Products)"
+          },
+          "QuantityAvailableforPackageType": 3586,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "664-12401948E412ADKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.05,
+              "TotalPrice": 1.05
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.894,
+              "TotalPrice": 8.94
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.8372,
+              "TotalPrice": 20.93
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.7974,
+              "TotalPrice": 39.87
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.7592,
+              "TotalPrice": 75.92
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.71168,
+              "TotalPrice": 177.92
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.6777,
+              "TotalPrice": 338.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 664,
+            "Name": "Amphenol CS (Commercial Products)"
+          },
+          "QuantityAvailableforPackageType": 3586,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "664-12401948E412ACT-ND",
+          "supplier": "Amphenol CS (Commercial Products)",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 3586,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.05,
+              "total_price": 1.05
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.894,
+              "total_price": 8.94
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.8372,
+              "total_price": 20.93
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.7974,
+              "total_price": 39.87
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.7592,
+              "total_price": 75.92
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.71168,
+              "total_price": 177.92
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.6777,
+              "total_price": 338.85
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "664-12401948E412ADKR-ND",
+          "supplier": "Amphenol CS (Commercial Products)",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 3586,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 1.05,
+              "total_price": 1.05
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.894,
+              "total_price": 8.94
+            },
+            {
+              "break_quantity": 25,
+              "unit_price": 0.8372,
+              "total_price": 20.93
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.7974,
+              "total_price": 39.87
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.7592,
+              "total_price": 75.92
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.71168,
+              "total_price": 177.92
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.6777,
+              "total_price": 338.85
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "664-12401948E412ATR-ND",
+          "supplier": "Amphenol CS (Commercial Products)",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 1000,
+          "pack_quantity": 1000,
+          "quantity_available": 3000,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.64533,
+              "total_price": 645.33
+            },
+            {
+              "break_quantity": 2000,
+              "unit_price": 0.61454,
+              "total_price": 1229.08
+            },
+            {
+              "break_quantity": 3000,
+              "unit_price": 0.59721,
+              "total_price": 1791.63
+            },
+            {
+              "break_quantity": 5000,
+              "unit_price": 0.57608,
+              "total_price": 2880.4
+            },
+            {
+              "break_quantity": 7000,
+              "unit_price": 0.56258,
+              "total_price": 3938.06
+            },
+            {
+              "break_quantity": 10000,
+              "unit_price": 0.54861,
+              "total_price": 5486.1
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 3586,
+      "normalised_value": 3586,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:05:55Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\Amp__12401948E412A.json"
+  }
+}

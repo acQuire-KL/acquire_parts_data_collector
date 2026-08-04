@@ -1,0 +1,384 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Analog Devices Inc.",
+    "manufacturer_part_number": "LTC3118IUFD#PBF",
+    "provider_part_number": "LTC3118IUFD#PBF-ND",
+    "alternative_names": [
+      "-2735-LTC3118IUFD#PBF"
+    ],
+    "description": "IC REG BUCK BOOST ADJ 2A 24QFN",
+    "detailed_description": "Buck-Boost Switching Regulator IC Positive Adjustable 2V 1 Output 2A 24-WFQFN Exposed Pad",
+    "category": "Integrated Circuits (ICs)",
+    "subcategory": "Voltage Regulators - DC DC Switching Regulators",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [
+      "Adjustable",
+      "Positive"
+    ],
+    "manufacturer_series": "LTC3118",
+    "package": "24-WFQFN Exposed Pad",
+    "supplier_device_package": "24-QFN (4x5)",
+    "mounting_type": "SMD",
+    "output_voltage_v": 2.0,
+    "output_current_a": 2.0,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": 18.0,
+    "operating_temperature_min_c": -40.0,
+    "operating_temperature_max_c": 125.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Function": [
+        "Step-Up/Step-Down"
+      ],
+      "Topology": [
+        "Buck-Boost"
+      ],
+      "Number of Outputs": [
+        "1"
+      ],
+      "Voltage - Input (Min)": [
+        "2.2V"
+      ],
+      "Voltage - Output (Max)": [
+        "18V"
+      ],
+      "Frequency - Switching": [
+        "1.2MHz"
+      ],
+      "Synchronous Rectifier": [
+        "Yes"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 517,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 10.0,
+    "unit_price": 16.63,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 16.63,
+        "total_price": 16.63,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 13.238,
+        "total_price": 132.38,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      },
+      {
+        "break_quantity": 73,
+        "unit_price": 11.63986,
+        "total_price": 849.70978,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      },
+      {
+        "break_quantity": 146,
+        "unit_price": 11.26164,
+        "total_price": 1644.19944,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      },
+      {
+        "break_quantity": 292,
+        "unit_price": 10.95051,
+        "total_price": 3197.54892,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      },
+      {
+        "break_quantity": 511,
+        "unit_price": 10.73996,
+        "total_price": 5488.11956,
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "pack_format": "Tube"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "LTC3118IUFD#PBF-ND",
+        "supplier": "Analog Devices Inc.",
+        "package_type_id": 6,
+        "package_type": "Tube",
+        "packaging_code": "Tube",
+        "pack_format": "Tube",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 73,
+        "quantity_available": 517,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 16.63,
+            "total_price": 16.63
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 13.238,
+            "total_price": 132.38
+          },
+          {
+            "break_quantity": 73,
+            "unit_price": 11.63986,
+            "total_price": 849.70978
+          },
+          {
+            "break_quantity": 146,
+            "unit_price": 11.26164,
+            "total_price": 1644.19944
+          },
+          {
+            "break_quantity": 292,
+            "unit_price": 10.95051,
+            "total_price": 3197.54892
+          },
+          {
+            "break_quantity": 511,
+            "unit_price": 10.73996,
+            "total_price": 5488.11956
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 73,
+    "pack_formats": [
+      "Tube"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8542.39.0070",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4895/505%7E05-08-1696%7EUFD%7E24.JPG",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/3118fa.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/analog-devices-inc/LTC3118IUFD-PBF/5171469",
+    "video_url": "https://www.digikey.com/api/videos/videoplayer/smallplayer/5784650641001"
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:09:22Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "Analog Devices Inc.",
+      "normalised_value": "Analog Devices Inc.",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "LTC3118IUFD#PBF",
+      "normalised_value": "LTC3118IUFD#PBF",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "24-WFQFN Exposed Pad",
+      "normalised_value": "24-WFQFN Exposed Pad",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "LTC3118IUFD#PBF-ND",
+          "PackageType": {
+            "Id": 6,
+            "Name": "Tube"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 16.63,
+              "TotalPrice": 16.63
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 13.238,
+              "TotalPrice": 132.38
+            },
+            {
+              "BreakQuantity": 73,
+              "UnitPrice": 11.63986,
+              "TotalPrice": 849.70978
+            },
+            {
+              "BreakQuantity": 146,
+              "UnitPrice": 11.26164,
+              "TotalPrice": 1644.19944
+            },
+            {
+              "BreakQuantity": 292,
+              "UnitPrice": 10.95051,
+              "TotalPrice": 3197.54892
+            },
+            {
+              "BreakQuantity": 511,
+              "UnitPrice": 10.73996,
+              "TotalPrice": 5488.11956
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 505,
+            "Name": "Analog Devices Inc."
+          },
+          "QuantityAvailableforPackageType": 517,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 73,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "LTC3118IUFD#PBF-ND",
+          "supplier": "Analog Devices Inc.",
+          "package_type_id": 6,
+          "package_type": "Tube",
+          "packaging_code": "Tube",
+          "pack_format": "Tube",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 73,
+          "quantity_available": 517,
+          "maximum_distribution_quantity": 999999999,
+          "marketplace": false,
+          "tariff_active": false,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 16.63,
+              "total_price": 16.63
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 13.238,
+              "total_price": 132.38
+            },
+            {
+              "break_quantity": 73,
+              "unit_price": 11.63986,
+              "total_price": 849.70978
+            },
+            {
+              "break_quantity": 146,
+              "unit_price": 11.26164,
+              "total_price": 1644.19944
+            },
+            {
+              "break_quantity": 292,
+              "unit_price": 10.95051,
+              "total_price": 3197.54892
+            },
+            {
+              "break_quantity": 511,
+              "unit_price": 10.73996,
+              "total_price": 5488.11956
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 517,
+      "normalised_value": 517,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:09:22Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\ADI_Linear__LTC3118IUFD_PBF.json"
+  }
+}

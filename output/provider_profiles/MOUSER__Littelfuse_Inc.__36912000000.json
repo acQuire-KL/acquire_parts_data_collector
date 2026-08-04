@@ -1,0 +1,536 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "Littelfuse",
+    "manufacturer_part_number": "36912000000",
+    "provider_part_number": "576-36912000000",
+    "alternative_names": [],
+    "description": "Fuses with Leads - Through Hole 300V TL TE5 LL 2A",
+    "detailed_description": "Fuses with Leads - Through Hole 300V TL TE5 LL 2A",
+    "category": "Fuses with Leads - Through Hole",
+    "subcategory": "",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "",
+    "package": "",
+    "supplier_device_package": "",
+    "mounting_type": "",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": null,
+    "operating_temperature_max_c": null,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {}
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": 1,
+    "stock_quantity": 15934,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 19.0,
+    "unit_price": 0.714,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.714,
+        "total_price": 0.714,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 5,
+        "unit_price": 0.634,
+        "total_price": 3.17,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.556,
+        "total_price": 5.56,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 50,
+        "unit_price": 0.478,
+        "total_price": 23.9,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.427,
+        "total_price": 42.7,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 250,
+        "unit_price": 0.398,
+        "total_price": 99.5,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.356,
+        "total_price": 178.0,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      },
+      {
+        "break_quantity": 1400,
+        "unit_price": 0.3,
+        "total_price": 420.0,
+        "provider_part_number": "576-36912000000",
+        "pack_format": ""
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "576-36912000000",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "available_pack_formats": [
+          "Ammo Pack"
+        ],
+        "minimum_order_quantity": 1,
+        "order_multiple": 1,
+        "pack_quantity": 1400,
+        "quantity_available": 15934,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.714,
+            "total_price": 0.714
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 0.634,
+            "total_price": 3.17
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.556,
+            "total_price": 5.56
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.478,
+            "total_price": 23.9
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.427,
+            "total_price": 42.7
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.398,
+            "total_price": 99.5
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.356,
+            "total_price": 178.0
+          },
+          {
+            "break_quantity": 1400,
+            "unit_price": 0.3,
+            "total_price": 420.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 1400,
+    "pack_formats": [
+      "Ammo Pack"
+    ],
+    "weight_value": 0.776461,
+    "weight_unit": "g",
+    "deliveries": [
+      {
+        "Quantity": 11200,
+        "Date": "2026-09-17T00:00:00"
+      }
+    ]
+  },
+  "lifecycle": {
+    "status": "",
+    "provider_status": [],
+    "discontinued": null,
+    "end_of_life": null,
+    "normally_stocking": null,
+    "backorder_allowed": null,
+    "non_cancellable_non_returnable": null,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "RoHS Compliant",
+    "reach_status": "",
+    "moisture_sensitivity_level": "",
+    "eccn": "EAR99",
+    "hts_code": "8536100040",
+    "country_of_origin": "Philippines",
+    "additional_compliance": {
+      "TARIC": "8536109090",
+      "CNHTS": "8536100000",
+      "CAHTS": "8536100000",
+      "JPHTS": "853610000",
+      "BRHTS": "85361000",
+      "Assembly Country of Origin": "Not available",
+      "Country of Diffusion": "Not available"
+    }
+  },
+  "media": {
+    "primary_image_url": "https://www.mouser.com/images/littelfuse/images/383_369Series_SPL.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Littelfuse/36912000000?qs=A0AD9A9uYPZSe3L1nzdIqQ%3D%3D",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "Mouser",
+    "locale": "en-US",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T19:07:09Z",
+    "source_endpoints": [
+      "Part_Number_Search"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Manufacturer",
+      "raw_value": "Littelfuse",
+      "normalised_value": "Littelfuse",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ManufacturerPartNumber",
+      "raw_value": "36912000000",
+      "normalised_value": "36912000000",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "AvailabilityInStock",
+      "raw_value": "15934",
+      "normalised_value": 15934,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "commercial.price_breaks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "PriceBreaks",
+      "raw_value": [
+        {
+          "Quantity": 1,
+          "Price": "€0.714",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 5,
+          "Price": "€0.634",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 10,
+          "Price": "€0.556",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 50,
+          "Price": "€0.478",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 100,
+          "Price": "€0.427",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 250,
+          "Price": "€0.398",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 500,
+          "Price": "€0.356",
+          "Currency": "EUR"
+        },
+        {
+          "Quantity": 1400,
+          "Price": "€0.30",
+          "Currency": "EUR"
+        }
+      ],
+      "normalised_value": [
+        {
+          "break_quantity": 1,
+          "unit_price": 0.714,
+          "total_price": 0.714,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 5,
+          "unit_price": 0.634,
+          "total_price": 3.17,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 10,
+          "unit_price": 0.556,
+          "total_price": 5.56,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 50,
+          "unit_price": 0.478,
+          "total_price": 23.9,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 100,
+          "unit_price": 0.427,
+          "total_price": 42.7,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 250,
+          "unit_price": 0.398,
+          "total_price": 99.5,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 500,
+          "unit_price": 0.356,
+          "total_price": 178.0,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        },
+        {
+          "break_quantity": 1400,
+          "unit_price": 0.3,
+          "total_price": 420.0,
+          "provider_part_number": "576-36912000000",
+          "pack_format": ""
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "commercial.offers": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductAttributes + PriceBreaks",
+      "raw_value": {
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Ammo Pack"
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "1400"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "€0.714",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 5,
+            "Price": "€0.634",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 10,
+            "Price": "€0.556",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 50,
+            "Price": "€0.478",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 100,
+            "Price": "€0.427",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 250,
+            "Price": "€0.398",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 500,
+            "Price": "€0.356",
+            "Currency": "EUR"
+          },
+          {
+            "Quantity": 1400,
+            "Price": "€0.30",
+            "Currency": "EUR"
+          }
+        ]
+      },
+      "normalised_value": [
+        {
+          "provider_part_number": "576-36912000000",
+          "supplier": "Mouser",
+          "package_type_id": null,
+          "package_type": "",
+          "packaging_code": "",
+          "pack_format": "",
+          "available_pack_formats": [
+            "Ammo Pack"
+          ],
+          "minimum_order_quantity": 1,
+          "order_multiple": 1,
+          "pack_quantity": 1400,
+          "quantity_available": 15934,
+          "maximum_distribution_quantity": null,
+          "marketplace": false,
+          "tariff_active": null,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.714,
+              "total_price": 0.714
+            },
+            {
+              "break_quantity": 5,
+              "unit_price": 0.634,
+              "total_price": 3.17
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.556,
+              "total_price": 5.56
+            },
+            {
+              "break_quantity": 50,
+              "unit_price": 0.478,
+              "total_price": 23.9
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.427,
+              "total_price": 42.7
+            },
+            {
+              "break_quantity": 250,
+              "unit_price": 0.398,
+              "total_price": 99.5
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.356,
+              "total_price": 178.0
+            },
+            {
+              "break_quantity": 1400,
+              "unit_price": 0.3,
+              "total_price": 420.0
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "commercial.manufacturer_lead_time_weeks": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "LeadTime",
+      "raw_value": "133 Days",
+      "normalised_value": 19.0,
+      "unit": "weeks",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "logistics.manufacturer_standard_pack_quantity": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "Standard Pack Qty",
+      "raw_value": "1400",
+      "normalised_value": 1400,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ROHSStatus",
+      "raw_value": "RoHS Compliant",
+      "normalised_value": "RoHS Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "regulatory.eccn": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "ProductCompliance.ECCN",
+      "raw_value": "EAR99",
+      "normalised_value": "EAR99",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    },
+    "regulatory.country_of_origin": {
+      "provider": "Mouser",
+      "endpoint": "Part_Number_Search",
+      "raw_name": "TradeCompliance.Country of Origin",
+      "raw_value": "Philippines",
+      "normalised_value": "Philippines",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T19:07:09Z"
+    }
+  },
+  "raw_references": {
+    "part_number_search": "Knowledge_Base\\Current\\Mouser\\Part_Number_Search\\Littelfuse_Inc__36912000000.json"
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "schema_version": "0.2",
+  "identity": {
+    "manufacturer": "onsemi",
+    "manufacturer_part_number": "BC847BLT3G",
+    "provider_part_number": "BC847BLT3GOSCT-ND",
+    "alternative_names": [
+      "2156-BC847BLT3G-OS",
+      "BC847BLT3GOSDKR",
+      "BC847BLT3G-ND",
+      "BC847BLT3GOSCT",
+      "BC847BLT3GOSTR",
+      "6196-BC847BLT3G",
+      "ONSONSBC847BLT3G"
+    ],
+    "description": "TRANS NPN 45V 0.1A SOT23-3",
+    "detailed_description": "Bipolar (BJT) Transistor NPN 45 V 100 mA 100MHz 300 mW Surface Mount SOT-23-3 (TO-236)",
+    "category": "Discrete Semiconductor Products",
+    "subcategory": "Single Bipolar Transistors",
+    "ean": ""
+  },
+  "technical": {
+    "component_type": "",
+    "regulator_type": [],
+    "manufacturer_series": "BC847",
+    "package": "TO-236-3, SC-59, SOT-23-3",
+    "supplier_device_package": "SOT-23-3 (TO-236)",
+    "mounting_type": "SMD",
+    "output_voltage_v": null,
+    "output_current_a": null,
+    "input_voltage_min_v": null,
+    "input_voltage_max_v": null,
+    "operating_temperature_min_c": -55.0,
+    "operating_temperature_max_c": 150.0,
+    "tolerance_percent": null,
+    "channel_count": null,
+    "additional_attributes": {
+      "Transistor Type": [
+        "NPN"
+      ],
+      "Current - Collector (Ic) (Max)": [
+        "100 mA"
+      ],
+      "Voltage - Collector Emitter Breakdown (Max)": [
+        "45 V"
+      ],
+      "Vce Saturation (Max) @ Ib, Ic": [
+        "600mV @ 5mA, 100mA"
+      ],
+      "Current - Collector Cutoff (Max)": [
+        "15nA (ICBO)"
+      ],
+      "DC Current Gain (hFE) (Min) @ Ic, Vce": [
+        "200 @ 2mA, 5V"
+      ],
+      "Power - Max": [
+        "300 mW"
+      ],
+      "Frequency - Transition": [
+        "100MHz"
+      ],
+      "Grade": [
+        "-"
+      ],
+      "Qualification": [
+        "-"
+      ]
+    }
+  },
+  "commercial": {
+    "currency": "EUR",
+    "price_type": "",
+    "tax_type": "",
+    "tax_rate_percent": null,
+    "supplier_moq": 1,
+    "order_multiple": null,
+    "stock_quantity": 54396,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_time_weeks": 52.0,
+    "unit_price": 0.1,
+    "price_breaks": [
+      {
+        "break_quantity": 1,
+        "unit_price": 0.1,
+        "total_price": 0.1,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.065,
+        "total_price": 0.65,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.0395,
+        "total_price": 3.95,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.02846,
+        "total_price": 14.23,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.02486,
+        "total_price": 24.86,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 2000,
+        "unit_price": 0.02181,
+        "total_price": 43.62,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 0.01848,
+        "total_price": 92.4,
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "pack_format": "Cut Tape"
+      },
+      {
+        "break_quantity": 1,
+        "unit_price": 0.1,
+        "total_price": 0.1,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10,
+        "unit_price": 0.065,
+        "total_price": 0.65,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 100,
+        "unit_price": 0.0395,
+        "total_price": 3.95,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 500,
+        "unit_price": 0.02846,
+        "total_price": 14.23,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 1000,
+        "unit_price": 0.02486,
+        "total_price": 24.86,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 2000,
+        "unit_price": 0.02181,
+        "total_price": 43.62,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 5000,
+        "unit_price": 0.01848,
+        "total_price": 92.4,
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "pack_format": "DigiReel"
+      },
+      {
+        "break_quantity": 10000,
+        "unit_price": 0.01549,
+        "total_price": 154.9,
+        "provider_part_number": "BC847BLT3GOSTR-ND",
+        "pack_format": "Reel"
+      },
+      {
+        "break_quantity": 20000,
+        "unit_price": 0.01385,
+        "total_price": 277.0,
+        "provider_part_number": "BC847BLT3GOSTR-ND",
+        "pack_format": "Reel"
+      }
+    ],
+    "offers": [
+      {
+        "provider_part_number": "BC847BLT3GOSCT-ND",
+        "supplier": "onsemi",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSDKR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 54396,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.1,
+            "total_price": 0.1
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.065,
+            "total_price": 0.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0395,
+            "total_price": 3.95
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.02846,
+            "total_price": 14.23
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.02486,
+            "total_price": 24.86
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 0.02181,
+            "total_price": 43.62
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.01848,
+            "total_price": 92.4
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "BC847BLT3GOSTR-ND",
+        "supplier": "onsemi",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 50000,
+        "maximum_distribution_quantity": 40000,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.01549,
+            "total_price": 154.9
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.01385,
+            "total_price": 277.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "logistics": {
+    "sales_unit": "pcs",
+    "listed_pack_quantity": null,
+    "manufacturer_standard_pack_quantity": 10000,
+    "pack_formats": [
+      "Cut Tape",
+      "DigiReel",
+      "Reel"
+    ],
+    "weight_value": null,
+    "weight_unit": "",
+    "deliveries": null
+  },
+  "lifecycle": {
+    "status": "Active",
+    "provider_status": [
+      "Active"
+    ],
+    "discontinued": false,
+    "end_of_life": false,
+    "normally_stocking": true,
+    "backorder_allowed": true,
+    "non_cancellable_non_returnable": false,
+    "last_buy_date": "",
+    "suggested_replacement": ""
+  },
+  "regulatory": {
+    "rohs_status": "ROHS3 Compliant",
+    "reach_status": "REACH Unaffected",
+    "moisture_sensitivity_level": "1  (Unlimited)",
+    "eccn": "EAR99",
+    "hts_code": "8541.21.0075",
+    "country_of_origin": "",
+    "additional_compliance": {}
+  },
+  "media": {
+    "primary_image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/488_SOT-23-3%2CTO-236-3%2CMicro3%2CSSD3%2CSST3.jpg",
+    "thumbnail_url": "",
+    "high_resolution_image_url": "",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF",
+    "product_url": "https://www.digikey.ie/en/products/detail/onsemi/BC847BLT3G/1475995",
+    "video_url": ""
+  },
+  "provider_metadata": {
+    "provider": "DigiKey",
+    "locale": "IE",
+    "currency": "EUR",
+    "request_context": "live_api",
+    "captured_at_utc": "2026-08-03T18:59:51Z",
+    "source_endpoints": [
+      "Product_Details"
+    ]
+  },
+  "provenance": {
+    "identity.manufacturer": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Manufacturer.Name",
+      "raw_value": "onsemi",
+      "normalised_value": "onsemi",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "identity.manufacturer_part_number": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ManufacturerProductNumber",
+      "raw_value": "BC847BLT3G",
+      "normalised_value": "BC847BLT3G",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "technical.package": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Package / Case",
+      "raw_value": "TO-236-3, SC-59, SOT-23-3",
+      "normalised_value": "TO-236-3, SC-59, SOT-23-3",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "commercial.offers": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductVariations",
+      "raw_value": [
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.01549,
+              "TotalPrice": 154.9
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.01385,
+              "TotalPrice": 277.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 50000,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.065,
+              "TotalPrice": 0.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0395,
+              "TotalPrice": 3.95
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.02846,
+              "TotalPrice": 14.23
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.02486,
+              "TotalPrice": 24.86
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.02181,
+              "TotalPrice": 43.62
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.01848,
+              "TotalPrice": 92.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 54396,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "BC847BLT3GOSDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.1,
+              "TotalPrice": 0.1
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.065,
+              "TotalPrice": 0.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0395,
+              "TotalPrice": 3.95
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.02846,
+              "TotalPrice": 14.23
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.02486,
+              "TotalPrice": 24.86
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 0.02181,
+              "TotalPrice": 43.62
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.01848,
+              "TotalPrice": 92.4
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 488,
+            "Name": "onsemi"
+          },
+          "QuantityAvailableforPackageType": 54396,
+          "MaxQuantityForDistribution": 40000,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "normalised_value": [
+        {
+          "provider_part_number": "BC847BLT3GOSCT-ND",
+          "supplier": "onsemi",
+          "package_type_id": 2,
+          "package_type": "Cut Tape (CT)",
+          "packaging_code": "Cut Tape (CT)",
+          "pack_format": "Cut Tape",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 54396,
+          "maximum_distribution_quantity": 40000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.1,
+              "total_price": 0.1
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.065,
+              "total_price": 0.65
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.0395,
+              "total_price": 3.95
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.02846,
+              "total_price": 14.23
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.02486,
+              "total_price": 24.86
+            },
+            {
+              "break_quantity": 2000,
+              "unit_price": 0.02181,
+              "total_price": 43.62
+            },
+            {
+              "break_quantity": 5000,
+              "unit_price": 0.01848,
+              "total_price": 92.4
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "BC847BLT3GOSDKR-ND",
+          "supplier": "onsemi",
+          "package_type_id": 243,
+          "package_type": "Digi-Reel®",
+          "packaging_code": "Digi-Reel®",
+          "pack_format": "DigiReel",
+          "minimum_order_quantity": 1,
+          "pack_quantity": 1,
+          "quantity_available": 54396,
+          "maximum_distribution_quantity": 40000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [
+            {
+              "charge_type": "packaging_service",
+              "description": "Digi-Reel service charge",
+              "amount": 5.5,
+              "currency": "EUR",
+              "application": "per_order_line"
+            }
+          ],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 1,
+              "unit_price": 0.1,
+              "total_price": 0.1
+            },
+            {
+              "break_quantity": 10,
+              "unit_price": 0.065,
+              "total_price": 0.65
+            },
+            {
+              "break_quantity": 100,
+              "unit_price": 0.0395,
+              "total_price": 3.95
+            },
+            {
+              "break_quantity": 500,
+              "unit_price": 0.02846,
+              "total_price": 14.23
+            },
+            {
+              "break_quantity": 1000,
+              "unit_price": 0.02486,
+              "total_price": 24.86
+            },
+            {
+              "break_quantity": 2000,
+              "unit_price": 0.02181,
+              "total_price": 43.62
+            },
+            {
+              "break_quantity": 5000,
+              "unit_price": 0.01848,
+              "total_price": 92.4
+            }
+          ],
+          "customer_price_breaks": []
+        },
+        {
+          "provider_part_number": "BC847BLT3GOSTR-ND",
+          "supplier": "onsemi",
+          "package_type_id": 1,
+          "package_type": "Tape & Reel (TR)",
+          "packaging_code": "Tape & Reel (TR)",
+          "pack_format": "Reel",
+          "minimum_order_quantity": 10000,
+          "pack_quantity": 10000,
+          "quantity_available": 50000,
+          "maximum_distribution_quantity": 40000,
+          "marketplace": false,
+          "tariff_active": true,
+          "additional_charges": [],
+          "standard_price_breaks": [
+            {
+              "break_quantity": 10000,
+              "unit_price": 0.01549,
+              "total_price": 154.9
+            },
+            {
+              "break_quantity": 20000,
+              "unit_price": 0.01385,
+              "total_price": 277.0
+            }
+          ],
+          "customer_price_breaks": []
+        }
+      ],
+      "unit": "EUR",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "commercial.stock_quantity": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.QuantityAvailable",
+      "raw_value": 54396,
+      "normalised_value": 54396,
+      "unit": "pcs",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "lifecycle.status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.ProductStatus.Status",
+      "raw_value": "Active",
+      "normalised_value": "Active",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    },
+    "regulatory.rohs_status": {
+      "provider": "DigiKey",
+      "endpoint": "Product_Details",
+      "raw_name": "Product.Classifications.RohsStatus",
+      "raw_value": "ROHS3 Compliant",
+      "normalised_value": "ROHS3 Compliant",
+      "unit": "",
+      "captured_at_utc": "2026-08-03T18:59:51Z"
+    }
+  },
+  "raw_references": {
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\onsemi__BC847BLT3G.json"
+  }
+}
