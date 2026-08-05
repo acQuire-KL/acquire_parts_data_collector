@@ -1,0 +1,7 @@
+﻿Procurement Variant Group,Standard Manufacturer Name,Procurement Variant MPN,Source MPN,Relationship,Review ID,Record ID,Engineering Evidence,Approved By,Approved Date
+PVG-2AEFB3F1CF,TE Connectivity,BAT-HLD-001-THM,BAT-HLD-001-THM,Approved procurement variant,REV-2D64D8EC14,PMR-000009,Packaging difference only,Ken,04-Aug
+PVG-2AEFB3F1CF,TE Connectivity,BAT-HLD-001-THM-TR,BAT-HLD-001-THM,Approved procurement variant,REV-2D64D8EC14,PMR-000009,Packaging difference only,Ken,04-Aug
+PVG-6404C9368E,Texas Instruments,ADS1232IPW,ADS1232IPW,Approved procurement variant,REV-B7413D4183,PMR-000006,Packaging difference only,Ken,04-Aug
+PVG-6404C9368E,Texas Instruments,ADS1232IPWG4,ADS1232IPW,Approved procurement variant,REV-B7413D4183,PMR-000006,Packaging difference only,Ken,04-Aug
+PVG-6404C9368E,Texas Instruments,ADS1232IPWR,ADS1232IPW,Approved procurement variant,REV-B7413D4183,PMR-000006,Packaging difference only,Ken,04-Aug
+PVG-6404C9368E,Texas Instruments,ADS1232IPWRG4,ADS1232IPW,Approved procurement variant,REV-B7413D4183,PMR-000006,Packaging difference only,Ken,04-Aug

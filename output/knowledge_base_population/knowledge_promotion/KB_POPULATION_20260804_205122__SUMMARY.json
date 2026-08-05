@@ -1,0 +1,14 @@
+{
+  "source_review_file": "output\\knowledge_base_population\\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv",
+  "generated_at_utc": "2026-08-05T10:43:43Z",
+  "review_rows": 6,
+  "accepted_rows": 6,
+  "rejected_rows": 0,
+  "deferred_rows": 0,
+  "manufacturer_aliases": 2,
+  "procurement_variants": 6,
+  "approved_additions": 6,
+  "validation_warnings": 0,
+  "parts_master_modified": false,
+  "aipns_allocated": 0
+}

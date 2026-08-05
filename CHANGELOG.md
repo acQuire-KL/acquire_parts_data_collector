@@ -29,3 +29,9 @@
 - Added DigiKey Manufacturer + MPN search qualification.
 - Added MPN-only candidate capture for ambiguous/unresolved searches.
 - Added candidate ranking and separate provider-error reporting.
+
+## v0.2.10 — Sprint 4.5 Patch 2
+- Added Knowledge Promotion from completed candidate reviews.
+- Added manufacturer-alias, procurement-variant, approved-addition and review-history artefacts.
+- Added validation and governance summary outputs.
+- No Parts Master modification or AIPN allocation.
