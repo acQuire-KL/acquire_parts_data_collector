@@ -89,3 +89,21 @@ Useful attributes discovered from any provider are added to the provider-neutral
 ## 20. Human Approval Controls the Parts Master
 
 PDC may import, enrich and recommend Parts Master records, but no record may enter the Approved Parts Master without explicit human acceptance. Provider data and automated proposals remain staging evidence until approved. The source workbook must remain unchanged and every imported value must remain traceable.
+
+## 21. Engineering Knowledge Is Immutable
+
+Once engineering knowledge has been approved and promoted, it is never edited or deleted. A later engineering review may supersede or withdraw an earlier decision, but the earlier record and its evidence remain part of the permanent history.
+
+Knowledge records therefore carry lifecycle fields that allow PDC to determine when a decision was effective and what later decision replaced it. This preserves the timescale of engineering decisions so later impact analysis can determine which products, BOMs or builds may have relied on knowledge that was subsequently changed.
+
+## 22. Store Knowledge Once; Derive Views When Needed
+
+PDC should avoid storing the same engineering decision in multiple overlapping operational files. Permanent engineering knowledge is recorded once in the immutable Knowledge History. Current Approved Parts, Manufacturer Aliases, Procurement Variant groups and review views are derived from that history when required.
+
+This reduces duplicate data while preserving complete traceability.
+
+## 23. PDC Removes Legwork, Not Engineering Approval
+
+PDC should complete as much deterministic work as possible before asking the user to review a component: normalise duplicate BOM rows, apply known aliases, identify existing approved parts, gather candidate evidence and rank proposals. The user should only be asked to decide genuinely new or unresolved engineering knowledge.
+
+PDC may make the approval workflow easy and repetitive, but it must not silently approve a new component or engineering relationship on the user's behalf.

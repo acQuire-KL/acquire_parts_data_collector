@@ -1,0 +1,13 @@
+Sprint 4.5 Patch 2b - Correction 5
+
+1. Extract this ZIP over the PDC project root.
+2. Do NOT delete the existing __KNOWLEDGE_HISTORY.csv.
+3. Run:
+
+   py -m unittest discover -s tests -v
+
+4. Re-run the same completed candidate review, for example:
+
+   py knowledge_promotion_check.py "output\knowledge_base_population\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv"
+
+The existing Knowledge History will be rewritten using the simplified column schema while preserving the historical records and Knowledge IDs.

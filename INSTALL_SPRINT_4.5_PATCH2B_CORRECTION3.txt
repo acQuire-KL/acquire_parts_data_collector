@@ -1,0 +1,25 @@
+PDC v0.2.10 - Sprint 4.5 Patch 2b Correction 3
+Knowledge History Conversation Grouping
+
+Install
+=======
+Extract this ZIP over the project root, preserving the tests/ folder.
+
+Test
+====
+py -m unittest discover -s tests -v
+
+Then rerun the existing completed review file, for example:
+py knowledge_promotion_check.py "output\\knowledge_base_population\\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv"
+
+Do NOT delete the existing KNOWLEDGE_HISTORY file.
+
+Behaviour
+=========
+- Knowledge History is grouped as a human-readable conversation per Original MPN.
+- Original Manufacturer + Original MPN are displayed once at the start of each group.
+- Subsequent rows in the same group leave those two display cells blank.
+- Exact returned MPN is listed first, then procurement variants, then derived Manufacturer Alias knowledge.
+- Full source Manufacturer + MPN remain stored on every record in right-hand internal traceability fields.
+- Existing immutable Knowledge IDs and history are preserved.
+- No Parts Master is modified and no AIPNs are allocated.

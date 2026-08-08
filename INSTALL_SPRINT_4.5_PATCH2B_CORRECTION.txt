@@ -1,0 +1,18 @@
+PDC v0.2.10 Sprint 4.5 Patch 2b Correction
+================================================
+
+Extract this ZIP over the project root after Patch 2b.
+
+Run:
+    py -m unittest discover -s tests -v
+
+Then rerun Knowledge Promotion using the completed Candidate Review file:
+    py knowledge_promotion_check.py "output\knowledge_base_population\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv"
+
+Open the regenerated __KNOWLEDGE_HISTORY.csv and confirm that the first columns are:
+    Original Manufacturer
+    Original MPN
+    Candidate Manufacturer
+    Candidate MPN
+
+Existing knowledge/lifecycle behaviour is unchanged.

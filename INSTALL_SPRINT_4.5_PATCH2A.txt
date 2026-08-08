@@ -1,0 +1,40 @@
+PDC v0.2.10 — Sprint 4.5 Patch 2a
+Knowledge Promotion Output Consolidation
+
+INSTALL
+=======
+Extract/copy these files over the project root, preserving the tests/ and docs/ folders.
+This patch assumes Sprint 4.5 Patch 2 is already installed.
+
+TEST
+====
+1. Run the full regression suite:
+
+   py -m unittest discover -s tests -v
+
+   Expected on the supplied v0.2.10 baseline: 115 tests, OK.
+
+2. Re-run Knowledge Promotion using the completed Candidate Review file, for example:
+
+   py knowledge_promotion_check.py "output\\knowledge_base_population\\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv"
+
+EXPECTED SUCCESS OUTPUTS
+========================
+A clean run creates only:
+
+  <RUN>__PROMOTED_KNOWLEDGE.csv
+  <RUN>__REVIEW_HISTORY.csv
+  <RUN>__SUMMARY.json
+
+<RUN>__VALIDATION.csv is created only when non-blocking validation warnings exist.
+Blocking validation errors stop promotion before knowledge files are written.
+
+IMPORTANT BEHAVIOUR
+===================
+- Manufacturer Alias, Procurement Variant and Approved Addition knowledge is consolidated into one CSV using Knowledge Category.
+- Every promoted record has a stable Knowledge ID.
+- Lifecycle fields are present: Status, Effective From, Effective To, Supersedes, Superseded By.
+- Current promoted records start as Active.
+- Review History is append-only: re-running the same decision does not duplicate it; a changed later decision creates a new history event instead of overwriting the earlier event.
+- No Parts Master is modified.
+- No AIPNs are allocated.

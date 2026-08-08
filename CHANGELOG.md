@@ -35,3 +35,21 @@
 - Added manufacturer-alias, procurement-variant, approved-addition and review-history artefacts.
 - Added validation and governance summary outputs.
 - No Parts Master modification or AIPN allocation.
+
+## v0.2.10 — Sprint 4.5 Patch 2a
+- Consolidated promoted manufacturer-alias, procurement-variant and approved-addition records into one `__PROMOTED_KNOWLEDGE.csv` output.
+- Added stable Knowledge IDs and lifecycle fields for future superseding/withdrawal without deleting history.
+- Kept `__REVIEW_HISTORY.csv` as an append-only engineering audit trail; identical reruns do not duplicate history entries.
+- `__VALIDATION.csv` is now created only when warnings are present.
+- Added explicit Engineering Knowledge immutability principle to project documentation.
+- No Parts Master modification or AIPN allocation.
+
+## v0.2.10 — Sprint 4.5 Patch 2b
+
+- Consolidated Knowledge Promotion into one immutable `KNOWLEDGE_HISTORY` event store.
+- Removed duplicate storage of accepted MFG+MPN records as both Procurement Variant and Approved Addition.
+- Added derived current-state helpers for Approved Parts and Manufacturer Aliases.
+- Added append-only supersession links so later decisions can replace earlier knowledge without deleting or editing the earlier event.
+- Preserved Accept, Reject and Defer engineer comments for future review learning.
+- Added Review Comment Learning to the Parking Lot.
+- Added Engineering Principles for store-once/derive-views and PDC removing legwork without removing human approval.

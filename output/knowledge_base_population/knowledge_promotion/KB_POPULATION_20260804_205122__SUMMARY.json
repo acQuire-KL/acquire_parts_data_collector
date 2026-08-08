@@ -1,14 +1,27 @@
 {
   "source_review_file": "output\\knowledge_base_population\\KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv",
-  "generated_at_utc": "2026-08-05T10:43:43Z",
+  "generated_at_utc": "2026-08-08T15:04:02Z",
   "review_rows": 6,
   "accepted_rows": 6,
   "rejected_rows": 0,
   "deferred_rows": 0,
-  "manufacturer_aliases": 2,
-  "procurement_variants": 6,
-  "approved_additions": 6,
+  "knowledge_events_generated_this_run": 6,
+  "knowledge_history_rows_appended": 0,
+  "knowledge_history_total_rows": 6,
+  "knowledge_type_counts": {
+    "Approved Part": 6
+  },
+  "current_knowledge_records": 6,
+  "current_approved_parts": 6,
+  "current_manufacturer_aliases": 2,
   "validation_warnings": 0,
+  "validation_file_created": false,
+  "principles": [
+    "Store engineering knowledge once and derive views when needed.",
+    "Manufacturer aliases are derived from accepted Original-to-Candidate manufacturer relationships, not duplicated as separate history rows.",
+    "Approved engineering knowledge is never deleted or overwritten; later events supersede it.",
+    "No part is automatically approved or added to the Parts Master."
+  ],
   "parts_master_modified": false,
   "aipns_allocated": 0
 }

@@ -478,3 +478,34 @@ The GUI must remain a view over the Knowledge Base rather than becoming an indep
 ## Deferred provider investigation — Mouser technical parameters
 
 The current documented Mouser Search API response does not expose the detailed technical parameter set visible on the product webpage. Revisit when Mouser changes its API, another supported endpoint is identified, or a commercial need justifies further investigation.
+
+---
+
+# Review Comment Learning
+
+**Priority:** Medium
+
+## Objective
+
+Use historical engineer comments from candidate-review decisions to improve future candidate ranking and make PDC's proposed-match explanations more useful.
+
+## Future Behaviour
+
+- Preserve the engineer comment with every review decision, including accepted, rejected and deferred candidates.
+- Identify recurring reasons for acceptance or rejection across similar component reviews.
+- Use previous comments as supporting context when ranking or explaining future candidates.
+- Surface relevant previous review comments to the user when they may help a new decision.
+- Keep the original review decision, reviewer and date traceable.
+
+## Governance
+
+Review comments are supporting learning data only.
+
+They must **not**:
+
+- constitute manufacturer engineering evidence;
+- independently increase Engineering Confidence;
+- automatically approve a component;
+- override manufacturer-controlled technical information.
+
+Any new component or engineering relationship still requires explicit human acceptance before entering approved PDC knowledge.
