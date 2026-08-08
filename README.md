@@ -1,74 +1,71 @@
-# Parts Data Collector (PDC) — v0.2.8 development
+# Parts Data Collector (PDC) — v0.2.10
 
-PDC reads Manufacturer + MPN rows from Excel, resolves the manufacturer, retrieves DigiKey Product Information V4 data, and writes an enriched workbook.
+Parts Data Collector (PDC) builds reusable component knowledge from manufacturer and manufacturer-part-number identities. It normalises BOM data, checks existing PDC knowledge, gathers provider evidence for unknown parts, prepares candidate variants for human review, and preserves accepted engineering knowledge for reuse on future BOMs.
 
-## Project direction
+PDC is deliberately a **data collection and engineering-review preparation tool**. It removes repetitive research work, but it does not independently approve engineering decisions.
 
-PDC is being developed to automate the multi-source data-gathering workflow of an experienced component engineer. It collects and preserves source data; the Parts Intelligence Engine (PIE) will later compare, interpret and present that data for reviewed decisions.
-
-The architectural principles are documented in:
-
-- `docs/Vision.md`
-- `docs/Architecture.md`
-- `docs/Engineering_Principles.md`
-- `docs/Parking_Lot.md`
-
-The v0.2.4a documentation foundation does not yet change Python behaviour or workbook output.
-
-
-## v0.2.2: Workbook review usability
-
-- `Enriched Parts` now uses Match Status as its sole user-facing match indicator.
-- Match Status cells use green, yellow, orange and red review colours.
-- Detailed reasons remain available on `Review Required`.
-- Filters and frozen headers are applied only to the two review-oriented worksheets.
-- Excel presentation logic has moved into `excel_formatter.py`.
-
-## v0.2.1: Static technical attributes
-
-The enriched workbook now groups and exposes technical attributes already present in the Knowledge Base. The `Attribute Mapping` worksheet records the source JSON path and a real sample value for each mapped field.
-
-The first phase focuses on identity, documentation, compliance, physical and broadly applicable electrical data. Existing commercial fields remain available, but further commercial-data work is deferred.
-
-## v0.2.0: Knowledge Base foundation
-
-PDC now stores provider data in a persistent, provider-aware Knowledge Base:
+## Current workflow
 
 ```text
-Knowledge_Base/
-├── Current/
-│   └── DigiKey/
-│       ├── Product_Details/
-│       └── Reference_Data/
-├── History/
-│   └── DigiKey/
-│       └── Product_Details/
-└── Manifest.json
+BOM / Parts Master input
+        ↓
+Normalisation and identity consolidation
+        ↓
+Existing PDC knowledge check
+        ↓
+Provider search for unresolved MFG + MPN identities
+        ↓
+Candidate generation and engineering justification
+        ↓
+Human Accept / Reject / Defer review
+        ↓
+Knowledge History
+        ↓
+Reusable knowledge for future BOM analysis
 ```
 
-- `Current` contains the latest known response for fast reuse.
-- `History` contains an immutable dated JSON snapshot for each fresh live API capture.
-- Every JSON contains a capture timestamp and source metadata.
-- `Manifest.json` records provider and record counts and reserves a section for later staggered refresh planning.
-- Existing v0.1.x `cache/` files are migrated automatically when first used.
+Generated outputs are disposable views of the process. They are not the source of engineering truth and should be reproducible from committed inputs, provider evidence and approved knowledge.
 
-A Knowledge Base read does **not** create a new history snapshot. A new history snapshot is created only following a fresh API request, such as when `--force-refresh` is used.
+## Supported providers
+
+| Provider | Status |
+|---|---|
+| DigiKey | Connected |
+| Mouser | Connected |
+| TME | Connected |
+
+Provider integrations remain independent. PDC uses a provider-neutral part profile so that no single distributor defines the engineering data model.
+
+## Documentation — recommended reading order
+
+1. [`docs/Vision.md`](docs/Vision.md) — what PDC is intended to become and its relationship with PIE.
+2. [`docs/Engineering_Principles.md`](docs/Engineering_Principles.md) — rules that govern PDC development and engineering decisions.
+3. [`docs/Architecture.md`](docs/Architecture.md) — current system boundaries and data architecture.
+4. [`docs/PDCPartProfile.md`](docs/PDCPartProfile.md) — provider-neutral component data model.
+5. [`docs/PDC_Parts_Master.md`](docs/PDC_Parts_Master.md) — Parts Master seed/import and governance model.
+6. [`docs/BOM_Normalisation.md`](docs/BOM_Normalisation.md) — BOM normalisation and traceability.
+7. [`docs/Knowledge_Base_Population.md`](docs/Knowledge_Base_Population.md) — provider evidence collection and Knowledge Base population.
+8. [`docs/API_Onboarding.md`](docs/API_Onboarding.md) — repeatable process for adding a new provider.
+9. [`docs/Workbook_Style_Guide.md`](docs/Workbook_Style_Guide.md) — workbook presentation rules.
+10. [`docs/Parking_Lot.md`](docs/Parking_Lot.md) — intentionally deferred ideas and future capability.
+
+Provider-specific implementation notes are under [`docs/providers/`](docs/providers/). Historical sprint/install notes are retained under [`docs/history/`](docs/history/) for traceability but are not part of the normal reading path.
 
 ## Installation
 
-Keep your existing `.env` file. Install dependencies in your virtual environment:
+Keep your local `.env` file and install dependencies in the active virtual environment:
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-## Run
+## Main application
 
 ```powershell
 python main.py --input input\AIPN_Input_Template.xlsx --output output\AIPN_Enriched.xlsx
 ```
 
-Force a live refresh and create a new historical snapshot:
+Force a live provider refresh where supported:
 
 ```powershell
 python main.py --input input\AIPN_Input_Template.xlsx --output output\AIPN_Enriched.xlsx --force-refresh
@@ -80,40 +77,20 @@ Validate input and credentials without retrieving product data:
 python main.py --input input\AIPN_Input_Template.xlsx --validate-only
 ```
 
-## Important data distinction
+## Development baseline
 
-PDC collects and preserves source data. PIE will later interpret lifecycle risk, PCNs, LTB/LCS dates, replacement suitability, and approval into the Parts Master.
+Run the complete regression suite with:
 
-## Commercial Profile (v0.2.3 Phase 1)
+```powershell
+py -m unittest discover -s tests -v
+```
 
-PDC now derives a provider-neutral commercial profile from each captured DigiKey product response while preserving the original response unchanged.
+During repository housekeeping and structural refactoring, generated output files must not be used as source information. Tests and smoke checks should regenerate outputs from committed source inputs.
 
-The profile contains:
+## PDC and PIE
 
-- original provider currency and capture timestamp;
-- product-level availability, unit price and manufacturer lead time;
-- every DigiKey product variation;
-- provider part number;
-- raw package type and normalised pack format;
-- MOQ and pack quantity;
-- package-specific availability;
-- complete standard and customer price ladders, sorted by break quantity.
+**PDC** collects, normalises, preserves and presents component evidence and approved engineering knowledge.
 
-This phase prepares the data model for the Enriched Parts price-break summary and the long-form Commercial Analysis output planned for Phase 2.
+**PIE** will consume that evidence to perform BOM-level interpretation, risk analysis and recommendations.
 
-## Commercial Output (v0.2.3)
-
-PDC now presents commercial data in two complementary forms:
-
-- `Enriched Parts` contains the primary purchasing offer and a multiline price-break summary for engineering review.
-- `Commercial Analysis` contains one row per packaging offer and price break for BOM costing, Power Query and later PIE what-if analysis.
-
-The commercial model preserves the provider currency, complete standard price ladder, packaging option and fixed additional charges. Digi-Reel service fees are kept separate from unit prices so later costing can calculate true effective cost without altering the provider's quoted price.
-
-### Supported Providers
-
-| Provider | Status |
-|----------|--------|
-| DigiKey | ✅ Connected |
-| Mouser | ✅ Connected |
-| TME | ✅ Connected |
+Keeping those responsibilities separate allows PDC knowledge to remain reusable across products, customers and future analyses.

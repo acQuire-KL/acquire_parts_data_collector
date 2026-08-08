@@ -53,3 +53,15 @@
 - Preserved Accept, Reject and Defer engineer comments for future review learning.
 - Added Review Comment Learning to the Parking Lot.
 - Added Engineering Principles for store-once/derive-views and PDC removing legwork without removing human approval.
+
+## v0.2.10 — Sprint 4.5 Repository Housekeeping Step 1
+
+Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
+
+- Rewrote the root README to describe the current PDC workflow and v0.2.10 state.
+- Added a defined documentation reading order.
+- Moved provider-specific notes into `docs/providers/`.
+- Moved historical sprint installation and patch notes into `docs/history/`.
+- Archived superseded cleanup/placement instruction files out of the project root.
+- Added documentation indexes for current, provider-specific and historical material.
+- No Python modules, runtime behaviour, provider integrations, inputs, outputs or Knowledge Base data changed in this step.

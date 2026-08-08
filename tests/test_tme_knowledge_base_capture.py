@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 from config import TmeSettings
-from tme_connectivity_check import _save_to_knowledge_base
+from providers.tme.checks.connectivity_check import _save_to_knowledge_base
 
 
 class TmeKnowledgeBaseCaptureTests(unittest.TestCase):

@@ -1,3 +1,18 @@
+# TME Provider
+
+Operational TME integration for PDC.
+
+- `client.py` - TME API client.
+- `normalizer.py` - TME responses to `PDCPartProfile` mapping.
+- `checks/` - provider-specific connectivity/capture and profile validation utilities.
+
+From the repository root:
+
+```bash
+py -m providers.tme.checks.connectivity_check MCP1711T-25I/OT
+py -m providers.tme.checks.profile_check
+```
+
 # TME Provider — Sprint 4.2.2c
 
 ## Scope

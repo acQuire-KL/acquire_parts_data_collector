@@ -5,7 +5,7 @@ from openpyxl import load_workbook, Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
 from config import Settings
-from digikey_client import DigiKeyClient
+from providers.digikey.client import DigiKeyClient
 from manufacturer_resolver import resolve_manufacturer
 
 MFG = {'manufacturer','mfg','mfr','manufacturer name'}

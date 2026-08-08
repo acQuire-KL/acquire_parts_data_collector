@@ -81,7 +81,7 @@
     "tax_rate_percent": null,
     "supplier_moq": 1,
     "order_multiple": null,
-    "stock_quantity": 4593,
+    "stock_quantity": 4699,
     "manufacturer_public_quantity": 0,
     "manufacturer_lead_time_weeks": 8.0,
     "unit_price": 0.68,
@@ -221,9 +221,9 @@
         "packaging_code": "Cut Tape (CT)",
         "pack_format": "Cut Tape",
         "minimum_order_quantity": 1,
-        "pack_quantity": 0,
-        "quantity_available": 43,
-        "maximum_distribution_quantity": 0,
+        "pack_quantity": 1,
+        "quantity_available": 149,
+        "maximum_distribution_quantity": 999999999,
         "marketplace": false,
         "tariff_active": true,
         "additional_charges": [],
@@ -305,7 +305,7 @@
     "locale": "IE",
     "currency": "EUR",
     "request_context": "live_api",
-    "captured_at_utc": "2026-08-04T19:51:18Z",
+    "captured_at_utc": "2026-08-03T18:59:44Z",
     "source_endpoints": [
       "Product_Details"
     ]
@@ -318,7 +318,7 @@
       "raw_value": "TDK",
       "normalised_value": "TDK",
       "unit": "",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "identity.manufacturer_part_number": {
       "provider": "DigiKey",
@@ -327,7 +327,7 @@
       "raw_value": "PS1440P02BT",
       "normalised_value": "PS1440P02BT",
       "unit": "",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "technical.package": {
       "provider": "DigiKey",
@@ -336,7 +336,7 @@
       "raw_value": "",
       "normalised_value": "",
       "unit": "",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "commercial.offers": {
       "provider": "DigiKey",
@@ -383,10 +383,10 @@
             "Id": 445,
             "Name": "TDK"
           },
-          "QuantityAvailableforPackageType": 43,
-          "MaxQuantityForDistribution": 0,
+          "QuantityAvailableforPackageType": 149,
+          "MaxQuantityForDistribution": 999999999,
           "MinimumOrderQuantity": 1,
-          "StandardPackage": 0,
+          "StandardPackage": 1,
           "DigiReelFee": 0.0
         },
         {
@@ -498,9 +498,9 @@
           "packaging_code": "Cut Tape (CT)",
           "pack_format": "Cut Tape",
           "minimum_order_quantity": 1,
-          "pack_quantity": 0,
-          "quantity_available": 43,
-          "maximum_distribution_quantity": 0,
+          "pack_quantity": 1,
+          "quantity_available": 149,
+          "maximum_distribution_quantity": 999999999,
           "marketplace": false,
           "tariff_active": true,
           "additional_charges": [],
@@ -535,16 +535,16 @@
         }
       ],
       "unit": "EUR",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "commercial.stock_quantity": {
       "provider": "DigiKey",
       "endpoint": "Product_Details",
       "raw_name": "Product.QuantityAvailable",
-      "raw_value": 4593,
-      "normalised_value": 4593,
+      "raw_value": 4699,
+      "normalised_value": 4699,
       "unit": "pcs",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "lifecycle.status": {
       "provider": "DigiKey",
@@ -553,7 +553,7 @@
       "raw_value": "Active",
       "normalised_value": "Active",
       "unit": "",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     },
     "regulatory.rohs_status": {
       "provider": "DigiKey",
@@ -562,10 +562,10 @@
       "raw_value": "ROHS3 Compliant",
       "normalised_value": "ROHS3 Compliant",
       "unit": "",
-      "captured_at_utc": "2026-08-04T19:51:18Z"
+      "captured_at_utc": "2026-08-03T18:59:44Z"
     }
   },
   "raw_references": {
-    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\TDK__PS1440P02BT.json"
+    "product_details": "Knowledge_Base\\Current\\DigiKey\\Product_Details\\TDK_Corporation__PS1440P02BT.json"
   }
 }

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from digikey_client import DigiKeyClient
+from providers.digikey.client import DigiKeyClient
 from knowledge_base_manager import KnowledgeBaseManager, KnowledgeRecord
 from providers.base_provider import BaseProvider
 

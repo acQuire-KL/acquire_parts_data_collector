@@ -1,0 +1,20 @@
+Sprint 4.5 Housekeeping Step 2 - Provider Folder Restructuring
+
+1. Full regression suite
+   py -m unittest discover -s tests -v
+   Expected baseline: 123 tests, OK
+
+2. Provider-specific smoke checks (requires local .env credentials)
+   DigiKey:
+     py -m providers.digikey.checks.profile_check
+
+   Mouser:
+     py -m providers.mouser.checks.connectivity_check MCP1711T-25I/OT
+     py -m providers.mouser.checks.profile_check
+
+   TME:
+     py -m providers.tme.checks.connectivity_check MCP1711T-25I/OT
+     py -m providers.tme.checks.profile_check
+
+3. If the provider checks pass, run the 10-part Knowledge Base population smoke test
+   against a freshly generated staging file. Do not use dated output files as input.
