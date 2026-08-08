@@ -21,3 +21,5 @@ This folder contains the current design documentation for Parts Data Collector.
 - `history/` contains superseded sprint, patch, installation and cleanup notes retained only for project traceability.
 
 Historical documentation should not be used to determine current PDC behaviour when a current core document covers the same subject.
+
+- `../tools/` contains cross-cutting workflow checks and the generic provider onboarding toolkit.

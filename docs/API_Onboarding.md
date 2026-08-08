@@ -55,17 +55,12 @@ Never commit the `.env` file to Git.
 
 # Step 3 – Connectivity Check
 
-Create a standalone connectivity script.
+Use the generic onboarding method under `tools/provider_onboarding/` to understand the new API before creating an operational provider integration.
 
-Example:
+The first connectivity/authentication test may be temporary, but once the provider becomes operational its provider-specific checks belong under:
 
-```
-tools/
-    connectivity/
-
-        digikey_check.py
-        mouser_check.py
-        tme_check.py
+```text
+providers/<provider>/checks/
 ```
 
 Purpose:
@@ -100,16 +95,13 @@ This response becomes the reference when implementing the provider mapper.
 
 # Step 5 – Capability Review
 
-Create a capability review document.
+Create or update the provider-specific README/capability notes under:
 
-Example:
+```text
+docs/providers/
+```
 
-```
-docs/
-    DigiKey_Capability_Review.md
-    Mouser_Capability_Review.md
-    TME_Capability_Review.md
-```
+Use the generic JSON inspection/gap-analysis helpers under `tools/provider_onboarding/` where useful.
 
 Record support for:
 
@@ -143,14 +135,12 @@ Typical structure:
 
 ```
 providers/
-    digikey/
-    mouser/
-    tme/
-
+    <provider>/
         client.py
-        mapper.py
-        provider.py
+        normalizer.py
+        provider.py        # where required by the provider framework
         README.md
+        checks/
 ```
 
 Responsibilities:
@@ -161,9 +151,9 @@ Responsibilities:
 - HTTP requests
 - Error handling
 
-**mapper.py**
+**normalizer.py**
 
-- Convert provider response into the common ProviderResult model.
+- Convert provider response into the provider-neutral `PDCPartProfile` representation.
 
 **provider.py**
 
@@ -262,3 +252,9 @@ Potential future enhancements include:
 | Version | Date | Description |
 |----------|------------|--------------------------------|
 | 1.0 | 2026-07-26 | Initial release. Created following successful DigiKey, Mouser and TME integrations. |
+
+---
+
+# Onboarding Toolkit
+
+Generic onboarding utilities live under `tools/provider_onboarding/`. Operational provider-specific code and checks must move into `providers/<provider>/` once the integration is accepted into PDC.

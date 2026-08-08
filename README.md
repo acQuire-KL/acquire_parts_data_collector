@@ -26,6 +26,19 @@ Reusable knowledge for future BOM analysis
 
 Generated outputs are disposable views of the process. They are not the source of engineering truth and should be reproducible from committed inputs, provider evidence and approved knowledge.
 
+
+## Development utilities
+
+Cross-cutting workflow checks live under `tools/` and are run as modules from the repository root. Provider-specific checks remain with their provider under `providers/<provider>/checks/`. New provider discovery/onboarding utilities live under `tools/provider_onboarding/`.
+
+Examples:
+
+```bash
+py -m tools.bom_normalization_check "input/gb-mini-board-v0.1-draft2.csv"
+py -m tools.parts_master_seed_import_check "input/AIPN Parts Master.xlsx"
+py -m tools.knowledge_base_population_check "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv" --limit 10
+```
+
 ## Supported providers
 
 | Provider | Status |

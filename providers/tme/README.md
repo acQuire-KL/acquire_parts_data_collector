@@ -53,13 +53,13 @@ Do not include `/v2` in the endpoint paths.
 ## Capture all three endpoints
 
 ```bash
-python tme_connectivity_check.py MCP1711T-25I/OT
+py -m providers.tme.checks.connectivity_check MCP1711T-25I/OT
 ```
 
 For anonymous/public market context:
 
 ```bash
-python tme_connectivity_check.py MCP1711T-25I/OT --anonymous
+py -m providers.tme.checks.connectivity_check MCP1711T-25I/OT --anonymous
 ```
 
 A successful run writes Current and History copies beneath:

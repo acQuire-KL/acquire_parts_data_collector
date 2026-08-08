@@ -13,13 +13,13 @@ This patch does **not** correlate providers, approve records, allocate AIPNs, up
 The command defaults to ten staging records so API behaviour and credentials can be confirmed before a full population run:
 
 ```bash
-py knowledge_base_population_check.py "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv"
+py -m tools.knowledge_base_population_check "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv"
 ```
 
 Process all staging records only after reviewing the initial reports:
 
 ```bash
-py knowledge_base_population_check.py "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv" --limit 0
+py -m tools.knowledge_base_population_check "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv" --limit 0
 ```
 
 Select one or more providers with repeated `--provider` arguments. Existing current captures are reused unless `--force` is supplied.

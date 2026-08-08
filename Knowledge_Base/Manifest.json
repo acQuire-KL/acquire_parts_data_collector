@@ -2,7 +2,7 @@
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
   "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-08-08T16:35:55Z",
+  "last_updated_at_utc": "2026-08-08T16:49:54Z",
   "providers": {
     "DigiKey": {
       "last_capture_at_utc": "2026-08-04T19:51:21Z",
@@ -15,9 +15,9 @@
       "history_records": 330
     },
     "TME": {
-      "last_capture_at_utc": "2026-08-08T16:35:55Z",
+      "last_capture_at_utc": "2026-08-08T16:49:54Z",
       "current_records": 568,
-      "history_records": 577
+      "history_records": 581
     }
   },
   "refresh_planning": {
@@ -25,5 +25,5 @@
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
   "total_current_records": 1072,
-  "total_history_records": 1139
+  "total_history_records": 1143
 }
