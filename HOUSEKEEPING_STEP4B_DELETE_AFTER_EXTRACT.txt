@@ -1,0 +1,25 @@
+Sprint 4.5 Housekeeping Step 4B - Output Cleanup
+
+No runtime source files need manual deletion after extraction.
+
+On the first fresh Knowledge Base Population run, PDC automatically removes
+superseded timestamped population reports such as:
+
+    KB_POPULATION_YYYYMMDD_HHMMSS__RESULTS.csv
+    KB_POPULATION_YYYYMMDD_HHMMSS__FAILURES.csv
+    KB_POPULATION_YYYYMMDD_HHMMSS__SKIPPED.csv
+    KB_POPULATION_YYYYMMDD_HHMMSS__CANDIDATES.csv
+    KB_POPULATION_YYYYMMDD_HHMMSS__PROVIDER_ERRORS.csv
+    KB_POPULATION_YYYYMMDD_HHMMSS__SUMMARY.json
+    KB_POPULATION_YYYYMMDD_HHMMSS__RUN_LOG.txt
+
+PDC deliberately does NOT auto-delete human-edited:
+
+    * __CANDIDATE_REVIEW.csv
+
+For this development repository, once you have confirmed that the decisions in
+an old dated Candidate Review have already been promoted into the committed
+KNOWLEDGE_HISTORY, you may delete that old dated review file manually. Future
+Candidate Reviews use the fixed filename:
+
+    KB_POPULATION__CANDIDATE_REVIEW.csv

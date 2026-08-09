@@ -1,0 +1,66 @@
+Sprint 4.5 Housekeeping Step 4B - Output Cleanup Test Plan
+
+Purpose
+-------
+Confirm that Knowledge Base Population now maintains one current working set
+instead of accumulating timestamped run reports.
+
+1. Full regression suite
+
+    py -m unittest discover -s tests -v
+
+Expected local baseline: 124 tests, OK.
+
+2. Fresh deterministic BOM normalisation
+
+    py -m tools.bom_normalization_check "input\gb-mini-board-v0.1-draft2.csv"
+
+Expected baseline:
+    Source rows       163
+    Normalised rows    75
+    Consolidated       88
+    Traceability     PASS
+
+3. Fresh Parts Master staging
+
+    py -m tools.parts_master_seed_import_check "input\AIPN Parts Master.xlsx"
+
+Expected baseline:
+    Source rows                  263
+    Staging records              260
+    Incomplete identity rows       0
+    Duplicate identity groups      3
+    Manufacturer alias groups      4
+    Traceability                PASS
+
+4. Ten-part Knowledge Base Population smoke test
+
+    py -m tools.knowledge_base_population_check "output\parts_master_staging\AIPN_Parts_Master__STAGING.csv" --limit 10
+
+Live provider results may vary. Verify successful workflow execution rather
+than exact commercial/result counts.
+
+5. Inspect output\knowledge_base_population\
+
+The current population set should be named:
+    KB_POPULATION__RESULTS.csv
+    KB_POPULATION__FAILURES.csv
+    KB_POPULATION__SKIPPED.csv
+    KB_POPULATION__CANDIDATES.csv
+    KB_POPULATION__PROVIDER_ERRORS.csv
+    KB_POPULATION__SUMMARY.json
+    KB_POPULATION__RUN_LOG.txt
+
+Timestamped population report files from earlier runs should have been removed
+automatically. Human-edited *__CANDIDATE_REVIEW.csv files are deliberately
+preserved.
+
+6. Candidate Review naming check (only if candidates exist)
+
+    py -m tools.candidate_review_check "output\knowledge_base_population\KB_POPULATION__CANDIDATES.csv"
+
+Expected review path:
+    output\knowledge_base_population\KB_POPULATION__CANDIDATE_REVIEW.csv
+
+Do not remove an older human-edited Candidate Review until its decisions are
+confirmed in KNOWLEDGE_HISTORY.

@@ -1,8 +1,8 @@
 PDC Knowledge Base Population
 ========================================
 Source              : output\parts_master_staging\AIPN_Parts_Master__STAGING.csv
-Started UTC         : 2026-08-08T16:48:32Z
-Finished UTC        : 2026-08-08T16:48:32Z
+Started UTC         : 2026-08-09T12:40:46Z
+Finished UTC        : 2026-08-09T12:40:47Z
 Staging records     : 260
 Selected records    : 10
 Provider operations : 30

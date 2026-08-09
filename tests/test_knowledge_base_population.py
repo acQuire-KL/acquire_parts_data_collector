@@ -114,6 +114,31 @@ class KnowledgeBasePopulationTests(unittest.TestCase):
             self.assertEqual(1, summary["status_counts"][STATUS_FAILED])
             self.assertEqual(2, len(paths["failures"].read_text(encoding="utf-8-sig").splitlines()))
             self.assertEqual(2, len(paths["skipped"].read_text(encoding="utf-8-sig").splitlines()))
+            self.assertEqual("KB_POPULATION__RESULTS.csv", paths["results"].name)
+            self.assertEqual("KB_POPULATION__SUMMARY.json", paths["summary"].name)
+
+    def test_outputs_replace_legacy_dated_working_set_but_preserve_review(self):
+        with tempfile.TemporaryDirectory() as folder:
+            run_path = Path(folder) / "out"
+            run_path.mkdir()
+            legacy_result = run_path / "KB_POPULATION_20260803_201341__RESULTS.csv"
+            legacy_summary = run_path / "KB_POPULATION_20260803_201341__SUMMARY.json"
+            legacy_review = run_path / "KB_POPULATION_20260804_205122__CANDIDATE_REVIEW.csv"
+            legacy_result.write_text("old", encoding="utf-8")
+            legacy_summary.write_text("{}", encoding="utf-8")
+            legacy_review.write_text("human decisions", encoding="utf-8")
+
+            from knowledge_base_population import PopulationRun
+            run = PopulationRun("source.csv", "start", "finish", [
+                ProviderOutcome("REC-1", "MFG", "P1", "A", STATUS_DOWNLOADED),
+            ], total_staging_records=1, selected_records=1)
+            paths = write_population_outputs(run, run_path)
+
+            self.assertFalse(legacy_result.exists())
+            self.assertFalse(legacy_summary.exists())
+            self.assertTrue(legacy_review.exists())
+            self.assertTrue(paths["results"].exists())
+            self.assertEqual("KB_POPULATION__RESULTS.csv", paths["results"].name)
 
 
 if __name__ == "__main__":

@@ -411,10 +411,36 @@ def populate_knowledge_base(
     return run
 
 
+LEGACY_POPULATION_OUTPUT_SUFFIXES = (
+    "__RESULTS.csv",
+    "__FAILURES.csv",
+    "__SKIPPED.csv",
+    "__SUMMARY.json",
+    "__RUN_LOG.txt",
+    "__CANDIDATES.csv",
+    "__PROVIDER_ERRORS.csv",
+)
+
+
+def _remove_legacy_population_outputs(root: Path) -> None:
+    """Remove superseded timestamped run artefacts, never human review files.
+
+    Knowledge Base population reports are a current working set, not an audit
+    history.  Human-edited ``__CANDIDATE_REVIEW.csv`` files are deliberately
+    excluded because they may contain decisions that have not yet been promoted.
+    """
+    for path in root.glob("KB_POPULATION_*__*"):
+        if path.name.endswith("__CANDIDATE_REVIEW.csv"):
+            continue
+        if path.is_file() and path.name.endswith(LEGACY_POPULATION_OUTPUT_SUFFIXES):
+            path.unlink()
+
+
 def write_population_outputs(run: PopulationRun, output_root: str | Path) -> dict[str, Path]:
     root = Path(output_root)
     root.mkdir(parents=True, exist_ok=True)
-    stem = f"KB_POPULATION_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    _remove_legacy_population_outputs(root)
+    stem = "KB_POPULATION"
     paths = {
         "results": root / f"{stem}__RESULTS.csv",
         "failures": root / f"{stem}__FAILURES.csv",

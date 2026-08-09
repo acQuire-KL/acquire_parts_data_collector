@@ -26,12 +26,16 @@ Select one or more providers with repeated `--provider` arguments. Existing curr
 
 ## Outputs
 
-Reports are written to `output/knowledge_base_population`:
+Reports are written to `output/knowledge_base_population` as one **current working set**. A new population run replaces these files rather than creating another timestamped copy:
 
-- `__RESULTS.csv` — one row per part/provider operation.
-- `__FAILURES.csv` — API errors and provider not-found results.
-- `__SKIPPED.csv` — missing configuration or incomplete identity.
-- `__SUMMARY.json` — machine-readable counts by provider and status.
-- `__RUN_LOG.txt` — concise human-readable progress summary.
+- `KB_POPULATION__RESULTS.csv` — one row per part/provider operation.
+- `KB_POPULATION__FAILURES.csv` — not-found and multiple-candidate results requiring attention.
+- `KB_POPULATION__SKIPPED.csv` — missing configuration or incomplete identity.
+- `KB_POPULATION__CANDIDATES.csv` — candidate MFG+MPN combinations returned for engineering review.
+- `KB_POPULATION__PROVIDER_ERRORS.csv` — connection, API, quota or runtime errors.
+- `KB_POPULATION__SUMMARY.json` — machine-readable counts by provider and status.
+- `KB_POPULATION__RUN_LOG.txt` — concise human-readable run summary.
+
+The timestamps that describe the run remain inside the summary and run log; they are no longer encoded into every filename. Older timestamped population reports are removed automatically on the next population run. Human-edited `__CANDIDATE_REVIEW.csv` files are **not** removed automatically, because they may contain engineering decisions that have not yet been promoted.
 
 The staging Parts Master is read-only throughout the operation.
