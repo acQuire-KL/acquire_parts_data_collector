@@ -1,10 +1,27 @@
+# Secrets / local environment
 .env
 .venv/
+
+# IDE / editor state
 .idea/
+.vscode/
+
+# Python generated files
 __pycache__/
-*.pyc
-#output/*  Allow during Dev work ONLY
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Development outputs are intentionally synchronised during PDC development.
+# Re-enable output ignoring before an external/public release.
+# output/*
 !output/.gitkeep
+
+# Provider/runtime caches remain machine-local.
 raw_responses/*
 !raw_responses/.gitkeep
 cache/*

@@ -1,0 +1,37 @@
+Sprint 4.5 Housekeeping Step 4A - Root Cleanup
+
+This step does not change runtime behaviour.
+
+After extracting this patch over the repository root, remove these housekeeping files left from completed steps:
+
+  HOUSEKEEPING_STEP1_DELETE_AFTER_EXTRACT.txt
+  HOUSEKEEPING_STEP2_DELETE_AFTER_EXTRACT.txt
+  HOUSEKEEPING_STEP2_TEST_PLAN.txt
+  HOUSEKEEPING_STEP3_DELETE_AFTER_EXTRACT.txt
+  HOUSEKEEPING_STEP3_TEST_PLAN.txt
+
+Remove the historical code snapshot folder:
+
+  archive/
+
+The active versions are in the live source tree and the old versions remain recoverable from Git history.
+
+Also remove local generated/editor folders if present (they are ignored by Git):
+
+  .idea/
+  __pycache__/
+  provider_profiles/__pycache__/
+  providers/**/__pycache__/
+  tests/__pycache__/
+  tools/**/__pycache__/
+
+Do NOT remove:
+
+  input/
+  output/
+  Knowledge_Base/
+  cache/.gitkeep
+  raw_responses/.gitkeep
+  INSTALL.txt
+
+The current development decision to synchronise input/ and output/ through Git is deliberately preserved.
