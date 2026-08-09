@@ -65,3 +65,15 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Archived superseded cleanup/placement instruction files out of the project root.
 - Added documentation indexes for current, provider-specific and historical material.
 - No Python modules, runtime behaviour, provider integrations, inputs, outputs or Knowledge Base data changed in this step.
+
+## v0.2.10 — Sprint 4.5 Repository Housekeeping Steps 2–5
+
+- Grouped operational DigiKey, Mouser and TME code/checks under provider-specific folders.
+- Moved cross-cutting workflow checks under `tools/` and added the generic `tools/provider_onboarding/` toolkit.
+- Cleaned root-level development artefacts while retaining active runtime modules.
+- Changed Knowledge Base Population to one current working set rather than accumulating timestamped report copies.
+- Renamed the provider working-output folder to `output/provider_results/`.
+- Moved persistent human-approved Knowledge History to `output/engineering_review/KNOWLEDGE_HISTORY.csv`.
+- Added migration support for earlier nested Patch 2b Knowledge History files without duplicating Knowledge IDs.
+- Retained `Knowledge_Base/` as the provider/source evidence store and deliberately retained legacy `cache/` and `raw_responses/` until their remaining dependencies can be removed safely.
+- Final Step 5 regression suite: 126 tests PASS; deterministic BOM and Parts Master baselines unchanged.

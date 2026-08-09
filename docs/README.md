@@ -23,3 +23,13 @@ This folder contains the current design documentation for Parts Data Collector.
 Historical documentation should not be used to determine current PDC behaviour when a current core document covers the same subject.
 
 - `../tools/` contains cross-cutting workflow checks and the generic provider onboarding toolkit.
+
+## Repository data folders
+
+Three similarly important concepts are deliberately named differently:
+
+- `../Knowledge_Base/` — retained provider/source evidence.
+- `../output/provider_results/` — current provider-search and candidate working results.
+- `../output/engineering_review/` — persistent human-reviewed engineering decision history.
+
+This separation avoids using generated provider output as the source of engineering truth.

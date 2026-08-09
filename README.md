@@ -24,7 +24,7 @@ Knowledge History
 Reusable knowledge for future BOM analysis
 ```
 
-Generated outputs are disposable views of the process. They are not the source of engineering truth and should be reproducible from committed inputs, provider evidence and approved knowledge.
+Generated working outputs are disposable views of the process. They are not the source of engineering truth and should be reproducible from committed inputs, provider evidence and approved knowledge. `output/engineering_review/KNOWLEDGE_HISTORY.csv` is the exception: it is the persistent, human-approved engineering decision history and is never treated as disposable run output.
 
 
 ## Development utilities
@@ -37,6 +37,8 @@ Examples:
 py -m tools.bom_normalization_check "input/gb-mini-board-v0.1-draft2.csv"
 py -m tools.parts_master_seed_import_check "input/AIPN Parts Master.xlsx"
 py -m tools.knowledge_base_population_check "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv" --limit 10
+py -m tools.candidate_review_check "output/provider_results/KB_POPULATION__CANDIDATES.csv"
+py -m tools.knowledge_promotion_check "output/provider_results/KB_POPULATION__CANDIDATE_REVIEW.csv"
 ```
 
 ## Supported providers

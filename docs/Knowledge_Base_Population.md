@@ -26,7 +26,7 @@ Select one or more providers with repeated `--provider` arguments. Existing curr
 
 ## Outputs
 
-Reports are written to `output/knowledge_base_population` as one **current working set**. A new population run replaces these files rather than creating another timestamped copy:
+Reports are written to `output/provider_results` as one **current working set**. A new population run replaces these files rather than creating another timestamped copy:
 
 - `KB_POPULATION__RESULTS.csv` — one row per part/provider operation.
 - `KB_POPULATION__FAILURES.csv` — not-found and multiple-candidate results requiring attention.
@@ -39,3 +39,19 @@ Reports are written to `output/knowledge_base_population` as one **current worki
 The timestamps that describe the run remain inside the summary and run log; they are no longer encoded into every filename. Older timestamped population reports are removed automatically on the next population run. Human-edited `__CANDIDATE_REVIEW.csv` files are **not** removed automatically, because they may contain engineering decisions that have not yet been promoted.
 
 The staging Parts Master is read-only throughout the operation.
+
+## Downstream review
+
+Candidate review remains a separate human decision stage:
+
+```bash
+py -m tools.candidate_review_check "output/provider_results/KB_POPULATION__CANDIDATES.csv"
+```
+
+Completed decisions are promoted into the persistent engineering review history:
+
+```bash
+py -m tools.knowledge_promotion_check "output/provider_results/KB_POPULATION__CANDIDATE_REVIEW.csv"
+```
+
+Knowledge Promotion writes the permanent decision history to `output/engineering_review/KNOWLEDGE_HISTORY.csv`. It is intentionally separate from the current provider working set.

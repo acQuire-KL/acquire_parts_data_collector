@@ -486,15 +486,45 @@ def write_knowledge_outputs(review_path: str | Path, output_dir: str | Path | No
         details = "; ".join(f"row {item['CSV Row']}: {item['Issue']}" for item in blocking[:5])
         raise ValueError(f"Review file contains blocking validation errors: {details}")
 
-    target_dir = Path(output_dir) if output_dir else source.parent / "knowledge_promotion"
+    if output_dir:
+        target_dir = Path(output_dir)
+    elif source.parent.name in {"provider_results", "knowledge_base_population"} and source.parent.parent.name == "output":
+        target_dir = source.parent.parent / "engineering_review"
+    else:
+        target_dir = source.parent / "engineering_review"
     target_dir.mkdir(parents=True, exist_ok=True)
-    stem = source.stem.replace("__CANDIDATE_REVIEW", "")
 
     paths: dict[str, Path] = {
-        "knowledge_history": target_dir / f"{stem}__KNOWLEDGE_HISTORY.csv",
-        "summary": target_dir / f"{stem}__SUMMARY.json",
+        "knowledge_history": target_dir / "KNOWLEDGE_HISTORY.csv",
+        "summary": target_dir / "SUMMARY.json",
     }
-    validation_path = target_dir / f"{stem}__VALIDATION.csv"
+    validation_path = target_dir / "VALIDATION.csv"
+
+    # Step 5 repository consolidation: migrate any earlier Patch 2b history
+    # into the single engineering-review history before processing new events.
+    # The migration is additive/deduplicated by Knowledge ID; legacy files are
+    # left in place until the housekeeping delete step is completed.
+    if not paths["knowledge_history"].exists():
+        legacy_dirs = [
+            source.parent / "knowledge_promotion",
+            source.parent.parent / "knowledge_base_population" / "knowledge_promotion"
+            if source.parent.parent.name == "output" else None,
+        ]
+        merged: list[OrderedDict[str, str]] = []
+        seen: set[str] = set()
+        for legacy_dir in [d for d in legacy_dirs if d is not None]:
+            if not legacy_dir.exists():
+                continue
+            for legacy_path in sorted(legacy_dir.glob("*KNOWLEDGE_HISTORY.csv")):
+                for row in _read_csv_if_present(legacy_path):
+                    kid = _text(row.get("Knowledge ID"))
+                    if kid and kid in seen:
+                        continue
+                    if kid:
+                        seen.add(kid)
+                    merged.append(row)
+        if merged:
+            _write_csv(paths["knowledge_history"], _presentation_rows(merged), HISTORY_FIELDS)
 
     events = build_knowledge_events(rows)
     appended, history = _append_events(paths["knowledge_history"], events)

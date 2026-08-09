@@ -1,9 +1,9 @@
 ﻿Alias Key,Observed Manufacturer,Suggested Preferred Name,Status
 amp,Amp,Amp,Review Required
 amp,AMP,Amp,Review Required
-kemet,KEMET,KEMET,Review Required
-kemet,Kemet,KEMET,Review Required
-onsemi,onsemi,onsemi,Review Required
-onsemi,OnSemi,onsemi,Review Required
-yageo,Yageo,Yageo,Review Required
-yageo,YAGEO,Yageo,Review Required
+kemet,Kemet,Kemet,Review Required
+kemet,KEMET,Kemet,Review Required
+onsemi,OnSemi,OnSemi,Review Required
+onsemi,onsemi,OnSemi,Review Required
+yageo,YAGEO,YAGEO,Review Required
+yageo,Yageo,YAGEO,Review Required

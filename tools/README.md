@@ -10,8 +10,8 @@ These utilities are intentionally separate from production modules. Run them as 
 py -m tools.bom_normalization_check "input/gb-mini-board-v0.1-draft2.csv"
 py -m tools.parts_master_seed_import_check "input/AIPN Parts Master.xlsx"
 py -m tools.knowledge_base_population_check "output/parts_master_staging/AIPN_Parts_Master__STAGING.csv" --limit 10
-py -m tools.candidate_review_check "output/knowledge_base_population/KB_POPULATION__CANDIDATES.csv"
-py -m tools.knowledge_promotion_check "path/to/__CANDIDATE_REVIEW.csv"
+py -m tools.candidate_review_check "output/provider_results/KB_POPULATION__CANDIDATES.csv"
+py -m tools.knowledge_promotion_check "output/provider_results/KB_POPULATION__CANDIDATE_REVIEW.csv"
 ```
 
 Provider-specific checks do **not** live here. They belong with the operational provider under `providers/<provider>/checks/`.
@@ -19,3 +19,9 @@ Provider-specific checks do **not** live here. They belong with the operational 
 ## New provider onboarding
 
 `provider_onboarding/` contains the provider-neutral onboarding method and helper utilities used before a new integration is promoted into `providers/<provider>/`.
+
+## Output roles
+
+- `output/provider_results/` is the current provider-search working set and may be regenerated.
+- `output/engineering_review/` contains the persistent engineering decision history produced after human review.
+- `Knowledge_Base/` contains retained provider/source evidence.

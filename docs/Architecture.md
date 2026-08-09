@@ -36,7 +36,7 @@ Knowledge Base
         └── PIE Analysis
 ```
 
-PDC owns collection, normalisation, storage and factual presentation. PIE owns comparison, ranking, risk assessment, recommendations and approval workflows.
+PDC owns collection, normalisation, source preservation, candidate preparation and capture of explicit human engineering decisions. PIE owns BOM-level comparison, ranking, risk assessment and procurement recommendations. PDC never makes an engineering approval on the user's behalf.
 
 ## 3. Collection Behaviour
 
@@ -131,7 +131,7 @@ No single offer should be treated as the complete commercial record. Workbook su
 
 ## 8. Workbook Role
 
-The workbook is a review and export view of the Knowledge Base; it is not the master data store.
+The workbook is a review and export view of PDC data; it is not the master data store. Human-approved component decisions are preserved separately in the Engineering Review history so that provider working results can be regenerated without losing engineering judgement.
 
 The principal review flow should follow the user's sourcing workflow:
 
@@ -212,5 +212,22 @@ Validated Knowledge Base Part Profile
 PIE
 ```
 
-The model must evolve from provider evidence rather than from one provider's field names. TME is the first implementation; DigiKey and Mouser will be refactored to the same contract before the profile is declared stable.
+The model evolves from provider evidence rather than from one provider's field names. DigiKey, Mouser and TME are operational provider integrations and new providers should follow the common onboarding method under `tools/provider_onboarding/`.
 
+
+## 12. Repository Data Roles
+
+The repository uses three deliberately distinct locations:
+
+```text
+Knowledge_Base/
+    retained provider/source evidence
+
+output/provider_results/
+    current provider-search results and candidate working files
+
+output/engineering_review/
+    persistent human-reviewed engineering decision history
+```
+
+`provider_results` may be regenerated from source inputs and provider evidence. `engineering_review/KNOWLEDGE_HISTORY.csv` is persistent engineering history: approved knowledge is never deleted or overwritten; later decisions supersede earlier events.

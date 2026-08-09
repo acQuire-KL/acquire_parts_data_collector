@@ -108,6 +108,43 @@ class KnowledgePromotionTests(unittest.TestCase):
             self.assertEqual(summary["current_manufacturer_aliases"], 1)
             self.assertFalse(summary["parts_master_modified"])
 
+    def test_default_output_uses_engineering_review_and_fixed_history_name(self):
+        rows = self.accepted_rows()
+        with tempfile.TemporaryDirectory() as folder:
+            source_dir = Path(folder) / "output" / "provider_results"
+            source_dir.mkdir(parents=True)
+            source = source_dir / "KB_POPULATION__CANDIDATE_REVIEW.csv"
+            with source.open("w", encoding="utf-8-sig", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+                writer.writeheader(); writer.writerows(rows)
+            outputs = write_knowledge_outputs(source)
+            self.assertEqual(outputs["knowledge_history"], Path(folder) / "output" / "engineering_review" / "KNOWLEDGE_HISTORY.csv")
+            self.assertEqual(outputs["summary"].name, "SUMMARY.json")
+
+    def test_legacy_nested_history_is_migrated_without_duplicate_knowledge(self):
+        rows = self.accepted_rows()
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder) / "output"
+            legacy_source = output / "knowledge_base_population" / "KB_POPULATION_20260804__CANDIDATE_REVIEW.csv"
+            legacy_source.parent.mkdir(parents=True)
+            with legacy_source.open("w", encoding="utf-8-sig", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+                writer.writeheader(); writer.writerows(rows)
+            legacy_outputs = write_knowledge_outputs(legacy_source, legacy_source.parent / "knowledge_promotion")
+            legacy_history = legacy_outputs["knowledge_history"]
+            self.assertTrue(legacy_history.exists())
+
+            new_source_dir = output / "provider_results"
+            new_source_dir.mkdir(parents=True)
+            new_source = new_source_dir / "KB_POPULATION__CANDIDATE_REVIEW.csv"
+            new_source.write_bytes(legacy_source.read_bytes())
+            outputs = write_knowledge_outputs(new_source)
+            with outputs["knowledge_history"].open("r", encoding="utf-8-sig", newline="") as handle:
+                history = list(csv.DictReader(handle))
+            self.assertEqual(len(history), 2)
+            summary = json.loads(outputs["summary"].read_text(encoding="utf-8"))
+            self.assertEqual(summary["knowledge_history_rows_appended"], 0)
+
     def test_rerun_does_not_duplicate_history(self):
         rows = self.accepted_rows()
         with tempfile.TemporaryDirectory() as folder:

@@ -21,7 +21,7 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="Refresh even when current Knowledge Base data exists.")
     parser.add_argument("--knowledge-base", default="Knowledge_Base")
     parser.add_argument("--profiles", default="output/provider_profiles")
-    parser.add_argument("--output", default="output/knowledge_base_population")
+    parser.add_argument("--output", default="output/provider_results")
     args = parser.parse_args()
 
     providers = build_live_providers(args.knowledge_base, args.profiles, args.provider)
