@@ -10,10 +10,11 @@ This folder contains the current design documentation for Parts Data Collector.
 4. **PDCPartProfile.md** — provider-neutral component profile.
 5. **PDC_Parts_Master.md** — Parts Master import and governance.
 6. **BOM_Normalisation.md** — source BOM normalisation and traceability.
-7. **Knowledge_Base_Population.md** — provider evidence collection.
-8. **API_Onboarding.md** — repeatable provider onboarding method.
-9. **Workbook_Style_Guide.md** — presentation conventions.
-10. **Parking_Lot.md** — intentionally deferred work.
+7. **BOM_Intake_Classification.md** — Sprint 4.6 real-BOM intake classification and matching paths.
+8. **Knowledge_Base_Population.md** — provider evidence collection.
+9. **API_Onboarding.md** — repeatable provider onboarding method.
+10. **Workbook_Style_Guide.md** — presentation conventions.
+11. **Parking_Lot.md** — intentionally deferred work.
 
 ## Supporting documentation
 

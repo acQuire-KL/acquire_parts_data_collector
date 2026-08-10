@@ -59,10 +59,11 @@ Provider integrations remain independent. PDC uses a provider-neutral part profi
 4. [`docs/PDCPartProfile.md`](docs/PDCPartProfile.md) — provider-neutral component data model.
 5. [`docs/PDC_Parts_Master.md`](docs/PDC_Parts_Master.md) — Parts Master seed/import and governance model.
 6. [`docs/BOM_Normalisation.md`](docs/BOM_Normalisation.md) — BOM normalisation and traceability.
-7. [`docs/Knowledge_Base_Population.md`](docs/Knowledge_Base_Population.md) — provider evidence collection and Knowledge Base population.
-8. [`docs/API_Onboarding.md`](docs/API_Onboarding.md) — repeatable process for adding a new provider.
-9. [`docs/Workbook_Style_Guide.md`](docs/Workbook_Style_Guide.md) — workbook presentation rules.
-10. [`docs/Parking_Lot.md`](docs/Parking_Lot.md) — intentionally deferred ideas and future capability.
+7. [`docs/BOM_Intake_Classification.md`](docs/BOM_Intake_Classification.md) — real-BOM intake classification and matching paths.
+8. [`docs/Knowledge_Base_Population.md`](docs/Knowledge_Base_Population.md) — provider evidence collection and Knowledge Base population.
+9. [`docs/API_Onboarding.md`](docs/API_Onboarding.md) — repeatable process for adding a new provider.
+10. [`docs/Workbook_Style_Guide.md`](docs/Workbook_Style_Guide.md) — workbook presentation rules.
+11. [`docs/Parking_Lot.md`](docs/Parking_Lot.md) — intentionally deferred ideas and future capability.
 
 Provider-specific implementation notes are under [`docs/providers/`](docs/providers/). Historical sprint/install notes are retained under [`docs/history/`](docs/history/) for traceability but are not part of the normal reading path.
 

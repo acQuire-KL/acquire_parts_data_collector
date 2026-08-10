@@ -77,3 +77,12 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Added migration support for earlier nested Patch 2b Knowledge History files without duplicating Knowledge IDs.
 - Retained `Knowledge_Base/` as the provider/source evidence store and deliberately retained legacy `cache/` and `raw_responses/` until their remaining dependencies can be removed safely.
 - Final Step 5 regression suite: 126 tests PASS; deterministic BOM and Parts Master baselines unchanged.
+
+## v0.2.10 — Sprint 4.6.1 BOM Intake & Classification
+
+- Added the first real-BOM review intake stage using the committed Galenband BOM.
+- Fresh-normalises the original source BOM in memory rather than using prior generated outputs as source information.
+- Classifies every normalised unique item as `MFG + MPN`, `Value + Footprint`, or `Insufficient Data`.
+- Adds a clear classification reason and next action for each item.
+- Performs no Parts Master lookup, provider lookup, candidate recommendation or automatic approval in this patch.
+- Adds a concise BOM-intake CSV and classification summary under `output/bom_intake/`.

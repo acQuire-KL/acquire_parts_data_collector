@@ -1,0 +1,15 @@
+{
+  "source_bom": "input\\gb-mini-board-v0.1-draft2.csv",
+  "source_rows": 163,
+  "normalised_rows": 75,
+  "classified_rows": 75,
+  "classification_counts": {
+    "MFG + MPN": 30,
+    "Value + Footprint": 45,
+    "Insufficient Data": 0
+  },
+  "traceability_check": "PASS",
+  "provider_calls": 0,
+  "parts_master_lookups": 0,
+  "automatic_approvals": 0
+}
