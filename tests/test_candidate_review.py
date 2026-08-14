@@ -1,65 +1,152 @@
-from __future__ import annotations
-
-import csv
+from pathlib import Path
 import tempfile
 import unittest
-from pathlib import Path
 
-from candidate_review import build_review_rows, load_candidates, write_review_file
+from candidate_review import (
+    CandidateReviewStore,
+    ReviewDecision,
+    review_candidates,
+)
+
+
+def sample_candidate():
+    return {
+        "manufacturer": "Samsung Electro-Mechanics",
+        "mpn": "CL10A106MP8NNNC",
+        "aipn": "CAP-00010-00",
+        "match_score": 96.5,
+        "matched_attributes": ["capacitance=10uF", "package=0603"],
+        "differences": ["tolerance: BOM unspecified, candidate ±20%"],
+        "warnings": ["voltage source needs verification"],
+        "justification": "10uF 0603 capacitor meeting known BOM constraints.",
+    }
 
 
 class CandidateReviewTests(unittest.TestCase):
-    def sample(self):
-        return [
-            {
-                "Record ID": "PMR-000009", "Provider": "DigiKey",
-                "Source Manufacturer": "Texas Instruments", "Source MPN": "ADS1234IPW",
-                "Candidate Rank": "2", "Returned Manufacturer": "Texas Instruments",
-                "Returned MPN": "ADS1234IPWR", "Provider Part Number": "296-123-ND",
-                "Description": "ADC", "Product URL": "https://example/2",
-                "Source Stage": "MPN-only fallback", "MPN Exact": "False",
-                "Manufacturer Equivalent": "True", "Manufacturer Score": "1.0",
-            },
-            {
-                "Record ID": "PMR-000009", "Provider": "DigiKey",
-                "Source Manufacturer": "Texas Instruments", "Source MPN": "ADS1234IPW",
-                "Candidate Rank": "1", "Returned Manufacturer": "Texas Instruments",
-                "Returned MPN": "ADS1234IPW", "Provider Part Number": "296-122-ND",
-                "Description": "ADC", "Product URL": "https://example/1",
-                "Source Stage": "MPN-only fallback", "MPN Exact": "True",
-                "Manufacturer Equivalent": "True", "Manufacturer Score": "1.0",
-            },
-        ]
+    def test_review_projection_does_not_modify_candidate(self):
+        candidate = sample_candidate()
+        original = dict(candidate)
 
-    def test_rows_are_grouped_and_rank_sorted(self):
-        rows = build_review_rows(self.sample())
-        self.assertEqual([row["Candidate Rank"] for row in rows], ["1", "2"])
-        self.assertEqual(rows[0]["Candidate Count"], 2)
-        self.assertEqual(rows[0]["Review ID"], rows[1]["Review ID"])
+        rows = review_candidates(
+            bom_item={"VTPN": "70001234"},
+            candidates=[candidate],
+        )
 
-    def test_decision_fields_are_blank(self):
-        row = build_review_rows(self.sample())[0]
-        self.assertEqual(row["Review Decision"], "")
-        self.assertEqual(row["Approved Manufacturer"], "")
-        self.assertEqual(row["Approved MPN"], "")
+        self.assertEqual(candidate, original)
+        self.assertEqual(rows[0]["review_decision"], "Pending")
+        self.assertEqual(rows[0]["mpn"], "CL10A106MP8NNNC")
+        self.assertEqual(rows[0]["score"], 96.5)
 
-    def test_evidence_is_explanatory(self):
-        row = build_review_rows(self.sample())[0]
-        self.assertIn("Returned MPN matches", row["Evidence"])
-        self.assertIn("manufacturer matches", row["Evidence"])
+    def test_accept_candidate_is_persisted(self):
+        candidate = sample_candidate()
 
-    def test_write_review_does_not_change_source(self):
-        with tempfile.TemporaryDirectory() as folder:
-            source = Path(folder) / "RUN__CANDIDATES.csv"
-            fields = list(self.sample()[0].keys())
-            with source.open("w", encoding="utf-8-sig", newline="") as handle:
-                writer = csv.DictWriter(handle, fieldnames=fields)
-                writer.writeheader(); writer.writerows(self.sample())
-            before = source.read_bytes()
-            target = write_review_file(source)
-            self.assertTrue(target.exists())
-            self.assertEqual(before, source.read_bytes())
-            self.assertEqual(len(load_candidates(source)), 2)
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            record = store.record_candidate_decision(
+                bom_item={"VTPN": "70001234"},
+                candidate=candidate,
+                decision=ReviewDecision.ACCEPTED,
+                reviewer="KL",
+                comment="Checked against drawing and datasheet.",
+                reviewed_at_utc="2026-08-14T12:00:00Z",
+            )
+
+            self.assertEqual(record.decision, ReviewDecision.ACCEPTED)
+
+            accepted = store.accepted_candidates({"VTPN": "70001234"})
+            self.assertEqual(len(accepted), 1)
+            self.assertEqual(accepted[0].candidate.mpn, "CL10A106MP8NNNC")
+
+    def test_new_decision_preserves_history_but_changes_current_state(self):
+        candidate = sample_candidate()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            first = store.record_candidate_decision(
+                bom_item="BOM-ROW-17",
+                candidate=candidate,
+                decision="Needs Verification",
+                reviewed_at_utc="2026-08-14T12:00:00Z",
+            )
+            second = store.record_candidate_decision(
+                bom_item="BOM-ROW-17",
+                candidate=candidate,
+                decision="Rejected",
+                comment="Voltage rating inadequate after verification.",
+                reviewed_at_utc="2026-08-14T13:00:00Z",
+            )
+
+            history = store.history()
+            current = store.latest_for_bom_item("BOM-ROW-17")
+
+            self.assertEqual(len(history), 2)
+            self.assertEqual(first.review_key, second.review_key)
+            self.assertEqual(len(current), 1)
+            self.assertEqual(current[0].decision, ReviewDecision.REJECTED)
+            self.assertEqual(store.accepted_candidates("BOM-ROW-17"), [])
+
+    def test_no_suitable_candidate_is_a_bom_level_decision(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            record = store.record_no_suitable_candidate(
+                bom_item={"AIPN": "CAP-00420-00"},
+                reviewer="KL",
+                comment="No candidate met package and voltage constraints.",
+            )
+
+            self.assertEqual(
+                record.decision,
+                ReviewDecision.NO_SUITABLE_CANDIDATE,
+            )
+            self.assertIsNone(record.candidate)
+
+    def test_no_suitable_candidate_cannot_be_attached_to_specific_candidate(self):
+        candidate = sample_candidate()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            with self.assertRaises(ValueError):
+                store.record_candidate_decision(
+                    bom_item="ROW-1",
+                    candidate=candidate,
+                    decision="No Suitable Candidate",
+                )
+
+    def test_unknown_decision_is_rejected(self):
+        candidate = sample_candidate()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            with self.assertRaises(ValueError):
+                store.record_candidate_decision(
+                    bom_item="ROW-1",
+                    candidate=candidate,
+                    decision="Auto Approved",
+                )
+
+    def test_original_candidate_snapshot_is_retained(self):
+        candidate = sample_candidate()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            store = CandidateReviewStore(Path(tmp) / "candidate_reviews.jsonl")
+
+            store.record_candidate_decision(
+                bom_item="ROW-1",
+                candidate=candidate,
+                decision="Accepted",
+            )
+
+            restored = store.history()[0]
+            self.assertEqual(restored.candidate.raw_candidate["match_score"], 96.5)
+            self.assertEqual(
+                restored.candidate.raw_candidate["warnings"],
+                ["voltage source needs verification"],
+            )
 
 
 if __name__ == "__main__":
