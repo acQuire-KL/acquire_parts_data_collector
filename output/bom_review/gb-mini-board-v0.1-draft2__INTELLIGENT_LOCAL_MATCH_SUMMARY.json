@@ -1,0 +1,17 @@
+{
+  "source_bom": "input\\gb-mini-board-v0.1-draft2.csv",
+  "parts_master_index": "Parts_Master/parts_master_index.json",
+  "source_rows": 163,
+  "normalised_rows": 75,
+  "local_match_counts": {
+    "Intelligent Local Candidate": 2,
+    "Unresolved": 73
+  },
+  "candidate_rows": 2,
+  "locally_rejected_candidates": 0,
+  "provider_calls": 0,
+  "automatic_approvals": 0,
+  "dnp_policy": "DNP rows processed normally; DNP retained only as assembly context.",
+  "engineering_rule": "Only BOM-explicit engineering attributes may reject a local candidate.",
+  "traceability_check": "PASS"
+}

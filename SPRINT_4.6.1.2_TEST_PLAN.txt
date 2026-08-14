@@ -1,0 +1,24 @@
+SPRINT 4.6.1.2 - PARTS MASTER ATTRIBUTE ENRICHMENT
+
+1. Full regression suite
+   py -m unittest discover -s tests -v
+
+2. Rebuild the Parts Master index from the committed source workbook
+   py -m tools.parts_master_index_check "input\AIPN Parts Master.xlsx"
+
+3. Enrich it using ONLY the stored provider JSON bank
+   py -m tools.parts_master_attribute_enrichment_check
+
+4. Inspect Parts_Master\parts_master_index.json.
+   Useful example: search for CL10A106MP8NNNC.
+   Capacitance, Voltage_Rated, Dielectric and Tolerance should be Provider Verified
+   where DigiKey and TME agree.
+
+Verification states:
+- Provider Verified: 2+ available provider values agree after normalisation.
+- Single Provider: only one provider supplied the attribute.
+- Needs Verification: 2+ providers disagree; Value remains null and Observed_Values are shown.
+- Not Available: defined for future presentation; absent attributes are not expanded into every record.
+
+No live provider/API calls are made by this sprint.
+Provider Verified is NOT manufacturer verification.
