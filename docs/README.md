@@ -34,3 +34,7 @@ Three similarly important concepts are deliberately named differently:
 - `../output/engineering_review/` — persistent human-reviewed engineering decision history.
 
 This separation avoids using generated provider output as the source of engineering truth.
+
+## Parts Master machine data
+
+- [Parts Master Index](Parts_Master_Index.md) — structured machine-native Parts Master dataset introduced in Sprint 4.6.1.1.

@@ -86,3 +86,17 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Adds a clear classification reason and next action for each item.
 - Performs no Parts Master lookup, provider lookup, candidate recommendation or automatic approval in this patch.
 - Adds a concise BOM-intake CSV and classification summary under `output/bom_intake/`.
+
+## Sprint 4.6.2 — Existing Knowledge Matching
+- Added local Parts Master and Knowledge Base matching before provider calls.
+- Added conservative Value + Footprint matching; all descriptive matches require Engineering approval.
+- Explicitly treats DNP as assembly context, not an exclusion criterion.
+- Added fresh-source BOM local-match check and regression coverage.
+
+## Sprint 4.6.1.1 — Parts Master Index Foundation
+
+- Added machine-native `Parts_Master/parts_master_index.json` generation.
+- One index record is created per unique Manufacturer + MPN identity.
+- AIPN is optional; records without AIPN remain valid and use MFG+MPN as their identity basis.
+- Preserves source-row traceability and reports duplicate-source attribute conflicts.
+- No provider calls, automatic approvals, free-text attribute inference, or AIPN allocation.
