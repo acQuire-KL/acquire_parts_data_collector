@@ -123,3 +123,8 @@ Current Accepted candidate reviews can now be converted into traceable
 engineering-action proposals without modifying Parts Master, BOM, AVL or
 production-authorisation data. Ambiguous cases are deliberately returned as
 `Needs Engineering Classification`.
+
+
+### Sprint 4.6.3a — Datasheet Evidence
+
+PDC now retains a Static Evidence Copy and Active Source URL with manufacturer-source resolution and SHA-256 change foundations.

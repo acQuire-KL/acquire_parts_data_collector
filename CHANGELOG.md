@@ -119,3 +119,10 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Preserved review evidence, warnings, score and justification in each proposal.
 - No Parts Master, BOM, AVL, AIPN, ECO, concession/deviation or production authorisation is executed by this sprint.
 
+
+
+## Sprint 4.6.3a Datasheet Evidence Model, Manufacturer Source Resolution & Local Archive
+
+- Added Static Evidence Copy + Active Source URL model.
+- Added manufacturer source resolution and verification state.
+- Added MFG/DISTI/DISTI_COPY_OF_MFG classification and SHA-256 archive/change foundation.
