@@ -126,3 +126,15 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Added Static Evidence Copy + Active Source URL model.
 - Added manufacturer source resolution and verification state.
 - Added MFG/DISTI/DISTI_COPY_OF_MFG classification and SHA-256 archive/change foundation.
+
+## v0.2.10 — Sprint 4.6.3b Datasheet Acquisition & Manufacturer Source Verification
+
+- Added live datasheet acquisition flow using the 4.6.3a evidence model.
+- Added redirect/final-URL handling and manufacturer-domain candidate discovery.
+- Added independent Manufacturer Source URL fetch/verification before promoting a source to verified MFG evidence.
+- Added PDF-content validation to avoid archiving HTML/product pages as datasheets.
+- Added preference for verified manufacturer evidence while retaining distributor evidence when no verified manufacturer source is available.
+- Added structured acquisition failure handling suitable for future batch processing.
+- Kept regression tests deterministic through injected/mock HTTP fetchers.
+- No bulk parts_master_index.json mutation or semantic PDF change analysis is performed by this sprint.
+

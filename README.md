@@ -128,3 +128,11 @@ production-authorisation data. Ambiguous cases are deliberately returned as
 ### Sprint 4.6.3a — Datasheet Evidence
 
 PDC now retains a Static Evidence Copy and Active Source URL with manufacturer-source resolution and SHA-256 change foundations.
+
+
+### Sprint 4.6.3b — Datasheet Acquisition
+
+PDC can now follow a discovered datasheet URL, validate the returned document,
+independently verify a Manufacturer Source URL where possible, prefer the
+manufacturer document, and archive the resulting Static Evidence Copy using
+the 4.6.3a provenance/hash model.

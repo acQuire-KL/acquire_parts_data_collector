@@ -1,0 +1,21 @@
+SPRINT 4.6.3b — DATASHEET ACQUISITION & MANUFACTURER SOURCE VERIFICATION
+
+Acceptance checks:
+1. Fetch a discovery URL and retain the final resolved URL.
+2. Reject HTML/product pages as datasheet evidence.
+3. Detect manufacturer candidates from final redirect targets.
+4. Detect manufacturer candidates embedded in distributor redirect/proxy URLs.
+5. Never manufacture a MFG URL by stripping distributor text.
+6. Independently fetch a manufacturer candidate before marking it verified.
+7. Require the independently fetched final URL to remain on a known MFG domain.
+8. Require the independently fetched document to look like a PDF.
+9. Prefer verified MFG evidence over the distributor copy.
+10. Retain DISTI evidence when no verified MFG source is available.
+11. Archive through the 4.6.3a static evidence/hash model.
+12. Return structured failure results without creating false evidence.
+13. Keep regression tests independent of live websites.
+14. Do not yet bulk-edit parts_master_index.json.
+15. Do not yet semantically compare changed PDF content.
+
+Regression command:
+python -m unittest discover -s tests -v
