@@ -509,3 +509,50 @@ They must **not**:
 - override manufacturer-controlled technical information.
 
 Any new component or engineering relationship still requires explicit human acceptance before entering approved PDC knowledge.
+
+---
+
+# Static Datasheet / Specification Evidence Archive
+
+**Priority:** Medium — PDC collection/evidence layer
+
+## Objective
+
+Retain a controlled local copy of datasheets/specifications used to populate or
+verify PDC technical attributes, rather than relying only on an external URL
+that may later move, change or disappear.
+
+Manufacturer-origin evidence should be preferred wherever available.
+Distributor-hosted documents remain useful but must be distinguishable from
+manufacturer evidence.
+
+## Proposed Behaviour
+
+When PDC encounters a datasheet/specification URL during collection:
+
+- retain the original online URL and provider/source metadata;
+- identify the evidence origin as `MFG` or `DISTI`;
+- prefer the manufacturer's own document where one can be identified;
+- download a static local copy only when the content is an actual technical
+  document rather than a generic product page;
+- use a deterministic filename that identifies the component and evidence
+  origin, for example:
+  `MCP1711T-25I-OT__MFG__Microchip__DS20005415.pdf`
+  or
+  `MCP1711T-25I-OT__DISTI__DigiKey__datasheet.pdf`;
+- record download date, source URL and preferably a file hash so later
+  refreshes can detect whether the evidence changed;
+- avoid duplicating an identical manufacturer datasheet merely because several
+  distributors expose the same file.
+
+## Evidence Principle
+
+The local file is an evidence snapshot, not a replacement for source
+provenance. PDC should retain both:
+
+1. the static file it can call its own evidence copy; and
+2. the original URL/source used to obtain it.
+
+This capability should be integrated with attribute collection/verification
+rather than with candidate review.
+

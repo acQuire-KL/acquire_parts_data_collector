@@ -110,3 +110,8 @@ During repository housekeeping and structural refactoring, generated output file
 **PIE** will consume that evidence to perform BOM-level interpretation, risk analysis and recommendations.
 
 Keeping those responsibilities separate allows PDC knowledge to remain reusable across products, customers and future analyses.
+
+### Sprint 4.6.2c — Review Queue
+
+Candidate review history can now be reduced to a current-state engineering review queue and summary using `review_queue.py`. Multiple Accepted candidates for one BOM item are flagged as a conflict rather than automatically resolved.
+

@@ -100,3 +100,13 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - AIPN is optional; records without AIPN remain valid and use MFG+MPN as their identity basis.
 - Preserves source-row traceability and reports duplicate-source attribute conflicts.
 - No provider calls, automatic approvals, free-text attribute inference, or AIPN allocation.
+
+## v0.2.10 — Sprint 4.6.2c Review Queue & Candidate Decision Summary
+
+- Added a deterministic current-state review queue derived from the immutable 4.6.2b review history.
+- Added BOM-item status and attention handling for Pending, Needs Verification, Accepted, Rejected and No Suitable Candidate outcomes.
+- Added explicit conflict detection when more than one candidate is currently Accepted for one BOM item; PDC never silently selects one.
+- Added current-state summary counts and flat queue rows for later console, CSV, workbook or GUI presentation.
+- Added Static Datasheet / Specification Evidence Archive to the Parking Lot for future PDC collection/evidence work.
+- No Parts Master, BOM, AVL, AIPN, ECO/concession/deviation or provider/API behaviour is changed by this sprint.
+
