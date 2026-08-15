@@ -110,3 +110,12 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Added Static Datasheet / Specification Evidence Archive to the Parking Lot for future PDC collection/evidence work.
 - No Parts Master, BOM, AVL, AIPN, ECO/concession/deviation or provider/API behaviour is changed by this sprint.
 
+## v0.2.10 — Sprint 4.6.2d Controlled Engineering Action Handoff
+
+- Added controlled handoff from current Accepted candidate reviews to proposed engineering actions.
+- Added conservative action classification for AVL addition, BOM change, temporary concession/deviation, reference-only and unclassified cases.
+- Added append-only engineering action proposal evidence.
+- Added protection against handing off stale historical Accepted decisions.
+- Preserved review evidence, warnings, score and justification in each proposal.
+- No Parts Master, BOM, AVL, AIPN, ECO, concession/deviation or production authorisation is executed by this sprint.
+

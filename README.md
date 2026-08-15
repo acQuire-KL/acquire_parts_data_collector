@@ -115,3 +115,11 @@ Keeping those responsibilities separate allows PDC knowledge to remain reusable 
 
 Candidate review history can now be reduced to a current-state engineering review queue and summary using `review_queue.py`. Multiple Accepted candidates for one BOM item are flagged as a conflict rather than automatically resolved.
 
+
+
+### Sprint 4.6.2d — Controlled Engineering Action Handoff
+
+Current Accepted candidate reviews can now be converted into traceable
+engineering-action proposals without modifying Parts Master, BOM, AVL or
+production-authorisation data. Ambiguous cases are deliberately returned as
+`Needs Engineering Classification`.
