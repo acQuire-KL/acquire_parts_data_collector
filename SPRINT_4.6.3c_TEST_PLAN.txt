@@ -1,0 +1,21 @@
+SPRINT 4.6.3c — DATASHEET EVIDENCE INTEGRATION & USER-SUPPLIED EVIDENCE
+
+Acceptance checks:
+1. Associate evidence by Manufacturer + MPN.
+2. Refuse ambiguous/missing index matches.
+3. Store full evidence history in component JSON.
+4. Keep history append-only and deduplicated.
+5. Store only active-evidence summary in parts_master_index.json.
+6. Support 4.6.3b acquired evidence.
+7. Support user-supplied manufacturer PDFs.
+8. Record USER_SUPPLIED separately from document source type.
+9. Preserve original filename.
+10. Keep user confirmation separate from PDC URL verification.
+11. Allow optional Manufacturer Source URL.
+12. Prefer stronger evidence over weaker newer evidence.
+13. Prefer newer evidence when confidence is equal.
+14. Preserve existing fields.
+15. No semantic PDF extraction or What's Changed analysis.
+
+Regression command:
+python -m unittest discover -s tests -v

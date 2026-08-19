@@ -136,3 +136,8 @@ PDC can now follow a discovered datasheet URL, validate the returned document,
 independently verify a Manufacturer Source URL where possible, prefer the
 manufacturer document, and archive the resulting Static Evidence Copy using
 the 4.6.3a provenance/hash model.
+
+### Sprint 4.6.3c — Datasheet Evidence Integration
+
+Datasheet evidence can now be attached to the correct component JSON and summarised into `parts_master_index.json`. PDC-acquired and user-supplied manufacturer specifications are both supported with distinct provenance.
+

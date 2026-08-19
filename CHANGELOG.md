@@ -138,3 +138,10 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Kept regression tests deterministic through injected/mock HTTP fetchers.
 - No bulk parts_master_index.json mutation or semantic PDF change analysis is performed by this sprint.
 
+## v0.2.10 — Sprint 4.6.3c Datasheet Evidence Integration & User-Supplied Evidence
+
+- Added component JSON evidence history and active selection.
+- Added lightweight parts_master_index.json datasheet evidence summary.
+- Added user-supplied manufacturer PDF support with explicit provenance.
+- Added Manufacturer + MPN identity protection and ambiguous-index rejection.
+
