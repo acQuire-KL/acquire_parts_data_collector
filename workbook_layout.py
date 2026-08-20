@@ -27,6 +27,17 @@ ENRICHED_PARTS_COLUMNS = [
     _column("Status", "Providers Queried", "PDC provider execution", "Provider-level search outcomes"),
     _column("Status", "Providers Matched", "PDC identity confirmation", "Providers matching manufacturer and MPN"),
     _column("Status", "Engineering Confirmation", "PDC cross-provider comparison", "Agreement only; no provider preference or recommendation"),
+    _column("Status", "Review Observation", "PDC operational BOM review", "Concise exception/attention summary; not an approval"),
+
+    _column("BOM Context", "BOM Description", "Input BOM", "Original BOM description where available"),
+    _column("BOM Context", "BOM Quantity", "Input BOM", "Original BOM quantity where available"),
+    _column("BOM Context", "BOM DNP", "Input BOM", "Original DNP/fit state; DNP rows are still reviewed"),
+
+    _column("Local Knowledge", "Local Knowledge Status", "Parts_Master/parts_master_index.json", "Exact local MFG+MPN status"),
+    _column("Local Knowledge", "AIPN", "Parts_Master/parts_master_index.json", "Existing AIPN where allocated"),
+    _column("Local Knowledge", "Local Lifecycle", "Parts_Master/parts_master_index.json", "Lifecycle stored in Parts Master"),
+    _column("Local Knowledge", "Datasheet Evidence Status", "Parts_Master/parts_master_index.json", "Current datasheet evidence quality"),
+    _column("Local Knowledge", "Static Datasheet", "Parts_Master/parts_master_index.json", "Local static evidence path where available"),
 
     _column("Identity", "Manufacturer", "Common part profiles", "Manufacturer returned by matching providers"),
     _column("Identity", "Manufacturer Part Number", "Common part profiles", "MPN returned by matching providers"),
@@ -54,6 +65,12 @@ ENRICHED_PARTS_COLUMNS = [
     _column("Provider #2", "Lead Time", "Mouser commercial profile", "Manufacturer lead time reported by the provider", key="Provider #2 Lead Time"),
     _column("Provider #2", "Currency", "Mouser commercial profile", "Currency applying to the provider price ladder", key="Provider #2 Currency"),
     _column("Provider #2", "Price Breaks", "Mouser commercial profile", "Price ladders; detailed offers remain in Commercial Analysis", key="Provider #2 Price Breaks"),
+
+    _column("Provider #3", "Provider Name", "TME commercial profile", "Provider occupying dashboard position 3", key="Provider #3 Name"),
+    _column("Provider #3", "Available", "TME commercial profile", "Availability snapshot", key="Provider #3 Available"),
+    _column("Provider #3", "Lead Time", "TME commercial profile", "Manufacturer lead time reported by the provider", key="Provider #3 Lead Time"),
+    _column("Provider #3", "Currency", "TME commercial profile", "Currency applying to the provider price ladder", key="Provider #3 Currency"),
+    _column("Provider #3", "Price Breaks", "TME commercial profile", "Price ladders; detailed offers remain in Commercial Analysis", key="Provider #3 Price Breaks"),
 
     _column("Documentation", "Datasheet URL", "Common part profiles", "Manufacturer datasheet URL where available"),
     _column("Documentation", "Product URL", "Common part profiles", "Provider product page where available"),

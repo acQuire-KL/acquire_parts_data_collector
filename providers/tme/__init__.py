@@ -1,5 +1,5 @@
-"""TME provider connectivity components."""
+"""TME provider integration."""
+from providers.tme.client import TmeClient, TmeApiError
+from providers.tme.provider import TmeProvider
 
-from providers.tme.client import TmeApiError, TmeClient
-
-__all__ = ["TmeApiError", "TmeClient"]
+__all__ = ["TmeClient", "TmeApiError", "TmeProvider"]

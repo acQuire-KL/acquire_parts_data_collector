@@ -141,3 +141,7 @@ the 4.6.3a provenance/hash model.
 
 Datasheet evidence can now be attached to the correct component JSON and summarised into `parts_master_index.json`. PDC-acquired and user-supplied manufacturer specifications are both supported with distinct provenance.
 
+### Sprint 4.7.1 — Operational BOM Review
+
+PDC now connects the accumulated local knowledge, Parts Master context and all three provider paths (DigiKey, Mouser and TME) into a practical BOM-review workbook. The output preserves BOM context, shows each provider independently, surfaces datasheet/local evidence and adds a concise review summary without making automatic engineering approvals.
+

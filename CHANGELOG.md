@@ -145,3 +145,13 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Added user-supplied manufacturer PDF support with explicit provenance.
 - Added Manufacturer + MPN identity protection and ambiguous-index rejection.
 
+## v0.2.10 — Sprint 4.7.1 End-to-End Operational BOM Review
+
+- Connected DigiKey, Mouser and TME into one operational BOM-review path with no distributor preference.
+- Added operational TME provider adapter using the existing TME client and provider-neutral normaliser.
+- Added BOM Description, Quantity and DNP context to the review workbook; DNP remains reviewable assembly context.
+- Added read-only Parts Master Index context including AIPN, lifecycle and datasheet evidence.
+- Added Review Observation and BOM Review Summary outputs.
+- Added third provider dashboard block for TME and retained detailed commercial offers in Commercial Analysis.
+- Kept engineering approval, BOM/AVL mutation and AIPN allocation outside PDC review.
+

@@ -11,7 +11,7 @@ class WorkbookLayoutTests(unittest.TestCase):
             if not section_order or section_order[-1] != column.group:
                 section_order.append(column.group)
         self.assertEqual(
-            ["Status", "Identity", "Engineering", "Provider #1", "Provider #2", "Documentation", "Compliance"],
+            ["Status", "BOM Context", "Local Knowledge", "Identity", "Engineering", "Provider #1", "Provider #2", "Provider #3", "Documentation", "Compliance"],
             section_order,
         )
 
@@ -21,7 +21,7 @@ class WorkbookLayoutTests(unittest.TestCase):
 
     def test_provider_dashboard_uses_position_based_blocks(self):
         columns = enriched_parts_columns()
-        for position in (1, 2):
+        for position in (1, 2, 3):
             provider_columns = [column for column in columns if column.group == f"Provider #{position}"]
             self.assertEqual(
                 ["Provider Name", "Available", "Lead Time", "Currency", "Price Breaks"],
@@ -30,8 +30,8 @@ class WorkbookLayoutTests(unittest.TestCase):
 
     def test_display_headings_may_repeat_across_provider_blocks(self):
         headings = display_headings(enriched_parts_columns())
-        self.assertEqual(2, headings.count("Provider Name"))
-        self.assertEqual(2, headings.count("Price Breaks"))
+        self.assertEqual(3, headings.count("Provider Name"))
+        self.assertEqual(3, headings.count("Price Breaks"))
 
     def test_returned_layout_is_a_copy(self):
         first = enriched_parts_columns()

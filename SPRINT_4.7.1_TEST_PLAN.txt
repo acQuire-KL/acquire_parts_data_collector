@@ -1,0 +1,24 @@
+SPRINT 4.7.1 — END-TO-END OPERATIONAL BOM REVIEW
+
+Acceptance checks:
+1. Preserve original BOM Description, Quantity and DNP where available.
+2. DNP rows remain eligible for normal component review.
+3. Query DigiKey, Mouser and TME independently for each BOM identity.
+4. Surface all three providers in the workbook with no provider preference.
+5. Connect the existing TME client/normaliser to the provider framework.
+6. Preserve TME raw endpoint evidence in the Knowledge Base.
+7. Surface TME inventory/commercial results in Enriched Parts and Commercial Analysis.
+8. Read Parts Master Index as local review context without mutating it.
+9. Surface AIPN, lifecycle and datasheet evidence when locally available.
+10. Provide a concise Review Observation for exceptions/attention.
+11. Add a BOM Review Summary sheet.
+12. Preserve Review Required and Commercial Analysis outputs.
+13. Do not perform automatic engineering approval or BOM/AVL changes.
+14. Provider failures/skips remain visible as incomplete evidence.
+15. Full unittest regression suite passes.
+
+Regression command:
+python -m unittest discover -s tests
+
+Expected after Sprint 4.7.1 patch:
+215 tests, OK

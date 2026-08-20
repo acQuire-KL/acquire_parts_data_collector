@@ -5,24 +5,29 @@ from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
 
-from config import Settings, MouserSettings
+from config import Settings, MouserSettings, TmeSettings
 from providers import ProviderManager
 from providers.digikey import DigiKeyProvider
 from providers.mouser import MouserProvider
+from providers.tme import TmeProvider
 from manufacturer_resolver import names_equivalent, resolve_manufacturer
 from excel_formatter import add_group_headers, format_reference_sheet, format_review_sheet
 from workbook_layout import WorkbookColumn, column_keys, display_headings, enriched_parts_columns
 from commercial_profile import commercial_offers
 from knowledge_base_manager import KnowledgeBaseManager
+from operational_bom_review import PartsMasterLookup, provider_review_observation, summary_rows
 from multi_provider_summary import (
     ProviderEvidence, engineering_confirmation, evidence_status, merged_value,
     provider_availability, provider_identity_match,
 )
 
-APP_VERSION = "0.2.7"
+APP_VERSION = "0.2.10"
 
 MFG = {"manufacturer", "mfg", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
+DESCRIPTION = {"description", "desc", "part description"}
+QUANTITY = {"quantity", "qty", "qty per", "bom qty"}
+DNP = {"dnp", "do not populate", "do not fit", "fit", "fitted"}
 
 
 def clean(value):
@@ -127,6 +132,20 @@ def locate_columns(headers):
     if not manufacturer_column or not mpn_column:
         raise ValueError(f"Could not identify Manufacturer and MPN columns: {headers}")
     return manufacturer_column, mpn_column
+
+
+def locate_optional_column(headers, aliases):
+    for index, header in enumerate(headers, 1):
+        if clean(header) in aliases:
+            return index
+    return None
+
+
+def input_cell(sheet, row, column):
+    if not column:
+        return ""
+    value = sheet.cell(row, column).value
+    return "" if value is None else value
 
 
 def enriched_columns():
@@ -461,27 +480,45 @@ def _provider_profile(evidence, provider_name):
     return {}
 
 
-def build_combined_result(row, requested_mfg, requested_mpn, evidence):
+def build_combined_result(row, requested_mfg, requested_mpn, evidence, *, bom_context=None, local_context=None):
+    bom_context = bom_context or {}
+    local_context = local_context or PartsMasterLookup().find(requested_mfg, requested_mpn)
     status, reason = evidence_status(evidence)
     matched = [item.provider for item in evidence if item.identity_match]
     digikey = _provider_profile(evidence, "DigiKey")
     mouser = _provider_profile(evidence, "Mouser")
+    tme = _provider_profile(evidence, "TME")
 
     values = OrderedDict((column.key, "") for column in enriched_columns())
+    lifecycle = merged_value(evidence, "lifecycle_status")
+    providers_queried = _provider_evidence_text(evidence)
+    providers_matched = ", ".join(matched)
     values.update({
         "Source Row": row,
         "Requested Manufacturer": requested_mfg,
         "Requested MPN": requested_mpn,
         "Match Status": status,
         "Reason": reason,
-        "Providers Queried": _provider_evidence_text(evidence),
-        "Providers Matched": ", ".join(matched),
+        "Providers Queried": providers_queried,
+        "Providers Matched": providers_matched,
         "Engineering Confirmation": engineering_confirmation(evidence),
-        "Manufacturer": merged_value(evidence, "manufacturer"),
-        "Manufacturer Part Number": merged_value(evidence, "manufacturer_part_number"),
-        "Description": merged_value(evidence, "description"),
+        "Review Observation": provider_review_observation(
+            match_status=status, providers_queried=providers_queried,
+            providers_matched=providers_matched, local_context=local_context, lifecycle=lifecycle,
+        ),
+        "BOM Description": bom_context.get("description", ""),
+        "BOM Quantity": bom_context.get("quantity", ""),
+        "BOM DNP": bom_context.get("dnp", ""),
+        "Local Knowledge Status": local_context.status,
+        "AIPN": local_context.aipn,
+        "Local Lifecycle": local_context.lifecycle,
+        "Datasheet Evidence Status": local_context.datasheet_status,
+        "Static Datasheet": local_context.datasheet_local_file,
+        "Manufacturer": merged_value(evidence, "manufacturer") or local_context.manufacturer,
+        "Manufacturer Part Number": merged_value(evidence, "manufacturer_part_number") or local_context.mpn,
+        "Description": merged_value(evidence, "description") or local_context.description,
         "Detailed Description": merged_value(evidence, "detailed_description"),
-        "Product Status": merged_value(evidence, "lifecycle_status"),
+        "Product Status": lifecycle or local_context.lifecycle,
         "Mounting Type": merged_value(evidence, "mounting_type"),
         "Package / Case": merged_value(evidence, "package"),
         "Operating Temperature": _merged_custom_value(evidence, lambda p: _profile_attribute(p, "Operating Temperature")),
@@ -500,7 +537,12 @@ def build_combined_result(row, requested_mfg, requested_mpn, evidence):
         "Provider #2 Lead Time": mouser.get("manufacturer_lead_weeks", ""),
         "Provider #2 Currency": mouser.get("provider_currency", ""),
         "Provider #2 Price Breaks": _provider_price_summary(mouser),
-        "Datasheet URL": merged_value(evidence, "datasheet_url"),
+        "Provider #3 Name": "TME",
+        "Provider #3 Available": provider_availability(tme),
+        "Provider #3 Lead Time": tme.get("manufacturer_lead_weeks", ""),
+        "Provider #3 Currency": tme.get("provider_currency", ""),
+        "Provider #3 Price Breaks": _provider_price_summary(tme),
+        "Datasheet URL": merged_value(evidence, "datasheet_url") or local_context.datasheet_active_url,
         "Product URL": merged_value(evidence, "product_url"),
         "Product Image URL": merged_value(evidence, "image_url"),
         "RoHS Status": merged_value(evidence, "rohs_status"),
@@ -516,21 +558,32 @@ def run(args):
     input_sheet = source[args.sheet] if args.sheet else source.active
     headers = [cell.value for cell in input_sheet[1]]
     manufacturer_column, mpn_column = locate_columns(headers)
+    description_column = locate_optional_column(headers, DESCRIPTION)
+    quantity_column = locate_optional_column(headers, QUANTITY)
+    dnp_column = locate_optional_column(headers, DNP)
 
     input_rows = []
     for row_number in range(max(2, args.start_row), input_sheet.max_row + 1):
         manufacturer = str(input_sheet.cell(row_number, manufacturer_column).value or "").strip()
         mpn = str(input_sheet.cell(row_number, mpn_column).value or "").strip()
         if manufacturer or mpn:
-            input_rows.append((row_number, manufacturer, mpn))
+            input_rows.append((
+                row_number, manufacturer, mpn, {
+                    "description": input_cell(input_sheet, row_number, description_column),
+                    "quantity": input_cell(input_sheet, row_number, quantity_column),
+                    "dnp": input_cell(input_sheet, row_number, dnp_column),
+                }
+            ))
         if args.max_parts and len(input_rows) >= args.max_parts:
             break
 
     settings = Settings.from_env()
     knowledge_base = KnowledgeBaseManager()
+    parts_master_lookup = PartsMasterLookup()
     digikey = DigiKeyProvider(settings, knowledge_base)
     mouser = MouserProvider(MouserSettings.from_env(), knowledge_base)
-    provider_manager = ProviderManager([digikey, mouser])
+    tme = TmeProvider(TmeSettings.from_env(), knowledge_base)
+    provider_manager = ProviderManager([digikey, mouser, tme])
     print(
         f"PDC v{APP_VERSION}: loaded {len(input_rows)} parts; "
         f"providers={', '.join(provider_manager.names)}; "
@@ -544,7 +597,7 @@ def run(args):
     manufacturer_result = provider_manager.execute(digikey, "manufacturers", args.force_refresh)
     manufacturer_catalogue = manufacturer_result.data if manufacturer_result.succeeded else None
 
-    for index, (row_number, manufacturer, mpn) in enumerate(input_rows, 1):
+    for index, (row_number, manufacturer, mpn, bom_context) in enumerate(input_rows, 1):
         print(f"[{index}/{len(input_rows)}] {manufacturer} {mpn}")
         evidence = []
         resolved = None
@@ -611,7 +664,34 @@ def run(args):
         else:
             evidence.append(ProviderEvidence("Mouser", mouser_result.status.value, mouser_result.message or ""))
 
-        result = build_combined_result(row_number, manufacturer, mpn, evidence)
+        tme_result = provider_manager.execute(
+            tme, "details", mpn, None, args.force_refresh,
+            input_manufacturer=manufacturer,
+            resolved_manufacturer=(resolved.matched_name if resolved else manufacturer),
+        )
+        if tme_result.succeeded:
+            record = tme_result.data
+            profile = dict(record.part_profile or {})
+            profile["identity_match"] = provider_identity_match(manufacturer, mpn, profile)
+            execution_status = "success" if profile.get("manufacturer_part_number") else "no_match"
+            evidence.append(ProviderEvidence(
+                "TME", execution_status, part_profile=profile,
+                commercial_profile=record.commercial_profile,
+                captured_at_utc=record.captured_at_utc, source_mode=record.source_mode,
+            ))
+            commercial_rows.extend(commercial_analysis_rows(
+                {"Source Row": row_number, "Manufacturer": profile.get("manufacturer", ""),
+                 "Manufacturer Part Number": profile.get("manufacturer_part_number", "")},
+                record.commercial_profile,
+            ))
+        else:
+            evidence.append(ProviderEvidence("TME", tme_result.status.value, tme_result.message or ""))
+
+        local_context = parts_master_lookup.find(manufacturer, mpn)
+        result = build_combined_result(
+            row_number, manufacturer, mpn, evidence,
+            bom_context=bom_context, local_context=local_context,
+        )
         results.append(result)
         knowledge_base.save_part_summary(
             manufacturer=manufacturer,
@@ -681,6 +761,18 @@ def run(args):
     ))
     for row in commercial_rows:
         commercial.append([row.get(heading, "") for heading in commercial_headings])
+
+    summary = output.create_sheet("BOM Review Summary", 0)
+    summary.append(["PDC Operational BOM Review", "Value"])
+    for label, value in summary_rows(results):
+        summary.append([label, value])
+    summary.append([])
+    summary.append(["Providers", ", ".join(provider_manager.names)])
+    summary.append(["Review Rule", "DNP rows are reviewed like fitted rows; DNP remains assembly context."])
+    summary.append(["Approval", "PDC reports evidence and exceptions only; no automatic engineering approval."])
+    format_reference_sheet(summary)
+    summary.column_dimensions["A"].width = 42
+    summary.column_dimensions["B"].width = 90
 
     format_review_sheet(enriched, headings)
     format_review_sheet(review, review_headings)
