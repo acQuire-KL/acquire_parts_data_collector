@@ -1,0 +1,71 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-27T22:28:46Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BMA400",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MIKROE-3149",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113614,
+              "name": "Add-on boards"
+            },
+            "manufacturer_symbols": [
+              "MIKROE-3149",
+              "ACCEL 5 CLICK"
+            ],
+            "manufacturer": {
+              "id": 830,
+              "name": "MIKROE"
+            },
+            "description": "Click board; prototype board; Comp: BMA400; accelerometer; 3.3VDC",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 17.32,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/15/90/00/0/610730_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=0b597d593ef0e3b8da651f53e25fe66d91928625",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/15/90/00/0/610730_1.jpg?width=100&height=75&q=75&ci_sign=7a878b2a6ae449acc0d9c6e46bf5400fbf2eef8d",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/AA/15/90/00/0/610730_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=b34816a3d176f494966bce9e1152d6ba9f0a9560"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

@@ -1,0 +1,772 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:35:21Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Murata",
+    "input_mpn": "NFM15HC105D0G3D",
+    "resolved_manufacturer": "Murata Electronics",
+    "provider_manufacturer_id": 490,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "966"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CAP FEEDTHRU 1UF 20% 4V 0402",
+        "DetailedDescription": "1 µF Feed Through Capacitor 4V 2 A 30mOhm 0402 (1005 Metric), 3 PC Pad"
+      },
+      "Manufacturer": {
+        "Id": 490,
+        "Name": "Murata Electronics"
+      },
+      "ManufacturerProductNumber": "NFM15HC105D0G3D",
+      "UnitPrice": 0.23,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/murata-electronics/NFM15HC105D0G3D/12472103",
+      "DatasheetUrl": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/NFM15HC105D0G3-0-050-EN_PDF_CERAMICCAPACITORSMD",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/426/MFG_NFM15HC105D0G3D.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "490-NFM15HC105D0G3DTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.04251,
+              "TotalPrice": 425.1
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.04016,
+              "TotalPrice": 803.2
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.03899,
+              "TotalPrice": 1169.7
+            },
+            {
+              "BreakQuantity": 50000,
+              "UnitPrice": 0.03768,
+              "TotalPrice": 1884.0
+            },
+            {
+              "BreakQuantity": 70000,
+              "UnitPrice": 0.03692,
+              "TotalPrice": 2584.4
+            },
+            {
+              "BreakQuantity": 100000,
+              "UnitPrice": 0.03618,
+              "TotalPrice": 3618.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 280000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-NFM15HC105D0G3DCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.23,
+              "TotalPrice": 0.23
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.13,
+              "TotalPrice": 1.3
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0936,
+              "TotalPrice": 4.68
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0825,
+              "TotalPrice": 8.25
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.06362,
+              "TotalPrice": 31.81
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.05782,
+              "TotalPrice": 57.82
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.05172,
+              "TotalPrice": 129.3
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.04804,
+              "TotalPrice": 240.2
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 283015,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-NFM15HC105D0G3DDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.23,
+              "TotalPrice": 0.23
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.13,
+              "TotalPrice": 1.3
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0936,
+              "TotalPrice": 4.68
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0825,
+              "TotalPrice": 8.25
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.06362,
+              "TotalPrice": 31.81
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.05782,
+              "TotalPrice": 57.82
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.05172,
+              "TotalPrice": 129.3
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.04804,
+              "TotalPrice": 240.2
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 283015,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 283015,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "346440",
+          "ValueText": "Feed Through"
+        },
+        {
+          "ParameterId": 2049,
+          "ParameterText": "Capacitance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 µF",
+          "ValueText": "1 µF"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 14,
+          "ParameterText": "Voltage - Rated",
+          "ParameterType": "String",
+          "ValueId": "228504",
+          "ValueText": "4V"
+        },
+        {
+          "ParameterId": 2155,
+          "ParameterText": "Current",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "2 A",
+          "ValueText": "2 A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "184272",
+          "ValueText": "30mOhm"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 327,
+          "ParameterText": "Insertion Loss",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 17,
+          "ParameterText": "Temperature Coefficient",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "682913",
+          "ValueText": "0402 (1005 Metric), 3 PC Pad"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "6310",
+          "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "5212",
+          "ValueText": "0.020\" (0.50mm)"
+        },
+        {
+          "ParameterId": 121,
+          "ParameterText": "Thread Size",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 845,
+            "ParentId": 36,
+            "Name": "Feed Through, Pass Through Capacitors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/077/NFM41P%20SERIES_tmb%2864x64%29.jpg",
+            "SeoDescription": "Feed through capacitors are a variety of devices designed to provide capacitive coupling to a conductor which passes through them. Commonly used for broadband filtering of DC power lines, they are often produced in mechanical form factors designed to be mounted within a conductive enclosure, in context of RF, microwave, and other sensitive applications.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 53698,
+        "Name": "EMIFIL®, NFM15"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8532.24.0020"
+      },
+      "OtherNames": [
+        "490-NFM15HC105D0G3DDKR",
+        "490-NFM15HC105D0G3DCT",
+        "490-NFM15HC105D0G3DTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:35:21Z",
+    "manufacturer_part_number": "NFM15HC105D0G3D",
+    "product_quantity_available": 283015,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 0.23,
+    "offers": [
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DCT-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 283015,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.23,
+            "total_price": 0.23
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.13,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0936,
+            "total_price": 4.68
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0825,
+            "total_price": 8.25
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.06362,
+            "total_price": 31.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.05782,
+            "total_price": 57.82
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.05172,
+            "total_price": 129.3
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.04804,
+            "total_price": 240.2
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DDKR-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 283015,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.23,
+            "total_price": 0.23
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.13,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0936,
+            "total_price": 4.68
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0825,
+            "total_price": 8.25
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.06362,
+            "total_price": 31.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.05782,
+            "total_price": 57.82
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.05172,
+            "total_price": 129.3
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.04804,
+            "total_price": 240.2
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DTR-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 280000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.04251,
+            "total_price": 425.1
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.04016,
+            "total_price": 803.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.03899,
+            "total_price": 1169.7
+          },
+          {
+            "break_quantity": 50000,
+            "unit_price": 0.03768,
+            "total_price": 1884.0
+          },
+          {
+            "break_quantity": 70000,
+            "unit_price": 0.03692,
+            "total_price": 2584.4
+          },
+          {
+            "break_quantity": 100000,
+            "unit_price": 0.03618,
+            "total_price": 3618.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DCT-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 283015,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.23,
+            "total_price": 0.23
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.13,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0936,
+            "total_price": 4.68
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0825,
+            "total_price": 8.25
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.06362,
+            "total_price": 31.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.05782,
+            "total_price": 57.82
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.05172,
+            "total_price": 129.3
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.04804,
+            "total_price": 240.2
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DDKR-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 283015,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.23,
+            "total_price": 0.23
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.13,
+            "total_price": 1.3
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0936,
+            "total_price": 4.68
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0825,
+            "total_price": 8.25
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.06362,
+            "total_price": 31.81
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.05782,
+            "total_price": 57.82
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.05172,
+            "total_price": 129.3
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.04804,
+            "total_price": 240.2
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-NFM15HC105D0G3DTR-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 280000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.04251,
+            "total_price": 425.1
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.04016,
+            "total_price": 803.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.03899,
+            "total_price": 1169.7
+          },
+          {
+            "break_quantity": 50000,
+            "unit_price": 0.03768,
+            "total_price": 1884.0
+          },
+          {
+            "break_quantity": 70000,
+            "unit_price": 0.03692,
+            "total_price": 2584.4
+          },
+          {
+            "break_quantity": 100000,
+            "unit_price": 0.03618,
+            "total_price": 3618.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:35:21Z",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_part_number": "NFM15HC105D0G3D",
+    "provider_part_number": "",
+    "description": "CAP FEEDTHRU 1UF 20% 4V 0402",
+    "detailed_description": "1 µF Feed Through Capacitor 4V 2 A 30mOhm 0402 (1005 Metric), 3 PC Pad",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/NFM15HC105D0G3-0-050-EN_PDF_CERAMICCAPACITORSMD",
+    "product_url": "https://www.digikey.ie/en/products/detail/murata-electronics/NFM15HC105D0G3D/12472103",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/426/MFG_NFM15HC105D0G3D.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0402 (1005 Metric), 3 PC Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Feed Through",
+      "Capacitance": "1 µF",
+      "Tolerance": "±20%",
+      "Voltage - Rated": "4V",
+      "Current": "2 A",
+      "DC Resistance (DCR) (Max)": "30mOhm",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Insertion Loss": "-",
+      "Temperature Coefficient": "-",
+      "Ratings": "AEC-Q200",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0402 (1005 Metric), 3 PC Pad",
+      "Size / Dimension": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)",
+      "Height (Max)": "0.020\" (0.50mm)",
+      "Thread Size": "-"
+    },
+    "compliance": {}
+  }
+}

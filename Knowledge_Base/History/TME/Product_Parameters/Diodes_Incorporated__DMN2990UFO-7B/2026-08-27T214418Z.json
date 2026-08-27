@@ -1,0 +1,27 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-27T21:44:18Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Diodes",
+    "input_mpn": "DMN2990UFO-7B",
+    "resolved_manufacturer": "Diodes Incorporated",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "DMN2990UFO-7B",
+          "parameters": null
+        }
+      ]
+    }
+  }
+}

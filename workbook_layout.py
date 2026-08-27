@@ -24,12 +24,13 @@ ENRICHED_PARTS_COLUMNS = [
     _column("Status", "Requested Manufacturer", "Input.Manufacturer", "Manufacturer supplied by the user"),
     _column("Status", "Requested MPN", "Input.MPN", "MPN supplied by the user"),
     _column("Status", "Match Status", "PDC combined provider evidence", "Identity match after all enabled providers are reviewed"),
-    _column("Status", "Providers Queried", "PDC provider execution", "Provider-level search outcomes"),
-    _column("Status", "Providers Matched", "PDC identity confirmation", "Providers matching manufacturer and MPN"),
+    _column("Status", "Provider Results", "PDC provider execution and identity confirmation", "Compact provider outcome counts; exceptions remain visible without listing every provider"),
     _column("Status", "Engineering Confirmation", "PDC cross-provider comparison", "Agreement only; no provider preference or recommendation"),
     _column("Status", "Review Observation", "PDC operational BOM review", "Concise exception/attention summary; not an approval"),
 
     _column("BOM Context", "BOM Description", "Input BOM", "Original BOM description where available"),
+    _column("BOM Context", "BOM Value", "Input BOM", "Original BOM value where available"),
+    _column("BOM Context", "BOM Footprint", "Input BOM", "Original BOM footprint/package where available"),
     _column("BOM Context", "BOM Quantity", "Input BOM", "Original BOM quantity where available"),
     _column("BOM Context", "BOM DNP", "Input BOM", "Original DNP/fit state; DNP rows are still reviewed"),
 

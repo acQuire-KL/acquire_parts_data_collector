@@ -1,0 +1,462 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:35:15Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Mill-Max",
+    "input_mpn": "0900-0-15-20-76-14-11-0",
+    "resolved_manufacturer": "Mill-Max Manufacturing Corp.",
+    "provider_manufacturer_id": 54,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "967"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONTACT SPRING LOADED SMD GOLD",
+        "DetailedDescription": "Contact Spring Surface Mount"
+      },
+      "Manufacturer": {
+        "Id": 54,
+        "Name": "Mill-Max Manufacturing Corp."
+      },
+      "ManufacturerProductNumber": "0900-0-15-20-76-14-11-0",
+      "UnitPrice": 0.67,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/mill-max-manufacturing-corp/0900-0-15-20-76-14-11-0/663496",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3745/MFG_0900-0-15-20-76-14-11-0.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "ED9000-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.67,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.574,
+              "TotalPrice": 5.74
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5388,
+              "TotalPrice": 13.47
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.513,
+              "TotalPrice": 25.65
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4883,
+              "TotalPrice": 48.83
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.45768,
+              "TotalPrice": 114.42
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.43582,
+              "TotalPrice": 217.91
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.41501,
+              "TotalPrice": 415.01
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.38902,
+              "TotalPrice": 972.55
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 54,
+            "Name": "Mill-Max Manufacturing Corp."
+          },
+          "QuantityAvailableforPackageType": 47079,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 47079,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 512,
+          "ParameterText": "Contact Type",
+          "ParameterType": "String",
+          "ValueId": "481780",
+          "ValueText": "Sleeve & Plunger (Pogo Pins)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 2396,
+          "ParameterText": "Maximum Working Height",
+          "ParameterType": "String",
+          "ValueId": "11360",
+          "ValueText": "0.137\" (3.48mm)"
+        },
+        {
+          "ParameterId": 2397,
+          "ParameterText": "Recommended Working Height",
+          "ParameterType": "String",
+          "ValueId": "10308",
+          "ValueText": "0.118\" (3.00mm)"
+        },
+        {
+          "ParameterId": 2398,
+          "ParameterText": "Minimum Working Height",
+          "ParameterType": "String",
+          "ValueId": "9420",
+          "ValueText": "0.098\" (2.50mm)"
+        },
+        {
+          "ParameterId": 2399,
+          "ParameterText": "Pad Layout Dimension",
+          "ParameterType": "String",
+          "ValueId": "329827",
+          "ValueText": "Circular - 0.072\" (1.83mm)"
+        },
+        {
+          "ParameterId": 2401,
+          "ParameterText": "Operating Force - Initial",
+          "ParameterType": "String",
+          "ValueId": "103028",
+          "ValueText": "15gf"
+        },
+        {
+          "ParameterId": 2402,
+          "ParameterText": "Operating Force - Mid Compression",
+          "ParameterType": "String",
+          "ValueId": "257255",
+          "ValueText": "60gf"
+        },
+        {
+          "ParameterId": 2400,
+          "ParameterText": "Plunger Size",
+          "ParameterType": "String",
+          "ValueId": "6548",
+          "ValueText": "0.042\" (1.07mm) Dia"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1499,
+          "ParameterText": "Mating Cycles",
+          "ParameterType": "String",
+          "ValueId": "68222",
+          "ValueText": "1000000"
+        },
+        {
+          "ParameterId": 1084,
+          "ParameterText": "Contact Material",
+          "ParameterType": "String",
+          "ValueId": "322868",
+          "ValueText": "Brass Alloy"
+        },
+        {
+          "ParameterId": 30,
+          "ParameterText": "Contact Finish",
+          "ParameterType": "String",
+          "ValueId": "350796",
+          "ValueText": "Gold"
+        },
+        {
+          "ParameterId": 834,
+          "ParameterText": "Contact Finish Thickness",
+          "ParameterType": "String",
+          "ValueId": "138327",
+          "ValueText": "20.0µin (0.51µm)"
+        },
+        {
+          "ParameterId": 66,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 593164,
+        "Name": "0900-0"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2008,
+            "ParentId": 20,
+            "Name": "Contacts",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/254/784/1-66099-5_tmb%2864x64%29.jpg",
+            "SeoDescription": "Contacts are electronic components that are used to conduct electricity and complete a circuit. These are typically used on circuit boards, in a connector housing, or between two objects. Contact types included in this category are leadframe, multi-purpose, and spring-loaded or pressure.",
+            "ChildCategories": [
+              {
+                "CategoryId": 311,
+                "ParentId": 2008,
+                "Name": "Contacts, Spring Loaded (Pogo Pins), and Pressure",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/430/0985-0-15-20-71-14-11-0_1_tmb%2864x64%29.jpg",
+                "SeoDescription": "Spring-loaded contacts, also known as \"pogo pins\" in reference to the toy they resemble, are commonly used to establish electrical contact between two objects whose relative mechanical position cannot be well-controlled, or a connector system tolerant of frequent mating/unmating cycles is desirable. Charging cradles for cordless handheld devices such as bar code scanners and mobile radios are a common example. Contact pads used to create a durable, corrosion-resistant surface for spring-loaded contacts to bear against are also included within this product family.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "4",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 4657,
+        "Name": "900"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "0900-0-00-00-00-00-11-0",
+        "ED9000",
+        "0900000000000110",
+        "9.00015E+14",
+        "0900015207614110",
+        "900000000000110"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:35:15Z",
+    "manufacturer_part_number": "0900-0-15-20-76-14-11-0",
+    "product_quantity_available": 47079,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "4",
+    "product_unit_price": 0.67,
+    "offers": [
+      {
+        "provider_part_number": "ED9000-ND",
+        "supplier": "Mill-Max Manufacturing Corp.",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 47079,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.574,
+            "total_price": 5.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5388,
+            "total_price": 13.47
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.513,
+            "total_price": 25.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4883,
+            "total_price": 48.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.45768,
+            "total_price": 114.42
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.43582,
+            "total_price": 217.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.41501,
+            "total_price": 415.01
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38902,
+            "total_price": 972.55
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "ED9000-ND",
+        "supplier": "Mill-Max Manufacturing Corp.",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 47079,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.574,
+            "total_price": 5.74
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5388,
+            "total_price": 13.47
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.513,
+            "total_price": 25.65
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4883,
+            "total_price": 48.83
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.45768,
+            "total_price": 114.42
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.43582,
+            "total_price": 217.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.41501,
+            "total_price": 415.01
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38902,
+            "total_price": 972.55
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:35:15Z",
+    "manufacturer": "Mill-Max Manufacturing Corp.",
+    "manufacturer_part_number": "0900-0-15-20-76-14-11-0",
+    "provider_part_number": "",
+    "description": "CONTACT SPRING LOADED SMD GOLD",
+    "detailed_description": "Contact Spring Surface Mount",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/mill-max-manufacturing-corp/0900-0-15-20-76-14-11-0/663496",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3745/MFG_0900-0-15-20-76-14-11-0.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Contact Type": "Sleeve & Plunger (Pogo Pins)",
+      "Mounting Type": "Surface Mount",
+      "Maximum Working Height": "0.137\" (3.48mm)",
+      "Recommended Working Height": "0.118\" (3.00mm)",
+      "Minimum Working Height": "0.098\" (2.50mm)",
+      "Pad Layout Dimension": "Circular - 0.072\" (1.83mm)",
+      "Operating Force - Initial": "15gf",
+      "Operating Force - Mid Compression": "60gf",
+      "Plunger Size": "0.042\" (1.07mm) Dia",
+      "Features": "-",
+      "Mating Cycles": "1000000",
+      "Contact Material": "Brass Alloy",
+      "Contact Finish": "Gold",
+      "Contact Finish Thickness": "20.0µin (0.51µm)",
+      "Current Rating (Amps)": "2A"
+    },
+    "compliance": {}
+  }
+}

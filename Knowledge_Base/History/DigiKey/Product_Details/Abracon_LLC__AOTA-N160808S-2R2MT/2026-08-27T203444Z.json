@@ -1,0 +1,682 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:34:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Abracon",
+    "input_mpn": "AOTA-N160808S-2R2MT",
+    "resolved_manufacturer": "Abracon LLC",
+    "provider_manufacturer_id": 535,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "972"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FIXED IND 2.2UH 1.2A 292 MOHM",
+        "DetailedDescription": "2.2 µH Shielded Molded Inductor 1.2 A 292mOhm Max 0603 (1608 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 535,
+        "Name": "Abracon LLC"
+      },
+      "ManufacturerProductNumber": "AOTA-N160808S-2R2MT",
+      "UnitPrice": 0.33,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/abracon-llc/AOTA-N160808S-2R2MT/27691971",
+      "DatasheetUrl": "https://abracon.com/datasheets/AOTA-N160808S.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7346/MFG_AOTA-N160808S.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "535-AOTA-N160808S-2R2MTTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.1664,
+              "TotalPrice": 499.2
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.15691,
+              "TotalPrice": 941.46
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.15162,
+              "TotalPrice": 1364.58
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.14522,
+              "TotalPrice": 2178.3
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.14115,
+              "TotalPrice": 2964.15
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.13697,
+              "TotalPrice": 4109.1
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "535-AOTA-N160808S-2R2MTCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.33,
+              "TotalPrice": 0.33
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.27,
+              "TotalPrice": 2.7
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2221,
+              "TotalPrice": 22.21
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.18264,
+              "TotalPrice": 182.64
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 5638,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "535-AOTA-N160808S-2R2MTDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.33,
+              "TotalPrice": 0.33
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.27,
+              "TotalPrice": 2.7
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2221,
+              "TotalPrice": 22.21
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.18264,
+              "TotalPrice": 182.64
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 535,
+            "Name": "Abracon LLC"
+          },
+          "QuantityAvailableforPackageType": 5638,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 5638,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "376942",
+          "ValueText": "Molded"
+        },
+        {
+          "ParameterId": 1221,
+          "ParameterText": "Material - Core",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2087,
+          "ParameterText": "Inductance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "2.2 µH",
+          "ValueText": "2.2 µH"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.2 A",
+          "ValueText": "1.2 A"
+        },
+        {
+          "ParameterId": 1219,
+          "ParameterText": "Current - Saturation (Isat)",
+          "ParameterType": "String",
+          "ValueId": "55041",
+          "ValueText": "1.5A"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        },
+        {
+          "ParameterId": 314,
+          "ParameterText": "DC Resistance (DCR)",
+          "ParameterType": "String",
+          "ValueId": "166898",
+          "ValueText": "292mOhm Max"
+        },
+        {
+          "ParameterId": 705,
+          "ParameterText": "Q @ Freq",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 706,
+          "ParameterText": "Frequency - Self Resonant",
+          "ParameterType": "String",
+          "ValueId": "214890",
+          "ValueText": "40MHz"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 1222,
+          "ParameterText": "Inductance Frequency - Test",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 MHz",
+          "ValueText": "1 MHz"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5812",
+          "ValueText": "0.031\" (0.80mm)"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 4,
+        "ParentId": 0,
+        "Name": "Inductors, Coils, Chokes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/465/830/760308104119_tmb%2864x64%29.jpg",
+        "SeoDescription": "Inductors, coils, and chokes are various names used to refer to products that store energy in the form of a magnetic field. The vast majority of the products found in this category are simple fixed-value devices, though adjustable types, products for wireless power transmission, and magnetically-coupled inductor arrays are also included. Note that the coupled-inductor devices found within this product family are characterized by having multiple identical windings sharing a common magnetic core; similar products with non-identical windings are more commonly described as transformers, and are categorized as such.",
+        "ChildCategories": [
+          {
+            "CategoryId": 71,
+            "ParentId": 4,
+            "Name": "Fixed Inductors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/690/369/MFG_WE-HCF%202013%20Series_tmb%2864x64%29.jpg",
+            "SeoDescription": "An inductor, also known as a coil, choke, or reactor, is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. When the current changes, the magnetic field induces a voltage in the conductor. The induced voltage has a polarity which opposes the change in current that created it. The unit of inductance is the Henry (H). Mounting options include surface, through-hole, and chassis.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "28",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 141464,
+        "Name": "AOTA-N160808S"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.50.8000"
+      },
+      "OtherNames": [
+        "535-AOTA-N160808S-2R2MTTR",
+        "535-AOTA-N160808S-2R2MTDKR",
+        "535-AOTA-N160808S-2R2MTCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:34:44Z",
+    "manufacturer_part_number": "AOTA-N160808S-2R2MT",
+    "product_quantity_available": 5638,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "28",
+    "product_unit_price": 0.33,
+    "offers": [
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTCT-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 5638,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.27,
+            "total_price": 2.7
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2221,
+            "total_price": 22.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.18264,
+            "total_price": 182.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTDKR-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5638,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.27,
+            "total_price": 2.7
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2221,
+            "total_price": 22.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.18264,
+            "total_price": 182.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTTR-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.1664,
+            "total_price": 499.2
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.15691,
+            "total_price": 941.46
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.15162,
+            "total_price": 1364.58
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.14522,
+            "total_price": 2178.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.14115,
+            "total_price": 2964.15
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.13697,
+            "total_price": 4109.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTCT-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 5638,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.27,
+            "total_price": 2.7
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2221,
+            "total_price": 22.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.18264,
+            "total_price": 182.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTDKR-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5638,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.33,
+            "total_price": 0.33
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.27,
+            "total_price": 2.7
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2221,
+            "total_price": 22.21
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.18264,
+            "total_price": 182.64
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "535-AOTA-N160808S-2R2MTTR-ND",
+        "supplier": "Abracon LLC",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.1664,
+            "total_price": 499.2
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.15691,
+            "total_price": 941.46
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.15162,
+            "total_price": 1364.58
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.14522,
+            "total_price": 2178.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.14115,
+            "total_price": 2964.15
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.13697,
+            "total_price": 4109.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:34:44Z",
+    "manufacturer": "Abracon LLC",
+    "manufacturer_part_number": "AOTA-N160808S-2R2MT",
+    "provider_part_number": "",
+    "description": "FIXED IND 2.2UH 1.2A 292 MOHM",
+    "detailed_description": "2.2 µH Shielded Molded Inductor 1.2 A 292mOhm Max 0603 (1608 Metric)",
+    "datasheet_url": "https://abracon.com/datasheets/AOTA-N160808S.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/abracon-llc/AOTA-N160808S-2R2MT/27691971",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7346/MFG_AOTA-N160808S.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Molded",
+      "Material - Core": "-",
+      "Inductance": "2.2 µH",
+      "Tolerance": "±20%",
+      "Current Rating (Amps)": "1.2 A",
+      "Current - Saturation (Isat)": "1.5A",
+      "Shielding": "Shielded",
+      "DC Resistance (DCR)": "292mOhm Max",
+      "Q @ Freq": "-",
+      "Frequency - Self Resonant": "40MHz",
+      "Ratings": "-",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Inductance Frequency - Test": "1 MHz",
+      "Features": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "0.031\" (0.80mm)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,18 @@
+SPRINT 4.7.1a — OPERATIONAL BOM REVIEW CORRECTIVE PATCH
+
+Acceptance checks:
+1. CSV BOM input can enter the same operational review path as XLSX.
+2. MF is recognised as a Manufacturer header alias.
+3. BOM Value and Footprint are retained in review output.
+4. Blank MPN rows do not query providers.
+5. Blank MPN rows receive an explicit review observation.
+6. Runtime progress is flushed and provider-level progress is visible.
+7. Raw API error payloads are not shown in Providers Queried.
+8. 404 / explicit not-found responses display as not found and count as no_match.
+9. Genuine provider failures display as concise provider error states.
+10. Common terminal R/T/TR ordering suffix variants can match conservatively.
+11. Arbitrary MPN prefix matching remains rejected.
+12. Full raw provider diagnostic messages remain available to the Knowledge Base summary path.
+
+Regression command:
+python -m unittest discover -s tests -v

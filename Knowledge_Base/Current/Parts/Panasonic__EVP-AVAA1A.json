@@ -1,0 +1,38 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:27:52Z",
+  "requested_manufacturer": "Panasonic",
+  "requested_mpn": "EVP-AVAA1A",
+  "summary": {
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product evp-avaa1a Not Found\",\"instance\":\"\",\"correlationId\":\"7156f40e-6b71-43e5-d43c-731265cb0525\",\"errors\":{}}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:50Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:52Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

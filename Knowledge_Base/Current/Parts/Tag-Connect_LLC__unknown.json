@@ -1,0 +1,38 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T20:33:29Z",
+  "requested_manufacturer": "Tag-Connect LLC",
+  "requested_mpn": "",
+  "summary": {
+    "match_status": "Review Required",
+    "reason": "No provider identity match could be confirmed because collection was incomplete. Errors: DigiKey, Mouser, TME.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "DigiKey 404: \n            {\n                \"type\": \"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\n                \"title\": \"Not Found\",\n                \"status\": 404,\n                \"detail\": \"Invalid resource path. Requested resource is not available\",\n                \"instance\": \"\",\n                \"correlationId\": \"a395e7c9-2619-4828-cbb9-0bdb65b8731f\",\n                \"errors\": {}\n            }\n        ",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "MPN is required for a Mouser part-number search",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "TME",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "MPN is required for a TME product search",
+        "captured_at_utc": "",
+        "source_mode": ""
+      }
+    ]
+  }
+}

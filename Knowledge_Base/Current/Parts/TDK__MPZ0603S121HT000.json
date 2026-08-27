@@ -1,0 +1,42 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:27:21Z",
+  "requested_manufacturer": "TDK",
+  "requested_mpn": "MPZ0603S121HT000",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: DigiKey, Mouser, TME.",
+    "providers_matched": [
+      "DigiKey",
+      "Mouser",
+      "TME"
+    ],
+    "engineering_confirmation": "Differences present (1/1 common fields)",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T20:32:56Z",
+        "source_mode": "knowledge_base_current"
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:18Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:20Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

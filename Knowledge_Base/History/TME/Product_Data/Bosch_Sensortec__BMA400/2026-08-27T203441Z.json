@@ -1,0 +1,49 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-27T20:34:41Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BMA400",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "MIKROE-3149",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 20.51,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

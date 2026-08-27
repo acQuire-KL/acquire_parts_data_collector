@@ -1,0 +1,335 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:34:33Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "BQ21088YBGR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": 296,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "975"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "BATTERY MANAGEMENT",
+        "DetailedDescription": "Charger IC Multi-Chemistry 8-DSBGA (1.6x1.1)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "BQ21088YBGR",
+      "UnitPrice": 0.92914,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/BQ21088YBGR/25811553",
+      "DatasheetUrl": "https://www.ti.com/lit/gpn/bq21088",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6169/296%7E4224718%7EYBG%7E8.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-BQ21088YBGRTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.92914,
+              "TotalPrice": 2787.42
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": false,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 412,
+          "ParameterText": "Battery Chemistry",
+          "ParameterType": "String",
+          "ValueId": "378152",
+          "ValueText": "Multi-Chemistry"
+        },
+        {
+          "ParameterId": 36,
+          "ParameterText": "Number of Cells",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1972,
+          "ParameterText": "Current - Charging",
+          "ParameterType": "String",
+          "ValueId": "333198",
+          "ValueText": "Constant - Programmable"
+        },
+        {
+          "ParameterId": 1680,
+          "ParameterText": "Programmable Features",
+          "ParameterType": "String",
+          "ValueId": "336138",
+          "ValueText": "Current, Timer, Voltage"
+        },
+        {
+          "ParameterId": 1818,
+          "ParameterText": "Fault Protection",
+          "ParameterType": "String",
+          "ValueId": "474891",
+          "ValueText": "Over Current, Over Temperature, Over-Under Voltage"
+        },
+        {
+          "ParameterId": 1490,
+          "ParameterText": "Charge Current - Max",
+          "ParameterType": "String",
+          "ValueId": "119750",
+          "ValueText": "1A"
+        },
+        {
+          "ParameterId": 1971,
+          "ParameterText": "Battery Pack Voltage",
+          "ParameterType": "String",
+          "ValueId": "209109",
+          "ValueText": "4.65V (Max)"
+        },
+        {
+          "ParameterId": 1845,
+          "ParameterText": "Voltage - Supply (Max)",
+          "ParameterType": "String",
+          "ValueId": "233086",
+          "ValueText": "5.5V"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "295507",
+          "ValueText": "8-XFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "666419",
+          "ValueText": "8-DSBGA (1.6x1.1)"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 781,
+                "ParentId": 2025,
+                "Name": "Battery Chargers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/457/069/175%3B30WLP-.69%3B%3B30_tmb%2864x64%29.jpg",
+                "SeoDescription": "Battery Charger PMICs (Power Management Integrated Circuits) are a family of component-level products used to implement battery charge control and charge management functions in electronic devices. Classified primarily by the battery chemistry and number of cells with which a device is designed for use, these devices provide current or voltage regulation and monitoring functions necessary for safe recharging of electrochemical cells and supercapacitors.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 24264,
+        "Name": "ReDriver™"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unknown",
+        "RohsStatus": "Unknown",
+        "MoistureSensitivityLevel": "",
+        "ExportControlClassNumber": "",
+        "HtsusCode": ""
+      },
+      "OtherNames": [
+        "296-BQ21088YBGRTR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:34:33Z",
+    "manufacturer_part_number": "BQ21088YBGR",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.92914,
+    "offers": [
+      {
+        "provider_part_number": "296-BQ21088YBGRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.92914,
+            "total_price": 2787.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "296-BQ21088YBGRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.92914,
+            "total_price": 2787.42
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:34:33Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "BQ21088YBGR",
+    "provider_part_number": "",
+    "description": "BATTERY MANAGEMENT",
+    "detailed_description": "Charger IC Multi-Chemistry 8-DSBGA (1.6x1.1)",
+    "datasheet_url": "https://www.ti.com/lit/gpn/bq21088",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/BQ21088YBGR/25811553",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6169/296%7E4224718%7EYBG%7E8.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-XFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Battery Chemistry": "Multi-Chemistry",
+      "Number of Cells": "1",
+      "Current - Charging": "Constant - Programmable",
+      "Programmable Features": "Current, Timer, Voltage",
+      "Fault Protection": "Over Current, Over Temperature, Over-Under Voltage",
+      "Charge Current - Max": "1A",
+      "Battery Pack Voltage": "4.65V (Max)",
+      "Voltage - Supply (Max)": "5.5V",
+      "Interface": "I2C",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "8-XFBGA, DSBGA",
+      "Supplier Device Package": "8-DSBGA (1.6x1.1)"
+    },
+    "compliance": {}
+  }
+}

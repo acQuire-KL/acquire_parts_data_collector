@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-27T20:33:43Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Panasonic",
+    "input_mpn": "ERB-RD1R50X",
+    "resolved_manufacturer": "Panasonic",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "ERBRD1R50X",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 131,
+                    "value": "PANASONIC"
+                  }
+                ]
+              },
+              {
+                "id": 617,
+                "name": "Type of fuse",
+                "values": [
+                  {
+                    "id": 1449024,
+                    "value": "fuse"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1439582,
+                    "value": "1.5A"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Rated voltage",
+                "values": [
+                  {
+                    "id": 1473341,
+                    "value": "32V DC"
+                  }
+                ]
+              },
+              {
+                "id": 2629,
+                "name": "Fuse characteristics",
+                "values": [
+                  {
+                    "id": 1449029,
+                    "value": "quick blow"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1905499,
+                    "value": "ERBRD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620225,
+                    "value": "0402"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620226,
+                    "value": "1005"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

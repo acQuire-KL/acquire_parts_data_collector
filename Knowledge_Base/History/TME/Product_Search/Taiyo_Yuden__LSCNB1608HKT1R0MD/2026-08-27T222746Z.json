@@ -1,0 +1,26 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-27T22:27:46Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Taiyo Yuden",
+    "input_mpn": "LSCNB1608HKT1R0MD",
+    "resolved_manufacturer": "Taiyo Yuden",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": []
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

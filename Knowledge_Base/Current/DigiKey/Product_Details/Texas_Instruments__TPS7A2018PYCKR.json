@@ -1,0 +1,778 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:32:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TPS7A2018PYCKR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": 296,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "998"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG LINEAR 1.8V 300MA 4-DSBGA",
+        "DetailedDescription": "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA 4-DSBGA (0.62x0.62)"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TPS7A2018PYCKR",
+      "UnitPrice": 0.27,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS7A2018PYCKR/16676095",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3508/296%7E4228575%7EYCK%7E4.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-TPS7A2018PYCKRTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.10611,
+              "TotalPrice": 1273.32
+            },
+            {
+              "BreakQuantity": 24000,
+              "UnitPrice": 0.10386,
+              "TotalPrice": 2492.64
+            },
+            {
+              "BreakQuantity": 36000,
+              "UnitPrice": 0.10273,
+              "TotalPrice": 3698.28
+            },
+            {
+              "BreakQuantity": 60000,
+              "UnitPrice": 0.10148,
+              "TotalPrice": 6088.8
+            },
+            {
+              "BreakQuantity": 84000,
+              "UnitPrice": 0.10075,
+              "TotalPrice": 8463.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 12000,
+          "StandardPackage": 12000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-TPS7A2018PYCKRCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.27,
+              "TotalPrice": 0.27
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.186,
+              "TotalPrice": 1.86
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1656,
+              "TotalPrice": 4.14
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1422,
+              "TotalPrice": 14.22
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.13112,
+              "TotalPrice": 32.78
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12444,
+              "TotalPrice": 62.22
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.11895,
+              "TotalPrice": 118.95
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.11371,
+              "TotalPrice": 284.275
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-TPS7A2018PYCKRDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.27,
+              "TotalPrice": 0.27
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.186,
+              "TotalPrice": 1.86
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.1656,
+              "TotalPrice": 4.14
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1422,
+              "TotalPrice": 14.22
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.13112,
+              "TotalPrice": 32.78
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.12444,
+              "TotalPrice": 62.22
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.11895,
+              "TotalPrice": 118.95
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.11371,
+              "TotalPrice": 284.275
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "347431",
+          "ValueText": "Fixed"
+        },
+        {
+          "ParameterId": 1065,
+          "ParameterText": "Number of Regulators",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "267452",
+          "ValueText": "6V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "61153",
+          "ValueText": "1.8V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2065,
+          "ParameterText": "Voltage Dropout (Max)",
+          "ParameterType": "String",
+          "ValueId": "18000",
+          "ValueText": "0.2V @ 300mA"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "182276",
+          "ValueText": "300mA"
+        },
+        {
+          "ParameterId": 477,
+          "ParameterText": "Current - Quiescent (Iq)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "15 µA",
+          "ValueText": "15 µA"
+        },
+        {
+          "ParameterId": 2064,
+          "ParameterText": "PSRR",
+          "ParameterType": "String",
+          "ValueId": "476249",
+          "ValueText": "65dB ~ 40dB (100Hz ~ 1MHz)"
+        },
+        {
+          "ParameterId": 1880,
+          "ParameterText": "Control Features",
+          "ParameterType": "String",
+          "ValueId": "335902",
+          "ValueText": "Current Limit, Enable, Soft Start"
+        },
+        {
+          "ParameterId": 2066,
+          "ParameterText": "Protection Features",
+          "ParameterType": "String",
+          "ValueId": "382852",
+          "ValueText": "Over Current, Over Temperature, Short Circuit, Under Voltage Lockout (UVLO)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212481",
+          "ValueText": "-40°C ~ 125°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "228986",
+          "ValueText": "4-XFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "699211",
+          "ValueText": "4-DSBGA (0.62x0.62)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 262998,
+        "Name": "TPS7A2018"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 699,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+                "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0090"
+      },
+      "OtherNames": [
+        "296-TPS7A2018PYCKRTR",
+        "296-TPS7A2018PYCKRDKR",
+        "296-TPS7A2018PYCKRCT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:32:37Z",
+    "manufacturer_part_number": "TPS7A2018PYCKR",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 0.27,
+    "offers": [
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.27,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.186,
+            "total_price": 1.86
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1656,
+            "total_price": 4.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1422,
+            "total_price": 14.22
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.13112,
+            "total_price": 32.78
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12444,
+            "total_price": 62.22
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.11895,
+            "total_price": 118.95
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.11371,
+            "total_price": 284.275
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.27,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.186,
+            "total_price": 1.86
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1656,
+            "total_price": 4.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1422,
+            "total_price": 14.22
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.13112,
+            "total_price": 32.78
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12444,
+            "total_price": 62.22
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.11895,
+            "total_price": 118.95
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.11371,
+            "total_price": 284.275
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 12000,
+        "pack_quantity": 12000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.10611,
+            "total_price": 1273.32
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.10386,
+            "total_price": 2492.64
+          },
+          {
+            "break_quantity": 36000,
+            "unit_price": 0.10273,
+            "total_price": 3698.28
+          },
+          {
+            "break_quantity": 60000,
+            "unit_price": 0.10148,
+            "total_price": 6088.8
+          },
+          {
+            "break_quantity": 84000,
+            "unit_price": 0.10075,
+            "total_price": 8463.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.27,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.186,
+            "total_price": 1.86
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1656,
+            "total_price": 4.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1422,
+            "total_price": 14.22
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.13112,
+            "total_price": 32.78
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12444,
+            "total_price": 62.22
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.11895,
+            "total_price": 118.95
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.11371,
+            "total_price": 284.275
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.27,
+            "total_price": 0.27
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.186,
+            "total_price": 1.86
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.1656,
+            "total_price": 4.14
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1422,
+            "total_price": 14.22
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.13112,
+            "total_price": 32.78
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.12444,
+            "total_price": 62.22
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.11895,
+            "total_price": 118.95
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.11371,
+            "total_price": 284.275
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS7A2018PYCKRTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 12000,
+        "pack_quantity": 12000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.10611,
+            "total_price": 1273.32
+          },
+          {
+            "break_quantity": 24000,
+            "unit_price": 0.10386,
+            "total_price": 2492.64
+          },
+          {
+            "break_quantity": 36000,
+            "unit_price": 0.10273,
+            "total_price": 3698.28
+          },
+          {
+            "break_quantity": 60000,
+            "unit_price": 0.10148,
+            "total_price": 6088.8
+          },
+          {
+            "break_quantity": 84000,
+            "unit_price": 0.10075,
+            "total_price": 8463.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:32:37Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS7A2018PYCKR",
+    "provider_part_number": "",
+    "description": "IC REG LINEAR 1.8V 300MA 4-DSBGA",
+    "detailed_description": "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA 4-DSBGA (0.62x0.62)",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS7A2018PYCKR/16676095",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3508/296%7E4228575%7EYCK%7E4.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "4-XFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Output Configuration": "Positive",
+      "Output Type": "Fixed",
+      "Number of Regulators": "1",
+      "Voltage - Input (Max)": "6V",
+      "Voltage - Output (Min/Fixed)": "1.8V",
+      "Voltage - Output (Max)": "-",
+      "Voltage Dropout (Max)": "0.2V @ 300mA",
+      "Current - Output": "300mA",
+      "Current - Quiescent (Iq)": "15 µA",
+      "PSRR": "65dB ~ 40dB (100Hz ~ 1MHz)",
+      "Control Features": "Current Limit, Enable, Soft Start",
+      "Protection Features": "Over Current, Over Temperature, Short Circuit, Under Voltage Lockout (UVLO)",
+      "Operating Temperature": "-40°C ~ 125°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "4-XFBGA, DSBGA",
+      "Supplier Device Package": "4-DSBGA (0.62x0.62)"
+    },
+    "compliance": {}
+  }
+}

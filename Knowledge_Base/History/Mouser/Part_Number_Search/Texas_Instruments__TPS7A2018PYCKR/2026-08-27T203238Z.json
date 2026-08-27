@@ -1,0 +1,412 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-27T20:32:38Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TPS7A2018PYCKR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "1177 In Stock",
+          "DataSheetUrl": "",
+          "Description": "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/DSBGA-4_DSL.JPG",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS7A2018PYCKR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TPS7A2018PYCKR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "12000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.267",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.183",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.129",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.123",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.117",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.113",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 12000,
+              "Price": "€0.105",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS7A2018PYCKR?qs=vvQtp7zwQdNLdhaqkwH9JA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "1177",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 84000,
+              "Date": "2026-10-09T00:00:00"
+            },
+            {
+              "Quantity": 132000,
+              "Date": "2027-02-18T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "LDO Voltage Regulators 300mA ultra-low-nois e low-IQ low-dropou",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/TPS7A2018PYCKRM3_SPL.jpg",
+          "Category": "LDO Voltage Regulators",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": "New Product",
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TPS7A2018PYCKRM3",
+          "Min": "12000",
+          "Mult": "12000",
+          "MouserPartNumber": "595-TPS7A2018PYCKRM3",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "12000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 12000,
+              "Price": "€0.156",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS7A2018PYCKRM3?qs=fQuHqd5sRUgu8rpUEHzymQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:32:38Z",
+    "manufacturer_part_number": "TPS7A2018PYCKR",
+    "product_quantity_available": 1177,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 0.267,
+    "offers": [
+      {
+        "provider_part_number": "595-TPS7A2018PYCKR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1177,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.183,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.163,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.129,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.123,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.117,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.113,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.105,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TPS7A2018PYCKR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1177,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.267,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.183,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.163,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.129,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.123,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.117,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.113,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.105,
+            "total_price": null
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.105,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-27T20:32:38Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS7A2018PYCKR",
+    "provider_part_number": "595-TPS7A2018PYCKR",
+    "description": "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo",
+    "detailed_description": "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TPS7A2018PYCKR?qs=vvQtp7zwQdNLdhaqkwH9JA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/DSBGA-4_DSL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "12000"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

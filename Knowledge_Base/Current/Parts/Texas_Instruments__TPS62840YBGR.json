@@ -1,0 +1,41 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:27:14Z",
+  "requested_manufacturer": "Texas Instruments",
+  "requested_mpn": "TPS62840YBGR",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: DigiKey, Mouser.",
+    "providers_matched": [
+      "DigiKey",
+      "Mouser"
+    ],
+    "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T20:32:53Z",
+        "source_mode": "knowledge_base_current"
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:11Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:13Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

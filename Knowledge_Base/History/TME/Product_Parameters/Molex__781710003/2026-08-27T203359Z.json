@@ -1,0 +1,130 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-27T20:33:59Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Molex",
+    "input_mpn": "781710003",
+    "resolved_manufacturer": "Molex",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MX-78171-0003",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 162,
+                    "value": "MOLEX"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1443400,
+                    "value": "wire-board"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1436410,
+                    "value": "socket"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Kind of connector",
+                "values": [
+                  {
+                    "id": 1436301,
+                    "value": "male"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443409,
+                    "value": "3"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2052768,
+                    "value": "Pico-EZMate"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 426,
+                "name": "Contacts pitch",
+                "values": [
+                  {
+                    "id": 1509725,
+                    "value": "1.2mm"
+                  }
+                ]
+              },
+              {
+                "id": 424,
+                "name": "Maximum current",
+                "values": [
+                  {
+                    "id": 1447012,
+                    "value": "1.5A"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819341,
+                    "value": "-25...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

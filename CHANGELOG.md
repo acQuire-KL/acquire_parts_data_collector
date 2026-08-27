@@ -155,3 +155,24 @@ Documentation-only housekeeping following completion of Sprint 4.5 Patch 2b.
 - Added third provider dashboard block for TME and retained detailed commercial offers in Commercial Analysis.
 - Kept engineering approval, BOM/AVL mutation and AIPN allocation outside PDC review.
 
+
+## v0.2.10 — Sprint 4.7.1a Operational BOM Review Corrective Patch
+
+- Added direct CSV BOM intake for the operational review path.
+- Added `MF` Manufacturer header alias support.
+- Added explicit BOM Value and Footprint columns to review output.
+- Added pre-provider blank-MPN handling and explicit review messaging.
+- Added immediate flushed runtime/progress output with provider-by-provider status.
+- Replaced raw API payloads in `Providers Queried` with concise engineering-review statuses.
+- Mapped provider 404/not-found responses to operational `no_match` while retaining raw diagnostics outside the workbook display.
+- Added conservative terminal ordering-suffix identity handling for common R/T/TR variants.
+
+## Sprint 4.7.1b — Attribute Normalisation & Exceptions-Based Reporting
+
+- Replaced `Providers Queried` and `Providers Matched` workbook columns with one compact `Provider Results` count, e.g. `12 matched; 3 not found; 1 error`.
+- Added conservative engineering-attribute normalisation before cross-provider comparison.
+- Equivalent formatting such as `-55°C ~ 125°C` and `-55.0 to 125.0 C` now collapses to one clean value: `-55°C to 125°C`.
+- Genuine provider attribute disagreement remains explicit and is prefixed `EXCEPTION —` with source-labelled values.
+- Added weak-consensus review observation when only one provider matches while other provider outcomes exist.
+- Raw provider evidence is unchanged and remains available for diagnostics/Knowledge Base evidence.
+- Regression suite: 231 tests passing.

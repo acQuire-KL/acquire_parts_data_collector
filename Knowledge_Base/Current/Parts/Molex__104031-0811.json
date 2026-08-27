@@ -1,0 +1,40 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:28:07Z",
+  "requested_manufacturer": "Molex",
+  "requested_mpn": "104031-0811",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: Mouser.",
+    "providers_matched": [
+      "Mouser"
+    ],
+    "engineering_confirmation": "Single provider evidence",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product 104031-0811 Not Found\",\"instance\":\"\",\"correlationId\":\"4f16a619-3284-413c-e260-7f64be145b10\",\"errors\":{}}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:04Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:06Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

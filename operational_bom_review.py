@@ -81,18 +81,25 @@ class PartsMasterLookup:
 def provider_review_observation(
     *,
     match_status: str,
-    providers_queried: str,
-    providers_matched: str,
+    provider_results: str = "",
+    providers_matched: str = "",
+    providers_queried: str = "",
     local_context: LocalPartContext,
     lifecycle: str = "",
+    requested_mpn: str | None = None,
 ) -> str:
     """Return a concise engineering-review observation, never an approval."""
+    provider_results = provider_results or providers_queried
     observations: list[str] = []
+    if requested_mpn is not None and not _text(requested_mpn):
+        observations.append("MPN missing - provider lookup skipped")
     if match_status != "Matched":
         observations.append("Identity requires review")
     if not providers_matched:
         observations.append("No provider identity match confirmed")
-    if "error" in providers_queried.casefold() or "skipped" in providers_queried.casefold():
+    if provider_results.startswith("1 matched;"):
+        observations.append("Weak provider consensus - review supporting evidence")
+    if "error" in provider_results.casefold() or "skipped" in provider_results.casefold():
         observations.append("Provider collection incomplete")
     if local_context.status == "Parts Master Match":
         observations.append("Existing Parts Master identity")

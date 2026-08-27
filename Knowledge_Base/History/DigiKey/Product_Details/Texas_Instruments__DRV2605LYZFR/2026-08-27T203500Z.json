@@ -1,0 +1,681 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:35:00Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "DRV2605LYZFR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": 296,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "969"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC MOTOR DRIVER 2V-5.5V 9DSBGA",
+        "DetailedDescription": "Motor Driver Power MOSFET I2C 9-DSBGA"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "DRV2605LYZFR",
+      "UnitPrice": 1.93,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/DRV2605LYZFR/4866959",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv2605l",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6310/296%7E4219558%7EYZF%7E9.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-40033-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.98546,
+              "TotalPrice": 2956.38
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.96566,
+              "TotalPrice": 5793.96
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.95575,
+              "TotalPrice": 8601.75
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 9000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-40033-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.93,
+              "TotalPrice": 1.93
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.429,
+              "TotalPrice": 14.29
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.3028,
+              "TotalPrice": 32.57
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1645,
+              "TotalPrice": 116.45
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.09848,
+              "TotalPrice": 274.62
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.06374,
+              "TotalPrice": 531.87
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 10702,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-40033-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.93,
+              "TotalPrice": 1.93
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.429,
+              "TotalPrice": 14.29
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.3028,
+              "TotalPrice": 32.57
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.1645,
+              "TotalPrice": 116.45
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.09848,
+              "TotalPrice": 274.62
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.06374,
+              "TotalPrice": 531.87
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 10702,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 10702,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 1663,
+          "ParameterText": "Motor Type - Stepper",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1664,
+          "ParameterText": "Motor Type - AC, DC",
+          "ParameterType": "String",
+          "ValueId": "344842",
+          "ValueText": "ERM, LRA"
+        },
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "340643",
+          "ValueText": "Driver - Fully Integrated, Control and Power Stage"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "352470",
+          "ValueText": "Half Bridge (2)"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "389350",
+          "ValueText": "Power MOSFET"
+        },
+        {
+          "ParameterId": 1855,
+          "ParameterText": "Step Resolution",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 405,
+          "ParameterText": "Applications",
+          "ParameterType": "String",
+          "ValueId": "352929",
+          "ValueText": "Haptic Feedback"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "169006",
+          "ValueText": "2V ~ 5.5V"
+        },
+        {
+          "ParameterId": 772,
+          "ParameterText": "Voltage - Load",
+          "ParameterType": "String",
+          "ValueId": "169006",
+          "ValueText": "2V ~ 5.5V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212510",
+          "ValueText": "-40°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "305465",
+          "ValueText": "9-UFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "305044",
+          "ValueText": "9-DSBGA"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 99697,
+        "Name": "DRV2605"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 744,
+                "ParentId": 2025,
+                "Name": "Motor Drivers, Controllers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/437/444/620%3B38TSSOP-4.4%3BLD%2CLG%3B38_tmb.jpg",
+                "SeoDescription": "Products in the motor driver and controller PMIC (Power Management Integrated Circuit) family are used to control or manipulate the application of power from some source to electric motors or related electromechanical actuators. The precise functionality and feature sets implemented vary widely depending on the characteristics of the intended load and expected application, ranging from simple open-loop speed control for brushed motors to advanced, closed-loop, stepper-based motion control.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "26",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "DRV2605LYZFR-ND",
+        "296-40033-1",
+        "296-40033-2",
+        "-296-40033-1-ND",
+        "296-40033-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:35:00Z",
+    "manufacturer_part_number": "DRV2605LYZFR",
+    "product_quantity_available": 10702,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "26",
+    "product_unit_price": 1.93,
+    "offers": [
+      {
+        "provider_part_number": "296-40033-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 10702,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.93,
+            "total_price": 1.93
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.429,
+            "total_price": 14.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3028,
+            "total_price": 32.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1645,
+            "total_price": 116.45
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09848,
+            "total_price": 274.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.06374,
+            "total_price": 531.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-40033-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10702,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.93,
+            "total_price": 1.93
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.429,
+            "total_price": 14.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3028,
+            "total_price": 32.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1645,
+            "total_price": 116.45
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09848,
+            "total_price": 274.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.06374,
+            "total_price": 531.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-40033-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.98546,
+            "total_price": 2956.38
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.96566,
+            "total_price": 5793.96
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.95575,
+            "total_price": 8601.75
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-40033-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 10702,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.93,
+            "total_price": 1.93
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.429,
+            "total_price": 14.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3028,
+            "total_price": 32.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1645,
+            "total_price": 116.45
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09848,
+            "total_price": 274.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.06374,
+            "total_price": 531.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-40033-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 10702,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.93,
+            "total_price": 1.93
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.429,
+            "total_price": 14.29
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.3028,
+            "total_price": 32.57
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.1645,
+            "total_price": 116.45
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09848,
+            "total_price": 274.62
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.06374,
+            "total_price": 531.87
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-40033-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 9000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.98546,
+            "total_price": 2956.38
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.96566,
+            "total_price": 5793.96
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.95575,
+            "total_price": 8601.75
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:35:00Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "DRV2605LYZFR",
+    "provider_part_number": "",
+    "description": "IC MOTOR DRIVER 2V-5.5V 9DSBGA",
+    "detailed_description": "Motor Driver Power MOSFET I2C 9-DSBGA",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv2605l",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/DRV2605LYZFR/4866959",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6310/296%7E4219558%7EYZF%7E9.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "9-UFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Motor Type - Stepper": "-",
+      "Motor Type - AC, DC": "ERM, LRA",
+      "Function": "Driver - Fully Integrated, Control and Power Stage",
+      "Output Configuration": "Half Bridge (2)",
+      "Interface": "I2C",
+      "Technology": "Power MOSFET",
+      "Step Resolution": "-",
+      "Applications": "Haptic Feedback",
+      "Current - Output": "-",
+      "Voltage - Supply": "2V ~ 5.5V",
+      "Voltage - Load": "2V ~ 5.5V",
+      "Operating Temperature": "-40°C ~ 150°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "9-UFBGA, DSBGA",
+      "Supplier Device Package": "9-DSBGA"
+    },
+    "compliance": {}
+  }
+}

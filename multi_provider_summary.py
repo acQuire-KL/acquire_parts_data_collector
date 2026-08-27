@@ -35,12 +35,35 @@ class ProviderEvidence:
         return bool((self.part_profile or {}).get("identity_match"))
 
 
+ORDERING_SUFFIXES = ("T", "R", "TR")
+
+
+def mpn_identity_equivalent(requested_mpn: str, returned_mpn: str) -> bool:
+    """Conservative equality for base MPN versus common ordering suffixes.
+
+    Punctuation such as '+' is already ignored by normalise_identity().  In
+    addition, providers often expose the same engineering part with a terminal
+    tape/reel ordering suffix (for example TPS628438YKA vs TPS628438YKAR or
+    MAX40203ANS vs MAX40203ANS+T).  Only a small explicit suffix set is
+    accepted; arbitrary prefix matching is deliberately rejected.
+    """
+    requested = normalise_identity(requested_mpn)
+    returned = normalise_identity(returned_mpn)
+    if not requested or not returned:
+        return False
+    if requested == returned:
+        return True
+    for suffix in ORDERING_SUFFIXES:
+        if requested + suffix == returned or returned + suffix == requested:
+            return True
+    return False
+
+
 def provider_identity_match(requested_manufacturer: str, requested_mpn: str, profile: dict[str, Any]) -> bool:
     returned_mpn = profile.get("manufacturer_part_number", "")
     returned_manufacturer = profile.get("manufacturer", "")
     return (
-        bool(normalise_identity(returned_mpn))
-        and normalise_identity(requested_mpn) == normalise_identity(returned_mpn)
+        mpn_identity_equivalent(requested_mpn, returned_mpn)
         and names_equivalent(requested_manufacturer, returned_manufacturer)
     )
 

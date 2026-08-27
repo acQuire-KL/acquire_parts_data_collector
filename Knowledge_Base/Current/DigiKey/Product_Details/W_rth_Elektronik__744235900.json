@@ -1,0 +1,615 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:35:07Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Wurth Electronics",
+    "input_mpn": "744235900",
+    "resolved_manufacturer": "Würth Elektronik",
+    "provider_manufacturer_id": 732,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "968"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CMC 300NH 2A 2LN 90OHM SMD",
+        "DetailedDescription": "300 nH @ 100 kHz 2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 2A DCR 50mOhm"
+      },
+      "Manufacturer": {
+        "Id": 732,
+        "Name": "Würth Elektronik"
+      },
+      "ManufacturerProductNumber": "744235900",
+      "UnitPrice": 1.57,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/würth-elektronik/744235900/3672724",
+      "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/744235900.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2591/Horizontal%2C%204%20PC%20Pad.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "732-4223-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.99682,
+              "TotalPrice": 498.41
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 7500,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 500,
+          "StandardPackage": 500,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4223-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.57,
+              "TotalPrice": 1.57
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.504,
+              "TotalPrice": 15.04
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.399,
+              "TotalPrice": 69.95
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.3029,
+              "TotalPrice": 130.29
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.2504,
+              "TotalPrice": 312.6
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 7790,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "732-4223-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.57,
+              "TotalPrice": 1.57
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.504,
+              "TotalPrice": 15.04
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.399,
+              "TotalPrice": 69.95
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.3029,
+              "TotalPrice": 130.29
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.2504,
+              "TotalPrice": 312.6
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 732,
+            "Name": "Würth Elektronik"
+          },
+          "QuantityAvailableforPackageType": 7790,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 7790,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.ie/videos/en/vp/5335795133001",
+      "Parameters": [
+        {
+          "ParameterId": 21,
+          "ParameterText": "Filter Type",
+          "ParameterType": "String",
+          "ValueId": "402741",
+          "ValueText": "Signal Line"
+        },
+        {
+          "ParameterId": 198,
+          "ParameterText": "Number of Lines",
+          "ParameterType": "String",
+          "ValueId": "121326",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 2280,
+          "ParameterText": "Impedance @ Frequency",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "90 Ohms @ 100 MHz",
+          "ValueText": "90 Ohms @ 100 MHz"
+        },
+        {
+          "ParameterId": 2278,
+          "ParameterText": "Inductance @ Frequency",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "300 nH @ 100 kHz",
+          "ValueText": "300 nH @ 100 kHz"
+        },
+        {
+          "ParameterId": 1923,
+          "ParameterText": "Current Rating (Max)",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "238333",
+          "ValueText": "50mOhm"
+        },
+        {
+          "ParameterId": 1293,
+          "ParameterText": "Voltage Rating - DC",
+          "ParameterType": "String",
+          "ValueId": "257642",
+          "ValueText": "60V"
+        },
+        {
+          "ParameterId": 1292,
+          "ParameterText": "Voltage Rating - AC",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 660,
+          "ParameterText": "Approval Agency",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "12983",
+          "ValueText": "0.177\" L x 0.126\" W (4.50mm x 3.20mm)"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "10308",
+          "ValueText": "0.118\" (3.00mm)"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "356149",
+          "ValueText": "Horizontal, 4 PC Pad"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 839,
+            "ParentId": 36,
+            "Name": "Common Mode Chokes",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/194/962/ACT45B_tmb.jpg",
+            "SeoDescription": "A common mode choke is an electrical filter that blocks high frequency noise common to two or more data or power lines while allowing the desired DC or low-frequency signal to pass. Common mode (CM) noise current is typically radiated from sources such as unwanted radio signals, unshielded electronics, inverters and motors. Left unfiltered, this noise presents interference problems in electronics and electrical circuits.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 4740,
+        "Name": "WE-CNSW"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8548.00.0000"
+      },
+      "OtherNames": [
+        "732-4223-1",
+        "732-4223-2",
+        "732-4223-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:35:07Z",
+    "manufacturer_part_number": "744235900",
+    "product_quantity_available": 7790,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 1.57,
+    "offers": [
+      {
+        "provider_part_number": "732-4223-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7790,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.57,
+            "total_price": 1.57
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.504,
+            "total_price": 15.04
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.399,
+            "total_price": 69.95
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3029,
+            "total_price": 130.29
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.2504,
+            "total_price": 312.6
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4223-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7790,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.57,
+            "total_price": 1.57
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.504,
+            "total_price": 15.04
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.399,
+            "total_price": 69.95
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3029,
+            "total_price": 130.29
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.2504,
+            "total_price": 312.6
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4223-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 7500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 0.99682,
+            "total_price": 498.41
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "732-4223-1-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7790,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.57,
+            "total_price": 1.57
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.504,
+            "total_price": 15.04
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.399,
+            "total_price": 69.95
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3029,
+            "total_price": 130.29
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.2504,
+            "total_price": 312.6
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4223-6-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 7790,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.57,
+            "total_price": 1.57
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.504,
+            "total_price": 15.04
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.399,
+            "total_price": 69.95
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.3029,
+            "total_price": 130.29
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.2504,
+            "total_price": 312.6
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "732-4223-2-ND",
+        "supplier": "Würth Elektronik",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 500,
+        "pack_quantity": 500,
+        "quantity_available": 7500,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 500,
+            "unit_price": 0.99682,
+            "total_price": 498.41
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:35:07Z",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_part_number": "744235900",
+    "provider_part_number": "",
+    "description": "CMC 300NH 2A 2LN 90OHM SMD",
+    "detailed_description": "300 nH @ 100 kHz 2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 2A DCR 50mOhm",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/744235900.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/würth-elektronik/744235900/3672724",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2591/Horizontal%2C%204%20PC%20Pad.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "Horizontal, 4 PC Pad",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Filter Type": "Signal Line",
+      "Number of Lines": "2",
+      "Impedance @ Frequency": "90 Ohms @ 100 MHz",
+      "Inductance @ Frequency": "300 nH @ 100 kHz",
+      "Current Rating (Max)": "2A",
+      "DC Resistance (DCR) (Max)": "50mOhm",
+      "Voltage Rating - DC": "60V",
+      "Voltage Rating - AC": "-",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Ratings": "AEC-Q200",
+      "Approval Agency": "-",
+      "Features": "-",
+      "Mounting Type": "Surface Mount",
+      "Size / Dimension": "0.177\" L x 0.126\" W (4.50mm x 3.20mm)",
+      "Height (Max)": "0.118\" (3.00mm)",
+      "Package / Case": "Horizontal, 4 PC Pad"
+    },
+    "compliance": {}
+  }
+}

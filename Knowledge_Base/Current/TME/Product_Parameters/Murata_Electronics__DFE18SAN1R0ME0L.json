@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-27T22:28:03Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Murata",
+    "input_mpn": "DFE18SAN1R0ME0L",
+    "resolved_manufacturer": "Murata Electronics",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "DFE18SAN1R0ME0L",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 147,
+                    "value": "MURATA"
+                  }
+                ]
+              },
+              {
+                "id": 568,
+                "name": "Type of inductor",
+                "values": [
+                  {
+                    "id": 1438391,
+                    "value": "ferrite"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620227,
+                    "value": "0603"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620228,
+                    "value": "1608"
+                  }
+                ]
+              },
+              {
+                "id": 566,
+                "name": "Inductance",
+                "values": [
+                  {
+                    "id": 1438404,
+                    "value": "1µH"
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tolerance",
+                "values": [
+                  {
+                    "id": 1819333,
+                    "value": "±20%"
+                  }
+                ]
+              },
+              {
+                "id": 726,
+                "name": "Roll diameter max.",
+                "values": [
+                  {
+                    "id": 2037643,
+                    "value": "180mm"
+                  }
+                ]
+              },
+              {
+                "id": 574,
+                "name": "Test frequency",
+                "values": [
+                  {
+                    "id": 1438420,
+                    "value": "1MHz"
+                  }
+                ]
+              },
+              {
+                "id": 577,
+                "name": "Saturation current",
+                "values": [
+                  {
+                    "id": 1448531,
+                    "value": "2A"
+                  }
+                ]
+              },
+              {
+                "id": 424,
+                "name": "Maximum current",
+                "values": [
+                  {
+                    "id": 1491618,
+                    "value": "1.6A"
+                  }
+                ]
+              },
+              {
+                "id": 1739,
+                "name": "Max resistance",
+                "values": [
+                  {
+                    "id": 1956579,
+                    "value": "144mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819335,
+                    "value": "-40...125°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-27T20:33:55Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Molex",
+    "input_mpn": "104031-0811",
+    "resolved_manufacturer": "Molex",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MX-104031-0811",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113760,
+              "name": "Other connectors Molex"
+            },
+            "manufacturer_symbols": [
+              "104031-0811",
+              "1040310811"
+            ],
+            "manufacturer": {
+              "id": 162,
+              "name": "MOLEX"
+            },
+            "description": "Connector: for cards; PIN: 8; SMT; Contacts: copper alloy; reel",
+            "multiples": 12000,
+            "minimal_amount": 12000,
+            "weight": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/60/21/41/00/0/1315334_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=54fbe3ead8a06890b0a4c13f4df89e3799535273",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/60/21/41/00/0/1315334_1.jpg?width=100&height=75&q=75&ci_sign=9f7e156100407ac08b9ea3dd767d0836083afb4b",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/60/21/41/00/0/1315334_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=eee75ce4ddc868cda122d7b6128b5c8fe16f6d68"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

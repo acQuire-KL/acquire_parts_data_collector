@@ -1,0 +1,326 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-27T21:43:31Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Micro Crystal",
+    "input_mpn": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+    "resolved_manufacturer": "Micro Crystal AG",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "889 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Real Time Clock 32.768kHz I2C 2.5ppm 3.2x1.5x0.8 AECQ200 Temperature Sensor & Real Time Clock",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/microcrystal/images/RV-3032-C7_series_t.jpg",
+          "Category": "Real Time Clock",
+          "LeadTime": "78 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Micro Crystal",
+          "ManufacturerPartNumber": "RV-3032-C7 32.768kHz-2.5PPM-TA-QA",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "428-203853-MG01",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€3.66",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.75",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€2.52",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€2.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€2.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€2.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€2.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€2.03",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€2.00",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Micro-Crystal/RV-3032-C7-32.768kHz-2.5PPM-TA-QA?qs=MyNHzdoqoQJ7wc0xcM4bYA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "889",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-09-11T00:00:00"
+            },
+            {
+              "Quantity": 4000,
+              "Date": "2026-10-09T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Switzerland"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T21:43:31Z",
+    "manufacturer_part_number": "RV-3032-C7 32.768kHz-2.5PPM-TA-QA",
+    "product_quantity_available": 889,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "78 Days",
+    "product_unit_price": 3.66,
+    "offers": [
+      {
+        "provider_part_number": "428-203853-MG01",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 889,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.66,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 2.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 2,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "428-203853-MG01",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 889,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 3.66,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.52,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 2.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 2.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 2.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 2.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 2.03,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 2,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-27T21:43:31Z",
+    "manufacturer": "Micro Crystal",
+    "manufacturer_part_number": "RV-3032-C7 32.768kHz-2.5PPM-TA-QA",
+    "provider_part_number": "428-203853-MG01",
+    "description": "Real Time Clock 32.768kHz I2C 2.5ppm 3.2x1.5x0.8 AECQ200 Temperature Sensor & Real Time Clock",
+    "detailed_description": "Real Time Clock 32.768kHz I2C 2.5ppm 3.2x1.5x0.8 AECQ200 Temperature Sensor & Real Time Clock",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Micro-Crystal/RV-3032-C7-32.768kHz-2.5PPM-TA-QA?qs=MyNHzdoqoQJ7wc0xcM4bYA%3D%3D",
+    "image_url": "https://www.mouser.com/images/microcrystal/images/RV-3032-C7_series_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "1000"
+    },
+    "compliance": {
+      "CNHTS": "8542399000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:28:21Z",
+  "requested_manufacturer": "Lumex",
+  "requested_mpn": "SML-LX0404SIUPGUSB",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: Mouser, TME.",
+    "providers_matched": [
+      "Mouser",
+      "TME"
+    ],
+    "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T20:34:07Z",
+        "source_mode": "knowledge_base_current"
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:18Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:21Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

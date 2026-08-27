@@ -1,0 +1,672 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:34:21Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Diodes",
+    "input_mpn": "DMN2990UFO-7B",
+    "resolved_manufacturer": "Diodes Incorporated",
+    "provider_manufacturer_id": 31,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "976"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "MOSFET N-CH 20V 750MA 3DFN",
+        "DetailedDescription": "N-Channel 20 V 750mA (Ta) 840mW (Ta) Surface Mount X2-DFN0604-3"
+      },
+      "Manufacturer": {
+        "Id": 31,
+        "Name": "Diodes Incorporated"
+      },
+      "ManufacturerProductNumber": "DMN2990UFO-7B",
+      "UnitPrice": 0.59,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/diodes-incorporated/DMN2990UFO-7B/7666836",
+      "DatasheetUrl": "https://www.diodes.com/assets/Datasheets/DMN2990UFO.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3630/31%7EX2-DFN0604-3%7E%7E3.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "31-DMN2990UFO-7BTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 0.11502,
+              "TotalPrice": 1150.2
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.10177,
+              "TotalPrice": 3053.1
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 31,
+            "Name": "Diodes Incorporated"
+          },
+          "QuantityAvailableforPackageType": 60000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "31-DMN2990UFO-7BCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.59,
+              "TotalPrice": 0.59
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.366,
+              "TotalPrice": 3.66
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.3048,
+              "TotalPrice": 7.62
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2662,
+              "TotalPrice": 13.31
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2337,
+              "TotalPrice": 23.37
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 31,
+            "Name": "Diodes Incorporated"
+          },
+          "QuantityAvailableforPackageType": 67574,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "31-DMN2990UFO-7BDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.59,
+              "TotalPrice": 0.59
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.366,
+              "TotalPrice": 3.66
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.3048,
+              "TotalPrice": 7.62
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2662,
+              "TotalPrice": 13.31
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2337,
+              "TotalPrice": 23.37
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 31,
+            "Name": "Diodes Incorporated"
+          },
+          "QuantityAvailableforPackageType": 67574,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 67574,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 606,
+          "ParameterText": "FET Type",
+          "ParameterType": "String",
+          "ValueId": "378999",
+          "ValueText": "N-Channel"
+        },
+        {
+          "ParameterId": 570,
+          "ParameterText": "Technology",
+          "ParameterType": "String",
+          "ValueId": "377049",
+          "ValueText": "MOSFET (Metal Oxide)"
+        },
+        {
+          "ParameterId": 2068,
+          "ParameterText": "Drain to Source Voltage (Vdss)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "20 V",
+          "ValueText": "20 V"
+        },
+        {
+          "ParameterId": 608,
+          "ParameterText": "Current - Continuous Drain (Id) @ 25°C",
+          "ParameterType": "String",
+          "ValueId": "277426",
+          "ValueText": "750mA (Ta)"
+        },
+        {
+          "ParameterId": 1993,
+          "ParameterText": "Drive Voltage (Max Rds On, Min Rds On)",
+          "ParameterType": "String",
+          "ValueId": "55859",
+          "ValueText": "1.5V, 4.5V"
+        },
+        {
+          "ParameterId": 612,
+          "ParameterText": "Rds On (Max) @ Id, Vgs",
+          "ParameterType": "String",
+          "ValueId": "304609",
+          "ValueText": "990mOhm @ 100mA, 4.5V"
+        },
+        {
+          "ParameterId": 1236,
+          "ParameterText": "Vgs(th) (Max) @ Id",
+          "ParameterType": "String",
+          "ValueId": "120960",
+          "ValueText": "1V @ 250µA"
+        },
+        {
+          "ParameterId": 2262,
+          "ParameterText": "Gate Charge (Qg) (Max) @ Vgs",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "0.41 nC @ 4.5 V",
+          "ValueText": "0.41 nC @ 4.5 V"
+        },
+        {
+          "ParameterId": 1994,
+          "ParameterText": "Vgs (Max)",
+          "ParameterType": "String",
+          "ValueId": "2903",
+          "ValueText": "±8V"
+        },
+        {
+          "ParameterId": 2263,
+          "ParameterText": "Input Capacitance (Ciss) (Max) @ Vds",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "31 pF @ 15 V",
+          "ValueText": "31 pF @ 15 V"
+        },
+        {
+          "ParameterId": 959,
+          "ParameterText": "FET Feature",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1174,
+          "ParameterText": "Power Dissipation (Max)",
+          "ParameterType": "String",
+          "ValueId": "289954",
+          "ValueText": "840mW (Ta)"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242933",
+          "ValueText": "-55°C ~ 150°C (TJ)"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "422346",
+          "ValueText": "X2-DFN0604-3"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "203155",
+          "ValueText": "3-XFDFN"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 113091,
+        "Name": "DMN2990"
+      },
+      "Category": {
+        "CategoryId": 19,
+        "ParentId": 0,
+        "Name": "Discrete Semiconductor Products",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/350/MFG_CAB450M12XM3_tmb.jpg",
+        "SeoDescription": "Discrete semiconductor products include individual transistors, diodes, and thyristors, as well as small arrays of such composed of two, three, four, or some other small number of similar devices within a single package. They are most commonly used for constructing circuits with considerable voltage or current stress, or for realizing very basic circuit functions.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2045,
+            "ParentId": 19,
+            "Name": "Transistors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/955/997/448_TO252-3_tmb.jpg",
+            "SeoDescription": "Transistors are discrete semiconductor devices used to switch or amplify electrical signals. Types of transistors include bipolar (BJT), RF, pre-Biased bipolar (BJT), FETs, MOSEFETs, IGBTs, JFETs, programmable, and more.",
+            "ChildCategories": [
+              {
+                "CategoryId": 2088,
+                "ParentId": 2045,
+                "Name": "FETs, MOSFETs",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/871/273/MFG_TO-220SIS_tmb.jpg",
+                "SeoDescription": "Field-effect transistors (FET) are electronic devices which use an electric field to control the flow of current. Application of a voltage to the gate terminal alters the conductivity between the drain and source terminals. FETs are also known as unipolar transistors since they involve single-carrier-type operation. That is, FETs use electrons or holes as charge carriers in their operation, but not both. Field effect transistors generally display very high input impedance at low frequencies. Metal oxide semiconductor field effect transistors, or MOSFETs, are a type of FET.",
+                "ChildCategories": [
+                  {
+                    "CategoryId": 278,
+                    "ParentId": 2088,
+                    "Name": "Single FETs, MOSFETs",
+                    "ProductCount": 0,
+                    "NewProductCount": 0,
+                    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/322/446/MFG_EPC2035_36_37_38_tmb%2864x64%29.jpg",
+                    "SeoDescription": "Discrete Field Effect Transistors (FETs) are widely used in power conversion, motor control, solid-state lighting, and other applications where their characteristic ability to be switched on & off at high frequencies while carrying substantial amounts of current is advantageous. They are used almost universally for applications requiring voltage ratings of a few hundred volts or less, above which other device types such as IGBTs become more competitive.",
+                    "ChildCategories": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "52",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8541.21.0095"
+      },
+      "OtherNames": [
+        "31-DMN2990UFO-7BTR",
+        "31-DMN2990UFO-7BDKR",
+        "31-DMN2990UFO-7BCT",
+        "DMN2990UFO-7B-ND"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:34:21Z",
+    "manufacturer_part_number": "DMN2990UFO-7B",
+    "product_quantity_available": 67574,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "52",
+    "product_unit_price": 0.59,
+    "offers": [
+      {
+        "provider_part_number": "31-DMN2990UFO-7BCT-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 67574,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.59,
+            "total_price": 0.59
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.366,
+            "total_price": 3.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.3048,
+            "total_price": 7.62
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2662,
+            "total_price": 13.31
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2337,
+            "total_price": 23.37
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "31-DMN2990UFO-7BDKR-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 67574,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.59,
+            "total_price": 0.59
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.366,
+            "total_price": 3.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.3048,
+            "total_price": 7.62
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2662,
+            "total_price": 13.31
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2337,
+            "total_price": 23.37
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "31-DMN2990UFO-7BTR-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 60000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.11502,
+            "total_price": 1150.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.10177,
+            "total_price": 3053.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "31-DMN2990UFO-7BCT-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 67574,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.59,
+            "total_price": 0.59
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.366,
+            "total_price": 3.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.3048,
+            "total_price": 7.62
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2662,
+            "total_price": 13.31
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2337,
+            "total_price": 23.37
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "31-DMN2990UFO-7BDKR-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 67574,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.59,
+            "total_price": 0.59
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.366,
+            "total_price": 3.66
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.3048,
+            "total_price": 7.62
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2662,
+            "total_price": 13.31
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2337,
+            "total_price": 23.37
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "31-DMN2990UFO-7BTR-ND",
+        "supplier": "Diodes Incorporated",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 60000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.11502,
+            "total_price": 1150.2
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.10177,
+            "total_price": 3053.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:34:21Z",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_part_number": "DMN2990UFO-7B",
+    "provider_part_number": "",
+    "description": "MOSFET N-CH 20V 750MA 3DFN",
+    "detailed_description": "N-Channel 20 V 750mA (Ta) 840mW (Ta) Surface Mount X2-DFN0604-3",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/DMN2990UFO.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/diodes-incorporated/DMN2990UFO-7B/7666836",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3630/31%7EX2-DFN0604-3%7E%7E3.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "3-XFDFN",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "FET Type": "N-Channel",
+      "Technology": "MOSFET (Metal Oxide)",
+      "Drain to Source Voltage (Vdss)": "20 V",
+      "Current - Continuous Drain (Id) @ 25°C": "750mA (Ta)",
+      "Drive Voltage (Max Rds On, Min Rds On)": "1.5V, 4.5V",
+      "Rds On (Max) @ Id, Vgs": "990mOhm @ 100mA, 4.5V",
+      "Vgs(th) (Max) @ Id": "1V @ 250µA",
+      "Gate Charge (Qg) (Max) @ Vgs": "0.41 nC @ 4.5 V",
+      "Vgs (Max)": "±8V",
+      "Input Capacitance (Ciss) (Max) @ Vds": "31 pF @ 15 V",
+      "FET Feature": "-",
+      "Power Dissipation (Max)": "840mW (Ta)",
+      "Operating Temperature": "-55°C ~ 150°C (TJ)",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Supplier Device Package": "X2-DFN0604-3",
+      "Package / Case": "3-XFDFN"
+    },
+    "compliance": {}
+  }
+}

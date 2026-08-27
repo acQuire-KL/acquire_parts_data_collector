@@ -2,28 +2,28 @@
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
   "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-08-09T13:29:35Z",
+  "last_updated_at_utc": "2026-08-27T22:29:08Z",
   "providers": {
     "DigiKey": {
-      "last_capture_at_utc": "2026-08-04T19:51:21Z",
-      "current_records": 234,
-      "history_records": 232
+      "last_capture_at_utc": "2026-08-27T20:35:21Z",
+      "current_records": 255,
+      "history_records": 253
     },
     "Mouser": {
-      "last_capture_at_utc": "2026-08-03T19:13:41Z",
-      "current_records": 260,
-      "history_records": 330
+      "last_capture_at_utc": "2026-08-27T22:29:06Z",
+      "current_records": 290,
+      "history_records": 459
     },
     "TME": {
-      "last_capture_at_utc": "2026-08-09T13:29:35Z",
-      "current_records": 568,
-      "history_records": 583
+      "last_capture_at_utc": "2026-08-27T22:29:08Z",
+      "current_records": 649,
+      "history_records": 934
     }
   },
   "refresh_planning": {
     "enabled": false,
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
-  "total_current_records": 1072,
-  "total_history_records": 1145
+  "total_current_records": 1236,
+  "total_history_records": 1646
 }

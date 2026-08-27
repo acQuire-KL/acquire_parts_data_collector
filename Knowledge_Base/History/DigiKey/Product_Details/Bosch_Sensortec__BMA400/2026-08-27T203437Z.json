@@ -1,0 +1,743 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:34:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BMA400",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "provider_manufacturer_id": 828,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "974"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "ACCELEROMETER 2-16G 12LGA",
+        "DetailedDescription": "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3Hz ~ 384Hz 12-LGA (2x2)"
+      },
+      "Manufacturer": {
+        "Id": 828,
+        "Name": "Bosch Sensortec"
+      },
+      "ManufacturerProductNumber": "BMA400",
+      "UnitPrice": 2.17,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/bosch-sensortec/BMA400/8634935",
+      "DatasheetUrl": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6336/828%7E12LGA-1-2X2%7E%7E12.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "828-1081-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 10000,
+              "UnitPrice": 1.27451,
+              "TotalPrice": 12745.1
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 10000,
+          "StandardPackage": 10000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-1081-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.17,
+              "TotalPrice": 2.17
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.928,
+              "TotalPrice": 9.64
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.838,
+              "TotalPrice": 18.38
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.7324,
+              "TotalPrice": 43.31
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.6602,
+              "TotalPrice": 83.01
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.5939,
+              "TotalPrice": 159.39
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.46094,
+              "TotalPrice": 730.47
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.41141,
+              "TotalPrice": 1411.41
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 1.32445,
+              "TotalPrice": 6622.25
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "828-1081-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.17,
+              "TotalPrice": 2.17
+            },
+            {
+              "BreakQuantity": 5,
+              "UnitPrice": 1.928,
+              "TotalPrice": 9.64
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.838,
+              "TotalPrice": 18.38
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.7324,
+              "TotalPrice": 43.31
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 1.6602,
+              "TotalPrice": 83.01
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.5939,
+              "TotalPrice": 159.39
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.46094,
+              "TotalPrice": 730.47
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.41141,
+              "TotalPrice": 1411.41
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 1.32445,
+              "TotalPrice": 6622.25
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 828,
+            "Name": "Bosch Sensortec"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6376239728112",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "338722",
+          "ValueText": "Digital"
+        },
+        {
+          "ParameterId": 216,
+          "ParameterText": "Axis",
+          "ParameterType": "String",
+          "ValueId": "422301",
+          "ValueText": "X, Y, Z"
+        },
+        {
+          "ParameterId": 227,
+          "ParameterText": "Acceleration Range",
+          "ParameterType": "String",
+          "ValueId": "2058",
+          "ValueText": "±2g, 4g, 8g, 16g"
+        },
+        {
+          "ParameterId": 1968,
+          "ParameterText": "Sensitivity (LSB/g)",
+          "ParameterType": "String",
+          "ValueId": "70264",
+          "ValueText": "1024 (±2g) ~ 128 (±16g)"
+        },
+        {
+          "ParameterId": 1969,
+          "ParameterText": "Sensitivity (mV/g)",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 398,
+          "ParameterText": "Bandwidth",
+          "ParameterType": "String",
+          "ValueId": "861731",
+          "ValueText": "3Hz ~ 384Hz"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "752314",
+          "ValueText": "I2C, SPI"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "58218",
+          "ValueText": "1.71V ~ 3.6V"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "401068",
+          "ValueText": "Selectable Low Pass Filter"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "87891",
+          "ValueText": "12-VFLGA Module"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "87159",
+          "ValueText": "12-LGA (2x2)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 727266,
+        "Name": "BMA400"
+      },
+      "Category": {
+        "CategoryId": 25,
+        "ParentId": 0,
+        "Name": "Sensors, Transducers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/103/177/MFG_TE-M32Mx-A11x_side_tmb%2864x64%29.jpg",
+        "SeoDescription": "Sensor and transducer products facilitate the measurement or detection of physical processes and phenomena, often though not always by transforming them into an electrical signal of some format. Among others, products are available for the measurement of color, fluid level or flow, gas concentration, image detection, magnetic field, linear acceleration or rotation, vibration, light intensity, object presence, distance, temperature, mechanical strain, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2070,
+            "ParentId": 25,
+            "Name": "Motion Sensors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/262/450/G-NSDOG2-002_tmb%2864x64%29.jpg",
+            "SeoDescription": "Motion Sensors are used to detect movement in an X, Y, or Z axis (or a combination thereof) and respond in various ways. Types of motion sensors include accelerometers, gyroscopes, inclinometers, inertial measurement units (IMUs), vibration, tilt switches, and optical.",
+            "ChildCategories": [
+              {
+                "CategoryId": 515,
+                "ParentId": 2070,
+                "Name": "Accelerometers",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/362/959/MFG_ADXL35%286%2C7%29_View2_tmb.jpg",
+                "SeoDescription": "Accelerometers are designed to detect and respond to changes in acceleration like movement or vibrations. The Accelerometer types are Analog or Digital in the X, Y, or Z axis with an acceleration range of ±0.5 g to ±2000 g and a sensitivity of 1 to 500 k (LSB/g) with output types of Analog Voltage, Bluetooth, Digital, DSI, IEPE, I2C, PCM, PWM, RF, and SPI.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "0273.141.275.2Y8",
+        "0273141275",
+        "828-1081-6",
+        "828-1081-2",
+        "0273.141.275-1NV",
+        "828-1081-1"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:34:37Z",
+    "manufacturer_part_number": "BMA400",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 2.17,
+    "offers": [
+      {
+        "provider_part_number": "828-1081-1-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.17,
+            "total_price": 2.17
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.928,
+            "total_price": 9.64
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.838,
+            "total_price": 18.38
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.7324,
+            "total_price": 43.31
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.6602,
+            "total_price": 83.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.5939,
+            "total_price": 159.39
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.46094,
+            "total_price": 730.47
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.41141,
+            "total_price": 1411.41
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.32445,
+            "total_price": 6622.25
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1081-6-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.17,
+            "total_price": 2.17
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.928,
+            "total_price": 9.64
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.838,
+            "total_price": 18.38
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.7324,
+            "total_price": 43.31
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.6602,
+            "total_price": 83.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.5939,
+            "total_price": 159.39
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.46094,
+            "total_price": 730.47
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.41141,
+            "total_price": 1411.41
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.32445,
+            "total_price": 6622.25
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1081-2-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 1.27451,
+            "total_price": 12745.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "828-1081-1-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.17,
+            "total_price": 2.17
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.928,
+            "total_price": 9.64
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.838,
+            "total_price": 18.38
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.7324,
+            "total_price": 43.31
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.6602,
+            "total_price": 83.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.5939,
+            "total_price": 159.39
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.46094,
+            "total_price": 730.47
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.41141,
+            "total_price": 1411.41
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.32445,
+            "total_price": 6622.25
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1081-6-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.17,
+            "total_price": 2.17
+          },
+          {
+            "break_quantity": 5,
+            "unit_price": 1.928,
+            "total_price": 9.64
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.838,
+            "total_price": 18.38
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.7324,
+            "total_price": 43.31
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.6602,
+            "total_price": 83.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.5939,
+            "total_price": 159.39
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.46094,
+            "total_price": 730.47
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.41141,
+            "total_price": 1411.41
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.32445,
+            "total_price": 6622.25
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "828-1081-2-ND",
+        "supplier": "Bosch Sensortec",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 10000,
+        "pack_quantity": 10000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 10000,
+            "unit_price": 1.27451,
+            "total_price": 12745.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:34:37Z",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_part_number": "BMA400",
+    "provider_part_number": "",
+    "description": "ACCELEROMETER 2-16G 12LGA",
+    "detailed_description": "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 3Hz ~ 384Hz 12-LGA (2x2)",
+    "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/bosch-sensortec/BMA400/8634935",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6336/828%7E12LGA-1-2X2%7E%7E12.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "12-VFLGA Module",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Digital",
+      "Axis": "X, Y, Z",
+      "Acceleration Range": "±2g, 4g, 8g, 16g",
+      "Sensitivity (LSB/g)": "1024 (±2g) ~ 128 (±16g)",
+      "Sensitivity (mV/g)": "-",
+      "Bandwidth": "3Hz ~ 384Hz",
+      "Output Type": "I2C, SPI",
+      "Voltage - Supply": "1.71V ~ 3.6V",
+      "Features": "Selectable Low Pass Filter",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Grade": "-",
+      "Qualification": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "12-VFLGA Module",
+      "Supplier Device Package": "12-LGA (2x2)"
+    },
+    "compliance": {}
+  }
+}

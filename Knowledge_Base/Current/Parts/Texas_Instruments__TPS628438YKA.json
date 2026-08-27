@@ -1,0 +1,40 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:27:11Z",
+  "requested_manufacturer": "Texas Instruments",
+  "requested_mpn": "TPS628438YKA",
+  "summary": {
+    "match_status": "Matched",
+    "reason": "Identity matched by: Mouser.",
+    "providers_matched": [
+      "Mouser"
+    ],
+    "engineering_confirmation": "Single provider evidence",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product tps628438yka Not Found\",\"instance\":\"\",\"correlationId\":\"fdcfe70d-9fbd-48b8-a880-399d8039341c\",\"errors\":{}}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": true,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:08Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:27:10Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

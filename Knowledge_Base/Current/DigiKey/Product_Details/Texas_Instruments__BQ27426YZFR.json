@@ -1,0 +1,667 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:32:45Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "BQ27426YZFR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": 296,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "996"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC FUEL GAUGE LI-ION 1CL 9DSBGA",
+        "DetailedDescription": "Battery Battery Monitor IC Lithium Ion 9-DSBGA"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "BQ27426YZFR",
+      "UnitPrice": 1.7,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/BQ27426YZFR/5805002",
+      "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq27426",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6167/296%7E4222180%7EYZF%7E9.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-43359-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.85556,
+              "TotalPrice": 2566.68
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.83792,
+              "TotalPrice": 5027.52
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.82908,
+              "TotalPrice": 7461.72
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 3000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 3000,
+          "StandardPackage": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-43359-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.7,
+              "TotalPrice": 1.7
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.25,
+              "TotalPrice": 12.5
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.1384,
+              "TotalPrice": 28.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0151,
+              "TotalPrice": 101.51
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.95624,
+              "TotalPrice": 239.06
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.9208,
+              "TotalPrice": 460.4
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.92043,
+              "TotalPrice": 920.43
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 5097,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-43359-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.7,
+              "TotalPrice": 1.7
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.25,
+              "TotalPrice": 12.5
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.1384,
+              "TotalPrice": 28.46
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.0151,
+              "TotalPrice": 101.51
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.95624,
+              "TotalPrice": 239.06
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.9208,
+              "TotalPrice": 460.4
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.92043,
+              "TotalPrice": 920.43
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 5097,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 5097,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "318459",
+          "ValueText": "Battery Monitor"
+        },
+        {
+          "ParameterId": 412,
+          "ParameterText": "Battery Chemistry",
+          "ParameterType": "String",
+          "ValueId": "468225",
+          "ValueText": "Lithium Ion"
+        },
+        {
+          "ParameterId": 36,
+          "ParameterText": "Number of Cells",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1818,
+          "ParameterText": "Fault Protection",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "356918",
+          "ValueText": "I2C"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212621",
+          "ValueText": "-40°C ~ 85°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "305465",
+          "ValueText": "9-UFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "305044",
+          "ValueText": "9-DSBGA"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 115945,
+        "Name": "BQ27426"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 713,
+                "ParentId": 2025,
+                "Name": "Battery Management",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/320/511/STC3115AIQT_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the Battery Management PMIC (Power Management Integrated Circuit) family are used for battery-related monitoring and control functions including authentication, cell balancing, condition monitoring, fuel gauging, source selection, short circuit protection, over- and under-voltage protection, and others. Note that while some products in this family may include a battery charging function among their features, products implementing a charging function as a principle feature are classified separately.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 14591,
+        "Name": "Impedance Track™"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "296-43359-1",
+        "296-43359-2",
+        "-296-43359-1-ND",
+        "TEXTISBQ27426YZFR",
+        "2156-BQ27426YZFR",
+        "BQ27426YZFR-ND",
+        "296-43359-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:32:45Z",
+    "manufacturer_part_number": "BQ27426YZFR",
+    "product_quantity_available": 5097,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.7,
+    "offers": [
+      {
+        "provider_part_number": "296-43359-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5097,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": 1.7
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.25,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1384,
+            "total_price": 28.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0151,
+            "total_price": 101.51
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.95624,
+            "total_price": 239.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.9208,
+            "total_price": 460.4
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.92043,
+            "total_price": 920.43
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-43359-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5097,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": 1.7
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.25,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1384,
+            "total_price": 28.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0151,
+            "total_price": 101.51
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.95624,
+            "total_price": 239.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.9208,
+            "total_price": 460.4
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.92043,
+            "total_price": 920.43
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-43359-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.85556,
+            "total_price": 2566.68
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.83792,
+            "total_price": 5027.52
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.82908,
+            "total_price": 7461.72
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-43359-1-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5097,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": 1.7
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.25,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1384,
+            "total_price": 28.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0151,
+            "total_price": 101.51
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.95624,
+            "total_price": 239.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.9208,
+            "total_price": 460.4
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.92043,
+            "total_price": 920.43
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-43359-6-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 5097,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.7,
+            "total_price": 1.7
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.25,
+            "total_price": 12.5
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.1384,
+            "total_price": 28.46
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.0151,
+            "total_price": 101.51
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.95624,
+            "total_price": 239.06
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.9208,
+            "total_price": 460.4
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.92043,
+            "total_price": 920.43
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-43359-2-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": 3000,
+        "quantity_available": 3000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.85556,
+            "total_price": 2566.68
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.83792,
+            "total_price": 5027.52
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.82908,
+            "total_price": 7461.72
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:32:45Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "BQ27426YZFR",
+    "provider_part_number": "",
+    "description": "IC FUEL GAUGE LI-ION 1CL 9DSBGA",
+    "detailed_description": "Battery Battery Monitor IC Lithium Ion 9-DSBGA",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq27426",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/BQ27426YZFR/5805002",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6167/296%7E4222180%7EYZF%7E9.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "9-UFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Battery Monitor",
+      "Battery Chemistry": "Lithium Ion",
+      "Number of Cells": "1",
+      "Fault Protection": "-",
+      "Interface": "I2C",
+      "Operating Temperature": "-40°C ~ 85°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "9-UFBGA, DSBGA",
+      "Supplier Device Package": "9-DSBGA"
+    },
+    "compliance": {}
+  }
+}

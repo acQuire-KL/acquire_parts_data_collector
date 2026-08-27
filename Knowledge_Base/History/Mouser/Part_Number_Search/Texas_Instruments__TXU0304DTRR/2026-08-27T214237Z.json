@@ -1,0 +1,317 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-27T21:42:37Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TXU0304DTRR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "1206 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Translation - Voltage Levels Four-channel fixed m ultidirectional lev",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/X2QFN-12_DSL.jpg",
+          "Category": "Translation - Voltage Levels",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "TXU0304DTRR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-TXU0304DTRR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.92",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.666",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.602",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.531",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.497",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.479",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.439",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.428",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TXU0304DTRR?qs=A6eO%252BMLsxmQVlHFhsP1uzA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "1206",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 9000,
+              "Date": "2026-12-17T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542390090"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399999"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T21:42:37Z",
+    "manufacturer_part_number": "TXU0304DTRR",
+    "product_quantity_available": 1206,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "63 Days",
+    "product_unit_price": 0.92,
+    "offers": [
+      {
+        "provider_part_number": "595-TXU0304DTRR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1206,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.666,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.602,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.531,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.497,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.479,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.439,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.428,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-TXU0304DTRR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 1206,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.666,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.602,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.531,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.497,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.479,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.439,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.428,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-27T21:42:37Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TXU0304DTRR",
+    "provider_part_number": "595-TXU0304DTRR",
+    "description": "Translation - Voltage Levels Four-channel fixed m ultidirectional lev",
+    "detailed_description": "Translation - Voltage Levels Four-channel fixed m ultidirectional lev",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/TXU0304DTRR?qs=A6eO%252BMLsxmQVlHFhsP1uzA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/X2QFN-12_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542390090",
+      "MXHTS": "8542399999",
+      "ECCN": "EAR99"
+    }
+  }
+}

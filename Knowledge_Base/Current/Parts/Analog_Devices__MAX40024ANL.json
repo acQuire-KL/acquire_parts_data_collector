@@ -1,0 +1,38 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-27T22:28:55Z",
+  "requested_manufacturer": "Analog Devices",
+  "requested_mpn": "MAX40024ANL+",
+  "summary": {
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product max40024anl+ Not Found\",\"instance\":\"\",\"correlationId\":\"70a3adaa-1f07-44a8-b157-cb10756d0d33\",\"errors\":{}}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:53Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-27T22:28:55Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

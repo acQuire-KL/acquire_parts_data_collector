@@ -1,0 +1,680 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:33:30Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Taiyo Yuden",
+    "input_mpn": "LSCNB1608HKT1R0MD",
+    "resolved_manufacturer": "Taiyo Yuden",
+    "provider_manufacturer_id": 587,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "989"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FIXED IND 1UH 1.6A 110 MOHM SMD",
+        "DetailedDescription": "1 µH Shielded Multilayer Inductor 1.6 A 110mOhm Max 0603 (1608 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 587,
+        "Name": "Taiyo Yuden"
+      },
+      "ManufacturerProductNumber": "LSCNB1608HKT1R0MD",
+      "UnitPrice": 0.25,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/taiyo-yuden/LSCNB1608HKT1R0MD/16668679",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4802/LSCNB1608HKT1R0MD_SS.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4464/MFG_LSCNB1608HKT1R0MD.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "587-LSCNB1608HKT1R0MDTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 4000,
+              "UnitPrice": 0.12659,
+              "TotalPrice": 506.36
+            },
+            {
+              "BreakQuantity": 8000,
+              "UnitPrice": 0.11937,
+              "TotalPrice": 954.96
+            },
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.11534,
+              "TotalPrice": 1384.08
+            },
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.11047,
+              "TotalPrice": 2209.4
+            },
+            {
+              "BreakQuantity": 28000,
+              "UnitPrice": 0.10738,
+              "TotalPrice": 3006.64
+            },
+            {
+              "BreakQuantity": 40000,
+              "UnitPrice": 0.10419,
+              "TotalPrice": 4167.6
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 587,
+            "Name": "Taiyo Yuden"
+          },
+          "QuantityAvailableforPackageType": 24000,
+          "MinimumOrderQuantity": 4000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "587-LSCNB1608HKT1R0MDCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.25,
+              "TotalPrice": 0.25
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.211,
+              "TotalPrice": 2.11
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1731,
+              "TotalPrice": 17.31
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.14238,
+              "TotalPrice": 142.38
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 587,
+            "Name": "Taiyo Yuden"
+          },
+          "QuantityAvailableforPackageType": 25648,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "587-LSCNB1608HKT1R0MDDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.25,
+              "TotalPrice": 0.25
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.211,
+              "TotalPrice": 2.11
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.1731,
+              "TotalPrice": 17.31
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.14238,
+              "TotalPrice": 142.38
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 587,
+            "Name": "Taiyo Yuden"
+          },
+          "QuantityAvailableforPackageType": 25648,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 25648,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6376843951112",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "378196",
+          "ValueText": "Multilayer"
+        },
+        {
+          "ParameterId": 1221,
+          "ParameterText": "Material - Core",
+          "ParameterType": "String",
+          "ValueId": "374890",
+          "ValueText": "Metal"
+        },
+        {
+          "ParameterId": 2087,
+          "ParameterText": "Inductance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 µH",
+          "ValueText": "1 µH"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.6 A",
+          "ValueText": "1.6 A"
+        },
+        {
+          "ParameterId": 1219,
+          "ParameterText": "Current - Saturation (Isat)",
+          "ParameterType": "String",
+          "ValueId": "126714",
+          "ValueText": "2.2A"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        },
+        {
+          "ParameterId": 314,
+          "ParameterText": "DC Resistance (DCR)",
+          "ParameterType": "String",
+          "ValueId": "77412",
+          "ValueText": "110mOhm Max"
+        },
+        {
+          "ParameterId": 705,
+          "ParameterText": "Q @ Freq",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 706,
+          "ParameterText": "Frequency - Self Resonant",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212478",
+          "ValueText": "-40°C ~ 125°C"
+        },
+        {
+          "ParameterId": 1222,
+          "ParameterText": "Inductance Frequency - Test",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 MHz",
+          "ValueText": "1 MHz"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39245",
+          "ValueText": "0603"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5812",
+          "ValueText": "0.031\" (0.80mm)"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 4,
+        "ParentId": 0,
+        "Name": "Inductors, Coils, Chokes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/465/830/760308104119_tmb%2864x64%29.jpg",
+        "SeoDescription": "Inductors, coils, and chokes are various names used to refer to products that store energy in the form of a magnetic field. The vast majority of the products found in this category are simple fixed-value devices, though adjustable types, products for wireless power transmission, and magnetically-coupled inductor arrays are also included. Note that the coupled-inductor devices found within this product family are characterized by having multiple identical windings sharing a common magnetic core; similar products with non-identical windings are more commonly described as transformers, and are categorized as such.",
+        "ChildCategories": [
+          {
+            "CategoryId": 71,
+            "ParentId": 4,
+            "Name": "Fixed Inductors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/690/369/MFG_WE-HCF%202013%20Series_tmb%2864x64%29.jpg",
+            "SeoDescription": "An inductor, also known as a coil, choke, or reactor, is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. When the current changes, the magnetic field induces a voltage in the conductor. The induced voltage has a polarity which opposes the change in current that created it. The unit of inductance is the Henry (H). Mounting options include surface, through-hole, and chassis.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "17",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 104550,
+        "Name": "LSCN"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.50.8000"
+      },
+      "OtherNames": [
+        "587-LSCNB1608HKT1R0MDCT",
+        "587-LSCNB1608HKT1R0MDTR",
+        "587-LSCNB1608HKT1R0MDDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:33:30Z",
+    "manufacturer_part_number": "LSCNB1608HKT1R0MD",
+    "product_quantity_available": 25648,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "17",
+    "product_unit_price": 0.25,
+    "offers": [
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDCT-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 25648,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.25,
+            "total_price": 0.25
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.211,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1731,
+            "total_price": 17.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.14238,
+            "total_price": 142.38
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDDKR-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 25648,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.25,
+            "total_price": 0.25
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.211,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1731,
+            "total_price": 17.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.14238,
+            "total_price": 142.38
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDTR-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": null,
+        "quantity_available": 24000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.12659,
+            "total_price": 506.36
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.11937,
+            "total_price": 954.96
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.11534,
+            "total_price": 1384.08
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.11047,
+            "total_price": 2209.4
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.10738,
+            "total_price": 3006.64
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.10419,
+            "total_price": 4167.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDCT-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 25648,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.25,
+            "total_price": 0.25
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.211,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1731,
+            "total_price": 17.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.14238,
+            "total_price": 142.38
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDDKR-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 25648,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.25,
+            "total_price": 0.25
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.211,
+            "total_price": 2.11
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.1731,
+            "total_price": 17.31
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.14238,
+            "total_price": 142.38
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "587-LSCNB1608HKT1R0MDTR-ND",
+        "supplier": "Taiyo Yuden",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 4000,
+        "pack_quantity": null,
+        "quantity_available": 24000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 4000,
+            "unit_price": 0.12659,
+            "total_price": 506.36
+          },
+          {
+            "break_quantity": 8000,
+            "unit_price": 0.11937,
+            "total_price": 954.96
+          },
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.11534,
+            "total_price": 1384.08
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.11047,
+            "total_price": 2209.4
+          },
+          {
+            "break_quantity": 28000,
+            "unit_price": 0.10738,
+            "total_price": 3006.64
+          },
+          {
+            "break_quantity": 40000,
+            "unit_price": 0.10419,
+            "total_price": 4167.6
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:33:30Z",
+    "manufacturer": "Taiyo Yuden",
+    "manufacturer_part_number": "LSCNB1608HKT1R0MD",
+    "provider_part_number": "",
+    "description": "FIXED IND 1UH 1.6A 110 MOHM SMD",
+    "detailed_description": "1 µH Shielded Multilayer Inductor 1.6 A 110mOhm Max 0603 (1608 Metric)",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4802/LSCNB1608HKT1R0MD_SS.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/taiyo-yuden/LSCNB1608HKT1R0MD/16668679",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4464/MFG_LSCNB1608HKT1R0MD.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "Multilayer",
+      "Material - Core": "Metal",
+      "Inductance": "1 µH",
+      "Tolerance": "±20%",
+      "Current Rating (Amps)": "1.6 A",
+      "Current - Saturation (Isat)": "2.2A",
+      "Shielding": "Shielded",
+      "DC Resistance (DCR)": "110mOhm Max",
+      "Q @ Freq": "-",
+      "Frequency - Self Resonant": "-",
+      "Ratings": "-",
+      "Operating Temperature": "-40°C ~ 125°C",
+      "Inductance Frequency - Test": "1 MHz",
+      "Features": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "0.031\" (0.80mm)"
+    },
+    "compliance": {}
+  }
+}

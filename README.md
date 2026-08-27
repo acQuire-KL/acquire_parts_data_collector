@@ -145,3 +145,7 @@ Datasheet evidence can now be attached to the correct component JSON and summari
 
 PDC now connects the accumulated local knowledge, Parts Master context and all three provider paths (DigiKey, Mouser and TME) into a practical BOM-review workbook. The output preserves BOM context, shows each provider independently, surfaces datasheet/local evidence and adds a concise review summary without making automatic engineering approvals.
 
+
+### Sprint 4.7.1a — Operational BOM Review Corrective Patch
+
+Real-BOM testing now supports direct CSV input, common `MF` Manufacturer headings, explicit BOM Value/Footprint preservation, blank-MPN pre-checks, concise provider statuses and visible provider-by-provider runtime progress. Common terminal ordering-code suffixes are handled conservatively for identity matching.

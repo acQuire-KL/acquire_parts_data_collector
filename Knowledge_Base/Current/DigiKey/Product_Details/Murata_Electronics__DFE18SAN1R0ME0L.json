@@ -1,0 +1,803 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:33:49Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Murata",
+    "input_mpn": "DFE18SAN1R0ME0L",
+    "resolved_manufacturer": "Murata Electronics",
+    "provider_manufacturer_id": 490,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "984"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FIXED IND 1UH 1.6A 144 MOHM SMD",
+        "DetailedDescription": "1 µH Shielded Inductor 1.6 A 144mOhm Max 0603 (1608 Metric)"
+      },
+      "Manufacturer": {
+        "Id": 490,
+        "Name": "Murata Electronics"
+      },
+      "ManufacturerProductNumber": "DFE18SAN1R0ME0L",
+      "UnitPrice": 0.36,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/murata-electronics/DFE18SAN1R0ME0L/7564141",
+      "DatasheetUrl": "https://pim.murata.com/asset/pim4/inductor/JETE243A-0037_PDF_INDUCTOR",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/889/0603-%281608-Metric%29-DFE18SAN_E0.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "490-16576-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 0.18197,
+              "TotalPrice": 545.91
+            },
+            {
+              "BreakQuantity": 6000,
+              "UnitPrice": 0.1716,
+              "TotalPrice": 1029.6
+            },
+            {
+              "BreakQuantity": 9000,
+              "UnitPrice": 0.16582,
+              "TotalPrice": 1492.38
+            },
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.15882,
+              "TotalPrice": 2382.3
+            },
+            {
+              "BreakQuantity": 21000,
+              "UnitPrice": 0.15437,
+              "TotalPrice": 3241.77
+            },
+            {
+              "BreakQuantity": 30000,
+              "UnitPrice": 0.1498,
+              "TotalPrice": 4494.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 21000,
+          "MinimumOrderQuantity": 3000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-16576-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.36,
+              "TotalPrice": 0.36
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.298,
+              "TotalPrice": 2.98
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.276,
+              "TotalPrice": 6.9
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2602,
+              "TotalPrice": 13.01
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2453,
+              "TotalPrice": 24.53
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.22688,
+              "TotalPrice": 56.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.21394,
+              "TotalPrice": 106.97
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.2017,
+              "TotalPrice": 201.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 22392,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "490-16576-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.36,
+              "TotalPrice": 0.36
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.298,
+              "TotalPrice": 2.98
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.276,
+              "TotalPrice": 6.9
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.2602,
+              "TotalPrice": 13.01
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.2453,
+              "TotalPrice": 24.53
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.22688,
+              "TotalPrice": 56.72
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.21394,
+              "TotalPrice": 106.97
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.2017,
+              "TotalPrice": 201.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 490,
+            "Name": "Murata Electronics"
+          },
+          "QuantityAvailableforPackageType": 22392,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 22392,
+      "ProductStatus": {
+        "Id": 7,
+        "Status": "Not For New Designs"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1221,
+          "ParameterText": "Material - Core",
+          "ParameterType": "String",
+          "ValueId": "374890",
+          "ValueText": "Metal"
+        },
+        {
+          "ParameterId": 2087,
+          "ParameterText": "Inductance",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 µH",
+          "ValueText": "1 µH"
+        },
+        {
+          "ParameterId": 3,
+          "ParameterText": "Tolerance",
+          "ParameterType": "String",
+          "ValueId": "1900",
+          "ValueText": "±20%"
+        },
+        {
+          "ParameterId": 2088,
+          "ParameterText": "Current Rating (Amps)",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1.6 A",
+          "ValueText": "1.6 A"
+        },
+        {
+          "ParameterId": 1219,
+          "ParameterText": "Current - Saturation (Isat)",
+          "ParameterType": "String",
+          "ValueId": "167594",
+          "ValueText": "2A"
+        },
+        {
+          "ParameterId": 80,
+          "ParameterText": "Shielding",
+          "ParameterType": "String",
+          "ValueId": "402031",
+          "ValueText": "Shielded"
+        },
+        {
+          "ParameterId": 314,
+          "ParameterText": "DC Resistance (DCR)",
+          "ParameterType": "String",
+          "ValueId": "95649",
+          "ValueText": "144mOhm Max"
+        },
+        {
+          "ParameterId": 705,
+          "ParameterText": "Q @ Freq",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 706,
+          "ParameterText": "Frequency - Self Resonant",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212617",
+          "ValueText": "-40°C ~ 85°C"
+        },
+        {
+          "ParameterId": 1222,
+          "ParameterText": "Inductance Frequency - Test",
+          "ParameterType": "UnitOfMeasure",
+          "ValueId": "1 MHz",
+          "ValueText": "1 MHz"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "39246",
+          "ValueText": "0603 (1608 Metric)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "7802",
+          "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+        },
+        {
+          "ParameterId": 1500,
+          "ParameterText": "Height - Seated (Max)",
+          "ParameterType": "String",
+          "ValueId": "5812",
+          "ValueText": "0.031\" (0.80mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 178412,
+        "Name": "DFE18SAN"
+      },
+      "Category": {
+        "CategoryId": 4,
+        "ParentId": 0,
+        "Name": "Inductors, Coils, Chokes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/465/830/760308104119_tmb%2864x64%29.jpg",
+        "SeoDescription": "Inductors, coils, and chokes are various names used to refer to products that store energy in the form of a magnetic field. The vast majority of the products found in this category are simple fixed-value devices, though adjustable types, products for wireless power transmission, and magnetically-coupled inductor arrays are also included. Note that the coupled-inductor devices found within this product family are characterized by having multiple identical windings sharing a common magnetic core; similar products with non-identical windings are more commonly described as transformers, and are categorized as such.",
+        "ChildCategories": [
+          {
+            "CategoryId": 71,
+            "ParentId": 4,
+            "Name": "Fixed Inductors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/690/369/MFG_WE-HCF%202013%20Series_tmb%2864x64%29.jpg",
+            "SeoDescription": "An inductor, also known as a coil, choke, or reactor, is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. When the current changes, the magnetic field induces a voltage in the conductor. The induced voltage has a polarity which opposes the change in current that created it. The unit of inductance is the Henry (H). Mounting options include surface, through-hole, and chassis.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "21",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 59052,
+        "Name": "DFE18SAN"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8504.50.8000"
+      },
+      "OtherNames": [
+        "490-16576-2",
+        "490-16576-1",
+        "490-16576-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:33:49Z",
+    "manufacturer_part_number": "DFE18SAN1R0ME0L",
+    "product_quantity_available": 22392,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "21",
+    "product_unit_price": 0.36,
+    "offers": [
+      {
+        "provider_part_number": "490-16576-1-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 22392,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.36,
+            "total_price": 0.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.298,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.276,
+            "total_price": 6.9
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2602,
+            "total_price": 13.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2453,
+            "total_price": 24.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.22688,
+            "total_price": 56.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.21394,
+            "total_price": 106.97
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.2017,
+            "total_price": 201.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-16576-6-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22392,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.36,
+            "total_price": 0.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.298,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.276,
+            "total_price": 6.9
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2602,
+            "total_price": 13.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2453,
+            "total_price": 24.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.22688,
+            "total_price": 56.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.21394,
+            "total_price": 106.97
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.2017,
+            "total_price": 201.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-16576-2-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": null,
+        "quantity_available": 21000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.18197,
+            "total_price": 545.91
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.1716,
+            "total_price": 1029.6
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.16582,
+            "total_price": 1492.38
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.15882,
+            "total_price": 2382.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.15437,
+            "total_price": 3241.77
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.1498,
+            "total_price": 4494.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "490-16576-1-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 22392,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.36,
+            "total_price": 0.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.298,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.276,
+            "total_price": 6.9
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2602,
+            "total_price": 13.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2453,
+            "total_price": 24.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.22688,
+            "total_price": 56.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.21394,
+            "total_price": 106.97
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.2017,
+            "total_price": 201.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-16576-6-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 22392,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.36,
+            "total_price": 0.36
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.298,
+            "total_price": 2.98
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.276,
+            "total_price": 6.9
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.2602,
+            "total_price": 13.01
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.2453,
+            "total_price": 24.53
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.22688,
+            "total_price": 56.72
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.21394,
+            "total_price": 106.97
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.2017,
+            "total_price": 201.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "490-16576-2-ND",
+        "supplier": "Murata Electronics",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 3000,
+        "pack_quantity": null,
+        "quantity_available": 21000,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.18197,
+            "total_price": 545.91
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.1716,
+            "total_price": 1029.6
+          },
+          {
+            "break_quantity": 9000,
+            "unit_price": 0.16582,
+            "total_price": 1492.38
+          },
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.15882,
+            "total_price": 2382.3
+          },
+          {
+            "break_quantity": 21000,
+            "unit_price": 0.15437,
+            "total_price": 3241.77
+          },
+          {
+            "break_quantity": 30000,
+            "unit_price": 0.1498,
+            "total_price": 4494.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:33:49Z",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_part_number": "DFE18SAN1R0ME0L",
+    "provider_part_number": "",
+    "description": "FIXED IND 1UH 1.6A 144 MOHM SMD",
+    "detailed_description": "1 µH Shielded Inductor 1.6 A 144mOhm Max 0603 (1608 Metric)",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/JETE243A-0037_PDF_INDUCTOR",
+    "product_url": "https://www.digikey.ie/en/products/detail/murata-electronics/DFE18SAN1R0ME0L/7564141",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/889/0603-%281608-Metric%29-DFE18SAN_E0.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0603 (1608 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Type": "-",
+      "Material - Core": "Metal",
+      "Inductance": "1 µH",
+      "Tolerance": "±20%",
+      "Current Rating (Amps)": "1.6 A",
+      "Current - Saturation (Isat)": "2A",
+      "Shielding": "Shielded",
+      "DC Resistance (DCR)": "144mOhm Max",
+      "Q @ Freq": "-",
+      "Frequency - Self Resonant": "-",
+      "Ratings": "-",
+      "Operating Temperature": "-40°C ~ 85°C",
+      "Inductance Frequency - Test": "1 MHz",
+      "Features": "-",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "0603 (1608 Metric)",
+      "Supplier Device Package": "0603 (1608 Metric)",
+      "Size / Dimension": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)",
+      "Height - Seated (Max)": "0.031\" (0.80mm)"
+    },
+    "compliance": {}
+  }
+}

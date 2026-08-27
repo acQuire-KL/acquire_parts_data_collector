@@ -1,0 +1,715 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:33:34Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Micro Crystal",
+    "input_mpn": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+    "resolved_manufacturer": "Micro Crystal AG",
+    "provider_manufacturer_id": 2195,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "988"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC RTC TEMPERAT CLK/CAL I2C 8SON",
+        "DetailedDescription": "Real Time Clock (RTC) IC Clock/Calendar 16B, 32B I2C, 2-Wire Serial 8-WCDFN"
+      },
+      "Manufacturer": {
+        "Id": 2195,
+        "Name": "Micro Crystal AG"
+      },
+      "ManufacturerProductNumber": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+      "UnitPrice": 2.96,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/micro-crystal-ag/RV-3032-C7-32-768KHZ-2-5PPM-TA-QA/16273065",
+      "DatasheetUrl": "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3032-C7.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4185/MFG_RV-3032-C7_Top.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QATR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 1.70806,
+              "TotalPrice": 1708.06
+            },
+            {
+              "BreakQuantity": 2000,
+              "UnitPrice": 1.66659,
+              "TotalPrice": 3333.18
+            },
+            {
+              "BreakQuantity": 3000,
+              "UnitPrice": 1.64581,
+              "TotalPrice": 4937.43
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 1.6228,
+              "TotalPrice": 8114.0
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2195,
+            "Name": "Micro Crystal AG"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1000,
+          "StandardPackage": 1000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QACT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.96,
+              "TotalPrice": 2.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.222,
+              "TotalPrice": 22.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.0372,
+              "TotalPrice": 50.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.834,
+              "TotalPrice": 183.4
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.73696,
+              "TotalPrice": 434.24
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.68032,
+              "TotalPrice": 840.16
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2195,
+            "Name": "Micro Crystal AG"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QADKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 2.96,
+              "TotalPrice": 2.96
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 2.222,
+              "TotalPrice": 22.22
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 2.0372,
+              "TotalPrice": 50.93
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 1.834,
+              "TotalPrice": 183.4
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 1.73696,
+              "TotalPrice": 434.24
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 1.68032,
+              "TotalPrice": 840.16
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 2195,
+            "Name": "Micro Crystal AG"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 2697,
+          "ParameterText": "DigiKey Programmable",
+          "ParameterType": "String",
+          "ValueId": "750491",
+          "ValueText": "Not Verified"
+        },
+        {
+          "ParameterId": 183,
+          "ParameterText": "Type",
+          "ParameterType": "String",
+          "ValueId": "331362",
+          "ValueText": "Clock/Calendar"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "685730",
+          "ValueText": "Alarm, Battery Switch, Clock Output Hz-MHz, Event Input, Temperature Alarm, Timer, Trickle Charge with Charge Pump"
+        },
+        {
+          "ParameterId": 142,
+          "ParameterText": "Memory Size",
+          "ParameterType": "String",
+          "ValueId": "685727",
+          "ValueText": "16B, 32B"
+        },
+        {
+          "ParameterId": 341,
+          "ParameterText": "Time Format",
+          "ParameterType": "String",
+          "ValueId": "685729",
+          "ValueText": "HH:MM:SS:100th (24 hr)"
+        },
+        {
+          "ParameterId": 342,
+          "ParameterText": "Date Format",
+          "ParameterType": "String",
+          "ValueId": "423358",
+          "ValueText": "YY-MM-DD-dd"
+        },
+        {
+          "ParameterId": 154,
+          "ParameterText": "Interface",
+          "ParameterType": "String",
+          "ValueId": "799911",
+          "ValueText": "I2C, 2-Wire Serial"
+        },
+        {
+          "ParameterId": 276,
+          "ParameterText": "Voltage - Supply",
+          "ParameterType": "String",
+          "ValueId": "51233",
+          "ValueText": "1.3V ~ 5.5V"
+        },
+        {
+          "ParameterId": 1446,
+          "ParameterText": "Voltage - Supply, Battery",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 1754,
+          "ParameterText": "Current - Timekeeping (Max)",
+          "ParameterType": "String",
+          "ValueId": "685728",
+          "ValueText": "210nA @ 3V"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212437",
+          "ValueText": "-40°C ~ 105°C (TA)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 1977,
+          "ParameterText": "Grade",
+          "ParameterType": "String",
+          "ValueId": "316912",
+          "ValueText": "Automotive"
+        },
+        {
+          "ParameterId": 2700,
+          "ParameterText": "Qualification",
+          "ParameterType": "String",
+          "ValueId": "312105",
+          "ValueText": "AEC-Q200"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "295378",
+          "ValueText": "8-WCDFN"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "294966",
+          "ValueText": "8-SON (3.2x1.5)"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2006,
+            "ParentId": 32,
+            "Name": "Clock/Timing",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+            "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+            "ChildCategories": [
+              {
+                "CategoryId": 690,
+                "ParentId": 2006,
+                "Name": "Real Time Clocks",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/290/Epson-10-SMT-3%2C2-2%2C5-2nd_tmb.jpg",
+                "SeoDescription": "Real Time Clocks (RTCs) provide time and/or date information in almost any electronic device which needs to keep accurate time. The clock types are binary counter, clock/calendar/supervisor, elapsed time counter, phantom time chip, portable system controller, temperature recorder, time event recorder, and timer clock peripheral.  They contain memory sizes ranging from 2 B to 2 MB and have interface options of I2C, Parallel, Serial, SPI, 1-Wire, 2-Wire, 3-Wire, and 4-Wire.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "13",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 15149,
+        "Name": "C7"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QATR",
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QACT-ND",
+        "RV-3032-C7 32.768KHZ 2.5PPM-TA-QA",
+        "203853-MG01",
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QADKR-ND",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QATR",
+        "2195-RV-3032-C732.768KHZ2.5PPM-TA-QA-ND",
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QACT",
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QADKR",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QADKR",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QACT",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QATR-ND",
+        "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QADKR-ND",
+        "2195-RV-3032-C7-32.768KHZ2.5PPM-TA-QACT-ND",
+        "RV-3032-C7-32.768KHZ 2.5PPM-TA-QA",
+        "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QATR-ND",
+        "2195-RV-3032-C732.768KHZ2.5PPM-TA-QA"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:33:34Z",
+    "manufacturer_part_number": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "13",
+    "product_unit_price": 2.96,
+    "offers": [
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QACT-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.96,
+            "total_price": 2.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.222,
+            "total_price": 22.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0372,
+            "total_price": 50.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.834,
+            "total_price": 183.4
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.73696,
+            "total_price": 434.24
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.68032,
+            "total_price": 840.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QADKR-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.96,
+            "total_price": 2.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.222,
+            "total_price": 22.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0372,
+            "total_price": 50.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.834,
+            "total_price": 183.4
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.73696,
+            "total_price": 434.24
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.68032,
+            "total_price": 840.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QATR-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.70806,
+            "total_price": 1708.06
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.66659,
+            "total_price": 3333.18
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.64581,
+            "total_price": 4937.43
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.6228,
+            "total_price": 8114.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QACT-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.96,
+            "total_price": 2.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.222,
+            "total_price": 22.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0372,
+            "total_price": 50.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.834,
+            "total_price": 183.4
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.73696,
+            "total_price": 434.24
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.68032,
+            "total_price": 840.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QADKR-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 2.96,
+            "total_price": 2.96
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 2.222,
+            "total_price": 22.22
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 2.0372,
+            "total_price": 50.93
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.834,
+            "total_price": 183.4
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.73696,
+            "total_price": 434.24
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.68032,
+            "total_price": 840.16
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "2195-RV-3032-C7-32.768KHZ-2.5PPM-TA-QATR-ND",
+        "supplier": "Micro Crystal AG",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 1000,
+        "pack_quantity": 1000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.70806,
+            "total_price": 1708.06
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.66659,
+            "total_price": 3333.18
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 1.64581,
+            "total_price": 4937.43
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 1.6228,
+            "total_price": 8114.0
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:33:34Z",
+    "manufacturer": "Micro Crystal AG",
+    "manufacturer_part_number": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+    "provider_part_number": "",
+    "description": "IC RTC TEMPERAT CLK/CAL I2C 8SON",
+    "detailed_description": "Real Time Clock (RTC) IC Clock/Calendar 16B, 32B I2C, 2-Wire Serial 8-WCDFN",
+    "datasheet_url": "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3032-C7.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/micro-crystal-ag/RV-3032-C7-32-768KHZ-2-5PPM-TA-QA/16273065",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4185/MFG_RV-3032-C7_Top.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "8-WCDFN",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "DigiKey Programmable": "Not Verified",
+      "Type": "Clock/Calendar",
+      "Features": "Alarm, Battery Switch, Clock Output Hz-MHz, Event Input, Temperature Alarm, Timer, Trickle Charge with Charge Pump",
+      "Memory Size": "16B, 32B",
+      "Time Format": "HH:MM:SS:100th (24 hr)",
+      "Date Format": "YY-MM-DD-dd",
+      "Interface": "I2C, 2-Wire Serial",
+      "Voltage - Supply": "1.3V ~ 5.5V",
+      "Voltage - Supply, Battery": "-",
+      "Current - Timekeeping (Max)": "210nA @ 3V",
+      "Operating Temperature": "-40°C ~ 105°C (TA)",
+      "Mounting Type": "Surface Mount",
+      "Grade": "Automotive",
+      "Qualification": "AEC-Q200",
+      "Package / Case": "8-WCDFN",
+      "Supplier Device Package": "8-SON (3.2x1.5)"
+    },
+    "compliance": {}
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-27T20:32:56Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK",
+    "input_mpn": "MPZ0603S121HT000",
+    "resolved_manufacturer": "TDK",
+    "provider_manufacturer_id": 445,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "993"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "FERRITE BEAD 120 OHM 0201 1LN",
+        "DetailedDescription": "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0201 (0603 Metric) 1A 130mOhm"
+      },
+      "Manufacturer": {
+        "Id": 445,
+        "Name": "TDK"
+      },
+      "ManufacturerProductNumber": "MPZ0603S121HT000",
+      "UnitPrice": 0.12,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/tdk/MPZ0603S121HT000/9385359",
+      "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/934/MPZ0603-H_Series_DS.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/778/0201-%280603-Metric%29-0%2C3mm-MPZ-H-Bk.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "445-180338-2-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 15000,
+              "UnitPrice": 0.02547,
+              "TotalPrice": 382.05
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 795000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 15000,
+          "StandardPackage": 15000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "445-180338-1-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.12,
+              "TotalPrice": 0.12
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.085,
+              "TotalPrice": 0.85
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0736,
+              "TotalPrice": 1.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0658,
+              "TotalPrice": 3.29
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0588,
+              "TotalPrice": 5.88
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.0506,
+              "TotalPrice": 12.65
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0449,
+              "TotalPrice": 22.45
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.0396,
+              "TotalPrice": 39.6
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.03117,
+              "TotalPrice": 155.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 800557,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "445-180338-6-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.12,
+              "TotalPrice": 0.12
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.085,
+              "TotalPrice": 0.85
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.0736,
+              "TotalPrice": 1.84
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.0658,
+              "TotalPrice": 3.29
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.0588,
+              "TotalPrice": 5.88
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.0506,
+              "TotalPrice": 12.65
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.0449,
+              "TotalPrice": 22.45
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.0396,
+              "TotalPrice": 39.6
+            },
+            {
+              "BreakQuantity": 5000,
+              "UnitPrice": 0.03117,
+              "TotalPrice": 155.85
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 445,
+            "Name": "TDK"
+          },
+          "QuantityAvailableforPackageType": 800557,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 800557,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 21,
+          "ParameterText": "Filter Type",
+          "ParameterType": "String",
+          "ValueId": "389223",
+          "ValueText": "Power Line"
+        },
+        {
+          "ParameterId": 2169,
+          "ParameterText": "Number of Lines",
+          "ParameterType": "Double",
+          "ValueId": "1",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 2280,
+          "ParameterText": "Impedance @ Frequency",
+          "ParameterType": "CoupledUnitOfMeasure",
+          "ValueId": "120 Ohms @ 100 MHz",
+          "ValueText": "120 Ohms @ 100 MHz"
+        },
+        {
+          "ParameterId": 1923,
+          "ParameterText": "Current Rating (Max)",
+          "ParameterType": "String",
+          "ValueId": "119750",
+          "ValueText": "1A"
+        },
+        {
+          "ParameterId": 1924,
+          "ParameterText": "DC Resistance (DCR) (Max)",
+          "ParameterType": "String",
+          "ValueId": "90102",
+          "ValueText": "130mOhm"
+        },
+        {
+          "ParameterId": 707,
+          "ParameterText": "Ratings",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "242918",
+          "ValueText": "-55°C ~ 125°C"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "39078",
+          "ValueText": "0201 (0603 Metric)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 966,
+          "ParameterText": "Height (Max)",
+          "ParameterType": "String",
+          "ValueId": "4779",
+          "ValueText": "0.013\" (0.33mm)"
+        },
+        {
+          "ParameterId": 46,
+          "ParameterText": "Size / Dimension",
+          "ParameterType": "String",
+          "ValueId": "5415",
+          "ValueText": "0.024\" L x 0.012\" W (0.60mm x 0.30mm)"
+        }
+      ],
+      "BaseProductNumber": {},
+      "Category": {
+        "CategoryId": 36,
+        "ParentId": 0,
+        "Name": "Filters",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+        "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+        "ChildCategories": [
+          {
+            "CategoryId": 841,
+            "ParentId": 36,
+            "Name": "Ferrite Beads and Chips",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/281/882/MPZ2012xxxxxxxx_tmb.jpg",
+            "SeoDescription": "Ferrite cores are devices that are designed to prevent high frequency noise or EMI (electromagnetic interference). These ferrite cores are made to be placed within an electric circuit. Key characteristics are the filter type (differential, signal, or power), number of lines, max current rating, impedance and a specified frequency, and mounting type (free hanging, surface mount, or through-hole).",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "10",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 56943,
+        "Name": "MPZ-H"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8548.00.0000"
+      },
+      "OtherNames": [
+        "445-180338-1",
+        "445-180338-2",
+        "445-180338-6"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-27T20:32:56Z",
+    "manufacturer_part_number": "MPZ0603S121HT000",
+    "product_quantity_available": 800557,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "10",
+    "product_unit_price": 0.12,
+    "offers": [
+      {
+        "provider_part_number": "445-180338-1-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 800557,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.085,
+            "total_price": 0.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0736,
+            "total_price": 1.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0658,
+            "total_price": 3.29
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0588,
+            "total_price": 5.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0506,
+            "total_price": 12.65
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0449,
+            "total_price": 22.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.0396,
+            "total_price": 39.6
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.03117,
+            "total_price": 155.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-180338-6-ND",
+        "supplier": "TDK",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 800557,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.085,
+            "total_price": 0.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0736,
+            "total_price": 1.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0658,
+            "total_price": 3.29
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0588,
+            "total_price": 5.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0506,
+            "total_price": 12.65
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0449,
+            "total_price": 22.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.0396,
+            "total_price": 39.6
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.03117,
+            "total_price": 155.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-180338-2-ND",
+        "supplier": "TDK",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 795000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.02547,
+            "total_price": 382.05
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "445-180338-1-ND",
+        "supplier": "TDK",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 800557,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.085,
+            "total_price": 0.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0736,
+            "total_price": 1.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0658,
+            "total_price": 3.29
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0588,
+            "total_price": 5.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0506,
+            "total_price": 12.65
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0449,
+            "total_price": 22.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.0396,
+            "total_price": 39.6
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.03117,
+            "total_price": 155.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-180338-6-ND",
+        "supplier": "TDK",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 800557,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.12,
+            "total_price": 0.12
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.085,
+            "total_price": 0.85
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.0736,
+            "total_price": 1.84
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.0658,
+            "total_price": 3.29
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.0588,
+            "total_price": 5.88
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.0506,
+            "total_price": 12.65
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.0449,
+            "total_price": 22.45
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.0396,
+            "total_price": 39.6
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.03117,
+            "total_price": 155.85
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "445-180338-2-ND",
+        "supplier": "TDK",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 15000,
+        "pack_quantity": 15000,
+        "quantity_available": 795000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 15000,
+            "unit_price": 0.02547,
+            "total_price": 382.05
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-27T20:32:56Z",
+    "manufacturer": "TDK",
+    "manufacturer_part_number": "MPZ0603S121HT000",
+    "provider_part_number": "",
+    "description": "FERRITE BEAD 120 OHM 0201 1LN",
+    "detailed_description": "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0201 (0603 Metric) 1A 130mOhm",
+    "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/934/MPZ0603-H_Series_DS.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/tdk/MPZ0603S121HT000/9385359",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/778/0201-%280603-Metric%29-0%2C3mm-MPZ-H-Bk.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "0201 (0603 Metric)",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Filter Type": "Power Line",
+      "Number of Lines": "1",
+      "Impedance @ Frequency": "120 Ohms @ 100 MHz",
+      "Current Rating (Max)": "1A",
+      "DC Resistance (DCR) (Max)": "130mOhm",
+      "Ratings": "-",
+      "Operating Temperature": "-55°C ~ 125°C",
+      "Package / Case": "0201 (0603 Metric)",
+      "Mounting Type": "Surface Mount",
+      "Height (Max)": "0.013\" (0.33mm)",
+      "Size / Dimension": "0.024\" L x 0.012\" W (0.60mm x 0.30mm)"
+    },
+    "compliance": {}
+  }
+}
