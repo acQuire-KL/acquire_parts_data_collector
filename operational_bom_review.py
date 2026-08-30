@@ -87,12 +87,19 @@ def provider_review_observation(
     local_context: LocalPartContext,
     lifecycle: str = "",
     requested_mpn: str | None = None,
+    recovered_mpn: str = "",
+    candidate_count: int = 0,
 ) -> str:
     """Return a concise engineering-review observation, never an approval."""
     provider_results = provider_results or providers_queried
     observations: list[str] = []
     if requested_mpn is not None and not _text(requested_mpn):
-        observations.append("MPN missing - provider lookup skipped")
+        if _text(recovered_mpn):
+            observations.append(f"MPN missing - candidate recovered: {_text(recovered_mpn)}")
+        else:
+            observations.append("MPN missing - provider lookup skipped")
+    if candidate_count:
+        observations.append(f"{candidate_count} identity/variant candidate(s) discovered")
     if match_status != "Matched":
         observations.append("Identity requires review")
     if not providers_matched:

@@ -1,0 +1,70 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T17:49:37Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Murata",
+    "input_mpn": "NFM15HC10",
+    "resolved_manufacturer": "Murata Electronics",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "NFM15HC105D0G3D",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112930,
+              "name": "SMD suppression filters"
+            },
+            "manufacturer_symbols": [
+              "NFM15HC105D0G3D"
+            ],
+            "manufacturer": {
+              "id": 147,
+              "name": "MURATA"
+            },
+            "description": "Filter: anti-interference; 1uF; R: 30mΩ; SMD; 4VDC; 2A; 0402; 180mm",
+            "multiples": 10000,
+            "minimal_amount": 10000,
+            "weight": {
+              "value": 0.001,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/46/11/B0/00/0/725348_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=7a91250b01fbd5959e25ae41fdad8f80f851cf11",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/46/11/B0/00/0/725348_1.jpg?width=100&height=75&q=75&ci_sign=9a52f0b7695c26012781b73e0d7fa46a04fca3cb",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/46/11/B0/00/0/725348_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=812c30c65331e653745f5182487de482dc7a2394"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

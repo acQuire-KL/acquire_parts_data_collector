@@ -1,0 +1,349 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T17:49:30Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Murata",
+    "input_mpn": "NFM15HC105D0G",
+    "resolved_manufacturer": "Murata Electronics",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "232998 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/76/4/NFM15HC105D0G3_0_050.pdf",
+          "Description": "Feed Through Capacitors 1.0  UF 4.0V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/murata/images/NFM15PC105D0J3D_SPL.jpg",
+          "Category": "Feed Through Capacitors",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Murata Electronics",
+          "ManufacturerPartNumber": "NFM15HC105D0G3D",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "81-NFM15HC105D0G3D",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.224",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.092",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.082",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.063",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.056",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.052",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.047",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.039",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.038",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Murata-Electronics/NFM15HC105D0G3D?qs=7MVldsJ5UaxcbKRZw8pS%2Fg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 1.9e-06
+          },
+          "AvailabilityInStock": "232998",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 170000,
+              "Date": "2026-10-08T00:00:00"
+            },
+            {
+              "Quantity": 300000,
+              "Date": "2026-10-22T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8548000001"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8532240090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532240060"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853224000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8532240000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8532240400"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T17:49:30Z",
+    "manufacturer_part_number": "NFM15HC105D0G3D",
+    "product_quantity_available": 232998,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "70 Days",
+    "product_unit_price": 0.224,
+    "offers": [
+      {
+        "provider_part_number": "81-NFM15HC105D0G3D",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 232998,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.224,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.092,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.082,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.052,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.047,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.038,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "81-NFM15HC105D0G3D",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 232998,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.224,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.092,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.082,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.063,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.056,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.052,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.047,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.039,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.038,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T17:49:30Z",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_part_number": "NFM15HC105D0G3D",
+    "provider_part_number": "81-NFM15HC105D0G3D",
+    "description": "Feed Through Capacitors 1.0  UF 4.0V",
+    "detailed_description": "Feed Through Capacitors 1.0  UF 4.0V",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/76/4/NFM15HC105D0G3_0_050.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Murata-Electronics/NFM15HC105D0G3D?qs=7MVldsJ5UaxcbKRZw8pS%2Fg%3D%3D",
+    "image_url": "https://www.mouser.com/images/murata/images/NFM15PC105D0J3D_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "TARIC": "8532240000",
+      "CNHTS": "8548000001",
+      "CAHTS": "8532240090",
+      "USHTS": "8532240060",
+      "JPHTS": "853224000",
+      "KRHTS": "8532240000",
+      "MXHTS": "8532240400",
+      "ECCN": "EAR99"
+    }
+  }
+}

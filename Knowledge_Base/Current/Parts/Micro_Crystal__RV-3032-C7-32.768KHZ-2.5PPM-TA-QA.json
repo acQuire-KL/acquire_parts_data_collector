@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:27:49Z",
+  "updated_at_utc": "2026-08-29T17:55:24Z",
   "requested_manufacturer": "Micro Crystal",
   "requested_mpn": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
   "summary": {
+    "input_mpn": "RV-3032-C7-32.768KHZ-2.5PPM-TA-QA",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser. Errors: TME.",
     "providers_matched": [
@@ -11,6 +13,7 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +28,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:48Z",
+        "captured_at_utc": "2026-08-29T17:55:11Z",
         "source_mode": "live_api"
       },
       {

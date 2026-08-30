@@ -1,3 +1,58 @@
+# Changelog
+
+## Sprint 4.7.2c — Identity Search Correction & Exception Review Queue
+
+- Provider coverage wording corrected: a successful provider lookup with no product listing is reported as `not listed`, not an error. `error` is reserved for genuine API/authentication/network/processing failures.
+- Corrects the identity-recovery search state machine using the Hirose/Abracon two-part regression fixture.
+- DigiKey keyword discovery now tries the exact source search text as well as the alphanumeric search key.
+- A returned same-manufacturer MPN with the same alphanumeric identity is treated as a strong formatting-normalised candidate.
+- Family truncation is suppressed once a strong formatting-equivalent candidate is found.
+- Failed providers are retried using the stronger properly formatted MPN discovered by another provider/search path.
+- Clean exact matches such as Abracon `AOTA-N160808S-2R2MT` remain matched even when another provider has no listing.
+- `Review Required` is redesigned as a concise exception queue rather than a near-duplicate of `Enriched Parts`.
+- Adds a permanent two-line Hirose + Abracon regression BOM fixture.
+- No automatic engineering approval, BOM substitution, Parts Master mutation or AIPN allocation.
+
+# Changelog
+
+## Sprint 4.7.2b — Search Normalisation & Multi-Pass Identity Resolution
+
+- Preserves the exact source MPN / BOM field used to initiate identity discovery.
+- Adds a punctuation-free alphanumeric search key for internal/provider discovery.
+- Adds controlled progressive right-side truncation for manufacturer-family discovery.
+- Stops family broadening when a useful manufacturer-family result level is found.
+- Adds cross-provider retry: a stronger MPN discovered by one provider is retried against providers that did not confirm the first pass.
+- Family-search results remain candidates and require manufacturer-document/order-table verification; they never silently alter the BOM.
+- Provider candidate evidence records discovery source and relationship.
+- Provider lead-time dashboard headings are now `Lead Time (Weeks)`; duration values are numeric whole weeks rounded up.
+- Calendar week notation remains interpreted as a delivery week, not a duration.
+- Lead-time cells are centre aligned.
+- All output workbook cells use word wrap for readability.
+- No automatic engineering approval, BOM substitution, Parts Master mutation or AIPN allocation.
+# Sprint 4.7.2a — Operational Provider Presentation, Lead-Time Normalisation & Performance
+
+- Provider dashboard blocks are now result-driven per BOM row; providers with no useful commercial data no longer consume Provider #1/#2/#3 positions.
+- Provider order remains neutral for now: useful results retain provider registration order until a later configurable/commercial ranking policy is introduced.
+- Lead time is normalised to whole calendar weeks and always rounded up in operational workbook views.
+- Zero/negative lead time is reported conservatively as `Request Delivery Quote`, never as immediate availability.
+- ISO calendar delivery notation such as `Week 45` is detected and converted to a duration from the run date rather than being misread as 45 weeks.
+- DigiKey, Mouser and TME detail collection is now concurrent per BOM row.
+- TME reuses one access token across Search, Data and Parameters instead of authenticating separately for each endpoint.
+- Added provider operation/timing diagnostics to the console and BOM Review Summary.
+- Knowledge Base manifest updates are thread-safe for concurrent provider collection.
+- Added 10 regression tests; full suite now 253 tests OK.
+
+# Sprint 4.7.2 — BOM Identity Recovery & Variant Discovery
+
+- Added conservative recovery of missing MPNs from BOM Value/Description without rewriting the BOM.
+- Removed automatic identity acceptance of T/R/TR suffix differences; these are now variant candidates requiring evidence.
+- Added provider-backed variant discovery from DigiKey keyword search, Mouser search/alternate packaging data and TME manufacturer symbols.
+- Added conservative BOM Footprint consistency evidence for candidates.
+- Added `Identity Candidates` worksheet to operational BOM review output.
+- Consolidates the same candidate across providers while retaining evidence-source names, package and datasheet context.
+- Stores identity-candidate evidence in the Knowledge Base summary without allocating an AIPN or modifying Parts Master.
+- Added 12 regression tests; full suite now 243 tests OK.
+
 # Changelog Addition — Sprint 4.4 Patch 2
 
 - Added cache-aware Knowledge Base population from the staging Parts Master.

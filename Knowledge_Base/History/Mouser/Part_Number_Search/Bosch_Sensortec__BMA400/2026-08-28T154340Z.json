@@ -1,0 +1,654 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-28T15:43:40Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BMA400",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 5,
+      "Parts": [
+        {
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1046/1/bst_bma400_ds000.pdf",
+          "Description": "Accelerometers Ultra-low Power, Triaxial Acceleration Sensor",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/boschsensortec/images/ITP_262-BMA400_t.jpg",
+          "Category": "Accelerometers",
+          "LeadTime": "112 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Bosch Sensortec",
+          "ManufacturerPartNumber": "BMA400",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "262-BMA400",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.90",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.75",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.67",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€1.61",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.56",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.31",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€1.31",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BMA400?qs=f9yNj16SXrKBoguHUc32eQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.000134953
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 104597,
+              "Date": "2027-02-22T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542391090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "9031808085"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/BST_DHW_FL035-5184327.pdf",
+          "Description": "Acceleration Sensor Development Tools BMA400 Shuttle Board",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/boschsensortec/images/BMA400_Shuttle_Board_DSL.jpg",
+          "Category": "Acceleration Sensor Development Tools",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Obsolete",
+          "Manufacturer": "Bosch Sensortec",
+          "ManufacturerPartNumber": "BMA400 Shuttle Board",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "262-BMA400SHUTTLE",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "5"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BMA400-Shuttle-Board?qs=y6ZabgHbY%252BzcH9ANEOFKQg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "262-SB3.0BMA400",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.0116875
+          },
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [
+            "Mouser does not presently sell this product in your region."
+          ],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "9031809090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8532220020"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "33 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1046/1/bst_bma400_sf000.pdf",
+          "Description": "Multiple Function Sensor Development Tools BMA400 Evaluation Shuttle Board",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/boschsensortec/images/BMA400_SPL.jpg",
+          "Category": "Multiple Function Sensor Development Tools",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Bosch Sensortec",
+          "ManufacturerPartNumber": "BMA400 Shuttle Board 3.0",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "262-SB3.0BMA400",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "25"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€13.67",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BMA400-Shuttle-Board-3.0?qs=Wj%2FVkw3K%252BMBdDa1zYrteLA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "33",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "9031808085"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Sensor Cables / Actuator Cables M5 A-Code Cable Assembly  Female Straight to Male Straight  0.5 m  IP67",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/bel/images/BC-M5FA4BMA4005M_SPL.jpg",
+          "Category": "Sensor Cables / Actuator Cables",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Stewart Connector",
+          "ManufacturerPartNumber": "BC-M5FA4BMA4005M",
+          "Min": "100",
+          "Mult": "100",
+          "MouserPartNumber": "530-BC-M5FA4BMA4005M",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 100,
+              "Price": "€12.85",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 200,
+              "Price": "€12.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€12.38",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Stewart-Connector/BC-M5FA4BMA4005M?qs=IKkN%2F947nfCmPDgqgfwKnw%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8544420090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8544429090"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85444200"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "83 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Sensor Cables / Actuator Cables M5 A-Code Cable Assembly  Male Straight to Male Straight  0.5 m  IP67",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/bel/images/BC-M5MA4BMA4005M_SPL.jpg",
+          "Category": "Sensor Cables / Actuator Cables",
+          "LeadTime": "70 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Stewart Connector",
+          "ManufacturerPartNumber": "BC-M5MA4BMA4005M",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "530-BC-M5MA4BMA4005M",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "100"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€15.80",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€14.01",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20,
+              "Price": "€13.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€12.93",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€10.95",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 200,
+              "Price": "€10.82",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€10.45",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€10.17",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Stewart-Connector/BC-M5MA4BMA4005M?qs=IKkN%2F947nfDZ0GArEAuTRQ%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "83",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8544420090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8544429090"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85444200"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-28T15:43:40Z",
+    "manufacturer_part_number": "BMA400",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "112 Days",
+    "product_unit_price": 1.9,
+    "offers": [
+      {
+        "provider_part_number": "262-BMA400",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.9,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.67,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.61,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.56,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 1.31,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "262-BMA400",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.9,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.67,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 1.61,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.56,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.44,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.39,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 1.31,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 1.31,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-28T15:43:40Z",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_part_number": "BMA400",
+    "provider_part_number": "262-BMA400",
+    "description": "Accelerometers Ultra-low Power, Triaxial Acceleration Sensor",
+    "detailed_description": "Accelerometers Ultra-low Power, Triaxial Acceleration Sensor",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1046/1/bst_bma400_ds000.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Bosch-Sensortec/BMA400?qs=f9yNj16SXrKBoguHUc32eQ%3D%3D",
+    "image_url": "https://www.mouser.com/images/boschsensortec/images/ITP_262-BMA400_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "CNHTS": "8542391090",
+      "USHTS": "9031808085",
+      "ECCN": "EAR99"
+    }
+  }
+}

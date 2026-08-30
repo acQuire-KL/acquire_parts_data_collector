@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:59Z",
+  "updated_at_utc": "2026-08-29T17:58:54Z",
   "requested_manufacturer": "Texas Instruments",
   "requested_mpn": "DRV2605LYZFR",
   "summary": {
+    "input_mpn": "DRV2605LYZFR",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,20 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Texas Instruments",
+        "mpn": "DRV2605LYZFT",
+        "relationship": "Near MPN candidate",
+        "sources": [
+          "Mouser",
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv2605l"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +41,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:57Z",
+        "captured_at_utc": "2026-08-29T17:58:46Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +49,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:59Z",
+        "captured_at_utc": "2026-08-29T17:58:47Z",
         "source_mode": "live_api"
       }
     ]

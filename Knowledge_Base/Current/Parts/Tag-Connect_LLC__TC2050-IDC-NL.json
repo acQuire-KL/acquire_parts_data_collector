@@ -1,0 +1,65 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-29T17:55:05Z",
+  "requested_manufacturer": "Tag-Connect LLC",
+  "requested_mpn": "TC2050-IDC-NL",
+  "summary": {
+    "input_mpn": "",
+    "identity_recovery_source": "BOM Value",
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "identity_candidates": [
+      {
+        "manufacturer": "Tag-Connect LLC",
+        "mpn": "TC2050-IDC-NL",
+        "relationship": "Recovered MPN candidate",
+        "sources": [
+          "BOM Value",
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Consistent - MPN referenced by footprint",
+        "datasheet_url": "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+      },
+      {
+        "manufacturer": "Tag-Connect LLC",
+        "mpn": "TC2050-IDC-NL-430",
+        "relationship": "Orderable suffix variant candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-430-NL_Datasheet_9.pdf"
+      }
+    ],
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-28T15:40:52Z",
+        "source_mode": "knowledge_base_current"
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-29T17:55:01Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-29T17:55:02Z",
+        "source_mode": "live_api"
+      }
+    ]
+  }
+}

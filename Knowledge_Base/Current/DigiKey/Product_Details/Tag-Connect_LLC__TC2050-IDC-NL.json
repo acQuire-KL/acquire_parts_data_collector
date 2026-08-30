@@ -1,0 +1,223 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-28T15:40:52Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Tag-Connect LLC",
+    "input_mpn": "TC2050-IDC-NL",
+    "resolved_manufacturer": "Tag-Connect LLC",
+    "provider_manufacturer_id": 1048,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "997"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "PLUG-OF-NAILS 10-PIN W/O LEGS 8\"",
+        "DetailedDescription": "Plug-Of-Nails™ Cable Assembly"
+      },
+      "Manufacturer": {
+        "Id": 1048,
+        "Name": "Tag-Connect LLC"
+      },
+      "ManufacturerProductNumber": "TC2050-IDC-NL",
+      "UnitPrice": 34.1,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/tag-connect-llc/TC2050-IDC-NL/2605367",
+      "DatasheetUrl": "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/528/TC2050-IDC-NL.JPG",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "TC2050-IDC-NL-ND",
+          "PackageType": {
+            "Id": 3,
+            "Name": "Bulk"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 34.1,
+              "TotalPrice": 34.1
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 1048,
+            "Name": "Tag-Connect LLC"
+          },
+          "QuantityAvailableforPackageType": 1542,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        }
+      ],
+      "QuantityAvailable": 1542,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 184,
+          "ParameterText": "Accessory Type",
+          "ParameterType": "String",
+          "ValueId": "325015",
+          "ValueText": "Cable Assembly"
+        },
+        {
+          "ParameterId": 984,
+          "ParameterText": "Utilized IC / Part",
+          "ParameterType": "String",
+          "ValueId": "1",
+          "ValueText": "-"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 337038,
+        "Name": "TC2050"
+      },
+      "Category": {
+        "CategoryId": 33,
+        "ParentId": 0,
+        "Name": "Development Boards, Kits, Programmers",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/310/411/MFG_ATATMEL-ICE_tmb.jpg",
+        "SeoDescription": "Development board, kit, and programmer products include tools and assemblies used for product development and evaluation purposes. Evaluation boards are produced by a manufacturer to allow prospective users a convenient way to characterize device behavior in context of a known-good implementation, whereas development boards and kits typically include additional features or accessories intended to aid a user in developing their own product based on some device. Programmers and related products are used for configuring products having a behavior that is user-adjustable or user-specified, such as a programmable oscillator or microcontroller.",
+        "ChildCategories": [
+          {
+            "CategoryId": 783,
+            "ParentId": 33,
+            "Name": "Accessories",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/457/624/MFG_TC2030-IDC_tmb.jpg",
+            "SeoDescription": "Supplementary items used with other devices in this category.",
+            "ChildCategories": []
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "8",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 28859,
+        "Name": "Plug-Of-Nails™"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8544.42.9090"
+      },
+      "OtherNames": [
+        "-TC2050-IDC-NL",
+        "TC2050IDCNL"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-28T15:40:52Z",
+    "manufacturer_part_number": "TC2050-IDC-NL",
+    "product_quantity_available": 1542,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "8",
+    "product_unit_price": 34.1,
+    "offers": [
+      {
+        "provider_part_number": "TC2050-IDC-NL-ND",
+        "supplier": "Tag-Connect LLC",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 1542,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 34.1,
+            "total_price": 34.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "TC2050-IDC-NL-ND",
+        "supplier": "Tag-Connect LLC",
+        "package_type_id": 3,
+        "package_type": "Bulk",
+        "packaging_code": "Bulk",
+        "pack_format": "Loose",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 1542,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 34.1,
+            "total_price": 34.1
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-28T15:40:52Z",
+    "manufacturer": "Tag-Connect LLC",
+    "manufacturer_part_number": "TC2050-IDC-NL",
+    "provider_part_number": "",
+    "description": "PLUG-OF-NAILS 10-PIN W/O LEGS 8\"",
+    "detailed_description": "Plug-Of-Nails™ Cable Assembly",
+    "datasheet_url": "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf",
+    "product_url": "https://www.digikey.ie/en/products/detail/tag-connect-llc/TC2050-IDC-NL/2605367",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/528/TC2050-IDC-NL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Accessory Type": "Cable Assembly",
+      "Utilized IC / Part": "-"
+    },
+    "compliance": {}
+  }
+}

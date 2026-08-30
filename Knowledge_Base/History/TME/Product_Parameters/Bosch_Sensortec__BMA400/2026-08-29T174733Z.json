@@ -1,0 +1,124 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T17:47:33Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Bosch Sensortec",
+    "input_mpn": "BMA400",
+    "resolved_manufacturer": "Bosch Sensortec",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MIKROE-3149",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 830,
+                    "value": "MIKROE"
+                  }
+                ]
+              },
+              {
+                "id": 1744,
+                "name": "Type of accessories for development kits",
+                "values": [
+                  {
+                    "id": 1631433,
+                    "value": "Click board"
+                  }
+                ]
+              },
+              {
+                "id": 351,
+                "name": "Kit contents",
+                "values": [
+                  {
+                    "id": 1530178,
+                    "value": "prototype board"
+                  }
+                ]
+              },
+              {
+                "id": 2955,
+                "name": "Components",
+                "values": [
+                  {
+                    "id": 1723139,
+                    "value": "BMA400"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443824,
+                    "value": "I2C"
+                  },
+                  {
+                    "id": 1443806,
+                    "value": "SPI"
+                  }
+                ]
+              },
+              {
+                "id": 1391,
+                "name": "Connection",
+                "values": [
+                  {
+                    "id": 2139553,
+                    "value": "mikroBUS connector"
+                  }
+                ]
+              },
+              {
+                "id": 2558,
+                "name": "Kind of module",
+                "values": [
+                  {
+                    "id": 1633628,
+                    "value": "accelerometer"
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "Supply voltage",
+                "values": [
+                  {
+                    "id": 1473984,
+                    "value": "3.3V DC"
+                  }
+                ]
+              },
+              {
+                "id": 1308,
+                "name": "Size",
+                "values": [
+                  {
+                    "id": 1474652,
+                    "value": "M"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

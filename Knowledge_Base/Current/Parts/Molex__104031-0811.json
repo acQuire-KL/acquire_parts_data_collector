@@ -1,21 +1,47 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:07Z",
+  "updated_at_utc": "2026-08-29T17:56:10Z",
   "requested_manufacturer": "Molex",
   "requested_mpn": "104031-0811",
   "summary": {
+    "input_mpn": "104031-0811",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: Mouser.",
     "providers_matched": [
       "Mouser"
     ],
     "engineering_confirmation": "Single provider evidence",
+    "identity_candidates": [
+      {
+        "manufacturer": "Molex",
+        "mpn": "1040310831",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      },
+      {
+        "manufacturer": "MOLEX",
+        "mpn": "MX-104031-0811",
+        "relationship": "Cross-provider confirmed candidate",
+        "sources": [
+          "TME"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
         "execution_status": "no_match",
         "identity_match": false,
-        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product 104031-0811 Not Found\",\"instance\":\"\",\"correlationId\":\"4f16a619-3284-413c-e260-7f64be145b10\",\"errors\":{}}",
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product 104031-0811 Not Found\",\"instance\":\"\",\"correlationId\":\"2312a886-9293-4627-e220-7668aa2851c4\",\"errors\":{}}",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -24,7 +50,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:04Z",
+        "captured_at_utc": "2026-08-29T17:55:57Z",
         "source_mode": "live_api"
       },
       {
@@ -32,7 +58,7 @@
         "execution_status": "success",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:06Z",
+        "captured_at_utc": "2026-08-29T17:55:58Z",
         "source_mode": "live_api"
       }
     ]

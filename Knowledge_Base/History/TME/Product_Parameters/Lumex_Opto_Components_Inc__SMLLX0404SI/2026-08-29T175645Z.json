@@ -1,0 +1,198 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T17:56:45Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Lumex",
+    "input_mpn": "SMLLX0404SI",
+    "resolved_manufacturer": "Lumex Opto/Components Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "SML-LX0404SIUPGUSB",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1591,
+                    "value": "LUMEX"
+                  }
+                ]
+              },
+              {
+                "id": 3546,
+                "name": "Type of diode",
+                "values": [
+                  {
+                    "id": 2061620,
+                    "value": "LED"
+                  }
+                ]
+              },
+              {
+                "id": 754,
+                "name": "LED colour",
+                "values": [
+                  {
+                    "id": 1461414,
+                    "value": "RGB"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 2138078,
+                    "value": "0404"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 2034243,
+                    "value": "1.95/2.75/2.7V DC"
+                  }
+                ]
+              },
+              {
+                "id": 1594,
+                "name": "Dimensions",
+                "values": [
+                  {
+                    "id": 1804934,
+                    "value": "1x1x0.25mm"
+                  }
+                ]
+              },
+              {
+                "id": 1102,
+                "name": "Viewing angle",
+                "values": [
+                  {
+                    "id": 1819343,
+                    "value": "120°"
+                  }
+                ]
+              },
+              {
+                "id": 1101,
+                "name": "LED current",
+                "values": [
+                  {
+                    "id": 1804936,
+                    "value": "25/25/10mA"
+                  }
+                ]
+              },
+              {
+                "id": 1089,
+                "name": "Wavelength",
+                "values": [
+                  {
+                    "id": 1461471,
+                    "value": "468nm"
+                  },
+                  {
+                    "id": 1930226,
+                    "value": "518nm"
+                  },
+                  {
+                    "id": 1463622,
+                    "value": "632nm"
+                  }
+                ]
+              },
+              {
+                "id": 1095,
+                "name": "LED lens",
+                "values": [
+                  {
+                    "id": 1461328,
+                    "value": "transparent"
+                  }
+                ]
+              },
+              {
+                "id": 1098,
+                "name": "Luminosity of red colour",
+                "values": [
+                  {
+                    "id": 1551241,
+                    "value": "35mcd"
+                  }
+                ]
+              },
+              {
+                "id": 1099,
+                "name": "Luminosity of blue colour",
+                "values": [
+                  {
+                    "id": 1804939,
+                    "value": "20mcd"
+                  }
+                ]
+              },
+              {
+                "id": 1097,
+                "name": "Luminosity of green colour",
+                "values": [
+                  {
+                    "id": 1465574,
+                    "value": "50mcd"
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "name": "Power",
+                "values": [
+                  {
+                    "id": 1804937,
+                    "value": "60/95/30mW"
+                  }
+                ]
+              },
+              {
+                "id": 2586,
+                "name": "Front",
+                "values": [
+                  {
+                    "id": 1461717,
+                    "value": "flat"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

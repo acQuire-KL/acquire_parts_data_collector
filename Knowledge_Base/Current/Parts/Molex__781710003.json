@@ -1,21 +1,47 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:11Z",
+  "updated_at_utc": "2026-08-29T17:56:14Z",
   "requested_manufacturer": "Molex",
   "requested_mpn": "781710003",
   "summary": {
+    "input_mpn": "781710003",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: Mouser.",
     "providers_matched": [
       "Mouser"
     ],
     "engineering_confirmation": "Single provider evidence",
+    "identity_candidates": [
+      {
+        "manufacturer": "Molex",
+        "mpn": "0781710003",
+        "relationship": "Near MPN candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.molex.com/en-us/products/part-detail/781710003?display=pdf"
+      },
+      {
+        "manufacturer": "MOLEX",
+        "mpn": "MX-78171-0003",
+        "relationship": "Different variant candidate",
+        "sources": [
+          "TME"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
         "execution_status": "no_match",
         "identity_match": false,
-        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product 781710003 Not Found\",\"instance\":\"\",\"correlationId\":\"c4f63491-3a49-410d-e8ac-ff7428db7b59\",\"errors\":{}}",
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product 781710003 Not Found\",\"instance\":\"\",\"correlationId\":\"2e654092-1393-4ea4-f123-a74f4ce58c22\",\"errors\":{}}",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -24,7 +50,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:08Z",
+        "captured_at_utc": "2026-08-29T17:56:11Z",
         "source_mode": "live_api"
       },
       {
@@ -32,7 +58,7 @@
         "execution_status": "success",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:10Z",
+        "captured_at_utc": "2026-08-29T17:56:12Z",
         "source_mode": "live_api"
       }
     ]

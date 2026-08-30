@@ -1,0 +1,8 @@
+Sprint 4.7.2a — Operational Provider Presentation, Lead-Time Normalisation & Performance
+
+Command:
+python -m unittest discover -s tests -p "test*.py"
+
+Result:
+Ran 253 tests
+OK

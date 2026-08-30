@@ -1,0 +1,107 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T10:06:24Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Macronix",
+    "input_mpn": "MX25R6435FZAIH0",
+    "resolved_manufacturer": "Macronix",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MX25R6435FZAIH0",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112873,
+              "name": "Serial FLASH memories - integrated circ."
+            },
+            "manufacturer_symbols": [
+              "MX25R6435FZAIH0"
+            ],
+            "manufacturer": {
+              "id": 1419,
+              "name": "MACRONIX INTERNATIONAL"
+            },
+            "description": "IC: FLASH memory; 64MbFLASH; SPI; 8Mx8bit; 80MHz; 1.65÷3.6V; USON8",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          },
+          {
+            "product_status": [
+              "ONLY_FOR_SPECIAL_ORDER",
+              "CANNOT_BE_ORDERED",
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "MX25R6435FZAIH0/TR",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112873,
+              "name": "Serial FLASH memories - integrated circ."
+            },
+            "manufacturer_symbols": [
+              "MX25R6435FZAIH0/TR"
+            ],
+            "manufacturer": {
+              "id": 1419,
+              "name": "MACRONIX INTERNATIONAL"
+            },
+            "description": "IC: FLASH memory; 64MbFLASH; SPI; 8Mx8bit; 80MHz; 1.65÷3.6V; USON8",
+            "multiples": 7500,
+            "minimal_amount": 7500,
+            "weight": {
+              "value": 0.5,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

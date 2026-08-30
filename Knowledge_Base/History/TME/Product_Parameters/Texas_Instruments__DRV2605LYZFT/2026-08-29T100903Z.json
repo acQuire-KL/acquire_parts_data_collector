@@ -1,0 +1,27 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T10:09:03Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "DRV2605LYZFT",
+    "resolved_manufacturer": "Texas Instruments",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "DRV2605LYZFT",
+          "parameters": null
+        }
+      ]
+    }
+  }
+}

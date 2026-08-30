@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:03Z",
+  "updated_at_utc": "2026-08-29T17:55:56Z",
   "requested_manufacturer": "Murata",
   "requested_mpn": "DFE18SAN1R0ME0L",
   "summary": {
+    "input_mpn": "DFE18SAN1R0ME0L",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser, TME.",
     "providers_matched": [
@@ -12,6 +14,20 @@
       "TME"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Murata Electronics",
+        "mpn": "DFE18SAN1R0MG0L",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey",
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/JETE243A-0036_PDF_INDUCTOR"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -26,7 +42,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:01Z",
+        "captured_at_utc": "2026-08-29T17:55:48Z",
         "source_mode": "live_api"
       },
       {
@@ -34,7 +50,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:03Z",
+        "captured_at_utc": "2026-08-29T17:55:49Z",
         "source_mode": "live_api"
       }
     ]

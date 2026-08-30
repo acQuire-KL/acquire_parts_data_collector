@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-29T10:07:04Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Lumex",
+    "input_mpn": "SMLLX0404SIUPGU",
+    "resolved_manufacturer": "Lumex Opto/Components Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 1046,
+          "symbol": "SML-LX0404SIUPGUSB",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.861,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 0.688,
+                "special": false
+              },
+              {
+                "amount": 10,
+                "price": 0.618,
+                "special": false
+              },
+              {
+                "amount": 50,
+                "price": 0.486,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 0.444,
+                "special": false
+              },
+              {
+                "amount": 500,
+                "price": 0.417,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

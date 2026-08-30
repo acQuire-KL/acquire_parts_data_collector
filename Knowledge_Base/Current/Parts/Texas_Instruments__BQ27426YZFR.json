@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:27:06Z",
+  "updated_at_utc": "2026-08-29T17:52:55Z",
   "requested_manufacturer": "Texas Instruments",
   "requested_mpn": "BQ27426YZFR",
   "summary": {
+    "input_mpn": "BQ27426YZFR",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,21 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Texas Instruments",
+        "mpn": "BQ27426YZFT",
+        "relationship": "Near MPN candidate",
+        "sources": [
+          "Mouser",
+          "DigiKey",
+          "TME"
+        ],
+        "package": "DSBGA9",
+        "footprint_check": "Consistent - package token match",
+        "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq27426"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +42,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:03Z",
+        "captured_at_utc": "2026-08-29T17:52:49Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +50,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:05Z",
+        "captured_at_utc": "2026-08-29T17:52:50Z",
         "source_mode": "live_api"
       }
     ]

@@ -1,0 +1,336 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-28T15:43:06Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Macronix",
+    "input_mpn": "MX25R6435FZAIH0",
+    "resolved_manufacturer": "Macronix",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 3,
+      "Parts": [
+        {
+          "DataSheetUrl": "",
+          "Description": "NOR Flash",
+          "FactoryStock": null,
+          "ImagePath": "https://www.mouser.com/images/macronix/images/USON-8_4x3_SPL.JPG",
+          "Category": "NOR Flash",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Macronix",
+          "ManufacturerPartNumber": "MX25R6435FZAIH0",
+          "Min": "0",
+          "Mult": "0",
+          "MouserPartNumber": "N/A",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            }
+          ],
+          "PriceBreaks": [],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Macronix/MX25R6435FZAIH0?qs=Z%252BL2brAPG1KYOK%252B%252BryQg2g%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": null,
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542320040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542320051"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542320299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "3A991.b.1.a"
+            }
+          ],
+          "TradeCompliance": []
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "NOR Flash Serial NOR 1.65V-3.6V 64Mbit x4 I/O USON-8 4x4mm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/macronix/images/USON-8_4x4_SPL.jpg",
+          "Category": "NOR Flash",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Macronix",
+          "ManufacturerPartNumber": "MX25R6435FZAIH0-TR",
+          "Min": "7500",
+          "Mult": "7500",
+          "MouserPartNumber": "95-25R6435FZAIH0TR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "7500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 7500,
+              "Price": "€1.72",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Macronix/MX25R6435FZAIH0-TR?qs=mELouGlnn3clPxwhGlwQLA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "95-25R6435FZAIL0TR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.4e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542320040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542320051"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542320299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "3A991.b.1.a"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "NOR Flash Serial NOR 1.65V-3.6V 64Mbit x4 I/O USON-8 4x4mm",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/macronix/images/USON-8_4x4_SPL.jpg",
+          "Category": "NOR Flash",
+          "LeadTime": "364 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Macronix",
+          "ManufacturerPartNumber": "MX25R6435FZAIH0-T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "95-25R6435FZAIH0T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Tray"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "490"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€2.04",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.98",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€1.94",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.89",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.79",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 490,
+              "Price": "€1.71",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Macronix/MX25R6435FZAIH0-T?qs=mELouGlnn3f5WvxnR6%252BtXA%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "95-25R6435FZAIL0T",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.4e-05
+          },
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542320040"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542320051"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542320299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "3A991.b.1.a"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "",
+    "captured_at_utc": "2026-08-28T15:43:06Z",
+    "manufacturer_part_number": "MX25R6435FZAIH0",
+    "product_quantity_available": null,
+    "manufacturer_public_quantity": null,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": null,
+    "offers": [
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "N/A",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 0,
+        "pack_quantity": 0,
+        "quantity_available": null,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-28T15:43:06Z",
+    "manufacturer": "Macronix",
+    "manufacturer_part_number": "MX25R6435FZAIH0",
+    "provider_part_number": "N/A",
+    "description": "NOR Flash",
+    "detailed_description": "NOR Flash",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Macronix/MX25R6435FZAIH0?qs=Z%252BL2brAPG1KYOK%252B%252BryQg2g%3D%3D",
+    "image_url": "https://www.mouser.com/images/macronix/images/USON-8_4x3_SPL.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Tray"
+    },
+    "compliance": {
+      "CAHTS": "8542320040",
+      "USHTS": "8542320051",
+      "MXHTS": "8542320299",
+      "ECCN": "3A991.b.1.a"
+    }
+  }
+}

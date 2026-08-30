@@ -1,0 +1,354 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T10:06:15Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Panasonic",
+    "input_mpn": "ERBRD1R50X",
+    "resolved_manufacturer": "Panasonic",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "14945 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Surface Mount Fuses 1.5A 0402 micro chip",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/panasonic/images/ERBRD_ERBRE_ERBRG_DSL.jpg",
+          "Category": "Surface Mount Fuses",
+          "LeadTime": "105 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Panasonic Industry",
+          "ManufacturerPartNumber": "ERB-RD1R50X",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "667-ERB-RD1R50X",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "10000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.215",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.198",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.164",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.152",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.137",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.126",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.116",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.115",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.096",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Panasonic-Industry/ERB-RD1R50X?qs=YIEcsSB2Lz4sP2Hi4%252BwI%252BA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 4.7e-06
+          },
+          "AvailabilityInStock": "14945",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 20000,
+              "Date": "2026-09-14T00:00:00"
+            },
+            {
+              "Quantity": 30000,
+              "Date": "2026-11-09T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536100000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536100040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853610000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85361000"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T10:06:15Z",
+    "manufacturer_part_number": "ERB-RD1R50X",
+    "product_quantity_available": 14945,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "105 Days",
+    "product_unit_price": 0.215,
+    "offers": [
+      {
+        "provider_part_number": "667-ERB-RD1R50X",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14945,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.215,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.198,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.164,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.152,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.137,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.126,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.116,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.115,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.096,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "667-ERB-RD1R50X",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14945,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.215,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.198,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.164,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.152,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.137,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.126,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.116,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.115,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.096,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.096,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T10:06:15Z",
+    "manufacturer": "Panasonic Industry",
+    "manufacturer_part_number": "ERB-RD1R50X",
+    "provider_part_number": "667-ERB-RD1R50X",
+    "description": "Surface Mount Fuses 1.5A 0402 micro chip",
+    "detailed_description": "Surface Mount Fuses 1.5A 0402 micro chip",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Panasonic-Industry/ERB-RD1R50X?qs=YIEcsSB2Lz4sP2Hi4%252BwI%252BA%3D%3D",
+    "image_url": "https://www.mouser.com/images/panasonic/images/ERBRD_ERBRE_ERBRG_DSL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "10000"
+    },
+    "compliance": {
+      "CNHTS": "8536100000",
+      "CAHTS": "8536100000",
+      "USHTS": "8536100040",
+      "JPHTS": "853610000",
+      "BRHTS": "85361000",
+      "ECCN": "EAR99"
+    }
+  }
+}

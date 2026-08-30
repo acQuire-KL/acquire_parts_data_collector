@@ -2,28 +2,28 @@
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
   "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-08-27T22:29:08Z",
+  "last_updated_at_utc": "2026-08-30T18:36:58Z",
   "providers": {
     "DigiKey": {
-      "last_capture_at_utc": "2026-08-27T20:35:21Z",
-      "current_records": 255,
-      "history_records": 253
+      "last_capture_at_utc": "2026-08-29T17:45:44Z",
+      "current_records": 258,
+      "history_records": 256
     },
     "Mouser": {
-      "last_capture_at_utc": "2026-08-27T22:29:06Z",
-      "current_records": 290,
-      "history_records": 459
+      "last_capture_at_utc": "2026-08-30T18:36:57Z",
+      "current_records": 374,
+      "history_records": 1084
     },
     "TME": {
-      "last_capture_at_utc": "2026-08-27T22:29:08Z",
-      "current_records": 649,
-      "history_records": 934
+      "last_capture_at_utc": "2026-08-30T18:36:58Z",
+      "current_records": 907,
+      "history_records": 2755
     }
   },
   "refresh_planning": {
     "enabled": false,
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
-  "total_current_records": 1236,
-  "total_history_records": 1646
+  "total_current_records": 1584,
+  "total_history_records": 4095
 }

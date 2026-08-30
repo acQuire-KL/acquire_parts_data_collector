@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T17:59:36Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Murata",
+    "input_mpn": "NFM15HC10",
+    "resolved_manufacturer": "Murata Electronics",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "NFM15HC105D0G3D",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 147,
+                    "value": "MURATA"
+                  }
+                ]
+              },
+              {
+                "id": 153,
+                "name": "Type of filter",
+                "values": [
+                  {
+                    "id": 1453776,
+                    "value": "anti-interference"
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "name": "Capacitance",
+                "values": [
+                  {
+                    "id": 1437217,
+                    "value": "1µF"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1448707,
+                    "value": "30mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1620883,
+                    "value": "4V DC"
+                  }
+                ]
+              },
+              {
+                "id": 757,
+                "name": "Max. operating current",
+                "values": [
+                  {
+                    "id": 1453825,
+                    "value": "2A"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620225,
+                    "value": "0402"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620226,
+                    "value": "1005"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1881535,
+                    "value": "EMIFIL"
+                  }
+                ]
+              },
+              {
+                "id": 726,
+                "name": "Roll diameter max.",
+                "values": [
+                  {
+                    "id": 2037643,
+                    "value": "180mm"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

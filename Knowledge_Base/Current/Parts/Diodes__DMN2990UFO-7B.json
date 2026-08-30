@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:40Z",
+  "updated_at_utc": "2026-08-29T17:57:44Z",
   "requested_manufacturer": "Diodes",
   "requested_mpn": "DMN2990UFO-7B",
   "summary": {
+    "input_mpn": "DMN2990UFO-7B",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,19 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Diodes Incorporated",
+        "mpn": "DMN2990UFO",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Consistent - MPN referenced by footprint",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/DMN2990UFO.pdf"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +40,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:38Z",
+        "captured_at_utc": "2026-08-29T17:57:35Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +48,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:40Z",
+        "captured_at_utc": "2026-08-29T17:57:36Z",
         "source_mode": "live_api"
       }
     ]

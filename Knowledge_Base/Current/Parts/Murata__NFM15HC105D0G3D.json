@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:29:09Z",
+  "updated_at_utc": "2026-08-29T17:59:39Z",
   "requested_manufacturer": "Murata",
   "requested_mpn": "NFM15HC105D0G3D",
   "summary": {
+    "input_mpn": "NFM15HC105D0G3D",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser, TME.",
     "providers_matched": [
@@ -12,6 +14,7 @@
       "TME"
     ],
     "engineering_confirmation": "Differences present (1/1 common fields)",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
@@ -26,7 +29,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:29:06Z",
+        "captured_at_utc": "2026-08-29T17:59:26Z",
         "source_mode": "live_api"
       },
       {
@@ -34,7 +37,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:29:08Z",
+        "captured_at_utc": "2026-08-29T17:59:27Z",
         "source_mode": "live_api"
       }
     ]

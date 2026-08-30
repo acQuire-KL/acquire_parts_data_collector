@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:25Z",
+  "updated_at_utc": "2026-08-29T17:57:00Z",
   "requested_manufacturer": "JST Corporation",
   "requested_mpn": "SM02B-SURS-TF",
   "summary": {
+    "input_mpn": "SM02B-SURS-TF",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: Mouser, TME.",
     "providers_matched": [
@@ -11,12 +13,13 @@
       "TME"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
         "execution_status": "no_match",
         "identity_match": false,
-        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Duplicate Products found for sm02b-surs-tf. Please narrow your search or provide manufacturerId\",\"instance\":\"\",\"correlationId\":\"819980ee-65d8-4ff0-a382-fb4b202f1b84\",\"errors\":{}}",
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Duplicate Products found for sm02b-surs-tf. Please narrow your search or provide manufacturerId\",\"instance\":\"\",\"correlationId\":\"b59ee279-b867-401f-96bd-8f4a9975dcb1\",\"errors\":{}}",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -25,7 +28,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:22Z",
+        "captured_at_utc": "2026-08-29T17:56:49Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +36,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:25Z",
+        "captured_at_utc": "2026-08-29T17:56:50Z",
         "source_mode": "live_api"
       }
     ]

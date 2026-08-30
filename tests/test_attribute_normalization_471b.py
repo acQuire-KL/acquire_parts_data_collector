@@ -37,7 +37,7 @@ class TestAttributeNormalisation471b(unittest.TestCase):
             ev("P1", match=True), ev("P2", match=True),
             ev("P3", status="no_match"), ev("P4", status="error", message="timeout")
         ]
-        self.assertEqual(_provider_results_text(evidence), "2 matched; 1 not found; 1 error")
+        self.assertEqual(_provider_results_text(evidence), "2 matched; 1 not listed; 1 error")
 
     def test_success_without_identity_is_unconfirmed(self):
         self.assertEqual(_provider_results_text([ev("P1", status="success", match=False)]), "1 unconfirmed")

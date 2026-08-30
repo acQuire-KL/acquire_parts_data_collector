@@ -1,0 +1,160 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-28T15:43:12Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Molex",
+    "input_mpn": "104031-0811",
+    "resolved_manufacturer": "Molex",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MX-104031-0811",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 162,
+                    "value": "MOLEX"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1453790,
+                    "value": "for cards"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1437405,
+                    "value": "8"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 413,
+                "name": "Contact material",
+                "values": [
+                  {
+                    "id": 1443726,
+                    "value": "copper alloy"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "Contact plating",
+                "values": [
+                  {
+                    "id": 1436303,
+                    "value": "gold-plated"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  }
+                ]
+              },
+              {
+                "id": 419,
+                "name": "Connector variant",
+                "values": [
+                  {
+                    "id": 1454063,
+                    "value": "push-pull"
+                  }
+                ]
+              },
+              {
+                "id": 756,
+                "name": "Kind of card",
+                "values": [
+                  {
+                    "id": 1454062,
+                    "value": "microSD"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819341,
+                    "value": "-25...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 77,
+                "name": "Current rating",
+                "values": [
+                  {
+                    "id": 1439577,
+                    "value": "0.5A"
+                  }
+                ]
+              },
+              {
+                "id": 68,
+                "name": "Enclosure material",
+                "values": [
+                  {
+                    "id": 1448943,
+                    "value": "stainless steel"
+                  }
+                ]
+              },
+              {
+                "id": 328,
+                "name": "Height",
+                "values": [
+                  {
+                    "id": 2078281,
+                    "value": "1.42mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

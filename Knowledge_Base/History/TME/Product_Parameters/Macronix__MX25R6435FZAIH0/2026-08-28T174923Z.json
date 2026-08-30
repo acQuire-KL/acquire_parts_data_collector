@@ -1,0 +1,150 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-28T17:49:23Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Macronix",
+    "input_mpn": "MX25R6435FZAIH0",
+    "resolved_manufacturer": "Macronix",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MX25R6435FZAIH0",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 1419,
+                    "value": "MACRONIX INTERNATIONAL"
+                  }
+                ]
+              },
+              {
+                "id": 367,
+                "name": "Type of integrated circuit",
+                "values": [
+                  {
+                    "id": 1775163,
+                    "value": "FLASH memory"
+                  }
+                ]
+              },
+              {
+                "id": 405,
+                "name": "Kind of memory",
+                "values": [
+                  {
+                    "id": 1551738,
+                    "value": "NOR"
+                  }
+                ]
+              },
+              {
+                "id": 3461,
+                "name": "Memory",
+                "values": [
+                  {
+                    "id": 1978565,
+                    "value": "64Mb FLASH"
+                  }
+                ]
+              },
+              {
+                "id": 375,
+                "name": "Interface",
+                "values": [
+                  {
+                    "id": 1443806,
+                    "value": "SPI"
+                  }
+                ]
+              },
+              {
+                "id": 407,
+                "name": "Memory organisation",
+                "values": [
+                  {
+                    "id": 1444500,
+                    "value": "8Mx8bit"
+                  }
+                ]
+              },
+              {
+                "id": 1481,
+                "name": "Operating frequency",
+                "values": [
+                  {
+                    "id": 1504923,
+                    "value": "80MHz"
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "name": "Operating voltage",
+                "values": [
+                  {
+                    "id": 1453587,
+                    "value": "1.65...3.6V"
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "name": "Case",
+                "values": [
+                  {
+                    "id": 1494585,
+                    "value": "USON8"
+                  }
+                ]
+              },
+              {
+                "id": 3111,
+                "name": "Kind of interface",
+                "values": [
+                  {
+                    "id": 1774881,
+                    "value": "serial"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

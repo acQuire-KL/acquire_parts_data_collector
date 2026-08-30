@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:27:03Z",
+  "updated_at_utc": "2026-08-29T17:52:48Z",
   "requested_manufacturer": "Texas Instruments",
   "requested_mpn": "TPS631010YBGR",
   "summary": {
+    "input_mpn": "TPS631010YBGR",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,7 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +28,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:00Z",
+        "captured_at_utc": "2026-08-29T17:52:38Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +36,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:02Z",
+        "captured_at_utc": "2026-08-29T17:52:38Z",
         "source_mode": "live_api"
       }
     ]

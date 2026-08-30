@@ -5,6 +5,7 @@ import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from threading import RLock
 from typing import Any
 
 from commercial_profile import (
@@ -51,6 +52,7 @@ class KnowledgeBaseManager:
     """Owns PDC's provider-independent current knowledge and history."""
 
     def __init__(self, root: str | Path = "Knowledge_Base") -> None:
+        self._manifest_lock = RLock()
         self.root = Path(root)
         self.current_root = self.root / "Current"
         self.history_root = self.root / "History"
@@ -315,39 +317,41 @@ class KnowledgeBaseManager:
         return path
 
     def _ensure_manifest(self) -> None:
-        if self.manifest_path.exists():
-            manifest = json.loads(self.manifest_path.read_text(encoding="utf-8"))
-            if manifest.get("schema_version") != KNOWLEDGE_BASE_SCHEMA_VERSION:
-                manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
-                self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-            return
-        now = utc_text()
-        manifest = {
-            "knowledge_base_version": "0.2.0",
-            "schema_version": KNOWLEDGE_BASE_SCHEMA_VERSION,
-            "created_at_utc": now,
-            "last_updated_at_utc": now,
-            "providers": {},
-            "refresh_planning": {
-                "enabled": False,
-                "description": "Reserved for staggered periodic refresh scheduling in a later release.",
-            },
-        }
-        self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        with self._manifest_lock:
+            if self.manifest_path.exists():
+                manifest = json.loads(self.manifest_path.read_text(encoding="utf-8"))
+                if manifest.get("schema_version") != KNOWLEDGE_BASE_SCHEMA_VERSION:
+                    manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
+                    self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+                return
+            now = utc_text()
+            manifest = {
+                "knowledge_base_version": "0.2.0",
+                "schema_version": KNOWLEDGE_BASE_SCHEMA_VERSION,
+                "created_at_utc": now,
+                "last_updated_at_utc": now,
+                "providers": {},
+                "refresh_planning": {
+                    "enabled": False,
+                    "description": "Reserved for staggered periodic refresh scheduling in a later release.",
+                },
+            }
+            self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
     def _update_manifest(self, provider: str, captured: datetime) -> None:
-        self._ensure_manifest()
-        manifest = json.loads(self.manifest_path.read_text(encoding="utf-8"))
-        providers = manifest.setdefault("providers", {})
-        entry = providers.setdefault(provider, {})
-        entry["last_capture_at_utc"] = utc_text(captured)
-        entry["current_records"] = self._count_json(self.current_root / safe_name(provider))
-        entry["history_records"] = self._count_json(self.history_root / safe_name(provider))
-        manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
-        manifest["last_updated_at_utc"] = utc_text(captured)
-        manifest["total_current_records"] = self._count_json(self.current_root)
-        manifest["total_history_records"] = self._count_json(self.history_root)
-        self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        with self._manifest_lock:
+            self._ensure_manifest()
+            manifest = json.loads(self.manifest_path.read_text(encoding="utf-8"))
+            providers = manifest.setdefault("providers", {})
+            entry = providers.setdefault(provider, {})
+            entry["last_capture_at_utc"] = utc_text(captured)
+            entry["current_records"] = self._count_json(self.current_root / safe_name(provider))
+            entry["history_records"] = self._count_json(self.history_root / safe_name(provider))
+            manifest["schema_version"] = KNOWLEDGE_BASE_SCHEMA_VERSION
+            manifest["last_updated_at_utc"] = utc_text(captured)
+            manifest["total_current_records"] = self._count_json(self.current_root)
+            manifest["total_history_records"] = self._count_json(self.history_root)
+            self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
     @staticmethod
     def _count_json(folder: Path) -> int:

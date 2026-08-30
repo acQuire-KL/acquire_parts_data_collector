@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-28T15:40:35Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "TDK",
+    "input_mpn": "MPZ0603S121HT000",
+    "resolved_manufacturer": "TDK",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "MPZ0603S121HT000",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 471,
+                    "value": "TDK"
+                  }
+                ]
+              },
+              {
+                "id": 817,
+                "name": "Type of ferrite",
+                "values": [
+                  {
+                    "id": 1457120,
+                    "value": "bead"
+                  }
+                ]
+              },
+              {
+                "id": 571,
+                "name": "Impedance at 100MHz",
+                "values": [
+                  {
+                    "id": 1456297,
+                    "value": "120Ω"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1436750,
+                    "value": "SMD"
+                  }
+                ]
+              },
+              {
+                "id": 370,
+                "name": "Operating current",
+                "values": [
+                  {
+                    "id": 1448509,
+                    "value": "1A"
+                  }
+                ]
+              },
+              {
+                "id": 2932,
+                "name": "Case - inch",
+                "values": [
+                  {
+                    "id": 1620223,
+                    "value": "0201"
+                  }
+                ]
+              },
+              {
+                "id": 2931,
+                "name": "Case - mm",
+                "values": [
+                  {
+                    "id": 1620224,
+                    "value": "0603"
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Resistance",
+                "values": [
+                  {
+                    "id": 1448459,
+                    "value": "0.13Ω"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819330,
+                    "value": "-55...125°C"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

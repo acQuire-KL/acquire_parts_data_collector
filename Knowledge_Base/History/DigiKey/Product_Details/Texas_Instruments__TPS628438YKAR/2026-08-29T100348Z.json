@@ -1,0 +1,689 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-29T10:03:48Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "TPS628438YKAR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": 296,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "993"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "IC REG BUCK PROG 600MA 6DSBGA",
+        "DetailedDescription": "Buck Switching Regulator IC Positive Programmable 1.8V 1 Output 600mA 6-XFBGA, DSBGA"
+      },
+      "Manufacturer": {
+        "Id": 296,
+        "Name": "Texas Instruments"
+      },
+      "ManufacturerProductNumber": "TPS628438YKAR",
+      "UnitPrice": 1.51,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS628438YKAR/18179071",
+      "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/tps62843.pdf?ts=1737538242652&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Facdc-dcdc-converters%252Fproducts.html",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6285/296%7E4223607%7EYKA%7E6.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "296-TPS628438YKARTR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 12000,
+              "UnitPrice": 0.72562,
+              "TotalPrice": 8707.44
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 12000,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 12000,
+          "StandardPackage": 12000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-TPS628438YKARCT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.51,
+              "TotalPrice": 1.51
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.111,
+              "TotalPrice": 11.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.0096,
+              "TotalPrice": 25.24
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8986,
+              "TotalPrice": 89.86
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.84552,
+              "TotalPrice": 211.38
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.81352,
+              "TotalPrice": 406.76
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.80939,
+              "TotalPrice": 809.39
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 14031,
+          "MinimumOrderQuantity": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "296-TPS628438YKARDKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 1.51,
+              "TotalPrice": 1.51
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 1.111,
+              "TotalPrice": 11.11
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 1.0096,
+              "TotalPrice": 25.24
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.8986,
+              "TotalPrice": 89.86
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.84552,
+              "TotalPrice": 211.38
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.81352,
+              "TotalPrice": 406.76
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.80939,
+              "TotalPrice": 809.39
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": false,
+          "Supplier": {
+            "Id": 296,
+            "Name": "Texas Instruments"
+          },
+          "QuantityAvailableforPackageType": 14031,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 14031,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 110,
+          "ParameterText": "Function",
+          "ParameterType": "String",
+          "ValueId": "408308",
+          "ValueText": "Step-Down"
+        },
+        {
+          "ParameterId": 255,
+          "ParameterText": "Output Configuration",
+          "ParameterType": "String",
+          "ValueId": "389019",
+          "ValueText": "Positive"
+        },
+        {
+          "ParameterId": 1098,
+          "ParameterText": "Topology",
+          "ParameterType": "String",
+          "ValueId": "323617",
+          "ValueText": "Buck"
+        },
+        {
+          "ParameterId": 41,
+          "ParameterText": "Output Type",
+          "ParameterType": "String",
+          "ValueId": "390144",
+          "ValueText": "Programmable"
+        },
+        {
+          "ParameterId": 87,
+          "ParameterText": "Number of Outputs",
+          "ParameterType": "String",
+          "ValueId": "39665",
+          "ValueText": "1"
+        },
+        {
+          "ParameterId": 1471,
+          "ParameterText": "Voltage - Input (Min)",
+          "ParameterType": "String",
+          "ValueId": "61153",
+          "ValueText": "1.8V"
+        },
+        {
+          "ParameterId": 573,
+          "ParameterText": "Voltage - Input (Max)",
+          "ParameterType": "String",
+          "ValueId": "233086",
+          "ValueText": "5.5V"
+        },
+        {
+          "ParameterId": 1779,
+          "ParameterText": "Voltage - Output (Min/Fixed)",
+          "ParameterType": "String",
+          "ValueId": "61153",
+          "ValueText": "1.8V"
+        },
+        {
+          "ParameterId": 1429,
+          "ParameterText": "Voltage - Output (Max)",
+          "ParameterType": "String",
+          "ValueId": "177404",
+          "ValueText": "3.6V"
+        },
+        {
+          "ParameterId": 129,
+          "ParameterText": "Current - Output",
+          "ParameterType": "String",
+          "ValueId": "255853",
+          "ValueText": "600mA"
+        },
+        {
+          "ParameterId": 384,
+          "ParameterText": "Frequency - Switching",
+          "ParameterType": "String",
+          "ValueId": "55338",
+          "ValueText": "1.5MHz"
+        },
+        {
+          "ParameterId": 1320,
+          "ParameterText": "Synchronous Rectifier",
+          "ParameterType": "String",
+          "ValueId": "423329",
+          "ValueText": "Yes"
+        },
+        {
+          "ParameterId": 252,
+          "ParameterText": "Operating Temperature",
+          "ParameterType": "String",
+          "ValueId": "212481",
+          "ValueText": "-40°C ~ 125°C (TJ)"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 16,
+          "ParameterText": "Package / Case",
+          "ParameterType": "String",
+          "ValueId": "267796",
+          "ValueText": "6-XFBGA, DSBGA"
+        },
+        {
+          "ParameterId": 1291,
+          "ParameterText": "Supplier Device Package",
+          "ParameterType": "String",
+          "ValueId": "266607",
+          "ValueText": "6-DSBGA (1.05x0.70)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 726611,
+        "Name": "TPS628438"
+      },
+      "Category": {
+        "CategoryId": 32,
+        "ParentId": 0,
+        "Name": "Integrated Circuits (ICs)",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2025,
+            "ParentId": 32,
+            "Name": "Power Management (PMIC)",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+            "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+            "ChildCategories": [
+              {
+                "CategoryId": 739,
+                "ParentId": 2025,
+                "Name": "Voltage Regulators - DC DC Switching Regulators",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/932/150%3B-C04-1196%3B-PHA%3B-32_tmb%2864x64%29.jpg",
+                "SeoDescription": "Products in the DC-DC switching regulator PMIC (Power Management Integrated Circuit) family are component-level devices used in applications requiring stabilization of a DC input voltage and/or transformation thereof to an output voltage of different magnitude. They are distinguished from similar products called \"controller\" PMICs by virtue of integrating the main switching element through which the power delivered by the device passes.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "16",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 818,
+        "Name": "-"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unaffected",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8542.39.0070"
+      },
+      "OtherNames": [
+        "296-TPS628438YKARTR",
+        "296-TPS628438YKAR",
+        "296-TPS628438YKAR-ND",
+        "296-TPS628438YKARCT",
+        "296-TPS628438YKARDKR"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T10:03:48Z",
+    "manufacturer_part_number": "TPS628438YKAR",
+    "product_quantity_available": 14031,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "16",
+    "product_unit_price": 1.51,
+    "offers": [
+      {
+        "provider_part_number": "296-TPS628438YKARCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 14031,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.111,
+            "total_price": 11.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0096,
+            "total_price": 25.24
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8986,
+            "total_price": 89.86
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84552,
+            "total_price": 211.38
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.81352,
+            "total_price": 406.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.80939,
+            "total_price": 809.39
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS628438YKARDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14031,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.111,
+            "total_price": 11.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0096,
+            "total_price": 25.24
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8986,
+            "total_price": 89.86
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84552,
+            "total_price": 211.38
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.81352,
+            "total_price": 406.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.80939,
+            "total_price": 809.39
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS628438YKARTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 12000,
+        "pack_quantity": 12000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.72562,
+            "total_price": 8707.44
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "296-TPS628438YKARCT-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": null,
+        "quantity_available": 14031,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.111,
+            "total_price": 11.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0096,
+            "total_price": 25.24
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8986,
+            "total_price": 89.86
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84552,
+            "total_price": 211.38
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.81352,
+            "total_price": 406.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.80939,
+            "total_price": 809.39
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS628438YKARDKR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 14031,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.51,
+            "total_price": 1.51
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.111,
+            "total_price": 11.11
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.0096,
+            "total_price": 25.24
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.8986,
+            "total_price": 89.86
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.84552,
+            "total_price": 211.38
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.81352,
+            "total_price": 406.76
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.80939,
+            "total_price": 809.39
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "296-TPS628438YKARTR-ND",
+        "supplier": "Texas Instruments",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 12000,
+        "pack_quantity": 12000,
+        "quantity_available": 12000,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": false,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 12000,
+            "unit_price": 0.72562,
+            "total_price": 8707.44
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-29T10:03:48Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "TPS628438YKAR",
+    "provider_part_number": "",
+    "description": "IC REG BUCK PROG 600MA 6DSBGA",
+    "detailed_description": "Buck Switching Regulator IC Positive Programmable 1.8V 1 Output 600mA 6-XFBGA, DSBGA",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tps62843.pdf?ts=1737538242652&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Facdc-dcdc-converters%252Fproducts.html",
+    "product_url": "https://www.digikey.ie/en/products/detail/texas-instruments/TPS628438YKAR/18179071",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6285/296%7E4223607%7EYKA%7E6.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "6-XFBGA, DSBGA",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Function": "Step-Down",
+      "Output Configuration": "Positive",
+      "Topology": "Buck",
+      "Output Type": "Programmable",
+      "Number of Outputs": "1",
+      "Voltage - Input (Min)": "1.8V",
+      "Voltage - Input (Max)": "5.5V",
+      "Voltage - Output (Min/Fixed)": "1.8V",
+      "Voltage - Output (Max)": "3.6V",
+      "Current - Output": "600mA",
+      "Frequency - Switching": "1.5MHz",
+      "Synchronous Rectifier": "Yes",
+      "Operating Temperature": "-40°C ~ 125°C (TJ)",
+      "Mounting Type": "Surface Mount",
+      "Package / Case": "6-XFBGA, DSBGA",
+      "Supplier Device Package": "6-DSBGA (1.05x0.70)"
+    },
+    "compliance": {}
+  }
+}

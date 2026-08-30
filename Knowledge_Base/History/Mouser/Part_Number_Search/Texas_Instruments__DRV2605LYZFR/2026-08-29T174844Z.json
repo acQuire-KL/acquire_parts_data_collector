@@ -1,0 +1,476 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T17:48:44Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "DRV2605LYZFR",
+    "resolved_manufacturer": "Texas Instruments",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "2142 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Motor/Motion/Ignition Controllers & Drivers Low voltage ERM/LRA Driver A 595-DRV2605 A 595-DRV2605LYZFT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_DSBGA-9_YFF_t.JPG",
+          "Category": "Motor/Motion/Ignition Controllers & Drivers",
+          "LeadTime": "182 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "DRV2605LYZFR",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-DRV2605LYZFR",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.61",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.18",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.955",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.903",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.869",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.857",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3000,
+              "Price": "€0.803",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 6000,
+              "Price": "€0.801",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "DRV2605LYZFT"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/DRV2605LYZFR?qs=7z%252BmIopC6%2FIPohzEGVWenA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-DRV2605LYZFT",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 2.5e-06
+          },
+          "AvailabilityInStock": "2142",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        },
+        {
+          "Availability": "409 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Motor/Motion/Ignition Controllers & Drivers Haptic Driver A 595- DRV2605LYZFR A 595- A 595-DRV2605LYZFR",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_DSBGA-9_YFF_t.JPG",
+          "Category": "Motor/Motion/Ignition Controllers & Drivers",
+          "LeadTime": "63 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Texas Instruments",
+          "ManufacturerPartNumber": "DRV2605LYZFT",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "595-DRV2605LYZFT",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "250"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.35",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.87",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.74",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.61",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.50",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.47",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.46",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "DRV2605LYZFR"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/DRV2605LYZFT?qs=s5SkPsIz10%2FWt6JoX%2FHfsQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "595-DRV2605LYZFR",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-06
+          },
+          "AvailabilityInStock": "409",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542399000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542390000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542310030"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "854239099"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542399901"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Philippines"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T17:48:44Z",
+    "manufacturer_part_number": "DRV2605LYZFR",
+    "product_quantity_available": 2142,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "182 Days",
+    "product_unit_price": 1.61,
+    "offers": [
+      {
+        "provider_part_number": "595-DRV2605LYZFR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2142,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.955,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.869,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.857,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.803,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.801,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "595-DRV2605LYZFR",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 2142,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.61,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.18,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.955,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.903,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.869,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.857,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3000,
+            "unit_price": 0.803,
+            "total_price": null
+          },
+          {
+            "break_quantity": 6000,
+            "unit_price": 0.801,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T17:48:44Z",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_part_number": "DRV2605LYZFR",
+    "provider_part_number": "595-DRV2605LYZFR",
+    "description": "Motor/Motion/Ignition Controllers & Drivers Low voltage ERM/LRA Driver A 595-DRV2605 A 595-DRV2605LYZFT",
+    "detailed_description": "Motor/Motion/Ignition Controllers & Drivers Low voltage ERM/LRA Driver A 595-DRV2605 A 595-DRV2605LYZFT",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Texas-Instruments/DRV2605LYZFR?qs=7z%252BmIopC6%2FIPohzEGVWenA%3D%3D",
+    "image_url": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_DSBGA-9_YFF_t.JPG",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3000"
+    },
+    "compliance": {
+      "TARIC": "8542399000",
+      "CNHTS": "8542399000",
+      "CAHTS": "8542390000",
+      "USHTS": "8542310030",
+      "JPHTS": "854239099",
+      "MXHTS": "8542399901",
+      "ECCN": "EAR99"
+    }
+  }
+}

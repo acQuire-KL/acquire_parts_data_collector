@@ -1,0 +1,69 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-28T17:49:23Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Macronix",
+    "input_mpn": "MX25R6435FZAIH0",
+    "resolved_manufacturer": "Macronix",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 0,
+          "symbol": "MX25R6435FZAIH0",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 2.02,
+                "special": false
+              },
+              {
+                "amount": 5,
+                "price": 1.88,
+                "special": false
+              },
+              {
+                "amount": 25,
+                "price": 1.73,
+                "special": false
+              },
+              {
+                "amount": 100,
+                "price": 1.53,
+                "special": false
+              },
+              {
+                "amount": 490,
+                "price": 1.33,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

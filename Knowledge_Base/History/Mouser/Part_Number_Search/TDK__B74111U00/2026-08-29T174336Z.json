@@ -1,0 +1,575 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T17:43:36Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "TDK",
+    "input_mpn": "B74111U00",
+    "resolved_manufacturer": "TDK",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "18427 In Stock",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes 5VDC 15kV 7A@8/20us 0.48pF 1nA@3.3V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tdk/images/B74111U0033M060_t.jpg",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TDK",
+          "ManufacturerPartNumber": "B74111U0033M060",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "871-B74111U0033M060",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "20000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.37",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.163",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.142",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.106",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.088",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.074",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.071",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.062",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.053",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TDK/B74111U0033M060?qs=TuK3vfAjtkXTafVoGBPbWA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "18427",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8541590000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "19970 In Stock",
+          "DataSheetUrl": "",
+          "Description": "ESD Protection Diodes / TVS Diodes 5.5VDC 15kV 7Aa.8/20us 0.45pF 1nAa.5.5V",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/tdk/images/B74111U0055M060_SPL.JPG",
+          "Category": "ESD Protection Diodes / TVS Diodes",
+          "LeadTime": "84 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "TDK",
+          "ManufacturerPartNumber": "B74111U0055M060",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "871-B74111U0055M060",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "20000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.327",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.16",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.114",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.091",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.082",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.073",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.07",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.061",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.055",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/TDK/B74111U0055M060?qs=T%252BzbugeAwjgHXlQOHfM2hg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "19970",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8541100000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536300000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8541100090"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8541100080"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Austria"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T17:43:36Z",
+    "manufacturer_part_number": "B74111U0033M060",
+    "product_quantity_available": 18427,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "84 Days",
+    "product_unit_price": 0.37,
+    "offers": [
+      {
+        "provider_part_number": "871-B74111U0033M060",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 18427,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.163,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.106,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.088,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.062,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.053,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "871-B74111U0055M060",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 19970,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.327,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.16,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.114,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.091,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.082,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.073,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.061,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.055,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 2,
+    "variation_count": 2,
+    "variations": [
+      {
+        "provider_part_number": "871-B74111U0033M060",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 18427,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.37,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.163,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.142,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.106,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.088,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.074,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.071,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.062,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.053,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "871-B74111U0055M060",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 19970,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.327,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.16,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.114,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.091,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.082,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.073,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.07,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.061,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.055,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T17:43:36Z",
+    "manufacturer": "TDK",
+    "manufacturer_part_number": "B74111U0033M060",
+    "provider_part_number": "871-B74111U0033M060",
+    "description": "ESD Protection Diodes / TVS Diodes 5VDC 15kV 7A@8/20us 0.48pF 1nA@3.3V",
+    "detailed_description": "ESD Protection Diodes / TVS Diodes 5VDC 15kV 7A@8/20us 0.48pF 1nA@3.3V",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/TDK/B74111U0033M060?qs=TuK3vfAjtkXTafVoGBPbWA%3D%3D",
+    "image_url": "https://www.mouser.com/images/tdk/images/B74111U0033M060_t.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "20000"
+    },
+    "compliance": {
+      "TARIC": "8541100000",
+      "CNHTS": "8541590000",
+      "CAHTS": "8541100090",
+      "USHTS": "8541100080",
+      "ECCN": "EAR99"
+    }
+  }
+}

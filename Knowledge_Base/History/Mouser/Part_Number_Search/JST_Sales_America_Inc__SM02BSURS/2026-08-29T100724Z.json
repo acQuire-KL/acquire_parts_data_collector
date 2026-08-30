@@ -1,0 +1,327 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T10:07:24Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "JST Corporation",
+    "input_mpn": "SM02BSURS",
+    "resolved_manufacturer": "JST Sales America Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "36575 In Stock",
+          "DataSheetUrl": "https://www.mouser.com/datasheet/3/1070/1/eSUR.pdf",
+          "Description": "Headers & Wire Housings SUR HEADER (SMT/SIDE TYPE)",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/jstcommercial/images/04SUR-32S_SPL.jpg",
+          "Category": "Headers & Wire Housings",
+          "LeadTime": "180 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "JST Commercial",
+          "ManufacturerPartNumber": "SM02B-SURS-TF(LF)(SN)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "306-SM02BSURSTFLFSN",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "3500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.482",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.409",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.348",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.311",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.296",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 3500,
+              "Price": "€0.271",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 7000,
+              "Price": "€0.257",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10500,
+              "Price": "€0.25",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/SM02B-SURS-TFLFSN?qs=QpmGXVUTftFrZbs0jsr8fg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "36575",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 17500,
+              "Date": "2026-10-20T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Malaysia"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T10:07:24Z",
+    "manufacturer_part_number": "SM02B-SURS-TF(LF)(SN)",
+    "product_quantity_available": 36575,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "180 Days",
+    "product_unit_price": 0.482,
+    "offers": [
+      {
+        "provider_part_number": "306-SM02BSURSTFLFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36575,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.482,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.348,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.311,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.296,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.271,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.257,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10500,
+            "unit_price": 0.25,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "306-SM02BSURSTFLFSN",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 36575,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.482,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.348,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.311,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.296,
+            "total_price": null
+          },
+          {
+            "break_quantity": 3500,
+            "unit_price": 0.271,
+            "total_price": null
+          },
+          {
+            "break_quantity": 7000,
+            "unit_price": 0.257,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10500,
+            "unit_price": 0.25,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T10:07:24Z",
+    "manufacturer": "JST Commercial",
+    "manufacturer_part_number": "SM02B-SURS-TF(LF)(SN)",
+    "provider_part_number": "306-SM02BSURSTFLFSN",
+    "description": "Headers & Wire Housings SUR HEADER (SMT/SIDE TYPE)",
+    "detailed_description": "Headers & Wire Housings SUR HEADER (SMT/SIDE TYPE)",
+    "datasheet_url": "https://www.mouser.com/datasheet/3/1070/1/eSUR.pdf",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/JST-Commercial/SM02B-SURS-TFLFSN?qs=QpmGXVUTftFrZbs0jsr8fg%3D%3D",
+    "image_url": "https://www.mouser.com/images/jstcommercial/images/04SUR-32S_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "3500"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CNHTS": "8536901100",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

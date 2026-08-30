@@ -1,0 +1,501 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-28T15:41:47Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Hirose Electric Co Ltd",
+    "input_mpn": "BM28B0.6-6DP_2-0.35V_51_",
+    "resolved_manufacturer": "Hirose Electric Co Ltd",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "None",
+          "DataSheetUrl": "",
+          "Description": "Board to Board & Mezzanine Connectors",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/hiroseelectric/images/BM28B0.6-46DP_SPL.jpg",
+          "Category": "Board to Board & Mezzanine Connectors",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Hirose Connector",
+          "ManufacturerPartNumber": "BM28B0.6-6DP/2-0.35V(51)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "798-28066DP2035V51",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "20000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.671",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.567",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.506",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.482",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.43",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.409",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.384",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.378",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10000,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 20000,
+              "Price": "€0.344",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "BM28B0.6-6DP/2-0.35V(53)"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/BM28B0.6-6DP-2-0.35V51?qs=T3oQrply3y%2FM1wQ2gqV8bg%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "0",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "149 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Board to Board & Mezzanine Connectors",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/hiroseelectric/images/BM28B0.6-46DP_SPL.jpg",
+          "Category": "Board to Board & Mezzanine Connectors",
+          "LeadTime": "71 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Hirose Connector",
+          "ManufacturerPartNumber": "BM28B0.6-6DP/2-0.35V(53)",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "798-28066DP2035V53",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "1000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.86",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.731",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.653",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.622",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.583",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.555",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.517",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€0.486",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€0.47",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "BM28B0.6-6DP/2-0.35V(51)"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/BM28B0.6-6DP-2-0.35V53?qs=T3oQrply3y8FLgfJ2pfEtA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3e-06
+          },
+          "AvailabilityInStock": "149",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 2000,
+              "Date": "2026-10-27T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Japan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-28T15:41:47Z",
+    "manufacturer_part_number": "BM28B0.6-6DP/2-0.35V(51)",
+    "product_quantity_available": 0,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": 0.671,
+    "offers": [
+      {
+        "provider_part_number": "798-28066DP2035V51",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.671,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.567,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.506,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.482,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.384,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.378,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.344,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "798-28066DP2035V51",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.671,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.567,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.506,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.482,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.43,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.409,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.384,
+            "total_price": null
+          },
+          {
+            "break_quantity": 5000,
+            "unit_price": 0.378,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10000,
+            "unit_price": 0.344,
+            "total_price": null
+          },
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.344,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-28T15:41:47Z",
+    "manufacturer": "Hirose Connector",
+    "manufacturer_part_number": "BM28B0.6-6DP/2-0.35V(51)",
+    "provider_part_number": "798-28066DP2035V51",
+    "description": "Board to Board & Mezzanine Connectors",
+    "detailed_description": "Board to Board & Mezzanine Connectors",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Hirose-Connector/BM28B0.6-6DP-2-0.35V51?qs=T3oQrply3y%2FM1wQ2gqV8bg%3D%3D",
+    "image_url": "https://www.mouser.com/images/hiroseelectric/images/BM28B0.6-46DP_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Cut Tape",
+      "Standard Pack Qty": "20000"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "MXHTS": "8536699999",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

@@ -1,30 +1,44 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:27:11Z",
+  "updated_at_utc": "2026-08-29T17:53:03Z",
   "requested_manufacturer": "Texas Instruments",
   "requested_mpn": "TPS628438YKA",
   "summary": {
-    "match_status": "Matched",
-    "reason": "Identity matched by: Mouser.",
-    "providers_matched": [
-      "Mouser"
+    "input_mpn": "TPS628438YKA",
+    "identity_recovery_source": "",
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "identity_candidates": [
+      {
+        "manufacturer": "Texas Instruments",
+        "mpn": "TPS628438YKAR",
+        "relationship": "Orderable suffix variant candidate",
+        "sources": [
+          "Mouser",
+          "DigiKey"
+        ],
+        "package": "6-XFBGA, DSBGA",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.ti.com/lit/ds/symlink/tps62843.pdf?ts=1737538242652&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Facdc-dcdc-converters%252Fproducts.html"
+      }
     ],
-    "engineering_confirmation": "Single provider evidence",
     "providers": [
       {
         "provider": "DigiKey",
         "execution_status": "no_match",
         "identity_match": false,
-        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product tps628438yka Not Found\",\"instance\":\"\",\"correlationId\":\"fdcfe70d-9fbd-48b8-a880-399d8039341c\",\"errors\":{}}",
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product tps628438yka Not Found\",\"instance\":\"\",\"correlationId\":\"d37b8cab-6a3e-4009-f9ad-10ea1af32809\",\"errors\":{}}",
         "captured_at_utc": "",
         "source_mode": ""
       },
       {
         "provider": "Mouser",
         "execution_status": "success",
-        "identity_match": true,
+        "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:08Z",
+        "captured_at_utc": "2026-08-29T17:52:56Z",
         "source_mode": "live_api"
       },
       {
@@ -32,7 +46,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:10Z",
+        "captured_at_utc": "2026-08-29T17:52:57Z",
         "source_mode": "live_api"
       }
     ]

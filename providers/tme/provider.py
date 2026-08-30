@@ -55,11 +55,14 @@ class TmeProvider(BaseProvider):
         del manufacturer_id, force
         manufacturer = resolved_manufacturer or input_manufacturer or "Unknown"
 
-        search = self.client.search_products(mpn)
+        # Reuse one authentication token across the three TME endpoints.  Prior
+        # behaviour authenticated separately for Search, Data and Parameters.
+        access_token = self.client.access_token()
+        search = self.client.search_products(mpn, access_token=access_token)
         # Search result symbol is the safest product key for subsequent TME endpoints.
         symbol = self._first_symbol(search) or mpn
-        data = self.client.get_product_data(symbol)
-        parameters = self.client.get_product_parameters(symbol)
+        data = self.client.get_product_data(symbol, access_token=access_token)
+        parameters = self.client.get_product_parameters(symbol, access_token=access_token)
 
         search_record = self.knowledge_base.save_raw_provider_response(
             provider=self.name, endpoint="Product_Search", manufacturer=manufacturer,

@@ -1,0 +1,41 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-30T18:36:44Z",
+  "requested_manufacturer": "Hirose",
+  "requested_mpn": "BM28B0.6-6DS/2-0.35V(51)",
+  "summary": {
+    "input_mpn": "BM28B0.6-6DS/2-0.35V(51)",
+    "identity_recovery_source": "",
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed. Errors: DigiKey, TME.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "identity_candidates": [],
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "Manufacturer resolution REVIEW: Manufacturer could not be resolved uniquely; best candidate was 'Hirose Electric Co Ltd'. (best='Hirose Electric Co Ltd', confidence=0.95)",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-30T18:36:28Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "TME product data failed: HTTP 400. Response: {\"code\":\"E_INPUT_PARAMS_VALIDATION_ERROR\",\"error_code\":6,\"message\":\"Input data is not valid.\",\"error_code_erp\":null,\"error_data\":[{\"field\":\"symbols[0]\",\"message\":\"Product symbol should contain between 2 to 18 characters.\",\"value\":\"\"}]}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      }
+    ]
+  }
+}

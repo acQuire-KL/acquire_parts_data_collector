@@ -1,0 +1,336 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T10:09:17Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Mill-Max",
+    "input_mpn": "09000152",
+    "resolved_manufacturer": "Mill-Max Manufacturing Corp.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "76405 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Contact Probes Surface Mount Spring-Loaded Pin",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/mill-max/images/0900-0-15-20-76-14-11-0_SPL.jpg",
+          "Category": "Contact Probes",
+          "LeadTime": "21 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Mill-Max",
+          "ManufacturerPartNumber": "0900-0-15-20-76-14-11-0",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "575-0900015207614110",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Bulk"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "25000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€0.662",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€0.565",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€0.53",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 50,
+              "Price": "€0.505",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€0.481",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€0.451",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€0.429",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€0.401",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.372",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Mill-Max/0900-0-15-20-76-14-11-0?qs=Ld4zsxSTIA7FurGqpofXEg%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant By Exemption",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 3.06e-05
+          },
+          "AvailabilityInStock": "76405",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536901000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536901100"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536900020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536904000"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853690000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536909010"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536902800"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85369090"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "United States"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T10:09:17Z",
+    "manufacturer_part_number": "0900-0-15-20-76-14-11-0",
+    "product_quantity_available": 76405,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "21 Days",
+    "product_unit_price": 0.662,
+    "offers": [
+      {
+        "provider_part_number": "575-0900015207614110",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 76405,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.565,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.505,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.481,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.451,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.429,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.401,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.372,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "575-0900015207614110",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 76405,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.662,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.565,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.53,
+            "total_price": null
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.505,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.481,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.451,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.429,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.401,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.372,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T10:09:17Z",
+    "manufacturer": "Mill-Max",
+    "manufacturer_part_number": "0900-0-15-20-76-14-11-0",
+    "provider_part_number": "575-0900015207614110",
+    "description": "Contact Probes Surface Mount Spring-Loaded Pin",
+    "detailed_description": "Contact Probes Surface Mount Spring-Loaded Pin",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Mill-Max/0900-0-15-20-76-14-11-0?qs=Ld4zsxSTIA7FurGqpofXEg%3D%3D",
+    "image_url": "https://www.mouser.com/images/mill-max/images/0900-0-15-20-76-14-11-0_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant By Exemption",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Bulk",
+      "Standard Pack Qty": "25000"
+    },
+    "compliance": {
+      "TARIC": "8536901000",
+      "CNHTS": "8536901100",
+      "CAHTS": "8536900020",
+      "USHTS": "8536904000",
+      "JPHTS": "853690000",
+      "KRHTS": "8536909010",
+      "MXHTS": "8536902800",
+      "BRHTS": "85369090",
+      "ECCN": "EAR99"
+    }
+  }
+}

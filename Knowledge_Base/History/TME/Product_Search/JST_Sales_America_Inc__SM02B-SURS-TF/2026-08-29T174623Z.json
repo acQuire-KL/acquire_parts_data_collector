@@ -1,0 +1,72 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T17:46:23Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "JST Corporation",
+    "input_mpn": "SM02B-SURS-TF",
+    "resolved_manufacturer": "JST Sales America Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "SM02B-SURS-TF",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 100184,
+              "name": "Other connectors"
+            },
+            "manufacturer_symbols": [
+              "SM02B-SURS-TF (LF)(SN)"
+            ],
+            "manufacturer": {
+              "id": 475,
+              "name": "JST"
+            },
+            "description": "Connector: wire-board; socket; male; SUR; PIN: 2; horizontal; SMT",
+            "multiples": 3500,
+            "minimal_amount": 3500,
+            "weight": {
+              "value": 0.068,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 3500
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

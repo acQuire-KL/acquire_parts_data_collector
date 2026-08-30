@@ -1,0 +1,120 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T17:56:57Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "JST Corporation",
+    "input_mpn": "SM02BSURST",
+    "resolved_manufacturer": "JST Sales America Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "SM02B-SURS-TF",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 475,
+                    "value": "JST"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Type of connector",
+                "values": [
+                  {
+                    "id": 1443400,
+                    "value": "wire-board"
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Connector",
+                "values": [
+                  {
+                    "id": 1436410,
+                    "value": "socket"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Kind of connector",
+                "values": [
+                  {
+                    "id": 1436301,
+                    "value": "male"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 2052938,
+                    "value": "SUR"
+                  }
+                ]
+              },
+              {
+                "id": 412,
+                "name": "Number of pins",
+                "values": [
+                  {
+                    "id": 1443406,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 2555,
+                "name": "Spatial orientation",
+                "values": [
+                  {
+                    "id": 1443442,
+                    "value": "horizontal"
+                  }
+                ]
+              },
+              {
+                "id": 1247,
+                "name": "Electrical mounting",
+                "values": [
+                  {
+                    "id": 1443394,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 426,
+                "name": "Contacts pitch",
+                "values": [
+                  {
+                    "id": 1443390,
+                    "value": "0.8mm"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

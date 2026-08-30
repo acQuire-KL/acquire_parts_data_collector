@@ -1,0 +1,69 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T17:45:44Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Molex",
+    "input_mpn": "0781710003",
+    "resolved_manufacturer": "Molex",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "MX-78171-0003",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113398,
+              "name": "Raster signal connectors 1,20mm"
+            },
+            "manufacturer_symbols": [
+              "78171-0003",
+              "0781710003"
+            ],
+            "manufacturer": {
+              "id": 162,
+              "name": "MOLEX"
+            },
+            "description": "Connector: wire-board; socket; male; PIN: 3; Pico-EZMate; SMT; 1.2mm",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.127,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/C1/90/00/0/597168_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=b99357b0a19894dd8a9d9fb0848a66298a9f3cae",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/C1/90/00/0/597168_1.jpg?width=100&height=75&q=75&ci_sign=691b3f548fcb4a9e0686e6f74c39470f02e19aa8",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/0B/C1/90/00/0/597168_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=dac5c6a4cd1dde9d701b04e40ba779765a4c0340"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

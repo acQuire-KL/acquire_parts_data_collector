@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:49Z",
+  "updated_at_utc": "2026-08-30T18:36:58Z",
   "requested_manufacturer": "Abracon",
   "requested_mpn": "AOTA-N160808S-2R2MT",
   "summary": {
+    "input_mpn": "AOTA-N160808S-2R2MT",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser. Errors: TME.",
     "providers_matched": [
@@ -11,6 +13,96 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Abracon LLC",
+        "mpn": "AOTA-N160808S-1R0MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://abracon.com/datasheets/AOTA-N160808S.pdf"
+      },
+      {
+        "manufacturer": "ABRACON",
+        "mpn": "AOTA-N160808S-1R0MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/AOTA_N160808S.pdf"
+      },
+      {
+        "manufacturer": "Abracon LLC",
+        "mpn": "AOTA-N160808S-R24MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://abracon.com/datasheets/AOTA-N160808S.pdf"
+      },
+      {
+        "manufacturer": "ABRACON",
+        "mpn": "AOTA-N160808S-R24MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/AOTA_N160808S.pdf"
+      },
+      {
+        "manufacturer": "Abracon LLC",
+        "mpn": "AOTA-N160808S-R47MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://abracon.com/datasheets/AOTA-N160808S.pdf"
+      },
+      {
+        "manufacturer": "ABRACON",
+        "mpn": "AOTA-N160808S-R47MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/AOTA_N160808S.pdf"
+      },
+      {
+        "manufacturer": "Abracon LLC",
+        "mpn": "AOTA-N160808S-R56MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://abracon.com/datasheets/AOTA-N160808S.pdf"
+      },
+      {
+        "manufacturer": "ABRACON",
+        "mpn": "AOTA-N160808S-R56MT",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/AOTA_N160808S.pdf"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +117,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:48Z",
+        "captured_at_utc": "2026-08-30T18:36:44Z",
         "source_mode": "live_api"
       },
       {

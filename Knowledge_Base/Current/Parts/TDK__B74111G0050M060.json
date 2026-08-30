@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:27:44Z",
+  "updated_at_utc": "2026-08-29T17:55:00Z",
   "requested_manufacturer": "TDK",
   "requested_mpn": "B74111G0050M060",
   "summary": {
+    "input_mpn": "B74111G0050M060",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,7 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +28,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:42Z",
+        "captured_at_utc": "2026-08-29T17:54:48Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +36,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:44Z",
+        "captured_at_utc": "2026-08-29T17:54:49Z",
         "source_mode": "live_api"
       }
     ]

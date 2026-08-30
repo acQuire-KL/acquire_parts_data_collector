@@ -1,0 +1,26 @@
+PDC Sprint 4.7.2a — Operational Provider Presentation, Lead-Time Normalisation & Performance
+
+Baseline:
+  Sprint 4.7.2
+
+Apply:
+  Extract this patch into the repository root, allowing files to overwrite.
+
+Regression:
+  py -m unittest discover -s tests -p "test*.py"
+
+Expected:
+  Ran 253 tests
+  OK
+
+Operational validation:
+  py main.py --input "input/gb-mini-board-v0.1-draft2.csv"
+
+Key expected behaviour:
+- Provider #1/#2/#3 are filled only by providers with useful commercial data for that BOM row.
+- Lead time displays in whole weeks, rounded up.
+- Zero/0 Days displays as Request Delivery Quote.
+- "Week 45" is treated as an ISO delivery week, not a 45-week lead time.
+- Provider detail calls run concurrently per BOM row.
+- TME reuses one access token across Search/Data/Parameters.
+- Console and BOM Review Summary include provider timing/activity diagnostics.

@@ -1,0 +1,66 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T17:42:02Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Texas Instruments",
+    "input_mpn": "BQ27426YZFT",
+    "resolved_manufacturer": "Texas Instruments",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [
+              "BLOCKED_FOR_ZBL_BACKORDERS"
+            ],
+            "symbol": "BQ27426YZFT",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 112884,
+              "name": "Battery and battery cells controllers"
+            },
+            "manufacturer_symbols": [
+              "BQ27426YZFT"
+            ],
+            "manufacturer": {
+              "id": 77,
+              "name": "TEXAS INSTRUMENTS"
+            },
+            "description": "IC: PMIC; battery charging controller; Iout: 500uA; DSBGA9",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.1,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": []
+            },
+            "assets": {
+              "primary_photo": null
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

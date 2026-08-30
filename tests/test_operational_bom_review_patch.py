@@ -42,9 +42,9 @@ class OperationalBomReviewCorrectivePatchTests(unittest.TestCase):
             ProviderEvidence("TME", "no_match"),
         ]
         text = _provider_evidence_text(evidence)
-        self.assertIn("DigiKey: not found", text)
+        self.assertIn("DigiKey: not listed", text)
         self.assertIn("Mouser: success", text)
-        self.assertIn("TME: not found", text)
+        self.assertIn("TME: not listed", text)
         self.assertNotIn("tools.ietf.org", text)
         self.assertNotIn("Requested Product", text)
 
@@ -60,21 +60,21 @@ class OperationalBomReviewCorrectivePatchTests(unittest.TestCase):
         ])
         self.assertEqual("Mouser: rate limited", text)
 
-    def test_ordering_suffix_r_is_identity_equivalent(self):
-        self.assertTrue(mpn_identity_equivalent("TPS628438YKA", "TPS628438YKAR"))
+    def test_ordering_suffix_r_is_not_auto_identity_equivalent(self):
+        self.assertFalse(mpn_identity_equivalent("TPS628438YKA", "TPS628438YKAR"))
 
-    def test_ordering_suffix_t_is_identity_equivalent(self):
-        self.assertTrue(mpn_identity_equivalent("MAX40203ANS", "MAX40203ANS+T"))
+    def test_ordering_suffix_t_is_not_auto_identity_equivalent(self):
+        self.assertFalse(mpn_identity_equivalent("MAX40203ANS", "MAX40203ANS+T"))
 
     def test_arbitrary_prefix_is_not_identity_equivalent(self):
         self.assertFalse(mpn_identity_equivalent("ABC123", "ABC123XYZ"))
 
-    def test_provider_identity_accepts_ordering_suffix_with_same_manufacturer(self):
+    def test_provider_identity_does_not_auto_accept_ordering_suffix(self):
         profile = {
             "manufacturer": "Texas Instruments",
             "manufacturer_part_number": "TPS628438YKAR",
         }
-        self.assertTrue(
+        self.assertFalse(
             provider_identity_match("Texas Instruments", "TPS628438YKA", profile)
         )
 

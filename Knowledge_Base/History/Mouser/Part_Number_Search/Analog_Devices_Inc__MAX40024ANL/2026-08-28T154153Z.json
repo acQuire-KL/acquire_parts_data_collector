@@ -1,0 +1,408 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-28T15:41:53Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "MAX40024ANL+",
+    "resolved_manufacturer": "Analog Devices Inc.",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 2,
+      "Parts": [
+        {
+          "Availability": "561 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Low-Power, Precision , Instrumentation A",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/maxim/images/WLP-9.jpg",
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Restricted Availability",
+          "Manufacturer": "Analog Devices / Maxim Integrated",
+          "ManufacturerPartNumber": "MAX40024ANL+",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "700-MAX40024ANL+",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.92",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.42",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.29",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.15",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.09",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€0.912",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MAX40024ANL+T"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40024ANL%2b?qs=QNEnbhJQKvYZYgxAvCIY9A%3D%3D",
+          "Reeling": false,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "561",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "United States"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        },
+        {
+          "Availability": "2935 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Operational Amplifiers - Op Amps Low-Power, Precision, Instrumentation Am",
+          "FactoryStock": "0",
+          "ImagePath": null,
+          "Category": "Operational Amplifiers - Op Amps",
+          "LeadTime": "0 Days",
+          "LifecycleStatus": "Restricted Availability",
+          "Manufacturer": "Analog Devices / Maxim Integrated",
+          "ManufacturerPartNumber": "MAX40024ANL+T",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "700-MAX40024ANL+T",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2500"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€2.44",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.84",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.63",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.50",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.43",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.39",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.33",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2500,
+              "Price": "€1.28",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 5000,
+              "Price": "€1.26",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": [
+            {
+              "APMfrPN": "MAX40024ANL+"
+            }
+          ],
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40024ANL%2bT?qs=Wj%2FVkw3K%252BMCrO8c8YX2rPQ%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "AvailabilityInStock": "2935",
+          "AvailabilityOnOrder": [],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8542339000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8542330000"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8542330001"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8542330299"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "Taiwan"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-28T15:41:53Z",
+    "manufacturer_part_number": "MAX40024ANL+",
+    "product_quantity_available": 561,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "0 Days",
+    "product_unit_price": 1.92,
+    "offers": [
+      {
+        "provider_part_number": "700-MAX40024ANL+",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 561,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.42,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.912,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "700-MAX40024ANL+",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 561,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.92,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.42,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.29,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.15,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.09,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.912,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-28T15:41:53Z",
+    "manufacturer": "Analog Devices / Maxim Integrated",
+    "manufacturer_part_number": "MAX40024ANL+",
+    "provider_part_number": "700-MAX40024ANL+",
+    "description": "Operational Amplifiers - Op Amps Low-Power, Precision , Instrumentation A",
+    "detailed_description": "Operational Amplifiers - Op Amps Low-Power, Precision , Instrumentation A",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40024ANL%2b?qs=QNEnbhJQKvYZYgxAvCIY9A%3D%3D",
+    "image_url": "https://www.mouser.com/images/maxim/images/WLP-9.jpg",
+    "lifecycle_status": "Restricted Availability",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "Cut Tape",
+      "Standard Pack Qty": "2500"
+    },
+    "compliance": {
+      "CAHTS": "8542330000",
+      "USHTS": "8542330001",
+      "MXHTS": "8542330299",
+      "ECCN": "EAR99"
+    }
+  }
+}

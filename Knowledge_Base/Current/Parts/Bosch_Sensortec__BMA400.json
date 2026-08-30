@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:47Z",
+  "updated_at_utc": "2026-08-29T17:58:09Z",
   "requested_manufacturer": "Bosch Sensortec",
   "requested_mpn": "BMA400",
   "summary": {
+    "input_mpn": "BMA400",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser.",
     "providers_matched": [
@@ -11,6 +13,41 @@
       "Mouser"
     ],
     "engineering_confirmation": "Multiple providers; insufficient common fields",
+    "identity_candidates": [
+      {
+        "manufacturer": "Bosch Sensortec",
+        "mpn": "BMA400 Shuttle Board",
+        "relationship": "Different variant candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/catalog/specsheets/BST_DHW_FL035-5184327.pdf"
+      },
+      {
+        "manufacturer": "Bosch Sensortec",
+        "mpn": "BMA400 Shuttle Board 3.0",
+        "relationship": "Different variant candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.mouser.com/datasheet/3/1046/1/bst_bma400_sf000.pdf"
+      },
+      {
+        "manufacturer": "Bosch Sensortec",
+        "mpn": "SHUTTLE BOARD 3.0 BMA400",
+        "relationship": "Different variant candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/shuttle_board_flyer/application_board_3_1/bst-bma400-sf000.pdf"
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -25,7 +62,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:44Z",
+        "captured_at_utc": "2026-08-29T17:58:07Z",
         "source_mode": "live_api"
       },
       {
@@ -33,7 +70,7 @@
         "execution_status": "success",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:47Z",
+        "captured_at_utc": "2026-08-29T17:58:08Z",
         "source_mode": "live_api"
       }
     ]

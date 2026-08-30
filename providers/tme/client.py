@@ -82,6 +82,10 @@ class TmeClient:
             "TME authentication succeeded, but no access token was found in the response"
         )
 
+    def access_token(self) -> str:
+        """Obtain one access token for a logical multi-endpoint provider operation."""
+        return self._extract_access_token(self.obtain_access_token())
+
     def _authorised_headers(self, access_token: str, *, anonymous: bool) -> dict[str, str]:
         headers = {
             "Accept": "application/json",

@@ -1,0 +1,54 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-29T17:45:08Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Panasonic",
+    "input_mpn": "ERBRD1R5",
+    "resolved_manufacturer": "Panasonic",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "stock_quantity": 8324,
+          "symbol": "ERBRD1R50X",
+          "unit": {
+            "id": "ST",
+            "short_name": "pcs",
+            "singular_translation": "Piece",
+            "plural_translation": null
+          },
+          "prices": {
+            "elements": [
+              {
+                "amount": 1,
+                "price": 0.16,
+                "special": false
+              },
+              {
+                "amount": 10000,
+                "price": 0.082,
+                "special": false
+              }
+            ],
+            "tax": {
+              "type": "VAT",
+              "rate": 0.0
+            },
+            "currency": "EUR",
+            "type": "NET"
+          },
+          "deliveries": null
+        }
+      ]
+    }
+  }
+}

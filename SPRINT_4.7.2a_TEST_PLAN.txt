@@ -1,0 +1,23 @@
+Sprint 4.7.2a — Operational Provider Presentation, Lead-Time Normalisation & Performance
+
+Regression baseline: Sprint 4.7.2 — 243 tests
+Sprint 4.7.2a result: 253 tests
+
+Coverage added:
+- Providers with empty commercial profiles do not consume dashboard positions.
+- Provider positions are filled row-by-row by useful returned data while preserving neutral registration order.
+- Day lead times are converted to whole weeks and rounded up.
+- Fractional week values are rounded up for report readability.
+- Zero lead time becomes Request Delivery Quote rather than implying immediate availability.
+- Request Delivery Quote is preserved.
+- ISO calendar Week 45 is interpreted as a delivery week and converted to remaining whole weeks.
+- A past calendar week rolls to the next ISO year.
+- TME reuses one access token across Search, Data and Parameters.
+- Existing 4.7.2 identity/variant behaviour remains covered by full regression.
+
+Expected full regression command:
+    python -m unittest discover -s tests -p "test*.py"
+
+Expected result:
+    Ran 253 tests
+    OK

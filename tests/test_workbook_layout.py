@@ -24,7 +24,7 @@ class WorkbookLayoutTests(unittest.TestCase):
         for position in (1, 2, 3):
             provider_columns = [column for column in columns if column.group == f"Provider #{position}"]
             self.assertEqual(
-                ["Provider Name", "Available", "Lead Time", "Currency", "Price Breaks"],
+                ["Provider Name", "Available", "Lead Time (Weeks)", "Currency", "Price Breaks"],
                 [column.heading for column in provider_columns],
             )
 

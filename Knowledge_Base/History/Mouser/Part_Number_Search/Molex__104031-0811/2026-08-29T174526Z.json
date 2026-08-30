@@ -1,0 +1,350 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "Mouser",
+    "endpoint": "Part_Number_Search",
+    "captured_at_utc": "2026-08-29T17:45:26Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Molex",
+    "input_mpn": "104031-0811",
+    "resolved_manufacturer": "Molex",
+    "provider_manufacturer_id": null,
+    "locale": "en-US",
+    "currency": "",
+    "rate_limit": {}
+  },
+  "provider_response": {
+    "Errors": [],
+    "SearchResults": {
+      "NumberOfResult": 1,
+      "Parts": [
+        {
+          "Availability": "46545 In Stock",
+          "DataSheetUrl": "",
+          "Description": "Memory Card Connectors MICRO SD PUSH-PULL SMT 1.42MM HEIGHT",
+          "FactoryStock": "0",
+          "ImagePath": "https://www.mouser.com/images/molex/images/104031081136_SPL.jpg",
+          "Category": "Memory Card Connectors",
+          "LeadTime": "119 Days",
+          "LifecycleStatus": null,
+          "Manufacturer": "Molex",
+          "ManufacturerPartNumber": "104031-0811",
+          "Min": "1",
+          "Mult": "1",
+          "MouserPartNumber": "538-104031-0811",
+          "ProductAttributes": [
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Reel"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "Cut Tape"
+            },
+            {
+              "AttributeName": "Packaging",
+              "AttributeValue": "MouseReel",
+              "AttributeCost": "A MouseReel™ fee of €5.00 will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+            },
+            {
+              "AttributeName": "Standard Pack Qty",
+              "AttributeValue": "2000"
+            }
+          ],
+          "PriceBreaks": [
+            {
+              "Quantity": 1,
+              "Price": "€1.75",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 10,
+              "Price": "€1.49",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 25,
+              "Price": "€1.33",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 100,
+              "Price": "€1.27",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 250,
+              "Price": "€1.19",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 500,
+              "Price": "€1.14",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 1000,
+              "Price": "€1.12",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 2000,
+              "Price": "€1.08",
+              "Currency": "EUR"
+            },
+            {
+              "Quantity": 4000,
+              "Price": "€1.02",
+              "Currency": "EUR"
+            }
+          ],
+          "AlternatePackagings": null,
+          "ProductDetailUrl": "https://www.mouser.ie/en/ProductDetail/Molex/104031-0811?qs=udsGRKD4nA3Tvy7wqky%252BuA%3D%3D",
+          "Reeling": true,
+          "ROHSStatus": "RoHS Compliant",
+          "SuggestedReplacement": "",
+          "MultiSimBlue": 0,
+          "UnitWeightKg": {
+            "UnitWeight": 0.00047
+          },
+          "AvailabilityInStock": "46545",
+          "AvailabilityOnOrder": [
+            {
+              "Quantity": 36000,
+              "Date": "2026-11-30T00:00:00"
+            }
+          ],
+          "InfoMessages": [],
+          "SurchargeMessages": null,
+          "ProductCompliance": [
+            {
+              "ComplianceName": "TARIC",
+              "ComplianceValue": "8536693000"
+            },
+            {
+              "ComplianceName": "CNHTS",
+              "ComplianceValue": "8536909000"
+            },
+            {
+              "ComplianceName": "CAHTS",
+              "ComplianceValue": "8536690020"
+            },
+            {
+              "ComplianceName": "USHTS",
+              "ComplianceValue": "8536694040"
+            },
+            {
+              "ComplianceName": "JPHTS",
+              "ComplianceValue": "853669000"
+            },
+            {
+              "ComplianceName": "KRHTS",
+              "ComplianceValue": "8536691000"
+            },
+            {
+              "ComplianceName": "MXHTS",
+              "ComplianceValue": "8536699999"
+            },
+            {
+              "ComplianceName": "BRHTS",
+              "ComplianceValue": "85366990"
+            },
+            {
+              "ComplianceName": "ECCN",
+              "ComplianceValue": "EAR99"
+            }
+          ],
+          "TradeCompliance": [
+            {
+              "ComplianceName": "Country of Origin",
+              "ComplianceValue": "China"
+            },
+            {
+              "ComplianceName": "Assembly Country of Origin",
+              "ComplianceValue": "Not available"
+            },
+            {
+              "ComplianceName": "Country of Diffusion",
+              "ComplianceValue": "Not available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "Mouser",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-29T17:45:26Z",
+    "manufacturer_part_number": "104031-0811",
+    "product_quantity_available": 46545,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "119 Days",
+    "product_unit_price": 1.75,
+    "offers": [
+      {
+        "provider_part_number": "538-104031-0811",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 46545,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.33,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.19,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 1.02,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 1,
+    "variation_count": 1,
+    "variations": [
+      {
+        "provider_part_number": "538-104031-0811",
+        "supplier": "Mouser",
+        "package_type_id": null,
+        "package_type": "",
+        "packaging_code": "",
+        "pack_format": "",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 46545,
+        "maximum_distribution_quantity": null,
+        "marketplace": false,
+        "tariff_active": null,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 1.75,
+            "total_price": null
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 1.49,
+            "total_price": null
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 1.33,
+            "total_price": null
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 1.27,
+            "total_price": null
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 1.19,
+            "total_price": null
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 1.14,
+            "total_price": null
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 1.12,
+            "total_price": null
+          },
+          {
+            "break_quantity": 2000,
+            "unit_price": 1.08,
+            "total_price": null
+          },
+          {
+            "break_quantity": 4000,
+            "unit_price": 1.02,
+            "total_price": null
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "Mouser",
+    "captured_at_utc": "2026-08-29T17:45:26Z",
+    "manufacturer": "Molex",
+    "manufacturer_part_number": "104031-0811",
+    "provider_part_number": "538-104031-0811",
+    "description": "Memory Card Connectors MICRO SD PUSH-PULL SMT 1.42MM HEIGHT",
+    "detailed_description": "Memory Card Connectors MICRO SD PUSH-PULL SMT 1.42MM HEIGHT",
+    "datasheet_url": "",
+    "product_url": "https://www.mouser.ie/en/ProductDetail/Molex/104031-0811?qs=udsGRKD4nA3Tvy7wqky%252BuA%3D%3D",
+    "image_url": "https://www.mouser.com/images/molex/images/104031081136_SPL.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "RoHS Compliant",
+    "package": "",
+    "mounting_type": "",
+    "attributes": {
+      "Packaging": "MouseReel",
+      "Standard Pack Qty": "2000"
+    },
+    "compliance": {
+      "TARIC": "8536693000",
+      "CNHTS": "8536909000",
+      "CAHTS": "8536690020",
+      "USHTS": "8536694040",
+      "JPHTS": "853669000",
+      "KRHTS": "8536691000",
+      "MXHTS": "8536699999",
+      "BRHTS": "85366990",
+      "ECCN": "EAR99"
+    }
+  }
+}

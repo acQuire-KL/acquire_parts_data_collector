@@ -1,0 +1,22 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Data",
+    "captured_at_utc": "2026-08-29T10:08:54Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Analog Devices",
+    "input_mpn": "MAX40024ANL",
+    "resolved_manufacturer": "Analog Devices Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": []
+    }
+  }
+}

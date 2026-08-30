@@ -1,0 +1,230 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Parameters",
+    "captured_at_utc": "2026-08-29T17:44:55Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Panasonic",
+    "input_mpn": "EVPAVAA1A",
+    "resolved_manufacturer": "Panasonic",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "elements": [
+        {
+          "symbol": "EVPAVAA1A",
+          "parameters": {
+            "elements": [
+              {
+                "id": 2,
+                "name": "Manufacturer",
+                "values": [
+                  {
+                    "id": 131,
+                    "value": "PANASONIC"
+                  }
+                ]
+              },
+              {
+                "id": 689,
+                "name": "Type of switch",
+                "values": [
+                  {
+                    "id": 1641231,
+                    "value": "microswitch TACT"
+                  }
+                ]
+              },
+              {
+                "id": 693,
+                "name": "Contacts configuration",
+                "values": [
+                  {
+                    "id": 1452020,
+                    "value": "SPST"
+                  }
+                ]
+              },
+              {
+                "id": 2412,
+                "name": "Number of positions",
+                "values": [
+                  {
+                    "id": 1441215,
+                    "value": "2"
+                  }
+                ]
+              },
+              {
+                "id": 699,
+                "name": "Stable positions number",
+                "values": [
+                  {
+                    "id": 1793865,
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "id": 695,
+                "name": "DC contacts rating @R",
+                "values": [
+                  {
+                    "id": 1712401,
+                    "value": "0.02A / 15V DC"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Mounting",
+                "values": [
+                  {
+                    "id": 1452498,
+                    "value": "SMT"
+                  }
+                ]
+              },
+              {
+                "id": 711,
+                "name": "Illumination",
+                "values": [
+                  {
+                    "id": 1452320,
+                    "value": "none"
+                  }
+                ]
+              },
+              {
+                "id": 708,
+                "name": "Operating Force",
+                "values": [
+                  {
+                    "id": 1452803,
+                    "value": "1.6N"
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Body dimensions",
+                "values": [
+                  {
+                    "id": 1978848,
+                    "value": "2.8x2.3x1.95mm"
+                  }
+                ]
+              },
+              {
+                "id": 730,
+                "name": "Button height",
+                "values": [
+                  {
+                    "id": 1786714,
+                    "value": "0.975mm"
+                  }
+                ]
+              },
+              {
+                "id": 698,
+                "name": "Switching method",
+                "values": [
+                  {
+                    "id": 1506037,
+                    "value": "(ON)-OFF"
+                  }
+                ]
+              },
+              {
+                "id": 2390,
+                "name": "Manufacturer series",
+                "values": [
+                  {
+                    "id": 1905476,
+                    "value": "EVPAV"
+                  }
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Operating temperature",
+                "values": [
+                  {
+                    "id": 1819326,
+                    "value": "-40...85°C"
+                  }
+                ]
+              },
+              {
+                "id": 727,
+                "name": "Button shape",
+                "values": [
+                  {
+                    "id": 1452828,
+                    "value": "round"
+                  }
+                ]
+              },
+              {
+                "id": 117,
+                "name": "Leads",
+                "values": [
+                  {
+                    "id": 1445637,
+                    "value": "for PCB"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "Max. contact resistance:",
+                "values": [
+                  {
+                    "id": 1452798,
+                    "value": "500mΩ"
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "name": "Min. insulation resistance",
+                "values": [
+                  {
+                    "id": 1453846,
+                    "value": "50MΩ"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Mechanical durability",
+                "values": [
+                  {
+                    "id": 1452850,
+                    "value": "300000 cycles"
+                  }
+                ]
+              },
+              {
+                "id": 909,
+                "name": "Kind of package",
+                "values": [
+                  {
+                    "id": 1443488,
+                    "value": "reel"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

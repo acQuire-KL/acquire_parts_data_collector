@@ -4,6 +4,14 @@ Parts Data Collector (PDC) builds reusable component knowledge from manufacturer
 
 PDC is deliberately a **data collection and engineering-review preparation tool**. It removes repetitive research work, but it does not independently approve engineering decisions.
 
+## Sprint 4.7.2a — Operational Provider Presentation, Lead-Time Normalisation & Performance
+
+Operational provider blocks are now filled only by providers that returned useful commercial data for that BOM row. Lead time is reported consistently in whole weeks (rounded up), including safe handling of `0 Days`, quote-required values and ISO calendar delivery weeks. Provider detail calls run concurrently per BOM row, TME authentication is reused across its product endpoints, and run diagnostics expose provider activity and cumulative timing.
+
+## Sprint 4.7.2 — BOM Identity Recovery & Variant Discovery
+
+Operational BOM review can now recover a plausible missing MPN from BOM context, discover provider-returned orderable variants, and retain them in an `Identity Candidates` worksheet. Variant suffixes are candidates only; PDC no longer assumes `T`, `R` or `TR` is harmless without supporting evidence. See `docs/BOM_Identity_Recovery_Variant_Discovery.md`.
+
 ## Current workflow
 
 ```text
@@ -149,3 +157,17 @@ PDC now connects the accumulated local knowledge, Parts Master context and all t
 ### Sprint 4.7.1a — Operational BOM Review Corrective Patch
 
 Real-BOM testing now supports direct CSV input, common `MF` Manufacturer headings, explicit BOM Value/Footprint preservation, blank-MPN pre-checks, concise provider statuses and visible provider-by-provider runtime progress. Common terminal ordering-code suffixes are handled conservatively for identity matching.
+
+
+## Sprint 4.7.2b
+
+Identity recovery now uses traceable search representations: source text, alphanumeric search key, controlled family-prefix discovery, and cross-provider retry using a stronger manufacturer MPN discovered elsewhere. Search relaxation is discovery-only. The source BOM identity is never overwritten and family results remain review candidates until supported by manufacturer evidence.
+
+Operational workbook presentation also uses numeric `Lead Time (Weeks)` values and wraps all cells.
+
+
+## Sprint 4.7.2c
+
+The operational identity workflow now exhausts exact and alphanumeric discovery before family broadening. DigiKey keyword discovery explicitly searches both the source BOM text and the alphanumeric key. Strong formatting-equivalent candidates stop family truncation and can be used to retry providers that failed the first pass.
+
+`Review Required` is now an exception-oriented engineering queue rather than a duplicate of the Enriched sheet. A two-line Hirose/Abracon BOM is included under `tests/fixtures` for focused regression.

@@ -1,0 +1,74 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "TME",
+    "endpoint": "Product_Search",
+    "captured_at_utc": "2026-08-29T10:07:10Z",
+    "source_mode": "live_api_raw",
+    "input_manufacturer": "Lumex",
+    "input_mpn": "SMLLX0404SI",
+    "resolved_manufacturer": "Lumex Opto/Components Inc.",
+    "locale": "en",
+    "currency": "EUR",
+    "request_context": "",
+    "mapping_status": "not_mapped"
+  },
+  "provider_response": {
+    "status": "OK",
+    "data": {
+      "products": {
+        "elements": [
+          {
+            "product_status": [],
+            "symbol": "SML-LX0404SIUPGUSB",
+            "ean": "",
+            "customer_symbol": "",
+            "category": {
+              "id": 113363,
+              "name": "SMD colour LEDs"
+            },
+            "manufacturer_symbols": [
+              "SML-LX0404SIUPGUSB"
+            ],
+            "manufacturer": {
+              "id": 1591,
+              "name": "LUMEX"
+            },
+            "description": "LED; RGB; SMD; 0404; 1.95/2.75/2.7VDC; 1x1x0.25mm; 120°; 25/25/10mA",
+            "multiples": 1,
+            "minimal_amount": 1,
+            "weight": {
+              "value": 0.018,
+              "unit": "g"
+            },
+            "unit": {
+              "id": "ST",
+              "short_name": "pcs",
+              "singular_translation": "Piece",
+              "plural_translation": null
+            },
+            "packing": {
+              "elements": [
+                {
+                  "id": "RL1",
+                  "translation": null,
+                  "amount": 2000
+                }
+              ]
+            },
+            "assets": {
+              "primary_photo": {
+                "prime": "//ce8dc832c.cloudimg.io/v7/_cdn_/69/84/B0/00/0/739478_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=d5f08b1038a0ce9aefa394c21afe55bdcd16dcb6",
+                "thumbnail": "//ce8dc832c.cloudimg.io/v7/_cdn_/69/84/B0/00/0/739478_1.jpg?width=100&height=75&q=75&ci_sign=3edee3b8128bfb72afc383c87277549cb7b5d69f",
+                "high_resolution": "//ce8dc832c.cloudimg.io/v7/_cdn_/69/84/B0/00/0/739478_1.jpg?width=1440&height=1080&wat=1&wat_url=_tme-wrk_%2Ftme_new_render3d.png&wat_scale=100p&ci_sign=de62ab954635aa1c87cb152a91629c7c7e85b800"
+              }
+            },
+            "notification": null
+          }
+        ]
+      },
+      "parameters": null,
+      "counters": null
+    }
+  }
+}

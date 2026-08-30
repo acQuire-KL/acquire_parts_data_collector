@@ -1,21 +1,36 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:29Z",
+  "updated_at_utc": "2026-08-29T17:57:04Z",
   "requested_manufacturer": "Fanstel",
   "requested_mpn": "BM20BC",
   "summary": {
+    "input_mpn": "BM20BC",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: Mouser.",
     "providers_matched": [
       "Mouser"
     ],
     "engineering_confirmation": "Single provider evidence",
+    "identity_candidates": [
+      {
+        "manufacturer": "Fanstel",
+        "mpn": "EV-BM20BC",
+        "relationship": "Different variant candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
         "execution_status": "no_match",
         "identity_match": false,
-        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product bm20bc Not Found\",\"instance\":\"\",\"correlationId\":\"f106ccc3-633a-450a-e12b-ddaecbf29960\",\"errors\":{}}",
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product bm20bc Not Found\",\"instance\":\"\",\"correlationId\":\"cc7537fd-72dc-4ebf-e8a6-7a156f77f03e\",\"errors\":{}}",
         "captured_at_utc": "",
         "source_mode": ""
       },
@@ -24,7 +39,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:27Z",
+        "captured_at_utc": "2026-08-29T17:57:01Z",
         "source_mode": "live_api"
       },
       {
@@ -32,7 +47,7 @@
         "execution_status": "no_match",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:29Z",
+        "captured_at_utc": "2026-08-29T17:57:02Z",
         "source_mode": "live_api"
       }
     ]

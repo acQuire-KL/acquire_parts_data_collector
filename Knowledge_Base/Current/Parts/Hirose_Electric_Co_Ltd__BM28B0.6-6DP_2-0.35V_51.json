@@ -1,0 +1,64 @@
+{
+  "knowledge_base_schema_version": "1.4",
+  "updated_at_utc": "2026-08-29T17:58:11Z",
+  "requested_manufacturer": "Hirose Electric Co Ltd",
+  "requested_mpn": "BM28B0.6-6DP_2-0.35V_51_",
+  "summary": {
+    "input_mpn": "",
+    "identity_recovery_source": "BOM Value",
+    "match_status": "Review Required",
+    "reason": "Provider searches returned part data but no exact manufacturer + MPN identity match was confirmed. Errors: TME.",
+    "providers_matched": [],
+    "engineering_confirmation": "No matched provider data",
+    "identity_candidates": [
+      {
+        "manufacturer": "Hirose Electric Co Ltd",
+        "mpn": "BM28B0.6-6DP_2-0.35V_51_",
+        "relationship": "Recovered MPN candidate",
+        "sources": [
+          "BOM Value"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      },
+      {
+        "manufacturer": "Hirose Connector",
+        "mpn": "BM28B0.6-6DP/2-0.35V(51)",
+        "relationship": "Recovered MPN candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Consistent - MPN referenced by footprint",
+        "datasheet_url": ""
+      }
+    ],
+    "providers": [
+      {
+        "provider": "DigiKey",
+        "execution_status": "no_match",
+        "identity_match": false,
+        "message": "DigiKey 404: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Requested Product bm28b0.6-6dp_2-0.35v_51_ Not Found\",\"instance\":\"\",\"correlationId\":\"0b988c56-13dc-49ce-92c1-f43e1d32a4a9\",\"errors\":{}}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      },
+      {
+        "provider": "Mouser",
+        "execution_status": "success",
+        "identity_match": false,
+        "message": "",
+        "captured_at_utc": "2026-08-29T17:58:09Z",
+        "source_mode": "live_api"
+      },
+      {
+        "provider": "TME",
+        "execution_status": "error",
+        "identity_match": false,
+        "message": "TME product data failed: HTTP 400. Response: {\"code\":\"E_INPUT_PARAMS_VALIDATION_ERROR\",\"error_code\":6,\"message\":\"Input data is not valid.\",\"error_code_erp\":null,\"error_data\":[{\"field\":\"symbols[0]\",\"message\":\"Product symbol should contain between 2 to 18 characters.\",\"value\":\"\"}]}",
+        "captured_at_utc": "",
+        "source_mode": ""
+      }
+    ]
+  }
+}

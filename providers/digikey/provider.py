@@ -39,6 +39,10 @@ class DigiKeyProvider(BaseProvider):
     def manufacturers(self, force: bool = False) -> Any:
         return self.client.manufacturers(force)
 
+    def keyword_search(self, keyword: str, *, record_count: int = 25) -> Any:
+        """Candidate discovery fallback; does not select or approve a product."""
+        return self.client.keyword_search(keyword, record_count=record_count)
+
     def details(
         self,
         mpn: str,

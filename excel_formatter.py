@@ -225,6 +225,28 @@ def _apply_status_colours(ws, headings: list[str], first_data_row: int) -> None:
             cell.alignment = Alignment(horizontal="center", vertical="top")
 
 
+def _wrap_all_cells(ws) -> None:
+    """4.7.2b: make all workbook output cells readable without manual wrapping."""
+    for row in ws.iter_rows():
+        for cell in row:
+            current = cell.alignment
+            horizontal = current.horizontal
+            if str(cell.value or "") and cell.column <= ws.max_column:
+                # Lead Time (Weeks) is deliberately numeric and centred.
+                heading_row = 2 if ws.title in ("Enriched Parts", "Review Required") else 1
+                heading = str(ws.cell(heading_row, cell.column).value or "")
+                if heading == "Lead Time (Weeks)":
+                    horizontal = "center"
+            cell.alignment = Alignment(
+                horizontal=horizontal,
+                vertical=current.vertical or "top",
+                text_rotation=current.text_rotation,
+                wrap_text=True,
+                shrink_to_fit=current.shrink_to_fit,
+                indent=current.indent,
+            )
+
+
 def format_review_sheet(ws, headings: list[str]) -> None:
     """Format Enriched Parts or Review Required for interactive review."""
     ws.freeze_panes = ENRICHED_PARTS_FREEZE_PANES
@@ -246,6 +268,7 @@ def format_review_sheet(ws, headings: list[str]) -> None:
     _set_column_widths(ws, header_row=2)
     _set_wrapped_row_heights(ws, headings, first_data_row=3)
     _apply_status_colours(ws, headings, first_data_row=3)
+    _wrap_all_cells(ws)
 
 
 def format_reference_sheet(ws) -> None:
@@ -260,3 +283,4 @@ def format_reference_sheet(ws) -> None:
     _apply_field_formats(ws, headings, first_data_row=2)
     _set_column_widths(ws, header_row=1)
     _set_wrapped_row_heights(ws, headings, first_data_row=2)
+    _wrap_all_cells(ws)

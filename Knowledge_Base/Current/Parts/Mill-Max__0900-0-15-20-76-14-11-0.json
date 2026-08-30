@@ -1,15 +1,18 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:29:05Z",
+  "updated_at_utc": "2026-08-29T17:59:26Z",
   "requested_manufacturer": "Mill-Max",
   "requested_mpn": "0900-0-15-20-76-14-11-0",
   "summary": {
+    "input_mpn": "0900-0-15-20-76-14-11-0",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: Mouser. Errors: TME.",
     "providers_matched": [
       "Mouser"
     ],
     "engineering_confirmation": "Single provider evidence",
+    "identity_candidates": [],
     "providers": [
       {
         "provider": "DigiKey",
@@ -24,7 +27,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:29:04Z",
+        "captured_at_utc": "2026-08-29T17:59:12Z",
         "source_mode": "live_api"
       },
       {

@@ -1,9 +1,11 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-27T22:28:00Z",
+  "updated_at_utc": "2026-08-29T17:55:47Z",
   "requested_manufacturer": "Macronix",
   "requested_mpn": "MX25R6435FZAIH0",
   "summary": {
+    "input_mpn": "MX25R6435FZAIH0",
+    "identity_recovery_source": "",
     "match_status": "Matched",
     "reason": "Identity matched by: DigiKey, Mouser, TME.",
     "providers_matched": [
@@ -12,6 +14,63 @@
       "TME"
     ],
     "engineering_confirmation": "Differences present (2/2 common fields)",
+    "identity_candidates": [
+      {
+        "manufacturer": "Macronix",
+        "mpn": "MX25R6435FZAIH0-T",
+        "relationship": "Orderable suffix variant candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      },
+      {
+        "manufacturer": "Macronix",
+        "mpn": "MX25R6435FZAIH0-TR",
+        "relationship": "Orderable suffix variant candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      },
+      {
+        "manufacturer": "Macronix",
+        "mpn": "MX25R6435FZAIL0",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "DigiKey"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": "https://www.macronix.com/Lists/Datasheet/Attachments/8868/MX25R6435F,%20Wide%20Range,%2064Mb,%20v1.6.pdf"
+      },
+      {
+        "manufacturer": "Macronix",
+        "mpn": "MX25R6435FZAIL0-T",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      },
+      {
+        "manufacturer": "Macronix",
+        "mpn": "MX25R6435FZAIL0-TR",
+        "relationship": "Manufacturer family discovery candidate",
+        "sources": [
+          "Mouser"
+        ],
+        "package": "",
+        "footprint_check": "Not assessed",
+        "datasheet_url": ""
+      }
+    ],
     "providers": [
       {
         "provider": "DigiKey",
@@ -26,7 +85,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:27:57Z",
+        "captured_at_utc": "2026-08-29T17:55:43Z",
         "source_mode": "live_api"
       },
       {
@@ -34,7 +93,7 @@
         "execution_status": "success",
         "identity_match": true,
         "message": "",
-        "captured_at_utc": "2026-08-27T22:28:00Z",
+        "captured_at_utc": "2026-08-29T17:55:43Z",
         "source_mode": "live_api"
       }
     ]

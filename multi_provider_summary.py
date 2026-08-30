@@ -35,28 +35,15 @@ class ProviderEvidence:
         return bool((self.part_profile or {}).get("identity_match"))
 
 
-ORDERING_SUFFIXES = ("T", "R", "TR")
-
-
 def mpn_identity_equivalent(requested_mpn: str, returned_mpn: str) -> bool:
-    """Conservative equality for base MPN versus common ordering suffixes.
+    """Return True only for the same normalised manufacturer order code.
 
-    Punctuation such as '+' is already ignored by normalise_identity().  In
-    addition, providers often expose the same engineering part with a terminal
-    tape/reel ordering suffix (for example TPS628438YKA vs TPS628438YKAR or
-    MAX40203ANS vs MAX40203ANS+T).  Only a small explicit suffix set is
-    accepted; arbitrary prefix matching is deliberately rejected.
+    Sprint 4.7.2 deliberately stops treating T/R/TR suffixes as harmless.
+    Those differences are captured as variant candidates and require evidence.
     """
     requested = normalise_identity(requested_mpn)
     returned = normalise_identity(returned_mpn)
-    if not requested or not returned:
-        return False
-    if requested == returned:
-        return True
-    for suffix in ORDERING_SUFFIXES:
-        if requested + suffix == returned or returned + suffix == requested:
-            return True
-    return False
+    return bool(requested and returned and requested == returned)
 
 
 def provider_identity_match(requested_manufacturer: str, requested_mpn: str, profile: dict[str, Any]) -> bool:
