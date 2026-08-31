@@ -93,7 +93,9 @@ def provider_review_observation(
     """Return a concise engineering-review observation, never an approval."""
     provider_results = provider_results or providers_queried
     observations: list[str] = []
-    if requested_mpn is not None and not _text(requested_mpn):
+    matched_count = len([x for x in str(providers_matched or "").split(",") if x.strip()])
+    strong_consensus = match_status == "Matched" and matched_count >= 2
+    if requested_mpn is not None and not _text(requested_mpn) and not strong_consensus:
         if _text(recovered_mpn):
             observations.append(f"MPN missing - candidate recovered: {_text(recovered_mpn)}")
         else:
@@ -106,7 +108,7 @@ def provider_review_observation(
         observations.append("No provider identity match confirmed")
     if provider_results.startswith("1 matched;"):
         observations.append("Weak provider consensus - review supporting evidence")
-    if "error" in provider_results.casefold() or "skipped" in provider_results.casefold():
+    if ("error" in provider_results.casefold() or "skipped" in provider_results.casefold()) and not strong_consensus:
         observations.append("Provider collection incomplete")
     if local_context.status == "Parts Master Match":
         observations.append("Existing Parts Master identity")

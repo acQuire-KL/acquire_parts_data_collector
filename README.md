@@ -171,3 +171,19 @@ Operational workbook presentation also uses numeric `Lead Time (Weeks)` values a
 The operational identity workflow now exhausts exact and alphanumeric discovery before family broadening. DigiKey keyword discovery explicitly searches both the source BOM text and the alphanumeric key. Strong formatting-equivalent candidates stop family truncation and can be used to retry providers that failed the first pass.
 
 `Review Required` is now an exception-oriented engineering queue rather than a duplicate of the Enriched sheet. A two-line Hirose/Abracon BOM is included under `tests/fixtures` for focused regression.
+
+
+## Sprint 4.7.2d
+
+Identity search is now evidence-led. With the current three active providers, two independent provider confirmations stop further normalisation and family broadening. If the BOM MPN is blank, two providers returning the same formatting-equivalent order code can resolve the identity without creating a Review Required exception. Family discovery is retained only as a conservative last resort and is capped at 25% right-side reduction.
+
+
+## Sprint 4.7.2e console-only validation
+
+For identity/debug validation without creating `output/AIPN_Enriched.xlsx`:
+
+```bash
+py main.py --input "input/gb-mini-board-v0.1-draft3 - 2part.csv" --console-only
+```
+
+The console reports each provider result, any discovery-returned MPN, consensus count, resolved identity and whether review is required. Two independent provider identity matches stop further broadening.

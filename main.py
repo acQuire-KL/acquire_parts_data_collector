@@ -31,7 +31,7 @@ from multi_provider_summary import (
     provider_availability, provider_identity_match,
 )
 
-APP_VERSION = "0.2.10 / Sprint 4.7.2c"
+APP_VERSION = "0.2.10 / Sprint 4.7.2e"
 
 MFG = {"manufacturer", "mfg", "mf", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -627,11 +627,78 @@ def _apply_provider_dashboard(values, evidence):
         values[f"Provider #{position} Price Breaks"] = _provider_price_summary(profile)
 
 
+def _confirmed_identity_groups(evidence):
+    """Group provider-confirmed identities by normalised manufacturer + MPN."""
+    groups = {}
+    for item in evidence:
+        profile = item.part_profile or {}
+        if not item.identity_match:
+            continue
+        mfg = str(profile.get("manufacturer") or "").strip()
+        mpn = str(profile.get("manufacturer_part_number") or "").strip()
+        key = (norm(mfg), normalise_mpn(mpn))
+        groups.setdefault(key, []).append(item)
+    return groups
+
+
+def _provider_consensus_count(evidence):
+    """Count independent providers that confirmed the requested identity."""
+    return len({item.provider for item in evidence if item.identity_match})
+
+
+def _promote_recovered_consensus(evidence, requested_manufacturer, recovered_mpn):
+    """For a blank BOM MPN, promote independently returned formatting-equivalent
+    provider identities to matches when at least two providers agree.
+
+    This resolves evidence, not engineering approval and does not rewrite the BOM.
+    """
+    if not recovered_mpn:
+        return list(evidence), ""
+    wanted = normalise_mpn(recovered_mpn)
+    agreeing = []
+    for item in evidence:
+        profile = item.part_profile or {}
+        if (
+            item.execution_status == "success"
+            and names_equivalent(requested_manufacturer, profile.get("manufacturer", ""))
+            and normalise_mpn(profile.get("manufacturer_part_number", "")) == wanted
+        ):
+            agreeing.append(item)
+    if len(agreeing) < 2:
+        return list(evidence), ""
+
+    promoted = []
+    providers = []
+    for item in evidence:
+        profile = dict(item.part_profile or {})
+        if item in agreeing:
+            profile["identity_match"] = True
+            providers.append(item.provider)
+            item = ProviderEvidence(
+                item.provider, item.execution_status, item.message,
+                part_profile=profile, commercial_profile=item.commercial_profile,
+                captured_at_utc=item.captured_at_utc, source_mode=item.source_mode,
+            )
+        promoted.append(item)
+    return promoted, ", ".join(providers)
+
+
 def build_combined_result(row, requested_mfg, requested_mpn, evidence, *, bom_context=None, local_context=None, recovered_mpn="", candidate_count=0):
     bom_context = bom_context or {}
     local_context = local_context or PartsMasterLookup().find(requested_mfg, requested_mpn)
+    recovered_consensus = ""
+    if not str(requested_mpn or "").strip() and recovered_mpn:
+        evidence, recovered_consensus = _promote_recovered_consensus(
+            evidence, requested_mfg, recovered_mpn,
+        )
     status, reason = evidence_status(evidence)
     matched = [item.provider for item in evidence if item.identity_match]
+    if recovered_consensus:
+        status = "Matched"
+        reason = (
+            f"Identity recovered from BOM context and independently confirmed by: "
+            f"{recovered_consensus}."
+        )
     values = OrderedDict((column.key, "") for column in enriched_columns())
     lifecycle = merged_value(evidence, "lifecycle_status")
     provider_results = _provider_results_text(evidence)
@@ -647,7 +714,8 @@ def build_combined_result(row, requested_mfg, requested_mpn, evidence, *, bom_co
         "Review Observation": provider_review_observation(
             match_status=status, provider_results=provider_results,
             providers_matched=providers_matched, local_context=local_context, lifecycle=lifecycle,
-            requested_mpn=requested_mpn, recovered_mpn=recovered_mpn, candidate_count=candidate_count,
+            requested_mpn=requested_mpn, recovered_mpn=recovered_mpn,
+            candidate_count=(0 if status == "Matched" else candidate_count),
         ),
         "BOM Description": bom_context.get("description", ""),
         "BOM Value": bom_context.get("value", ""),
@@ -767,20 +835,27 @@ def run(args):
             # deterministic and provider-neutral after collection completes.
             provider_result = None
             digikey_resolution_error = None
+            digikey_detail_unavailable = False
             if manufacturer_catalogue is not None:
                 try:
                     resolved = resolve_manufacturer(manufacturer, manufacturer_catalogue)
                     if resolved.manufacturer_id is None:
-                        raise RuntimeError(
-                            f"Manufacturer resolution {resolved.status}: {resolved.reason} "
-                            f"(best={resolved.matched_name!r}, confidence={resolved.confidence:.2f})"
+                        digikey_detail_unavailable = True
+                        _progress(
+                            f"    DigiKey manufacturer resolution: {resolved.status}; "
+                            f"best={resolved.matched_name!r}; confidence={resolved.confidence:.2f}; "
+                            "Product Details deferred to keyword discovery"
                         )
                 except Exception as error:
                     digikey_resolution_error = error
 
             futures = {}
             with ThreadPoolExecutor(max_workers=3, thread_name_prefix="pdc-provider") as pool:
-                if manufacturer_catalogue is not None and digikey_resolution_error is None:
+                if (
+                    manufacturer_catalogue is not None
+                    and digikey_resolution_error is None
+                    and not digikey_detail_unavailable
+                ):
                     futures["DigiKey"] = pool.submit(
                         provider_manager.execute, digikey, "details", search_mpn, resolved.manufacturer_id, args.force_refresh,
                         input_manufacturer=manufacturer, resolved_manufacturer=resolved.matched_name,
@@ -801,6 +876,8 @@ def run(args):
                 provider_result = manufacturer_result
             elif digikey_resolution_error is not None:
                 evidence.append(ProviderEvidence("DigiKey", "error", str(digikey_resolution_error)))
+            elif digikey_detail_unavailable:
+                provider_result = None
             else:
                 provider_result = concurrent_results.get("DigiKey")
 
@@ -851,6 +928,8 @@ def run(args):
             digikey_item = next((item for item in evidence if item.provider == "DigiKey"), None)
             if digikey_item:
                 _progress(f"    DigiKey: {_concise_provider_status(digikey_item)}")
+            elif digikey_detail_unavailable:
+                _progress("    DigiKey: Product Details deferred; keyword discovery enabled")
 
             # Mouser
             mouser_result = concurrent_results["Mouser"]
@@ -946,17 +1025,28 @@ def run(args):
             if tme_item:
                 _progress(f"    TME: {_concise_provider_status(tme_item)}")
 
-        # 4.7.2c discovery state machine.
-        # Exhaust exact-format and alphanumeric discovery before family broadening.
+        # 4.7.2d evidence-led discovery state machine.
+        # With the current three active providers, two independent exact identity
+        # confirmations are sufficient: do not broaden a resolved identity.
+        exact_consensus = _provider_consensus_count(evidence)
+        if exact_consensus >= 2:
+            _progress(
+                f"    Identity consensus: {exact_consensus} providers matched - "
+                "normalisation/family broadening not required"
+            )
+
+        # Exhaust exact-format and alphanumeric discovery before conservative
+        # family broadening only when provider consensus has not resolved identity.
         # A same-manufacturer candidate whose alphanumeric MPN equals the source
         # search key is a strong formatting-normalised identity candidate.
-        if search_mpn:
+        if search_mpn and exact_consensus < 2:
             def _strong_format_candidate(items):
                 wanted = normalise_mpn(search_mpn)
                 return next((
                     c for c in consolidate_candidates(items)
                     if c.mpn and normalise_mpn(c.mpn) == wanted
                     and c.relationship != "Manufacturer family discovery candidate"
+                    and any(source not in ("BOM Value", "BOM Description") for source in c.sources)
                 ), None)
 
             # DigiKey keyword discovery must try BOTH the source text and the
@@ -966,10 +1056,31 @@ def run(args):
                 dk = provider_manager.execute(digikey, "keyword_search", variant.text, record_count=25)
                 if dk.succeeded:
                     payload = dk.data[0] if isinstance(dk.data, tuple) else dk.data
-                    candidate_evidence.extend(discover_payload_candidates(
+                    dk_candidates = discover_payload_candidates(
                         "DigiKey", payload, requested_manufacturer=manufacturer,
                         reference_mpn=search_mpn, bom_footprint=bom_context.get("footprint", ""),
-                    ))
+                    )
+                    candidate_evidence.extend(dk_candidates)
+                    dk_identity = next((
+                        c for c in dk_candidates
+                        if normalise_mpn(c.mpn) == normalise_mpn(search_mpn)
+                        and names_equivalent(manufacturer, c.manufacturer)
+                    ), None)
+                    if dk_identity:
+                        _progress(
+                            f"    DigiKey discovery: {dk_identity.mpn} "
+                            "- formatting-equivalent identity"
+                        )
+                        evidence = [item for item in evidence if item.provider != "DigiKey"]
+                        evidence.append(ProviderEvidence(
+                            "DigiKey", "success",
+                            part_profile={
+                                "manufacturer": dk_identity.manufacturer,
+                                "manufacturer_part_number": dk_identity.mpn,
+                                "identity_match": True,
+                            },
+                            source_mode="keyword_search",
+                        ))
 
                 # Do not duplicate the source-text detail call already performed
                 # during the first provider pass.  The alphanumeric representation
@@ -1006,10 +1117,16 @@ def run(args):
                     break
 
             strong = _strong_format_candidate(candidate_evidence)
+            discovery_consensus = _provider_consensus_count(evidence)
+            if discovery_consensus >= 2:
+                _progress(
+                    f"    Identity consensus: {discovery_consensus} providers matched after discovery - "
+                    "further broadening/retry not required"
+                )
 
             # Only family-search when exact/alphanumeric discovery produced no
-            # strong formatting-equivalent candidate.
-            if not strong:
+            # strong formatting-equivalent candidate and consensus is still weak.
+            if not strong and discovery_consensus < 2:
                 for family_variant in family_search_variants(search_mpn):
                     _progress(
                         f"    Family discovery: {family_variant.text} "
@@ -1061,7 +1178,7 @@ def run(args):
                     "Manufacturer family discovery candidate", "Recovered MPN candidate"
                 )
             ), None)
-            if learned:
+            if learned and _provider_consensus_count(evidence) < 2:
                 _progress(f"    Cross-provider retry using discovered MPN: {learned.mpn}")
                 confirmed = {item.provider for item in evidence if item.identity_match}
                 for provider_name, provider in (("DigiKey", digikey), ("Mouser", mouser), ("TME", tme)):
@@ -1100,6 +1217,25 @@ def run(args):
                                 ),
                                 notes="Provider confirmed an MPN first resolved through discovery; review required.",
                             ))
+                            # Replace this provider's first-pass no-match/error evidence
+                            # with the successful retry evidence for final reporting.
+                            retry_profile = dict(profile)
+                            retry_profile["identity_match"] = bool(mpn) and provider_identity_match(
+                                manufacturer, mpn, retry_profile
+                            )
+                            if not mpn and recovered:
+                                retry_profile["identity_match"] = (
+                                    normalise_mpn(retry_profile.get("manufacturer_part_number"))
+                                    == normalise_mpn(recovered.mpn)
+                                )
+                            evidence = [item for item in evidence if item.provider != provider_name]
+                            evidence.append(ProviderEvidence(
+                                provider_name, "success",
+                                part_profile=retry_profile,
+                                commercial_profile=record.commercial_profile,
+                                captured_at_utc=record.captured_at_utc,
+                                source_mode=record.source_mode,
+                            ))
 
         candidates = consolidate_candidates(candidate_evidence)
         for candidate in candidates:
@@ -1127,7 +1263,19 @@ def run(args):
             recovered_mpn=(recovered.mpn if recovered else ""), candidate_count=len(candidates),
         )
         results.append(result)
-        _progress(f"    Review: {result.get('Match Status', '')} - {result.get('Review Observation', '')}")
+        resolved_mpn = result.get("Manufacturer Part Number", "") or (
+            next((c.mpn for c in candidates if normalise_mpn(c.mpn) == normalise_mpn(search_mpn)
+                  and any(src not in ("BOM Value", "BOM Description") for src in c.sources)), "")
+        )
+        _progress(f"    Final identity: {result.get('Match Status', '')}")
+        _progress(f"    Resolved MPN: {resolved_mpn or '<unresolved>'}")
+        _progress(f"    Provider Results: {result.get('Provider Results', '')}")
+        _progress(
+            "    Review Required: "
+            + ("No" if result.get("Review Observation") == "No immediate review exception identified" else "Yes")
+        )
+        if result.get("Review Observation") != "No immediate review exception identified":
+            _progress(f"    Review reason: {result.get('Review Observation', '')}")
 
         if search_mpn:
             knowledge_base.save_part_summary(
@@ -1161,6 +1309,16 @@ def run(args):
                     ],
                 },
             )
+
+    if args.console_only:
+        elapsed = perf_counter() - run_started
+        _progress("")
+        _progress("Run diagnostics:")
+        for label, value in provider_manager.diagnostic_rows():
+            _progress(f"    {label}: {value}")
+        _progress(f"    Total elapsed: {elapsed:.1f} s")
+        _progress("Console-only run complete; no workbook generated.")
+        return
 
     columns = enriched_columns()
     keys = column_keys(columns)
@@ -1203,8 +1361,7 @@ def run(args):
         needs_review = (
             result.get("Match Status") != "Matched"
             or bool(attribute_exceptions)
-            or "review" in observation.casefold()
-            or "exception" in observation.casefold()
+            or observation != "No immediate review exception identified"
         )
         if not needs_review:
             continue
@@ -1312,4 +1469,8 @@ if __name__ == "__main__":
     parser.add_argument("--max-parts", type=int)
     parser.add_argument("--force-refresh", action="store_true")
     parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument(
+        "--console-only", action="store_true",
+        help="Run provider/identity processing and print results without creating an output workbook.",
+    )
     run(parser.parse_args())

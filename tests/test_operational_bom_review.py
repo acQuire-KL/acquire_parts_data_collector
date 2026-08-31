@@ -39,14 +39,14 @@ class OperationalBomReviewTests(unittest.TestCase):
             context = PartsMasterLookup(path).find("Example", "")
             self.assertEqual("No MPN for Parts Master lookup", context.status)
 
-    def test_review_observation_flags_incomplete_provider_collection(self):
+    def test_two_provider_consensus_does_not_require_review_for_third_provider_gap(self):
         text = provider_review_observation(
             match_status="Matched",
             providers_queried="DigiKey=success; Mouser=success; TME=skipped",
             providers_matched="DigiKey, Mouser",
             local_context=LocalPartContext(),
         )
-        self.assertIn("Provider collection incomplete", text)
+        self.assertEqual("No immediate review exception identified", text)
 
     def test_review_observation_flags_lifecycle_risk(self):
         text = provider_review_observation(

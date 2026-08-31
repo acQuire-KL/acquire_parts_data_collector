@@ -1,23 +1,18 @@
 {
   "knowledge_base_version": "0.2.0",
   "schema_version": "1.4",
-  "created_at_utc": "2026-07-22T19:17:00Z",
-  "last_updated_at_utc": "2026-08-30T18:36:58Z",
+  "created_at_utc": "2026-08-30T23:21:46Z",
+  "last_updated_at_utc": "2026-08-31T00:32:32Z",
   "providers": {
+    "Mouser": {
+      "last_capture_at_utc": "2026-08-31T00:32:32Z",
+      "current_records": 374,
+      "history_records": 1122
+    },
     "DigiKey": {
-      "last_capture_at_utc": "2026-08-29T17:45:44Z",
+      "last_capture_at_utc": "2026-08-31T00:03:26Z",
       "current_records": 258,
       "history_records": 256
-    },
-    "Mouser": {
-      "last_capture_at_utc": "2026-08-30T18:36:57Z",
-      "current_records": 374,
-      "history_records": 1084
-    },
-    "TME": {
-      "last_capture_at_utc": "2026-08-30T18:36:58Z",
-      "current_records": 907,
-      "history_records": 2755
     }
   },
   "refresh_planning": {
@@ -25,5 +20,5 @@
     "description": "Reserved for staggered periodic refresh scheduling in a later release."
   },
   "total_current_records": 1584,
-  "total_history_records": 4095
+  "total_history_records": 4178
 }

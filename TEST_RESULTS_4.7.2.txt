@@ -1,8 +1,0 @@
-Sprint 4.7.2 — BOM Identity Recovery & Variant Discovery
-
-Command:
-python -m unittest discover -s tests -p "test_*.py"
-
-Result:
-Ran 243 tests
-OK

@@ -1,3 +1,0 @@
-﻿Record ID,Manufacturer,Manufacturer Part Number,Provider,Status,Message,Search Stage,Candidate Count,Knowledge Base Paths,PDCPartProfile Path
-PMR-000007,TDK Corporation,PS1440P02BT,TME,Not Found,TME returned no products,,0,Knowledge_Base\Current\TME\Product_Search\TDK_Corporation__PS1440P02BT.json,
-PMR-000008,MPD (Memory Protection Devices),BK-920,Mouser,Not Found,Mouser returned no parts,,0,Knowledge_Base\Current\Mouser\Part_Number_Search\MPD_Memory_Protection_Devices__BK-920.json,

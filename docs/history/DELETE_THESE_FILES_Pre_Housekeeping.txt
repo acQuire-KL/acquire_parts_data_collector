@@ -1,3 +1,0 @@
-Delete this superseded file from the project before running tests:
-
-    tests/test_provider_part_profile.py

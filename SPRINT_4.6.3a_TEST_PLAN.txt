@@ -1,5 +1,0 @@
-SPRINT 4.6.3a — DATASHEET EVIDENCE MODEL, MANUFACTURER SOURCE RESOLUTION & LOCAL ARCHIVE
-
-Acceptance: preserve discovery/resolved/active URLs; recognise MFG domains; inspect redirect targets; never blindly strip DISTI text; independently verify MFG source; distinguish MFG/DISTI/DISTI_COPY_OF_MFG; SHA-256 compare/deduplicate; archive static evidence without silent overwrite; retain retrieval date/hash; provide Changed/No Change byte-level foundation; no semantic PDF analysis yet.
-
-Regression: python -m unittest discover -s tests -v

@@ -29,6 +29,8 @@ ALIASES = {
     'te connectivity': 'te connectivity amp',
     'wurth': 'wurth elektronik',
     'wurth elektronik': 'wurth elektronik',
+    'hirose': 'hirose electric',
+    'hirose electric': 'hirose electric',
 }
 
 

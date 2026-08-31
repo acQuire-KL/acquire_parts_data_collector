@@ -1,14 +1,17 @@
 {
   "knowledge_base_metadata": {
-    "knowledge_base_schema_version": "1.0",
+    "knowledge_base_schema_version": "1.4",
     "provider": "DigiKey",
     "endpoint": "Reference_Data",
     "dataset": "Manufacturers",
-    "captured_at_utc": "2026-07-22T19:17:00Z",
+    "captured_at_utc": "2026-08-31T00:03:26Z",
     "source_mode": "live_api",
     "locale": "IE",
     "currency": "EUR",
-    "rate_limit": {}
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "999"
+    }
   },
   "provider_response": {
     "Manufacturers": [
@@ -247,10 +250,6 @@
       {
         "Id": 600393,
         "Name": "Acudor"
-      },
-      {
-        "Id": 3549,
-        "Name": "Acura Embedded Systems"
       },
       {
         "Id": 602288,
@@ -525,6 +524,10 @@
         "Name": "aimtec"
       },
       {
+        "Id": 6685,
+        "Name": "AipuPower"
+      },
+      {
         "Id": 3041,
         "Name": "Air Science USA LLC"
       },
@@ -557,12 +560,12 @@
         "Name": "AIRTEC Pneumatics"
       },
       {
-        "Id": 602079,
-        "Name": "Aishi Capacitors (Hunan Aihua Group"
-      },
-      {
         "Id": 4798,
         "Name": "AIStorm, Inc"
+      },
+      {
+        "Id": 6548,
+        "Name": "AIT Sensing"
       },
       {
         "Id": 3568,
@@ -611,6 +614,10 @@
       {
         "Id": 6478,
         "Name": "ALIENCELL"
+      },
+      {
+        "Id": 6562,
+        "Name": "Alif Semiconductor"
       },
       {
         "Id": 4729,
@@ -787,10 +794,6 @@
       {
         "Id": 6087,
         "Name": "American Power Design Inc."
-      },
-      {
-        "Id": 4513,
-        "Name": "American Recorder Technologies, Inc."
       },
       {
         "Id": 600538,
@@ -1106,7 +1109,7 @@
       },
       {
         "Id": 475,
-        "Name": "ams-OSRAM USA INC."
+        "Name": "ams OSRAM AG"
       },
       {
         "Id": 4991,
@@ -1203,10 +1206,6 @@
       {
         "Id": 2243,
         "Name": "Anderson Power Products, Inc."
-      },
-      {
-        "Id": 5521,
-        "Name": "Andromeda Interfaces"
       },
       {
         "Id": 3200,
@@ -1350,7 +1349,7 @@
       },
       {
         "Id": 39,
-        "Name": "Aratas America LLC"
+        "Name": "Aratas (Formerly Omron Components)"
       },
       {
         "Id": 6524,
@@ -1521,6 +1520,10 @@
         "Name": "ATC-Diversified Electronics"
       },
       {
+        "Id": 6650,
+        "Name": "ATE Electronics s.r.l."
+      },
+      {
         "Id": 3441,
         "Name": "ATGBICS"
       },
@@ -1621,6 +1624,10 @@
         "Name": "Automation Components, Inc."
       },
       {
+        "Id": 6723,
+        "Name": "AutoMetrics"
+      },
+      {
         "Id": 3689,
         "Name": "Autonics"
       },
@@ -1689,10 +1696,6 @@
         "Name": "AXL Systems"
       },
       {
-        "Id": 601889,
-        "Name": "Axum"
-      },
-      {
         "Id": 3387,
         "Name": "AZ Displays"
       },
@@ -1739,10 +1742,6 @@
       {
         "Id": 3083,
         "Name": "B+B Thermo-Technik GmbH"
-      },
-      {
-        "Id": 5165,
-        "Name": "B9Creations"
       },
       {
         "Id": 600498,
@@ -1795,6 +1794,10 @@
       {
         "Id": 2893,
         "Name": "Bartovation"
+      },
+      {
+        "Id": 2370,
+        "Name": "BasicMicro.com"
       },
       {
         "Id": 2938,
@@ -2025,14 +2028,6 @@
         "Name": "Birk Manufacturing"
       },
       {
-        "Id": 4839,
-        "Name": "Bishop-Wisecarver"
-      },
-      {
-        "Id": 600613,
-        "Name": "Bison"
-      },
-      {
         "Id": 600614,
         "Name": "Bissell Commercial"
       },
@@ -2067,10 +2062,6 @@
       {
         "Id": 601937,
         "Name": "Blu Element"
-      },
-      {
-        "Id": 5715,
-        "Name": "Blue Dot Laboratories"
       },
       {
         "Id": 139,
@@ -2253,10 +2244,6 @@
         "Name": "BrisbaneSilicon"
       },
       {
-        "Id": 3795,
-        "Name": "BriskHeat"
-      },
-      {
         "Id": 602534,
         "Name": "BRK"
       },
@@ -2275,14 +2262,6 @@
       {
         "Id": 4188,
         "Name": "Brook Livin"
-      },
-      {
-        "Id": 601904,
-        "Name": "Browan"
-      },
-      {
-        "Id": 4727,
-        "Name": "Bruckewell"
       },
       {
         "Id": 600647,
@@ -2353,10 +2332,6 @@
         "Name": "CableMAX"
       },
       {
-        "Id": 4234,
-        "Name": "Cabling123"
-      },
-      {
         "Id": 600474,
         "Name": "Cabur"
       },
@@ -2371,14 +2346,6 @@
       {
         "Id": 600657,
         "Name": "Cadet"
-      },
-      {
-        "Id": 3799,
-        "Name": "CAEN RFID SRL"
-      },
-      {
-        "Id": 2220,
-        "Name": "CAIG Laboratories, Inc."
       },
       {
         "Id": 1768,
@@ -2467,6 +2434,10 @@
       {
         "Id": 600663,
         "Name": "Canarm"
+      },
+      {
+        "Id": 6094,
+        "Name": "Canimal Systems Inc."
       },
       {
         "Id": 2157,
@@ -2613,10 +2584,6 @@
         "Name": "Celduc Inc."
       },
       {
-        "Id": 2942,
-        "Name": "Cellhire"
-      },
-      {
         "Id": 602336,
         "Name": "Cembre"
       },
@@ -2721,10 +2688,6 @@
         "Name": "Cherry Americas LLC"
       },
       {
-        "Id": 600050,
-        "Name": "Cherry Semiconductor"
-      },
-      {
         "Id": 3014,
         "Name": "Cheval"
       },
@@ -2777,12 +2740,12 @@
         "Name": "Chogori Technologies Inc."
       },
       {
-        "Id": 4413,
-        "Name": "Choovio"
-      },
-      {
         "Id": 2661,
         "Name": "ChromeLED"
+      },
+      {
+        "Id": 6725,
+        "Name": "CHY-TECH (H.K.) INDUSTRIAL CO., LIMITED"
       },
       {
         "Id": 1233,
@@ -2839,6 +2802,10 @@
       {
         "Id": 598,
         "Name": "Cirrus Logic Inc."
+      },
+      {
+        "Id": 601861,
+        "Name": "CISCO"
       },
       {
         "Id": 600420,
@@ -2919,10 +2886,6 @@
       {
         "Id": 6581,
         "Name": "Cobb Technology"
-      },
-      {
-        "Id": 6319,
-        "Name": "Cobontech"
       },
       {
         "Id": 5162,
@@ -3019,6 +2982,10 @@
       {
         "Id": 1835,
         "Name": "Comus International"
+      },
+      {
+        "Id": 602547,
+        "Name": "Concentric International"
       },
       {
         "Id": 2395,
@@ -3121,12 +3088,12 @@
         "Name": "Cooling Source"
       },
       {
-        "Id": 4846,
-        "Name": "Coolmag TC"
-      },
-      {
         "Id": 2643,
         "Name": "Cooltron Industrial Supply"
+      },
+      {
+        "Id": 600720,
+        "Name": "Cooper-Atkins"
       },
       {
         "Id": 539,
@@ -3369,6 +3336,10 @@
         "Name": "Cymbet Corporation"
       },
       {
+        "Id": 6220,
+        "Name": "Cypherbridge Systems"
+      },
+      {
         "Id": 428,
         "Name": "Cypress Semiconductor Corp"
       },
@@ -3441,10 +3412,6 @@
         "Name": "Dart Controls"
       },
       {
-        "Id": 5898,
-        "Name": "Dart Sensors"
-      },
-      {
         "Id": 2382,
         "Name": "DATAFORTH"
       },
@@ -3471,10 +3438,6 @@
       {
         "Id": 1722,
         "Name": "Davies Molding, LLC"
-      },
-      {
-        "Id": 5759,
-        "Name": "Dayton Products"
       },
       {
         "Id": 6027,
@@ -3527,10 +3490,6 @@
       {
         "Id": 6156,
         "Name": "DEEPX"
-      },
-      {
-        "Id": 6097,
-        "Name": "DeGirum"
       },
       {
         "Id": 602191,
@@ -3777,10 +3736,6 @@
         "Name": "Ditek"
       },
       {
-        "Id": 4242,
-        "Name": "DITEL"
-      },
-      {
         "Id": 2236,
         "Name": "DiTom Microwave"
       },
@@ -3863,10 +3818,6 @@
       {
         "Id": 5090,
         "Name": "Dracal Technologies"
-      },
-      {
-        "Id": 601987,
-        "Name": "Dragino"
       },
       {
         "Id": 2486,
@@ -3961,6 +3912,10 @@
         "Name": "Dynacom"
       },
       {
+        "Id": 6436,
+        "Name": "Dynament Ltd."
+      },
+      {
         "Id": 600785,
         "Name": "Dynamic Fluid Components"
       },
@@ -4035,10 +3990,6 @@
       {
         "Id": 4627,
         "Name": "Ease Electronics"
-      },
-      {
-        "Id": 5734,
-        "Name": "Easi File"
       },
       {
         "Id": 2769,
@@ -4265,10 +4216,6 @@
         "Name": "Electrans Technologies"
       },
       {
-        "Id": 6062,
-        "Name": "Electric Connector Technology"
-      },
-      {
         "Id": 1413,
         "Name": "Electric Imp Inc."
       },
@@ -4349,10 +4296,6 @@
         "Name": "Elkay"
       },
       {
-        "Id": 601672,
-        "Name": "Elkay Plastics Company"
-      },
-      {
         "Id": 602407,
         "Name": "Elko"
       },
@@ -4375,6 +4318,10 @@
       {
         "Id": 604,
         "Name": "Elna America"
+      },
+      {
+        "Id": 5542,
+        "Name": "Elosoft"
       },
       {
         "Id": 4388,
@@ -4401,10 +4348,6 @@
         "Name": "EM Microelectronic"
       },
       {
-        "Id": 4118,
-        "Name": "EM4, LLC"
-      },
-      {
         "Id": 3416,
         "Name": "EMA Design Automation"
       },
@@ -4419,10 +4362,6 @@
       {
         "Id": 982,
         "Name": "Embedded Artists"
-      },
-      {
-        "Id": 4950,
-        "Name": "Embention"
       },
       {
         "Id": 6025,
@@ -4443,10 +4382,6 @@
       {
         "Id": 600430,
         "Name": "EMOSAFE"
-      },
-      {
-        "Id": 600811,
-        "Name": "Empire Industries"
       },
       {
         "Id": 6597,
@@ -4585,6 +4520,10 @@
         "Name": "EPCO"
       },
       {
+        "Id": 6693,
+        "Name": "epidox.solutions"
+      },
+      {
         "Id": 5242,
         "Name": "EPIGAP OSA Photonics"
       },
@@ -4607,10 +4546,6 @@
       {
         "Id": 483,
         "Name": "Equinox Technologies"
-      },
-      {
-        "Id": 600818,
-        "Name": "Equip by T&S"
       },
       {
         "Id": 600819,
@@ -4665,10 +4600,6 @@
         "Name": "Essentra Components"
       },
       {
-        "Id": 2490,
-        "Name": "Estatec"
-      },
-      {
         "Id": 4370,
         "Name": "eSUN"
       },
@@ -4711,6 +4642,10 @@
       {
         "Id": 2985,
         "Name": "European Thermodynamics Ltd"
+      },
+      {
+        "Id": 602546,
+        "Name": "Everix"
       },
       {
         "Id": 602147,
@@ -4771,10 +4706,6 @@
       {
         "Id": 2827,
         "Name": "Excelta Corporation"
-      },
-      {
-        "Id": 3107,
-        "Name": "Exeltech"
       },
       {
         "Id": 600836,
@@ -4851,6 +4782,10 @@
       {
         "Id": 5328,
         "Name": "Fairview Microwave"
+      },
+      {
+        "Id": 6722,
+        "Name": "Falcomm"
       },
       {
         "Id": 2350,
@@ -4991,6 +4926,10 @@
       {
         "Id": 5348,
         "Name": "Fibox GmbH"
+      },
+      {
+        "Id": 600850,
+        "Name": "Fibre-Metal"
       },
       {
         "Id": 2066,
@@ -5241,10 +5180,6 @@
         "Name": "Frigidaire"
       },
       {
-        "Id": 4153,
-        "Name": "FRIWO Gerätebau GmbH"
-      },
-      {
         "Id": 2819,
         "Name": "Frontier Electronics"
       },
@@ -5263,6 +5198,10 @@
       {
         "Id": 768,
         "Name": "FTDI, Future Technology Devices International Ltd"
+      },
+      {
+        "Id": 6483,
+        "Name": "FTR"
       },
       {
         "Id": 3003,
@@ -5323,10 +5262,6 @@
       {
         "Id": 2807,
         "Name": "Gamma Electronics"
-      },
-      {
-        "Id": 4025,
-        "Name": "GaNPower"
       },
       {
         "Id": 3182,
@@ -5577,10 +5512,6 @@
         "Name": "Go Green Power"
       },
       {
-        "Id": 600907,
-        "Name": "GoatThroat"
-      },
-      {
         "Id": 601883,
         "Name": "Goebel"
       },
@@ -5605,10 +5536,6 @@
         "Name": "GoldenPower"
       },
       {
-        "Id": 4635,
-        "Name": "Golledge Electronics Ltd"
-      },
-      {
         "Id": 600911,
         "Name": "Good L"
       },
@@ -5631,10 +5558,6 @@
       {
         "Id": 3306,
         "Name": "GotRad LLC"
-      },
-      {
-        "Id": 602157,
-        "Name": "Gotyger"
       },
       {
         "Id": 2639,
@@ -5695,10 +5618,6 @@
       {
         "Id": 6515,
         "Name": "GRINN"
-      },
-      {
-        "Id": 601890,
-        "Name": "Griot"
       },
       {
         "Id": 5074,
@@ -5857,10 +5776,6 @@
         "Name": "Harwin Inc."
       },
       {
-        "Id": 6546,
-        "Name": "Harxon Corporation"
-      },
-      {
         "Id": 2595,
         "Name": "Hasco Relays"
       },
@@ -5881,12 +5796,12 @@
         "Name": "Hayata"
       },
       {
-        "Id": 1987,
-        "Name": "HDP Power"
+        "Id": 4987,
+        "Name": "HCB Battery Co.,Ltd"
       },
       {
-        "Id": 4738,
-        "Name": "HEADWAY TRADING CO., LTD."
+        "Id": 1987,
+        "Name": "HDP Power"
       },
       {
         "Id": 6183,
@@ -5899,6 +5814,10 @@
       {
         "Id": 600949,
         "Name": "Heatstar"
+      },
+      {
+        "Id": 6660,
+        "Name": "Hebotec GmbH"
       },
       {
         "Id": 4538,
@@ -6173,16 +6092,16 @@
         "Name": "Huizhou N Acoustics Co., Ltd"
       },
       {
+        "Id": 602548,
+        "Name": "HumiSeal"
+      },
+      {
         "Id": 602422,
         "Name": "Hummel AG"
       },
       {
         "Id": 2244,
         "Name": "HVM Technology, Inc."
-      },
-      {
-        "Id": 602162,
-        "Name": "HVTG"
       },
       {
         "Id": 600481,
@@ -6203,10 +6122,6 @@
       {
         "Id": 4348,
         "Name": "I-SYST"
-      },
-      {
-        "Id": 3774,
-        "Name": "I.F. Engineering Corp and CrossPoint Technologies"
       },
       {
         "Id": 111,
@@ -6449,6 +6364,10 @@
         "Name": "Innergie"
       },
       {
+        "Id": 6627,
+        "Name": "InnoComm Mobile Technology Corp."
+      },
+      {
         "Id": 4265,
         "Name": "Innodisk USA Corporation"
       },
@@ -6613,10 +6532,6 @@
         "Name": "International Rectifier"
       },
       {
-        "Id": 3448,
-        "Name": "International Test Instruments Corporation"
-      },
-      {
         "Id": 2710,
         "Name": "Interpower"
       },
@@ -6737,6 +6652,10 @@
         "Name": "ISSI, Integrated Silicon Solution Inc"
       },
       {
+        "Id": 602482,
+        "Name": "ITACOIL"
+      },
+      {
         "Id": 600284,
         "Name": "Italtronic"
       },
@@ -6791,10 +6710,6 @@
       {
         "Id": 5454,
         "Name": "iWave Global"
-      },
-      {
-        "Id": 2503,
-        "Name": "iWave Systems - dup use 5454"
       },
       {
         "Id": 238,
@@ -6929,8 +6844,8 @@
         "Name": "JIE YI ELECTRONICS LIMITED"
       },
       {
-        "Id": 5057,
-        "Name": "JiGO"
+        "Id": 6305,
+        "Name": "JITE"
       },
       {
         "Id": 289,
@@ -7085,8 +7000,8 @@
         "Name": "Kang Yang International"
       },
       {
-        "Id": 601828,
-        "Name": "KANT-TWIST®"
+        "Id": 2220,
+        "Name": "Kano Laboratories"
       },
       {
         "Id": 5180,
@@ -7115,10 +7030,6 @@
       {
         "Id": 3092,
         "Name": "Keller Pressure, Inc."
-      },
-      {
-        "Id": 4949,
-        "Name": "Kelly Pneumatics, Inc."
       },
       {
         "Id": 399,
@@ -7155,10 +7066,6 @@
       {
         "Id": 2759,
         "Name": "Kepco and Kepco Power"
-      },
-      {
-        "Id": 601903,
-        "Name": "Kerlink"
       },
       {
         "Id": 117,
@@ -7301,6 +7208,10 @@
         "Name": "Knowles Voltronics"
       },
       {
+        "Id": 601053,
+        "Name": "Knuffi By Ideal Warehouse"
+      },
+      {
         "Id": 2019,
         "Name": "KOA Speer Electronics, Inc."
       },
@@ -7341,12 +7252,16 @@
         "Name": "Krowne"
       },
       {
+        "Id": 601061,
+        "Name": "Krylon"
+      },
+      {
         "Id": 229,
         "Name": "KSM Electronics Inc."
       },
       {
         "Id": 2308,
-        "Name": "Kübler"
+        "Name": "Kuebler"
       },
       {
         "Id": 2122,
@@ -7355,10 +7270,6 @@
       {
         "Id": 2178,
         "Name": "Kunbus GmbH"
-      },
-      {
-        "Id": 3313,
-        "Name": "KUROKESU"
       },
       {
         "Id": 5152,
@@ -7501,10 +7412,6 @@
         "Name": "Leader Tech Inc."
       },
       {
-        "Id": 4615,
-        "Name": "LECIP"
-      },
-      {
         "Id": 602444,
         "Name": "Lectronify"
       },
@@ -7527,10 +7434,6 @@
       {
         "Id": 711,
         "Name": "Ledil"
-      },
-      {
-        "Id": 5948,
-        "Name": "LEFOO"
       },
       {
         "Id": 601694,
@@ -7685,10 +7588,6 @@
         "Name": "Link Labs Inc."
       },
       {
-        "Id": 6435,
-        "Name": "Link4 Corporation"
-      },
-      {
         "Id": 5149,
         "Name": "Linkplex"
       },
@@ -7797,10 +7696,6 @@
         "Name": "LogTag"
       },
       {
-        "Id": 3126,
-        "Name": "LOTES"
-      },
-      {
         "Id": 5155,
         "Name": "Lotus Microsystems"
       },
@@ -7859,10 +7754,6 @@
       {
         "Id": 5405,
         "Name": "Lumberg Inc"
-      },
-      {
-        "Id": 5431,
-        "Name": "LUMEL"
       },
       {
         "Id": 3724,
@@ -7963,14 +7854,6 @@
       {
         "Id": 1518,
         "Name": "Mag-LED Solutions"
-      },
-      {
-        "Id": 600495,
-        "Name": "MAG-MATE®"
-      },
-      {
-        "Id": 601113,
-        "Name": "Magic Master"
       },
       {
         "Id": 5151,
@@ -8533,6 +8416,10 @@
         "Name": "Microchip Technology"
       },
       {
+        "Id": 6634,
+        "Name": "Microgate Technology"
+      },
+      {
         "Id": 602358,
         "Name": "Microlab"
       },
@@ -8573,6 +8460,10 @@
         "Name": "Microtex Electronics"
       },
       {
+        "Id": 5056,
+        "Name": "Microwave Town"
+      },
+      {
         "Id": 3086,
         "Name": "Midas Displays"
       },
@@ -8603,10 +8494,6 @@
       {
         "Id": 1471,
         "Name": "MikroElektronika"
-      },
-      {
-        "Id": 602071,
-        "Name": "Milesight"
       },
       {
         "Id": 54,
@@ -8701,10 +8588,6 @@
         "Name": "Mixtile Limited"
       },
       {
-        "Id": 5529,
-        "Name": "MJM Industries"
-      },
-      {
         "Id": 6499,
         "Name": "MKC GmbH"
       },
@@ -8747,10 +8630,6 @@
       {
         "Id": 5533,
         "Name": "Moflash Signalling Ltd"
-      },
-      {
-        "Id": 602414,
-        "Name": "Mokosmart"
       },
       {
         "Id": 601172,
@@ -8819,10 +8698,6 @@
       {
         "Id": 2331,
         "Name": "MoSys, Inc."
-      },
-      {
-        "Id": 5610,
-        "Name": "Moticont"
       },
       {
         "Id": 600066,
@@ -8907,10 +8782,6 @@
       {
         "Id": 600282,
         "Name": "MuMETAL®"
-      },
-      {
-        "Id": 4731,
-        "Name": "MURADG, LLC"
       },
       {
         "Id": 490,
@@ -9093,10 +8964,6 @@
         "Name": "Netsol"
       },
       {
-        "Id": 602072,
-        "Name": "Netvox"
-      },
-      {
         "Id": 6113,
         "Name": "Neurochrome"
       },
@@ -9131,10 +8998,6 @@
       {
         "Id": 3263,
         "Name": "NEW TRY"
-      },
-      {
-        "Id": 6261,
-        "Name": "Neware"
       },
       {
         "Id": 470,
@@ -9225,10 +9088,6 @@
         "Name": "NI"
       },
       {
-        "Id": 6568,
-        "Name": "Nibboh Magnets LLC"
-      },
-      {
         "Id": 601926,
         "Name": "NIC Components"
       },
@@ -9255,10 +9114,6 @@
       {
         "Id": 601210,
         "Name": "NightStick"
-      },
-      {
-        "Id": 4733,
-        "Name": "NightSwitch, LLC"
       },
       {
         "Id": 601211,
@@ -9365,6 +9220,10 @@
         "Name": "Northstar Photonics"
       },
       {
+        "Id": 6718,
+        "Name": "Northwest Power Inc."
+      },
+      {
         "Id": 601218,
         "Name": "Norton"
       },
@@ -9383,6 +9242,10 @@
       {
         "Id": 601222,
         "Name": "Novatek"
+      },
+      {
+        "Id": 6695,
+        "Name": "NovaTekLab LLC"
       },
       {
         "Id": 4826,
@@ -9425,10 +9288,6 @@
         "Name": "Numonyx"
       },
       {
-        "Id": 5299,
-        "Name": "NuPhotonics"
-      },
-      {
         "Id": 600035,
         "Name": "Nupla"
       },
@@ -9447,10 +9306,6 @@
       {
         "Id": 391,
         "Name": "NVE Corp/Sensor Products"
-      },
-      {
-        "Id": 3661,
-        "Name": "nVent"
       },
       {
         "Id": 602314,
@@ -9501,10 +9356,6 @@
         "Name": "OCS"
       },
       {
-        "Id": 6423,
-        "Name": "OCS"
-      },
-      {
         "Id": 1676,
         "Name": "Octavo Systems LLC"
       },
@@ -9531,6 +9382,10 @@
       {
         "Id": 2261,
         "Name": "OKdo"
+      },
+      {
+        "Id": 389,
+        "Name": "OKI/Metcal"
       },
       {
         "Id": 6350,
@@ -9593,10 +9448,6 @@
         "Name": "On Shore Technology Inc."
       },
       {
-        "Id": 4319,
-        "Name": "Ondrives.US Corp"
-      },
-      {
         "Id": 3043,
         "Name": "OneSimCard"
       },
@@ -9619,6 +9470,10 @@
       {
         "Id": 3734,
         "Name": "Opal Kelly"
+      },
+      {
+        "Id": 601662,
+        "Name": "Ophit"
       },
       {
         "Id": 3976,
@@ -9701,6 +9556,10 @@
         "Name": "Orient Display"
       },
       {
+        "Id": 6623,
+        "Name": "Oriental Motor"
+      },
+      {
         "Id": 602315,
         "Name": "ORIENTAL TECHNOLOGY"
       },
@@ -9725,16 +9584,16 @@
         "Name": "Oscium"
       },
       {
-        "Id": 2234,
-        "Name": "OSEPP Electronics LTD"
-      },
-      {
         "Id": 602529,
         "Name": "OSI Batteries"
       },
       {
         "Id": 2640,
         "Name": "OSI Optoelectronics, Inc."
+      },
+      {
+        "Id": 6482,
+        "Name": "Ositech Communications Inc"
       },
       {
         "Id": 602277,
@@ -9763,10 +9622,6 @@
       {
         "Id": 2250,
         "Name": "Owon Technology Lilliput Electronics (USA) Inc"
-      },
-      {
-        "Id": 3829,
-        "Name": "OX Tools"
       },
       {
         "Id": 3684,
@@ -9809,16 +9664,8 @@
         "Name": "PACE Worldwide"
       },
       {
-        "Id": 2853,
-        "Name": "Pacer Instruments"
-      },
-      {
         "Id": 3318,
         "Name": "Pacific Goal"
-      },
-      {
-        "Id": 5534,
-        "Name": "Pacific Lasertec"
       },
       {
         "Id": 3947,
@@ -10033,10 +9880,6 @@
         "Name": "Peltec Timers and Controls"
       },
       {
-        "Id": 3962,
-        "Name": "Penchem Technologies Sdn Bhd"
-      },
-      {
         "Id": 3574,
         "Name": "PENCOM"
       },
@@ -10101,10 +9944,6 @@
         "Name": "Pervasive Displays"
       },
       {
-        "Id": 602052,
-        "Name": "Pfannenberg"
-      },
-      {
         "Id": 2081,
         "Name": "Pflitsch"
       },
@@ -10133,6 +9972,10 @@
         "Name": "Philips Advance"
       },
       {
+        "Id": 6704,
+        "Name": "Phillips Components, Inc."
+      },
+      {
         "Id": 2222,
         "Name": "Phoenix America"
       },
@@ -10155,10 +9998,6 @@
       {
         "Id": 6369,
         "Name": "PhotonFi"
-      },
-      {
-        "Id": 6460,
-        "Name": "photonicSENS"
       },
       {
         "Id": 4711,
@@ -10287,14 +10126,6 @@
       {
         "Id": 6210,
         "Name": "PML"
-      },
-      {
-        "Id": 3969,
-        "Name": "Pocket VNA"
-      },
-      {
-        "Id": 6230,
-        "Name": "Point 2 Point"
       },
       {
         "Id": 2784,
@@ -10493,10 +10324,6 @@
         "Name": "Prem Magnetics, Inc."
       },
       {
-        "Id": 2884,
-        "Name": "Premier Magnetics"
-      },
-      {
         "Id": 6489,
         "Name": "PremierPhotonics"
       },
@@ -10511,10 +10338,6 @@
       {
         "Id": 600294,
         "Name": "Premium Quality Supply"
-      },
-      {
-        "Id": 3012,
-        "Name": "Premo S.L."
       },
       {
         "Id": 601304,
@@ -10595,6 +10418,10 @@
       {
         "Id": 602461,
         "Name": "Protective Closures"
+      },
+      {
+        "Id": 2718,
+        "Name": "Protek Devices"
       },
       {
         "Id": 2293,
@@ -10773,10 +10600,6 @@
         "Name": "Quantic UTC"
       },
       {
-        "Id": 2381,
-        "Name": "Quantic Wenzel"
-      },
-      {
         "Id": 5322,
         "Name": "Quantum Devices"
       },
@@ -10893,10 +10716,6 @@
         "Name": "RAFI"
       },
       {
-        "Id": 601902,
-        "Name": "RAKwireless"
-      },
-      {
         "Id": 4735,
         "Name": "RAKwireless Technology Limited"
       },
@@ -10961,10 +10780,6 @@
         "Name": "Rd Plastics Company Inc"
       },
       {
-        "Id": 2326,
-        "Name": "RDI, Inc."
-      },
-      {
         "Id": 4990,
         "Name": "Re Mixers, Inc."
       },
@@ -10979,6 +10794,14 @@
       {
         "Id": 600354,
         "Name": "Realtek"
+      },
+      {
+        "Id": 602549,
+        "Name": "Rechner"
+      },
+      {
+        "Id": 6044,
+        "Name": "Recodeal"
       },
       {
         "Id": 945,
@@ -11025,10 +10848,6 @@
         "Name": "RefrigiWear"
       },
       {
-        "Id": 602070,
-        "Name": "Rejeee"
-      },
-      {
         "Id": 4915,
         "Name": "Reliance North America"
       },
@@ -11067,6 +10886,10 @@
       {
         "Id": 3632,
         "Name": "Renesas Design US Inc."
+      },
+      {
+        "Id": 972,
+        "Name": "Renesas Electronics America/NEC"
       },
       {
         "Id": 1695,
@@ -11141,10 +10964,6 @@
         "Name": "RFMD"
       },
       {
-        "Id": 2410,
-        "Name": "RFMi"
-      },
-      {
         "Id": 6195,
         "Name": "RFOptic Inc"
       },
@@ -11177,10 +10996,6 @@
         "Name": "Ricoh"
       },
       {
-        "Id": 5763,
-        "Name": "Ridgeback Lighting LLC"
-      },
-      {
         "Id": 601363,
         "Name": "RIDGID"
       },
@@ -11207,10 +11022,6 @@
       {
         "Id": 5568,
         "Name": "Rise K12"
-      },
-      {
-        "Id": 6306,
-        "Name": "RiseLink Technologies Inc."
       },
       {
         "Id": 4080,
@@ -11423,6 +11234,10 @@
       {
         "Id": 602496,
         "Name": "Saint-Gobain"
+      },
+      {
+        "Id": 6648,
+        "Name": "Saleae"
       },
       {
         "Id": 2223,
@@ -11657,10 +11472,6 @@
         "Name": "Seeed Quick Turn"
       },
       {
-        "Id": 602265,
-        "Name": "Seeed Studio"
-      },
-      {
         "Id": 1597,
         "Name": "Seeed Technology Co., Ltd"
       },
@@ -11793,10 +11604,6 @@
         "Name": "Sensata-Gigavac Clean Energy"
       },
       {
-        "Id": 602416,
-        "Name": "Sensative"
-      },
-      {
         "Id": 4112,
         "Name": "SensComp, Inc."
       },
@@ -11861,20 +11668,12 @@
         "Name": "SentrySafe"
       },
       {
-        "Id": 602280,
-        "Name": "Senzemo"
-      },
-      {
         "Id": 897,
         "Name": "Seoul Semiconductor Inc."
       },
       {
         "Id": 2771,
         "Name": "Septentrio Inc."
-      },
-      {
-        "Id": 600483,
-        "Name": "SeqCam"
       },
       {
         "Id": 2972,
@@ -11929,10 +11728,6 @@
         "Name": "Sglux GmbH"
       },
       {
-        "Id": 6240,
-        "Name": "SHAC"
-      },
-      {
         "Id": 4154,
         "Name": "Shallco"
       },
@@ -11973,10 +11768,6 @@
         "Name": "ShelterLogic"
       },
       {
-        "Id": 602417,
-        "Name": "Shengda"
-      },
-      {
         "Id": 4251,
         "Name": "Shenzhen ADTEK Technology Co., Ltd"
       },
@@ -11987,10 +11778,6 @@
       {
         "Id": 5212,
         "Name": "Shenzhen Lakeview Electronics Co., Ltd"
-      },
-      {
-        "Id": 5007,
-        "Name": "Shenzhen Orient Components Co., Ltd"
       },
       {
         "Id": 5789,
@@ -12015,6 +11802,10 @@
       {
         "Id": 600473,
         "Name": "Shepherd"
+      },
+      {
+        "Id": 5313,
+        "Name": "Shibaura Electronics"
       },
       {
         "Id": 6445,
@@ -12333,10 +12124,6 @@
         "Name": "Smart Sensor Devices"
       },
       {
-        "Id": 600496,
-        "Name": "SmartMag®"
-      },
-      {
         "Id": 4797,
         "Name": "Smarts Electronic & Technology"
       },
@@ -12565,10 +12352,6 @@
         "Name": "SSI Schaefer"
       },
       {
-        "Id": 5742,
-        "Name": "SSSTC"
-      },
-      {
         "Id": 1921,
         "Name": "SST Sensing Ltd."
       },
@@ -12655,6 +12438,10 @@
       {
         "Id": 3244,
         "Name": "Status Instruments Ltd"
+      },
+      {
+        "Id": 2477,
+        "Name": "Staubli Electrical Connectors"
       },
       {
         "Id": 601473,
@@ -12797,6 +12584,10 @@
         "Name": "Suntsu Electronics, Inc"
       },
       {
+        "Id": 6639,
+        "Name": "Sunway Communication"
+      },
+      {
         "Id": 601487,
         "Name": "Supco"
       },
@@ -12839,10 +12630,6 @@
       {
         "Id": 5761,
         "Name": "Supreme Edgelight Devices"
-      },
-      {
-        "Id": 4070,
-        "Name": "Sure Controls Inc."
       },
       {
         "Id": 600256,
@@ -13047,10 +12834,6 @@
       {
         "Id": 3900,
         "Name": "TAPCO"
-      },
-      {
-        "Id": 601499,
-        "Name": "Tapco, Traffic & Parking Control Co, Inc"
       },
       {
         "Id": 2636,
@@ -13309,10 +13092,6 @@
         "Name": "Telemecanique Sensors"
       },
       {
-        "Id": 6132,
-        "Name": "Teleplan Forsberg Ltd"
-      },
-      {
         "Id": 600219,
         "Name": "Televac"
       },
@@ -13355,10 +13134,6 @@
       {
         "Id": 2865,
         "Name": "Temprel"
-      },
-      {
-        "Id": 600484,
-        "Name": "Tenda"
       },
       {
         "Id": 601509,
@@ -13447,10 +13222,6 @@
       {
         "Id": 601511,
         "Name": "The Packaging Wholesalers"
-      },
-      {
-        "Id": 5640,
-        "Name": "The Timken Company"
       },
       {
         "Id": 6503,
@@ -13625,6 +13396,10 @@
         "Name": "Top Tape & Label"
       },
       {
+        "Id": 602490,
+        "Name": "Topflite Components"
+      },
+      {
         "Id": 602470,
         "Name": "Toppan Inc."
       },
@@ -13717,7 +13492,7 @@
         "Name": "TREBLAB"
       },
       {
-        "Id": 601662,
+        "Id": 6736,
         "Name": "Trendnet"
       },
       {
@@ -14089,10 +13864,6 @@
         "Name": "Urrea"
       },
       {
-        "Id": 4035,
-        "Name": "US Digital"
-      },
-      {
         "Id": 3544,
         "Name": "US Electronics Inc."
       },
@@ -14135,6 +13906,10 @@
       {
         "Id": 3785,
         "Name": "Uticor Technologies"
+      },
+      {
+        "Id": 5869,
+        "Name": "UTL, G-POWER"
       },
       {
         "Id": 4141,
@@ -14257,10 +14032,6 @@
         "Name": "VersaSense"
       },
       {
-        "Id": 2927,
-        "Name": "Versatile Power"
-      },
-      {
         "Id": 2022,
         "Name": "Vesper Technologies Inc."
       },
@@ -14339,6 +14110,10 @@
       {
         "Id": 570,
         "Name": "Vishay Ametherm"
+      },
+      {
+        "Id": 4353,
+        "Name": "Vishay Barry"
       },
       {
         "Id": 56,
@@ -14521,10 +14296,6 @@
         "Name": "WanTcom Inc."
       },
       {
-        "Id": 601589,
-        "Name": "Warn"
-      },
-      {
         "Id": 601590,
         "Name": "Watershed Innovation"
       },
@@ -14535,6 +14306,10 @@
       {
         "Id": 2100,
         "Name": "Watterott Electronic GmbH"
+      },
+      {
+        "Id": 6638,
+        "Name": "Wavelength Electronics"
       },
       {
         "Id": 3140,
@@ -14623,6 +14398,10 @@
       {
         "Id": 601603,
         "Name": "Western Case"
+      },
+      {
+        "Id": 6224,
+        "Name": "Western Electric"
       },
       {
         "Id": 601604,
@@ -14789,10 +14568,6 @@
         "Name": "Xeno"
       },
       {
-        "Id": 2433,
-        "Name": "XetaWave"
-      },
-      {
         "Id": 2840,
         "Name": "XFMRS"
       },
@@ -14881,16 +14656,8 @@
         "Name": "Yamar"
       },
       {
-        "Id": 5441,
-        "Name": "YANSEN"
-      },
-      {
         "Id": 602307,
         "Name": "Yealink"
-      },
-      {
-        "Id": 6514,
-        "Name": "Yeh Lin International Ltd."
       },
       {
         "Id": 602116,
@@ -15071,14 +14838,6 @@
       {
         "Id": 602455,
         "Name": "Zowie Technology Corporation"
-      },
-      {
-        "Id": 5461,
-        "Name": "ZPE Systems"
-      },
-      {
-        "Id": 5523,
-        "Name": "Zubax Robotics"
       },
       {
         "Id": 6566,

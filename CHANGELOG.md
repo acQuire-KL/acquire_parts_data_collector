@@ -1,3 +1,35 @@
+## Sprint 4.7.2e — Console-First Identity Resolution
+
+- Added `--console-only` mode so live identity/provider logic can be validated without generating a workbook.
+- Added explicit Hirose manufacturer alias handling (`Hirose` ↔ `Hirose Electric Co Ltd`) through the auditable manufacturer alias table.
+- DigiKey manufacturer-resolution uncertainty no longer immediately becomes a provider error when keyword discovery remains available.
+- DigiKey keyword discovery can now contribute identity evidence when the returned MPN is alphanumeric-equivalent to the source search text.
+- Provider-returned formatting is preferred over raw BOM punctuation when the alphanumeric manufacturer order code is identical.
+- Manufacturer-defined alphanumeric characters remain strict: Hirose `6DS` and `6DP` are distinct identities and are never normalised together.
+- Two independent provider identity confirmations stop further normalisation/family broadening and suppress a third-provider coverage/error gap from `Review Required`.
+- Corrected the Review Required filter so `No immediate review exception identified` does not itself trigger review.
+- Family broadening remains capped at 25% and is not entered once two-provider consensus is reached.
+- Housekeeping performed before packaging.
+
+## Sprint 4.7.2d corrective logic patch
+
+- DigiKey keyword-search results that are alphanumeric-equivalent to the source search text are now retained as formatting-normalised identity candidates instead of being discarded as redundant exact identities.
+- Two independent provider identity matches now stop discovery regardless of harmless provider manufacturer-name spelling differences.
+- This prevents Abracon 2-of-3 matches from entering normalisation and allows DigiKey search to surface corrected Hirose punctuation/order-code formatting.
+
+# Changelog
+
+## Sprint 4.7.2d — Evidence-Led Identity Resolution
+
+- Identity resolution now stops when two or more active providers independently confirm the same Manufacturer + MPN.
+- Normalisation/family discovery is therefore not run for already-resolved identities.
+- Blank-MPN BOM context can be resolved when two independent providers return the same formatting-equivalent Manufacturer + MPN.
+- Provider retry success now replaces stale first-pass no-match/error evidence in final Provider Results.
+- Family discovery is a last resort and is capped at 25% right-side reduction; short MPNs are not broadened.
+- `not listed` remains a normal provider coverage state, distinct from provider errors.
+- A resolved recovered identity does not enter Review Required merely because candidate evidence exists.
+- No automatic engineering approval and no BOM rewrite.
+
 # Changelog
 
 ## Sprint 4.7.2c — Identity Search Correction & Exception Review Queue

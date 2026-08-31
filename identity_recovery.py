@@ -71,14 +71,14 @@ def search_variants(value: Any) -> list[SearchVariant]:
 def family_search_variants(value: Any) -> list[SearchVariant]:
     """Controlled right-truncation keys for family discovery.
 
-    The search stops at a conservative length-dependent floor.  These keys are
+    The search stops at a conservative 25% maximum reduction floor.  These keys are
     discovery-only and can never establish identity by themselves.
     """
     alpha = normalise_mpn(value)
     n = len(alpha)
     if n < 10:
         return []
-    max_reduction = 0.50 if n >= 15 else 0.25
+    max_reduction = 0.25
     floor = max(6, math.ceil(n * (1.0 - max_reduction)))
     # Prefer useful steps rather than one API call per removed character.
     lengths = []
@@ -234,7 +234,18 @@ def consolidate_candidates(candidates: Iterable[RecoveryCandidate]) -> list[Reco
 
     result: list[RecoveryCandidate] = []
     for group in grouped.values():
-        first = group[0]
+        # Prefer a provider/evidence-returned representation over raw BOM text
+        # when both reduce to the same alphanumeric manufacturer order code.
+        # This changes formatting only; different alphanumeric codes remain
+        # different candidates (for example Hirose DS vs DP).
+        provider_like = [
+            item for item in group
+            if any(source not in ("BOM Value", "BOM Description") for source in item.sources)
+        ]
+        first = next(
+            (item for item in provider_like if item.relationship == "Formatting-normalised identity candidate"),
+            provider_like[0] if provider_like else group[0],
+        )
         sources = tuple(dict.fromkeys(source for item in group for source in item.sources))
         package_values = [item.package for item in group if item.package]
         datasheets = [item.datasheet_url for item in group if item.datasheet_url]
@@ -271,8 +282,13 @@ def discover_payload_candidates(provider: str, payload: Any, *, requested_manufa
         if mfg_text and requested_manufacturer and not names_equivalent(requested_manufacturer, mfg_text):
             return
         relationship = classify_mpn_relationship(reference_mpn, mpn_text)
+        # In a provider SEARCH response an alphanumeric-equivalent MPN can be the
+        # corrected punctuation/order-code we are trying to recover. Retain it.
         if relationship == "Exact identity":
-            return
+            if provider_key == "digikey" and _text(reference_mpn) != mpn_text:
+                relationship = "Formatting-normalised identity candidate"
+            else:
+                return
         candidates.append(RecoveryCandidate(
             manufacturer=mfg_text or requested_manufacturer,
             mpn=mpn_text,

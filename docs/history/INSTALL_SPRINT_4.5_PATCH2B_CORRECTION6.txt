@@ -1,7 +1,0 @@
-PDC v0.2.10 - Sprint 4.5 Patch 2b Correction 6
-
-1. Extract this ZIP over the project root.
-2. Do NOT delete the existing Knowledge History.
-3. Run: py -m unittest discover -s tests -v
-4. Re-run knowledge_promotion_check.py against the completed CANDIDATE_REVIEW.csv.
-5. Existing redundant Manufacturer Alias rows will be migrated out automatically.
