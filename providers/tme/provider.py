@@ -59,16 +59,41 @@ class TmeProvider(BaseProvider):
         # behaviour authenticated separately for Search, Data and Parameters.
         access_token = self.client.access_token()
         search = self.client.search_products(mpn, access_token=access_token)
-        # Search result symbol is the safest product key for subsequent TME endpoints.
-        symbol = self._first_symbol(search) or mpn
-        data = self.client.get_product_data(symbol, access_token=access_token)
-        parameters = self.client.get_product_parameters(symbol, access_token=access_token)
 
         search_record = self.knowledge_base.save_raw_provider_response(
             provider=self.name, endpoint="Product_Search", manufacturer=manufacturer,
             mpn=mpn, provider_response=search, input_manufacturer=input_manufacturer,
             locale=self.settings.language, currency=self.settings.currency,
         )
+
+        # A successful TME search with zero products means "not listed", not an
+        # API/provider failure. Do not fall back to the requested MPN and call
+        # Product Data / Parameters, because those endpoints may then return an
+        # error for a product TME does not carry.
+        symbol = self._first_symbol(search)
+        if not symbol:
+            metadata = {
+                "provider": self.name,
+                "captured_at_utc": search_record.captured_at_utc or utc_text(),
+                "source_mode": "live_api",
+                "input_manufacturer": input_manufacturer,
+                "input_mpn": mpn,
+                "resolved_manufacturer": manufacturer,
+                "locale": self.settings.language,
+                "currency": self.settings.currency,
+                "provider_listing_status": "not_listed",
+            }
+            return KnowledgeRecord(
+                provider_response={"search": search, "data": {}, "parameters": {}},
+                metadata=metadata,
+                commercial_profile={},
+                part_profile={},
+            )
+
+        # Search result symbol is the safest product key for subsequent TME endpoints.
+        data = self.client.get_product_data(symbol, access_token=access_token)
+        parameters = self.client.get_product_parameters(symbol, access_token=access_token)
+
         data_record = self.knowledge_base.save_raw_provider_response(
             provider=self.name, endpoint="Product_Data", manufacturer=manufacturer,
             mpn=mpn, provider_response=data, input_manufacturer=input_manufacturer,

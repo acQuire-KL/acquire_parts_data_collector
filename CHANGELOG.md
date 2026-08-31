@@ -1,3 +1,24 @@
+## Sprint 4.7.2g — DigiKey Independent-First Identity Discovery
+
+- DigiKey now starts each part with its own Keyword Search using the original/BOM-derived search text, in parallel with independent Mouser and TME lookups.
+- DigiKey is no longer first asked to resolve malformed source text through the stricter Product Details endpoint.
+- When DigiKey independently returns an alphanumeric-equivalent MPN, that returned MPN becomes DigiKey identity evidence.
+- If a DigiKey manufacturer ID is available, Product Details is then called using DigiKey's own returned MPN to enrich technical/commercial evidence.
+- Mouser's returned MPN is not used to seed DigiKey during the independent first pass.
+- Cross-provider retry remains a later fallback only when independent provider consensus is insufficient.
+- Clean exact DigiKey keyword hits are now retained as identity evidence as well as punctuation-normalised hits.
+- Hirose DS/DP regression tests explicitly preserve them as distinct manufacturer identities.
+- TME `not listed` handling from 4.7.2f is unchanged.
+- Housekeeping performed before packaging.
+
+## Sprint 4.7.2f — TME Not-Listed Semantics
+
+- A successful TME product search that returns zero products is now treated as `not listed`, not `provider error`.
+- TME no longer falls back to the requested MPN and calls Product Data / Product Parameters when Product Search returned no listing.
+- Genuine TME API/authentication/network failures remain provider errors.
+- Independent-first provider search behaviour is unchanged; cross-provider confirmation remains a fallback only after insufficient independent agreement.
+- Housekeeping performed before packaging.
+
 ## Sprint 4.7.2e — Console-First Identity Resolution
 
 - Added `--console-only` mode so live identity/provider logic can be validated without generating a workbook.

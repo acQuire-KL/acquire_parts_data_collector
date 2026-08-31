@@ -1,0 +1,702 @@
+{
+  "knowledge_base_metadata": {
+    "knowledge_base_schema_version": "1.4",
+    "provider": "DigiKey",
+    "endpoint": "Product_Details",
+    "captured_at_utc": "2026-08-31T18:24:14Z",
+    "source_mode": "live_api",
+    "input_manufacturer": "Hirose",
+    "input_mpn": "BM28B0.6-6DP/2-0.35V(51)",
+    "resolved_manufacturer": "Hirose Electric Co Ltd",
+    "provider_manufacturer_id": 26,
+    "locale": "IE",
+    "currency": "EUR",
+    "rate_limit": {
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "989"
+    }
+  },
+  "provider_response": {
+    "SearchLocaleUsed": {
+      "Site": "IE",
+      "Language": "en",
+      "Currency": "EUR"
+    },
+    "Product": {
+      "Description": {
+        "ProductDescription": "CONN HDR SMD GOLD",
+        "DetailedDescription": "6 Position Connector Header, Outer Shroud Contacts Surface Mount Gold"
+      },
+      "Manufacturer": {
+        "Id": 26,
+        "Name": "Hirose Electric Co Ltd"
+      },
+      "ManufacturerProductNumber": "BM28B0.6-6DP/2-0.35V(51)",
+      "UnitPrice": 0.67,
+      "ProductUrl": "https://www.digikey.ie/en/products/detail/hirose-electric-co-ltd/BM28B0-6-6DP-2-0-35V-51/11204850",
+      "DatasheetUrl": "https://www.hirose.com/en/product/document?clcode=CL0480-0377-0-53&productname=BM28B0.6-58DS%2f2-0.35V(53)&series=BM28&documenttype=Catalog&lang=en&documentid=D143865_en",
+      "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5726/BM28B0.6-6DP2-0.35V%2851%29.jpg",
+      "ProductVariations": [
+        {
+          "DigiKeyProductNumber": "26-BM28B0.6-6DP/2-0.35V(51)TR-ND",
+          "PackageType": {
+            "Id": 1,
+            "Name": "Tape & Reel (TR)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 20000,
+              "UnitPrice": 0.32979,
+              "TotalPrice": 6595.8
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 0,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 20000,
+          "StandardPackage": 20000,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "26-BM28B0.6-6DP/2-0.35V(51)CT-ND",
+          "PackageType": {
+            "Id": 2,
+            "Name": "Cut Tape (CT)"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.67,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5288,
+              "TotalPrice": 13.22
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5034,
+              "TotalPrice": 25.17
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4793,
+              "TotalPrice": 47.93
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.44928,
+              "TotalPrice": 112.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.42782,
+              "TotalPrice": 213.91
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.40738,
+              "TotalPrice": 407.38
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.38188,
+              "TotalPrice": 954.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 8194,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 0.0
+        },
+        {
+          "DigiKeyProductNumber": "26-BM28B0.6-6DP/2-0.35V(51)DKR-ND",
+          "PackageType": {
+            "Id": 243,
+            "Name": "Digi-Reel®"
+          },
+          "StandardPricing": [
+            {
+              "BreakQuantity": 1,
+              "UnitPrice": 0.67,
+              "TotalPrice": 0.67
+            },
+            {
+              "BreakQuantity": 10,
+              "UnitPrice": 0.564,
+              "TotalPrice": 5.64
+            },
+            {
+              "BreakQuantity": 25,
+              "UnitPrice": 0.5288,
+              "TotalPrice": 13.22
+            },
+            {
+              "BreakQuantity": 50,
+              "UnitPrice": 0.5034,
+              "TotalPrice": 25.17
+            },
+            {
+              "BreakQuantity": 100,
+              "UnitPrice": 0.4793,
+              "TotalPrice": 47.93
+            },
+            {
+              "BreakQuantity": 250,
+              "UnitPrice": 0.44928,
+              "TotalPrice": 112.32
+            },
+            {
+              "BreakQuantity": 500,
+              "UnitPrice": 0.42782,
+              "TotalPrice": 213.91
+            },
+            {
+              "BreakQuantity": 1000,
+              "UnitPrice": 0.40738,
+              "TotalPrice": 407.38
+            },
+            {
+              "BreakQuantity": 2500,
+              "UnitPrice": 0.38188,
+              "TotalPrice": 954.7
+            }
+          ],
+          "MyPricing": [],
+          "MarketPlace": false,
+          "TariffActive": true,
+          "Supplier": {
+            "Id": 26,
+            "Name": "Hirose Electric Co Ltd"
+          },
+          "QuantityAvailableforPackageType": 8194,
+          "MaxQuantityForDistribution": 999999999,
+          "MinimumOrderQuantity": 1,
+          "StandardPackage": 1,
+          "DigiReelFee": 5.5
+        }
+      ],
+      "QuantityAvailable": 8194,
+      "ProductStatus": {
+        "Id": 0,
+        "Status": "Active"
+      },
+      "BackOrderNotAllowed": false,
+      "NormallyStocking": true,
+      "Discontinued": false,
+      "EndOfLife": false,
+      "Ncnr": false,
+      "PrimaryVideoUrl": "",
+      "Parameters": [
+        {
+          "ParameterId": 28,
+          "ParameterText": "Connector Type",
+          "ParameterType": "String",
+          "ValueId": "353548",
+          "ValueText": "Header, Outer Shroud Contacts"
+        },
+        {
+          "ParameterId": 88,
+          "ParameterText": "Number of Positions",
+          "ParameterType": "String",
+          "ValueId": "249730",
+          "ValueText": "6"
+        },
+        {
+          "ParameterId": 89,
+          "ParameterText": "Pitch",
+          "ParameterType": "String",
+          "ValueId": "4812",
+          "ValueText": "0.014\" (0.35mm)"
+        },
+        {
+          "ParameterId": 2172,
+          "ParameterText": "Number of Rows",
+          "ParameterType": "Double",
+          "ValueId": "2",
+          "ValueText": "2"
+        },
+        {
+          "ParameterId": 69,
+          "ParameterText": "Mounting Type",
+          "ParameterType": "String",
+          "ValueId": "409393",
+          "ValueText": "Surface Mount"
+        },
+        {
+          "ParameterId": 5,
+          "ParameterText": "Features",
+          "ParameterType": "String",
+          "ValueId": "405044",
+          "ValueText": "Solder Retention"
+        },
+        {
+          "ParameterId": 30,
+          "ParameterText": "Contact Finish",
+          "ParameterType": "String",
+          "ValueId": "350796",
+          "ValueText": "Gold"
+        },
+        {
+          "ParameterId": 834,
+          "ParameterText": "Contact Finish Thickness",
+          "ParameterType": "String",
+          "ValueId": "62472",
+          "ValueText": "1.97µin (0.050µm)"
+        },
+        {
+          "ParameterId": 1263,
+          "ParameterText": "Mated Stacking Heights",
+          "ParameterType": "String",
+          "ValueId": "31250",
+          "ValueText": "0.6mm"
+        },
+        {
+          "ParameterId": 759,
+          "ParameterText": "Height Above Board",
+          "ParameterType": "String",
+          "ValueId": "5028",
+          "ValueText": "0.018\" (0.46mm)"
+        }
+      ],
+      "BaseProductNumber": {
+        "Id": 567942,
+        "Name": "BM28B0.6"
+      },
+      "Category": {
+        "CategoryId": 20,
+        "ParentId": 0,
+        "Name": "Connectors, Interconnects",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+        "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+        "ChildCategories": [
+          {
+            "CategoryId": 2027,
+            "ParentId": 20,
+            "Name": "Rectangular Connectors",
+            "ProductCount": 0,
+            "NewProductCount": 0,
+            "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+            "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+            "ChildCategories": [
+              {
+                "CategoryId": 308,
+                "ParentId": 2027,
+                "Name": "Arrays, Edge Type, Mezzanine (Board to Board)",
+                "ProductCount": 0,
+                "NewProductCount": 0,
+                "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/117/308/ASP-134488-01_tmb.jpg",
+                "SeoDescription": "Connectors of this type have contacts arranged in linear rows and an outline which is generally rectangular, rather than circular. They are used for creating pluggable connections directly between printed circuit boards without use of wire or cable, and can provide a large number of electrical connections in a relatively small space. For this reason they are commonly used to connect components of space-constrained systems.",
+                "ChildCategories": []
+              }
+            ]
+          }
+        ]
+      },
+      "ManufacturerLeadWeeks": "12",
+      "ManufacturerPublicQuantity": 0,
+      "Series": {
+        "Id": 59903,
+        "Name": "BM28"
+      },
+      "Classifications": {
+        "ReachStatus": "REACH Unknown",
+        "RohsStatus": "ROHS3 Compliant",
+        "MoistureSensitivityLevel": "1  (Unlimited)",
+        "ExportControlClassNumber": "EAR99",
+        "HtsusCode": "8536.69.4040"
+      },
+      "OtherNames": [
+        "673-5047-0-51",
+        "26-BM28B0.6-6DP/2-0.35V(51)DKR",
+        "26-BM28B0.6-6DP/2-0.35V(51)TR",
+        "26-BM28B0.6-6DP/2-0.35V(51)CT"
+      ]
+    },
+    "AccountIdUsed": 0,
+    "CustomerIdUsed": 0
+  },
+  "commercial_profile": {
+    "commercial_profile_schema_version": "1.3",
+    "provider": "DigiKey",
+    "provider_currency": "EUR",
+    "captured_at_utc": "2026-08-31T18:24:14Z",
+    "manufacturer_part_number": "BM28B0.6-6DP/2-0.35V(51)",
+    "product_quantity_available": 8194,
+    "manufacturer_public_quantity": 0,
+    "manufacturer_lead_weeks": "12",
+    "product_unit_price": 0.67,
+    "offers": [
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)CT-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8194,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5288,
+            "total_price": 13.22
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5034,
+            "total_price": 25.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4793,
+            "total_price": 47.93
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.44928,
+            "total_price": 112.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.42782,
+            "total_price": 213.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40738,
+            "total_price": 407.38
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38188,
+            "total_price": 954.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)DKR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8194,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5288,
+            "total_price": 13.22
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5034,
+            "total_price": 25.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4793,
+            "total_price": 47.93
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.44928,
+            "total_price": 112.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.42782,
+            "total_price": 213.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40738,
+            "total_price": 407.38
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38188,
+            "total_price": 954.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)TR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 20000,
+        "pack_quantity": 20000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.32979,
+            "total_price": 6595.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ],
+    "offer_count": 3,
+    "variation_count": 3,
+    "variations": [
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)CT-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 2,
+        "package_type": "Cut Tape (CT)",
+        "packaging_code": "Cut Tape (CT)",
+        "pack_format": "Cut Tape",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8194,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5288,
+            "total_price": 13.22
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5034,
+            "total_price": 25.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4793,
+            "total_price": 47.93
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.44928,
+            "total_price": 112.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.42782,
+            "total_price": 213.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40738,
+            "total_price": 407.38
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38188,
+            "total_price": 954.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)DKR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 243,
+        "package_type": "Digi-Reel®",
+        "packaging_code": "Digi-Reel®",
+        "pack_format": "DigiReel",
+        "minimum_order_quantity": 1,
+        "pack_quantity": 1,
+        "quantity_available": 8194,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [
+          {
+            "charge_type": "packaging_service",
+            "description": "Digi-Reel service charge",
+            "amount": 5.5,
+            "currency": "EUR",
+            "application": "per_order_line"
+          }
+        ],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 1,
+            "unit_price": 0.67,
+            "total_price": 0.67
+          },
+          {
+            "break_quantity": 10,
+            "unit_price": 0.564,
+            "total_price": 5.64
+          },
+          {
+            "break_quantity": 25,
+            "unit_price": 0.5288,
+            "total_price": 13.22
+          },
+          {
+            "break_quantity": 50,
+            "unit_price": 0.5034,
+            "total_price": 25.17
+          },
+          {
+            "break_quantity": 100,
+            "unit_price": 0.4793,
+            "total_price": 47.93
+          },
+          {
+            "break_quantity": 250,
+            "unit_price": 0.44928,
+            "total_price": 112.32
+          },
+          {
+            "break_quantity": 500,
+            "unit_price": 0.42782,
+            "total_price": 213.91
+          },
+          {
+            "break_quantity": 1000,
+            "unit_price": 0.40738,
+            "total_price": 407.38
+          },
+          {
+            "break_quantity": 2500,
+            "unit_price": 0.38188,
+            "total_price": 954.7
+          }
+        ],
+        "customer_price_breaks": []
+      },
+      {
+        "provider_part_number": "26-BM28B0.6-6DP/2-0.35V(51)TR-ND",
+        "supplier": "Hirose Electric Co Ltd",
+        "package_type_id": 1,
+        "package_type": "Tape & Reel (TR)",
+        "packaging_code": "Tape & Reel (TR)",
+        "pack_format": "Reel",
+        "minimum_order_quantity": 20000,
+        "pack_quantity": 20000,
+        "quantity_available": 0,
+        "maximum_distribution_quantity": 999999999,
+        "marketplace": false,
+        "tariff_active": true,
+        "additional_charges": [],
+        "standard_price_breaks": [
+          {
+            "break_quantity": 20000,
+            "unit_price": 0.32979,
+            "total_price": 6595.8
+          }
+        ],
+        "customer_price_breaks": []
+      }
+    ]
+  },
+  "part_profile": {
+    "part_profile_schema_version": "1.0",
+    "provider": "DigiKey",
+    "captured_at_utc": "2026-08-31T18:24:14Z",
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_part_number": "BM28B0.6-6DP/2-0.35V(51)",
+    "provider_part_number": "",
+    "description": "CONN HDR SMD GOLD",
+    "detailed_description": "6 Position Connector Header, Outer Shroud Contacts Surface Mount Gold",
+    "datasheet_url": "https://www.hirose.com/en/product/document?clcode=CL0480-0377-0-53&productname=BM28B0.6-58DS%2f2-0.35V(53)&series=BM28&documenttype=Catalog&lang=en&documentid=D143865_en",
+    "product_url": "https://www.digikey.ie/en/products/detail/hirose-electric-co-ltd/BM28B0-6-6DP-2-0-35V-51/11204850",
+    "image_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5726/BM28B0.6-6DP2-0.35V%2851%29.jpg",
+    "lifecycle_status": "",
+    "rohs_status": "",
+    "package": "",
+    "mounting_type": "Surface Mount",
+    "attributes": {
+      "Connector Type": "Header, Outer Shroud Contacts",
+      "Number of Positions": "6",
+      "Pitch": "0.014\" (0.35mm)",
+      "Number of Rows": "2",
+      "Mounting Type": "Surface Mount",
+      "Features": "Solder Retention",
+      "Contact Finish": "Gold",
+      "Contact Finish Thickness": "1.97µin (0.050µm)",
+      "Mated Stacking Heights": "0.6mm",
+      "Height Above Board": "0.018\" (0.46mm)"
+    },
+    "compliance": {}
+  }
+}

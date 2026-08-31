@@ -4,13 +4,13 @@
     "provider": "DigiKey",
     "endpoint": "Reference_Data",
     "dataset": "Manufacturers",
-    "captured_at_utc": "2026-08-31T00:03:26Z",
+    "captured_at_utc": "2026-08-31T18:24:11Z",
     "source_mode": "live_api",
     "locale": "IE",
     "currency": "EUR",
     "rate_limit": {
       "x-ratelimit-limit": "1000",
-      "x-ratelimit-remaining": "999"
+      "x-ratelimit-remaining": "993"
     }
   },
   "provider_response": {
@@ -670,10 +670,6 @@
       {
         "Id": 785,
         "Name": "Alpha & Omega Semiconductor Inc."
-      },
-      {
-        "Id": 601938,
-        "Name": "Alpha Digital"
       },
       {
         "Id": 216,
@@ -3088,6 +3084,10 @@
         "Name": "Cooling Source"
       },
       {
+        "Id": 4846,
+        "Name": "Coolmag TC"
+      },
+      {
         "Id": 2643,
         "Name": "Cooltron Industrial Supply"
       },
@@ -3166,10 +3166,6 @@
       {
         "Id": 306,
         "Name": "Coto Technology"
-      },
-      {
-        "Id": 600725,
-        "Name": "Coxreels"
       },
       {
         "Id": 6675,
@@ -3864,6 +3860,10 @@
         "Name": "Dupont"
       },
       {
+        "Id": 6570,
+        "Name": "Duracap"
+      },
+      {
         "Id": 600776,
         "Name": "Duracell"
       },
@@ -4492,10 +4492,6 @@
         "Name": "ENTITY ELETTRONICA"
       },
       {
-        "Id": 600472,
-        "Name": "EntryGuard™"
-      },
-      {
         "Id": 4621,
         "Name": "Envig"
       },
@@ -4565,7 +4561,7 @@
       },
       {
         "Id": 3973,
-        "Name": "Ergotronix Inc"
+        "Name": "Ergotronix LLC"
       },
       {
         "Id": 1800,
@@ -4762,10 +4758,6 @@
       {
         "Id": 4301,
         "Name": "Fabru GmbH"
-      },
-      {
-        "Id": 3712,
-        "Name": "FaceKey"
       },
       {
         "Id": 1934,
@@ -5262,6 +5254,10 @@
       {
         "Id": 2807,
         "Name": "Gamma Electronics"
+      },
+      {
+        "Id": 4025,
+        "Name": "GaNPower"
       },
       {
         "Id": 3182,
@@ -6252,10 +6248,6 @@
         "Name": "IKALOGIC"
       },
       {
-        "Id": 3081,
-        "Name": "iKey, Ltd."
-      },
-      {
         "Id": 1082,
         "Name": "Illumra"
       },
@@ -6370,10 +6362,6 @@
       {
         "Id": 4265,
         "Name": "Innodisk USA Corporation"
-      },
-      {
-        "Id": 602536,
-        "Name": "Innolux"
       },
       {
         "Id": 4960,
@@ -6530,6 +6518,10 @@
       {
         "Id": 600047,
         "Name": "International Rectifier"
+      },
+      {
+        "Id": 3448,
+        "Name": "International Test Instruments Corporation"
       },
       {
         "Id": 2710,
@@ -8640,10 +8632,6 @@
         "Name": "Molex"
       },
       {
-        "Id": 4134,
-        "Name": "Molex"
-      },
-      {
         "Id": 1720,
         "Name": "Molex - Oplink Communications, LLC"
       },
@@ -8964,10 +8952,6 @@
         "Name": "Netsol"
       },
       {
-        "Id": 6113,
-        "Name": "Neurochrome"
-      },
-      {
         "Id": 600148,
         "Name": "Neutrik"
       },
@@ -9086,6 +9070,10 @@
       {
         "Id": 2770,
         "Name": "NI"
+      },
+      {
+        "Id": 6568,
+        "Name": "Nibboh Magnets LLC"
       },
       {
         "Id": 601926,
@@ -10064,10 +10052,6 @@
         "Name": "PiSugar"
       },
       {
-        "Id": 3030,
-        "Name": "Piton Engineering"
-      },
-      {
         "Id": 2375,
         "Name": "PKCELL"
       },
@@ -10338,6 +10322,14 @@
       {
         "Id": 600294,
         "Name": "Premium Quality Supply"
+      },
+      {
+        "Id": 3012,
+        "Name": "Premo S.L."
+      },
+      {
+        "Id": 602544,
+        "Name": "President"
       },
       {
         "Id": 601304,
@@ -10890,10 +10882,6 @@
       {
         "Id": 972,
         "Name": "Renesas Electronics America/NEC"
-      },
-      {
-        "Id": 1695,
-        "Name": "Renesas Electronics Corporation"
       },
       {
         "Id": 20,
@@ -11604,10 +11592,6 @@
         "Name": "Sensata-Gigavac Clean Energy"
       },
       {
-        "Id": 4112,
-        "Name": "SensComp, Inc."
-      },
-      {
         "Id": 2194,
         "Name": "Senseair"
       },
@@ -11752,10 +11736,6 @@
         "Name": "Shax"
       },
       {
-        "Id": 4916,
-        "Name": "Shaxon"
-      },
-      {
         "Id": 2498,
         "Name": "Sheetak"
       },
@@ -11798,10 +11778,6 @@
       {
         "Id": 3442,
         "Name": "Shenzhen Sunlord Electronics Co., Ltd."
-      },
-      {
-        "Id": 600473,
-        "Name": "Shepherd"
       },
       {
         "Id": 5313,
@@ -12550,10 +12526,6 @@
       {
         "Id": 4411,
         "Name": "SunFounder"
-      },
-      {
-        "Id": 4262,
-        "Name": "Sungale"
       },
       {
         "Id": 1497,

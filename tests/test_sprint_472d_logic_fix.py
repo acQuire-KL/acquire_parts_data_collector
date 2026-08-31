@@ -6,16 +6,16 @@ from multi_provider_summary import ProviderEvidence
 class LogicFixTests(unittest.TestCase):
     def test_digikey_search_retains_formatting_equivalent_hirose(self):
         payload = {"Products": [{
-            "ManufacturerProductNumber": "BM28B0.6-6DP/2-0.35V(51)",
+            "ManufacturerProductNumber": "BM28B0.6-6DS/2-0.35V(51)",
             "Manufacturer": {"Name": "Hirose Electric Co Ltd"},
         }]}
         found = discover_payload_candidates(
             "DigiKey", payload,
             requested_manufacturer="Hirose Electric Co Ltd",
-            reference_mpn="BM28B0.6-6DP_2-0.35V_51_",
+            reference_mpn="BM28B0.6-6DS_2-0.35V_51_",
         )
         self.assertEqual(1, len(found))
-        self.assertEqual("BM28B0.6-6DP/2-0.35V(51)", found[0].mpn)
+        self.assertEqual("BM28B0.6-6DS/2-0.35V(51)", found[0].mpn)
         self.assertEqual("Formatting-normalised identity candidate", found[0].relationship)
 
     def test_two_provider_matches_stop_discovery_even_if_mfg_spellings_differ(self):

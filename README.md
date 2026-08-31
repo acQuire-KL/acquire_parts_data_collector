@@ -187,3 +187,23 @@ py main.py --input "input/gb-mini-board-v0.1-draft3 - 2part.csv" --console-only
 ```
 
 The console reports each provider result, any discovery-returned MPN, consensus count, resolved identity and whether review is required. Two independent provider identity matches stop further broadening.
+
+
+## Sprint 4.7.2f
+
+TME provider coverage semantics are now explicit: a successful Product Search with zero returned products is `not listed`. Product Data and Product Parameters are not called in that state. API/authentication/network failures remain `provider error`.
+
+Independent provider discovery remains the first pass. A resolved MPN from another provider is used only as a later cross-provider confirmation fallback when independent evidence is insufficient.
+
+
+## Sprint 4.7.2g — DigiKey independent-first search
+
+DigiKey identity discovery now begins with Keyword Search using only the source/BOM-derived MPN. Mouser and TME perform their own independent first-pass lookups in parallel. Provider results are compared only after those independent calls.
+
+When DigiKey returns an alphanumeric-equivalent order code, PDC records that as independent DigiKey identity evidence and, where a DigiKey manufacturer ID is available, requests Product Details using DigiKey's own returned MPN. Cross-provider seeding remains a fallback only when independent consensus is insufficient.
+
+Console validation remains:
+
+```bash
+py main.py --input "input/gb-mini-board-v0.1-draft3 - 2part.csv" --console-only
+```

@@ -31,7 +31,7 @@ from multi_provider_summary import (
     provider_availability, provider_identity_match,
 )
 
-APP_VERSION = "0.2.10 / Sprint 4.7.2e"
+APP_VERSION = "0.2.10 / Sprint 4.7.2g"
 
 MFG = {"manufacturer", "mfg", "mf", "mfr", "manufacturer name"}
 MPN = {"mpn", "manufacturer part number", "mfg part number", "manufacturer_part_number"}
@@ -851,15 +851,14 @@ def run(args):
 
             futures = {}
             with ThreadPoolExecutor(max_workers=3, thread_name_prefix="pdc-provider") as pool:
-                if (
-                    manufacturer_catalogue is not None
-                    and digikey_resolution_error is None
-                    and not digikey_detail_unavailable
-                ):
-                    futures["DigiKey"] = pool.submit(
-                        provider_manager.execute, digikey, "details", search_mpn, resolved.manufacturer_id, args.force_refresh,
-                        input_manufacturer=manufacturer, resolved_manufacturer=resolved.matched_name,
-                    )
+                # Independent-first provider discovery:
+                # DigiKey starts with Keyword Search using only the original/BOM-derived
+                # search text. Mouser and TME independently perform their own normal
+                # provider lookup at the same time. No provider is seeded with another
+                # provider's returned MPN during this first pass.
+                futures["DigiKey"] = pool.submit(
+                    provider_manager.execute, digikey, "keyword_search", search_mpn, record_count=25,
+                )
                 futures["Mouser"] = pool.submit(
                     provider_manager.execute, mouser, "details", search_mpn, None, args.force_refresh,
                     input_manufacturer=manufacturer,
@@ -872,64 +871,102 @@ def run(args):
                 )
                 concurrent_results = {name: future.result() for name, future in futures.items()}
 
-            if manufacturer_catalogue is None:
-                provider_result = manufacturer_result
-            elif digikey_resolution_error is not None:
-                evidence.append(ProviderEvidence("DigiKey", "error", str(digikey_resolution_error)))
-            elif digikey_detail_unavailable:
-                provider_result = None
-            else:
-                provider_result = concurrent_results.get("DigiKey")
+            # DigiKey independent first-pass discovery.
+            digikey_search_result = concurrent_results["DigiKey"]
+            if digikey_search_result.succeeded:
+                payload = (
+                    digikey_search_result.data[0]
+                    if isinstance(digikey_search_result.data, tuple)
+                    else digikey_search_result.data
+                )
+                dk_candidates = discover_payload_candidates(
+                    "DigiKey", payload,
+                    requested_manufacturer=manufacturer,
+                    reference_mpn=search_mpn,
+                    bom_footprint=bom_context.get("footprint", ""),
+                )
+                candidate_evidence.extend(dk_candidates)
+                dk_identity = next((
+                    c for c in dk_candidates
+                    if normalise_mpn(c.mpn) == normalise_mpn(search_mpn)
+                    and names_equivalent(manufacturer, c.manufacturer)
+                ), None)
 
-            if provider_result is not None:
-                if provider_result.succeeded:
-                    record = provider_result.data
-                    profile = dict(record.part_profile or {})
-                    profile["identity_match"] = provider_identity_match(manufacturer, mpn, profile) if mpn else False
-                    if recovered and normalise_mpn(profile.get("manufacturer_part_number")) == normalise_mpn(search_mpn):
-                        candidate_evidence.append(RecoveryCandidate(
-                            manufacturer=profile.get("manufacturer", manufacturer),
-                            mpn=profile.get("manufacturer_part_number", search_mpn),
-                            relationship="Recovered MPN candidate", sources=("DigiKey",),
-                            package=profile.get("package", ""), datasheet_url=profile.get("datasheet_url", ""),
-                            footprint_check=footprint_consistency(
-                                bom_context.get("footprint", ""), profile.get("package", ""),
-                                profile.get("manufacturer_part_number", ""),
-                            ),
-                            notes="Provider supports BOM-context MPN candidate; review required.",
-                        ))
-                    elif mpn:
-                        candidate = candidate_from_profile(
-                            provider="DigiKey", requested_manufacturer=manufacturer, reference_mpn=mpn,
-                            profile=profile, bom_footprint=bom_context.get("footprint", ""),
-                        )
-                        if candidate:
-                            candidate_evidence.append(candidate)
-                    candidate_evidence.extend(discover_payload_candidates(
-                        "DigiKey", record.provider_response, requested_manufacturer=manufacturer,
-                        reference_mpn=search_mpn, bom_footprint=bom_context.get("footprint", ""),
-                    ))
-                    execution_status = "success" if profile.get("manufacturer_part_number") else "no_match"
-                    evidence.append(ProviderEvidence(
-                        "DigiKey", execution_status, part_profile=profile,
-                        commercial_profile=record.commercial_profile,
-                        captured_at_utc=record.captured_at_utc, source_mode=record.source_mode,
-                    ))
-                    commercial_rows.extend(commercial_analysis_rows(
-                        {"Source Row": row_number, "Manufacturer": profile.get("manufacturer", ""),
-                         "Manufacturer Part Number": profile.get("manufacturer_part_number", "")},
-                        record.commercial_profile,
-                    ))
-                else:
-                    normal_status = _normalised_provider_status(
-                        provider_result.status.value, provider_result.message or "",
+                if dk_identity:
+                    _progress(
+                        f"    DigiKey independent search: {dk_identity.mpn} "
+                        "- formatting-equivalent identity"
                     )
-                    evidence.append(ProviderEvidence("DigiKey", normal_status, provider_result.message or ""))
-            digikey_item = next((item for item in evidence if item.provider == "DigiKey"), None)
-            if digikey_item:
+
+                    # Keyword Search establishes identity independently. If the
+                    # manufacturer ID is available, enrich that same DigiKey-found
+                    # identity through Product Details using DigiKey's returned MPN.
+                    detail_record = None
+                    if (
+                        resolved is not None
+                        and resolved.manufacturer_id is not None
+                        and digikey_resolution_error is None
+                    ):
+                        dk_detail = provider_manager.execute(
+                            digikey, "details", dk_identity.mpn,
+                            resolved.manufacturer_id, args.force_refresh,
+                            input_manufacturer=manufacturer,
+                            resolved_manufacturer=resolved.matched_name,
+                        )
+                        if dk_detail.succeeded:
+                            detail_record = dk_detail.data
+
+                    if detail_record is not None:
+                        profile = dict(detail_record.part_profile or {})
+                        profile["identity_match"] = (
+                            names_equivalent(manufacturer, profile.get("manufacturer", ""))
+                            and normalise_mpn(profile.get("manufacturer_part_number"))
+                            == normalise_mpn(dk_identity.mpn)
+                        )
+                        evidence.append(ProviderEvidence(
+                            "DigiKey", "success",
+                            part_profile=profile,
+                            commercial_profile=detail_record.commercial_profile,
+                            captured_at_utc=detail_record.captured_at_utc,
+                            source_mode="independent_keyword_then_details",
+                        ))
+                        commercial_rows.extend(commercial_analysis_rows(
+                            {
+                                "Source Row": row_number,
+                                "Manufacturer": profile.get("manufacturer", ""),
+                                "Manufacturer Part Number": profile.get("manufacturer_part_number", ""),
+                            },
+                            detail_record.commercial_profile,
+                        ))
+                        _progress("    DigiKey: success - independent keyword match + Product Details")
+                    else:
+                        evidence.append(ProviderEvidence(
+                            "DigiKey", "success",
+                            part_profile={
+                                "manufacturer": dk_identity.manufacturer,
+                                "manufacturer_part_number": dk_identity.mpn,
+                                "identity_match": True,
+                            },
+                            source_mode="independent_keyword_search",
+                        ))
+                        _progress("    DigiKey: success - independent keyword match")
+                else:
+                    evidence.append(ProviderEvidence(
+                        "DigiKey", "no_match",
+                        "Independent DigiKey keyword search returned no formatting-equivalent identity.",
+                        source_mode="independent_keyword_search",
+                    ))
+                    _progress("    DigiKey: not listed on independent source-text search")
+            else:
+                normal_status = _normalised_provider_status(
+                    digikey_search_result.status.value,
+                    digikey_search_result.message or "",
+                )
+                evidence.append(ProviderEvidence(
+                    "DigiKey", normal_status, digikey_search_result.message or ""
+                ))
+                digikey_item = next((item for item in evidence if item.provider == "DigiKey"), None)
                 _progress(f"    DigiKey: {_concise_provider_status(digikey_item)}")
-            elif digikey_detail_unavailable:
-                _progress("    DigiKey: Product Details deferred; keyword discovery enabled")
 
             # Mouser
             mouser_result = concurrent_results["Mouser"]
@@ -1049,9 +1086,13 @@ def run(args):
                     and any(source not in ("BOM Value", "BOM Description") for source in c.sources)
                 ), None)
 
-            # DigiKey keyword discovery must try BOTH the source text and the
-            # punctuation-free key; Product Details alone is intentionally strict.
+            # DigiKey already performed an independent keyword search with the
+            # source text in the first pass. If consensus is still weak, only try
+            # additional search representations here (for example the punctuation-
+            # free key); these remain independent search variants, not Mouser-seeded.
             for variant in search_variants(search_mpn):
+                if variant.kind == "Source Search Text":
+                    continue
                 _progress(f"    Discovery search: {variant.kind} = {variant.text}")
                 dk = provider_manager.execute(digikey, "keyword_search", variant.text, record_count=25)
                 if dk.succeeded:

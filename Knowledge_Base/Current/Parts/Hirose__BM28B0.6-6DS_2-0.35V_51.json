@@ -1,13 +1,13 @@
 {
   "knowledge_base_schema_version": "1.4",
-  "updated_at_utc": "2026-08-31T00:32:31Z",
+  "updated_at_utc": "2026-08-31T19:56:20Z",
   "requested_manufacturer": "Hirose",
   "requested_mpn": "BM28B0.6-6DS_2-0.35V_51_",
   "summary": {
     "input_mpn": "",
     "identity_recovery_source": "BOM Value",
     "match_status": "Matched",
-    "reason": "Identity matched by: DigiKey. Errors: TME.",
+    "reason": "Identity matched by: DigiKey.",
     "providers_matched": [
       "DigiKey"
     ],
@@ -53,16 +53,16 @@
         "execution_status": "success",
         "identity_match": false,
         "message": "",
-        "captured_at_utc": "2026-08-31T00:32:29Z",
+        "captured_at_utc": "2026-08-31T19:56:14Z",
         "source_mode": "live_api"
       },
       {
         "provider": "TME",
-        "execution_status": "error",
+        "execution_status": "no_match",
         "identity_match": false,
-        "message": "TME product data failed: HTTP 400. Response: {\"code\":\"E_INPUT_PARAMS_VALIDATION_ERROR\",\"error_code\":6,\"message\":\"Input data is not valid.\",\"error_code_erp\":null,\"error_data\":[{\"field\":\"symbols[0]\",\"message\":\"Product symbol should contain between 2 to 18 characters.\",\"value\":\"\"}]}",
-        "captured_at_utc": "",
-        "source_mode": ""
+        "message": "",
+        "captured_at_utc": "2026-08-31T19:56:15Z",
+        "source_mode": "live_api"
       },
       {
         "provider": "DigiKey",

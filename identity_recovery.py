@@ -285,8 +285,11 @@ def discover_payload_candidates(provider: str, payload: Any, *, requested_manufa
         # In a provider SEARCH response an alphanumeric-equivalent MPN can be the
         # corrected punctuation/order-code we are trying to recover. Retain it.
         if relationship == "Exact identity":
-            if provider_key == "digikey" and _text(reference_mpn) != mpn_text:
-                relationship = "Formatting-normalised identity candidate"
+            if provider_key == "digikey":
+                if _text(reference_mpn) != mpn_text:
+                    relationship = "Formatting-normalised identity candidate"
+                else:
+                    relationship = "Exact identity"
             else:
                 return
         candidates.append(RecoveryCandidate(
